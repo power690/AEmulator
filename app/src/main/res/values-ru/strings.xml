@@ -157,6 +157,7 @@
     <string name="m_sms_body">Сообщение</string>
     <string name="m_send">Отправить</string>
     <string name="m_charging">Зарядка</string>
+    <string name="m_host_battery">Использовать батарею хоста</string>
     <string name="m_apply">Применить</string>
     <string name="m_reset">Сбросить</string>
     <string name="m_call">Входящий звонок</string>

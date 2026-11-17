@@ -186,6 +186,7 @@
     <string name="m_sms_body">Порака</string>
     <string name="m_send">Испрати</string>
     <string name="m_charging">Полнење</string>
+    <string name="m_host_battery">Користи батерија на домаќинот</string>
     <string name="m_apply">Примени</string>
     <string name="m_reset">Ресетирај</string>
     <string name="m_call">Лажен дојдовен повик</string>

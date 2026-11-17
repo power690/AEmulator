@@ -1332,21 +1332,42 @@ open class VmActivity : ComponentActivity() {
 
     @Composable
     private fun BatteryDialog(onDone: () -> Unit) {
+        var following by remember { mutableStateOf(vm.hostBatteryFollowing) }
         var level by remember { mutableStateOf(vm.hostBatteryLevel.toFloat()) }
         var charging by remember { mutableStateOf(vm.hostBatteryCharging) }
+        LaunchedEffect(following) {
+            if (following) while (true) {
+                level = vm.hostBatteryLevel.toFloat()
+                charging = vm.hostBatteryCharging
+                delay(500)
+            }
+        }
+        val dim = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.38f)
         AlertDialog(onDismissRequest = onDone,
             title = { Text(stringResource(R.string.m_battery)) },
             text = {
                 Column {
                     Text("${level.toInt()}%")
-                    Slider(level, { level = it }, valueRange = 0f..100f)
+                    Slider(level, { level = it }, valueRange = 0f..100f, enabled = !following)
                     Row(verticalAlignment = Alignment.CenterVertically) {
-                        Text(stringResource(R.string.m_charging), Modifier.weight(1f)); Switch(charging, { charging = it })
+                        Text(stringResource(R.string.m_charging), Modifier.weight(1f),
+                            color = if (following) dim else Color.Unspecified)
+                        Switch(charging, { charging = it }, enabled = !following)
+                    }
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Text(stringResource(R.string.m_host_battery), Modifier.weight(1f))
+                        Switch(following, { on ->
+                            following = on
+                            vm.setHostBatteryFollowing(on)
+                            val ctx = this@VmActivity
+                            val id = vm.img.id
+                            thread { ImageStore.update(ctx, id) { it.copy(settings = it.settings.copy(hostBattery = on)) } }
+                        })
                     }
                 }
             },
             confirmButton = { Button(onClick = {
-                vm.setManualBattery(level.toInt(), charging)
+                if (!following) vm.setManualBattery(level.toInt(), charging)
                 onDone()
             }) { Text(stringResource(R.string.m_apply)) } },
             dismissButton = { OutlinedButton(onClick = { vm.resetBattery(); onDone() }) { Text(stringResource(R.string.m_reset)) } })
@@ -1387,7 +1408,6 @@ open class VmActivity : ComponentActivity() {
         // so they work through the boot animation and in recovery too
         val canCapture = state == GuestVm.State.BOOTING || state == GuestVm.State.RUNNING
         var seconds by remember { mutableStateOf(0L) }
-        var frames by remember { mutableStateOf(0L) }
         var romNote by remember { mutableStateOf(vm.pendingNote) }
         LaunchedEffect(vm) { while (true) { romNote = vm.pendingNote; delay(500) } }
         // Samsung 2.x boot animation: playlogos1 writes straight into fb0, which the GL-surface mode never shows
@@ -1403,16 +1423,20 @@ open class VmActivity : ComponentActivity() {
                 delay(200)
             }
         }
-        LaunchedEffect(Unit) { while (true) { if (vm.recoveryMode) guest.format = vm.recoveryFormat else if (vm.engine == app.aemu.core.Engine.N64) guest.format = 1; seconds = vm.bootSeconds(); frames = if (vm.glInApp) dev.lk.m7sense.GlBridge.frames() else guest.rings; delay(500) } }
-        // как только гость начал рисовать — карточку убираем, остаётся маленький индикатор
-        val drawing = frames > 30
-        // null = automatic (card hides once the guest draws); true/false = the person minimized or restored it
+        LaunchedEffect(Unit) { while (true) { if (vm.recoveryMode) guest.format = vm.recoveryFormat else if (vm.engine == app.aemu.core.Engine.N64) guest.format = 1; seconds = vm.bootSeconds(); delay(500) } }
+        // null = automatic; true/false = the person minimized or restored it
         var cardOverride by remember { mutableStateOf<Boolean?>(null) }
         LaunchedEffect(state) { if (state == GuestVm.State.RUNNING || state == GuestVm.State.FAILED || state == GuestVm.State.STOPPED) cardOverride = null }
-        val cardMinimized = cardOverride ?: (drawing && state == GuestVm.State.BOOTING)
+        val cardMinimized = cardOverride ?: (state == GuestVm.State.BOOTING)
+        val bootCard = state != GuestVm.State.RUNNING && !showLog && (state == GuestVm.State.FAILED || !cardMinimized)
         // with the tab bar folded away, a tiny arrow at the top right brings it back
         val revealArrow = tabBarHidden && panePos != 'B'
         Box(Modifier.fillMaxSize()) {
+            if (bootCard) Box(Modifier.fillMaxSize().pointerInput(state) {
+                detectTapGestures {
+                    if (state == GuestVm.State.PREPARING || state == GuestVm.State.BOOTING) cardOverride = true
+                }
+            })
             led?.takeIf { it.lit && showLed }?.let { LedIndicator(it, Modifier.align(Alignment.TopCenter)) }
             if (!showLog) skinLayout?.keys?.forEach { (button, area) -> key(button, area) { SkinKeyZone(button, area) } }
             if (romNote.isNotBlank() && !vm.recoveryMode && !vm.lowPowerBoot && !showLog && !menu) {
@@ -1428,10 +1452,10 @@ open class VmActivity : ComponentActivity() {
             }
             // карточка загрузки
             AnimatedVisibility(
-                visible = state != GuestVm.State.RUNNING && !showLog && (state == GuestVm.State.FAILED || !cardMinimized),
+                visible = bootCard,
                 enter = fadeIn(), exit = fadeOut(),
-                modifier = Modifier.align(Alignment.Center),
-            ) { BootCard(seconds, onMinimize = { cardOverride = true }) }
+                modifier = Modifier.fillMaxSize(),
+            ) { Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { BootCard(seconds) } }
 
             // minimized: a small pill, tap it to bring the card back
             val pillState = state == GuestVm.State.BOOTING || state == GuestVm.State.PREPARING
@@ -1781,9 +1805,9 @@ open class VmActivity : ComponentActivity() {
     }
 
     @Composable
-    private fun BootCard(seconds: Long, onMinimize: () -> Unit = {}) {
+    private fun BootCard(seconds: Long) {
         Card(
-            modifier = Modifier.widthIn(max = 360.dp).padding(24.dp),
+            modifier = Modifier.widthIn(max = 360.dp).padding(24.dp).pointerInput(Unit) { detectTapGestures { } },
             colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceContainerHigh.copy(alpha = 0.94f),
                 contentColor = MaterialTheme.colorScheme.onSurface),
             shape = MaterialTheme.shapes.extraLarge,
@@ -1813,11 +1837,6 @@ open class VmActivity : ComponentActivity() {
                         Button(onClick = { thread { vm.stop(); vm.boot() } }) { Text(stringResource(R.string.retry)) }
                     }
                 } else {
-                    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
-                        IconButton(onClick = onMinimize, modifier = Modifier.size(32.dp)) {
-                            Icon(Icons.Rounded.Minimize, contentDescription = stringResource(R.string.boot_minimize))
-                        }
-                    }
                     LoadingIndicator(Modifier.size(64.dp))
                     Spacer(Modifier.height(16.dp))
                     Text(vm.img.name, style = MaterialTheme.typography.titleLarge, maxLines = 2, overflow = TextOverflow.Ellipsis)

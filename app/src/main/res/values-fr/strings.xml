@@ -139,6 +139,7 @@
     <string name="m_sms_body">Message</string>
     <string name="m_send">Envoyer</string>
     <string name="m_charging">En charge</string>
+    <string name="m_host_battery">Utiliser la batterie de l’hôte</string>
     <string name="m_apply">Appliquer</string>
     <string name="m_reset">Réinitialiser</string>
     <string name="m_call">Appel entrant</string>

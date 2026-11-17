@@ -186,6 +186,7 @@
     <string name="m_sms_body">Teachtaireacht</string>
     <string name="m_send">Seol</string>
     <string name="m_charging">Á luchtú</string>
+    <string name="m_host_battery">Úsáid ceallra an óstríomhaire</string>
     <string name="m_apply">Cuir i bhfeidhm</string>
     <string name="m_reset">Athshocraigh</string>
     <string name="m_call">Glao isteach bréige</string>

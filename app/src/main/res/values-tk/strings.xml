@@ -187,6 +187,7 @@
     <string name="m_sms_body">Habar</string>
     <string name="m_send">Iber</string>
     <string name="m_charging">Zarýad edilýär</string>
+    <string name="m_host_battery">Host batareýasyny ulan</string>
     <string name="m_apply">Ulan</string>
     <string name="m_reset">Dikelt</string>
     <string name="m_call">Galp gelýän jaň</string>

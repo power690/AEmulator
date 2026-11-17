@@ -176,6 +176,7 @@
     <string name="m_sms_body">Mensahe</string>
     <string name="m_send">Ipadala</string>
     <string name="m_charging">Nagcha-charge</string>
+    <string name="m_host_battery">Gamitin ang baterya ng host</string>
     <string name="m_apply">Ilapat</string>
     <string name="m_reset">I-reset</string>
     <string name="m_call">Pekeng papasok na tawag</string>

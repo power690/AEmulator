@@ -176,6 +176,7 @@
     <string name="m_sms_body">Хабарлама</string>
     <string name="m_send">Жіберу</string>
     <string name="m_charging">Зарядталуда</string>
+    <string name="m_host_battery">Хост батареясын пайдалану</string>
     <string name="m_apply">Қолдану</string>
     <string name="m_reset">Қалпына келтіру</string>
     <string name="m_call">Жалған кіріс қоңырауы</string>

@@ -176,6 +176,7 @@
     <string name="m_sms_body">Порука</string>
     <string name="m_send">Пошаљи</string>
     <string name="m_charging">Пуњење</string>
+    <string name="m_host_battery">Користи батерију домаћина</string>
     <string name="m_apply">Примени</string>
     <string name="m_reset">Ресетуј</string>
     <string name="m_call">Лажни долазни позив</string>

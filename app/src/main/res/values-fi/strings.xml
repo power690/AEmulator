@@ -176,6 +176,7 @@
     <string name="m_sms_body">Viesti</string>
     <string name="m_send">Lähetä</string>
     <string name="m_charging">Latautuu</string>
+    <string name="m_host_battery">Käytä isännän akkua</string>
     <string name="m_apply">Käytä</string>
     <string name="m_reset">Palauta</string>
     <string name="m_call">Väärennetty saapuva puhelu</string>

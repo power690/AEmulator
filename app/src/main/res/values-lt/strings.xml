@@ -186,6 +186,7 @@
     <string name="m_sms_body">Žinutė</string>
     <string name="m_send">Siųsti</string>
     <string name="m_charging">Kraunasi</string>
+    <string name="m_host_battery">Naudoti šeimininko bateriją</string>
     <string name="m_apply">Taikyti</string>
     <string name="m_reset">Atkurti</string>
     <string name="m_call">Netikras įeinantis skambutis</string>

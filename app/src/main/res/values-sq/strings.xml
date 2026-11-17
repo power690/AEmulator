@@ -175,6 +175,7 @@
     <string name="m_sms_body">Mesazhi</string>
     <string name="m_send">Dërgo</string>
     <string name="m_charging">Në ngarkim</string>
+    <string name="m_host_battery">Përdor baterinë e pritësit</string>
     <string name="m_apply">Apliko</string>
     <string name="m_reset">Rivendos</string>
     <string name="m_call">Thirrje e rreme hyrëse</string>

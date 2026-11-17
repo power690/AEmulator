@@ -139,6 +139,7 @@
     <string name="m_sms_body">메시지</string>
     <string name="m_send">보내기</string>
     <string name="m_charging">충전 중</string>
+    <string name="m_host_battery">호스트 배터리 사용</string>
     <string name="m_apply">적용</string>
     <string name="m_reset">초기화</string>
     <string name="m_call">수신 전화</string>

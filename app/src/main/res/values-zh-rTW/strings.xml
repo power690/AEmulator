@@ -176,6 +176,7 @@
     <string name="m_sms_body">訊息</string>
     <string name="m_send">傳送</string>
     <string name="m_charging">充電中</string>
+    <string name="m_host_battery">使用主機電量</string>
     <string name="m_apply">套用</string>
     <string name="m_reset">重設</string>
     <string name="m_call">模擬來電</string>

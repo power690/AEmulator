@@ -186,6 +186,7 @@
     <string name="m_sms_body">Mesaj</string>
     <string name="m_send">Göndər</string>
     <string name="m_charging">Doldurulur</string>
+    <string name="m_host_battery">Hostun batareyasını istifadə et</string>
     <string name="m_apply">Tətbiq et</string>
     <string name="m_reset">Sıfırla</string>
     <string name="m_call">Saxta gələn zəng</string>

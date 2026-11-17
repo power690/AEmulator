@@ -175,6 +175,7 @@
     <string name="m_sms_body">Poruka</string>
     <string name="m_send">Pošalji</string>
     <string name="m_charging">Punjenje</string>
+    <string name="m_host_battery">Koristi bateriju domaćina</string>
     <string name="m_apply">Primijeni</string>
     <string name="m_reset">Poništi</string>
     <string name="m_call">Lažni dolazni poziv</string>

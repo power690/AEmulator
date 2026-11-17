@@ -186,6 +186,7 @@
     <string name="m_sms_body">Հաղորդագրություն</string>
     <string name="m_send">Ուղարկել</string>
     <string name="m_charging">Լիցքավորվում է</string>
+    <string name="m_host_battery">Օգտագործել հոսթի մարտկոցը</string>
     <string name="m_apply">Կիրառել</string>
     <string name="m_reset">Վերականգնել</string>
     <string name="m_call">Կեղծ մուտքային զանգ</string>

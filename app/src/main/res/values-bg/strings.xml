@@ -176,6 +176,7 @@
     <string name="m_sms_body">Съобщение</string>
     <string name="m_send">Изпращане</string>
     <string name="m_charging">Зарежда се</string>
+    <string name="m_host_battery">Използване на батерията на хоста</string>
     <string name="m_apply">Прилагане</string>
     <string name="m_reset">Нулиране</string>
     <string name="m_call">Фалшиво входящо обаждане</string>

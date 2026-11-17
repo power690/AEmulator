@@ -187,6 +187,7 @@
     <string name="m_sms_body">Xabar</string>
     <string name="m_send">Yuborish</string>
     <string name="m_charging">Quvvatlanmoqda</string>
+    <string name="m_host_battery">Xost batareyasidan foydalanish</string>
     <string name="m_apply">Qoʻllash</string>
     <string name="m_reset">Asliga qaytarish</string>
     <string name="m_call">Soxta kiruvchi qoʻngʻiroq</string>

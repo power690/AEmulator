@@ -191,6 +191,7 @@
     <string name="m_sms_body">Message</string>
     <string name="m_send">Send</string>
     <string name="m_charging">Charging</string>
+    <string name="m_host_battery">Use host battery</string>
     <string name="m_apply">Apply</string>
     <string name="m_reset">Reset</string>
     <string name="m_call">Fake incoming call</string>

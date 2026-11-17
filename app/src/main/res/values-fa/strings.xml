@@ -139,6 +139,7 @@
     <string name="m_sms_body">پیام</string>
     <string name="m_send">ارسال</string>
     <string name="m_charging">در حال شارژ</string>
+    <string name="m_host_battery">استفاده از باتری میزبان</string>
     <string name="m_apply">اعمال</string>
     <string name="m_reset">بازنشانی</string>
     <string name="m_call">تماس ورودی</string>

@@ -186,6 +186,7 @@
     <string name="m_sms_body">Паведамленне</string>
     <string name="m_send">Адправіць</string>
     <string name="m_charging">Зарадка</string>
+    <string name="m_host_battery">Выкарыстоўваць батарэю хоста</string>
     <string name="m_apply">Ужыць</string>
     <string name="m_reset">Скінуць</string>
     <string name="m_call">Фальшывы ўваходны выклік</string>

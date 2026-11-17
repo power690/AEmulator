@@ -139,6 +139,7 @@
     <string name="m_sms_body">Pesan</string>
     <string name="m_send">Kirim</string>
     <string name="m_charging">Mengisi daya</string>
+    <string name="m_host_battery">Gunakan baterai host</string>
     <string name="m_apply">Terapkan</string>
     <string name="m_reset">Atur ulang</string>
     <string name="m_call">Panggilan masuk</string>

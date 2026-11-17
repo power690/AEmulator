@@ -186,6 +186,7 @@
     <string name="m_sms_body">Sõnum</string>
     <string name="m_send">Saada</string>
     <string name="m_charging">Laeb</string>
+    <string name="m_host_battery">Kasuta hosti akut</string>
     <string name="m_apply">Rakenda</string>
     <string name="m_reset">Lähtesta</string>
     <string name="m_call">Võlts-sissetulev kõne</string>

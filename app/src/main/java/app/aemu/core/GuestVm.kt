@@ -186,8 +186,11 @@ class GuestVm(val ctx: Context, val img: GuestImage, val lowPowerBoot: Boolean =
             val result = guestRunner.run(listOf("/system/bin/sh", "-c", command), 4_000)
             check(result.first == 0) { "Guest battery update failed: ${result.first}" }
         }, ::log)
+    @Volatile private var hostBatteryDefault = settings.hostBattery
     fun setManualBattery(percent: Int, charging: Boolean) = battery.applyManual(percent, charging)
-    fun resetBattery() = battery.reset(settings.hostBattery)
+    fun resetBattery() = battery.reset(hostBatteryDefault)
+    fun setHostBatteryFollowing(enabled: Boolean) { hostBatteryDefault = enabled; battery.setFollowing(enabled) }
+    val hostBatteryFollowing get() = battery.following
     val hostBatteryLevel get() = battery.latest?.percent ?: 80
     val hostBatteryCharging get() = battery.latest?.status in listOf(2, 5)
     private val motion = MotionBridge(ctx, paths, { img.api in 9..25 && engine != Engine.N64 && !recoveryMode && !nativeUi }, { settings.motionSensors }, { settings.gyroLock }, ::log)

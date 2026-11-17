@@ -175,6 +175,7 @@
     <string name="m_sms_body">הודעה</string>
     <string name="m_send">שלח</string>
     <string name="m_charging">בטעינה</string>
+    <string name="m_host_battery">השתמש בסוללת המארח</string>
     <string name="m_apply">החל</string>
     <string name="m_reset">איפוס</string>
     <string name="m_call">שיחה נכנסת מדומה</string>

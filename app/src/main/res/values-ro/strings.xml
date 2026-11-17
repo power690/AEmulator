@@ -176,6 +176,7 @@
     <string name="m_sms_body">Mesaj</string>
     <string name="m_send">Trimite</string>
     <string name="m_charging">Se încarcă</string>
+    <string name="m_host_battery">Folosește bateria gazdei</string>
     <string name="m_apply">Aplică</string>
     <string name="m_reset">Resetează</string>
     <string name="m_call">Apel fals primit</string>

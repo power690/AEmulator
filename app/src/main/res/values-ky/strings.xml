@@ -187,6 +187,7 @@
     <string name="m_sms_body">Билдирүү</string>
     <string name="m_send">Жөнөтүү</string>
     <string name="m_charging">Кубатталууда</string>
+    <string name="m_host_battery">Хосттун батареясын колдонуу</string>
     <string name="m_apply">Колдонуу</string>
     <string name="m_reset">Баштапкы абалга келтирүү</string>
     <string name="m_call">Жасалма кирүүчү чалуу</string>

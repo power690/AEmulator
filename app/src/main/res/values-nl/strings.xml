@@ -176,6 +176,7 @@
     <string name="m_sms_body">Bericht</string>
     <string name="m_send">Verzenden</string>
     <string name="m_charging">Opladen</string>
+    <string name="m_host_battery">Batterij van de host gebruiken</string>
     <string name="m_apply">Toepassen</string>
     <string name="m_reset">Herstellen</string>
     <string name="m_call">Nep-inkomend gesprek</string>

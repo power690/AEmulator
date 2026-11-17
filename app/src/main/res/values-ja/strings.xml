@@ -139,6 +139,7 @@
     <string name="m_sms_body">メッセージ</string>
     <string name="m_send">送信</string>
     <string name="m_charging">充電中</string>
+    <string name="m_host_battery">ホストのバッテリーを使用</string>
     <string name="m_apply">適用</string>
     <string name="m_reset">リセット</string>
     <string name="m_call">着信</string>
