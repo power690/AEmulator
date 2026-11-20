@@ -18,7 +18,7 @@
     <string name="storage_text">Izinkan akses ke semua file: kartu memori tiap sistem akan berada di folder AEmulator penyimpanan internal — praktis untuk APK, musik, dan foto.</string>
     <string name="allow">Izinkan</string>
     <string name="empty_title">Belum ada sistem</string>
-    <string name="empty_text">Tambahkan firmware ARM Android 1.0–17: ZIP recovery, arsip Odin (.tar.md5), system.img, atau factory image.</string>
+    <string name="empty_text">Tambahkan firmware ARM Android 2.3–6.0: ZIP recovery, arsip Odin (.tar.md5), system.img, atau factory image.</string>
     <string name="empty_help">File apa yang cocok?</string>
     <string name="import_failed">Impor gagal</string>
     <string name="import_running">Mengimpor firmware</string>
@@ -30,7 +30,7 @@
     <string name="start">Mulai</string>
     <string name="rename">Ganti nama</string>
     <string name="help_title">Firmware yang didukung</string>
-    <string name="help_text">• Android 2.3–4.4: firmware ARM 32-bit, lewat QEMU.\n• Android 5.0–17: firmware arm64 dan GSI, langsung di ponsel.\n\nFormat:\n• ZIP recovery CWM/TWRP (MIUI, CyanogenMod, port, sebagian besar ROM kustom);\n• Samsung: Odin .tar / .tar.md5 atau ZIP berisi AP_*.tar.md5;\n• factory image Google (.tgz / .zip);\n• system.img (ext4, sparse), cadangan TWRP system.ext4.win;\n• OTA dengan system.new.dat(.br) + system.transfer.list;\n• Juga: 7z, RAR, LG .kdz, Sony .ftf, Huawei UPDATE.APP, Qualcomm EDL, payload.bin, super.img, EROFS, Android-x86 ISO.\n\nPaling baik jika arsip berisi boot.img: urutan mulai layanan diambil darinya.</string>
+    <string name="help_text">• Android 2.3 dan 4.0–4.4: dukungan utama; 5.x–6.x: eksperimental.\n• Hanya firmware ARM 32-bit (armeabi / armeabi-v7a).\n\nFormat:\n• ZIP recovery CWM/TWRP (MIUI, CyanogenMod, port, sebagian besar ROM kustom);\n• Samsung: Odin .tar / .tar.md5 atau ZIP berisi AP_*.tar.md5;\n• factory image Google (.tgz / .zip);\n• system.img (ext4, sparse), cadangan TWRP system.ext4.win;\n• OTA dengan system.new.dat(.br) + system.transfer.list.\n\nPaling baik jika arsip berisi boot.img: urutan mulai layanan diambil darinya.</string>
     <string name="vs_screen">Layar tamu</string>
     <string name="vs_fixed_2x">Android 2.x memakai layar tetap 480×800, 240 dpi.</string>
     <string name="vs_screen_hint">Layar lebih kecil membuat sistem lebih cepat.</string>
@@ -45,13 +45,6 @@
     <string name="vs_legacy_sub">Mesin lama Desire HD: hanya GLES 1.x, layar 480×800. Pakai bila mesin utama gagal.</string>
     <string name="vs_lowram">Mode memori rendah</string>
     <string name="vs_lowram_sub">ro.config.low_ram — sistem menghemat memori.</string>
-    <string name="vs_memory_mode">Manajemen memori</string>
-    <string name="vs_memory_light">Ringan</string>
-    <string name="vs_memory_medium">Sedang</string>
-    <string name="vs_memory_aggressive">Agresif</string>
-    <string name="vs_memory_light_sub">Aplikasi latar belakang hanya dihentikan saat memori ponsel itu sendiri hampir habis. Paling sedikit restart; memakai memori terbanyak. Berlaku setelah VM dimulai ulang sepenuhnya.</string>
-    <string name="vs_memory_medium_sub">Seimbang: mempertahankan sejumlah aplikasi latar belakang dan menghentikan sisanya saat memori kosong menipis. Berlaku setelah VM dimulai ulang sepenuhnya.</string>
-    <string name="vs_memory_aggressive_sub">Mempertahankan sedikit aplikasi latar belakang dan memeriksa sesering mungkin, sehingga memori dibebaskan lebih awal. Memakai memori paling sedikit, tetapi aplikasi lebih sering dimulai ulang. Berlaku setelah VM dimulai ulang sepenuhnya.</string>
     <string name="vs_proxy">Proxy TLS modern</string>
     <string name="vs_proxy_sub">Browser dan aplikasi lama bisa membuka situs HTTPS masa kini.</string>
     <string name="vs_controls">Kontrol</string>
@@ -99,7 +92,14 @@
     <string name="as_orig_sub">Pencipta emulator Desire HD dan One M7 yang menjadi awal proyek ini</string>
     <string name="as_github">Kode sumber di GitHub</string>
     <string name="as_version">Versi %1$s</string>
-    <string name="as_about">AEmulator menjalankan firmware Android klasik di ponsel modern. Gratis dan sumber terbuka.</string>
+    <string name="as_about">AEmulator Plus menjalankan firmware Android klasik di ponsel modern. Gratis dan sumber terbuka.</string>
+    <string name="vs_memory_mode">Manajemen memori</string>
+    <string name="vs_memory_light">Ringan</string>
+    <string name="vs_memory_medium">Sedang</string>
+    <string name="vs_memory_aggressive">Agresif</string>
+    <string name="vs_memory_light_sub">Aplikasi latar belakang hanya dihentikan saat memori ponsel itu sendiri hampir habis. Paling sedikit restart; memakai memori terbanyak. Berlaku setelah VM dimulai ulang sepenuhnya.</string>
+    <string name="vs_memory_medium_sub">Seimbang: mempertahankan sejumlah aplikasi latar belakang dan menghentikan sisanya saat memori kosong menipis. Berlaku setelah VM dimulai ulang sepenuhnya.</string>
+    <string name="vs_memory_aggressive_sub">Mempertahankan sedikit aplikasi latar belakang dan memeriksa sesering mungkin, sehingga memori dibebaskan lebih awal. Memakai memori paling sedikit, tetapi aplikasi lebih sering dimulai ulang. Berlaku setelah VM dimulai ulang sepenuhnya.</string>
     <string name="log_copy">Salin</string>
     <string name="log_export">Ekspor .log</string>
     <string name="log_copied">Disalin ke papan klip</string>
@@ -222,9 +222,9 @@
     <string name="update_download_error">Unduhan gagal: %1$s</string>
     <string name="update_open_github">Lihat di GitHub</string>
     <string name="vs_camera">Kamera host (eksperimental)</string>
-    <string name="vs_camera_sub">ROM HAL1: pratinjau dan foto 640×480, kamera belakang/depan. Memerlukan izin dan restart VM penuh. Kamera menutup saat AEmulator berada di latar belakang; buka lagi aplikasi kamera tamu. Tanpa perekaman video.</string>
+    <string name="vs_camera_sub">ROM HAL1: pratinjau dan foto 640×480, kamera belakang/depan. Memerlukan izin dan restart VM penuh. Kamera menutup saat AEmulator Plus berada di latar belakang; buka lagi aplikasi kamera tamu. Tanpa perekaman video.</string>
     <string name="vs_microphone">Mikrofon host (eksperimental)</string>
-    <string name="vs_microphone_sub">Aplikasi tamu merekam dari mikrofon ponsel (perekam suara, catatan). Memerlukan izin dan restart VM penuh. Perekaman berhenti saat AEmulator di latar belakang; buka lagi aplikasi perekam tamu. Hanya ROM 4.x.</string>
+    <string name="vs_microphone_sub">Aplikasi tamu merekam dari mikrofon ponsel (perekam suara, catatan). Memerlukan izin dan restart VM penuh. Perekaman berhenti saat AEmulator Plus di latar belakang; buka lagi aplikasi perekam tamu. Hanya ROM 4.x.</string>
     <string name="microphone_permission_denied">Izin mikrofon ditolak. Aplikasi tamu akan merekam keheningan; berikan izin di pengaturan aplikasi Android dan restart VM sepenuhnya.</string>
     <string name="camera_permission_denied">Izin kamera ditolak. ROM akan boot tanpa akses ke kamera host; berikan izin di pengaturan aplikasi Android dan restart VM sepenuhnya untuk mencoba lagi.</string>
     <string name="vs_skip_setup">Lewati wizard penyiapan</string>
@@ -316,9 +316,6 @@
     <string name="update_error_title">Kesalahan</string>
     <string name="update_download_failed_generic">Kesalahan unduhan</string>
     <string name="update_network_error">Kesalahan jaringan</string>
-    <plurals name="catalog_rom_count">
-        <item quantity="other">%1$d ROM</item>
-    </plurals>
     <string name="vs_network">Jaringan yang dilaporkan</string>
     <string name="vs_network_sub">Yang ditampilkan bilah status: 2G hingga LTE. Default 2G, karena tidak semua firmware mendukung 3G atau yang lebih baru</string>
     <string name="m_network">Jaringan</string>
@@ -417,7 +414,7 @@
     <string name="vs_kernel_user">Pengguna build</string>
     <string name="vs_kernel_host">Host build</string>
     <string name="vs_kernel_compiler">Kompiler</string>
-    <string name="vs_kernel_number">Build #</string>
+    <string name="vs_kernel_number">Nomor build</string>
     <string name="vs_kernel_flags">Flag build</string>
     <string name="vs_kernel_date">Tanggal build</string>
     <string name="vs_kernel_preview">Hasil:</string>
@@ -474,7 +471,7 @@
     <string name="reset_running">Matikan dulu sistem yang sedang berjalan.</string>
     <string name="vs_nav_compact">Bilah ringkas</string>
     <string name="vs_nav_compact_sub">Tombol lebih kecil, layar lebih lega.</string>
-    <string name="nav_dpad">Trackball</string>
+    <string name="nav_dpad">Bola pelacak</string>
     <string name="m_reset_menu_pos">Setel ulang tombol menu</string>
     <string name="boot_minimize">Kecilkan layar boot (ketuk pil untuk menampilkannya lagi)</string>
     <string name="vs_resolution_custom">Kustom</string>
@@ -516,9 +513,6 @@
     <string name="folder_empty">Kosong — letakkan ROM di sini</string>
     <string name="folder_open">Buka folder</string>
     <string name="folder_close">Tutup folder</string>
-    <plurals name="folder_roms">
-        <item quantity="other">%1$d ROM</item>
-    </plurals>
     <string name="phantom_title">Pembunuh proses hantu</string>
     <string name="phantom_msg">Perangkat Anda belum mengaktifkan opsi “Nonaktifkan batasan proses turunan” di Opsi Developer. Artinya zygote akan dihentikan saat emulator dimulai, sehingga emulator tidak dapat boot. Karena itu, SANGAT DISARANKAN untuk mengaktifkannya.</string>
     <string name="phantom_open_dev">Buka Opsi Developer</string>
@@ -532,4 +526,18 @@
     <string name="catalog_download_checking">Memeriksa tautan…</string>
     <string name="catalog_download_title">Mengunduh ROM</string>
     <string name="catalog_download_failed">Unduhan gagal: %1$s</string>
+    <string name="al_title">Peluncur Activity</string>
+    <string name="m_activities">Peluncur Activity</string>
+    <string name="al_search_packages">Cari paket</string>
+    <string name="al_search_activities">Cari Activity</string>
+    <string name="al_no_packages">Tidak ada paket yang ditemukan</string>
+    <string name="al_no_activities">Tidak ada Activity yang ditemukan</string>
+    <string name="al_not_exported">tidak diekspor</string>
+    <string name="al_starting">Memulai %1$s…</string>
+    <string name="catalog_share_rom">Bagikan tautan unduhan %1$s</string>
+    <string name="m_battery_old_note">Versi Android ini membaca baterai hanya saat dinyalakan. Tingkat dan status pengisian daya yang kamu atur disimpan dan digunakan saat VM menyala berikutnya.</string>
+    <string name="vs_no_dex2oat">Nonaktifkan dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Aplikasi dan kode sistem tidak pernah dikompilasi di guest: setiap eksekusi dex2oat langsung gagal. Peringatan: ini dapat menyebabkan crash, glitch, dan perilaku tak diinginkan lainnya (aplikasi berjalan lebih lambat, sebagian firmware tidak bisa boot tanpa kompilasi). Nonaktif secara bawaan. Berlaku pada mulai penuh berikutnya.</string>
+    <string name="m_multitask">Beralih tugas</string>
+    <string name="nav_show">Tampilkan bilah tombol Android</string>
 </resources>

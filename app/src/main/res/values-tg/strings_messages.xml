@@ -216,9 +216,9 @@
     <string name="lib3d_spec_screen">Экран</string>
     <string name="lib3d_spec_size">Андоза</string>
     <string name="lib3d_spec_model">Модел</string>
-    <string name="as_upstream_row">Upstream: %1$s</string>
+    <string name="as_upstream_row">Лоиҳаи аслӣ: %1$s</string>
     <string name="as_original_row">Аслӣ: %1$s</string>
-    <string name="sms_default_body">Салом аз AEmulator</string>
+    <string name="sms_default_body">Салом аз AEmulator Plus</string>
     <string name="theme_original">Аслӣ</string>
     <string name="theme_sunset">Sunset</string>
     <string name="sim_country_emulator">Эмулятор</string>

@@ -18,7 +18,7 @@
     <string name="storage_text">すべてのファイルへのアクセスを許可すると、各システムのメモリーカードが内部ストレージの AEmulator フォルダーに置かれ、APK や音楽、写真を入れやすくなります。</string>
     <string name="allow">許可</string>
     <string name="empty_title">まだシステムがありません</string>
-    <string name="empty_text">Android 1.0〜17 の ARM ファームウェアを追加してください：リカバリー用 ZIP、Odin アーカイブ（.tar.md5）、system.img、またはファクトリーイメージ。</string>
+    <string name="empty_text">Android 2.3〜6.0 の ARM ファームウェアを追加してください：リカバリー用 ZIP、Odin アーカイブ（.tar.md5）、system.img、またはファクトリーイメージ。</string>
     <string name="empty_help">どのファイルが使えますか？</string>
     <string name="import_failed">インポートに失敗しました</string>
     <string name="import_running">ファームウェアをインポート中</string>
@@ -30,7 +30,7 @@
     <string name="start">起動</string>
     <string name="rename">名前を変更</string>
     <string name="help_title">対応ファームウェア</string>
-    <string name="help_text">• Android 2.3〜4.4：32 ビット ARM ファームウェア、QEMU で動作。\n• Android 5.0〜17：arm64 ファームウェアと GSI、スマホ上でネイティブ動作。\n\n形式：\n• CWM/TWRP リカバリー ZIP（MIUI、CyanogenMod、移植版、多くのカスタム ROM）\n• Samsung：Odin の .tar / .tar.md5、または AP_*.tar.md5 を含む ZIP\n• Google ファクトリーイメージ（.tgz / .zip）\n• system.img（ext4、sparse）、TWRP バックアップ system.ext4.win\n• system.new.dat(.br) + system.transfer.list を含む OTA\n• その他：7z, RAR, LG .kdz, Sony .ftf, Huawei UPDATE.APP, Qualcomm EDL, payload.bin, super.img, EROFS, Android-x86 ISO\n\nアーカイブに boot.img があると最適です。サービスの起動順序はそこから読み取ります。</string>
+    <string name="help_text">• Android 2.3 と 4.0〜4.4：主なサポート、5.x〜6.x：試験的。\n• 32 ビット ARM ファームウェアのみ（armeabi / armeabi-v7a）。\n\n形式：\n• CWM/TWRP リカバリー ZIP（MIUI、CyanogenMod、移植版、多くのカスタム ROM）\n• Samsung：Odin の .tar / .tar.md5、または AP_*.tar.md5 を含む ZIP\n• Google ファクトリーイメージ（.tgz / .zip）\n• system.img（ext4、sparse）、TWRP バックアップ system.ext4.win\n• system.new.dat(.br) + system.transfer.list を含む OTA\n\nアーカイブに boot.img があると最適です。サービスの起動順序はそこから読み取ります。</string>
     <string name="vs_screen">ゲスト画面</string>
     <string name="vs_fixed_2x">Android 2.x は 480×800・240 dpi の固定画面です。</string>
     <string name="vs_screen_hint">画面が小さいほどシステムが速くなります。</string>
@@ -45,13 +45,6 @@
     <string name="vs_legacy_sub">旧 Desire HD エンジン：GLES 1.x のみ、480×800 画面。メインエンジンで失敗した場合に。</string>
     <string name="vs_lowram">低メモリーモード</string>
     <string name="vs_lowram_sub">ro.config.low_ram — システムがメモリーを節約します。</string>
-    <string name="vs_memory_mode">メモリー管理</string>
-    <string name="vs_memory_light">軽量</string>
-    <string name="vs_memory_medium">標準</string>
-    <string name="vs_memory_aggressive">積極的</string>
-    <string name="vs_memory_light_sub">バックグラウンドのアプリは、スマートフォン本体のメモリーがほぼ尽きたときにだけ停止されます。再起動は最も少なく、メモリーは最も多く使います。VM を完全に再起動すると反映されます。</string>
-    <string name="vs_memory_medium_sub">バランス型：バックグラウンドのアプリを適度な数だけ残し、空きメモリーが少なくなると残りを停止します。VM を完全に再起動すると反映されます。</string>
-    <string name="vs_memory_aggressive_sub">バックグラウンドのアプリを少数だけ残し、頻繁にチェックして早めにメモリーを解放します。メモリー使用量は最小ですが、アプリの再起動は増えます。VM を完全に再起動すると反映されます。</string>
     <string name="vs_proxy">最新 TLS プロキシ</string>
     <string name="vs_proxy_sub">古いブラウザーやアプリで現在の HTTPS サイトを開けます。</string>
     <string name="vs_controls">操作</string>
@@ -99,7 +92,14 @@
     <string name="as_orig_sub">本プロジェクトの原点となった Desire HD・One M7 エミュレーターの作者</string>
     <string name="as_github">GitHub のソースコード</string>
     <string name="as_version">バージョン %1$s</string>
-    <string name="as_about">AEmulator は最新のスマホで懐かしの Android ファームウェアを動かします。無料でオープンソースです。</string>
+    <string name="as_about">AEmulator Plus は最新のスマホで懐かしの Android ファームウェアを動かします。無料でオープンソースです。</string>
+    <string name="vs_memory_mode">メモリー管理</string>
+    <string name="vs_memory_light">軽量</string>
+    <string name="vs_memory_medium">標準</string>
+    <string name="vs_memory_aggressive">積極的</string>
+    <string name="vs_memory_light_sub">バックグラウンドのアプリは、スマートフォン本体のメモリーがほぼ尽きたときにだけ停止されます。再起動は最も少なく、メモリーは最も多く使います。VM を完全に再起動すると反映されます。</string>
+    <string name="vs_memory_medium_sub">バランス型：バックグラウンドのアプリを適度な数だけ残し、空きメモリーが少なくなると残りを停止します。VM を完全に再起動すると反映されます。</string>
+    <string name="vs_memory_aggressive_sub">バックグラウンドのアプリを少数だけ残し、頻繁にチェックして早めにメモリーを解放します。メモリー使用量は最小ですが、アプリの再起動は増えます。VM を完全に再起動すると反映されます。</string>
     <string name="log_copy">コピー</string>
     <string name="log_export">.log をエクスポート</string>
     <string name="log_copied">クリップボードにコピーしました</string>
@@ -222,9 +222,9 @@
     <string name="update_download_error">ダウンロードに失敗しました：%1$s</string>
     <string name="update_open_github">GitHubで見る</string>
     <string name="vs_camera">ホストのカメラ（実験的）</string>
-    <string name="vs_camera_sub">HAL1 ROM：640×480のプレビューと写真、背面/前面カメラ。権限と仮想マシンの完全な再起動が必要です。AEmulatorがバックグラウンドになるとカメラは閉じます。ゲストのカメラアプリを開き直してください。動画の録画はできません。</string>
+    <string name="vs_camera_sub">HAL1 ROM：640×480のプレビューと写真、背面/前面カメラ。権限と仮想マシンの完全な再起動が必要です。AEmulator Plusがバックグラウンドになるとカメラは閉じます。ゲストのカメラアプリを開き直してください。動画の録画はできません。</string>
     <string name="vs_microphone">ホストのマイク（実験的）</string>
-    <string name="vs_microphone_sub">ゲストアプリがスマートフォンのマイクで録音します（ボイスレコーダー、メモ）。権限と仮想マシンの完全な再起動が必要です。AEmulatorがバックグラウンドになると録音は停止します。ゲストの録音アプリを開き直してください。4.x ROMのみ。</string>
+    <string name="vs_microphone_sub">ゲストアプリがスマートフォンのマイクで録音します（ボイスレコーダー、メモ）。権限と仮想マシンの完全な再起動が必要です。AEmulator Plusがバックグラウンドになると録音は停止します。ゲストの録音アプリを開き直してください。4.x ROMのみ。</string>
     <string name="microphone_permission_denied">マイクの権限が拒否されました。ゲストアプリは無音を録音します。Androidのアプリ設定で権限を許可し、仮想マシンを完全に再起動してもう一度お試しください。</string>
     <string name="camera_permission_denied">カメラの権限が拒否されました。ROMはホストのカメラにアクセスできない状態で起動します。Androidのアプリ設定で権限を許可し、仮想マシンを完全に再起動してもう一度お試しください。</string>
     <string name="vs_skip_setup">セットアップウィザードをスキップ</string>
@@ -316,9 +316,6 @@
     <string name="update_error_title">エラー</string>
     <string name="update_download_failed_generic">ダウンロードエラー</string>
     <string name="update_network_error">ネットワークエラー</string>
-    <plurals name="catalog_rom_count">
-        <item quantity="other">ROM %1$d件</item>
-    </plurals>
     <string name="vs_network">報告されるネットワーク</string>
     <string name="vs_network_sub">ステータスバーに表示される内容(2G〜LTE)。すべてのファームウェアが3G以降に対応しているわけではないため、既定は2Gです</string>
     <string name="m_network">ネットワーク</string>
@@ -516,9 +513,6 @@
     <string name="folder_empty">空です — ここに ROM をドロップ</string>
     <string name="folder_open">フォルダを開く</string>
     <string name="folder_close">フォルダを閉じる</string>
-    <plurals name="folder_roms">
-        <item quantity="other">ROM %1$d件</item>
-    </plurals>
     <string name="phantom_title">ファントムプロセスキラー</string>
     <string name="phantom_msg">お使いのデバイスでは、開発者向けオプションの「子プロセスの制限を無効にする」が有効になっていません。このため、エミュレーターの起動中に zygote が強制終了され、エミュレーターを起動できなくなります。有効にすることを強くおすすめします。</string>
     <string name="phantom_open_dev">開発者向けオプションを開く</string>
@@ -532,4 +526,18 @@
     <string name="catalog_download_checking">リンクを確認中…</string>
     <string name="catalog_download_title">ROMをダウンロード中</string>
     <string name="catalog_download_failed">ダウンロードに失敗しました: %1$s</string>
+    <string name="al_title">Activityランチャー</string>
+    <string name="m_activities">Activityランチャー</string>
+    <string name="al_search_packages">パッケージを検索</string>
+    <string name="al_search_activities">Activityを検索</string>
+    <string name="al_no_packages">パッケージが見つかりません</string>
+    <string name="al_no_activities">Activityが見つかりません</string>
+    <string name="al_not_exported">非エクスポート</string>
+    <string name="al_starting">%1$s を起動中…</string>
+    <string name="catalog_share_rom">%1$s のダウンロードリンクを共有</string>
+    <string name="m_battery_old_note">このAndroidバージョンは起動中にのみバッテリーを読み取ります。設定した電池残量と充電状態は保存され、仮想マシンの次回起動時に使用されます。</string>
+    <string name="vs_no_dex2oat">dex2oatを無効化（Android 5.0以降）</string>
+    <string name="vs_no_dex2oat_sub">アプリとシステムコードはゲスト内で一切コンパイルされません：dex2oatの実行は即座に失敗します。警告：クラッシュ、画面の乱れその他の意図しない動作を引き起こす可能性があります（アプリの動作が遅くなる、コンパイルなしでは起動できないファームウェアもあります）。デフォルトはオフです。次回の完全起動時に適用されます。</string>
+    <string name="m_multitask">タスクの切り替え</string>
+    <string name="nav_show">Androidボタンバーを表示</string>
 </resources>

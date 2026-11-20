@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Boshqa yuklab olish allaqachon davom etmoqda.</string>
+    <string name="rom_dl_cannot_start">Yuklab olishni fonda boshlab bo\'lmadi.</string>
+    <string name="rom_dl_channel">ROM yuklab olish</string>
+    <string name="rom_dl_channel_done">ROM yuklab olish tugallandi</string>
+    <string name="rom_dl_done">ROM yuklab olindi</string>
+    <string name="rom_dl_done_text">Import qilish uchun %1$s ga bosing</string>
+    <string name="rom_dl_failed">ROM yuklab olish muvaffaqiyatsiz</string>
+    <string name="rom_dl_hide">Yashirish</string>
+    <string name="rom_dl_page">Yuklab olish havolasi</string>
+    <string name="rom_dl_page_text">Bu havola veb-sahifa. Brauzerda ochish uchun bosing.</string>
+</resources>

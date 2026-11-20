@@ -210,7 +210,7 @@
     <string name="lib3d_spec_model">모델</string>
     <string name="as_upstream_row">업스트림: %1$s</string>
     <string name="as_original_row">원본: %1$s</string>
-    <string name="sms_default_body">AEmulator에서 안녕하세요</string>
+    <string name="sms_default_body">AEmulator Plus에서 안녕하세요</string>
     <string name="theme_original">기본</string>
     <string name="theme_sunset">선셋</string>
     <string name="sim_country_emulator">에뮬레이터</string>

@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">该目录包含超过 10000 个 ROM。</string>
     <string name="catalog_tested_on">模拟器 %1$s</string>
     <string name="catalog_submitted_by">提交者：%1$s</string>
+    <string name="submit_not_direct_title">需要直接链接</string>
+    <string name="submit_not_direct_text">提交内容必须是 ROM 文件的直接下载链接；不接受网页链接，也不接受需要先打开页面的网盘链接。\n\n建议上传到 archive.org。</string>
 </resources>

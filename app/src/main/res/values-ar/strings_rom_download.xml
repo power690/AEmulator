@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">هناك تنزيل آخر قيد التقدم بالفعل.</string>
+    <string name="rom_dl_cannot_start">تعذّر بدء التنزيل في الخلفية.</string>
+    <string name="rom_dl_channel">تنزيل ROM</string>
+    <string name="rom_dl_channel_done">اكتمل تنزيل ROM</string>
+    <string name="rom_dl_done">تم تنزيل ROM</string>
+    <string name="rom_dl_done_text">انقر لاستيراد %1$s</string>
+    <string name="rom_dl_failed">فشل تنزيل ROM</string>
+    <string name="rom_dl_hide">إخفاء</string>
+    <string name="rom_dl_page">رابط التنزيل</string>
+    <string name="rom_dl_page_text">هذا الرابط يشير إلى صفحة ويب؛ انقر لفتحها في المتصفح.</string>
+</resources>

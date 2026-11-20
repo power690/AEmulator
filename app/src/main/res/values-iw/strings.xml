@@ -108,7 +108,7 @@
     <string name="as_orig_sub">יוצר אמולטורי Desire HD ו-One M7 שמהם צמח הפרויקט הזה</string>
     <string name="as_github">קוד המקור ב-GitHub</string>
     <string name="as_version">גרסה %1$s</string>
-    <string name="as_about">AEmulator מריץ קושחות Android קלאסיות בטלפונים מודרניים. חינמי ובקוד פתוח.</string>
+    <string name="as_about">AEmulator Plus מריץ קושחות Android קלאסיות בטלפונים מודרניים. חינמי ובקוד פתוח.</string>
     <string name="log_copy">העתק</string>
     <string name="log_export">ייצא .log</string>
     <string name="log_copied">הועתק ללוח</string>
@@ -244,9 +244,9 @@
     <string name="update_download_error">ההורדה נכשלה: %1$s</string>
     <string name="update_open_github">הצג ב-GitHub</string>
     <string name="vs_camera">מצלמת המארח (ניסיוני)</string>
-    <string name="vs_camera_sub">ROMs מסוג HAL1: תצוגה מקדימה ותמונות ב-640×480, מצלמה אחורית/קדמית. נדרשת הרשאה והפעלה מחדש מלאה של המכונה הווירטואלית. המצלמה נסגרת כש-AEmulator עובר לרקע; פתח שוב את אפליקציית המצלמה באורח. וידאו מוקלט ב-640×480.</string>
+    <string name="vs_camera_sub">ROMs מסוג HAL1: תצוגה מקדימה ותמונות ב-640×480, מצלמה אחורית/קדמית. נדרשת הרשאה והפעלה מחדש מלאה של המכונה הווירטואלית. המצלמה נסגרת כש-AEmulator Plus עובר לרקע; פתח שוב את אפליקציית המצלמה באורח. וידאו מוקלט ב-640×480.</string>
     <string name="vs_microphone">מיקרופון המארח (ניסיוני)</string>
-    <string name="vs_microphone_sub">אפליקציות האורח מקליטות מהמיקרופון של הטלפון (מקליט קול, פתקים). נדרשת הרשאה והפעלה מחדש מלאה של המכונה הווירטואלית. ההקלטה נעצרת כש-AEmulator עובר לרקע; פתח שוב את אפליקציית ההקלטה באורח. ‏ROMs מסוג 4.x בלבד.</string>
+    <string name="vs_microphone_sub">אפליקציות האורח מקליטות מהמיקרופון של הטלפון (מקליט קול, פתקים). נדרשת הרשאה והפעלה מחדש מלאה של המכונה הווירטואלית. ההקלטה נעצרת כש-AEmulator Plus עובר לרקע; פתח שוב את אפליקציית ההקלטה באורח. ‏ROMs מסוג 4.x בלבד.</string>
     <string name="microphone_permission_denied">הרשאת המיקרופון נדחתה. אפליקציות האורח יקליטו שקט; הענק הרשאה בהגדרות האפליקציה ב-Android והפעל מחדש את המכונה הווירטואלית במלואה כדי לנסות שוב.</string>
     <string name="vs_sim_title">כרטיסי SIM</string>
     <string name="vs_sim_present">כרטיס SIM מוכנס</string>
@@ -536,4 +536,18 @@
     <string name="catalog_download_checking">בודק את הקישור…</string>
     <string name="catalog_download_title">מוריד ROM</string>
     <string name="catalog_download_failed">ההורדה נכשלה: %1$s</string>
+    <string name="al_title">משגר Activity</string>
+    <string name="m_activities">משגר Activity</string>
+    <string name="al_search_packages">חיפוש חבילות</string>
+    <string name="al_search_activities">חיפוש Activity</string>
+    <string name="al_no_packages">לא נמצאו חבילות</string>
+    <string name="al_no_activities">לא נמצאו Activity</string>
+    <string name="al_not_exported">לא מיוצא</string>
+    <string name="al_starting">מפעיל את %1$s…</string>
+    <string name="catalog_share_rom">שיתוף קישור ההורדה של %1$s</string>
+    <string name="m_battery_old_note">גרסת Android זו קוראת את הסוללה רק בזמן ההפעלה. המפלס ומצב הטעינה שהגדרת נשמרים ומשמשים בהפעלה הבאה של המכונה הווירטואלית.</string>
+    <string name="vs_no_dex2oat">כיבוי dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">אפליקציות וקוד מערכת לעולם לא מהודרים במערכת האורחת: כל הרצה של dex2oat נכשלת מיד. אזהרה: הדבר עלול לגרום קריסות, תקלות תצוגה והתנהגות בלתי צפויה אחרת (האפליקציות אטיות יותר, חלק מהקושחות לא נדלקות בלי הידור). כבוי כברירת מחדל. יופעל בהפעלה המלאה הבאה.</string>
+    <string name="m_multitask">החלפת משימות</string>
+    <string name="nav_show">הצג את סרגל הכפתורים של Android</string>
 </resources>

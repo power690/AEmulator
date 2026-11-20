@@ -109,7 +109,7 @@
     <string name="as_orig_sub">Ο δημιουργός των εξομοιωτών Desire HD και One M7 από τους οποίους προέκυψε αυτό το έργο</string>
     <string name="as_github">Πηγαίος κώδικας στο GitHub</string>
     <string name="as_version">Έκδοση %1$s</string>
-    <string name="as_about">Το AEmulator εκτελεί κλασικό firmware Android σε σύγχρονα τηλέφωνα. Δωρεάν και ανοιχτού κώδικα.</string>
+    <string name="as_about">Το AEmulator Plus εκτελεί κλασικό firmware Android σε σύγχρονα τηλέφωνα. Δωρεάν και ανοιχτού κώδικα.</string>
     <string name="log_copy">Αντιγραφή</string>
     <string name="log_export">Εξαγωγή .log</string>
     <string name="log_copied">Αντιγράφηκε στο πρόχειρο</string>
@@ -245,9 +245,9 @@
     <string name="update_download_error">Η λήψη απέτυχε: %1$s</string>
     <string name="update_open_github">Προβολή στο GitHub</string>
     <string name="vs_camera">Κάμερα κεντρικού υπολογιστή (πειραματικό)</string>
-    <string name="vs_camera_sub">ROM HAL1: προεπισκόπηση και φωτογραφίες 640×480, πίσω/μπροστινή κάμερα. Απαιτεί άδεια και πλήρη επανεκκίνηση του VM. Η κάμερα κλείνει όταν το AEmulator περνά στο παρασκήνιο· ανοίξτε ξανά την εφαρμογή κάμερας του επισκέπτη. Το βίντεο εγγράφεται σε 640×480.</string>
+    <string name="vs_camera_sub">ROM HAL1: προεπισκόπηση και φωτογραφίες 640×480, πίσω/μπροστινή κάμερα. Απαιτεί άδεια και πλήρη επανεκκίνηση του VM. Η κάμερα κλείνει όταν το AEmulator Plus περνά στο παρασκήνιο· ανοίξτε ξανά την εφαρμογή κάμερας του επισκέπτη. Το βίντεο εγγράφεται σε 640×480.</string>
     <string name="vs_microphone">Μικρόφωνο κεντρικού υπολογιστή (πειραματικό)</string>
-    <string name="vs_microphone_sub">Οι εφαρμογές του επισκέπτη εγγράφουν από το μικρόφωνο του τηλεφώνου (καταγραφέας φωνής, σημειώσεις). Απαιτεί άδεια και πλήρη επανεκκίνηση του VM. Η εγγραφή σταματά όταν το AEmulator περνά στο παρασκήνιο· ανοίξτε ξανά την εφαρμογή εγγραφής του επισκέπτη. Μόνο ROM 4.x.</string>
+    <string name="vs_microphone_sub">Οι εφαρμογές του επισκέπτη εγγράφουν από το μικρόφωνο του τηλεφώνου (καταγραφέας φωνής, σημειώσεις). Απαιτεί άδεια και πλήρη επανεκκίνηση του VM. Η εγγραφή σταματά όταν το AEmulator Plus περνά στο παρασκήνιο· ανοίξτε ξανά την εφαρμογή εγγραφής του επισκέπτη. Μόνο ROM 4.x.</string>
     <string name="microphone_permission_denied">Η άδεια μικροφώνου απορρίφθηκε. Οι εφαρμογές του επισκέπτη θα εγγράφουν σιωπή· δώστε την άδεια στις ρυθμίσεις εφαρμογής του Android και κάντε πλήρη επανεκκίνηση του VM για να δοκιμάσετε ξανά.</string>
     <string name="vs_sim_title">Κάρτες SIM</string>
     <string name="vs_sim_present">Κάρτα SIM τοποθετημένη</string>
@@ -492,7 +492,7 @@
     <string name="reset_running">Τερματίστε πρώτα το σύστημα που εκτελείται.</string>
     <string name="vs_nav_compact">Συμπαγής γραμμή</string>
     <string name="vs_nav_compact_sub">Μικρότερα κουμπιά, περισσότερος χώρος για την οθόνη.</string>
-    <string name="nav_dpad">Trackball</string>
+    <string name="nav_dpad">Τράκμπολ</string>
     <string name="m_reset_menu_pos">Επαναφορά κουμπιού μενού</string>
     <string name="as_led">Φωτεινή ένδειξη ειδοποιήσεων</string>
     <string name="as_led_sub">Εμφάνιση του LED του τηλεφώνου επισκέπτη πάνω από την οθόνη</string>
@@ -535,4 +535,18 @@
     <string name="catalog_download_checking">Έλεγχος συνδέσμου…</string>
     <string name="catalog_download_title">Λήψη ROM</string>
     <string name="catalog_download_failed">Η λήψη απέτυχε: %1$s</string>
+    <string name="al_title">Εκκίνηση Activity</string>
+    <string name="m_activities">Εκκίνηση Activity</string>
+    <string name="al_search_packages">Αναζήτηση πακέτων</string>
+    <string name="al_search_activities">Αναζήτηση Activity</string>
+    <string name="al_no_packages">Δεν βρέθηκαν πακέτα</string>
+    <string name="al_no_activities">Δεν βρέθηκαν Activity</string>
+    <string name="al_not_exported">μη εξαγόμενο</string>
+    <string name="al_starting">Εκκίνηση %1$s…</string>
+    <string name="catalog_share_rom">Κοινοποίηση συνδέσμου λήψης του %1$s</string>
+    <string name="m_battery_old_note">Αυτή η έκδοση Android διαβάζει την μπαταρία μόνο κατά την εκκίνηση. Το επίπεδο και η κατάσταση φόρτισης που ορίζετε αποθηκεύονται και χρησιμοποιούνται στην επόμενη εκκίνηση της VM.</string>
+    <string name="vs_no_dex2oat">Απενεργοποίηση dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Οι εφαρμογές και ο κώδικας συστήματος δεν μεταγλωττίζονται ποτέ στο φιλοξενούμενο σύστημα: κάθε εκτέλεση dex2oat αποτυγχάνει αμέσως. Προειδοποίηση: μπορεί να προκαλέσει καταρρεύσεις, προβλήματα εμφάνισης και άλλη ανεπιθύμητη συμπεριφορά (οι εφαρμογές τρέχουν πιο αργά, ορισμένα firmware δεν εκκινούν χωρίς μεταγλώττιση). Ανενεργό από προεπιλογή. Ισχύει από την επόμενη πλήρη εκκίνηση.</string>
+    <string name="m_multitask">Εναλλαγή εργασιών</string>
+    <string name="nav_show">Εμφάνιση της γραμμής κουμπιών Android</string>
 </resources>

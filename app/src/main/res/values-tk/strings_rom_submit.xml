@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Katalogda 10000-den köp ROM bar.</string>
     <string name="catalog_tested_on">Emulýator %1$s</string>
     <string name="catalog_submitted_by">Iberen: %1$s</string>
+    <string name="submit_not_direct_title">Göni baglanyşyk gerek</string>
+    <string name="submit_not_direct_text">Tabşyryklar ROM faýlyna göni ýükleme baglanyşyklary bolmaly. Web sahypalaryna ýa-da ilki sahypa açýan faýl hyzmatlaryna baglanyşyklar kabul edilmeýär.\n\nÝüklemek üçin maslahat berilýän ýer archive.org.</string>
 </resources>

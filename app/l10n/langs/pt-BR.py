@@ -90,5 +90,5 @@ S = {
     "as_orig_sub": "Criador dos emuladores de Desire HD e One M7 dos quais o projeto surgiu",
     "as_github": "Código-fonte no GitHub",
     "as_version": "Versão %1$s",
-    "as_about": "O AEmulator roda firmwares clássicos do Android em celulares modernos. Gratuito e de código aberto.",
+    "as_about": "O AEmulator Plus roda firmwares clássicos do Android em celulares modernos. Gratuito e de código aberto.",
 }

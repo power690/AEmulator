@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_import_partition">Importa partizione</string>
+    <string name="vm_import_partition_button">Importa…</string>
+    <string name="vm_import_partition_conflict">Il layout delle cartelle di questa VM non ammette questa partizione.</string>
+    <string name="vm_import_partition_done">Partizione %1$s importata e montata. Sistema e dati restano invariati.</string>
+    <string name="vm_import_partition_exists">Questa VM ha già una partizione %1$s.</string>
+    <string name="vm_import_partition_have">%1$s (già in questa VM)</string>
+    <string name="vm_import_partition_headline">Importa un\'immagine di partizione in questa VM</string>
+    <string name="vm_import_partition_sub">Boot, recovery (stock, TWRP, OrangeFox o CWM), OEM, vendor, odm, product o system_ext. Il tipo è letto dal file; ti viene chiesto quando non si può. Solo il recovery sostituisce uno esistente; il resto della VM resta invariato. Riavvia in recovery dal menu ⋮.</string>
+    <string name="vm_import_partition_unsupported">Un\'immagine %1$s non può essere importata con questa opzione.</string>
+    <string name="vm_import_partition_which">Quale partizione è?</string>
+    <string name="vm_import_partition_which_info">Il nome del file non dice cosa contiene. Scegli la partizione.</string>
+    <string name="vm_import_partition_working">Lettura della partizione %1$s… Ferma tutte le VM prima di importare.</string>
+    <string name="vm_import_recovery_done">Recovery importato. Riavvia in recovery dal menu ⋮ per usarlo.</string>
+</resources>

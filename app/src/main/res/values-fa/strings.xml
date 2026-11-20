@@ -18,7 +18,7 @@
     <string name="storage_text">دسترسی به همهٔ فایل‌ها را مجاز کنید: کارت حافظهٔ هر سیستم در پوشهٔ AEmulator حافظهٔ داخلی قرار می‌گیرد که برای APK، موسیقی و عکس مناسب است.</string>
     <string name="allow">اجازه</string>
     <string name="empty_title">هنوز سیستمی نیست</string>
-    <string name="empty_text">یک فرم‌ویر ARM برای اندروید 1.0 تا 17 اضافه کنید: ZIP ریکاوری، آرشیو Odin ‏(.tar.md5)، system.img یا ایمیج کارخانه.</string>
+    <string name="empty_text">یک فرم‌ویر ARM برای اندروید 2.3 تا 6.0 اضافه کنید: ZIP ریکاوری، آرشیو Odin ‏(.tar.md5)، system.img یا ایمیج کارخانه.</string>
     <string name="empty_help">چه فایل‌هایی مناسب‌اند؟</string>
     <string name="import_failed">درون‌ریزی ناموفق بود</string>
     <string name="import_running">درون‌ریزی فرم‌ویر</string>
@@ -30,7 +30,7 @@
     <string name="start">اجرا</string>
     <string name="rename">تغییر نام</string>
     <string name="help_title">فرم‌ویرهای پشتیبانی‌شده</string>
-    <string name="help_text">• اندروید 2.3 تا 4.4: فرم‌ویرهای ARM ‏32 بیتی، از طریق QEMU.\n• اندروید 5.0 تا 17: فرم‌ویرهای arm64 و GSI، مستقیم روی گوشی.\n\nقالب‌ها:\n• ‏ZIP ریکاوری CWM/TWRP (MIUI، CyanogenMod، پورت‌ها، بیشتر رام‌های سفارشی)؛\n• سامسونگ: ‎.tar / .tar.md5 از Odin یا ZIP حاوی AP_*.tar.md5؛\n• ایمیج‌های کارخانهٔ گوگل (.tgz / .zip)؛\n• ‏system.img ‏(ext4، sparse)، پشتیبان TWRP ‏system.ext4.win؛\n• ‏OTA با system.new.dat(.br) و system.transfer.list؛\n• همچنین: 7z, RAR, LG .kdz, Sony .ftf, Huawei UPDATE.APP, Qualcomm EDL, payload.bin, super.img, EROFS, Android-x86 ISO.\n\nبهتر است آرشیو شامل boot.img باشد: ترتیب اجرای سرویس‌ها از آن خوانده می‌شود.</string>
+    <string name="help_text">• اندروید 2.3 و 4.0 تا 4.4: پشتیبانی اصلی؛ 5.x تا 6.x: آزمایشی.\n• فقط فرم‌ویرهای ARM ‏32 بیتی (armeabi / armeabi-v7a).\n\nقالب‌ها:\n• ‏ZIP ریکاوری CWM/TWRP (MIUI، CyanogenMod، پورت‌ها، بیشتر رام‌های سفارشی)؛\n• سامسونگ: ‎.tar / .tar.md5 از Odin یا ZIP حاوی AP_*.tar.md5؛\n• ایمیج‌های کارخانهٔ گوگل (.tgz / .zip)؛\n• ‏system.img ‏(ext4، sparse)، پشتیبان TWRP ‏system.ext4.win؛\n• ‏OTA با system.new.dat(.br) و system.transfer.list.\n\nبهتر است آرشیو شامل boot.img باشد: ترتیب اجرای سرویس‌ها از آن خوانده می‌شود.</string>
     <string name="vs_screen">صفحهٔ مهمان</string>
     <string name="vs_fixed_2x">اندروید 2.x صفحهٔ ثابت 480×800 با 240 dpi دارد.</string>
     <string name="vs_screen_hint">هرچه صفحه کوچک‌تر، سیستم سریع‌تر.</string>
@@ -45,13 +45,6 @@
     <string name="vs_legacy_sub">موتور قدیمی Desire HD: فقط GLES 1.x، صفحهٔ 480×800. اگر موتور اصلی شکست خورد استفاده کنید.</string>
     <string name="vs_lowram">حالت حافظهٔ کم</string>
     <string name="vs_lowram_sub">ro.config.low_ram — سیستم در حافظه صرفه‌جویی می‌کند.</string>
-    <string name="vs_memory_mode">مدیریت حافظه</string>
-    <string name="vs_memory_light">سبک</string>
-    <string name="vs_memory_medium">متوسط</string>
-    <string name="vs_memory_aggressive">تهاجمی</string>
-    <string name="vs_memory_light_sub">برنامه‌های پس‌زمینه فقط زمانی متوقف می‌شوند که حافظهٔ خود گوشی رو به اتمام باشد. کمترین راه‌اندازی مجدد؛ بیشترین مصرف حافظه. پس از راه‌اندازی مجدد کامل ماشین مجازی اعمال می‌شود.</string>
-    <string name="vs_memory_medium_sub">متعادل: تعداد متوسطی برنامهٔ پس‌زمینه را نگه می‌دارد و وقتی حافظهٔ آزاد کم شود بقیه را متوقف می‌کند. پس از راه‌اندازی مجدد کامل ماشین مجازی اعمال می‌شود.</string>
-    <string name="vs_memory_aggressive_sub">تعداد کمی برنامهٔ پس‌زمینه را نگه می‌دارد و مکرر بررسی می‌کند، بنابراین حافظه زود آزاد می‌شود. کمترین مصرف حافظه، اما برنامه‌ها بیشتر دوباره راه‌اندازی می‌شوند. پس از راه‌اندازی مجدد کامل ماشین مجازی اعمال می‌شود.</string>
     <string name="vs_proxy">پراکسی TLS مدرن</string>
     <string name="vs_proxy_sub">مرورگرها و برنامه‌های قدیمی سایت‌های HTTPS امروزی را باز می‌کنند.</string>
     <string name="vs_controls">کنترل‌ها</string>
@@ -99,7 +92,14 @@
     <string name="as_orig_sub">سازندهٔ شبیه‌سازهای Desire HD و One M7 که پروژه از آن‌ها رشد کرد</string>
     <string name="as_github">کد منبع در GitHub</string>
     <string name="as_version">نسخهٔ %1$s</string>
-    <string name="as_about">AEmulator فرم‌ویرهای کلاسیک اندروید را روی گوشی‌های مدرن اجرا می‌کند. رایگان و متن‌باز.</string>
+    <string name="as_about">AEmulator Plus فرم‌ویرهای کلاسیک اندروید را روی گوشی‌های مدرن اجرا می‌کند. رایگان و متن‌باز.</string>
+    <string name="vs_memory_mode">مدیریت حافظه</string>
+    <string name="vs_memory_light">سبک</string>
+    <string name="vs_memory_medium">متوسط</string>
+    <string name="vs_memory_aggressive">تهاجمی</string>
+    <string name="vs_memory_light_sub">برنامه‌های پس‌زمینه فقط زمانی متوقف می‌شوند که حافظهٔ خود گوشی رو به اتمام باشد. کمترین راه‌اندازی مجدد؛ بیشترین مصرف حافظه. پس از راه‌اندازی مجدد کامل ماشین مجازی اعمال می‌شود.</string>
+    <string name="vs_memory_medium_sub">متعادل: تعداد متوسطی برنامهٔ پس‌زمینه را نگه می‌دارد و وقتی حافظهٔ آزاد کم شود بقیه را متوقف می‌کند. پس از راه‌اندازی مجدد کامل ماشین مجازی اعمال می‌شود.</string>
+    <string name="vs_memory_aggressive_sub">تعداد کمی برنامهٔ پس‌زمینه را نگه می‌دارد و مکرر بررسی می‌کند، بنابراین حافظه زود آزاد می‌شود. کمترین مصرف حافظه، اما برنامه‌ها بیشتر دوباره راه‌اندازی می‌شوند. پس از راه‌اندازی مجدد کامل ماشین مجازی اعمال می‌شود.</string>
     <string name="log_copy">کپی</string>
     <string name="log_export">خروجی .log</string>
     <string name="log_copied">در کلیپ‌بورد کپی شد</string>
@@ -222,9 +222,9 @@
     <string name="update_download_error">دانلود ناموفق بود: %1$s</string>
     <string name="update_open_github">مشاهده در GitHub</string>
     <string name="vs_camera">دوربین میزبان (آزمایشی)</string>
-    <string name="vs_camera_sub">رام‌های HAL1: پیش‌نمایش و عکس 640×480، دوربین پشت/جلو. به مجوز و راه‌اندازی مجدد کامل ماشین مجازی نیاز دارد. وقتی AEmulator به پس‌زمینه می‌رود دوربین بسته می‌شود؛ برنامه دوربین مهمان را دوباره باز کنید. ضبط ویدیو وجود ندارد.</string>
+    <string name="vs_camera_sub">رام‌های HAL1: پیش‌نمایش و عکس 640×480، دوربین پشت/جلو. به مجوز و راه‌اندازی مجدد کامل ماشین مجازی نیاز دارد. وقتی AEmulator Plus به پس‌زمینه می‌رود دوربین بسته می‌شود؛ برنامه دوربین مهمان را دوباره باز کنید. ضبط ویدیو وجود ندارد.</string>
     <string name="vs_microphone">میکروفون میزبان (آزمایشی)</string>
-    <string name="vs_microphone_sub">برنامه‌های مهمان با میکروفون گوشی ضبط می‌کنند (ضبط صدا، یادداشت‌ها). به مجوز و راه‌اندازی مجدد کامل ماشین مجازی نیاز دارد. با رفتن AEmulator به پس‌زمینه ضبط متوقف می‌شود؛ برنامه ضبط مهمان را دوباره باز کنید. فقط رام 4.x.</string>
+    <string name="vs_microphone_sub">برنامه‌های مهمان با میکروفون گوشی ضبط می‌کنند (ضبط صدا، یادداشت‌ها). به مجوز و راه‌اندازی مجدد کامل ماشین مجازی نیاز دارد. با رفتن AEmulator Plus به پس‌زمینه ضبط متوقف می‌شود؛ برنامه ضبط مهمان را دوباره باز کنید. فقط رام 4.x.</string>
     <string name="microphone_permission_denied">مجوز میکروفون رد شد. برنامه‌های مهمان سکوت ضبط می‌کنند؛ مجوز را در تنظیمات برنامه اندروید بدهید و ماشین مجازی را کاملاً راه‌اندازی مجدد کنید.</string>
     <string name="camera_permission_denied">مجوز دوربین رد شد. رام بدون دسترسی به دوربین میزبان بوت می‌شود؛ برای تلاش دوباره، مجوز را در تنظیمات برنامه اندروید بدهید و ماشین مجازی را کاملاً راه‌اندازی مجدد کنید.</string>
     <string name="vs_skip_setup">رد شدن از راهنمای راه‌اندازی</string>
@@ -316,10 +316,6 @@
     <string name="update_error_title">خطا</string>
     <string name="update_download_failed_generic">خطای دانلود</string>
     <string name="update_network_error">خطای شبکه</string>
-    <plurals name="catalog_rom_count">
-        <item quantity="one">%1$d رام</item>
-        <item quantity="other">%1$d رام</item>
-    </plurals>
     <string name="vs_network">شبکهٔ گزارش‌شده</string>
     <string name="vs_network_sub">آنچه نوار وضعیت نشان می‌دهد: از 2G تا LTE. پیش‌فرض 2G است، چون هر سفت‌افزاری 3G یا جدیدتر را پشتیبانی نمی‌کند</string>
     <string name="m_network">شبکه</string>
@@ -517,10 +513,6 @@
     <string name="folder_empty">خالی — رام‌ها را اینجا رها کنید</string>
     <string name="folder_open">باز کردن پوشه</string>
     <string name="folder_close">بستن پوشه</string>
-    <plurals name="folder_roms">
-        <item quantity="one">%1$d رام</item>
-        <item quantity="other">%1$d رام</item>
-    </plurals>
     <string name="phantom_title">کشنده فرایندهای شبح</string>
     <string name="phantom_msg">گزینه «غیرفعال کردن محدودیت‌های فرایندهای فرزند» در گزینه‌های توسعه‌دهنده دستگاه شما روشن نیست. این یعنی zygote هنگام راه‌اندازی شبیه‌ساز کشته می‌شود و بوت شدن شبیه‌ساز ناممکن می‌شود. بنابراین روشن کردن آن به‌شدت توصیه می‌شود.</string>
     <string name="phantom_open_dev">باز کردن گزینه‌های توسعه‌دهنده</string>
@@ -534,4 +526,18 @@
     <string name="catalog_download_checking">در حال بررسی پیوند…</string>
     <string name="catalog_download_title">در حال دانلود ROM</string>
     <string name="catalog_download_failed">دانلود ناموفق بود: %1$s</string>
+    <string name="al_title">راه‌انداز Activity</string>
+    <string name="m_activities">راه‌انداز Activity</string>
+    <string name="al_search_packages">جستجوی بسته‌ها</string>
+    <string name="al_search_activities">جستجوی Activityها</string>
+    <string name="al_no_packages">بسته‌ای پیدا نشد</string>
+    <string name="al_no_activities">Activityای پیدا نشد</string>
+    <string name="al_not_exported">خارج‌شده نیست</string>
+    <string name="al_starting">در حال راه‌اندازی %1$s…</string>
+    <string name="catalog_share_rom">هم‌رسانی پیوند دانلود %1$s</string>
+    <string name="m_battery_old_note">این نسخهٔ اندروید باتری را فقط هنگام راه‌اندازی می‌خواند. سطح و وضعیت شارژی که تنظیم می‌کنید ذخیره می‌شود و دفعهٔ بعد که ماشین مجازی راه‌اندازی می‌شود استفاده می‌شود.</string>
+    <string name="vs_no_dex2oat">غیرفعال‌سازی dex2oat (اندروید 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">برنامه‌ها و کد سیستم هرگز در سیستم مهمان کامپایل نمی‌شوند: هر اجرای dex2oat بلافاصله شکست می‌خورد. هشدار: این می‌تواند خرابی‌ها، خطاهای تصویری و رفتارهای ناخواستهٔ دیگری ایجاد کند (برنامه‌ها کندتر اجرا می‌شوند، برخی میان‌افزارها بدون کامپایل بالا نمی‌آیند). به‌طور پیش‌فرض خاموش است. در راه‌اندازی کامل بعدی اعمال می‌شود.</string>
+    <string name="m_multitask">تعویض وظایف</string>
+    <string name="nav_show">نمایش نوار دکمه‌های اندروید</string>
 </resources>

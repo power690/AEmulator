@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Ang VM backup (.aessvm) ay kailangang i-import nang mag-isa, hindi kasama ng iba pang file.</string>
     <string name="imp_joining">Pinagsasama ang %2$d bahagi ng %1$s…</string>
     <string name="imp_split_missing">Nawawala ang bahaging %2$s ng hinating archive na %1$s. Piliin ang lahat ng bahagi nito, o ilagay ang mga ito sa iisang folder.</string>
+    <string name="fb_search">Maghanap</string>
+    <string name="fb_search_hint">Maghanap sa folder na ito</string>
+    <string name="fb_no_matches">Walang tumugma na file o folder</string>
 </resources>

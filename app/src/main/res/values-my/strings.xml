@@ -109,7 +109,7 @@
     <string name="as_orig_sub">ဤစီမံကိန်း ဆင်းသက်လာသည့် Desire HD နှင့် One M7 အီမူလေတာများကို ဖန်တီးသူ</string>
     <string name="as_github">GitHub ပေါ်ရှိ ရင်းမြစ်ကုဒ်</string>
     <string name="as_version">ဗားရှင်း %1$s</string>
-    <string name="as_about">AEmulator သည် ဂန္ထဝင် Android ဖမ်းဝဲကို ခေတ်မီဖုန်းများပေါ်တွင် လည်ပတ်စေသည်။ အခမဲ့ဖြစ်ပြီး ရင်းမြစ်ကုဒ်ဖွင့်ထားသည်။</string>
+    <string name="as_about">AEmulator Plus သည် ဂန္ထဝင် Android ဖမ်းဝဲကို ခေတ်မီဖုန်းများပေါ်တွင် လည်ပတ်စေသည်။ အခမဲ့ဖြစ်ပြီး ရင်းမြစ်ကုဒ်ဖွင့်ထားသည်။</string>
     <string name="log_copy">ကူးယူရန်</string>
     <string name="log_export">.log ထုတ်ယူရန်</string>
     <string name="log_copied">ကလစ်ဘုတ်သို့ ကူးယူပြီးပါပြီ</string>
@@ -245,9 +245,9 @@
     <string name="update_download_error">ဒေါင်းလုဒ် မအောင်မြင်ပါ- %1$s</string>
     <string name="update_open_github">GitHub တွင် ကြည့်ရန်</string>
     <string name="vs_camera">ဟို့စ်ကင်မရာ (စမ်းသပ်ဆဲ)</string>
-    <string name="vs_camera_sub">HAL1 ROM များ- 640×480 ကြိုတင်ကြည့်ရှုမှုနှင့် ဓာတ်ပုံများ၊ နောက်/ရှေ့ကင်မရာ။ ခွင့်ပြုချက်နှင့် VM ကို အပြည့်အဝ ပြန်စတင်ရန် လိုအပ်သည်။ AEmulator ကို နောက်ခံသို့ ပို့လျှင် ကင်မရာပိတ်သွားသည်၊ ဧည့်သည်၏ ကင်မရာအက်ပ်ကို ပြန်ဖွင့်ပါ။ ဗီဒီယိုကို 640×480 ဖြင့် ရိုက်ကူးသည်။</string>
+    <string name="vs_camera_sub">HAL1 ROM များ- 640×480 ကြိုတင်ကြည့်ရှုမှုနှင့် ဓာတ်ပုံများ၊ နောက်/ရှေ့ကင်မရာ။ ခွင့်ပြုချက်နှင့် VM ကို အပြည့်အဝ ပြန်စတင်ရန် လိုအပ်သည်။ AEmulator Plus ကို နောက်ခံသို့ ပို့လျှင် ကင်မရာပိတ်သွားသည်၊ ဧည့်သည်၏ ကင်မရာအက်ပ်ကို ပြန်ဖွင့်ပါ။ ဗီဒီယိုကို 640×480 ဖြင့် ရိုက်ကူးသည်။</string>
     <string name="vs_microphone">ဟို့စ်မိုက်ခရိုဖုန်း (စမ်းသပ်ဆဲ)</string>
-    <string name="vs_microphone_sub">ဧည့်သည်အက်ပ်များက ဖုန်း၏ မိုက်ခရိုဖုန်းမှ အသံသွင်းသည် (အသံသွင်းစက်၊ မှတ်စုများ)။ ခွင့်ပြုချက်နှင့် VM ကို အပြည့်အဝ ပြန်စတင်ရန် လိုအပ်သည်။ AEmulator ကို နောက်ခံသို့ ပို့လျှင် အသံသွင်းခြင်း ရပ်သွားသည်၊ ဧည့်သည်၏ အသံသွင်းအက်ပ်ကို ပြန်ဖွင့်ပါ။ 4.x ROM များအတွက်သာ။</string>
+    <string name="vs_microphone_sub">ဧည့်သည်အက်ပ်များက ဖုန်း၏ မိုက်ခရိုဖုန်းမှ အသံသွင်းသည် (အသံသွင်းစက်၊ မှတ်စုများ)။ ခွင့်ပြုချက်နှင့် VM ကို အပြည့်အဝ ပြန်စတင်ရန် လိုအပ်သည်။ AEmulator Plus ကို နောက်ခံသို့ ပို့လျှင် အသံသွင်းခြင်း ရပ်သွားသည်၊ ဧည့်သည်၏ အသံသွင်းအက်ပ်ကို ပြန်ဖွင့်ပါ။ 4.x ROM များအတွက်သာ။</string>
     <string name="microphone_permission_denied">မိုက်ခရိုဖုန်းခွင့်ပြုချက်ကို ငြင်းပယ်ထားသည်။ ဧည့်သည်အက်ပ်များသည် တိတ်ဆိတ်သံကိုသာ သွင်းမည်၊ Android အက်ပ်ဆက်တင်များတွင် ခွင့်ပြုပြီး ထပ်စမ်းရန် VM ကို အပြည့်အဝ ပြန်စတင်ပါ။</string>
     <string name="vs_sim_title">SIM ကတ်များ</string>
     <string name="vs_sim_present">SIM ကတ် ထည့်ထားသည်</string>
@@ -525,4 +525,26 @@
     <string name="phantom_open_dev">ဆော့ဖ်ဝဲရေးသူ ရွေးချယ်စရာများကို ဖွင့်ရန်</string>
     <string name="phantom_ignore">လျစ်လျူရှုရန်</string>
     <string name="phantom_never">နောက်ထပ် မသတိပေးပါနှင့်</string>
+    <string name="al_title">Activity လန့်ချာ</string>
+    <string name="m_activities">Activity လန့်ချာ</string>
+    <string name="al_search_packages">ပက်ကေ့တ်များ ရှာဖွေရန်</string>
+    <string name="al_search_activities">Activity များ ရှာဖွေရန်</string>
+    <string name="al_no_packages">ပက်ကေ့တ် ရှာမတွေ့ပါ</string>
+    <string name="al_no_activities">Activity ရှာမတွေ့ပါ</string>
+    <string name="al_not_exported">တင်ပို့မထားပါ</string>
+    <string name="al_starting">%1$s ကို စတင်နေသည်…</string>
+    <string name="catalog_share_rom">%1$s အတွက် ဒေါင်းလုပ်လင့်ခ် မျှဝေရန်</string>
+    <string name="catalog_download_checking">လင့်ခ်ကို စစ်ဆေးနေသည်…</string>
+    <string name="catalog_download_title">ROM ဒေါင်းလုပ်လုပ်နေသည်</string>
+    <string name="catalog_download_failed">ဒေါင်းလုပ် မအောင်မမင်း- %1$s</string>
+    <string name="m_battery_old_note">Android ဤဗားရှင်းသည် စတင်နေချိန်တွင်သာ ဘက်ထရီကို ဖတ်သည်။ သင်ချမ်းဆည်းထားသော အဆင့်နှင့် အားသွင်းမှုအခြေအနေကို သိမ်းဆည်းပြီး VM နောက်တစ်ကြိမ် စတင်သောအခါ အသုံးပြုသည်။</string>
+    <string name="m_netdebug">HTTP ဒီဘဂါ</string>
+    <string name="vs_netdebug">HTTP ဒီဘဂါ</string>
+    <string name="vs_netdebug_sub">Guest ၏ HTTP နှင့် HTTPS တောင်းဆိုမှုများကို မှတ်တမ်းတင်ပြီး အားပြန်ရန် သို့မဟုတ် ပြောင်းလဲရန် လုပ်ဆောင်နိုင်သည် (မီနူး › HTTP ဒီဘဂါ)။ Guest ၏ trust store တွင် ဒီဘဂါ CA ထည့်သည်။ နောက်တစ်ကြိမ် အပြည့်အဝ စတင်သောအခါ အသုံးဝင်သည်။</string>
+    <string name="vs_no_dex2oat">dex2oat ပိတ်ရန် (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">App များနှင့် စနစ်ကုဒ်များကို guest တွင် ဘယ်တော့မှ ကွန်ပိုင်းမလုပ်ပါ- dex2oat လုပ်ဆောင်မှု တစ်ခုစီသည် ချက်ချင်း မအောင်မမင်း ဖြစ်သည်။ သတိပေးချက်- ခရက်ရှ်များ၊ ဂလစ်ချ်များနှင့် အခြားမျှော်မှန်းမထားသော အပြုအမူများ ဖြစ်ပေါ်နိုင်သည် (app များ နှေးသွားသည်၊ firmware အချို့သည် ကွန်ပိုင်းမရှိပါက ဘူးတ်မလုပ်နိုင်ပါ)။ မူလအခြေအနေအားဖြင့် ပိတ်ထားသည်။ နောက်တစ်ကြိမ် အပြည့်အဝ စတင်သောအခါ အသုံးဝင်သည်။</string>
+    <string name="vs_skip_perm_wait">ခွင့်ပြုချက် ထိန်းချုပ်မှု စောင့်ဆိုင်းမှုကို ကျော်လွန်ရန် (Android 10-13)</string>
+    <string name="vs_skip_perm_wait_sub">ARM ဖုန်းပေါ်ရှိ x86 firmware အတွက်၊ ခွင့်ပြုချက် ထိန်းချုပ်မှု app သည် စက္ကန့် ၆၀ အတွင်း ဖြေဆိုရမှု နှေးကွေးလွန်း၍ system_server ကို ပိတ်လိုက်သည် (\"Error granting/upgrading runtime permissions\")။ firmware ၏ services.jar ကို ပက်ချ်ထား၍ ဘူးတ်လုပ်ဆောင်စဉ် မူလခွင့်ပြုချက် runtime ပေးအပ်မှုများကို မစောင့်ဆိုင်းရ- ထို့ကြောင့် ကြိုတင်ထည့်သွင်းထားသော app များသည် ဘူးတ်ချိန်တွင် ထိုခွင့်ပြုချက်များ မရရှိပါ။ dex2oat သည် ပက်ချ်လုပ်ထားသော jar ကို ပြန်ကွန်ပိုင်းခွင့် မပြုပါ။ ပိတ်လိုက်ပါက မူလ jar ပြန်ရရှိသည်။ နောက်တစ်ကြိမ် အပြည့်အဝ ဘူးတ်သောအခါ အကျိုးသက်ရောက်သည်။</string>
+    <string name="m_multitask">အလုပ်များ ပြောင်းခြင်း</string>
+    <string name="nav_show">Android ခလုတ်ဘားကို ပြပါ</string>
 </resources>

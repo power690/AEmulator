@@ -8,4 +8,12 @@
     <string name="tab_minimize">ချုံ့ရန်</string>
     <string name="tab_shutdown">စက်ပိတ်ရန်</string>
     <string name="vm_slots_full">စက်နေရာ %1$d ခုလုံး အသုံးပြုနေသည်။ အရင်ဆုံး တစ်ခုကို ပိတ်ပါ။</string>
+    <string name="tab_bar_hide">tab bar ကို ဖျောက်ပါ</string>
+    <string name="tab_bar_show">tab bar ကို ပြပါ</string>
+    <string name="tab_drag_label">ခွဲရန် ဖန်သားပေါ်သို့ ဖို့ပါ</string>
+    <string name="tab_group_title">tab 2 ခု</string>
+    <string name="tab_split_action">ခွဲပါ</string>
+    <string name="tab_split_failed">ထိုစက်ကို ဤ tab သို့ ထပ်တော့ မထည့်နိုင်တော့ပါ။</string>
+    <string name="tab_split_text">စက်တိုင်း ကိုယ်ပိုင် tab သို့ ပြန်သွားမည်။ နှစ်ခုလုံး လည်ပတ်နေမည်။</string>
+    <string name="tab_split_title">tab 2 ခုကို ခွဲမလား။</string>
 </resources>

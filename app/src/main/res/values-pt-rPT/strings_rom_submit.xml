@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">O catálogo tem mais de 10000 ROMs.</string>
     <string name="catalog_tested_on">Emulador %1$s</string>
     <string name="catalog_submitted_by">Submetida por %1$s</string>
+    <string name="submit_not_direct_title">Ligação direta necessária</string>
+    <string name="submit_not_direct_text">As submissões têm de ser ligações diretas de transferência do ficheiro da ROM. Ligações para páginas web ou para servidores que primeiro abrem uma página não são aceites.\n\nO sítio recomendado para carregar é o archive.org.</string>
 </resources>

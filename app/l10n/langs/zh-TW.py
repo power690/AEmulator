@@ -90,5 +90,5 @@ S = {
     "as_orig_sub": "Desire HD 與 One M7 模擬器的作者，本專案即由此發展而來",
     "as_github": "GitHub 上的原始碼",
     "as_version": "版本 %1$s",
-    "as_about": "AEmulator 可在現代手機上執行經典 Android 韌體。免費且開放原始碼。",
+    "as_about": "AEmulator Plus 可在現代手機上執行經典 Android 韌體。免費且開放原始碼。",
 }

@@ -82,6 +82,8 @@ static u64 g_rootlen;
 static char g_self[512];        // this program
 static char g_props[512];       // host file behind /dev/__properties__
 static char g_exe[PATH_MAX];    // guest view of the running program
+static char **g_argvp;          // our own exec's argv (argv[0] is the guest's argv[0] string, rewritten in place by setArgV0)
+static long g_argc0;
 static int g_uid, g_gid;        // the ids the guest believes it has
 static u32 g_real_uid;
 static char g_qemu[512];        // translator for the firmware's 32-bit programs (AEMU64_QEMU): qemu-arm, or qemu-i386 for an x86 firmware
@@ -362,6 +364,105 @@ static long fake_memfile(const char *name, const char *content, u64 len) {
     S3(NR_write, fd, content, len);
     S3(NR_lseek, fd, 0, 0 /*SEEK_SET*/);
     return fd;
+}
+
+// /proc/self/cmdline as the phone would show it. An app cannot move the kernel's arg_start (setArgV0 needs
+// CAP_SYS_RESOURCE for PR_SET_MM), so the guest would read this runner's whole command line: the guest program's
+// path and the zygote's -Xzygote arguments stay visible in every forked process forever, and FunTouch 9's
+// android.util.VivoConfigStorePropertyHelper.isZygote() (cmdline.contains("app_process")) took system_server for
+// the zygote, sending FtFeature queries down the zygote path until the Watchdog killed the boot. Before setArgV0
+// the answer is the guest's own command line; after it, the name alone.
+static long cmdline_open(void) {
+    if (!g_argvp || g_argc0 < 2 || g_is32) return -1;
+    char out[4096];
+    u64 o = 0;
+    if (g_argvp[0] && g_argvp[0][0] == '/') {
+        // the guest's argv[0] through its last argument (our own exec's argv[2], the guest program path, is
+        // not one of the guest's arguments)
+        for (long i = 1; i < g_argc0; i++) {
+            if (i == 2 || !g_argvp[i]) continue;
+            u64 l = slen(g_argvp[i]);
+            if (o + l + 1 > sizeof out) break;
+            memcpy(out + o, g_argvp[i], l + 1); o += l + 1;
+        }
+    } else {
+        // setArgV0() rewrote argv[0]: the command line is that name alone (that is how the kernel reads it
+        // once arg_start has moved onto the new string)
+        u64 l = slen(g_argvp[0]);
+        if (l >= sizeof out) l = sizeof out - 1;
+        memcpy(out, g_argvp[0], l + 1); o = l + 1;
+    }
+    return o ? fake_memfile("aemu-cmdline", out, o) : -1;
+}
+
+// ---------------------------------------------------------------------------------------------------- ids of others
+// Ported from the 33/34 engines (2026-11-19, FunTouch OS 9.2): a process here is the host app, so /proc/<pid>/status
+// shows the host's uid for every guest process. Android reads it back through Process.getUidForPid() - and vivo's
+// VivoConfigStoreHelper.hasVivoFeature() branches on exactly that: uid 1000 (system_server) must ask the configstore
+// HIDL service (absent here - the query throws, is caught and answers false), while any other uid is sent over binder
+// to VivoCommonService, whose isFeatureSupport() forwards straight back into FtFeature - an endless recursion on the
+// main thread that VivoWatchdogImpl killed the boot over ("Blocked in handler on main thread"). With the ids shown
+// the way the phone shows them, system_server takes the terminating HIDL branch like it does on the real device.
+// Each process leaves the ids the guest gave it in <root>/dev/.aemu-ids/<pid>, and that file is what a status read
+// is rewritten with.
+static int ids_path(char *p, long pid) {
+    if (g_rootlen > 400) return 0;
+    char d[24]; char *n = utoa((u64)pid, d + sizeof d);
+    memcpy(p, g_root, g_rootlen); memcpy(p + g_rootlen, "/dev/.aemu-ids/", 15); memcpy(p + g_rootlen + 15, n, slen(n) + 1);
+    return 1;
+}
+
+static void ids_put(void) {
+    char p[512], t[48], d[24];
+    if (!ids_path(p, 0)) return;
+    p[g_rootlen + 14] = 0; S3(NR_mkdirat, AT_FDCWD, p, 0700);
+    ids_path(p, S0(NR_getpid));
+    long fd = S4(NR_openat, AT_FDCWD, p, 01101 /*O_WRONLY|O_CREAT|O_TRUNC*/ | 02000000, 0600);
+    if (fd < 0) return;
+    char *n = utoa((u64)(u32)g_uid, d + sizeof d); u64 o = slen(n); memcpy(t, n, o); t[o++] = ' ';
+    n = utoa((u64)(u32)g_gid, d + sizeof d); memcpy(t + o, n, slen(n)); o += slen(n);
+    S3(NR_write, fd, t, o); S1(NR_close, fd);
+}
+
+// in and out: PATH_MAX each
+static long status_open(const char *path, char *in, char *out) {
+    char p[512], t[48];
+    long pid = path[6] >= '0' && path[6] <= '9' ? (long)atou(path + 6) : S0(NR_getpid);
+    if (!ids_path(p, pid)) return -1;
+    long fd = S4(NR_openat, AT_FDCWD, p, 02000000, 0);
+    if (fd < 0) return -1;
+    long n = S3(NR_read, fd, t, sizeof t - 1); S1(NR_close, fd);
+    if (n <= 0) return -1;
+    t[n] = 0;
+    u64 id[2] = { atou(t), 0 }; char *g = t; while (*g && *g != ' ') g++; if (*g) id[1] = atou(g + 1);
+    fd = S4(NR_openat, AT_FDCWD, path, 02000000, 0);
+    if (fd < 0) return fd;
+    n = S3(NR_read, fd, in, PATH_MAX - 1); S1(NR_close, fd);
+    if (n <= 0) return -1;
+    in[n] = 0;
+    int self = g_is32 && pid == (long)S0(NR_getpid);
+    u64 o = 0;
+    for (char *l = in; *l && o < PATH_MAX - 128; ) {
+        char *e = l; while (*e && *e != 10) e++;
+        int k = pre(l, "Uid:") ? 0 : pre(l, "Gid:") ? 1 : -1;
+        if (k < 0) {
+            // the 32-bit translator keeps a helper thread of its own; zygote checks the count before a fork
+            if (self && pre(l, "Threads:")) {
+                char *v = l + 8; while (v < e && (*v < '0' || *v > '9')) v++;
+                char *x = v; while (x < e && *x >= '0' && *x <= '9') x++;
+                if (x == e && x - v == 1 && *v > '1') (*v)--;
+            }
+            memcpy(out + o, l, (u64)(e - l)); o += (u64)(e - l);
+        }
+        else {
+            char d[24]; char *v = utoa(id[k], d + sizeof d);
+            memcpy(out + o, l, 4); o += 4;
+            for (int i = 0; i < 4; i++) { out[o++] = 9; memcpy(out + o, v, slen(v)); o += slen(v); }
+        }
+        if (*e) { out[o++] = 10; e++; }
+        l = e;
+    }
+    return fake_memfile("aemu-status", out, o);
 }
 
 // ---------------------------------------------------------------------------------------------------- netlink emulation
@@ -943,6 +1044,21 @@ static long trap2(long nr, long *a, void *uc, char **pbp) {
             if (pre(P(1), "/proc/") && ((pl >= 13 && seq(P(1) + pl - 13, "/attr/current")) || (pl >= 10 && seq(P(1) + pl - 10, "/attr/exec")))) {
                 return fake_memfile("aemu-attr", "u:r:su:s0\n", 10);
             }
+            if (seq(P(1), "/proc/self/cmdline") || seq(P(1), "proc/self/cmdline")) {
+                long r = cmdline_open();
+                if (r != -1) return r;
+            }
+            // the ids of a process as the phone would show them (ported from the 33/34 engines with the ids machinery
+            // above); without this every /proc/<pid>/status read reports the host app's uid and FunTouch 9's
+            // FtFeature queries never reached the branch that terminates them
+            if (pre(P(1), "/proc/") && P(1)[6] >= '1' && P(1)[6] <= '9' && pl >= 14 && seq(P(1) + pl - 7, "/status")) {
+                long r = status_open(P(1), PB(1), PB(2));
+                if (r != -1) return r;
+            }
+            if (seq(P(1), "/proc/self/status") || seq(P(1), "proc/self/status")) {
+                long r = status_open("/proc/self/status", PB(1), PB(2));
+                if (r != -1) return r;
+            }
             // Zygote (7.0+) keeps the trace marker open and fstat()s every descriptor it takes into a fork; the phone lets
             // an app write there but not stat it, so system_server died with "Unable to stat 5" (ported from the 30+ engine).
             // Nothing reads the guest's trace: /dev/null (zygote allows that one too)
@@ -1071,6 +1187,18 @@ static long trap2(long nr, long *a, void *uc, char **pbp) {
             if (seq(P(1), "/proc/self/exe") && g_exe[0]) {
                 u64 n = slen(g_exe); if (n > (u64)a[3]) n = (u64)a[3];
                 memcpy((void *)a[2], g_exe, n); return (long)n;
+            }
+        }
+        // The zygote's fd whitelist (Android 8-10: FileDescriptorInfo::CreateFromFd) stats and readlinks every
+        // descriptor it takes into a fork; our /dev/binder is a socket to binderd, and the raw "socket:[...]" answer
+        // ended zygote_secondary on its first fork ("Not whitelisted : socket:[...]"). Same answer as the 33/34
+        // engines have given since round 4: to the guest that descriptor is /dev/null.
+        if (P(1) && pre(P(1), "/proc/self/fd/")) {
+            int bfd = (int)atou(P(1) + 14);
+            if (is_binder_fd(bfd)) {
+                const char *dn = "/dev/null";
+                u64 n = slen(dn); if (n > (u64)a[3]) n = (u64)a[3];
+                memcpy((void *)a[2], dn, n); return (long)n;
             }
         }
         char *b1 = PB(0), *t = PB(1);
@@ -1290,9 +1418,10 @@ static long trap2(long nr, long *a, void *uc, char **pbp) {
     }
     case NR_getuid: case NR_geteuid: return g_uid;
     case NR_getgid: case NR_getegid: return g_gid;
-    case NR_setuid: g_uid = (int)a[0]; return 0;
+    // ids_put: /proc/<pid>/status shows the ids the guest set (see status_open) - zygote sets them per fork
+    case NR_setuid: g_uid = (int)a[0]; ids_put(); return 0;
     case NR_setgid: g_gid = (int)a[0]; return 0;
-    case NR_setreuid: case NR_setresuid: if ((int)a[1] != -1) g_uid = (int)a[1]; else if ((int)a[0] != -1) g_uid = (int)a[0]; return 0;
+    case NR_setreuid: case NR_setresuid: if ((int)a[1] != -1) g_uid = (int)a[1]; else if ((int)a[0] != -1) g_uid = (int)a[0]; ids_put(); return 0;
     case NR_setregid: case NR_setresgid: if ((int)a[1] != -1) g_gid = (int)a[1]; else if ((int)a[0] != -1) g_gid = (int)a[0]; return 0;
     case NR_setfsuid: return g_uid;
     case NR_setfsgid: return g_gid;
@@ -1664,6 +1793,7 @@ static const char *env_get(char **envp, const char *k) {
 void aemu_main(u64 *sp) {
     long argc = (long)sp[0];
     char **argv = (char **)(sp + 1), **envp = argv + argc + 1;
+    g_argvp = argv; g_argc0 = argc;
     u64 *auxv; { char **e = envp; while (*e) e++; auxv = (u64 *)(e + 1); }
     if (argc < 3) die("usage: aemu64 <argv0> <guest program> [args…]", "");
 
@@ -1687,6 +1817,7 @@ void aemu_main(u64 *sp) {
     if (n <= 0) die("cannot find myself", "");
     g_self[n] = 0;
     g_real_uid = (u32)S0(NR_getuid);
+    if (g_root[0]) ids_put();
     // a service starts in "/": 8.1 looks for vendor/etc/media_profiles_V1_0.xml by a relative path. Our own exec of a
     // guest program keeps the directory the guest is in.
     { char cw[PATH_MAX]; long cn = S2(NR_getcwd, cw, sizeof cw);

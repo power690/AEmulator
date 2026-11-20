@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">การดาวน์โหลดอื่นกำลังดำเนินอยู่</string>
+    <string name="rom_dl_cannot_start">เริ่มการดาวน์โหลดในเบื้องหลังไม่สำเร็จ</string>
+    <string name="rom_dl_channel">ดาวน์โหลด ROM</string>
+    <string name="rom_dl_channel_done">ดาวน์โหลด ROM เสร็จสิ้น</string>
+    <string name="rom_dl_done">ดาวน์โหลด ROM แล้ว</string>
+    <string name="rom_dl_done_text">แตะเพื่อนำเข้า %1$s</string>
+    <string name="rom_dl_failed">ดาวน์โหลด ROM ล้มเหลว</string>
+    <string name="rom_dl_hide">ซ่อน</string>
+    <string name="rom_dl_page">ลิงก์ดาวน์โหลด</string>
+    <string name="rom_dl_page_text">ลิงก์นี้เป็นหน้าเว็บ แตะเพื่อเปิดในเบราว์เซอร์</string>
+</resources>

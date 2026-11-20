@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Catalogul are mai mult de 10000 de ROM-uri.</string>
     <string name="catalog_tested_on">Emulator %1$s</string>
     <string name="catalog_submitted_by">Trimis de %1$s</string>
+    <string name="submit_not_direct_title">Este necesar un link direct</string>
+    <string name="submit_not_direct_text">Trimiterile trebuie să fie linkuri directe de descărcare a fișierului ROM. Linkurile către pagini web sau către gazde de fișiere care deschid mai întâi o pagină nu sunt acceptate.\n\nLocul recomandat pentru încărcare este archive.org.</string>
 </resources>

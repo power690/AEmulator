@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">VM बैकअप (.aessvm) को अकेले इम्पोर्ट करना होगा, दूसरी फ़ाइलों के साथ नहीं।</string>
     <string name="imp_joining">%1$s के %2$d हिस्से जोड़े जा रहे हैं…</string>
     <string name="imp_split_missing">बँटे हुए आर्काइव %1$s का हिस्सा %2$s नहीं मिला। उसके सभी हिस्से चुनें या उन्हें एक फ़ोल्डर में रखें।</string>
+    <string name="fb_search">खोजें</string>
+    <string name="fb_search_hint">इस फ़ोल्डर में खोजें</string>
+    <string name="fb_no_matches">कोई फ़ाइल या फ़ोल्डर मैच नहीं होता</string>
 </resources>

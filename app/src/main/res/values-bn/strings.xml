@@ -108,7 +108,7 @@
     <string name="as_orig_sub">Desire HD ও One M7 এমুলেটরের নির্মাতা, যেগুলো থেকে এই প্রজেক্টের জন্ম</string>
     <string name="as_github">GitHub-এ সোর্স কোড</string>
     <string name="as_version">সংস্করণ %1$s</string>
-    <string name="as_about">AEmulator আধুনিক ফোনে ক্লাসিক অ্যান্ড্রয়েড ফার্মওয়্যার চালায়। বিনামূল্যে ও ওপেন সোর্স।</string>
+    <string name="as_about">AEmulator Plus আধুনিক ফোনে ক্লাসিক অ্যান্ড্রয়েড ফার্মওয়্যার চালায়। বিনামূল্যে ও ওপেন সোর্স।</string>
     <string name="log_copy">কপি করুন</string>
     <string name="log_export">.log এক্সপোর্ট করুন</string>
     <string name="log_copied">ক্লিপবোর্ডে কপি হয়েছে</string>
@@ -244,9 +244,9 @@
     <string name="update_download_error">ডাউনলোড ব্যর্থ হয়েছে: %1$s</string>
     <string name="update_open_github">GitHub-এ দেখুন</string>
     <string name="vs_camera">হোস্ট ক্যামেরা (পরীক্ষামূলক)</string>
-    <string name="vs_camera_sub">HAL1 রম: 640×480 প্রিভিউ ও ছবি, পেছনের/সামনের ক্যামেরা। অনুমতি ও সম্পূর্ণ VM রিস্টার্ট দরকার। AEmulator ব্যাকগ্রাউন্ডে গেলে ক্যামেরা বন্ধ হয়ে যায়; গেস্টের ক্যামেরা অ্যাপ আবার খুলুন। ভিডিও 640×480-এ রেকর্ড হয়।</string>
+    <string name="vs_camera_sub">HAL1 রম: 640×480 প্রিভিউ ও ছবি, পেছনের/সামনের ক্যামেরা। অনুমতি ও সম্পূর্ণ VM রিস্টার্ট দরকার। AEmulator Plus ব্যাকগ্রাউন্ডে গেলে ক্যামেরা বন্ধ হয়ে যায়; গেস্টের ক্যামেরা অ্যাপ আবার খুলুন। ভিডিও 640×480-এ রেকর্ড হয়।</string>
     <string name="vs_microphone">হোস্ট মাইক্রোফোন (পরীক্ষামূলক)</string>
-    <string name="vs_microphone_sub">গেস্ট অ্যাপ ফোনের মাইক্রোফোন থেকে রেকর্ড করে (ভয়েস রেকর্ডার, নোট)। অনুমতি ও সম্পূর্ণ VM রিস্টার্ট দরকার। AEmulator ব্যাকগ্রাউন্ডে গেলে রেকর্ডিং থেমে যায়; গেস্টের রেকর্ডার অ্যাপ আবার খুলুন। শুধু 4.x রমের জন্য।</string>
+    <string name="vs_microphone_sub">গেস্ট অ্যাপ ফোনের মাইক্রোফোন থেকে রেকর্ড করে (ভয়েস রেকর্ডার, নোট)। অনুমতি ও সম্পূর্ণ VM রিস্টার্ট দরকার। AEmulator Plus ব্যাকগ্রাউন্ডে গেলে রেকর্ডিং থেমে যায়; গেস্টের রেকর্ডার অ্যাপ আবার খুলুন। শুধু 4.x রমের জন্য।</string>
     <string name="microphone_permission_denied">মাইক্রোফোনের অনুমতি প্রত্যাখ্যাত হয়েছে। গেস্ট অ্যাপ নীরবতা রেকর্ড করবে; অ্যান্ড্রয়েডের অ্যাপ সেটিংসে অনুমতি দিন এবং আবার চেষ্টা করতে VM সম্পূর্ণ রিস্টার্ট করুন।</string>
     <string name="vs_sim_title">SIM কার্ড</string>
     <string name="vs_sim_present">SIM কার্ড ঢোকানো আছে</string>
@@ -526,4 +526,26 @@
     <string name="phantom_open_dev">ডেভেলপার অপশন খুলুন</string>
     <string name="phantom_ignore">উপেক্ষা করুন</string>
     <string name="phantom_never">আর মনে করিয়ে দেবেন না</string>
+    <string name="al_title">Activity লঞ্চার</string>
+    <string name="m_activities">Activity লঞ্চার</string>
+    <string name="al_search_packages">প্যাকেজ খুঁজুন</string>
+    <string name="al_search_activities">Activity খুঁজুন</string>
+    <string name="al_no_packages">কোনো প্যাকেজ পাওয়া যায়নি</string>
+    <string name="al_no_activities">কোনো Activity পাওয়া যায়নি</string>
+    <string name="al_not_exported">এক্সপোর্ট করা নয়</string>
+    <string name="al_starting">%1$s চালু হচ্ছে…</string>
+    <string name="catalog_share_rom">%1$s-এর ডাউনলোড লিঙ্ক শেয়ার করুন</string>
+    <string name="catalog_download_checking">লিঙ্ক পরীক্ষা করা হচ্ছে…</string>
+    <string name="catalog_download_title">ROM ডাউনলোড হচ্ছে</string>
+    <string name="catalog_download_failed">ডাউনলোড ব্যর্থ: %1$s</string>
+    <string name="m_battery_old_note">এই Android সংস্করণ ব্যাটারি শুধু চালু হওয়ার সময়ে পড়ে। আপনার সেট করা লেভেল ও চার্জিং অবস্থা সংরক্ষিত হয়ে VM পরের বার চালু হলে ব্যবহৃত হয়।</string>
+    <string name="m_netdebug">HTTP ডিবাগার</string>
+    <string name="vs_netdebug">HTTP ডিবাগার</string>
+    <string name="vs_netdebug_sub">গেস্টের HTTP ও HTTPS রিকোয়েস্ট লগ করে এবং সেগুলোর উত্তর দিতে বা বদলাতে পারে (মেনু › HTTP ডিবাগার)। গেস্টের ট্রাস্ট স্টোরে একটি ডিবাগ CA রাখে। পরের পূর্ণ চালু হওয়ায় প্রযোজ্য।</string>
+    <string name="vs_no_dex2oat">dex2oat নিষ্ক্রিয় করুন (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">অ্যাপ ও সিস্টেম কোড গেস্টে কখনোই কম্পাইল হয় না: dex2oat-এর প্রতিটি রান সঙ্গে সঙ্গে ব্যর্থ হয়। সতর্কতা: এতে ক্র্যাশ, গ্লিচ ও অন্যান্য অনাকাঙ্ক্ষিত আচরণ হতে পারে (অ্যাপ ধীরে চলে, কিছু ফার্মওয়্যার কম্পাইল ছাড়া চালু হয় না)। ডিফল্টে বন্ধ। পরের পূর্ণ চালু হওয়ায় প্রযোজ্য।</string>
+    <string name="vs_skip_perm_wait">পারমিশন কন্ট্রোলারের অপেক্ষা এড়িয়ে যান (Android 10-13)</string>
+    <string name="vs_skip_perm_wait_sub">ARM ফোনে x86 ফার্মওয়্যারের জন্য, যেখানে পারমিশন কন্ট্রোলার অ্যাপ ৬০ সেকেন্ডের মধ্যে উত্তর দিতে পারে না বলে system_server মারা যায় (\"Error granting/upgrading runtime permissions\")। ফার্মওয়্যারের services.jar প্যাচ করে যাতে বুট ডিফল্ট রানটাইম পারমিশন গ্রান্টের অপেক্ষা না করে; ফলে প্রি-ইনস্টলড অ্যাপ বুটে সেই পারমিশনগুলো পায় না। dex2oat প্যাচ করা jar আবার কম্পাইল করতে দেওয়া হয় না। বন্ধ করলে আসল jar ফিরে আসে। পরের পূর্ণ বুটে কার্যকর।</string>
+    <string name="m_multitask">টাস্ক পরিবর্তন</string>
+    <string name="nav_show">অ্যান্ড্রয়েড বোতাম বার দেখান</string>
 </resources>

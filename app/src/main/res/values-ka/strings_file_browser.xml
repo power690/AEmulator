@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="as_builtin_browser">ჩაშენებული ფაილ ბრაუზერი</string>
+    <string name="as_builtin_browser_sub">აირჩიეთ firmware თარიღისა და ზომის დალაგებით, რამდენიმე ფაილი ერთად. გამორთეთ სისტემური ასარჩევის გამოსაყენებლად.</string>
+    <string name="fb_access_scoped">Android 10 ფაილების უმეტესობას ემალება იმ აპებს, რომლებსაც scoped storage-დან გამოსვლა არ აქვთ, ამიტომ ეს ბრაუზერი ვერ აჩვენებს მათ აქ. გამოიყენეთ სისტემური ასარჩევი.</string>
+    <string name="fb_access_text">თქვენი firmware-ის ფაილების სიის საჩვენებლად და რამდენიმე ერთად ასარჩევად ბრაუზერს თქვენს ფაილებზე წვდომა სჭირდება. ასევე შეგიძლიათ სისტემური ასარჩევი გამოიყენოთ.</string>
+    <string name="fb_access_title">ფაილებზე წვდომის ნებართვა</string>
+    <string name="fb_clear">გასუფთავება</string>
+    <string name="fb_documents">დოკუმენტები</string>
+    <string name="fb_downloads">ჩამოტვირთვები</string>
+    <string name="fb_empty">აქ არაფერია</string>
+    <string name="fb_firmware">aemulator/firmware</string>
+    <string name="fb_hidden">დამალული</string>
+    <string name="fb_import">შემოტანა</string>
+    <string name="fb_internal">შიდა მეხსიერება</string>
+    <string name="fb_no_matches">არცერთი ფაილი ან საქაღალდე არ ერგება</string>
+    <string name="fb_removable">SD ბარათი / USB %1$d</string>
+    <string name="fb_search">ძიება</string>
+    <string name="fb_search_hint">ამ საქაღალდეში ძიება</string>
+    <string name="fb_selected">არჩეულია %1$d</string>
+    <string name="fb_sort_date">თარიღი</string>
+    <string name="fb_sort_name">სახელი</string>
+    <string name="fb_sort_size">ზომა</string>
+    <string name="fb_system_picker">სისტემური ასარჩევი</string>
+    <string name="fb_title_multi">აირჩიეთ ფაილები</string>
+    <string name="fb_title_single">აირჩიეთ ფაილი</string>
+    <string name="fb_unreadable">ეს საქაღალდე წაკითხვადი არ არის. Android ზოგ საქაღალდეს (მაგ. სხვა აპების მონაცემებს) ყველა აპისთვის დახურულს ტოვებს.</string>
+    <string name="fb_up">ზემოთ</string>
+    <string name="fb_use_system_picker">სისტემური ასარჩევის გამოყენება</string>
+    <string name="imp_archive_alone">VM-ის სათავსო (.aessvm) ცალკე უნდა შემოიტანოთ, სხვა ფაილებთან ერთად არა.</string>
+    <string name="imp_joining">ერთიანდება %1$s-ის %2$d ნაწილი…</string>
+    <string name="imp_split_missing">%1$s გაყოფილი არქივის ნაწილი %2$s აკლია. აირჩიეთ ყველა ნაწილი ან დატოვეთ ერთ საქაღალდეში.</string>
+</resources>

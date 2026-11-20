@@ -54,12 +54,14 @@ cd AEmulator-Plus
 
 AEmulator Plus, [ilk geliştiricinin](https://t.me/istratiit_ech) HTC Desire HD ve HTC One M7 emülatörlerinden doğdu — onun motoru olmadan bu proje olmazdı.
 
-Bu, kendisi de [uxazu/AEmulator](https://github.com/uxazu/AEmulator) deposunun değiştirilmiş bir çatalı olan [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset) deposunun değiştirilmiş bir çatalıdır.
+Bu, kendisi de [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset) deposunun değiştirilmiş bir çatalı olan [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus) deposunun değiştirilmiş bir çatalıdır; AEmulator-Sunset ise [uxazu/AEmulator](https://github.com/uxazu/AEmulator) deposunun değiştirilmiş bir çatalıdır.
 
 ## 🔗 Bağlantılar
 
 - Çatalım: [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)
-- Üst proje: [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)
+- Üst proje: [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)
+
+- AEmulator-Sunset: [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)
 - Orijinal: [uxazu/AEmulator](https://github.com/uxazu/AEmulator)
 - Geliştirici: [somerandomusername2](https://github.com/somerandomusernam2)
 - İlk geliştirici: [t.me/istratiit_ech](https://t.me/istratiit_ech)

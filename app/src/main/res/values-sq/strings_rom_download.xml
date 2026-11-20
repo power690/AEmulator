@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Një shkarkim tjetër është ende në vazhdim.</string>
+    <string name="rom_dl_cannot_start">Shkarkimi nuk mund të nisej në sfond.</string>
+    <string name="rom_dl_channel">Shkarkim ROM</string>
+    <string name="rom_dl_channel_done">Shkarkimi i ROM përfundoi</string>
+    <string name="rom_dl_done">ROM u shkarkua</string>
+    <string name="rom_dl_done_text">Prek për të importuar %1$s</string>
+    <string name="rom_dl_failed">Shkarkimi i ROM dështoi</string>
+    <string name="rom_dl_hide">Fshih</string>
+    <string name="rom_dl_page">Lidhja e shkarkimit</string>
+    <string name="rom_dl_page_text">Kjo lidhje është një faqe në internet. Prek për ta hapur në shfletues.</string>
+</resources>

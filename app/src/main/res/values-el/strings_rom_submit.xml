@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Ο κατάλογος έχει περισσότερα από 10000 ROM.</string>
     <string name="catalog_tested_on">Εξομοιωτής %1$s</string>
     <string name="catalog_submitted_by">Υποβλήθηκε από %1$s</string>
+    <string name="submit_not_direct_title">Απαιτείται απευθείας σύνδεσμος</string>
+    <string name="submit_not_direct_text">Οι υποβολές πρέπει να είναι απευθείας σύνδεσμοι λήψης του αρχείου ROM. Σύνδεσμοι σε ιστοσελίδες ή σε υπηρεσίες που ανοίγουν πρώτα σελίδα δεν γίνονται δεκτοί.\n\nΠροτεινόμενος χώρος αποθήκευσης: archive.org.</string>
 </resources>

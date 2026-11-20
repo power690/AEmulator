@@ -188,9 +188,16 @@ static void bootstrap_lib(char *buf, char *n) {
 
 static const char *xl(const char *p, char *buf, int *err) {
     if (!p) return p;
-    if (p[0] != '/') return p;
     char *n = buf + g_rootlen;              // normalised straight into its place after the root
-    if ((*err = norm(p, n, PATH_MAX - g_rootlen))) return 0;
+    int rel = 0;
+    if (p[0] != '/') {
+        if (!pre(p, "proc/") && !pre(p, "sys/") && !pre(p, "dev/")) return p;
+        u64 l = slen(p);
+        if (l + 2 > PATH_MAX - g_rootlen) return p;
+        rel = 1;
+        n[0] = '/';
+        memcpy(n + 1, p, l + 1);
+    } else if ((*err = norm(p, n, PATH_MAX - g_rootlen))) return 0;
     if ((pre(n, "/proc") && (n[5] == '/' || !n[5])) || (pre(n, "/sys") && (n[4] == '/' || !n[4]))) {
         // the image's own files win (fake sysfs, /proc/mounts); the rest is the phone's. No SELinux for the guest,
         // and none of the phone's suspend controls (reading its wakeup_count blocks the guest's power manager).
@@ -204,7 +211,7 @@ static const char *xl(const char *p, char *buf, int *err) {
         memcpy(buf, g_root, g_rootlen);
         // (14: zygote takes a refused mkdir of a process's cgroup directory for fatal; the directories are the image's)
         if (pre(n, "/sys/fs/selinux") || pre(n, "/sys/power") || pre(n, "/sys/fs/cgroup") || S4(NR_faccessat, AT_FDCWD, buf, 0, 0) == 0) return buf;
-        return p;
+        return rel ? n : p;
     }
     // translated code is slow: the 32-bit zygote starts without its minutes of class preloading
     if (g_is32 && seq(n, "/system/etc/preloaded-classes")) memcpy(n, "/proc/.task1/none", 18);
@@ -468,7 +475,8 @@ static void ids_put(void) {
 // in and out: PATH_MAX each
 static long status_open(const char *path, char *in, char *out) {
     char p[512], t[48];
-    if (!ids_path(p, (long)atou(path + 6))) return -1;
+    long pid = path[6] >= '0' && path[6] <= '9' ? (long)atou(path + 6) : S0(NR_getpid);
+    if (!ids_path(p, pid)) return -1;
     long fd = S4(NR_openat, AT_FDCWD, p, 02000000, 0);
     if (fd < 0) return -1;
     long n = S3(NR_read, fd, t, sizeof t - 1); S1(NR_close, fd);
@@ -480,11 +488,19 @@ static long status_open(const char *path, char *in, char *out) {
     n = S3(NR_read, fd, in, PATH_MAX - 1); S1(NR_close, fd);
     if (n <= 0) return -1;
     in[n] = 0;
+    int self = g_is32 && pid == (long)S0(NR_getpid);
     u64 o = 0;
     for (char *l = in; *l && o < PATH_MAX - 128; ) {
         char *e = l; while (*e && *e != 10) e++;
         int k = pre(l, "Uid:") ? 0 : pre(l, "Gid:") ? 1 : -1;
-        if (k < 0) { memcpy(out + o, l, (u64)(e - l)); o += (u64)(e - l); }
+        if (k < 0) {
+            if (self && pre(l, "Threads:")) {
+                char *v = l + 8; while (v < e && (*v < '0' || *v > '9')) v++;
+                char *x = v; while (x < e && *x >= '0' && *x <= '9') x++;
+                if (x == e && x - v == 1 && *v > '1') (*v)--;
+            }
+            memcpy(out + o, l, (u64)(e - l)); o += (u64)(e - l);
+        }
         else {
             char d[24]; char *v = utoa(id[k], d + sizeof d);
             memcpy(out + o, l, 4); o += 4;
@@ -1103,6 +1119,10 @@ static long trap2(long nr, long *a, void *uc, char **pbp) {
                 long r = status_open(P(1), PB(1), PB(2));
                 if (r != -1) return r;
             }
+            if (seq(P(1), "/proc/self/status") || seq(P(1), "proc/self/status")) {
+                long r = status_open("/proc/self/status", PB(1), PB(2));
+                if (r != -1) return r;
+            }
             if (seq(P(1), "/sys/fs/selinux/enforce")) {
                 return fake_memfile("aemu-enforce", "0\n", 2);
             }
@@ -1250,13 +1270,10 @@ static long trap2(long nr, long *a, void *uc, char **pbp) {
                 memcpy((void *)a[2], g_exe, n); return (long)n;
             }
         }
-        // an open binder device is that device (here it is a socket): zygote of 8.0+ names every descriptor it has
-        // before a fork
         if (P(1) && pre(P(1), "/proc/self/fd/")) {
             int bfd = (int)atou(P(1) + 14);
             if (is_binder_fd(bfd)) {
-                const char *sk = sock_for_fd(bfd);
-                const char *dn = seq(sk, g_hwbsock) ? "/dev/hwbinder" : seq(sk, g_vndbsock) ? "/dev/vndbinder" : "/dev/binder";
+                const char *dn = "/dev/null";
                 u64 n = slen(dn); if (n > (u64)a[3]) n = (u64)a[3];
                 memcpy((void *)a[2], dn, n); return (long)n;
             }
@@ -1628,6 +1645,7 @@ static long trap2(long nr, long *a, void *uc, char **pbp) {
         // netlink: routing (protocol 0) is the phone's own while it lets an app have it — the kernel answers every
         // request, mostly with a refusal. The rest (uevents, nflog, netfilter, nl80211) is closed to an app: those
         // get a socket that answers by itself.
+        if (a[0] == 15) return S4(NR_openat, AT_FDCWD, "/dev/null", 02000002, 0);
         long r = a[0] == 16 && a[2] != 0 ? -1 : S3(nr, a[0], a[1], a[2]);
         if (r < 0 && a[0] == 16) {
             int sv[2];

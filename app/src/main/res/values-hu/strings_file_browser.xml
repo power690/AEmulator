@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">A VM-biztonsági mentést (.aessvm) önállóan kell importálni, nem más fájlokkal együtt.</string>
     <string name="imp_joining">%2$d rész egyesítése: %1$s…</string>
     <string name="imp_split_missing">A felosztott %1$s archívum %2$s. része hiányzik. Jelöld ki az összes részét, vagy tartsd őket egy mappában.</string>
+    <string name="fb_search">Keresés</string>
+    <string name="fb_search_hint">Keresés ebben a mappában</string>
+    <string name="fb_no_matches">Nincs egyező fájl vagy mappa</string>
 </resources>

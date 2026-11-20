@@ -18,7 +18,7 @@
     <string name="storage_text">تمام فائلوں تک رسائی کی اجازت دیں: پھر ہر سسٹم کا میموری کارڈ اندرونی اسٹوریج کے AEmulator فولڈر میں رہے گا — APKs، موسیقی اور تصاویر کے لیے آسان۔</string>
     <string name="allow">اجازت دیں</string>
     <string name="empty_title">ابھی کوئی سسٹم نہیں</string>
-    <string name="empty_text">Android 1.0–17 کے لیے ARM فرم ویئر شامل کریں: ریکوری ZIP، Odin آرکائیو (.tar.md5)، system.img یا فیکٹری امیج۔</string>
+    <string name="empty_text">Android 2.2–6.0 کے لیے ARM فرم ویئر شامل کریں: ریکوری ZIP، Odin آرکائیو (.tar.md5)، system.img یا فیکٹری امیج۔</string>
     <string name="empty_help">کون سی فائلیں کام کرتی ہیں؟</string>
     <string name="import_failed">امپورٹ ناکام ہو گئی</string>
     <string name="import_running">فرم ویئر امپورٹ ہو رہا ہے</string>
@@ -30,7 +30,7 @@
     <string name="start">شروع کریں</string>
     <string name="rename">نام تبدیل کریں</string>
     <string name="help_title">معاون فرم ویئر</string>
-    <string name="help_text">• Android 2.2–4.4: 32-bit ARM فرم ویئر، QEMU کے ذریعے چلتا ہے (2.2 سے پہلے: تجرباتی)۔\n• Android 5.0–17: arm64 فرم ویئر اور GSI، فون پر براہِ راست چلتے ہیں۔\n\nفارمیٹس:\n• CWM/TWRP ریکوری ZIP (MIUI، CyanogenMod، پورٹس، زیادہ تر کسٹم ROMs)؛\n• Samsung: Odin .tar / .tar.md5 یا AP_*.tar.md5 والی ZIP؛\n• Google کی فیکٹری امیجز (.tgz / .zip)؛\n• system.img (ext4، sparse، YAFFS2)، TWRP بیک اپ system.ext4.win؛\n• system.new.dat(.br) + system.transfer.list کے ساتھ OTA؛\n• نیز: 7z, RAR, LG .kdz, Sony .ftf, Huawei UPDATE.APP, Qualcomm EDL, payload.bin, super.img, EROFS, Android-x86 ISO۔\n\nسب سے بہتر یہ ہے کہ آرکائیو میں boot.img موجود ہو: سروسز کے آغاز کی ترتیب اسی سے لی جاتی ہے۔</string>
+    <string name="help_text">• Android 2.2 اور 4.0–4.4: بنیادی معاونت؛ 5.x–6.x: تجرباتی۔\n• صرف 32-bit ARM فرم ویئر (armeabi / armeabi-v7a)۔\n\nفارمیٹس:\n• CWM/TWRP ریکوری ZIP (MIUI، CyanogenMod، پورٹس، زیادہ تر کسٹم ROMs)؛\n• Samsung: Odin .tar / .tar.md5 یا AP_*.tar.md5 والی ZIP؛\n• Google کی فیکٹری امیجز (.tgz / .zip)؛\n• system.img (ext4، sparse، YAFFS2)، TWRP بیک اپ system.ext4.win؛\n• system.new.dat(.br) + system.transfer.list کے ساتھ OTA۔\n\nسب سے بہتر یہ ہے کہ آرکائیو میں boot.img موجود ہو: سروسز کے آغاز کی ترتیب اسی سے لی جاتی ہے۔</string>
     <string name="vs_screen">گیسٹ اسکرین</string>
     <string name="vs_fixed_2x">Android 2.x 240 dpi پر مقررہ 480×800 اسکرین استعمال کرتا ہے۔</string>
     <string name="vs_screen_hint">چھوٹی اسکرین سسٹم کو تیز بناتی ہے۔</string>
@@ -45,13 +45,6 @@
     <string name="vs_legacy_sub">پرانا Desire HD انجن: صرف GLES 1.x، 480×800 اسکرین۔ اگر مرکزی انجن ناکام ہو تو اسے استعمال کریں۔</string>
     <string name="vs_lowram">کم میموری موڈ</string>
     <string name="vs_lowram_sub">ro.config.low_ram — سسٹم میموری بچاتا ہے۔</string>
-    <string name="vs_memory_mode">میموری کا انتظام</string>
-    <string name="vs_memory_light">ہلکا</string>
-    <string name="vs_memory_medium">درمیانہ</string>
-    <string name="vs_memory_aggressive">جارحانہ</string>
-    <string name="vs_memory_light_sub">بیک گراؤنڈ ایپس صرف اس وقت بند کی جاتی ہیں جب خود فون کی میموری تقریباً ختم ہو جائے۔ سب سے کم ری اسٹارٹ؛ سب سے زیادہ میموری استعمال ہوتی ہے۔ VM کو مکمل ری اسٹارٹ کرنے کے بعد نافذ ہوتا ہے۔</string>
-    <string name="vs_memory_medium_sub">متوازن: بیک گراؤنڈ میں ایپس کی معتدل تعداد رکھتا ہے اور خالی میموری کم ہونے پر باقی کو بند کر دیتا ہے۔ VM کو مکمل ری اسٹارٹ کرنے کے بعد نافذ ہوتا ہے۔</string>
-    <string name="vs_memory_aggressive_sub">بیک گراؤنڈ میں کم ایپس رکھتا ہے اور اکثر جانچتا ہے، اس لیے میموری جلد خالی ہو جاتی ہے۔ سب سے کم میموری استعمال کرتا ہے، لیکن ایپس زیادہ بار ری اسٹارٹ ہوتی ہیں۔ VM کو مکمل ری اسٹارٹ کرنے کے بعد نافذ ہوتا ہے۔</string>
     <string name="vs_proxy">جدید TLS پراکسی</string>
     <string name="vs_proxy_sub">پرانے براؤزرز اور ایپس کو آج کی HTTPS ویب سائٹس کھولنے کے قابل بناتی ہے۔</string>
     <string name="vs_controls">کنٹرولز</string>
@@ -87,16 +80,6 @@
     <string name="as_theme_system">سسٹم</string>
     <string name="as_theme_light">روشن</string>
     <string name="as_theme_dark">گہرا</string>
-    <string name="as_accent">ایکسنٹ رنگ</string>
-    <string name="as_accent_sub">پوری ایپ کا انداز بدلنے کے لیے کوئی بھی رنگ چنیں</string>
-    <string name="as_accent_default">Sunset (ڈیفالٹ)</string>
-    <string name="as_accent_pick">رنگ منتخب کریں</string>
-    <string name="as_accent_reset">ری سیٹ کریں</string>
-    <string name="as_accent_apply">لاگو کریں</string>
-    <string name="as_accent_hex">Hex</string>
-    <string name="as_accent_hue">ہیو</string>
-    <string name="as_accent_sat">سیچوریشن</string>
-    <string name="as_accent_val">چمک</string>
     <string name="as_dynamic">ڈائنامک رنگ</string>
     <string name="as_dynamic_sub">آپ کے وال پیپر سے رنگ (Android 12+)</string>
     <string name="as_defaults">نئے سسٹمز کے لیے ڈیفالٹس</string>
@@ -109,7 +92,24 @@
     <string name="as_orig_sub">Desire HD اور One M7 ایمولیٹرز کے خالق، جن سے یہ پروجیکٹ وجود میں آیا</string>
     <string name="as_github">GitHub پر سورس کوڈ</string>
     <string name="as_version">ورژن %1$s</string>
-    <string name="as_about">AEmulator جدید فونز پر کلاسک Android فرم ویئر چلاتا ہے۔ مفت اور اوپن سورس۔</string>
+    <string name="as_about">AEmulator Plus جدید فونز پر کلاسک Android فرم ویئر چلاتا ہے۔ مفت اور اوپن سورس۔</string>
+    <string name="vs_memory_mode">میموری کا انتظام</string>
+    <string name="vs_memory_light">ہلکا</string>
+    <string name="vs_memory_medium">درمیانہ</string>
+    <string name="vs_memory_aggressive">جارحانہ</string>
+    <string name="vs_memory_light_sub">بیک گراؤنڈ ایپس صرف اس وقت بند کی جاتی ہیں جب خود فون کی میموری تقریباً ختم ہو جائے۔ سب سے کم ری اسٹارٹ؛ سب سے زیادہ میموری استعمال ہوتی ہے۔ VM کو مکمل ری اسٹارٹ کرنے کے بعد نافذ ہوتا ہے۔</string>
+    <string name="vs_memory_medium_sub">متوازن: بیک گراؤنڈ میں ایپس کی معتدل تعداد رکھتا ہے اور خالی میموری کم ہونے پر باقی کو بند کر دیتا ہے۔ VM کو مکمل ری اسٹارٹ کرنے کے بعد نافذ ہوتا ہے۔</string>
+    <string name="vs_memory_aggressive_sub">بیک گراؤنڈ میں کم ایپس رکھتا ہے اور اکثر جانچتا ہے، اس لیے میموری جلد خالی ہو جاتی ہے۔ سب سے کم میموری استعمال کرتا ہے، لیکن ایپس زیادہ بار ری اسٹارٹ ہوتی ہیں۔ VM کو مکمل ری اسٹارٹ کرنے کے بعد نافذ ہوتا ہے۔</string>
+    <string name="as_accent">ایکسنٹ رنگ</string>
+    <string name="as_accent_sub">پوری ایپ کا انداز بدلنے کے لیے کوئی بھی رنگ چنیں</string>
+    <string name="as_accent_default">Sunset (ڈیفالٹ)</string>
+    <string name="as_accent_pick">رنگ منتخب کریں</string>
+    <string name="as_accent_reset">ری سیٹ کریں</string>
+    <string name="as_accent_apply">لاگو کریں</string>
+    <string name="as_accent_hex">Hex</string>
+    <string name="as_accent_hue">ہیو</string>
+    <string name="as_accent_sat">سیچوریشن</string>
+    <string name="as_accent_val">چمک</string>
     <string name="log_copy">کاپی کریں</string>
     <string name="log_export">.log ایکسپورٹ کریں</string>
     <string name="log_copied">کلپ بورڈ پر کاپی ہو گیا</string>
@@ -245,9 +245,9 @@
     <string name="update_download_error">ڈاؤن لوڈ ناکام: %1$s</string>
     <string name="update_open_github">GitHub پر دیکھیں</string>
     <string name="vs_camera">ہوسٹ کیمرہ (تجرباتی)</string>
-    <string name="vs_camera_sub">HAL1 ROMs: 640×480 پری ویو اور تصاویر، پچھلا/اگلا کیمرہ۔ اجازت اور VM کا مکمل ری اسٹارٹ درکار ہے۔ AEmulator کے بیک گراؤنڈ میں جانے پر کیمرہ بند ہو جاتا ہے؛ گیسٹ کیمرہ ایپ دوبارہ کھولیں۔ ویڈیو 640×480 پر ریکارڈ ہوتی ہے۔</string>
+    <string name="vs_camera_sub">HAL1 ROMs: 640×480 پری ویو اور تصاویر، پچھلا/اگلا کیمرہ۔ اجازت اور VM کا مکمل ری اسٹارٹ درکار ہے۔ AEmulator Plus کے بیک گراؤنڈ میں جانے پر کیمرہ بند ہو جاتا ہے؛ گیسٹ کیمرہ ایپ دوبارہ کھولیں۔ ویڈیو 640×480 پر ریکارڈ ہوتی ہے۔</string>
     <string name="vs_microphone">ہوسٹ مائیکروفون (تجرباتی)</string>
-    <string name="vs_microphone_sub">گیسٹ ایپس فون کے مائیکروفون سے ریکارڈ کرتی ہیں (وائس ریکارڈر، نوٹس)۔ اجازت اور VM کا مکمل ری اسٹارٹ درکار ہے۔ AEmulator کے بیک گراؤنڈ میں جانے پر ریکارڈنگ رک جاتی ہے؛ گیسٹ ریکارڈر ایپ دوبارہ کھولیں۔ صرف 4.x ROMs۔</string>
+    <string name="vs_microphone_sub">گیسٹ ایپس فون کے مائیکروفون سے ریکارڈ کرتی ہیں (وائس ریکارڈر، نوٹس)۔ اجازت اور VM کا مکمل ری اسٹارٹ درکار ہے۔ AEmulator Plus کے بیک گراؤنڈ میں جانے پر ریکارڈنگ رک جاتی ہے؛ گیسٹ ریکارڈر ایپ دوبارہ کھولیں۔ صرف 4.x ROMs۔</string>
     <string name="microphone_permission_denied">مائیکروفون کی اجازت مسترد کر دی گئی۔ گیسٹ ایپس خاموشی ریکارڈ کریں گی؛ Android ایپ کی ترتیبات میں اجازت دیں اور دوبارہ کوشش کے لیے VM کو مکمل طور پر ری اسٹارٹ کریں۔</string>
     <string name="vs_sim_title">سم کارڈز</string>
     <string name="vs_sim_present">سم کارڈ لگا ہوا ہے</string>
@@ -282,10 +282,6 @@
     <string name="catalog_section_source">سیکشن کا ماخذ کھولیں</string>
     <string name="catalog_download_rom">%1$s ڈاؤن لوڈ کریں</string>
     <string name="catalog_back_sections">سیکشنز پر واپس جائیں</string>
-    <plurals name="catalog_rom_count">
-        <item quantity="one">%1$d ROM</item>
-        <item quantity="other">%1$d ROMs</item>
-    </plurals>
     <string name="catalog_reported">ROM کی مطابقت کی حالتوں کی ایپ تصدیق نہیں کرتی۔</string>
     <string name="catalog_no_roms">اس وقت کوئی ROM موجود نہیں۔</string>
     <string name="catalog_no_url">ROM ڈاؤن لوڈ URL اس وقت دستیاب نہیں۔</string>
@@ -379,7 +375,6 @@
     <string name="lib3d_tap_hint">فون کو پلٹنے کے لیے اس پر ٹیپ کریں</string>
     <string name="as_library_3d">3D فرم ویئر لائبریری</string>
     <string name="as_library_3d_sub">امپورٹ کیے گئے فرم ویئرز اور کنٹینرز کو کارڈ فہرست کے بجائے 3D فونز کی صورت میں دکھائیں جنہیں آپ سوائپ کر سکیں۔ بطور ڈیفالٹ بند ہے۔</string>
-
     <string name="th_title">VM اسکرین تھیم</string>
     <string name="th_sub">نیویگیشن بار کی کیز، رنگ اور گیسٹ اسکرین کے گرد فریم، کسی Android دور یا آپ کے اپنے ڈیزائن کے انداز میں۔</string>
     <string name="th_note">تھیمز صرف VM کے گرد موجود ایپ کو بدلتے ہیں؛ فرم ویئر میں کبھی ترمیم نہیں ہوتی۔ تبدیلیاں VM اسکرین دوبارہ کھولنے پر لاگو ہوتی ہیں۔</string>
@@ -518,10 +513,6 @@
     <string name="folder_empty">خالی — ROMs یہاں چھوڑیں</string>
     <string name="folder_open">فولڈر کھولیں</string>
     <string name="folder_close">فولڈر بند کریں</string>
-    <plurals name="folder_roms">
-        <item quantity="one">%1$d ROM</item>
-        <item quantity="other">%1$d ROMs</item>
-    </plurals>
     <string name="phantom_title">فینٹم پروسیس کِلر</string>
     <string name="phantom_msg">آپ کے آلے کی ڈویلپر آپشنز میں “چائلڈ پروسیس کی پابندیاں غیر فعال کریں” آپشن فعال نہیں ہے۔ اس کا مطلب ہے کہ ایمولیٹر کے آغاز کے دوران zygote ختم کر دیا جائے گا، جس سے ایمولیٹر کا بوٹ ہونا ناممکن ہو جاتا ہے۔ اس لیے اسے فعال کرنے کی سختی سے سفارش کی جاتی ہے۔</string>
     <string name="phantom_open_dev">ڈویلپر آپشنز کھولیں</string>
@@ -535,4 +526,18 @@
     <string name="catalog_download_checking">لنک چیک کیا جا رہا ہے…</string>
     <string name="catalog_download_title">ROM ڈاؤن لوڈ ہو رہا ہے</string>
     <string name="catalog_download_failed">ڈاؤن لوڈ ناکام: %1$s</string>
+    <string name="al_title">Activity لانچر</string>
+    <string name="m_activities">Activity لانچر</string>
+    <string name="al_search_packages">پیکجوں کی تلاش</string>
+    <string name="al_search_activities">Activity کی تلاش</string>
+    <string name="al_no_packages">کوئی پیکج نہیں ملا</string>
+    <string name="al_no_activities">کوئی Activity نہیں ملی</string>
+    <string name="al_not_exported">برآمد نہیں</string>
+    <string name="al_starting">%1$s شروع ہو رہا ہے…</string>
+    <string name="catalog_share_rom">%1$s کا ڈاؤن لوڈ لنک شیئر کریں</string>
+    <string name="m_battery_old_note">یہ Android ورژن بیٹری صرف چلنے کے وقت پڑھتا ہے۔ جو سطح اور چارج کی حالت آپ سیٹ کرتے ہیں وہ محفوظ ہو جاتی ہے اور VM کی اگلی شروعات پر استعمال ہوتی ہے۔</string>
+    <string name="vs_no_dex2oat">dex2oat کو غیر فعال کریں (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">ایپس اور سسٹم کوڈ مہمان سسٹم میں کبھی کمپائل نہیں ہوتے: dex2oat کا ہر چلنا فوراً ناکام ہوتا ہے۔ وارننگ: اس سے کریشز، گلچز اور دیگر غیر متوقع رویے ہو سکتے ہیں (ایپس سست چلتی ہیں، کچھ فرم ویئر کمپائل کے بغیر بوٹ نہیں ہوتے)۔ بطور ڈیفالٹ بند ہے۔ اگلی مکمل شروعات پر لاگو ہوتا ہے۔</string>
+    <string name="m_multitask">کام کی تبدیلی</string>
+    <string name="nav_show">Android بٹن بار دکھائیں</string>
 </resources>

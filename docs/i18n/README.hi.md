@@ -54,12 +54,14 @@ cd AEmulator-Plus
 
 AEmulator Plus [मूल लेखक](https://t.me/istratiit_ech) के HTC Desire HD और HTC One M7 एमुलेटर से विकसित हुआ — उनके इंजन के बिना यह प्रोजेक्ट नहीं होता।
 
-यह [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset) का संशोधित फ़ोर्क है, जो स्वयं [uxazu/AEmulator](https://github.com/uxazu/AEmulator) का संशोधित फ़ोर्क है।
+यह [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus) का संशोधित फ़ोर्क है, जो स्वयं [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset) का संशोधित फ़ोर्क है, जो स्वयं [uxazu/AEmulator](https://github.com/uxazu/AEmulator) का संशोधित फ़ोर्क है।
 
 ## 🔗 लिंक
 
 - मेरा फ़ोर्क: [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)
-- अपस्ट्रीम: [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)
+- अपस्ट्रीम: [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)
+
+- AEmulator-Sunset: [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)
 - मूल: [uxazu/AEmulator](https://github.com/uxazu/AEmulator)
 - लेखक: [somerandomusername2](https://github.com/somerandomusernam2)
 - मूल लेखक: [t.me/istratiit_ech](https://t.me/istratiit_ech)

@@ -210,7 +210,7 @@
     <string name="lib3d_spec_model">Model</string>
     <string name="as_upstream_row">Upstream: %1$s</string>
     <string name="as_original_row">Asli: %1$s</string>
-    <string name="sms_default_body">Halo dari AEmulator</string>
+    <string name="sms_default_body">Halo dari AEmulator Plus</string>
     <string name="theme_original">Asli</string>
     <string name="theme_sunset">Senja</string>
     <string name="sim_country_emulator">Emulator</string>

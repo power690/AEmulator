@@ -1645,7 +1645,14 @@ class TreeFixer(
             // feature SystemServer never starts the wifip2p service ("Manager wrapper not available: wifip2p"), the call hits a null
             // manager, "Failed to boot service com.huawei.server.wifi.WifiEnhanceService" ends system_server and zygote follows with 137.
             val huaweiWifiEnhance = File(root, "system/framework/hwWifiEnhance-service.jar").isFile
-            if ((img.api >= 34 || huaweiWifiEnhance) && !declared) {
+            // Added for AEmulator Plus (2026-11-19): vivo's OriginOS 3 (13, MysticGSI of a PD2304) has the flag on at api 33 as
+            // well - the same RuntimeException ended system_server 37 s into the boot, past ams ready, from the android.display
+            // thread. The firmware carries Qualcomm's WFD stack: system_ext/priv-app/WfdService, and WfdCommon.jar that vivo
+            // puts on the boot classpath; a framework built with WiFi display carries those, and no such file declares the
+            // feature itself (on the phone the vendor partition did).
+            val vivoWfdStack = File(root, "system/framework/WfdCommon.jar").isFile ||
+                File(root, "system_ext/priv-app/WfdService").isDirectory || File(root, "system/priv-app/WfdService").isDirectory
+            if ((img.api >= 34 || huaweiWifiEnhance || vivoWfdStack) && !declared) {
                 f.writeText("<permissions><feature name=\"android.hardware.wifi.direct\" /></permissions>")
                 log("wifi direct: android.hardware.wifi.direct declared (" + (if (huaweiWifiEnhance) "Huawei WifiEnhanceService needs the wifip2p manager" else "WifiDisplayAdapter refuses to start without it") + ")")
             } else f.delete()
@@ -5670,7 +5677,14 @@ class TreeFixer(
         val dbdata = dbdataDirs(rcs, img.dirs,
             legacySamsung = img.api < 14 && img.brand.contains("samsung", true) || img.name.contains("samsung", true) && img.api < 14,
             alreadyThere = File(root, "dbdata").exists())
-        val want = (DATA_DIRS + img.dirs.map { it.trim().removePrefix("/") } + dbdata).filter { it.isNotEmpty() && !it.startsWith("#") }
+        var want = (DATA_DIRS + img.dirs.map { it.trim().removePrefix("/") } + dbdata).filter { it.isNotEmpty() && !it.startsWith("#") }
+        // Added for AEmulator Plus (2026-11-19): vivo's framework writes its config and white lists into /data/bbkcore
+        // (VivoCommonService parses /data/bbkcore/CompatDisable.xml, NotificationWhiteListManager the shield and push lists).
+        // The firmware's own init makes the directory on a phone; a GSI tree comes without it and every reader got ENOENT,
+        // which among other things left VivoCommonService without its config during the boot of FunTouch OS 9.2.
+        if (File(root, "system/bin/vivo_daemon").isFile || File(root, "system/framework/WfdCommon.jar").isFile ||
+            File(root, "system_ext/priv-app/WfdService").isDirectory || File(root, "system/priv-app/WfdService").isDirectory)
+            want = want + "data/bbkcore"
         for (d in want.distinct()) {
             // каталоги init в /dev, /sys, /proc, /acct не создаём — это подменяет qemu
             if (d.startsWith("proc") || d.startsWith("sys/") || d == "sys" || d.startsWith("acct")) continue
@@ -5967,7 +5981,9 @@ class TreeFixer(
         "local_net_note_op_cache_map" to (4 to 4), "local_net_cache_generation_id_map" to (4 to 8), "loopback_access_cache_map" to (12 to 8),
         "loopback_permission_enabled_map" to (4 to 1), "require_internet_permission_map" to (4 to 1))
 
-    private val BPF_NOTES_STAMP = "6"      // 6: key and value sizes of a .android_maps object from its BTF (netd.o of 17: uid_permission_chunk_map read as key 1, value 0 and netd aborted);      // 5: sizes of netd's maps by name, raw definitions logged;      // 4: netd stats maps get the sizes of netd's structs; 3: notes of the stats maps logged; 2: objects of vendor, odm, product and system_ext read as well
+    private val VENDOR_BPF_MAPS = mapOf("map_sfp_kern_sfp_iface_pair_map" to Triple(1, 4, 4))
+
+    private val BPF_NOTES_STAMP = "7"      // 6: key and value sizes of a .android_maps object from its BTF (netd.o of 17: uid_permission_chunk_map read as key 1, value 0 and netd aborted);      // 5: sizes of netd's maps by name, raw definitions logged;      // 4: netd stats maps get the sizes of netd's structs; 3: notes of the stats maps logged; 2: objects of vendor, odm, product and system_ext read as well
 
     /**
      * Notes for the eBPF stand-in of the kernel (Kernel64.bpfMapNotes): one file per map of the firmware eBPF objects,
@@ -6091,6 +6107,13 @@ class TreeFixer(
                 File(tmp, file).writeBytes(note.array())
                 n++
             }
+        }
+        for ((name, def) in VENDOR_BPF_MAPS) {
+            if (File(tmp, name).isFile) continue
+            val note = java.nio.ByteBuffer.allocate(12).order(java.nio.ByteOrder.LITTLE_ENDIAN)
+            note.putInt(def.first); note.putInt(def.second); note.putInt(def.third)
+            File(tmp, name).writeBytes(note.array())
+            n++
         }
         runCatching { File(tmp, ".stamp").writeText(BPF_NOTES_STAMP) }
         dir.deleteRecursively()
@@ -6467,7 +6490,7 @@ class TreeFixer(
         // /dev/cpuset (\\"failed to open /dev/cpuset/foreground/tasks\\", once for each process put into the group).
         if (engine == Engine.N64) runCatching {
             val pw = File(root, "sys/power").apply { mkdirs() }
-            File(pw, "wakeup_count").let { if (!it.isFile) it.writeText("0\n"); it.setReadable(true, false); it.setWritable(true, false) }
+            File(pw, "wakeup_count").let { if (!it.isFile || it.readText().endsWith("\\n")) it.writeText("0\n"); it.setReadable(true, false); it.setWritable(true, false) }
             File(pw, "suspend_stats").apply { mkdirs() }.let { d ->
                 for (n in listOf("success", "fail", "failed_freeze", "failed_prepare", "failed_suspend", "failed_suspend_late",
                     "failed_suspend_noirq", "failed_resume", "failed_resume_early", "failed_resume_noirq"))

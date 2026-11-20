@@ -109,7 +109,7 @@
     <string name="as_orig_sub">Skaperen av Desire HD- og One M7-emulatorene dette prosjektet vokste ut av</string>
     <string name="as_github">Kildekode på GitHub</string>
     <string name="as_version">Versjon %1$s</string>
-    <string name="as_about">AEmulator kjører klassisk Android-fastvare på moderne telefoner. Gratis og åpen kildekode.</string>
+    <string name="as_about">AEmulator Plus kjører klassisk Android-fastvare på moderne telefoner. Gratis og åpen kildekode.</string>
     <string name="log_copy">Kopier</string>
     <string name="log_export">Eksporter .log</string>
     <string name="log_copied">Kopiert til utklippstavlen</string>
@@ -245,9 +245,9 @@
     <string name="update_download_error">Nedlastingen mislyktes: %1$s</string>
     <string name="update_open_github">Vis på GitHub</string>
     <string name="vs_camera">Vertens kamera (eksperimentelt)</string>
-    <string name="vs_camera_sub">HAL1-ROM-er: forhåndsvisning og bilder i 640×480, bak-/frontkamera. Krever tillatelse og en full omstart av VM-en. Kameraet lukkes når AEmulator går i bakgrunnen; åpne gjestens kameraapp på nytt. Video tas opp i 640×480.</string>
+    <string name="vs_camera_sub">HAL1-ROM-er: forhåndsvisning og bilder i 640×480, bak-/frontkamera. Krever tillatelse og en full omstart av VM-en. Kameraet lukkes når AEmulator Plus går i bakgrunnen; åpne gjestens kameraapp på nytt. Video tas opp i 640×480.</string>
     <string name="vs_microphone">Vertens mikrofon (eksperimentelt)</string>
-    <string name="vs_microphone_sub">Gjesteapper tar opp fra telefonens mikrofon (lydopptaker, notater). Krever tillatelse og en full omstart av VM-en. Opptaket stopper når AEmulator går i bakgrunnen; åpne gjestens opptaksapp på nytt. Kun 4.x-ROM-er.</string>
+    <string name="vs_microphone_sub">Gjesteapper tar opp fra telefonens mikrofon (lydopptaker, notater). Krever tillatelse og en full omstart av VM-en. Opptaket stopper når AEmulator Plus går i bakgrunnen; åpne gjestens opptaksapp på nytt. Kun 4.x-ROM-er.</string>
     <string name="microphone_permission_denied">Mikrofontillatelse avslått. Gjesteapper vil ta opp stillhet; gi tillatelse i Androids appinnstillinger og start VM-en helt på nytt for å prøve igjen.</string>
     <string name="vs_sim_title">SIM-kort</string>
     <string name="vs_sim_present">SIM-kort satt inn</string>
@@ -535,4 +535,18 @@
     <string name="catalog_download_checking">Sjekker lenken…</string>
     <string name="catalog_download_title">Laster ned ROM</string>
     <string name="catalog_download_failed">Nedlastingen mislyktes: %1$s</string>
+    <string name="al_title">Activity-starter</string>
+    <string name="m_activities">Activity-starter</string>
+    <string name="al_search_packages">Søk i pakker</string>
+    <string name="al_search_activities">Søk i activityer</string>
+    <string name="al_no_packages">Ingen pakker funnet</string>
+    <string name="al_no_activities">Ingen activityer funnet</string>
+    <string name="al_not_exported">ikke eksportert</string>
+    <string name="al_starting">Starter %1$s…</string>
+    <string name="catalog_share_rom">Del nedlastingslenken for %1$s</string>
+    <string name="m_battery_old_note">Denne Android-versjonen leser batteriet bare under oppstart. Nivået og ladestatusen du velger, lagres og brukes neste gang VM-en starter.</string>
+    <string name="vs_no_dex2oat">Deaktiver dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Apper og systemkode blir aldri kompilert i gjesten: hver dex2oat-kjøring feiler umiddelbart. Advarsel: dette kan forårsake krasjer, grafikkfeil og annet uønsket adferd (appene går tregere, noe firmware kan ikke starte uten kompilering). Av som standard. Treffer i kraft ved neste fulle oppstart.</string>
+    <string name="m_multitask">Oppgavebytte</string>
+    <string name="nav_show">Vis Androids knappelinje</string>
 </resources>

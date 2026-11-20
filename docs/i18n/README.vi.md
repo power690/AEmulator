@@ -54,12 +54,14 @@ cd AEmulator-Plus
 
 AEmulator Plus phát triển từ trình giả lập HTC Desire HD và HTC One M7 của [tác giả gốc](https://t.me/istratiit_ech) — không có engine của anh ấy thì không có dự án này.
 
-Đây là bản fork đã chỉnh sửa của [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset), vốn cũng là bản fork đã chỉnh sửa của [uxazu/AEmulator](https://github.com/uxazu/AEmulator).
+Đây là bản fork đã chỉnh sửa của [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus), vốn cũng là bản fork đã chỉnh sửa của [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset), vốn cũng là bản fork đã chỉnh sửa của [uxazu/AEmulator](https://github.com/uxazu/AEmulator).
 
 ## 🔗 Liên kết
 
 - Fork của tôi: [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)
-- Upstream: [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)
+- Upstream: [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)
+
+- AEmulator-Sunset: [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)
 - Bản gốc: [uxazu/AEmulator](https://github.com/uxazu/AEmulator)
 - Tác giả: [somerandomusername2](https://github.com/somerandomusernam2)
 - Tác giả gốc: [t.me/istratiit_ech](https://t.me/istratiit_ech)

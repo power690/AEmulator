@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vmf_bad_name">Այդ անունը թույլատրված չէ։</string>
+    <string name="vmf_browse">Զննել VM-ի ֆայլերը</string>
+    <string name="vmf_copy">Պատճենել</string>
+    <string name="vmf_copy_here">Պատճենել այստեղ</string>
+    <string name="vmf_copy_to">Պատճենել</string>
+    <string name="vmf_copy_to_device">VM-ից դուրս (սարքի պահեստ)</string>
+    <string name="vmf_copy_to_vm">Այլ տեղ այս VM-ում</string>
+    <string name="vmf_create">Ստեղծել</string>
+    <string name="vmf_delete_core">Սա VM-ի հիմնական մասն է (բաժին կամ պատկեր)։ Առանց դրա VM-ն կարող է այլևս չգործարկվել։</string>
+    <string name="vmf_delete_many">Ջնջե՞լ %1$d տարր։ Հետ վերադարձ չկա։</string>
+    <string name="vmf_delete_one">Ջնջե՞լ \"%1$s\"-ը։ Հետ վերադարձ չկա։</string>
+    <string name="vmf_exists">Այդ անունով տարր արդեն կա։</string>
+    <string name="vmf_failed">Ձախողվեց՝ %1$s</string>
+    <string name="vmf_folder_name">Պանակի անվանում</string>
+    <string name="vmf_link">Հղում</string>
+    <string name="vmf_new_folder">Նոր պանակ</string>
+    <string name="vmf_new_name">Նոր անուն</string>
+    <string name="vmf_no_folders">Այստեղ պանակներ չկան</string>
+    <string name="vmf_no_space">Ազատ տարածքը բավարար չէ։</string>
+    <string name="vmf_preview_failed">Այս ֆայլը հնարավոր չէ կարդալ։</string>
+    <string name="vmf_preview_truncated">Ցուցադրվում է առաջին %1$s-ը %2$s-ից</string>
+    <string name="vmf_protected">Սա VM-ի սեփական հաշվառման մաս է և այստեղ չի կարող փոխվել։</string>
+    <string name="vmf_readonly">Այս տարրը VM-ի սեփական ֆայլերից չէ, ուստի այստեղ չի կարող փոխվել։</string>
+    <string name="vmf_readonly_folder">Միայն ընթերցման՝ այս պանակը VM-ի սեփական ֆայլերից չէ։ Կարող եք դիտել և պատճենել, բայց ոչ փոխել։</string>
+    <string name="vmf_result_copied">Պատճենվեց՝ %1$d</string>
+    <string name="vmf_result_copied_skipped">Պատճենվեց՝ %1$d։ Բաց թողնվեց՝ %2$d (VM-ից դուրս հղումներ, սոկետներ և նմաններ)։</string>
+    <string name="vmf_result_deleted">Ջնջվեց՝ %1$d</string>
+    <string name="vmf_unreadable">Այս պանակը հնարավոր չէ կարդալ։</string>
+    <string name="vmf_working_copy">Պատճենվում է…</string>
+    <string name="vmf_working_delete">Ջնջվում է…</string>
+    <string name="vmf_working_rename">Վերանվանվում է…</string>
+</resources>

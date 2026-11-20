@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">이미 다른 다운로드가 진행 중입니다.</string>
+    <string name="rom_dl_cannot_start">백그라운드에서 다운로드를 시작할 수 없습니다.</string>
+    <string name="rom_dl_channel">ROM 다운로드</string>
+    <string name="rom_dl_channel_done">ROM 다운로드 완료</string>
+    <string name="rom_dl_done">ROM 다운로드됨</string>
+    <string name="rom_dl_done_text">탭하여 %1$s 가져오기</string>
+    <string name="rom_dl_failed">ROM 다운로드 실패</string>
+    <string name="rom_dl_hide">숨기기</string>
+    <string name="rom_dl_page">다운로드 링크</string>
+    <string name="rom_dl_page_text">이 링크는 웹페이지입니다. 탭하면 브라우저에서 열립니다.</string>
+</resources>

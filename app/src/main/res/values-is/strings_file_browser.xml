@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Afrit af sýndarvél (.aessvm) verður að flytja inn eitt og sér, ekki með öðrum skrám.</string>
     <string name="imp_joining">Sameina %2$d hluta af %1$s…</string>
     <string name="imp_split_missing">Hluta %2$s vantar í skipta safnskrá %1$s. Veldu alla hluta hennar eða hafðu þá í einni möppu.</string>
+    <string name="fb_search">Leita</string>
+    <string name="fb_search_hint">Leita í þessari möppu</string>
+    <string name="fb_no_matches">Engar skrár eða möppur passa</string>
 </resources>

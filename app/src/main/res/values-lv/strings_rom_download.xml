@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Cita lejupielāde jau notiek.</string>
+    <string name="rom_dl_cannot_start">Lejupielādi nevarēja sākt fonā.</string>
+    <string name="rom_dl_channel">ROM lejupielāde</string>
+    <string name="rom_dl_channel_done">ROM lejupielāde pabeigta</string>
+    <string name="rom_dl_done">ROM lejupielādēts</string>
+    <string name="rom_dl_done_text">Pieskarieties, lai importētu %1$s</string>
+    <string name="rom_dl_failed">ROM lejupielāde neizdevās</string>
+    <string name="rom_dl_hide">Slēpt</string>
+    <string name="rom_dl_page">Lejupielādes saite</string>
+    <string name="rom_dl_page_text">Šī saite ir tīmekļa lapa. Pieskarieties, lai atvērtu to pārlūkā.</string>
+</resources>

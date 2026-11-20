@@ -109,7 +109,7 @@
     <string name="as_orig_sub">Созандаи эмуляторҳои Desire HD ва One M7, ки ин лоиҳа аз онҳо ба вуҷуд омадааст</string>
     <string name="as_github">Рамзи манбаъ дар GitHub</string>
     <string name="as_version">Версияи %1$s</string>
-    <string name="as_about">AEmulator прошивкаҳои классикии Android-ро дар телефонҳои муосир иҷро мекунад. Ройгон ва бо рамзи кушода.</string>
+    <string name="as_about">AEmulator Plus прошивкаҳои классикии Android-ро дар телефонҳои муосир иҷро мекунад. Ройгон ва бо рамзи кушода.</string>
     <string name="log_copy">Нусха бардоштан</string>
     <string name="log_export">Содироти .log</string>
     <string name="log_copied">Ба буфери мубодила нусха бардошта шуд</string>
@@ -256,9 +256,9 @@
     <string name="update_download_error">Боргирӣ ноком шуд: %1$s</string>
     <string name="update_open_github">Дидан дар GitHub</string>
     <string name="vs_camera">Камераи мизбон (таҷрибавӣ)</string>
-    <string name="vs_camera_sub">ROM-ҳои HAL1: пешнамоиш ва суратҳо дар 640×480, камераи пушт/пеш. Иҷозат ва бозоғозии пурраи VM лозим аст. Вақте AEmulator ба замина мегузарад, камера баста мешавад; барномаи камераи меҳмонро аз нав кушоед. Видео дар 640×480 сабт мешавад.</string>
+    <string name="vs_camera_sub">ROM-ҳои HAL1: пешнамоиш ва суратҳо дар 640×480, камераи пушт/пеш. Иҷозат ва бозоғозии пурраи VM лозим аст. Вақте AEmulator Plus ба замина мегузарад, камера баста мешавад; барномаи камераи меҳмонро аз нав кушоед. Видео дар 640×480 сабт мешавад.</string>
     <string name="vs_microphone">Микрофони мизбон (таҷрибавӣ)</string>
-    <string name="vs_microphone_sub">Барномаҳои меҳмон аз микрофони телефон сабт мекунанд (сабткунаки овоз, ёддоштҳо). Иҷозат ва бозоғозии пурраи VM лозим аст. Вақте AEmulator ба замина мегузарад, сабт қатъ мешавад; барномаи сабткунакро аз нав кушоед. Танҳо барои ROM-ҳои 4.x.</string>
+    <string name="vs_microphone_sub">Барномаҳои меҳмон аз микрофони телефон сабт мекунанд (сабткунаки овоз, ёддоштҳо). Иҷозат ва бозоғозии пурраи VM лозим аст. Вақте AEmulator Plus ба замина мегузарад, сабт қатъ мешавад; барномаи сабткунакро аз нав кушоед. Танҳо барои ROM-ҳои 4.x.</string>
     <string name="microphone_permission_denied">Иҷозат барои микрофон рад карда шуд. Барномаҳои меҳмон хомӯширо сабт мекунанд; дар танзимоти барномаи Android иҷозат диҳед ва барои кӯшиши дубора VM-ро пурра бозоғоз кунед.</string>
     <string name="vs_sim_title">Кортҳои SIM</string>
     <string name="vs_sim_present">Корти SIM дохил карда шудааст</string>
@@ -537,4 +537,18 @@
     <string name="catalog_download_checking">Пайванд тафтиш шуда истодааст…</string>
     <string name="catalog_download_title">ROM боргирӣ шуда истодааст</string>
     <string name="catalog_download_failed">Боргирӣ номуваффақ шуд: %1$s</string>
+    <string name="al_title">Идоракунандаи Activity</string>
+    <string name="m_activities">Идоракунандаи Activity</string>
+    <string name="al_search_packages">Ҷустуҷӯи бастаҳо</string>
+    <string name="al_search_activities">Ҷустуҷӯи Activity-ҳо</string>
+    <string name="al_no_packages">Бастаҳо ёфт нашуданд</string>
+    <string name="al_no_activities">Activity-ҳо ёфт нашуданд</string>
+    <string name="al_not_exported">содир нашудааст</string>
+    <string name="al_starting">%1$s оғоз мешавад…</string>
+    <string name="catalog_share_rom">Мубодила кардани пайванди боргирии %1$s</string>
+    <string name="m_battery_old_note">Ин версияи Android батареяро ҳангоми оғоз мехонад. Сатҳ ва ҳолати пуркунии аз тарафи шумо муқарраршуда нигоҳ дошта мешавад ва дар оғози навбатии VM истифода мешавад.</string>
+    <string name="vs_no_dex2oat">Хомӯш кардани dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Барномаҳо ва коди система дар системаи меҳмон ҳеҷ гоҳ тарҷума намешаванд: ҳар иҷрои dex2oat фавран ноком мешавад. Огоҳӣ: ин метавонад вайроншавӣ, хатоҳо ва рафтори пешбининшуда (барномаҳо суст кор мекунанд, баъзе прошивкаҳо бе тарҷума оғоз намешаванд) ба вуҷуд орад. Бо даромади хомӯш аст. Дар оғози пурраи навбатӣ татбиқ мешавад.</string>
+    <string name="m_multitask">Иваз кардани вазифаҳо</string>
+    <string name="nav_show">Намоиши панели тугмаҳои Android</string>
 </resources>

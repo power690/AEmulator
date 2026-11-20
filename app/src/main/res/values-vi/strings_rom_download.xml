@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Một tệp khác đang được tải xuống.</string>
+    <string name="rom_dl_cannot_start">Không thể bắt đầu tải xuống trong nền.</string>
+    <string name="rom_dl_channel">Tải ROM xuống</string>
+    <string name="rom_dl_channel_done">Tải ROM xuống hoàn tất</string>
+    <string name="rom_dl_done">Đã tải ROM xuống</string>
+    <string name="rom_dl_done_text">Nhấn để nhập %1$s</string>
+    <string name="rom_dl_failed">Tải ROM xuống thất bại</string>
+    <string name="rom_dl_hide">Ẩn</string>
+    <string name="rom_dl_page">Liên kết tải xuống</string>
+    <string name="rom_dl_page_text">Liên kết này là một trang web. Nhấn để mở trong trình duyệt.</string>
+</resources>

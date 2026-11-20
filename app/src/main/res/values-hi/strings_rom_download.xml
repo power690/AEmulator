@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">पहले से एक डाउनलोड चल रहा है।</string>
+    <string name="rom_dl_cannot_start">डाउनलोड बैकग्राउंड में शुरू नहीं हो सका।</string>
+    <string name="rom_dl_channel">ROM डाउनलोड</string>
+    <string name="rom_dl_channel_done">ROM डाउनलोड पूरा हुआ</string>
+    <string name="rom_dl_done">ROM डाउनलोड हो गया</string>
+    <string name="rom_dl_done_text">इंपोर्ट करने के लिए %1$s पर टैप करें</string>
+    <string name="rom_dl_failed">ROM डाउनलोड विफल</string>
+    <string name="rom_dl_hide">छिपाएँ</string>
+    <string name="rom_dl_page">डाउनलोड लिंक</string>
+    <string name="rom_dl_page_text">यह लिंक एक वेब पेज है। इसे ब्राउज़र में खोलने के लिए टैप करें।</string>
+</resources>

@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Cadangan VM (.aessvm) harus diimpor sendiri, bukan bersama file lain.</string>
     <string name="imp_joining">Menggabungkan %2$d bagian dari %1$s…</string>
     <string name="imp_split_missing">Bagian %2$s dari arsip terpisah %1$s tidak ada. Pilih semua bagiannya atau simpan dalam satu folder.</string>
+    <string name="fb_search">Cari</string>
+    <string name="fb_search_hint">Cari di folder ini</string>
+    <string name="fb_no_matches">Tidak ada file atau folder yang cocok</string>
 </resources>

@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Bản sao lưu máy ảo (.aessvm) phải được nhập riêng, không nhập cùng các tệp khác.</string>
     <string name="imp_joining">Đang ghép %2$d phần của %1$s…</string>
     <string name="imp_split_missing">Thiếu phần %2$s của kho lưu trữ chia nhỏ %1$s. Hãy chọn tất cả các phần của nó hoặc để chúng trong cùng một thư mục.</string>
+    <string name="fb_search">Tìm kiếm</string>
+    <string name="fb_search_hint">Tìm trong thư mục này</string>
+    <string name="fb_no_matches">Không có tệp hoặc thư mục nào khớp</string>
 </resources>

@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Резервну копію ВМ (.aessvm) потрібно імпортувати окремо, а не разом з іншими файлами.</string>
     <string name="imp_joining">Склеювання частин (%2$d) файлу %1$s…</string>
     <string name="imp_split_missing">Бракує частини %2$s розділеного архіву %1$s. Виберіть усі його частини або тримайте їх в одній теці.</string>
+    <string name="fb_search">Пошук</string>
+    <string name="fb_search_hint">Пошук у цій папці</string>
+    <string name="fb_no_matches">Нічого не знайдено</string>
 </resources>

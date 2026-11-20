@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Katalogen innehåller fler än 10000 ROM.</string>
     <string name="catalog_tested_on">Emulator %1$s</string>
     <string name="catalog_submitted_by">Inskickad av %1$s</string>
+    <string name="submit_not_direct_title">Direkt länk krävs</string>
+    <string name="submit_not_direct_text">Inlämningar måste vara direktlänkar till ROM-filen. Länkar till webbsidor eller till filvärdar som först öppnar en sida accepteras inte.\n\nRekommenderad uppladdningsplats är archive.org.</string>
 </resources>

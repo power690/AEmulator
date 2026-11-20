@@ -216,9 +216,9 @@
     <string name="lib3d_spec_screen">Ekran</string>
     <string name="lib3d_spec_size">Oʻlcham</string>
     <string name="lib3d_spec_model">Model</string>
-    <string name="as_upstream_row">Upstream: %1$s</string>
+    <string name="as_upstream_row">Boshlang\'ich loyiha: %1$s</string>
     <string name="as_original_row">Asl: %1$s</string>
-    <string name="sms_default_body">AEmulator’dan salom</string>
+    <string name="sms_default_body">AEmulator Plus’dan salom</string>
     <string name="theme_original">Asl</string>
     <string name="theme_sunset">Sunset</string>
     <string name="sim_country_emulator">Emulyator</string>

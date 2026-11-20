@@ -211,7 +211,7 @@
     <string name="lib3d_spec_model">Mudel</string>
     <string name="as_upstream_row">Upstream: %1$s</string>
     <string name="as_original_row">Originaal: %1$s</string>
-    <string name="sms_default_body">Tervitused AEmulatorist</string>
+    <string name="sms_default_body">Tervitused AEmulator Plusist</string>
     <string name="theme_original">Originaal</string>
     <string name="theme_sunset">Päikeseloojang</string>
     <string name="sim_country_emulator">Emulaator</string>

@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">ต้องนำเข้าข้อมูลสำรอง VM (.aessvm) แยกต่างหาก ไม่ใช่พร้อมกับไฟล์อื่น</string>
     <string name="imp_joining">กำลังรวม %2$d ส่วนของ %1$s…</string>
     <string name="imp_split_missing">ไม่พบส่วนที่ %2$s ของไฟล์เก็บถาวรที่แบ่งไว้ %1$s เลือกทุกส่วนของไฟล์นั้น หรือเก็บไว้ในโฟลเดอร์เดียวกัน</string>
+    <string name="fb_search">ค้นหา</string>
+    <string name="fb_search_hint">ค้นหาในโฟลเดอร์นี้</string>
+    <string name="fb_no_matches">ไม่มีไฟล์หรือโฟลเดอร์ที่ตรงกัน</string>
 </resources>

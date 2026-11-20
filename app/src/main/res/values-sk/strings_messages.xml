@@ -208,9 +208,9 @@
     <string name="lib3d_spec_screen">Obrazovka</string>
     <string name="lib3d_spec_size">Veľkosť</string>
     <string name="lib3d_spec_model">Model</string>
-    <string name="as_upstream_row">Upstream: %1$s</string>
+    <string name="as_upstream_row">Pôvodný projekt: %1$s</string>
     <string name="as_original_row">Pôvodný: %1$s</string>
-    <string name="sms_default_body">Pozdrav z AEmulatora</string>
+    <string name="sms_default_body">Pozdrav z AEmulator Plusa</string>
     <string name="theme_original">Pôvodný</string>
     <string name="theme_sunset">Západ slnka</string>
     <string name="sim_country_emulator">Emulátor</string>

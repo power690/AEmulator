@@ -207,6 +207,8 @@
     <string name="vmfail_system_server_oat_missing">system_server cannot start: the precompiled code of the framework (system/framework/oat) is missing from this container — import the firmware again</string>
     <string name="warn_no_build_prop">No system/build.prop: Android version was inferred from the system tree.</string>
     <string name="warn_no_boot_img">No boot.img in firmware: boot plan and BOOTCLASSPATH were guessed.</string>
+    <string name="warn_no_healthd">No healthd in the boot plan (/sbin/healthd missing; ramdisk skipped on import?): system_server will stall in BatteryService.</string>
+    <string name="warn_arm64">64-bit firmware: only 32-bit ARM is supported.</string>
     <string name="warn_not_arm">Firmware is not ARM (%1$s) and will not run.</string>
     <string name="warn_experimental">Android %1$s: support is experimental (ART, SELinux).</string>
     <string name="import_default_name">firmware</string>
@@ -221,7 +223,7 @@
     <string name="lib3d_spec_model">Model</string>
     <string name="as_upstream_row">Upstream: %1$s</string>
     <string name="as_original_row">Original: %1$s</string>
-    <string name="sms_default_body">Hello from AEmulator</string>
+    <string name="sms_default_body">Hello from AEmulator Plus</string>
     <string name="theme_original">Original</string>
     <string name="theme_sunset">Sunset</string>
     <string name="sim_country_emulator">Emulator</string>

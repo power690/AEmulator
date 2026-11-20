@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Kopię zapasową VM (.aessvm) trzeba importować osobno, nie razem z innymi plikami.</string>
     <string name="imp_joining">Łączenie %2$d części pliku %1$s…</string>
     <string name="imp_split_missing">Brakuje części %2$s podzielonego archiwum %1$s. Zaznacz wszystkie jego części lub trzymaj je w jednym folderze.</string>
+    <string name="fb_search">Szukaj</string>
+    <string name="fb_search_hint">Szukaj w tym folderze</string>
+    <string name="fb_no_matches">Brak pasujących plików lub folderów</string>
 </resources>

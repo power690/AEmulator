@@ -18,7 +18,7 @@
     <string name="storage_text">Tüm dosyalara erişime izin verin: her sistemin hafıza kartı dahili depolamadaki AEmulator klasöründe olur; APK, müzik ve fotoğraflar için kullanışlıdır.</string>
     <string name="allow">İzin ver</string>
     <string name="empty_title">Henüz sistem yok</string>
-    <string name="empty_text">Android 1.0–17 için bir ARM yazılımı ekleyin: recovery ZIP, Odin arşivi (.tar.md5), system.img veya fabrika imajı.</string>
+    <string name="empty_text">Android 2.3–6.0 için bir ARM yazılımı ekleyin: recovery ZIP, Odin arşivi (.tar.md5), system.img veya fabrika imajı.</string>
     <string name="empty_help">Hangi dosyalar uygun?</string>
     <string name="import_failed">İçe aktarma başarısız</string>
     <string name="import_running">Yazılım içe aktarılıyor</string>
@@ -30,7 +30,7 @@
     <string name="start">Başlat</string>
     <string name="rename">Yeniden adlandır</string>
     <string name="help_title">Desteklenen yazılımlar</string>
-    <string name="help_text">• Android 2.3–4.4: 32 bit ARM yazılımlar, QEMU üzerinden.\n• Android 5.0–17: arm64 yazılımlar ve GSI’lar, telefonda doğrudan.\n\nBiçimler:\n• CWM/TWRP recovery ZIP (MIUI, CyanogenMod, portlar, çoğu özel ROM);\n• Samsung: Odin .tar / .tar.md5 veya AP_*.tar.md5 içeren ZIP;\n• Google fabrika imajları (.tgz / .zip);\n• system.img (ext4, sparse), TWRP yedeği system.ext4.win;\n• system.new.dat(.br) + system.transfer.list içeren OTA;\n• Ayrıca: 7z, RAR, LG .kdz, Sony .ftf, Huawei UPDATE.APP, Qualcomm EDL, payload.bin, super.img, EROFS, Android-x86 ISO.\n\nArşivde boot.img olması en iyisidir: servislerin başlama sırası buradan alınır.</string>
+    <string name="help_text">• Android 2.3 ve 4.0–4.4: ana destek; 5.x–6.x: deneysel.\n• Yalnızca 32 bit ARM yazılımları (armeabi / armeabi-v7a).\n\nBiçimler:\n• CWM/TWRP recovery ZIP (MIUI, CyanogenMod, portlar, çoğu özel ROM);\n• Samsung: Odin .tar / .tar.md5 veya AP_*.tar.md5 içeren ZIP;\n• Google fabrika imajları (.tgz / .zip);\n• system.img (ext4, sparse), TWRP yedeği system.ext4.win;\n• system.new.dat(.br) + system.transfer.list içeren OTA.\n\nArşivde boot.img olması en iyisidir: servislerin başlama sırası buradan alınır.</string>
     <string name="vs_screen">Misafir ekranı</string>
     <string name="vs_fixed_2x">Android 2.x sabit 480×800, 240 dpi ekran kullanır.</string>
     <string name="vs_screen_hint">Ekran küçüldükçe sistem hızlanır.</string>
@@ -45,13 +45,6 @@
     <string name="vs_legacy_sub">Eski Desire HD motoru: yalnızca GLES 1.x, 480×800 ekran. Ana motor başaramazsa kullanın.</string>
     <string name="vs_lowram">Düşük bellek modu</string>
     <string name="vs_lowram_sub">ro.config.low_ram — sistem bellek tasarrufu yapar.</string>
-    <string name="vs_memory_mode">Bellek yönetimi</string>
-    <string name="vs_memory_light">Hafif</string>
-    <string name="vs_memory_medium">Orta</string>
-    <string name="vs_memory_aggressive">Agresif</string>
-    <string name="vs_memory_light_sub">Arka plandaki uygulamalar yalnızca telefonun kendi belleği neredeyse bittiğinde durdurulur. En az yeniden başlatma; en çok belleği kullanır. VM tamamen yeniden başlatıldıktan sonra geçerli olur.</string>
-    <string name="vs_memory_medium_sub">Dengeli: arka planda orta sayıda uygulama tutar, boş bellek azalınca kalanları durdurur. VM tamamen yeniden başlatıldıktan sonra geçerli olur.</string>
-    <string name="vs_memory_aggressive_sub">Arka planda az sayıda uygulama tutar ve sık kontrol eder; böylece bellek erkenden boşaltılır. En az belleği kullanır, ancak uygulamalar daha sık yeniden başlar. VM tamamen yeniden başlatıldıktan sonra geçerli olur.</string>
     <string name="vs_proxy">Modern TLS vekili</string>
     <string name="vs_proxy_sub">Eski tarayıcı ve uygulamalar günümüz HTTPS sitelerini açar.</string>
     <string name="vs_controls">Kontroller</string>
@@ -99,7 +92,14 @@
     <string name="as_orig_sub">Projenin doğduğu Desire HD ve One M7 emülatörlerinin yaratıcısı</string>
     <string name="as_github">GitHub’da kaynak kod</string>
     <string name="as_version">Sürüm %1$s</string>
-    <string name="as_about">AEmulator klasik Android yazılımlarını modern telefonlarda çalıştırır. Ücretsiz ve açık kaynak.</string>
+    <string name="as_about">AEmulator Plus klasik Android yazılımlarını modern telefonlarda çalıştırır. Ücretsiz ve açık kaynak.</string>
+    <string name="vs_memory_mode">Bellek yönetimi</string>
+    <string name="vs_memory_light">Hafif</string>
+    <string name="vs_memory_medium">Orta</string>
+    <string name="vs_memory_aggressive">Agresif</string>
+    <string name="vs_memory_light_sub">Arka plandaki uygulamalar yalnızca telefonun kendi belleği neredeyse bittiğinde durdurulur. En az yeniden başlatma; en çok belleği kullanır. VM tamamen yeniden başlatıldıktan sonra geçerli olur.</string>
+    <string name="vs_memory_medium_sub">Dengeli: arka planda orta sayıda uygulama tutar, boş bellek azalınca kalanları durdurur. VM tamamen yeniden başlatıldıktan sonra geçerli olur.</string>
+    <string name="vs_memory_aggressive_sub">Arka planda az sayıda uygulama tutar ve sık kontrol eder; böylece bellek erkenden boşaltılır. En az belleği kullanır, ancak uygulamalar daha sık yeniden başlar. VM tamamen yeniden başlatıldıktan sonra geçerli olur.</string>
     <string name="log_copy">Kopyala</string>
     <string name="log_export">.log dışa aktar</string>
     <string name="log_copied">Panoya kopyalandı</string>
@@ -222,9 +222,9 @@
     <string name="update_download_error">İndirme başarısız: %1$s</string>
     <string name="update_open_github">GitHub’da görüntüle</string>
     <string name="vs_camera">Ana makine kamerası (deneysel)</string>
-    <string name="vs_camera_sub">HAL1 ROM’ları: 640×480 önizleme ve fotoğraf, arka/ön kamera. İzin ve sanal makinenin tamamen yeniden başlatılması gerekir. AEmulator arka plana alındığında kamera kapanır; misafir kamera uygulamasını yeniden açın. Video kaydı yok.</string>
+    <string name="vs_camera_sub">HAL1 ROM’ları: 640×480 önizleme ve fotoğraf, arka/ön kamera. İzin ve sanal makinenin tamamen yeniden başlatılması gerekir. AEmulator Plus arka plana alındığında kamera kapanır; misafir kamera uygulamasını yeniden açın. Video kaydı yok.</string>
     <string name="vs_microphone">Ana makine mikrofonu (deneysel)</string>
-    <string name="vs_microphone_sub">Misafir uygulamalar telefon mikrofonundan kaydeder (ses kayıt cihazı, notlar). İzin ve sanal makinenin tamamen yeniden başlatılması gerekir. AEmulator arka plana alındığında kayıt durur; misafir kayıt uygulamasını yeniden açın. Yalnızca 4.x ROM’ları.</string>
+    <string name="vs_microphone_sub">Misafir uygulamalar telefon mikrofonundan kaydeder (ses kayıt cihazı, notlar). İzin ve sanal makinenin tamamen yeniden başlatılması gerekir. AEmulator Plus arka plana alındığında kayıt durur; misafir kayıt uygulamasını yeniden açın. Yalnızca 4.x ROM’ları.</string>
     <string name="microphone_permission_denied">Mikrofon izni reddedildi. Misafir uygulamalar sessizlik kaydeder; Android uygulama ayarlarından izin verin ve sanal makineyi tamamen yeniden başlatın.</string>
     <string name="camera_permission_denied">Kamera izni reddedildi. ROM, ana makine kamerasına erişim olmadan açılacak; yeniden denemek için Android uygulama ayarlarından izin verin ve sanal makineyi tamamen yeniden başlatın.</string>
     <string name="vs_skip_setup">Kurulum sihirbazını atla</string>
@@ -316,10 +316,6 @@
     <string name="update_error_title">Hata</string>
     <string name="update_download_failed_generic">İndirme hatası</string>
     <string name="update_network_error">Ağ hatası</string>
-    <plurals name="catalog_rom_count">
-        <item quantity="one">%1$d ROM</item>
-        <item quantity="other">%1$d ROM</item>
-    </plurals>
     <string name="vs_network">Bildirilen ağ</string>
     <string name="vs_network_sub">Durum çubuğunun gösterdiği: 2G\'den LTE\'ye. Varsayılan 2G\'dir, çünkü her ürün yazılımı 3G veya daha yenisini desteklemez</string>
     <string name="m_network">Ağ</string>
@@ -517,10 +513,6 @@
     <string name="folder_empty">Boş — ROM’ları buraya bırakın</string>
     <string name="folder_open">Klasörü aç</string>
     <string name="folder_close">Klasörü kapat</string>
-    <plurals name="folder_roms">
-        <item quantity="one">%1$d ROM</item>
-        <item quantity="other">%1$d ROM</item>
-    </plurals>
     <string name="phantom_title">Hayalet işlem katili</string>
     <string name="phantom_msg">Cihazınızda Geliştirici seçenekleri’ndeki “Alt işlem kısıtlamalarını devre dışı bırak” seçeneği etkin değil. Bu, emülatör başlatılırken zygote’un sonlandırılacağı ve emülatörün açılamayacağı anlamına gelir. Bu nedenle etkinleştirmeniz ŞİDDETLE ÖNERİLİR.</string>
     <string name="phantom_open_dev">Geliştirici seçeneklerini aç</string>
@@ -534,4 +526,18 @@
     <string name="catalog_download_checking">Bağlantı denetleniyor…</string>
     <string name="catalog_download_title">ROM indiriliyor</string>
     <string name="catalog_download_failed">İndirme başarısız: %1$s</string>
+    <string name="al_title">Activity başlatıcı</string>
+    <string name="m_activities">Activity başlatıcı</string>
+    <string name="al_search_packages">Paketlerde ara</string>
+    <string name="al_search_activities">Activity’lerde ara</string>
+    <string name="al_no_packages">Paket bulunamadı</string>
+    <string name="al_no_activities">Activity bulunamadı</string>
+    <string name="al_not_exported">dışa aktarılmamış</string>
+    <string name="al_starting">%1$s başlatılıyor…</string>
+    <string name="catalog_share_rom">%1$s indirme bağlantısını paylaş</string>
+    <string name="m_battery_old_note">Bu Android sürümü pili yalnızca açılırken okur. Ayarladığınız seviye ve şarj durumu kaydedilir ve sanal makinenin bir sonraki açılışında kullanılır.</string>
+    <string name="vs_no_dex2oat">dex2oat’ı devre dışı bırak (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Uygulamalar ve sistem kodu konukta asla derlenmez: her dex2oat çalışması anında başarısız olur. Uyarı: bu, çökmelere, bozulmalara ve diğer istenmeyen davranışlara yol açabilir (uygulamalar yavaşlar, bazı cihaz yazılımları derleme olmadan açılmaz). Varsayılan olarak kapalı. Bir sonraki tam başlatmada uygulanır.</string>
+    <string name="m_multitask">Görev değiştirme</string>
+    <string name="nav_show">Android düğme çubuğunu göster</string>
 </resources>

@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">VM-varmuuskopio (.aessvm) on tuotava erikseen, ei muiden tiedostojen kanssa.</string>
     <string name="imp_joining">Yhdistetään tiedoston %1$s %2$d osaa…</string>
     <string name="imp_split_missing">Jaetun arkiston %1$s osa %2$s puuttuu. Valitse kaikki sen osat tai pidä ne samassa kansiossa.</string>
+    <string name="fb_search">Haku</string>
+    <string name="fb_search_hint">Hae tästä kansiosta</string>
+    <string name="fb_no_matches">Ei vastaavia tiedostoja tai kansioita</string>
 </resources>

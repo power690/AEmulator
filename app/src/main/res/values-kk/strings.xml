@@ -109,7 +109,7 @@
     <string name="as_orig_sub">Осы жоба негізделген Desire HD және One M7 эмуляторларының жасаушысы</string>
     <string name="as_github">GitHub-тағы бастапқы код</string>
     <string name="as_version">%1$s нұсқасы</string>
-    <string name="as_about">AEmulator классикалық Android микробағдарламасын заманауи телефондарда іске қосады. Тегін және ашық бастапқы кодты.</string>
+    <string name="as_about">AEmulator Plus классикалық Android микробағдарламасын заманауи телефондарда іске қосады. Тегін және ашық бастапқы кодты.</string>
     <string name="log_copy">Көшіру</string>
     <string name="log_export">.log экспорттау</string>
     <string name="log_copied">Буферге көшірілді</string>
@@ -245,9 +245,9 @@
     <string name="update_download_error">Жүктеу сәтсіз аяқталды: %1$s</string>
     <string name="update_open_github">GitHub-та қарау</string>
     <string name="vs_camera">Хост камерасы (эксперименттік)</string>
-    <string name="vs_camera_sub">HAL1 ROM-дары: 640×480 алдын ала қарау және фотолар, артқы/алдыңғы камера. Рұқсат пен VM-ді толық қайта іске қосу қажет. AEmulator фонға өткенде камера жабылады; қонақтың камера қолданбасын қайта ашыңыз. Бейне 640×480 өлшемінде жазылады.</string>
+    <string name="vs_camera_sub">HAL1 ROM-дары: 640×480 алдын ала қарау және фотолар, артқы/алдыңғы камера. Рұқсат пен VM-ді толық қайта іске қосу қажет. AEmulator Plus фонға өткенде камера жабылады; қонақтың камера қолданбасын қайта ашыңыз. Бейне 640×480 өлшемінде жазылады.</string>
     <string name="vs_microphone">Хост микрофоны (эксперименттік)</string>
-    <string name="vs_microphone_sub">Қонақ қолданбалары телефон микрофонынан жазады (диктофон, жазбалар). Рұқсат пен VM-ді толық қайта іске қосу қажет. AEmulator фонға өткенде жазу тоқтайды; қонақтың диктофон қолданбасын қайта ашыңыз. Тек 4.x ROM-дары.</string>
+    <string name="vs_microphone_sub">Қонақ қолданбалары телефон микрофонынан жазады (диктофон, жазбалар). Рұқсат пен VM-ді толық қайта іске қосу қажет. AEmulator Plus фонға өткенде жазу тоқтайды; қонақтың диктофон қолданбасын қайта ашыңыз. Тек 4.x ROM-дары.</string>
     <string name="microphone_permission_denied">Микрофонға рұқсат берілмеді. Қонақ қолданбалары тыныштықты жазады; Android қолданба параметрлерінде рұқсат беріп, қайталау үшін VM-ді толық қайта іске қосыңыз.</string>
     <string name="vs_sim_title">SIM карталар</string>
     <string name="vs_sim_present">SIM карта салынған</string>
@@ -535,4 +535,18 @@
     <string name="catalog_download_checking">Сілтеме тексерілуде…</string>
     <string name="catalog_download_title">ROM жүктелуде</string>
     <string name="catalog_download_failed">Жүктеу сәтсіз аяқталды: %1$s</string>
+    <string name="al_title">Activity жүктеуіші</string>
+    <string name="m_activities">Activity жүктеуіші</string>
+    <string name="al_search_packages">Пакеттерді іздеу</string>
+    <string name="al_search_activities">Activity-лерді іздеу</string>
+    <string name="al_no_packages">Пакеттер табылмады</string>
+    <string name="al_no_activities">Activity-лер табылмады</string>
+    <string name="al_not_exported">экспортталмаған</string>
+    <string name="al_starting">%1$s жүктелуде…</string>
+    <string name="catalog_share_rom">%1$s жүктеп алу сілтемесін бөлісу</string>
+    <string name="m_battery_old_note">Android-тің бұл нұсқасы батареяны тек іске қосылу кезінде оқиды. Сіз орнатқан деңгей мен зарядтау күйі сақталады және VM келесі іске қосылуында қолданылады.</string>
+    <string name="vs_no_dex2oat">dex2oat-ты өшіру (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Қосымшалар мен жүйелік код қонақ жүйеде ешқашан компиляцияланбайды: dex2oat-тың әрбір іске қосуы бірден сәтсіз аяқталады. Ескерту: бұл жүйенің құлауына, ақауларға және басқа болжамсыз жұмысқа әкелуі мүмкін (қосымшалар баяу жұмыс істейді, кейбір прошивкалар компиляциясыз жүктелмейді). Әдепкіде өшірілген. Келесі толық іске қосылғанда қолданылады.</string>
+    <string name="m_multitask">Тапсырмаларды ауыстыру</string>
+    <string name="nav_show">Android түймелер тақтасын көрсету</string>
 </resources>

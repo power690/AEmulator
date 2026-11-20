@@ -108,7 +108,7 @@
     <string name="as_orig_sub">Cruthaitheoir na n-aithriseoirí Desire HD agus One M7 ar fhás an tionscadal seo astu</string>
     <string name="as_github">Cód foinse ar GitHub</string>
     <string name="as_version">Leagan %1$s</string>
-    <string name="as_about">Ritheann AEmulator dochtearraí clasaiceacha Android ar ghuthán nua-aimseartha. Saor in aisce agus foinse oscailte.</string>
+    <string name="as_about">Ritheann AEmulator Plus dochtearraí clasaiceacha Android ar ghuthán nua-aimseartha. Saor in aisce agus foinse oscailte.</string>
     <string name="log_copy">Cóipeáil</string>
     <string name="log_export">Easpórtáil .log</string>
     <string name="log_copied">Cóipeáilte chuig an ghearrthaisce</string>
@@ -255,9 +255,9 @@
     <string name="update_download_error">Theip ar an íoslódáil: %1$s</string>
     <string name="update_open_github">Féach ar GitHub</string>
     <string name="vs_camera">Ceamara an óstríomhaire (turgnamhach)</string>
-    <string name="vs_camera_sub">ROManna HAL1: réamhamharc agus grianghraif 640×480, ceamara cúil/tosaigh. Teastaíonn cead agus atosú iomlán an mheaisín fhíorúil. Dúntar an ceamara nuair a théann AEmulator sa chúlra; oscail aip ceamara an aoi arís. Taifeadtar físeán ag 640×480.</string>
+    <string name="vs_camera_sub">ROManna HAL1: réamhamharc agus grianghraif 640×480, ceamara cúil/tosaigh. Teastaíonn cead agus atosú iomlán an mheaisín fhíorúil. Dúntar an ceamara nuair a théann AEmulator Plus sa chúlra; oscail aip ceamara an aoi arís. Taifeadtar físeán ag 640×480.</string>
     <string name="vs_microphone">Micreafón an óstríomhaire (turgnamhach)</string>
-    <string name="vs_microphone_sub">Déanann aipeanna an aoi taifeadadh ó mhicreafón an ghutháin (taifeadán gutha, nótaí). Teastaíonn cead agus atosú iomlán an mheaisín fhíorúil. Stopann an taifeadadh nuair a théann AEmulator sa chúlra; oscail aip taifeadta an aoi arís. ROManna 4.x amháin.</string>
+    <string name="vs_microphone_sub">Déanann aipeanna an aoi taifeadadh ó mhicreafón an ghutháin (taifeadán gutha, nótaí). Teastaíonn cead agus atosú iomlán an mheaisín fhíorúil. Stopann an taifeadadh nuair a théann AEmulator Plus sa chúlra; oscail aip taifeadta an aoi arís. ROManna 4.x amháin.</string>
     <string name="microphone_permission_denied">Diúltaíodh cead an mhicreafóin. Taifeadfaidh aipeanna an aoi tost; tabhair cead i socruithe aip Android agus atosaigh an meaisín fíorúil go hiomlán le triail eile a bhaint as.</string>
     <string name="vs_sim_title">Cártaí SIM</string>
     <string name="vs_sim_present">Cárta SIM ann</string>
@@ -539,4 +539,18 @@
     <string name="catalog_download_checking">Ag seiceáil an naisc…</string>
     <string name="catalog_download_title">ROM á íoslódáil</string>
     <string name="catalog_download_failed">Theip ar an íoslódáil: %1$s</string>
+    <string name="al_title">Seoltóir Activity</string>
+    <string name="m_activities">Seoltóir Activity</string>
+    <string name="al_search_packages">Cuardaigh pacáistí</string>
+    <string name="al_search_activities">Cuardaigh gníomhartha Activity</string>
+    <string name="al_no_packages">Níor aimsíodh aon phacáiste</string>
+    <string name="al_no_activities">Níor aimsíodh aon Activity</string>
+    <string name="al_not_exported">gan onnmhairiú</string>
+    <string name="al_starting">%1$s á thosú…</string>
+    <string name="catalog_share_rom">Comhroinn nasc íoslódála %1$s</string>
+    <string name="m_battery_old_note">Ní léann an leagan Android seo an batáire ach agus é ag tosú. Sábháiltear an leibhéal agus staid na muirir a shocraíonn tú agus úsáidtear iad ag an gcéad tosú eile den VM.</string>
+    <string name="vs_no_dex2oat">Díchumasaigh dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Ní chuirtear aipeanna agus córaschód i gcrích sa chóras aíochta riamh: theipeann ar gach rith dex2oat láithreach bonn. Rabhadh: d’fhéadfadh seo tuairteanna, botúin agus iompar gan choinne eile a chruthú (riteann aipeanna níos moille, ní féidir le roinnt firmware tosú gan tiomsú). Díchumasaithe de réir réamhshocraithe. Cuirfear i bhfeidhm ag an gcéad tosú iomlán eile.</string>
+    <string name="m_multitask">Malairt tascanna</string>
+    <string name="nav_show">Taispeáin an barra cnaipí Android</string>
 </resources>

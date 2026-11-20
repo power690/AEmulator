@@ -54,12 +54,14 @@ cd AEmulator-Plus
 
 AEmulator Plus est né des émulateurs HTC Desire HD et HTC One M7 de [l’auteur d’origine](https://t.me/istratiit_ech) — sans son moteur, ce projet n’existerait pas.
 
-Ceci est un fork modifié de [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset), lui-même un fork modifié de [uxazu/AEmulator](https://github.com/uxazu/AEmulator).
+Ceci est un fork modifié de [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus), lui-même un fork modifié de [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset), lui-même un fork modifié de [uxazu/AEmulator](https://github.com/uxazu/AEmulator).
 
 ## 🔗 Liens
 
 - Mon fork: [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)
-- Amont: [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)
+- Amont: [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)
+
+- AEmulator-Sunset: [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)
 - Original: [uxazu/AEmulator](https://github.com/uxazu/AEmulator)
 - Auteur: [somerandomusername2](https://github.com/somerandomusernam2)
 - Auteur d’origine: [t.me/istratiit_ech](https://t.me/istratiit_ech)

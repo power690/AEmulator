@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Ένα αντίγραφο ασφαλείας VM (.aessvm) πρέπει να εισαχθεί μόνο του, όχι μαζί με άλλα αρχεία.</string>
     <string name="imp_joining">Συνένωση %2$d τμημάτων του %1$s…</string>
     <string name="imp_split_missing">Λείπει το τμήμα %2$s του διαιρεμένου αρχείου %1$s. Επιλέξτε όλα τα τμήματά του ή κρατήστε τα σε έναν φάκελο.</string>
+    <string name="fb_search">Αναζήτηση</string>
+    <string name="fb_search_hint">Αναζήτηση σε αυτόν τον φάκελο</string>
+    <string name="fb_no_matches">Κανένα αρχείο ή φάκελος δεν ταιριάζει</string>
 </resources>

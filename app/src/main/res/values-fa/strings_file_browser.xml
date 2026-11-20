@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">پشتیبان ماشین مجازی (.aessvm) باید بهتنهایی وارد شود، نه همراه فایلهای دیگر.</string>
     <string name="imp_joining">در حال اتصال %2$d بخش از %1$s…</string>
     <string name="imp_split_missing">بخش %2$s از بایگانی تقسیمشدهٔ %1$s موجود نیست. همهٔ بخشهای آن را انتخاب کنید یا در یک پوشه نگه دارید.</string>
+    <string name="fb_search">جستجو</string>
+    <string name="fb_search_hint">جستجو در این پوشه</string>
+    <string name="fb_no_matches">هیچ فایل یا پوشه‌ای مطابقت ندارد</string>
 </resources>

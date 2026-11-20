@@ -57,7 +57,9 @@ This is a modified fork of [uxazu/AEmulator](https://github.com/uxazu/AEmulator)
 
 - My fork: [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)
 - Upstream: [uxazu/AEmulator](https://github.com/uxazu/AEmulator)
+
 - AEmulator-Sunset (huge credits for many features): [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)
+- Original project: [uxazu/AEmulator](https://github.com/uxazu/AEmulator)
 - Author: [somerandomusername2](https://github.com/somerandomusernam2)
 - Original author: [t.me/istratiit_ech](https://t.me/istratiit_ech)
 

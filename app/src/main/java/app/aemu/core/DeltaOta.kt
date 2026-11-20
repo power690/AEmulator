@@ -25,7 +25,7 @@ import java.security.MessageDigest
 import java.util.zip.ZipFile
 
 /** A reason the OTA cannot be applied; the message is meant for the person using the app. */
-class OtaException(message: String, @androidx.annotation.StringRes override val resId: Int = 0, vararg args: Any?) :
+class OtaException(message: String, @param:androidx.annotation.StringRes override val resId: Int = 0, vararg args: Any?) :
     Exception(message), LocalizedError {
     override val resArgs: Array<out Any?> = args
 }

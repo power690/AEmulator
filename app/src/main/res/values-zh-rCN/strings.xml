@@ -18,7 +18,7 @@
     <string name="storage_text">允许访问所有文件后，每个系统的存储卡都位于内部存储的 AEmulator 文件夹中，方便放入 APK、音乐和照片。</string>
     <string name="allow">允许</string>
     <string name="empty_title">还没有系统</string>
-    <string name="empty_text">添加适用于 Android 1.0–17 的 ARM 固件：Recovery 卡刷包、Odin 包（.tar.md5）、system.img 或官方出厂镜像。</string>
+    <string name="empty_text">添加适用于 Android 2.3–6.0 的 ARM 固件：Recovery 卡刷包、Odin 包（.tar.md5）、system.img 或官方出厂镜像。</string>
     <string name="empty_help">哪些文件可用？</string>
     <string name="import_failed">导入失败</string>
     <string name="import_running">正在导入固件</string>
@@ -30,7 +30,7 @@
     <string name="start">启动</string>
     <string name="rename">重命名</string>
     <string name="help_title">支持的固件</string>
-    <string name="help_text">• Android 2.3–4.4：32 位 ARM 固件，通过 QEMU 运行。\n• Android 5.0–17：arm64 固件和 GSI，在手机上原生运行。\n\n格式：\n• CWM/TWRP 卡刷 ZIP（MIUI、CyanogenMod、移植包、大多数第三方 ROM）；\n• 三星：Odin .tar / .tar.md5，或包含 AP_*.tar.md5 的 ZIP；\n• Google 出厂镜像（.tgz / .zip）；\n• system.img（ext4、sparse），TWRP 备份 system.ext4.win；\n• 含 system.new.dat(.br) + system.transfer.list 的 OTA 包；\n• 另外支持：7z, RAR, LG .kdz, Sony .ftf, Huawei UPDATE.APP, Qualcomm EDL, payload.bin, super.img, EROFS, Android-x86 ISO。\n\n压缩包中最好包含 boot.img：服务启动顺序从中读取。</string>
+    <string name="help_text">• Android 2.3 和 4.0–4.4：主要支持；5.x–6.x：实验性。\n• 仅支持 32 位 ARM 固件（armeabi / armeabi-v7a）。\n\n格式：\n• CWM/TWRP 卡刷 ZIP（MIUI、CyanogenMod、移植包、大多数第三方 ROM）；\n• 三星：Odin .tar / .tar.md5，或包含 AP_*.tar.md5 的 ZIP；\n• Google 出厂镜像（.tgz / .zip）；\n• system.img（ext4、sparse），TWRP 备份 system.ext4.win；\n• 含 system.new.dat(.br) + system.transfer.list 的 OTA 包。\n\n压缩包中最好包含 boot.img：服务启动顺序从中读取。</string>
     <string name="vs_screen">客户机屏幕</string>
     <string name="vs_fixed_2x">Android 2.x 使用固定的 480×800、240 dpi 屏幕。</string>
     <string name="vs_screen_hint">屏幕越小，系统越快。</string>
@@ -45,13 +45,6 @@
     <string name="vs_legacy_sub">旧版 Desire HD 引擎：仅 GLES 1.x，480×800 屏幕。主引擎失败时使用。</string>
     <string name="vs_lowram">低内存模式</string>
     <string name="vs_lowram_sub">ro.config.low_ram — 系统节省内存。</string>
-    <string name="vs_memory_mode">内存管理</string>
-    <string name="vs_memory_light">轻度</string>
-    <string name="vs_memory_medium">中度</string>
-    <string name="vs_memory_aggressive">激进</string>
-    <string name="vs_memory_light_sub">仅当手机本身内存即将耗尽时才会停止后台应用。重启次数最少，但占用内存最多。完全重启虚拟机后生效。</string>
-    <string name="vs_memory_medium_sub">均衡：保留适量的后台应用，可用内存不足时停止其余应用。完全重启虚拟机后生效。</string>
-    <string name="vs_memory_aggressive_sub">只保留少量后台应用并频繁检查，因此会尽早释放内存。占用内存最少，但应用重启更频繁。完全重启虚拟机后生效。</string>
     <string name="vs_proxy">现代 TLS 代理</string>
     <string name="vs_proxy_sub">让旧浏览器和应用打开如今的 HTTPS 网站。</string>
     <string name="vs_controls">操作</string>
@@ -99,7 +92,14 @@
     <string name="as_orig_sub">Desire HD 与 One M7 模拟器的作者，本项目由此发展而来</string>
     <string name="as_github">GitHub 源代码</string>
     <string name="as_version">版本 %1$s</string>
-    <string name="as_about">AEmulator 可在现代手机上运行经典 Android 固件。免费且开源。</string>
+    <string name="as_about">AEmulator Plus 可在现代手机上运行经典 Android 固件。免费且开源。</string>
+    <string name="vs_memory_mode">内存管理</string>
+    <string name="vs_memory_light">轻度</string>
+    <string name="vs_memory_medium">中度</string>
+    <string name="vs_memory_aggressive">激进</string>
+    <string name="vs_memory_light_sub">仅当手机本身内存即将耗尽时才会停止后台应用。重启次数最少，但占用内存最多。完全重启虚拟机后生效。</string>
+    <string name="vs_memory_medium_sub">均衡：保留适量的后台应用，可用内存不足时停止其余应用。完全重启虚拟机后生效。</string>
+    <string name="vs_memory_aggressive_sub">只保留少量后台应用并频繁检查，因此会尽早释放内存。占用内存最少，但应用重启更频繁。完全重启虚拟机后生效。</string>
     <string name="log_copy">复制</string>
     <string name="log_export">导出 .log</string>
     <string name="log_copied">已复制到剪贴板</string>
@@ -222,9 +222,9 @@
     <string name="update_download_error">下载失败：%1$s</string>
     <string name="update_open_github">在 GitHub 上查看</string>
     <string name="vs_camera">主机摄像头（实验性）</string>
-    <string name="vs_camera_sub">HAL1 ROM：640×480 预览和拍照，支持后置/前置摄像头。需要授权并完全重启虚拟机。AEmulator 进入后台时摄像头会关闭；请重新打开客户机的相机应用。不支持录像。</string>
+    <string name="vs_camera_sub">HAL1 ROM：640×480 预览和拍照，支持后置/前置摄像头。需要授权并完全重启虚拟机。AEmulator Plus 进入后台时摄像头会关闭；请重新打开客户机的相机应用。不支持录像。</string>
     <string name="vs_microphone">主机麦克风（实验性）</string>
-    <string name="vs_microphone_sub">客户机应用可通过手机麦克风录音（录音机、备忘录）。需要授权并完全重启虚拟机。AEmulator 进入后台时录音会停止；请重新打开客户机的录音应用。仅支持 4.x ROM。</string>
+    <string name="vs_microphone_sub">客户机应用可通过手机麦克风录音（录音机、备忘录）。需要授权并完全重启虚拟机。AEmulator Plus 进入后台时录音会停止；请重新打开客户机的录音应用。仅支持 4.x ROM。</string>
     <string name="microphone_permission_denied">麦克风权限被拒绝。客户机应用将录制静音；请在 Android 应用设置中授予权限，并完全重启虚拟机后重试。</string>
     <string name="camera_permission_denied">摄像头权限被拒绝。ROM 将在无法访问主机摄像头的情况下启动；请在 Android 应用设置中授予权限，并完全重启虚拟机后重试。</string>
     <string name="vs_skip_setup">跳过设置向导</string>
@@ -316,9 +316,6 @@
     <string name="update_error_title">错误</string>
     <string name="update_download_failed_generic">下载错误</string>
     <string name="update_network_error">网络错误</string>
-    <plurals name="catalog_rom_count">
-        <item quantity="other">%1$d 个 ROM</item>
-    </plurals>
     <string name="vs_network">上报的网络</string>
     <string name="vs_network_sub">状态栏显示的内容:2G 到 LTE。默认为 2G,因为并非每个固件都支持 3G 或更新的网络</string>
     <string name="m_network">网络</string>
@@ -516,9 +513,6 @@
     <string name="folder_empty">空 — 将 ROM 拖到此处</string>
     <string name="folder_open">打开文件夹</string>
     <string name="folder_close">关闭文件夹</string>
-    <plurals name="folder_roms">
-        <item quantity="other">%1$d 个 ROM</item>
-    </plurals>
     <string name="phantom_title">幻影进程杀手</string>
     <string name="phantom_msg">您的设备未在开发者选项中启用“停用子进程限制”。这意味着 zygote 会在模拟器启动期间被终止,导致模拟器无法启动。因此强烈建议启用该选项。</string>
     <string name="phantom_open_dev">打开开发者选项</string>
@@ -532,4 +526,18 @@
     <string name="catalog_download_checking">正在检查链接…</string>
     <string name="catalog_download_title">正在下载 ROM</string>
     <string name="catalog_download_failed">下载失败：%1$s</string>
+    <string name="al_title">Activity 启动器</string>
+    <string name="m_activities">Activity 启动器</string>
+    <string name="al_search_packages">搜索应用包</string>
+    <string name="al_search_activities">搜索 Activity</string>
+    <string name="al_no_packages">未找到应用包</string>
+    <string name="al_no_activities">未找到 Activity</string>
+    <string name="al_not_exported">未导出</string>
+    <string name="al_starting">正在启动 %1$s…</string>
+    <string name="catalog_share_rom">分享 %1$s 的下载链接</string>
+    <string name="m_battery_old_note">此 Android 版本只在启动时读取电池。你设置的电量与充电状态会被保存，并在虚拟机下次启动时使用。</string>
+    <string name="vs_no_dex2oat">禁用 dex2oat（Android 5.0+）</string>
+    <string name="vs_no_dex2oat_sub">应用和系统代码永远不会在客户机中编译：每次 dex2oat 运行都会立即失败。警告：可能导致崩溃、花屏等异常行为（应用运行变慢，部分固件离开编译无法启动）。默认关闭。下次完整启动时生效。</string>
+    <string name="m_multitask">多任务切换</string>
+    <string name="nav_show">显示 Android 按键栏</string>
 </resources>

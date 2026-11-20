@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="catalog_err_bad_json">Le catalogue n\'est pas une liste de ROM valide.</string>
+    <string name="catalog_err_too_many_roms">Le catalogue contient plus de 10000 ROMs.</string>
+    <string name="catalog_submitted_by">Proposé par %1$s</string>
+    <string name="catalog_tested_on">Émulateur %1$s</string>
+    <string name="submit_action">Proposer une ROM</string>
+    <string name="submit_another">En proposer une autre</string>
+    <string name="submit_bad_size">Saisissez un nombre, 0 ou plus</string>
+    <string name="submit_bad_url">Saisissez un lien http(s) valide</string>
+    <string name="submit_by">Votre nom</string>
+    <string name="submit_categories_failed">Impossible de charger les catégories : %1$s</string>
+    <string name="submit_close">Fermer</string>
+    <string name="submit_device">Appareil</string>
+    <string name="submit_emulator">Version de l\'émulateur (facultatif)</string>
+    <string name="submit_err_bad_response">Le serveur a envoyé une réponse inattendue.</string>
+    <string name="submit_err_duplicate">Ce lien de téléchargement a déjà été proposé.</string>
+    <string name="submit_err_rate_limited">Trop de propositions. Réessayez dans environ %1$d min.</string>
+    <string name="submit_err_rejected">Le serveur a refusé la proposition : %1$s</string>
+    <string name="submit_err_server">Le serveur a renvoyé une erreur (HTTP %1$d).</string>
+    <string name="submit_intro">Partagez un lien de téléchargement de ROM. Les propositions sont vérifiées avant d\'apparaître dans le catalogue.</string>
+    <string name="submit_name">Nom de la ROM</string>
+    <string name="submit_not_direct_text">Les propositions doivent être des liens de téléchargement directs vers le fichier ROM. Les liens vers des pages web ou vers des hébergeurs qui ouvrent d\'abord une page ne sont pas acceptés.\n\nL\'endroit recommandé pour l\'envoi est archive.org.</string>
+    <string name="submit_not_direct_title">Lien direct requis</string>
+    <string name="submit_notes">Notes (facultatif)</string>
+    <string name="submit_pick_variant_first">Choisissez d\'abord une variante</string>
+    <string name="submit_required">Obligatoire</string>
+    <string name="submit_rom_version">Version de la ROM</string>
+    <string name="submit_send">Envoyer</string>
+    <string name="submit_size_mb">Taille du fichier en Mo (facultatif)</string>
+    <string name="submit_success">Merci ! Votre ROM a été proposée et apparaîtra dans le catalogue après vérification.</string>
+    <string name="submit_title">Proposer une ROM</string>
+    <string name="submit_url">URL de téléchargement</string>
+    <string name="submit_variant">Variante</string>
+    <string name="submit_version">Catégorie de version</string>
+</resources>

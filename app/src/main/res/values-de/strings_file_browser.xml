@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="as_builtin_browser">Eingebauter Dateibrowser</string>
+    <string name="as_builtin_browser_sub">Firmware mit Sortierung nach Datum und Größe auswählen, mehrere Dateien auf einmal. Ausschalten, um die Systemauswahl zu benutzen.</string>
+    <string name="fb_access_scoped">Android 10 versteckt die meisten Dateien vor Apps, die sich nicht vom Scoped Storage abgemeldet haben; dieser Browser kann sie hier daher nicht anzeigen. Benutze stattdessen die Systemauswahl.</string>
+    <string name="fb_access_text">Um deine Firmware-Dateien aufzulisten und mehrere auf einmal auszuwählen, braucht der Browser Zugriff auf deine Dateien. Du kannst auch die Systemauswahl benutzen.</string>
+    <string name="fb_access_title">Dateizugriff erlauben</string>
+    <string name="fb_clear">Leeren</string>
+    <string name="fb_documents">Dokumente</string>
+    <string name="fb_downloads">Downloads</string>
+    <string name="fb_empty">Nichts hier</string>
+    <string name="fb_firmware">aemulator/firmware</string>
+    <string name="fb_hidden">Versteckt</string>
+    <string name="fb_import">Importieren</string>
+    <string name="fb_internal">Interner Speicher</string>
+    <string name="fb_no_matches">Keine Dateien oder Ordner passen</string>
+    <string name="fb_removable">SD-Karte / USB %1$d</string>
+    <string name="fb_search">Suchen</string>
+    <string name="fb_search_hint">In diesem Ordner suchen</string>
+    <string name="fb_selected">%1$d ausgewählt</string>
+    <string name="fb_sort_date">Datum</string>
+    <string name="fb_sort_name">Name</string>
+    <string name="fb_sort_size">Größe</string>
+    <string name="fb_system_picker">Systemauswahl</string>
+    <string name="fb_title_multi">Dateien wählen</string>
+    <string name="fb_title_single">Datei wählen</string>
+    <string name="fb_unreadable">Dieser Ordner lässt sich nicht lesen. Android hält manche Ordler (etwa die Daten anderer Apps) für jede App geschlossen.</string>
+    <string name="fb_up">Nach oben</string>
+    <string name="fb_use_system_picker">Stattdessen die Systemauswahl benutzen</string>
+    <string name="imp_archive_alone">Ein VM-Backup (.aessvm) muss für sich allein importiert werden, nicht zusammen mit anderen Dateien.</string>
+    <string name="imp_joining">%2$d Teile von %1$s werden zusammengefügt…</string>
+    <string name="imp_split_missing">Teil %2$s des geteilten Archivs %1$s fehlt. Wähle alle Teile aus oder lege sie in denselben Ordner.</string>
+</resources>

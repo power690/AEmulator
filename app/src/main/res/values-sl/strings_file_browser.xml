@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Varnostno kopijo VM (.aessvm) je treba uvoziti samostojno, ne skupaj z drugimi datotekami.</string>
     <string name="imp_joining">Združevanje delov (%2$d) datoteke %1$s …</string>
     <string name="imp_split_missing">Manjka del %2$s razdeljenega arhiva %1$s. Izberite vse njegove dele ali jih hranite v isti mapi.</string>
+    <string name="fb_search">Iskanje</string>
+    <string name="fb_search_hint">Išči v tej mapi</string>
+    <string name="fb_no_matches">Ni ustreznih datotek ali map</string>
 </resources>

@@ -108,7 +108,7 @@
     <string name="as_orig_sub">Творецот на емулаторите Desire HD и One M7 од кои израсна овој проект</string>
     <string name="as_github">Изворен код на GitHub</string>
     <string name="as_version">Верзија %1$s</string>
-    <string name="as_about">AEmulator стартува класичен фирмвер на Android на модерни телефони. Бесплатен и со отворен код.</string>
+    <string name="as_about">AEmulator Plus стартува класичен фирмвер на Android на модерни телефони. Бесплатен и со отворен код.</string>
     <string name="log_copy">Копирај</string>
     <string name="log_export">Извези .log</string>
     <string name="log_copied">Копирано во клипбордот</string>
@@ -255,9 +255,9 @@
     <string name="update_download_error">Преземањето не успеа: %1$s</string>
     <string name="update_open_github">Прикажи на GitHub</string>
     <string name="vs_camera">Камера на домаќинот (експериментално)</string>
-    <string name="vs_camera_sub">ROM-ови со HAL1: преглед и фотографии 640×480, задна/предна камера. Бара дозвола и целосно рестартирање на виртуелната машина. Камерата се затвора кога AEmulator оди во позадина; повторно отворете ја апликацијата за камера во гостинот. Видеото се снима во 640×480.</string>
+    <string name="vs_camera_sub">ROM-ови со HAL1: преглед и фотографии 640×480, задна/предна камера. Бара дозвола и целосно рестартирање на виртуелната машина. Камерата се затвора кога AEmulator Plus оди во позадина; повторно отворете ја апликацијата за камера во гостинот. Видеото се снима во 640×480.</string>
     <string name="vs_microphone">Микрофон на домаќинот (експериментално)</string>
-    <string name="vs_microphone_sub">Апликациите во гостинот снимаат од микрофонот на телефонот (диктафон, белешки). Бара дозвола и целосно рестартирање на виртуелната машина. Снимањето запира кога AEmulator оди во позадина; повторно отворете ја апликацијата за снимање. Само ROM-ови 4.x.</string>
+    <string name="vs_microphone_sub">Апликациите во гостинот снимаат од микрофонот на телефонот (диктафон, белешки). Бара дозвола и целосно рестартирање на виртуелната машина. Снимањето запира кога AEmulator Plus оди во позадина; повторно отворете ја апликацијата за снимање. Само ROM-ови 4.x.</string>
     <string name="microphone_permission_denied">Дозволата за микрофон е одбиена. Апликациите во гостинот ќе снимаат тишина; дајте дозвола во поставките за апликации на Android и целосно рестартирајте ја виртуелната машина за нов обид.</string>
     <string name="vs_sim_title">SIM-картички</string>
     <string name="vs_sim_present">SIM-картичката е вметната</string>
@@ -534,4 +534,18 @@
     <string name="catalog_download_checking">Проверка на врската…</string>
     <string name="catalog_download_title">Преземање на ROM</string>
     <string name="catalog_download_failed">Преземањето не успеа: %1$s</string>
+    <string name="al_title">Стартувач на Activity</string>
+    <string name="m_activities">Стартувач на Activity</string>
+    <string name="al_search_packages">Пребарување пакети</string>
+    <string name="al_search_activities">Пребарување Activity-а</string>
+    <string name="al_no_packages">Нема пронајдени пакети</string>
+    <string name="al_no_activities">Нема пронајдени Activity-а</string>
+    <string name="al_not_exported">не е извезен</string>
+    <string name="al_starting">Се стартува %1$s…</string>
+    <string name="catalog_share_rom">Сподели линк за преземање %1$s</string>
+    <string name="m_battery_old_note">Оваа верзија на Android ја чита батеријата само додека стартува. Нивото и состојбата на полнење што ќе ги поставите се зачувуваат и се користат при следното стартување на VM.</string>
+    <string name="vs_no_dex2oat">Исклучи dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Апликациите и системскиот код никогаш не се компилираат во системот на гостот: секое пуштање dex2oat веднаш пропаѓа. Предупредување: може да предизвика крашеви, грешки и други непредвидени однесувања (апликациите работат побавно, некои firmware не можат да стартуваат без компилирање). Исклучено по основно. Се применува при следниот целосен старт.</string>
+    <string name="m_multitask">Префрлање задачи</string>
+    <string name="nav_show">Прикажи лентата со копчиња на Android</string>
 </resources>

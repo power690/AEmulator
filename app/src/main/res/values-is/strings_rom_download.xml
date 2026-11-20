@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Þegar er niðurhal í gangi.</string>
+    <string name="rom_dl_cannot_start">Það tókst ekki að hefja niðurhal í bakgrunni.</string>
+    <string name="rom_dl_channel">ROM-niðurhal</string>
+    <string name="rom_dl_channel_done">ROM-niðurhali lokið</string>
+    <string name="rom_dl_done">ROM niðurhalað</string>
+    <string name="rom_dl_done_text">Ýttu til að flytja inn %1$s</string>
+    <string name="rom_dl_failed">ROM-niðurhal mistókst</string>
+    <string name="rom_dl_hide">Fela</string>
+    <string name="rom_dl_page">Niðurhalstengill</string>
+    <string name="rom_dl_page_text">Þessi tengill er vefsíða. Ýttu til að opna hana í vafranum.</string>
+</resources>

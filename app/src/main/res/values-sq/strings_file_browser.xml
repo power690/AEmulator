@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Një kopje rezervë e VM-së (.aessvm) duhet të importohet më vete, jo bashkë me skedarë të tjerë.</string>
     <string name="imp_joining">Po bashkohen %2$d pjesë të %1$s…</string>
     <string name="imp_split_missing">Mungon pjesa %2$s e arkivit të ndarë %1$s. Zgjidh të gjitha pjesët e tij ose mbaji në një dosje.</string>
+    <string name="fb_search">Kërko</string>
+    <string name="fb_search_hint">Kërko në këtë dosje</string>
+    <string name="fb_no_matches">Nuk ka skedarë ose dosje që përputhen</string>
 </resources>

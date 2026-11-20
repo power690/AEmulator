@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Каталог има више од 10000 ROM-ова.</string>
     <string name="catalog_tested_on">Емулатор %1$s</string>
     <string name="catalog_submitted_by">Послао/ла: %1$s</string>
+    <string name="submit_not_direct_title">Потребна је директна веза</string>
+    <string name="submit_not_direct_text">Предати морају бити директне везе за преузимање ROM датотеке. Везе ка веб-страницама или ка хостинговима који прво отворе страницу не прихватају се.\n\nПрепоручено место за слање је archive.org.</string>
 </resources>

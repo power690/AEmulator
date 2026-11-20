@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="as_builtin_browser">Explorador de archivos integrado</string>
+    <string name="as_builtin_browser_sub">Elige firmware con orden por fecha y tamaño, y varios archivos a la vez. Apágalo para usar el selector del sistema.</string>
+    <string name="fb_access_scoped">Android 10 oculta la mayoría de los archivos a las apps que no han renunciado al almacenamiento limitado, así que este explorador no puede listarlos aquí. Usa el selector del sistema.</string>
+    <string name="fb_access_text">Para listar tus archivos de firmware y elegir varios a la vez, el explorador necesita acceso a tus archivos. También puedes usar el selector del sistema.</string>
+    <string name="fb_access_title">Permitir acceso a los archivos</string>
+    <string name="fb_clear">Borrar</string>
+    <string name="fb_documents">Documentos</string>
+    <string name="fb_downloads">Descargas</string>
+    <string name="fb_empty">Aquí no hay nada</string>
+    <string name="fb_firmware">aemulator/firmware</string>
+    <string name="fb_hidden">Ocultos</string>
+    <string name="fb_import">Importar</string>
+    <string name="fb_internal">Almacenamiento interno</string>
+    <string name="fb_no_matches">Ningún archivo o carpeta coincide</string>
+    <string name="fb_removable">Tarjeta SD / USB %1$d</string>
+    <string name="fb_search">Buscar</string>
+    <string name="fb_search_hint">Buscar en esta carpeta</string>
+    <string name="fb_selected">%1$d seleccionados</string>
+    <string name="fb_sort_date">Fecha</string>
+    <string name="fb_sort_name">Nombre</string>
+    <string name="fb_sort_size">Tamaño</string>
+    <string name="fb_system_picker">Selector del sistema</string>
+    <string name="fb_title_multi">Elegir archivos</string>
+    <string name="fb_title_single">Elegir un archivo</string>
+    <string name="fb_unreadable">Esta carpeta no se puede leer. Android mantiene algunas carpetas (como los datos de otras apps) cerradas para todas las apps.</string>
+    <string name="fb_up">Arriba</string>
+    <string name="fb_use_system_picker">Usar el selector del sistema</string>
+    <string name="imp_archive_alone">Una copia de seguridad de VM (.aessvm) debe importarse sola, no junto con otros archivos.</string>
+    <string name="imp_joining">Uniendo %2$d partes de %1$s…</string>
+    <string name="imp_split_missing">Falta la parte %2$s del archivo dividido %1$s. Selecciona todas sus partes o déjalas en una sola carpeta.</string>
+</resources>

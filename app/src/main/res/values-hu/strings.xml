@@ -52,7 +52,7 @@
     <string name="vs_memory_light_sub">A háttéralkalmazások csak akkor állnak le, ha magának a telefonnak majdnem elfogy a memóriája. Legkevesebb újraindulás; a legtöbb memóriát használja. A virtuális gép teljes újraindítása után lép érvénybe.</string>
     <string name="vs_memory_medium_sub">Kiegyensúlyozott: mérsékelt számú háttéralkalmazást tart meg, a többit leállítja, ha kevés a szabad memória. A virtuális gép teljes újraindítása után lép érvénybe.</string>
     <string name="vs_memory_aggressive_sub">Kevés háttéralkalmazást tart meg, és gyakran ellenőriz, így a memória korán felszabadul. A legkevesebb memóriát használja, de az alkalmazások gyakrabban indulnak újra. A virtuális gép teljes újraindítása után lép érvénybe.</string>
-    <string name="vs_proxy">Modern TLS proxy</string>
+    <string name="vs_proxy">Modern TLS-proxy</string>
     <string name="vs_proxy_sub">Lehetővé teszi, hogy a régi böngészők és alkalmazások megnyissák a mai HTTPS-oldalakat.</string>
     <string name="vs_controls">Vezérlés</string>
     <string name="vs_nav">Android gombsáv</string>
@@ -109,7 +109,7 @@
     <string name="as_orig_sub">A Desire HD és One M7 emulátorok készítője, amelyekből ez a projekt kinőtt</string>
     <string name="as_github">Forráskód a GitHubon</string>
     <string name="as_version">%1$s verzió</string>
-    <string name="as_about">Az AEmulator klasszikus Android firmware-t futtat modern telefonokon. Ingyenes és nyílt forráskódú.</string>
+    <string name="as_about">Az AEmulator Plus klasszikus Android firmware-t futtat modern telefonokon. Ingyenes és nyílt forráskódú.</string>
     <string name="log_copy">Másolás</string>
     <string name="log_export">.log exportálása</string>
     <string name="log_copied">A vágólapra másolva</string>
@@ -245,9 +245,9 @@
     <string name="update_download_error">A letöltés sikertelen: %1$s</string>
     <string name="update_open_github">Megtekintés a GitHubon</string>
     <string name="vs_camera">Gazdagép kamerája (kísérleti)</string>
-    <string name="vs_camera_sub">HAL1 ROM-ok: 640×480-as előnézet és fényképek, hátsó/első kamera. Engedélyt és a VM teljes újraindítását igényli. A kamera bezárul, ha az AEmulator a háttérbe kerül; nyissa meg újra a vendég kamera alkalmazást. A videó 640×480-as felbontásban készül.</string>
+    <string name="vs_camera_sub">HAL1 ROM-ok: 640×480-as előnézet és fényképek, hátsó/első kamera. Engedélyt és a VM teljes újraindítását igényli. A kamera bezárul, ha az AEmulator Plus a háttérbe kerül; nyissa meg újra a vendég kamera alkalmazást. A videó 640×480-as felbontásban készül.</string>
     <string name="vs_microphone">Gazdagép mikrofonja (kísérleti)</string>
-    <string name="vs_microphone_sub">A vendég alkalmazások a telefon mikrofonjáról rögzítenek (hangrögzítő, jegyzetek). Engedélyt és a VM teljes újraindítását igényli. A felvétel leáll, ha az AEmulator a háttérbe kerül; nyissa meg újra a vendég rögzítő alkalmazást. Csak 4.x ROM-ok.</string>
+    <string name="vs_microphone_sub">A vendég alkalmazások a telefon mikrofonjáról rögzítenek (hangrögzítő, jegyzetek). Engedélyt és a VM teljes újraindítását igényli. A felvétel leáll, ha az AEmulator Plus a háttérbe kerül; nyissa meg újra a vendég rögzítő alkalmazást. Csak 4.x ROM-ok.</string>
     <string name="microphone_permission_denied">A mikrofonengedély megtagadva. A vendég alkalmazások csendet rögzítenek; adja meg az engedélyt az Android alkalmazásbeállításaiban, és indítsa újra teljesen a VM-et az újrapróbálkozáshoz.</string>
     <string name="vs_sim_title">SIM-kártyák</string>
     <string name="vs_sim_present">SIM-kártya behelyezve</string>
@@ -535,4 +535,18 @@
     <string name="catalog_download_checking">Hivatkozás ellenőrzése…</string>
     <string name="catalog_download_title">ROM letöltése</string>
     <string name="catalog_download_failed">A letöltés sikertelen: %1$s</string>
+    <string name="al_title">Activity-indító</string>
+    <string name="m_activities">Activity-indító</string>
+    <string name="al_search_packages">Csomagok keresése</string>
+    <string name="al_search_activities">Activity-k keresése</string>
+    <string name="al_no_packages">Nem található csomag</string>
+    <string name="al_no_activities">Nem található Activity</string>
+    <string name="al_not_exported">nincs exportálva</string>
+    <string name="al_starting">%1$s indítása…</string>
+    <string name="catalog_share_rom">%1$s letöltési hivatkozásának megosztása</string>
+    <string name="m_battery_old_note">Ez az Android-verzió csak indulás közben olvassa be az akkumulátort. A beállított szint és töltési állapot mentésre kerül, és a VM következő indulásakor lesz használva.</string>
+    <string name="vs_no_dex2oat">dex2oat letiltása (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Az alkalmazások és a rendszerkód soha nem fordul le a vendégben: minden dex2oat-futtatás azonnal meghiúsul. Figyelmeztetés: összeomlásokat, hibákat és egyéb nem kívánt viselkedést okozhat (az alkalmazások lassabban futnak, néhány firmware fordítás nélkül nem indul). Alapértelmezetten kikapcsolva. A következő teljes indításkor lép érvénybe.</string>
+    <string name="m_multitask">Feladatváltás</string>
+    <string name="nav_show">Android gombsáv megjelenítése</string>
 </resources>

@@ -108,7 +108,7 @@
     <string name="as_orig_sub">Bu layihənin əsasını təşkil edən Desire HD və One M7 emulyatorlarının yaradıcısı</string>
     <string name="as_github">GitHub-da mənbə kodu</string>
     <string name="as_version">Versiya %1$s</string>
-    <string name="as_about">AEmulator klassik Android mikroproqramını müasir telefonlarda işə salır. Pulsuz və açıq mənbəlidir.</string>
+    <string name="as_about">AEmulator Plus klassik Android mikroproqramını müasir telefonlarda işə salır. Pulsuz və açıq mənbəlidir.</string>
     <string name="log_copy">Kopyala</string>
     <string name="log_export">.log ixrac et</string>
     <string name="log_copied">Mübadilə buferinə kopyalandı</string>
@@ -255,9 +255,9 @@
     <string name="update_download_error">Endirmə alınmadı: %1$s</string>
     <string name="update_open_github">GitHub-da bax</string>
     <string name="vs_camera">Host kamerası (eksperimental)</string>
-    <string name="vs_camera_sub">HAL1 ROM-lar: 640×480 önbaxış və fotolar, arxa/ön kamera. İcazə və virtual maşının tam yenidən başladılmasını tələb edir. AEmulator arxa plana keçəndə kamera bağlanır; qonaq kamera tətbiqini yenidən açın. Video 640×480 ölçüsündə yazılır.</string>
+    <string name="vs_camera_sub">HAL1 ROM-lar: 640×480 önbaxış və fotolar, arxa/ön kamera. İcazə və virtual maşının tam yenidən başladılmasını tələb edir. AEmulator Plus arxa plana keçəndə kamera bağlanır; qonaq kamera tətbiqini yenidən açın. Video 640×480 ölçüsündə yazılır.</string>
     <string name="vs_microphone">Host mikrofonu (eksperimental)</string>
-    <string name="vs_microphone_sub">Qonaq tətbiqlər telefonun mikrofonundan yazır (səs yazıcısı, qeydlər). İcazə və virtual maşının tam yenidən başladılmasını tələb edir. AEmulator arxa plana keçəndə yazı dayanır; qonaq yazı tətbiqini yenidən açın. Yalnız 4.x ROM-lar.</string>
+    <string name="vs_microphone_sub">Qonaq tətbiqlər telefonun mikrofonundan yazır (səs yazıcısı, qeydlər). İcazə və virtual maşının tam yenidən başladılmasını tələb edir. AEmulator Plus arxa plana keçəndə yazı dayanır; qonaq yazı tətbiqini yenidən açın. Yalnız 4.x ROM-lar.</string>
     <string name="microphone_permission_denied">Mikrofon icazəsi rədd edildi. Qonaq tətbiqlər sükut yazacaq; Android tətbiq parametrlərində icazə verin və yenidən cəhd üçün virtual maşını tam yenidən başladın.</string>
     <string name="vs_sim_title">SIM kartlar</string>
     <string name="vs_sim_present">SIM kart daxil edilib</string>
@@ -533,4 +533,18 @@
     <string name="catalog_download_checking">Keçid yoxlanılır…</string>
     <string name="catalog_download_title">ROM endirilir</string>
     <string name="catalog_download_failed">Endirmə uğursuz oldu: %1$s</string>
+    <string name="al_title">Activity başladıcısı</string>
+    <string name="m_activities">Activity başladıcısı</string>
+    <string name="al_search_packages">Paketləri axtar</string>
+    <string name="al_search_activities">Activity-ləri axtar</string>
+    <string name="al_no_packages">Paket tapılmadı</string>
+    <string name="al_no_activities">Activity tapılmadı</string>
+    <string name="al_not_exported">ixrac edilməyib</string>
+    <string name="al_starting">%1$s başladılır…</string>
+    <string name="catalog_share_rom">%1$s üçün yükləmə bağlantısını paylaş</string>
+    <string name="m_battery_old_note">Bu Android versiyası batareyanı yalnız başlanğıc zamanı oxuyur. Təyin etdiyiniz səviyyə və dolma vəziyyəti yadda saxlanılır və VM-nin növbəti başlanışında istifadə olunur.</string>
+    <string name="vs_no_dex2oat">dex2oat-ı deaktiv et (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Tətbiqlər və sistem kodu qonaqda heç vaxt tərcümə olunmur: hər dex2oat işləməsi dərhal uğursuz olur. Xəbərdarlıq: bu, çökmələrə, pozuntulara və digər istənməyən davranışlara səbəb ola bilər (tətbiqlər yavaş işləyir, bəzi proqram təminatı tərcümə olmadan başlamır). Susdurulmuş halda deaktivdir. Növbəti tam başlanışda tətbiq olunur.</string>
+    <string name="m_multitask">Tapşırıqların dəyişdirilməsi</string>
+    <string name="nav_show">Android düymə panelini göstər</string>
 </resources>

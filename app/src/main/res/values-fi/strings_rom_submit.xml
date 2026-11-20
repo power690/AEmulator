@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Luettelossa on yli 10000 ROMia.</string>
     <string name="catalog_tested_on">Emulaattori %1$s</string>
     <string name="catalog_submitted_by">Lähettäjä: %1$s</string>
+    <string name="submit_not_direct_title">Suora linkki vaaditaan</string>
+    <string name="submit_not_direct_text">Lähetysten on oltava suoria latauslinkkejä ROM-tiedostoon. Verkkosivuille tai ensin sivun avaavaan tiedostopalveluun johtavia linkkejä ei hyväksytä.\n\nSuositeltu latauspaikka on archive.org.</string>
 </resources>

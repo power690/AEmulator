@@ -4,7 +4,7 @@
     <string name="m_wea_type">Uri ng alerto</string>
     <string name="m_wea_sent">Naipadala ang emergency alert</string>
     <string name="m_wea_failed">Hindi naipadala: hindi tumatakbo ang telephony ng telepono</string>
-    <string name="wea_presidential">Presidential alert</string>
+    <string name="wea_presidential">Alerto ng pangulo</string>
     <string name="wea_extreme">Matinding banta</string>
     <string name="wea_severe">Malubhang banta</string>
     <string name="wea_amber">AMBER alert</string>

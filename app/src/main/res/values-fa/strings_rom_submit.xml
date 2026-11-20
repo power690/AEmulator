@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">فهرست بیش از ۱۰۰۰۰ ROM دارد.</string>
     <string name="catalog_tested_on">شبیهساز %1$s</string>
     <string name="catalog_submitted_by">ارسالشده توسط %1$s</string>
+    <string name="submit_not_direct_title">پیوند مستقیم لازم است</string>
+    <string name="submit_not_direct_text">ارسالی‌ها باید پیوند دانلود مستقیم به فایل ROM باشند. پیوندهای به صفحه‌های وب یا به میزبان‌هایی که ابتدا صفحه‌ای باز می‌کنند پذیرفته نمی‌شوند.\n\nمحل پیشنهادی برای بارگذاری archive.org است.</string>
 </resources>

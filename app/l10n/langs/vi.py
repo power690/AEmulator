@@ -90,5 +90,5 @@ S = {
     "as_orig_sub": "Người tạo trình giả lập Desire HD và One M7, nền tảng của dự án",
     "as_github": "Mã nguồn trên GitHub",
     "as_version": "Phiên bản %1$s",
-    "as_about": "AEmulator chạy firmware Android cổ điển trên điện thoại hiện đại. Miễn phí và mã nguồn mở.",
+    "as_about": "AEmulator Plus chạy firmware Android cổ điển trên điện thoại hiện đại. Miễn phí và mã nguồn mở.",
 }

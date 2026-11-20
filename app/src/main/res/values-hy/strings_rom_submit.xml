@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="catalog_err_bad_json">Կատալոգը վավեր ROM ցանկ չէ։</string>
+    <string name="catalog_err_too_many_roms">Կատալոգում ավելի քան 10000 ROM կա։</string>
+    <string name="catalog_submitted_by">Ուղարկել է %1$s</string>
+    <string name="catalog_tested_on">Էմուլյատոր %1$s</string>
+    <string name="submit_action">Ուղարկել ROM</string>
+    <string name="submit_another">Ուղարկել ևս մեկը</string>
+    <string name="submit_bad_size">Մուտքագրեք թիվ, 0 կամ ավելի</string>
+    <string name="submit_bad_url">Մուտքագրեք վավեր http(s) հղում</string>
+    <string name="submit_by">Ձեր անունը</string>
+    <string name="submit_categories_failed">Չհաջողվեց բեռնել կատեգորիաները՝ %1$s</string>
+    <string name="submit_close">Փակել</string>
+    <string name="submit_device">Սարք</string>
+    <string name="submit_emulator">Էմուլյատորի տարբերակը (ընտրողական)</string>
+    <string name="submit_err_bad_response">Սերվերը անսպասելի պատասխան ուղարկեց։</string>
+    <string name="submit_err_duplicate">Այս ներբեռնման հղումն արդեն ուղարկված էր։</string>
+    <string name="submit_err_rate_limited">Չափազանց շատ ուղարկումներ։ Փորձեք կրկին մոտ %1$d րոպեից։</string>
+    <string name="submit_err_rejected">Սերվերը մերժեց ուղարկումը՝ %1$s</string>
+    <string name="submit_err_server">Սերվերը սխալ վերադարձրեց (HTTP %1$d)։</string>
+    <string name="submit_intro">Կիսվեք ROM-ի ներբեռնման հղումով։ Կատալոգում հայտնվելուց առաջ ուղարկումները ստուգվում են։</string>
+    <string name="submit_name">ROM-ի անվանում</string>
+    <string name="submit_not_direct_text">Ուղարկվողը պետք է լինի ROM ֆայլի ուղիղ ներբեռնման հղում։ Վեբ էջերի կամ նախ էջ բացող ֆայլ հոստինգների հղումներ չեն ընդունվում։\n\nԽորհուրդ տրվող վերբեռնման վայրը archive.org է։</string>
+    <string name="submit_not_direct_title">Անհրաժեշտ է ուղիղ հղում</string>
+    <string name="submit_notes">Ծանոթագրություններ (ընտրողական)</string>
+    <string name="submit_pick_variant_first">Նախ ընտրեք տարբերակ</string>
+    <string name="submit_required">Պարտադիր</string>
+    <string name="submit_rom_version">ROM-ի տարբերակ</string>
+    <string name="submit_send">Ուղարկել</string>
+    <string name="submit_size_mb">Ֆայլի չափը MB-ով (ընտրողական)</string>
+    <string name="submit_success">Շնորհակալությո՜ւն։ Ձեր ROM-ը ուղարկվեց և ստուգումից հետո կհայտնվի կատալոգում։</string>
+    <string name="submit_title">Ուղարկել ROM</string>
+    <string name="submit_url">Ներբեռնման URL</string>
+    <string name="submit_variant">Տարբերակ</string>
+    <string name="submit_version">Տարբերակի կատեգորիա</string>
+</resources>

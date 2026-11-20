@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Prebieha už iné sťahovanie.</string>
+    <string name="rom_dl_cannot_start">Sťahovanie sa nepodarilo spustiť na pozadí.</string>
+    <string name="rom_dl_channel">Sťahovanie ROM</string>
+    <string name="rom_dl_channel_done">Sťahovanie ROM dokončené</string>
+    <string name="rom_dl_done">ROM stiahnutá</string>
+    <string name="rom_dl_done_text">Klepnutím importujete %1$s</string>
+    <string name="rom_dl_failed">Sťahovanie ROM zlyhalo</string>
+    <string name="rom_dl_hide">Skryť</string>
+    <string name="rom_dl_page">Odkaz na stiahnutie</string>
+    <string name="rom_dl_page_text">Tento odkaz je webová stránka. Klepnutím ju otvoríte v prehliadači.</string>
+</resources>

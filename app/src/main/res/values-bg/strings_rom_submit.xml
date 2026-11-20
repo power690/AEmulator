@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Каталогът съдържа повече от 10000 ROM.</string>
     <string name="catalog_tested_on">Емулатор %1$s</string>
     <string name="catalog_submitted_by">Изпратен от %1$s</string>
+    <string name="submit_not_direct_title">Необходим е директен линк</string>
+    <string name="submit_not_direct_text">Подадените трябва да са директни линкове за изтегляне на ROM файла. Линкове към уеб страници или към файлови хостове, които първо отварят страница, не се приемат.\n\nПрепоръчителното място за качване е archive.org.</string>
 </resources>

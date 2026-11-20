@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Tá níos mó ná 10000 ROM sa chatalóg.</string>
     <string name="catalog_tested_on">Gineadóir %1$s</string>
     <string name="catalog_submitted_by">Curtha isteach ag %1$s</string>
+    <string name="submit_not_direct_title">Tá nasc díreach de dhíth</string>
+    <string name="submit_not_direct_text">Ní mór do chuid isteach a bheith ina naisc íoslódála dhíreacha ar chomhad ROM. Naisc chuig leathanaigh ghréasáin nó chuig óstaigh chomhaid a osclaíonn leathanach ar dtús ní ghlactar leo.\n\nIs é archive.org an áit mholta uaslódála.</string>
 </resources>

@@ -210,7 +210,7 @@
     <string name="lib3d_spec_model">မော်ဒယ်</string>
     <string name="as_upstream_row">မူလရင်းမြစ်- %1$s</string>
     <string name="as_original_row">မူရင်း- %1$s</string>
-    <string name="sms_default_body">AEmulator မှ မင်္ဂလာပါ</string>
+    <string name="sms_default_body">AEmulator Plus မှ မင်္ဂလာပါ</string>
     <string name="theme_original">မူရင်း</string>
     <string name="theme_sunset">နေဝင်ချိန်</string>
     <string name="sim_country_emulator">အီမူလေတာ</string>
@@ -232,4 +232,7 @@
     <string name="imp_choice_text">ဤပက်ကေ့ချ်တွင် %1$s တစ်ခုထက်ပိုပါသည် (%3$d ခုအနက် %2$d)။ တင်သွင်းမည့်တစ်ခုကို ရွေးပါ။</string>
     <string name="imp_choice_ok">တင်သွင်းရန်</string>
     <string name="imp_choice_cancel">တင်သွင်းမှု ပယ်ဖျက်ရန်</string>
+    <string name="imp_no_system_partition_in_mbr">%1$s: MBR တွင် system partition မရှိပါ</string>
+    <string name="imp_unreadable_mbr">%1$s: MBR partition ဇယား ဖတ်၍ မရပါ</string>
+    <string name="ota_squash_files_modified">/system ၏ ဖိုင် %1$d ခုကို app သို့မဟုတ် သင်က ပြောင်းလဲထားသဖြင့် ပြန်တည်ဆောက်၍ မရပါ၊ ဥပမာ %2$s။ SquashFS system image ကို မပြောင်းလဲသေးသော ဖိုင်များမှသာ ပြန်တည်ဆောက်နိုင်သည်။ ဘာမှ မပြောင်းလဲပါ။</string>
 </resources>

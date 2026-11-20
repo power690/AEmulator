@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">يجب استيراد نسخة VM الاحتياطية (.aessvm) بمفردها وليس مع ملفات أخرى.</string>
     <string name="imp_joining">جارٍ ضمّ %2$d أجزاء من %1$s…</string>
     <string name="imp_split_missing">الجزء %2$s من الأرشيف المقسّم %1$s مفقود. حدّد جميع أجزائه أو احتفظ بها في مجلد واحد.</string>
+    <string name="fb_search">بحث</string>
+    <string name="fb_search_hint">البحث في هذا المجلد</string>
+    <string name="fb_no_matches">لا توجد ملفات أو مجلدات مطابقة</string>
 </resources>

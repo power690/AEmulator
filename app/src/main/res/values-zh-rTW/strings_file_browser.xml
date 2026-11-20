@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">虛擬機備份（.aessvm）必須單獨匯入，不能與其他檔案一起匯入。</string>
     <string name="imp_joining">正在合併 %1$s 的 %2$d 個分割檔…</string>
     <string name="imp_split_missing">分割封存檔 %1$s 缺少第 %2$s 部分。請選取所有分割檔，或將它們放在同一個資料夾中。</string>
+    <string name="fb_search">搜尋</string>
+    <string name="fb_search_hint">在此資料夾中搜尋</string>
+    <string name="fb_no_matches">沒有相符的檔案或資料夾</string>
 </resources>

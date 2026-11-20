@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="as_builtin_browser">বিল্ট-ইন ফাইল ব্রাউজার</string>
+    <string name="as_builtin_browser_sub">তারিখ ও সাইজ অনুযায়ী সাজিয়ে একসঙ্গে কয়েকটি ফাইল থেকে ফার্মওয়্যার বাছুন। বন্ধ করলে সিস্টেম পিকার ব্যবহৃত হবে।</string>
+    <string name="fb_access_scoped">স্কোপড স্টোরেজ থেকে বের হয়নি এমন অ্যাপের কাছ থেকে Android 10 বেশিরভাগ ফাইল লুকিয়ে রাখে, তাই এই ব্রাউজার সেগুলি এখানে দেখাতে পারে না। সিস্টেম পিকার ব্যবহার করুন।</string>
+    <string name="fb_access_text">আপনার ফার্মওয়্যার ফাইলগুলি দেখতে ও একসঙ্গে কয়েকটি বাছতে ব্রাউজারের আপনার ফাইলে অ্যাক্সেস দরকার। চাইলে সিস্টেম পিকারও ব্যবহার করতে পারেন।</string>
+    <string name="fb_access_title">ফাইলে অ্যাক্সেসের অনুমতি দিন</string>
+    <string name="fb_clear">মুছুন</string>
+    <string name="fb_documents">ডকুমেন্ট</string>
+    <string name="fb_downloads">ডাউনলোড</string>
+    <string name="fb_empty">এখানে কিছু নেই</string>
+    <string name="fb_firmware">aemulator/firmware</string>
+    <string name="fb_hidden">লুকানো</string>
+    <string name="fb_import">ইমপোর্ট</string>
+    <string name="fb_internal">ইন্টারনাল স্টোরেজ</string>
+    <string name="fb_no_matches">কোনো ফাইল বা ফোল্ডার মেলেনি</string>
+    <string name="fb_removable">SD কার্ড / USB %1$d</string>
+    <string name="fb_search">খুঁজুন</string>
+    <string name="fb_search_hint">এই ফোল্ডারে খুঁজুন</string>
+    <string name="fb_selected">%1$dটি নির্বাচিত</string>
+    <string name="fb_sort_date">তারিখ</string>
+    <string name="fb_sort_name">নাম</string>
+    <string name="fb_sort_size">সাইজ</string>
+    <string name="fb_system_picker">সিস্টেম পিকার</string>
+    <string name="fb_title_multi">ফাইল বাছুন</string>
+    <string name="fb_title_single">একটি ফাইল বাছুন</string>
+    <string name="fb_unreadable">এই ফোল্ডারটি পড়া যায় না। Android কিছু ফোল্ডার (যেমন অন্য অ্যাপের ডেটা) সব অ্যাপের জন্য বন্ধ রাখে।</string>
+    <string name="fb_up">উপরে</string>
+    <string name="fb_use_system_picker">সিস্টেম পিকার ব্যবহার করুন</string>
+    <string name="imp_archive_alone">একটি VM ব্যাকআপ (.aessvm) একা ইমপোর্ট করতে হয়, অন্য ফাইলের সঙ্গে নয়।</string>
+    <string name="imp_joining">%1$s-এর %2$dটি অংশ জোড়া হচ্ছে…</string>
+    <string name="imp_split_missing">ভাগ করা আর্কাইভ %1$s-এর %2$s নং অংশটি নেই। সব অংশ বাছুন, বা এক ফোল্ডারে রাখুন।</string>
+</resources>

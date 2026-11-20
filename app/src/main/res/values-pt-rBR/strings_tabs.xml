@@ -8,4 +8,12 @@
     <string name="tab_minimize">Minimizar</string>
     <string name="tab_shutdown">Desligar</string>
     <string name="vm_slots_full">Todos os %1$d slots de máquina estão em uso. Desligue um primeiro.</string>
+    <string name="tab_bar_hide">Ocultar barra de abas</string>
+    <string name="tab_bar_show">Mostrar barra de abas</string>
+    <string name="tab_drag_label">Arraste para a tela para dividir</string>
+    <string name="tab_group_title">2 abas</string>
+    <string name="tab_split_action">Dividir</string>
+    <string name="tab_split_failed">Essa máquina não pode mais ser adicionada a esta aba.</string>
+    <string name="tab_split_text">Cada máquina volta para uma aba própria. As duas continuam rodando.</string>
+    <string name="tab_split_title">Dividir 2 abas?</string>
 </resources>

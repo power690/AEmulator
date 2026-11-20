@@ -8,4 +8,12 @@
     <string name="tab_minimize">Minimieren</string>
     <string name="tab_shutdown">Herunterfahren</string>
     <string name="vm_slots_full">Alle %1$d Maschinenplätze sind belegt. Fahre zuerst eine herunter.</string>
+    <string name="tab_bar_hide">Tab-Leiste ausblenden</string>
+    <string name="tab_bar_show">Tab-Leiste anzeigen</string>
+    <string name="tab_drag_label">Zum Teilen auf den Bildschirm ziehen</string>
+    <string name="tab_group_title">2 Tabs</string>
+    <string name="tab_split_action">Teilen</string>
+    <string name="tab_split_failed">Diese Maschine kann nicht mehr zu diesem Tab hinzugefügt werden.</string>
+    <string name="tab_split_text">Jede Maschine bekommt wieder einen eigenen Tab. Beide laufen weiter.</string>
+    <string name="tab_split_title">2 Tabs teilen?</string>
 </resources>

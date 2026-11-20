@@ -8,4 +8,12 @@
     <string name="tab_minimize">ছোট করুন</string>
     <string name="tab_shutdown">শাট ডাউন</string>
     <string name="vm_slots_full">%1$dটি মেশিন স্লটের সবগুলোই ব্যবহৃত হচ্ছে। আগে একটি শাট ডাউন করুন।</string>
+    <string name="tab_bar_hide">ট্যাব বার লুকান</string>
+    <string name="tab_bar_show">ট্যাব বার দেখান</string>
+    <string name="tab_drag_label">ভাগ করতে স্ক্রিনে টেনে আনুন</string>
+    <string name="tab_group_title">2টি ট্যাব</string>
+    <string name="tab_split_action">ভাগ করুন</string>
+    <string name="tab_split_failed">সেই মেশিনটি আর এই ট্যাবে যোগ করা যাবে না।</string>
+    <string name="tab_split_text">প্রতিটি মেশিন নিজের ট্যাবে ফিরে যাবে। দুটোই চালু থাকবে।</string>
+    <string name="tab_split_title">2টি ট্যাব ভাগ করবেন?</string>
 </resources>

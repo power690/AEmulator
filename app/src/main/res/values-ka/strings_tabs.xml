@@ -8,4 +8,12 @@
     <string name="tab_minimize">ჩაკეცვა</string>
     <string name="tab_shutdown">გამორთვა</string>
     <string name="vm_slots_full">მანქანის ყველა %1$d სლოტი დაკავებულია. ჯერ ერთ-ერთი გამორთეთ.</string>
+    <string name="tab_bar_hide">ჩანართების ზოლის დამალვა</string>
+    <string name="tab_bar_show">ჩანართების ზოლის ჩვენება</string>
+    <string name="tab_drag_label">გასაყოფად გადმოითარით ეკრანზე</string>
+    <string name="tab_group_title">2 ჩანართი</string>
+    <string name="tab_split_action">გაყოფა</string>
+    <string name="tab_split_failed">ის მანქანა აღარ შეიძლება დაემატოს ამ ჩანართს.</string>
+    <string name="tab_split_text">თითოეული მანქანა საკუთარ ჩანართზე ბრუნდება. ორივე გაგრძელებს მუშაობას.</string>
+    <string name="tab_split_title">გავყოთ 2 ჩანართი?</string>
 </resources>

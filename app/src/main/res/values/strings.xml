@@ -10,7 +10,7 @@
     <string name="add_firmware">Add firmware</string>
     <string name="settings">Settings</string>
     <string name="delete_title">Delete “%1$s”?</string>
-    <string name="delete_text">The system and all data inside it will be deleted (%1$s). The shared memory card folder\'s data will remain.</string>
+    <string name="delete_text">The system and all data inside it will be deleted (%1$s). The shared memory card folder stays.</string>
     <string name="delete">Delete</string>
     <string name="cancel">Cancel</string>
     <string name="name">Name</string>
@@ -19,7 +19,7 @@
     <string name="storage_text">Allow access to all files: then each system’s memory card lives in the AEmulator folder of internal storage — handy for APKs, music and photos.</string>
     <string name="allow">Allow</string>
     <string name="empty_title">No systems yet</string>
-    <string name="empty_text">Add an ARM firmware for Android 1.0–17; a recovery ZIP, an Odin archive (.tar.md5), system.img or a factory image.</string>
+    <string name="empty_text">Add an ARM firmware for Android 2.3–6.0: a recovery ZIP, an Odin archive (.tar.md5), system.img or a factory image.</string>
     <string name="empty_help">Which files work?</string>
     <string name="import_failed">Import failed</string>
     <string name="import_running">Importing firmware</string>
@@ -31,40 +31,30 @@
     <string name="start">Start</string>
     <string name="rename">Rename</string>
     <string name="help_title">Supported firmware</string>
-    <string name="help_text">• Android 2.2–4.4: 32-bit ARM firmware, runs through QEMU (earlier than 2.2: experimental).\n• Android 5.0–17: arm64 firmware and GSIs, run natively on the phone.\n\nFormats:\n• CWM/TWRP recovery ZIP (MIUI, CyanogenMod, ports, most custom ROMs);\n• Samsung: Odin .tar / .tar.md5 or a ZIP with AP_*.tar.md5;\n• Google factory images (.tgz / .zip);\n• system.img (ext4, sparse, YAFFS2), TWRP backup system.ext4.win;\n• OTA with system.new.dat(.br) + system.transfer.list;\n• Also: 7z, RAR, LG .kdz, Sony .ftf, Huawei UPDATE.APP, Qualcomm EDL, payload.bin, super.img, EROFS, Android-x86 ISO.\n\nBest if the archive contains boot.img: the service start order is taken from it.</string>
+    <string name="help_text">• Android 2.3 and 4.0–4.4: main support; 5.x–6.x: experimental.\n• 32-bit ARM firmware only (armeabi / armeabi-v7a).\n\nFormats:\n• CWM/TWRP recovery ZIP (MIUI, CyanogenMod, ports, most custom ROMs);\n• Samsung: Odin .tar / .tar.md5 or a ZIP with AP_*.tar.md5;\n• Google factory images (.tgz / .zip);\n• system.img (ext4, sparse), TWRP backup system.ext4.win;\n• OTA with system.new.dat(.br) + system.transfer.list.\n\nBest if the archive contains boot.img: the service start order is taken from it.</string>
     <string name="vs_screen">Guest screen</string>
-    <string name="vs_fixed_2x">The Desire HD engine uses a fixed 480×800 screen at 240 dpi.</string>
-    <string name="vs_screen_hint">A lower resolution makes the system faster.</string>
+    <string name="vs_fixed_2x">Android 2.x uses a fixed 480×800 screen at 240 dpi.</string>
+    <string name="vs_screen_hint">A smaller screen makes the system faster.</string>
     <string name="vs_perf">Performance</string>
     <string name="vs_gpu">Phone GPU</string>
-    <string name="vs_gpu_sub">Hardware-accelerated graphics through the GL bridge. Turn off if the picture breaks or the system fails to boot.</string>
+    <string name="vs_gpu_sub">Hardware graphics through the GL bridge. Turn off if the picture breaks.</string>
     <string name="vs_hwui">App hardware acceleration (hwui)</string>
-    <string name="vs_hwui_sub">Smoother, but may show artifacts on some firmware.</string>
+    <string name="vs_hwui_sub">Smoother, but some firmware shows artifacts.</string>
     <string name="vs_jit">Dalvik JIT</string>
-    <string name="vs_jit_sub">Faster; without it unstable firmware is more reliable.</string>
+    <string name="vs_jit_sub">Faster; without it fussy firmware is more reliable.</string>
     <string name="vs_legacy">Fallback 2.x engine</string>
     <string name="vs_legacy_sub">The older Desire HD engine: GLES 1.x only, 480×800 screen. Use it if the main engine fails.</string>
     <string name="vs_lowram">Low memory mode</string>
     <string name="vs_lowram_sub">ro.config.low_ram — the system saves memory.</string>
-    <string name="vs_memory_mode">Memory management</string>
-    <string name="vs_memory_light">Light</string>
-    <string name="vs_memory_medium">Medium</string>
-    <string name="vs_memory_aggressive">Aggressive</string>
-    <string name="vs_memory_light_sub">Background apps are stopped only when the phone itself is nearly out of memory. Fewest restarts; uses the most memory. Takes effect after a full VM restart.</string>
-    <string name="vs_memory_medium_sub">Balanced: keeps a moderate number of background apps and stops the rest when free memory gets low. Takes effect after a full VM restart.</string>
-    <string name="vs_memory_aggressive_sub">Keeps few background apps and checks often, so memory is freed early. Uses the least memory, but apps restart more often. Takes effect after a full VM restart.</string>
     <string name="vs_proxy">Modern TLS proxy</string>
-    <string name="vs_netdebug">HTTP debugger</string>
-    <string name="vs_netdebug_sub">Logs the guest’s HTTP and HTTPS requests and can answer or change them (menu › HTTP debugger). Puts a debugging CA into the guest’s trust store. Applies at the next full start.</string>
-    <string name="m_netdebug">HTTP debugger</string>
     <string name="vs_proxy_sub">Lets old browsers and apps open today’s HTTPS sites.</string>
     <string name="vs_controls">Controls</string>
     <string name="vs_nav">Android button bar</string>
-    <string name="vs_nav_sub">Enables the app-level navbar. Disabling this option will enable the firmware\'s navigation bar. Causes issues if disabled on Android 2.3 and older.</string>
+    <string name="vs_nav_sub">Back, Home, Recents and Menu under the screen.</string>
     <string name="vs_awake">Keep screen on</string>
     <string name="vs_awake_sub">While the system is open.</string>
     <string name="vs_single">Single touch</string>
-    <string name="vs_single_sub">For older firmware that doesn\'t support multitouch.</string>
+    <string name="vs_single_sub">For firmware that doesn’t understand multitouch.</string>
     <string name="vm_booting_short">Booting · %1$d s</string>
     <string name="menu">Menu</string>
     <string name="log">Log</string>
@@ -81,7 +71,7 @@
     <string name="st_preparing">Preparing</string>
     <string name="st_booting">Booting system · %1$d s</string>
     <string name="st_stopping">Shutting down</string>
-    <string name="first_boot_hint">Note that the first boot takes longer as the system optimizes apps and performs first-boot actions.</string>
+    <string name="first_boot_hint">The first boot takes longer: the system optimizes apps.</string>
     <string name="host">Host</string>
     <string name="guest_log">Guest (logcat)</string>
     <string name="as_appearance">Appearance</string>
@@ -91,16 +81,6 @@
     <string name="as_theme_system">System</string>
     <string name="as_theme_light">Light</string>
     <string name="as_theme_dark">Dark</string>
-    <string name="as_accent">Accent color</string>
-    <string name="as_accent_sub">Pick any color to restyle the whole app</string>
-    <string name="as_accent_default">Sunset (default)</string>
-    <string name="as_accent_pick">Choose color</string>
-    <string name="as_accent_reset">Reset</string>
-    <string name="as_accent_apply">Apply</string>
-    <string name="as_accent_hex">Hex</string>
-    <string name="as_accent_hue">Hue</string>
-    <string name="as_accent_sat">Saturation</string>
-    <string name="as_accent_val">Brightness</string>
     <string name="as_dynamic">Dynamic colors</string>
     <string name="as_dynamic_sub">Colors from your wallpaper (Android 12+)</string>
     <string name="as_defaults">Defaults for new systems</string>
@@ -113,7 +93,27 @@
     <string name="as_orig_sub">Creator of the Desire HD and One M7 emulators this project grew from</string>
     <string name="as_github">Source code on GitHub</string>
     <string name="as_version">Version %1$s</string>
-    <string name="as_about">AEmulator runs classic Android firmware on modern phones. Free and open source.</string>
+    <string name="as_about">AEmulator Plus runs classic Android firmware on modern phones. Free and open source.</string>
+    <string name="vs_memory_mode">Memory management</string>
+    <string name="vs_memory_light">Light</string>
+    <string name="vs_memory_medium">Medium</string>
+    <string name="vs_memory_aggressive">Aggressive</string>
+    <string name="vs_memory_light_sub">Background apps are stopped only when the phone itself is nearly out of memory. Fewest restarts; uses the most memory. Takes effect after a full VM restart.</string>
+    <string name="vs_memory_medium_sub">Balanced: keeps a moderate number of background apps and stops the rest when free memory gets low. Takes effect after a full VM restart.</string>
+    <string name="vs_memory_aggressive_sub">Keeps few background apps and checks often, so memory is freed early. Uses the least memory, but apps restart more often. Takes effect after a full VM restart.</string>
+    <string name="vs_netdebug">HTTP debugger</string>
+    <string name="vs_netdebug_sub">Logs the guest’s HTTP and HTTPS requests and can answer or change them (menu › HTTP debugger). Puts a debugging CA into the guest’s trust store. Applies at the next full start.</string>
+    <string name="m_netdebug">HTTP debugger</string>
+    <string name="as_accent">Accent color</string>
+    <string name="as_accent_sub">Pick any color to restyle the whole app</string>
+    <string name="as_accent_default">Sunset (default)</string>
+    <string name="as_accent_pick">Choose color</string>
+    <string name="as_accent_reset">Reset</string>
+    <string name="as_accent_apply">Apply</string>
+    <string name="as_accent_hex">Hex</string>
+    <string name="as_accent_hue">Hue</string>
+    <string name="as_accent_sat">Saturation</string>
+    <string name="as_accent_val">Brightness</string>
     <string name="log_copy">Copy</string>
     <string name="log_export">Export .log</string>
     <string name="log_copied">Copied to clipboard</string>
@@ -261,9 +261,9 @@
     <string name="update_download_error">Download failed: %1$s</string>
     <string name="update_open_github">View on GitHub</string>
     <string name="vs_camera">Host camera (experimental)</string>
-    <string name="vs_camera_sub">HAL1 ROMs: 640×480 preview and photos, rear/front camera. Requires permission and a full VM restart. Camera closes when AEmulator is backgrounded; reopen the guest camera app. Video is recorded at 640×480.</string>
+    <string name="vs_camera_sub">HAL1 ROMs: 640×480 preview and photos, rear/front camera. Requires permission and a full VM restart. Camera closes when AEmulator Plus is backgrounded; reopen the guest camera app. Video is recorded at 640×480.</string>
     <string name="vs_microphone">Host microphone (experimental)</string>
-    <string name="vs_microphone_sub">Guest apps record from the phone microphone (voice recorder, notes). Requires permission and a full VM restart. Recording stops when AEmulator is backgrounded; reopen the guest recorder app. 4.x ROMs only.</string>
+    <string name="vs_microphone_sub">Guest apps record from the phone microphone (voice recorder, notes). Requires permission and a full VM restart. Recording stops when AEmulator Plus is backgrounded; reopen the guest recorder app. 4.x ROMs only.</string>
     <string name="microphone_permission_denied">Microphone permission denied. Guest apps will record silence; grant permission in Android app settings and fully restart the VM to retry.</string>
     <string name="vs_sim_title">SIM cards</string>
     <string name="vs_sim_present">SIM card inserted</string>
@@ -299,10 +299,6 @@
     <string name="catalog_download_rom">Download %1$s</string>
     <string name="catalog_share_rom">Share download link for %1$s</string>
     <string name="catalog_back_sections">Back to sections</string>
-    <plurals name="catalog_rom_count">
-        <item quantity="one">%1$d ROM</item>
-        <item quantity="other">%1$d ROMs</item>
-    </plurals>
     <string name="catalog_reported">ROM compatibility statuses are not verified by the app.</string>
     <string name="catalog_no_roms">No ROMs at the moment.</string>
     <string name="catalog_no_url">ROM download URL not available right now.</string>
@@ -314,6 +310,7 @@
     <string name="catalog_warnings">Invalid or incomplete catalog data on lines: %1$s</string>
     <string name="browser_unavailable">No browser is available to open this link.</string>
     <string name="m_minimize">Minimize</string>
+    <string name="m_multitask">Task switching</string>
     <string name="boot_minimize">Minimize boot screen (tap the pill to show it again)</string>
     <string name="open_vm">Open</string>
     <string name="vm_restarting">Restarting virtual machine…</string>
@@ -407,7 +404,6 @@
     <string name="lib3d_tap_hint">Tap the phone to turn it over</string>
     <string name="as_library_3d">3D firmware library</string>
     <string name="as_library_3d_sub">Show imported firmwares and containers as 3D phones you swipe through, instead of the card list. Off by default.</string>
-
     <string name="th_title">VM screen theme</string>
     <string name="th_sub">Navigation bar keys, colours and the frame around the guest screen, styled after an Android era or your own design.</string>
     <string name="th_note">Themes change only the app around the VM; the firmware is never modified. Changes apply when a VM screen is opened again.</string>
@@ -491,6 +487,7 @@
     <string name="vs_nav_compact">Compact bar</string>
     <string name="vs_nav_compact_sub">Smaller buttons, more room for the screen.</string>
     <string name="nav_dpad">Trackball</string>
+    <string name="nav_show">Show the Android button bar</string>
     <string name="m_reset_menu_pos">Reset menu button</string>
     <string name="as_led">Notification light</string>
     <string name="as_led_sub">Show the guest phone’s LED above its screen</string>
@@ -518,8 +515,6 @@
     <string name="thermal_invalid">Enter a value from -40 to 150.</string>
     <string name="thermal_apply">Apply</string>
     <string name="thermal_reset">Use default</string>
-
-    <!-- Library folders and arranging (legacy list and 0.0.0.3 grid) -->
     <string name="folder_new">New folder</string>
     <string name="folder_new_dots">New folder…</string>
     <string name="folder_rename">Rename folder</string>
@@ -530,17 +525,11 @@
     <string name="folder_empty">Empty — drop ROMs here</string>
     <string name="folder_open">Open folder</string>
     <string name="folder_close">Close folder</string>
-    <plurals name="folder_roms">
-        <item quantity="one">%d ROM</item>
-        <item quantity="other">%d ROMs</item>
-    </plurals>
     <string name="phantom_title">Phantom process killer</string>
     <string name="phantom_msg">Your device doesn\'t have the “Disable child process restrictions” option enabled in Developer Options. This means that the zygote will get killed during the emulator\'s startup, making it impossible for the emulator boot. Thus, it is HIGHLY RECOMMENDED to enable it.</string>
     <string name="phantom_open_dev">Open Developer Options</string>
     <string name="phantom_ignore">Ignore</string>
     <string name="phantom_never">Never remind again</string>
-
-    <!-- . -->
     <string name="catalog_download_checking">Checking link…</string>
     <string name="catalog_download_title">Downloading ROM</string>
     <string name="catalog_download_failed">Download failed: %1$s</string>
@@ -552,4 +541,12 @@
     <string name="al_no_activities">No activities found</string>
     <string name="al_not_exported">not exported</string>
     <string name="al_starting">Starting %1$s…</string>
+    <plurals name="catalog_rom_count">
+        <item quantity="one">%1$d ROM</item>
+        <item quantity="other">%1$d ROMs</item>
+    </plurals>
+    <plurals name="folder_roms">
+        <item quantity="one">%1$d ROM</item>
+        <item quantity="other">%1$d ROMs</item>
+    </plurals>
 </resources>

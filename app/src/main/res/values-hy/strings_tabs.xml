@@ -8,4 +8,12 @@
     <string name="tab_minimize">Ծալել</string>
     <string name="tab_shutdown">Անջատել</string>
     <string name="vm_slots_full">Մեքենաների բոլոր %1$d բնիկները զբաղված են։ Նախ անջատեք որևէ մեկը։</string>
+    <string name="tab_bar_hide">Թաքցնել ներդիրների տողը</string>
+    <string name="tab_bar_show">Ցուցադրել ներդիրների տողը</string>
+    <string name="tab_drag_label">Բաժանելու համար քաշեք էկրանի վրա</string>
+    <string name="tab_group_title">2 ներդիր</string>
+    <string name="tab_split_action">Բաժանել</string>
+    <string name="tab_split_failed">Այդ մեքենան այլևս չի կարող ավելացվել այս ներդիրին։</string>
+    <string name="tab_split_text">Յուրաքանչյուր մեքենա վերադառնում է իր սեփական ներդիրին։ Երկուսն էլ շարունակում են աշխատել։</string>
+    <string name="tab_split_title">Բաժանե՞լ 2 ներդիրը։</string>
 </resources>

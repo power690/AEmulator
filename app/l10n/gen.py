@@ -51,10 +51,13 @@ def main():
         existing = os.path.join(RES, d, "strings.xml")
         if os.path.isfile(existing):
             known = set(KEYS) | {"app_name"}
-            for line in open(existing, encoding="utf-8"):
+            text = open(existing, encoding="utf-8").read()
+            for line in text.splitlines():
                 match = re.search(r'<string name="([^"]+)"', line)
                 if match and match.group(1) not in known:
                     out.append(line.rstrip("\r\n"))
+            for pm in re.finditer(r'[ \t]*<plurals name="[^"]+">.*?</plurals>[ \t]*', text, re.DOTALL):
+                out.append(pm.group(0))
         out.append("</resources>\n")
         path = os.path.join(RES, d)
         os.makedirs(path, exist_ok=True)

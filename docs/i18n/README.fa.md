@@ -56,12 +56,14 @@ cd AEmulator-Plus
 
 AEmulator Plus از شبیه‌سازهای HTC Desire HD و HTC One M7 ‏[سازندهٔ نخست](https://t.me/istratiit_ech) رشد کرد — بدون موتور او این پروژه وجود نداشت.
 
-این یک فورک تغییریافته از [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset) است که خود فورک تغییریافته‌ای از [uxazu/AEmulator](https://github.com/uxazu/AEmulator) است.
+این یک فورک تغییریافته از [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus) است که خود فورک تغییریافته‌ای از [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset) است که خود فورکی از [uxazu/AEmulator](https://github.com/uxazu/AEmulator) است.
 
 ## 🔗 پیوندها
 
 - فورک من: [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)
-- مخزن بالادستی: [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)
+- مخزن بالادستی: [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)
+
+- AEmulator-Sunset: [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)
 - اصلی: [uxazu/AEmulator](https://github.com/uxazu/AEmulator)
 - سازنده: [somerandomusername2](https://github.com/somerandomusernam2)
 - سازندهٔ نخست: [t.me/istratiit_ech](https://t.me/istratiit_ech)

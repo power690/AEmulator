@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_import_partition">პარტიციის შემოტანა</string>
+    <string name="vm_import_partition_button">შემოტანა…</string>
+    <string name="vm_import_partition_conflict">ამ VM-ის საქაღალდეთა განლაგება ამ პარტიციას არ იძლევა.</string>
+    <string name="vm_import_partition_done">პარტიცია %1$s შემოტანილი და მიმაგრებულია. სისტემა და მონაცემები უცვლელია.</string>
+    <string name="vm_import_partition_exists">ამ VM-ს უკვე აქვს %1$s პარტიცია.</string>
+    <string name="vm_import_partition_have">%1$s (უკვე ამ VM-შია)</string>
+    <string name="vm_import_partition_headline">პარტიციის ასლის შემოტანა ამ VM-ში</string>
+    <string name="vm_import_partition_sub">Boot, recovery (ქარხნული, TWRP, OrangeFox ან CWM), OEM, vendor, odm, product ან system_ext. ტიპი ფაილიდან იკითხება; როცა არ ხერხდება, თქვენგან იკითხება. მხოლოდ recovery ცვლის არსებულს; VM-ის დანარჩენი უცვლელი რჩება. ⋮ მენიუდან გადატვირთეთ recovery-ში.</string>
+    <string name="vm_import_partition_unsupported">%1$s ასლი ამ ვარიანტით ვერ შემოიტანთ.</string>
+    <string name="vm_import_partition_which">რომელი პარტიციაა ეს?</string>
+    <string name="vm_import_partition_which_info">ფაილის სახელი არ ამბობს რა შეუძლია. აირჩიეთ პარტიცია.</string>
+    <string name="vm_import_partition_working">იკითხება %1$s პარტიცია… შემოტანამდე გააჩერეთ ყველა VM.</string>
+    <string name="vm_import_recovery_done">Recovery შემოტანილია. გამოსაყენებლად ⋮ მენიუდან გადატვირთეთ recovery-ში.</string>
+</resources>

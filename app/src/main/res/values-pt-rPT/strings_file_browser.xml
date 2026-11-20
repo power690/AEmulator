@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Uma cópia de segurança de VM (.aessvm) tem de ser importada sozinha, não juntamente com outros ficheiros.</string>
     <string name="imp_joining">A juntar %2$d partes de %1$s…</string>
     <string name="imp_split_missing">Falta a parte %2$s do arquivo dividido %1$s. Selecione todas as partes ou mantenha-as numa única pasta.</string>
+    <string name="fb_search">Pesquisar</string>
+    <string name="fb_search_hint">Pesquisar nesta pasta</string>
+    <string name="fb_no_matches">Nenhum ficheiro ou pasta corresponde</string>
 </resources>

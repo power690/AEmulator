@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Kitas atsisiuntimas jau vyksta.</string>
+    <string name="rom_dl_cannot_start">Atsisiuntimo nepavyko paleisti fone.</string>
+    <string name="rom_dl_channel">ROM atsisiuntimas</string>
+    <string name="rom_dl_channel_done">ROM atsisiuntimas baigtas</string>
+    <string name="rom_dl_done">ROM atsisiųsta</string>
+    <string name="rom_dl_done_text">Palieskite, norėdami importuoti %1$s</string>
+    <string name="rom_dl_failed">ROM atsisiuntimas nepavyko</string>
+    <string name="rom_dl_hide">Slėpti</string>
+    <string name="rom_dl_page">Atsisiuntimo nuoroda</string>
+    <string name="rom_dl_page_text">Ši nuoroda yra tinklalapis. Palieskite, kad atidarytumėte naršyklėje.</string>
+</resources>

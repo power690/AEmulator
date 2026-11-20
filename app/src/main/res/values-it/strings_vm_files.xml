@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vmf_bad_name">Quel nome non è consentito.</string>
+    <string name="vmf_browse">Sfoglia i file della VM</string>
+    <string name="vmf_copy">Copia</string>
+    <string name="vmf_copy_here">Copia qui</string>
+    <string name="vmf_copy_to">Copia in</string>
+    <string name="vmf_copy_to_device">Fuori dalla VM (memoria del dispositivo)</string>
+    <string name="vmf_copy_to_vm">Un altro punto di questa VM</string>
+    <string name="vmf_create">Crea</string>
+    <string name="vmf_delete_core">Questa è una parte centrale della VM (una partizione o un\'immagine). Senza, la VM potrebbe non avviarsi più.</string>
+    <string name="vmf_delete_many">Eliminare %1$d elementi? Non si può annullare.</string>
+    <string name="vmf_delete_one">Eliminare \"%1$s\"? Non si può annullare.</string>
+    <string name="vmf_exists">Esiste già un elemento con quel nome.</string>
+    <string name="vmf_failed">Non riuscito: %1$s</string>
+    <string name="vmf_folder_name">Nome cartella</string>
+    <string name="vmf_link">Link</string>
+    <string name="vmf_new_folder">Nuova cartella</string>
+    <string name="vmf_new_name">Nuovo nome</string>
+    <string name="vmf_no_folders">Nessuna cartella qui</string>
+    <string name="vmf_no_space">Spazio libero insufficiente.</string>
+    <string name="vmf_preview_failed">Questo file non può essere letto.</string>
+    <string name="vmf_preview_truncated">Mostra i primi %1$s di %2$s</string>
+    <string name="vmf_protected">Questo fa parte della contabilità interna della VM e non può essere modificato qui.</string>
+    <string name="vmf_readonly">Questo elemento non fa parte dei file propri della VM, quindi non può essere modificato qui.</string>
+    <string name="vmf_readonly_folder">Sola lettura: questa cartella non fa parte dei file propri della VM. Puoi guardare e copiare, non modificare.</string>
+    <string name="vmf_result_copied">Copiati: %1$d</string>
+    <string name="vmf_result_copied_skipped">Copiati: %1$d. Saltati: %2$d (link verso l\'esterno della VM, socket e simili).</string>
+    <string name="vmf_result_deleted">Eliminati: %1$d</string>
+    <string name="vmf_unreadable">Questa cartella non può essere letta.</string>
+    <string name="vmf_working_copy">Copia…</string>
+    <string name="vmf_working_delete">Eliminazione…</string>
+    <string name="vmf_working_rename">Rinomina…</string>
+</resources>

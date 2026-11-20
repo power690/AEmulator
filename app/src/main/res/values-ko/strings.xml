@@ -18,7 +18,7 @@
     <string name="storage_text">모든 파일 접근을 허용하면 각 시스템의 메모리 카드가 내부 저장소의 AEmulator 폴더에 생겨 APK, 음악, 사진을 넣기 편합니다.</string>
     <string name="allow">허용</string>
     <string name="empty_title">아직 시스템이 없습니다</string>
-    <string name="empty_text">Android 1.0–17용 ARM 펌웨어를 추가하세요: 리커버리 ZIP, Odin 아카이브(.tar.md5), system.img 또는 팩토리 이미지.</string>
+    <string name="empty_text">Android 2.3–6.0용 ARM 펌웨어를 추가하세요: 리커버리 ZIP, Odin 아카이브(.tar.md5), system.img 또는 팩토리 이미지.</string>
     <string name="empty_help">어떤 파일이 되나요?</string>
     <string name="import_failed">가져오기 실패</string>
     <string name="import_running">펌웨어 가져오는 중</string>
@@ -30,7 +30,7 @@
     <string name="start">시작</string>
     <string name="rename">이름 변경</string>
     <string name="help_title">지원 펌웨어</string>
-    <string name="help_text">• Android 2.3–4.4: 32비트 ARM 펌웨어, QEMU로 실행.\n• Android 5.0–17: arm64 펌웨어와 GSI, 휴대폰에서 네이티브 실행.\n\n형식:\n• CWM/TWRP 리커버리 ZIP(MIUI, CyanogenMod, 포팅, 대부분의 커스텀 롬)\n• 삼성: Odin .tar / .tar.md5 또는 AP_*.tar.md5가 든 ZIP\n• Google 팩토리 이미지(.tgz / .zip)\n• system.img(ext4, sparse), TWRP 백업 system.ext4.win\n• system.new.dat(.br) + system.transfer.list가 있는 OTA\n• 그 외: 7z, RAR, LG .kdz, Sony .ftf, Huawei UPDATE.APP, Qualcomm EDL, payload.bin, super.img, EROFS, Android-x86 ISO\n\n아카이브에 boot.img가 있으면 가장 좋습니다. 서비스 시작 순서를 여기서 읽습니다.</string>
+    <string name="help_text">• Android 2.3 및 4.0–4.4: 주요 지원, 5.x–6.x: 실험적.\n• 32비트 ARM 펌웨어만(armeabi / armeabi-v7a).\n\n형식:\n• CWM/TWRP 리커버리 ZIP(MIUI, CyanogenMod, 포팅, 대부분의 커스텀 롬)\n• 삼성: Odin .tar / .tar.md5 또는 AP_*.tar.md5가 든 ZIP\n• Google 팩토리 이미지(.tgz / .zip)\n• system.img(ext4, sparse), TWRP 백업 system.ext4.win\n• system.new.dat(.br) + system.transfer.list가 있는 OTA\n\n아카이브에 boot.img가 있으면 가장 좋습니다. 서비스 시작 순서를 여기서 읽습니다.</string>
     <string name="vs_screen">게스트 화면</string>
     <string name="vs_fixed_2x">Android 2.x는 480×800, 240 dpi 고정 화면을 씁니다.</string>
     <string name="vs_screen_hint">화면이 작을수록 시스템이 빨라집니다.</string>
@@ -45,13 +45,6 @@
     <string name="vs_legacy_sub">이전 Desire HD 엔진: GLES 1.x만, 480×800 화면. 기본 엔진이 실패할 때 사용하세요.</string>
     <string name="vs_lowram">저메모리 모드</string>
     <string name="vs_lowram_sub">ro.config.low_ram — 시스템이 메모리를 아낍니다.</string>
-    <string name="vs_memory_mode">메모리 관리</string>
-    <string name="vs_memory_light">가벼움</string>
-    <string name="vs_memory_medium">보통</string>
-    <string name="vs_memory_aggressive">공격적</string>
-    <string name="vs_memory_light_sub">백그라운드 앱은 휴대폰 자체의 메모리가 거의 바닥났을 때만 종료됩니다. 재시작이 가장 적고 메모리를 가장 많이 사용합니다. VM을 완전히 다시 시작하면 적용됩니다.</string>
-    <string name="vs_memory_medium_sub">균형: 백그라운드 앱을 적당한 수만큼 유지하고, 여유 메모리가 줄어들면 나머지를 종료합니다. VM을 완전히 다시 시작하면 적용됩니다.</string>
-    <string name="vs_memory_aggressive_sub">백그라운드 앱을 적게 유지하고 자주 확인하므로 메모리가 일찍 확보됩니다. 메모리 사용량은 가장 적지만 앱이 더 자주 재시작됩니다. VM을 완전히 다시 시작하면 적용됩니다.</string>
     <string name="vs_proxy">최신 TLS 프록시</string>
     <string name="vs_proxy_sub">오래된 브라우저와 앱으로 오늘날의 HTTPS 사이트를 엽니다.</string>
     <string name="vs_controls">조작</string>
@@ -99,7 +92,14 @@
     <string name="as_orig_sub">이 프로젝트의 출발점인 Desire HD·One M7 에뮬레이터 제작자</string>
     <string name="as_github">GitHub 소스 코드</string>
     <string name="as_version">버전 %1$s</string>
-    <string name="as_about">AEmulator는 최신 휴대폰에서 클래식 Android 펌웨어를 실행합니다. 무료 오픈 소스입니다.</string>
+    <string name="as_about">AEmulator Plus는 최신 휴대폰에서 클래식 Android 펌웨어를 실행합니다. 무료 오픈 소스입니다.</string>
+    <string name="vs_memory_mode">메모리 관리</string>
+    <string name="vs_memory_light">가벼움</string>
+    <string name="vs_memory_medium">보통</string>
+    <string name="vs_memory_aggressive">공격적</string>
+    <string name="vs_memory_light_sub">백그라운드 앱은 휴대폰 자체의 메모리가 거의 바닥났을 때만 종료됩니다. 재시작이 가장 적고 메모리를 가장 많이 사용합니다. VM을 완전히 다시 시작하면 적용됩니다.</string>
+    <string name="vs_memory_medium_sub">균형: 백그라운드 앱을 적당한 수만큼 유지하고, 여유 메모리가 줄어들면 나머지를 종료합니다. VM을 완전히 다시 시작하면 적용됩니다.</string>
+    <string name="vs_memory_aggressive_sub">백그라운드 앱을 적게 유지하고 자주 확인하므로 메모리가 일찍 확보됩니다. 메모리 사용량은 가장 적지만 앱이 더 자주 재시작됩니다. VM을 완전히 다시 시작하면 적용됩니다.</string>
     <string name="log_copy">복사</string>
     <string name="log_export">.log 내보내기</string>
     <string name="log_copied">클립보드에 복사됨</string>
@@ -222,9 +222,9 @@
     <string name="update_download_error">다운로드 실패: %1$s</string>
     <string name="update_open_github">GitHub에서 보기</string>
     <string name="vs_camera">호스트 카메라(실험적)</string>
-    <string name="vs_camera_sub">HAL1 ROM: 640×480 미리보기 및 사진, 후면/전면 카메라. 권한과 VM 전체 재시작이 필요합니다. AEmulator가 백그라운드로 가면 카메라가 닫힙니다. 게스트 카메라 앱을 다시 여세요. 동영상 녹화는 지원하지 않습니다.</string>
+    <string name="vs_camera_sub">HAL1 ROM: 640×480 미리보기 및 사진, 후면/전면 카메라. 권한과 VM 전체 재시작이 필요합니다. AEmulator Plus가 백그라운드로 가면 카메라가 닫힙니다. 게스트 카메라 앱을 다시 여세요. 동영상 녹화는 지원하지 않습니다.</string>
     <string name="vs_microphone">호스트 마이크(실험적)</string>
-    <string name="vs_microphone_sub">게스트 앱이 휴대폰 마이크로 녹음합니다(녹음기, 메모). 권한과 VM 전체 재시작이 필요합니다. AEmulator가 백그라운드로 가면 녹음이 멈춥니다. 게스트 녹음 앱을 다시 여세요. 4.x ROM만.</string>
+    <string name="vs_microphone_sub">게스트 앱이 휴대폰 마이크로 녹음합니다(녹음기, 메모). 권한과 VM 전체 재시작이 필요합니다. AEmulator Plus가 백그라운드로 가면 녹음이 멈춥니다. 게스트 녹음 앱을 다시 여세요. 4.x ROM만.</string>
     <string name="microphone_permission_denied">마이크 권한이 거부되었습니다. 게스트 앱은 무음을 녹음합니다. Android 앱 설정에서 권한을 허용하고 VM을 완전히 재시작하세요.</string>
     <string name="camera_permission_denied">카메라 권한이 거부되었습니다. ROM은 호스트 카메라 없이 부팅됩니다. 다시 시도하려면 Android 앱 설정에서 권한을 허용하고 VM을 완전히 재시작하세요.</string>
     <string name="vs_skip_setup">설정 마법사 건너뛰기</string>
@@ -316,9 +316,6 @@
     <string name="update_error_title">오류</string>
     <string name="update_download_failed_generic">다운로드 오류</string>
     <string name="update_network_error">네트워크 오류</string>
-    <plurals name="catalog_rom_count">
-        <item quantity="other">ROM %1$d개</item>
-    </plurals>
     <string name="vs_network">보고되는 네트워크</string>
     <string name="vs_network_sub">상태 표시줄에 표시되는 내용(2G~LTE). 모든 펌웨어가 3G 이상을 처리하는 것은 아니므로 기본값은 2G입니다</string>
     <string name="m_network">네트워크</string>
@@ -516,9 +513,6 @@
     <string name="folder_empty">비어 있음 — 여기에 ROM을 놓으세요</string>
     <string name="folder_open">폴더 열기</string>
     <string name="folder_close">폴더 닫기</string>
-    <plurals name="folder_roms">
-        <item quantity="other">ROM %1$d개</item>
-    </plurals>
     <string name="phantom_title">유령 프로세스 킬러</string>
     <string name="phantom_msg">기기의 개발자 옵션에서 “하위 프로세스 제한 해제” 옵션이 켜져 있지 않습니다. 이 경우 에뮬레이터를 시작하는 동안 zygote가 종료되어 에뮬레이터를 부팅할 수 없습니다. 따라서 이 옵션을 켜는 것을 강력히 권장합니다.</string>
     <string name="phantom_open_dev">개발자 옵션 열기</string>
@@ -532,4 +526,18 @@
     <string name="catalog_download_checking">링크 확인 중…</string>
     <string name="catalog_download_title">ROM 다운로드 중</string>
     <string name="catalog_download_failed">다운로드 실패: %1$s</string>
+    <string name="al_title">Activity 런처</string>
+    <string name="m_activities">Activity 런처</string>
+    <string name="al_search_packages">패키지 검색</string>
+    <string name="al_search_activities">Activity 검색</string>
+    <string name="al_no_packages">패키지를 찾을 수 없음</string>
+    <string name="al_no_activities">Activity를 찾을 수 없음</string>
+    <string name="al_not_exported">내보내지지 않음</string>
+    <string name="al_starting">%1$s 시작 중…</string>
+    <string name="catalog_share_rom">%1$s 다운로드 링크 공유</string>
+    <string name="m_battery_old_note">이 Android 버전은 시작하는 동안에만 배터리를 읽습니다. 설정한 배터리 잔량과 충전 상태는 저장되어 VM이 다음에 시작할 때 사용됩니다.</string>
+    <string name="vs_no_dex2oat">dex2oat 비활성화(Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">앱과 시스템 코드는 게스트에서 절대 컴파일되지 않습니다: dex2oat 실행이 즉시 실패합니다. 경고: 크래시, 화면 오류 등 의도하지 않은 동작이 발생할 수 있습니다(앱이 느려지고, 컴파일 없이는 부팅되지 않는 펌웨어도 있습니다). 기본값은 꺼짐입니다. 다음 전체 시작 시 적용됩니다.</string>
+    <string name="m_multitask">작업 전환</string>
+    <string name="nav_show">Android 버튼 바 표시</string>
 </resources>

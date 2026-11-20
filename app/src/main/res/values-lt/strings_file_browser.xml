@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">VM atsarginę kopiją (.aessvm) reikia importuoti atskirai, ne kartu su kitais failais.</string>
     <string name="imp_joining">Jungiamos %2$d failo %1$s dalys…</string>
     <string name="imp_split_missing">Trūksta suskaidyto archyvo %1$s dalies %2$s. Pasirinkite visas jo dalis arba laikykite jas viename aplanke.</string>
+    <string name="fb_search">Paieška</string>
+    <string name="fb_search_hint">Ieškoti aplanke</string>
+    <string name="fb_no_matches">Atitinkančių failų ar aplankų nėra</string>
 </resources>

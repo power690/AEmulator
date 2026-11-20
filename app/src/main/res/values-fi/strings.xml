@@ -109,7 +109,7 @@
     <string name="as_orig_sub">Desire HD- ja One M7 -emulaattorien luoja, joista tämä projekti kasvoi</string>
     <string name="as_github">Lähdekoodi GitHubissa</string>
     <string name="as_version">Versio %1$s</string>
-    <string name="as_about">AEmulator ajaa klassista Android-laiteohjelmistoa moderneilla puhelimilla. Ilmainen ja avoimen lähdekoodin.</string>
+    <string name="as_about">AEmulator Plus ajaa klassista Android-laiteohjelmistoa moderneilla puhelimilla. Ilmainen ja avoimen lähdekoodin.</string>
     <string name="log_copy">Kopioi</string>
     <string name="log_export">Vie .log</string>
     <string name="log_copied">Kopioitu leikepöydälle</string>
@@ -245,9 +245,9 @@
     <string name="update_download_error">Lataus epäonnistui: %1$s</string>
     <string name="update_open_github">Näytä GitHubissa</string>
     <string name="vs_camera">Isännän kamera (kokeellinen)</string>
-    <string name="vs_camera_sub">HAL1-ROMit: 640×480-esikatselu ja valokuvat, taka-/etukamera. Vaatii luvan ja järjestelmän täyden uudelleenkäynnistyksen. Kamera sulkeutuu, kun AEmulator siirtyy taustalle; avaa vieraan kamerasovellus uudelleen. Video tallennetaan tarkkuudella 640×480.</string>
+    <string name="vs_camera_sub">HAL1-ROMit: 640×480-esikatselu ja valokuvat, taka-/etukamera. Vaatii luvan ja järjestelmän täyden uudelleenkäynnistyksen. Kamera sulkeutuu, kun AEmulator Plus siirtyy taustalle; avaa vieraan kamerasovellus uudelleen. Video tallennetaan tarkkuudella 640×480.</string>
     <string name="vs_microphone">Isännän mikrofoni (kokeellinen)</string>
-    <string name="vs_microphone_sub">Vieraan sovellukset tallentavat puhelimen mikrofonista (ääninauhuri, muistiinpanot). Vaatii luvan ja järjestelmän täyden uudelleenkäynnistyksen. Tallennus pysähtyy, kun AEmulator siirtyy taustalle; avaa vieraan nauhurisovellus uudelleen. Vain 4.x-ROMit.</string>
+    <string name="vs_microphone_sub">Vieraan sovellukset tallentavat puhelimen mikrofonista (ääninauhuri, muistiinpanot). Vaatii luvan ja järjestelmän täyden uudelleenkäynnistyksen. Tallennus pysähtyy, kun AEmulator Plus siirtyy taustalle; avaa vieraan nauhurisovellus uudelleen. Vain 4.x-ROMit.</string>
     <string name="microphone_permission_denied">Mikrofonilupa evätty. Vieraan sovellukset tallentavat hiljaisuutta; anna lupa Androidin sovellusasetuksissa ja käynnistä järjestelmä kokonaan uudelleen yrittääksesi uudestaan.</string>
     <string name="vs_sim_title">SIM-kortit</string>
     <string name="vs_sim_present">SIM-kortti asennettu</string>
@@ -535,4 +535,18 @@
     <string name="catalog_download_checking">Tarkistetaan linkkiä…</string>
     <string name="catalog_download_title">Ladataan ROMia</string>
     <string name="catalog_download_failed">Lataus epäonnistui: %1$s</string>
+    <string name="al_title">Activity-käynnistin</string>
+    <string name="m_activities">Activity-käynnistin</string>
+    <string name="al_search_packages">Etsi paketteja</string>
+    <string name="al_search_activities">Etsi activityjä</string>
+    <string name="al_no_packages">Paketteja ei löytynyt</string>
+    <string name="al_no_activities">Activityjä ei löytynyt</string>
+    <string name="al_not_exported">ei viedy</string>
+    <string name="al_starting">Käynnistetään %1$s…</string>
+    <string name="catalog_share_rom">Jaa %1$s:n latauslinkki</string>
+    <string name="m_battery_old_note">Tämä Android-versio lukee akun vain käynnistyksen aikana. Asettamasi taso ja lataustila tallennetaan ja käytetään VM:n seuraavalla käynnistyksellä.</string>
+    <string name="vs_no_dex2oat">Poista dex2oat käytöstä (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Sovelluksia ja järjestelmäkoodia ei koskaan käännetä asiakasjärjestelmässä: jokainen dex2oat-ajo epäonnistuu heti. Varoitus: tämä voi aiheuttaa kaatumisia, toimintahäiriöitä ja muuta odottamatonta käyttäytymistä (sovellukset toimivat hitaammin, jokin firmware ei käynnisty ilman kääntämistä). Pois päältä oletuksena. Tulee voimaan seuraavalla täydellisellä käynnistyksellä.</string>
+    <string name="m_multitask">Tehtävien vaihtaminen</string>
+    <string name="nav_show">Näytä Androidin painikepalkki</string>
 </resources>

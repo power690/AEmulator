@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">VM 백업(.aessvm)은 다른 파일과 함께가 아니라 단독으로 가져와야 합니다.</string>
     <string name="imp_joining">%1$s의 %2$d개 파트 결합 중…</string>
     <string name="imp_split_missing">분할 아카이브 %1$s의 파트 %2$s이(가) 없습니다. 모든 파트를 선택하거나 한 폴더에 두세요.</string>
+    <string name="fb_search">검색</string>
+    <string name="fb_search_hint">이 폴더에서 검색</string>
+    <string name="fb_no_matches">일치하는 파일이나 폴더가 없습니다</string>
 </resources>

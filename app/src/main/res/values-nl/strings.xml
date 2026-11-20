@@ -109,7 +109,7 @@
     <string name="as_orig_sub">Maker van de Desire HD- en One M7-emulators waaruit dit project is voortgekomen</string>
     <string name="as_github">Broncode op GitHub</string>
     <string name="as_version">Versie %1$s</string>
-    <string name="as_about">AEmulator draait klassieke Android-firmware op moderne telefoons. Gratis en open source.</string>
+    <string name="as_about">AEmulator Plus draait klassieke Android-firmware op moderne telefoons. Gratis en open source.</string>
     <string name="log_copy">Kopiëren</string>
     <string name="log_export">.log exporteren</string>
     <string name="log_copied">Gekopieerd naar klembord</string>
@@ -245,9 +245,9 @@
     <string name="update_download_error">Downloaden mislukt: %1$s</string>
     <string name="update_open_github">Bekijken op GitHub</string>
     <string name="vs_camera">Hostcamera (experimenteel)</string>
-    <string name="vs_camera_sub">HAL1-ROM’s: voorbeeld en foto’s van 640×480, achter-/voorcamera. Vereist toestemming en een volledige herstart van de VM. De camera wordt gesloten als AEmulator naar de achtergrond gaat; open de camera-app van de gast opnieuw. Video wordt opgenomen in 640×480.</string>
+    <string name="vs_camera_sub">HAL1-ROM’s: voorbeeld en foto’s van 640×480, achter-/voorcamera. Vereist toestemming en een volledige herstart van de VM. De camera wordt gesloten als AEmulator Plus naar de achtergrond gaat; open de camera-app van de gast opnieuw. Video wordt opgenomen in 640×480.</string>
     <string name="vs_microphone">Hostmicrofoon (experimenteel)</string>
-    <string name="vs_microphone_sub">Gast-apps nemen op via de microfoon van de telefoon (voicerecorder, notities). Vereist toestemming en een volledige herstart van de VM. De opname stopt als AEmulator naar de achtergrond gaat; open de recorder-app van de gast opnieuw. Alleen 4.x-ROM’s.</string>
+    <string name="vs_microphone_sub">Gast-apps nemen op via de microfoon van de telefoon (voicerecorder, notities). Vereist toestemming en een volledige herstart van de VM. De opname stopt als AEmulator Plus naar de achtergrond gaat; open de recorder-app van de gast opnieuw. Alleen 4.x-ROM’s.</string>
     <string name="microphone_permission_denied">Microfoontoestemming geweigerd. Gast-apps nemen stilte op; geef toestemming in de Android-app-instellingen en herstart de VM volledig om het opnieuw te proberen.</string>
     <string name="vs_sim_title">Simkaarten</string>
     <string name="vs_sim_present">Simkaart geplaatst</string>
@@ -535,4 +535,18 @@
     <string name="catalog_download_checking">Link controleren…</string>
     <string name="catalog_download_title">ROM downloaden</string>
     <string name="catalog_download_failed">Downloaden mislukt: %1$s</string>
+    <string name="al_title">Activity-starter</string>
+    <string name="m_activities">Activity-starter</string>
+    <string name="al_search_packages">Pakketten zoeken</string>
+    <string name="al_search_activities">Activities zoeken</string>
+    <string name="al_no_packages">Geen pakketten gevonden</string>
+    <string name="al_no_activities">Geen activities gevonden</string>
+    <string name="al_not_exported">niet geëxporteerd</string>
+    <string name="al_starting">%1$s starten…</string>
+    <string name="catalog_share_rom">Downloadlink voor %1$s delen</string>
+    <string name="m_battery_old_note">Deze Android-versie leest de batterij alleen tijdens het opstarten. Het niveau en de laadstatus die je instelt, worden opgeslagen en gebruikt bij de volgende start van de VM.</string>
+    <string name="vs_no_dex2oat">dex2oat uitschakelen (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Apps en systeemcode worden in de gast nooit gecompileerd: elke dex2oat-run faalt meteen. Waarschuwing: dit kan crashes, glitches en ander onbedoeld gedrag veroorzaken (apps werken langzamer, sommige firmware start niet zonder compilatie). Standaard uit. Gaat in bij de volgende volledige start.</string>
+    <string name="m_multitask">Taakwissel</string>
+    <string name="nav_show">Android-knoppenbalk tonen</string>
 </resources>

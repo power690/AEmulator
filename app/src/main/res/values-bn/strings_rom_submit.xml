@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="catalog_err_bad_json">ক্যাটালগটি সঠিক ROM তালিকা নয়।</string>
+    <string name="catalog_err_too_many_roms">ক্যাটালগে 10000-এর বেশি ROM আছে।</string>
+    <string name="catalog_submitted_by">%1$s পাঠিয়েছেন</string>
+    <string name="catalog_tested_on">Emulator %1$s</string>
+    <string name="submit_action">ROM পাঠান</string>
+    <string name="submit_another">আরেকটি পাঠান</string>
+    <string name="submit_bad_size">একটি সংখ্যা লিখুন, 0 বা তার বেশি</string>
+    <string name="submit_bad_url">সঠিক http(s) লিংক লিখুন</string>
+    <string name="submit_by">আপনার নাম</string>
+    <string name="submit_categories_failed">ক্যাটাগরি লোড করা যায়নি: %1$s</string>
+    <string name="submit_close">বন্ধ করুন</string>
+    <string name="submit_device">ডিভাইস</string>
+    <string name="submit_emulator">Emulator-এর সংস্করণ (ঐচ্ছিক)</string>
+    <string name="submit_err_bad_response">সার্ভার অপ্রত্যাশিত উত্তর পাঠিয়েছে।</string>
+    <string name="submit_err_duplicate">এই ডাউনলোড লিংক আগেই পাঠানো হয়েছে।</string>
+    <string name="submit_err_rate_limited">অনেক বেশি পাঠানো হয়েছে। প্রায় %1$d মিনিট পরে আবার চেষ্টা করুন।</string>
+    <string name="submit_err_rejected">সার্ভার পাঠানো জিনিস নেয়নি: %1$s</string>
+    <string name="submit_err_server">সার্ভার একটি ত্রুটি ফেরত দিয়েছে (HTTP %1$d)।</string>
+    <string name="submit_intro">ROM-এর ডাউনলোড লিংক শেয়ার করুন। ক্যাটালগে দেখানোর আগে সব পাঠানো জিনিস যাচাই হয়।</string>
+    <string name="submit_name">ROM-এর নাম</string>
+    <string name="submit_not_direct_text">পাঠানো জিনিস অবশ্যই ROM ফাইলের সরাসরি ডাউনলোড লিংক হতে হবে। ওয়েব পেজের লিংক বা আগে পেজ খোলে এমন ফাইল হোস্ট গ্রহণ করা হয় না।\n\nআপলোডের জন্য পরামর্শ দেওয়া জায়গা archive.org।</string>
+    <string name="submit_not_direct_title">সরাসরি লিংক দরকার</string>
+    <string name="submit_notes">নোট (ঐচ্ছিক)</string>
+    <string name="submit_pick_variant_first">আগে একটি ভ্যারিয়েন্ট বাছুন</string>
+    <string name="submit_required">আবশ্যক</string>
+    <string name="submit_rom_version">ROM-এর সংস্করণ</string>
+    <string name="submit_send">পাঠান</string>
+    <string name="submit_size_mb">ফাইলের সাইজ MB-তে (ঐচ্ছিক)</string>
+    <string name="submit_success">ধন্যবাদ! আপনার ROM পাঠানো হয়েছে, যাচাইয়ের পরে ক্যাটালগে দেখা যাবে।</string>
+    <string name="submit_title">ROM পাঠান</string>
+    <string name="submit_url">ডাউনলোড URL</string>
+    <string name="submit_variant">ভ্যারিয়েন্ট</string>
+    <string name="submit_version">সংস্করণ ক্যাটাগরি</string>
+</resources>

@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">O copie de rezervă a unui VM (.aessvm) trebuie importată singură, nu împreună cu alte fișiere.</string>
     <string name="imp_joining">Se îmbină %2$d părți din %1$s…</string>
     <string name="imp_split_missing">Lipsește partea %2$s din arhiva împărțită %1$s. Selectează toate părțile ei sau ține-le într-un singur dosar.</string>
+    <string name="fb_search">Caută</string>
+    <string name="fb_search_hint">Caută în acest dosar</string>
+    <string name="fb_no_matches">Niciun fișier sau dosar nu se potrivește</string>
 </resources>

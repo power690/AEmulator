@@ -109,7 +109,7 @@
     <string name="as_orig_sub">Ushbu loyiha asos boʻlgan Desire HD va One M7 emulyatorlarining yaratuvchisi</string>
     <string name="as_github">GitHub’dagi manba kodi</string>
     <string name="as_version">Versiya %1$s</string>
-    <string name="as_about">AEmulator klassik Android proshivkalarini zamonaviy telefonlarda ishga tushiradi. Bepul va ochiq manbali.</string>
+    <string name="as_about">AEmulator Plus klassik Android proshivkalarini zamonaviy telefonlarda ishga tushiradi. Bepul va ochiq manbali.</string>
     <string name="log_copy">Nusxalash</string>
     <string name="log_export">.log eksport qilish</string>
     <string name="log_copied">Vaqtinchalik xotiraga nusxalandi</string>
@@ -256,9 +256,9 @@
     <string name="update_download_error">Yuklab olish amalga oshmadi: %1$s</string>
     <string name="update_open_github">GitHub’da koʻrish</string>
     <string name="vs_camera">Xost kamerasi (tajribaviy)</string>
-    <string name="vs_camera_sub">HAL1 ROMlar: 640×480 koʻrish oynasi va suratlar, orqa/old kamera. Ruxsat va VM ni toʻliq qayta ishga tushirish talab qilinadi. AEmulator fonga oʻtganda kamera yopiladi; mehmon kamera ilovasini qayta oching. Video 640×480 da yozib olinadi.</string>
+    <string name="vs_camera_sub">HAL1 ROMlar: 640×480 koʻrish oynasi va suratlar, orqa/old kamera. Ruxsat va VM ni toʻliq qayta ishga tushirish talab qilinadi. AEmulator Plus fonga oʻtganda kamera yopiladi; mehmon kamera ilovasini qayta oching. Video 640×480 da yozib olinadi.</string>
     <string name="vs_microphone">Xost mikrofoni (tajribaviy)</string>
-    <string name="vs_microphone_sub">Mehmon ilovalar telefon mikrofonidan yozib oladi (ovoz yozgich, eslatmalar). Ruxsat va VM ni toʻliq qayta ishga tushirish talab qilinadi. AEmulator fonga oʻtganda yozuv toʻxtaydi; mehmon yozgich ilovasini qayta oching. Faqat 4.x ROMlar uchun.</string>
+    <string name="vs_microphone_sub">Mehmon ilovalar telefon mikrofonidan yozib oladi (ovoz yozgich, eslatmalar). Ruxsat va VM ni toʻliq qayta ishga tushirish talab qilinadi. AEmulator Plus fonga oʻtganda yozuv toʻxtaydi; mehmon yozgich ilovasini qayta oching. Faqat 4.x ROMlar uchun.</string>
     <string name="microphone_permission_denied">Mikrofonga ruxsat rad etildi. Mehmon ilovalar sukunatni yozib oladi; Android ilova sozlamalarida ruxsat bering va qayta urinish uchun VM ni toʻliq qayta ishga tushiring.</string>
     <string name="vs_sim_title">SIM-kartalar</string>
     <string name="vs_sim_present">SIM-karta kiritilgan</string>
@@ -537,4 +537,18 @@
     <string name="catalog_download_checking">Havola tekshirilmoqda…</string>
     <string name="catalog_download_title">ROM yuklab olinmoqda</string>
     <string name="catalog_download_failed">Yuklab olib boʻlmadi: %1$s</string>
+    <string name="al_title">Activity ishga tushiruvchi</string>
+    <string name="m_activities">Activity ishga tushiruvchi</string>
+    <string name="al_search_packages">Paketlarni qidirish</string>
+    <string name="al_search_activities">Activity-larni qidirish</string>
+    <string name="al_no_packages">Paket topilmadi</string>
+    <string name="al_no_activities">Activity topilmadi</string>
+    <string name="al_not_exported">eksport qilinmagan</string>
+    <string name="al_starting">%1$s ishga tushirilmoqda…</string>
+    <string name="catalog_share_rom">%1$s uchun yuklab olish havolasini ulashish</string>
+    <string name="m_battery_old_note">Bu Android versiyasi batareyani faqat ishga tushirish paytida o’qiydi. Siz belgilagan daraja va quvvatlash holati saqlanadi va VM ning keyingi ishga tushirilishida ishlatiladi.</string>
+    <string name="vs_no_dex2oat">dex2oat o’chirish (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Ilovalar va tizim kodi mehmonda hech qachon kompilyatsiya qilinmaydi: dex2oat ning har bir ishga tushirilishi darhol muvaffaqiyatsiz tugaydi. Ogohlantirish: bu qulflashlar, nosozliklar va boshqa kutilmagan xatti-harakatlarga olib kelishi mumkin (ilovalar sekin ishlaydi, ba’zi proshivkalar kompilyatsiyasiz yuklanmaydi). Standart bo’yicha o’chirilgan. Keyingi to’liq ishga tushirishda qo’llanadi.</string>
+    <string name="m_multitask">Vazifalarni almashtirish</string>
+    <string name="nav_show">Android tugmalar panelini ko‘rsatish</string>
 </resources>

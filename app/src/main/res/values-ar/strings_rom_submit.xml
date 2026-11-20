@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">يحتوي الكتالوج على أكثر من 10000 ROM.</string>
     <string name="catalog_tested_on">المحاكي %1$s</string>
     <string name="catalog_submitted_by">أرسله %1$s</string>
+    <string name="submit_not_direct_title">مطلوب رابط مباشر</string>
+    <string name="submit_not_direct_text">يجب أن تكون الطلبات روابط تنزيل مباشرة لملف ROM. لا تُقبل الروابط التي تؤدي إلى صفحات ويب أو إلى مواقع استضافة تفتح صفحة أولاً.\n\nالمكان الموصى به للرفع هو archive.org.</string>
 </resources>

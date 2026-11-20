@@ -90,5 +90,5 @@ S = {
     "as_orig_sub": "Créateur des émulateurs Desire HD et One M7 dont est né le projet",
     "as_github": "Code source sur GitHub",
     "as_version": "Version %1$s",
-    "as_about": "AEmulator fait tourner les anciennes ROM Android sur les téléphones modernes. Gratuit et open source.",
+    "as_about": "AEmulator Plus fait tourner les anciennes ROM Android sur les téléphones modernes. Gratuit et open source.",
 }

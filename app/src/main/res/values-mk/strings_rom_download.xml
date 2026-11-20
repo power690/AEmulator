@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Веќе тече друго преземање.</string>
+    <string name="rom_dl_cannot_start">Преземањето не можеше да се стартува во позадина.</string>
+    <string name="rom_dl_channel">Преземање ROM</string>
+    <string name="rom_dl_channel_done">Преземањето на ROM заврши</string>
+    <string name="rom_dl_done">ROM е преземен</string>
+    <string name="rom_dl_done_text">Допрете за да увезете %1$s</string>
+    <string name="rom_dl_failed">Преземањето на ROM не успеа</string>
+    <string name="rom_dl_hide">Скриј</string>
+    <string name="rom_dl_page">Линк за преземање</string>
+    <string name="rom_dl_page_text">Овој линк е веб-страница. Допрете за да ја отворите во прелистувачот.</string>
+</resources>

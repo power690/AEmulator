@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Katalog memiliki lebih dari 10000 ROM.</string>
     <string name="catalog_tested_on">Emulator %1$s</string>
     <string name="catalog_submitted_by">Dikirim oleh %1$s</string>
+    <string name="submit_not_direct_title">Tautan langsung diperlukan</string>
+    <string name="submit_not_direct_text">Kiriman harus berupa tautan unduhan langsung ke file ROM. Tautan ke halaman web atau ke file host yang membuka halaman lebih dulu tidak diterima.\n\nTempat yang disarankan untuk mengunggah adalah archive.org.</string>
 </resources>

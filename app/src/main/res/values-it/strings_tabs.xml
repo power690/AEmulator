@@ -8,4 +8,12 @@
     <string name="tab_minimize">Riduci a icona</string>
     <string name="tab_shutdown">Spegni</string>
     <string name="vm_slots_full">Tutti i %1$d slot per le macchine sono occupati. Spegnine prima uno.</string>
+    <string name="tab_bar_hide">Nascondi barra delle schede</string>
+    <string name="tab_bar_show">Mostra barra delle schede</string>
+    <string name="tab_drag_label">Trascina sullo schermo per dividere</string>
+    <string name="tab_group_title">2 schede</string>
+    <string name="tab_split_action">Dividi</string>
+    <string name="tab_split_failed">Quella macchina non si può più aggiungere a questa scheda.</string>
+    <string name="tab_split_text">Ogni macchina torna a una scheda propria. Entrambe continuano a girare.</string>
+    <string name="tab_split_title">Dividere 2 schede?</string>
 </resources>

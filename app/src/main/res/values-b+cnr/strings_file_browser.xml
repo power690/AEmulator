@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Rezervnu kopiju VM-a (.aessvm) treba uvesti zasebno, a ne zajedno s drugim fajlovima.</string>
     <string name="imp_joining">Spajanje dijelova (%2$d) fajla %1$s…</string>
     <string name="imp_split_missing">Nedostaje dio %2$s podijeljene arhive %1$s. Izaberite sve njene dijelove ili ih držite u jednom folderu.</string>
+    <string name="fb_search">Pretraži</string>
+    <string name="fb_search_hint">Pretraži u ovom folderu</string>
+    <string name="fb_no_matches">Nema odgovarajućih datoteka ili foldera</string>
 </resources>

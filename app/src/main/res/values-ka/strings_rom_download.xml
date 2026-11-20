@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">სხვა ჩამოტვირთვა უკვე მიმდინარეობს.</string>
+    <string name="rom_dl_cannot_start">ჩამოტვირთვის ფონურად დაწყება ვერ მოხერხდა.</string>
+    <string name="rom_dl_channel">ROM-ის ჩამოტვირთვა</string>
+    <string name="rom_dl_channel_done">ROM-ის ჩამოტვირთვა დასრულდა</string>
+    <string name="rom_dl_done">ROM ჩამოტვირთა</string>
+    <string name="rom_dl_done_text">%1$s-ის შემოსატანად შეეხეთ</string>
+    <string name="rom_dl_failed">ROM-ის ჩამოტვირთვა ჩაიშალა</string>
+    <string name="rom_dl_hide">დამალვა</string>
+    <string name="rom_dl_page">ჩამოტვირთვის ბმული</string>
+    <string name="rom_dl_page_text">ეს ბმული ვებგვერდია. ბრაუზერში გასახსნელად შეეხეთ.</string>
+</resources>

@@ -210,7 +210,7 @@
     <string name="lib3d_spec_model">Modeli</string>
     <string name="as_upstream_row">Projekti burimor: %1$s</string>
     <string name="as_original_row">Origjinali: %1$s</string>
-    <string name="sms_default_body">Përshëndetje nga AEmulator</string>
+    <string name="sms_default_body">Përshëndetje nga AEmulator Plus</string>
     <string name="theme_original">Origjinal</string>
     <string name="theme_sunset">Perëndim dielli</string>
     <string name="sim_country_emulator">Emulator</string>

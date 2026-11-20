@@ -108,7 +108,7 @@
     <string name="as_orig_sub">Desire HD ja One M7 emulaatorite looja, millest see projekt on välja kasvanud</string>
     <string name="as_github">Lähtekood GitHubis</string>
     <string name="as_version">Versioon %1$s</string>
-    <string name="as_about">AEmulator käivitab klassikalist Androidi püsivara kaasaegsetes telefonides. Tasuta ja avatud lähtekoodiga.</string>
+    <string name="as_about">AEmulator Plus käivitab klassikalist Androidi püsivara kaasaegsetes telefonides. Tasuta ja avatud lähtekoodiga.</string>
     <string name="log_copy">Kopeeri</string>
     <string name="log_export">Ekspordi .log</string>
     <string name="log_copied">Kopeeritud lõikelauale</string>
@@ -255,9 +255,9 @@
     <string name="update_download_error">Allalaadimine ebaõnnestus: %1$s</string>
     <string name="update_open_github">Vaata GitHubis</string>
     <string name="vs_camera">Hosti kaamera (katseline)</string>
-    <string name="vs_camera_sub">HAL1 ROM-id: 640×480 eelvaade ja fotod, tagumine/eesmine kaamera. Vajab luba ja virtuaalmasina täielikku taaskäivitamist. Kaamera sulgub, kui AEmulator läheb taustale; avage külalise kaamerarakendus uuesti. Video salvestatakse 640×480.</string>
+    <string name="vs_camera_sub">HAL1 ROM-id: 640×480 eelvaade ja fotod, tagumine/eesmine kaamera. Vajab luba ja virtuaalmasina täielikku taaskäivitamist. Kaamera sulgub, kui AEmulator Plus läheb taustale; avage külalise kaamerarakendus uuesti. Video salvestatakse 640×480.</string>
     <string name="vs_microphone">Hosti mikrofon (katseline)</string>
-    <string name="vs_microphone_sub">Külalise rakendused salvestavad telefoni mikrofoniga (diktofon, märkmed). Vajab luba ja virtuaalmasina täielikku taaskäivitamist. Salvestamine peatub, kui AEmulator läheb taustale; avage külalise diktofonirakendus uuesti. Ainult 4.x ROM-id.</string>
+    <string name="vs_microphone_sub">Külalise rakendused salvestavad telefoni mikrofoniga (diktofon, märkmed). Vajab luba ja virtuaalmasina täielikku taaskäivitamist. Salvestamine peatub, kui AEmulator Plus läheb taustale; avage külalise diktofonirakendus uuesti. Ainult 4.x ROM-id.</string>
     <string name="microphone_permission_denied">Mikrofoniluba keelati. Külalise rakendused salvestavad vaikust; andke luba Androidi rakenduste seadetes ja taaskäivitage virtuaalmasin täielikult, et uuesti proovida.</string>
     <string name="vs_sim_title">SIM-kaardid</string>
     <string name="vs_sim_present">SIM-kaart on sees</string>
@@ -534,4 +534,18 @@
     <string name="catalog_download_checking">Lingi kontrollimine…</string>
     <string name="catalog_download_title">ROM-i allalaadimine</string>
     <string name="catalog_download_failed">Allalaadimine ebaõnnestus: %1$s</string>
+    <string name="al_title">Activity käivitaja</string>
+    <string name="m_activities">Activity käivitaja</string>
+    <string name="al_search_packages">Otsi pakette</string>
+    <string name="al_search_activities">Otsi activity-sid</string>
+    <string name="al_no_packages">Pakette ei leitud</string>
+    <string name="al_no_activities">Activity-sid ei leitud</string>
+    <string name="al_not_exported">pole eksportitud</string>
+    <string name="al_starting">Käivitatakse %1$s…</string>
+    <string name="catalog_share_rom">Jaga %1$s allalaadimise linki</string>
+    <string name="m_battery_old_note">See Androidi versioon loeb akut ainult käivitumise ajal. Sinu määratud tase ja laadimisolek salvestatakse ja kasutatakse VM-i järgmisel käivitumisel.</string>
+    <string name="vs_no_dex2oat">Keela dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Rakendusi ja süsteemikoodi külalises kunagi ei kompileerita: iga dex2oat-i käivitamine nurjub kohe. Hoiatus: see võib põhjustada krahhe, vigu ja muud tahtmatut käitumist (rakendused töötavad aeglasemalt, mõni firmware ei käivitu kompileerimiseta). Vaikimisi keelatud. Rakendub järgmisel täiel käivitusel.</string>
+    <string name="m_multitask">Ülesannete vahetamine</string>
+    <string name="nav_show">Kuva Androidi nuppude riba</string>
 </resources>

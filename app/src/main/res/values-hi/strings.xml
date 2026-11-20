@@ -18,7 +18,7 @@
     <string name="storage_text">सभी फ़ाइलों की अनुमति दें: हर सिस्टम का मेमोरी कार्ड आंतरिक स्टोरेज के AEmulator फ़ोल्डर में रहेगा — APK, संगीत और फ़ोटो रखने में आसान।</string>
     <string name="allow">अनुमति दें</string>
     <string name="empty_title">अभी कोई सिस्टम नहीं</string>
-    <string name="empty_text">Android 1.0–17 का ARM फ़र्मवेयर जोड़ें: रिकवरी ZIP, Odin आर्काइव (.tar.md5), system.img या फ़ैक्टरी इमेज।</string>
+    <string name="empty_text">Android 2.3–6.0 का ARM फ़र्मवेयर जोड़ें: रिकवरी ZIP, Odin आर्काइव (.tar.md5), system.img या फ़ैक्टरी इमेज।</string>
     <string name="empty_help">कौन-सी फ़ाइलें चलेंगी?</string>
     <string name="import_failed">आयात विफल</string>
     <string name="import_running">फ़र्मवेयर आयात हो रहा है</string>
@@ -30,7 +30,7 @@
     <string name="start">चलाएँ</string>
     <string name="rename">नाम बदलें</string>
     <string name="help_title">समर्थित फ़र्मवेयर</string>
-    <string name="help_text">• Android 2.3–4.4: 32-बिट ARM फ़र्मवेयर, QEMU के ज़रिए।\n• Android 5.0–17: arm64 फ़र्मवेयर और GSI, सीधे फ़ोन पर।\n\nफ़ॉर्मेट:\n• CWM/TWRP रिकवरी ZIP (MIUI, CyanogenMod, पोर्ट, अधिकांश कस्टम ROM);\n• Samsung: Odin .tar / .tar.md5 या AP_*.tar.md5 वाला ZIP;\n• Google फ़ैक्टरी इमेज (.tgz / .zip);\n• system.img (ext4, sparse), TWRP बैकअप system.ext4.win;\n• system.new.dat(.br) + system.transfer.list वाला OTA;\n• इसके अलावा: 7z, RAR, LG .kdz, Sony .ftf, Huawei UPDATE.APP, Qualcomm EDL, payload.bin, super.img, EROFS, Android-x86 ISO।\n\nबेहतर है कि आर्काइव में boot.img हो: सेवाओं का बूट क्रम उसी से लिया जाता है।</string>
+    <string name="help_text">• Android 2.3 और 4.0–4.4: मुख्य समर्थन; 5.x–6.x: प्रयोगात्मक।\n• केवल 32-बिट ARM फ़र्मवेयर (armeabi / armeabi-v7a)।\n\nफ़ॉर्मेट:\n• CWM/TWRP रिकवरी ZIP (MIUI, CyanogenMod, पोर्ट, अधिकांश कस्टम ROM);\n• Samsung: Odin .tar / .tar.md5 या AP_*.tar.md5 वाला ZIP;\n• Google फ़ैक्टरी इमेज (.tgz / .zip);\n• system.img (ext4, sparse), TWRP बैकअप system.ext4.win;\n• system.new.dat(.br) + system.transfer.list वाला OTA।\n\nबेहतर है कि आर्काइव में boot.img हो: सेवाओं का बूट क्रम उसी से लिया जाता है।</string>
     <string name="vs_screen">गेस्ट स्क्रीन</string>
     <string name="vs_fixed_2x">Android 2.x में स्क्रीन तय है: 480×800, 240 dpi।</string>
     <string name="vs_screen_hint">छोटी स्क्रीन पर सिस्टम तेज़ चलता है।</string>
@@ -45,13 +45,6 @@
     <string name="vs_legacy_sub">पुराना Desire HD इंजन: केवल GLES 1.x, 480×800 स्क्रीन। मुख्य इंजन विफल हो तो इस्तेमाल करें।</string>
     <string name="vs_lowram">कम मेमोरी मोड</string>
     <string name="vs_lowram_sub">ro.config.low_ram — सिस्टम मेमोरी बचाता है।</string>
-    <string name="vs_memory_mode">मेमोरी प्रबंधन</string>
-    <string name="vs_memory_light">हल्का</string>
-    <string name="vs_memory_medium">मध्यम</string>
-    <string name="vs_memory_aggressive">आक्रामक</string>
-    <string name="vs_memory_light_sub">बैकग्राउंड ऐप्स तभी बंद किए जाते हैं जब फ़ोन की अपनी मेमोरी लगभग खत्म हो जाए। सबसे कम रीस्टार्ट; सबसे ज़्यादा मेमोरी इस्तेमाल होती है। VM को पूरी तरह रीस्टार्ट करने के बाद लागू होता है।</string>
-    <string name="vs_memory_medium_sub">संतुलित: बैकग्राउंड में सीमित संख्या में ऐप्स रखता है और खाली मेमोरी कम होने पर बाकी को बंद कर देता है। VM को पूरी तरह रीस्टार्ट करने के बाद लागू होता है।</string>
-    <string name="vs_memory_aggressive_sub">बैकग्राउंड में कम ऐप्स रखता है और अक्सर जाँच करता है, इसलिए मेमोरी जल्दी खाली हो जाती है। सबसे कम मेमोरी इस्तेमाल होती है, लेकिन ऐप्स ज़्यादा बार रीस्टार्ट होते हैं। VM को पूरी तरह रीस्टार्ट करने के बाद लागू होता है।</string>
     <string name="vs_proxy">आधुनिक TLS प्रॉक्सी</string>
     <string name="vs_proxy_sub">पुराने ब्राउज़र और ऐप आज की HTTPS साइटें खोलते हैं।</string>
     <string name="vs_controls">नियंत्रण</string>
@@ -99,7 +92,14 @@
     <string name="as_orig_sub">Desire HD और One M7 एमुलेटर के निर्माता, जिनसे यह प्रोजेक्ट बना</string>
     <string name="as_github">GitHub पर सोर्स कोड</string>
     <string name="as_version">संस्करण %1$s</string>
-    <string name="as_about">AEmulator आधुनिक फ़ोनों पर पुराने Android फ़र्मवेयर चलाता है। मुफ़्त और ओपन सोर्स।</string>
+    <string name="as_about">AEmulator Plus आधुनिक फ़ोनों पर पुराने Android फ़र्मवेयर चलाता है। मुफ़्त और ओपन सोर्स।</string>
+    <string name="vs_memory_mode">मेमोरी प्रबंधन</string>
+    <string name="vs_memory_light">हल्का</string>
+    <string name="vs_memory_medium">मध्यम</string>
+    <string name="vs_memory_aggressive">आक्रामक</string>
+    <string name="vs_memory_light_sub">बैकग्राउंड ऐप्स तभी बंद किए जाते हैं जब फ़ोन की अपनी मेमोरी लगभग खत्म हो जाए। सबसे कम रीस्टार्ट; सबसे ज़्यादा मेमोरी इस्तेमाल होती है। VM को पूरी तरह रीस्टार्ट करने के बाद लागू होता है।</string>
+    <string name="vs_memory_medium_sub">संतुलित: बैकग्राउंड में सीमित संख्या में ऐप्स रखता है और खाली मेमोरी कम होने पर बाकी को बंद कर देता है। VM को पूरी तरह रीस्टार्ट करने के बाद लागू होता है।</string>
+    <string name="vs_memory_aggressive_sub">बैकग्राउंड में कम ऐप्स रखता है और अक्सर जाँच करता है, इसलिए मेमोरी जल्दी खाली हो जाती है। सबसे कम मेमोरी इस्तेमाल होती है, लेकिन ऐप्स ज़्यादा बार रीस्टार्ट होते हैं। VM को पूरी तरह रीस्टार्ट करने के बाद लागू होता है।</string>
     <string name="log_copy">कॉपी करें</string>
     <string name="log_export">.log एक्सपोर्ट करें</string>
     <string name="log_copied">क्लिपबोर्ड पर कॉपी हो गया</string>
@@ -222,9 +222,9 @@
     <string name="update_download_error">डाउनलोड विफल: %1$s</string>
     <string name="update_open_github">GitHub पर देखें</string>
     <string name="vs_camera">होस्ट कैमरा (प्रायोगिक)</string>
-    <string name="vs_camera_sub">HAL1 ROM: 640×480 प्रीव्यू और फ़ोटो, पीछे/आगे का कैमरा। अनुमति और VM को पूरी तरह रीस्टार्ट करना ज़रूरी है। AEmulator के बैकग्राउंड में जाने पर कैमरा बंद हो जाता है; गेस्ट का कैमरा ऐप फिर से खोलें। वीडियो रिकॉर्डिंग नहीं।</string>
+    <string name="vs_camera_sub">HAL1 ROM: 640×480 प्रीव्यू और फ़ोटो, पीछे/आगे का कैमरा। अनुमति और VM को पूरी तरह रीस्टार्ट करना ज़रूरी है। AEmulator Plus के बैकग्राउंड में जाने पर कैमरा बंद हो जाता है; गेस्ट का कैमरा ऐप फिर से खोलें। वीडियो रिकॉर्डिंग नहीं।</string>
     <string name="vs_microphone">होस्ट माइक्रोफ़ोन (प्रायोगिक)</string>
-    <string name="vs_microphone_sub">गेस्ट ऐप फ़ोन के माइक्रोफ़ोन से रिकॉर्ड करते हैं (वॉइस रिकॉर्डर, नोट्स)। अनुमति और VM का पूरा रीस्टार्ट ज़रूरी है। AEmulator के बैकग्राउंड में जाने पर रिकॉर्डिंग रुक जाती है; गेस्ट का रिकॉर्डर ऐप फिर से खोलें। सिर्फ़ 4.x ROM।</string>
+    <string name="vs_microphone_sub">गेस्ट ऐप फ़ोन के माइक्रोफ़ोन से रिकॉर्ड करते हैं (वॉइस रिकॉर्डर, नोट्स)। अनुमति और VM का पूरा रीस्टार्ट ज़रूरी है। AEmulator Plus के बैकग्राउंड में जाने पर रिकॉर्डिंग रुक जाती है; गेस्ट का रिकॉर्डर ऐप फिर से खोलें। सिर्फ़ 4.x ROM।</string>
     <string name="microphone_permission_denied">माइक्रोफ़ोन अनुमति अस्वीकार कर दी गई। गेस्ट ऐप सन्नाटा रिकॉर्ड करेंगे; Android ऐप सेटिंग में अनुमति दें और VM को पूरी तरह रीस्टार्ट करें।</string>
     <string name="camera_permission_denied">कैमरा अनुमति अस्वीकार कर दी गई। ROM होस्ट कैमरा की पहुँच के बिना बूट होगा; दोबारा कोशिश करने के लिए Android ऐप सेटिंग में अनुमति दें और VM को पूरी तरह रीस्टार्ट करें।</string>
     <string name="vs_skip_setup">सेटअप विज़ार्ड छोड़ें</string>
@@ -316,10 +316,6 @@
     <string name="update_error_title">त्रुटि</string>
     <string name="update_download_failed_generic">डाउनलोड त्रुटि</string>
     <string name="update_network_error">नेटवर्क त्रुटि</string>
-    <plurals name="catalog_rom_count">
-        <item quantity="one">%1$d ROM</item>
-        <item quantity="other">%1$d ROM</item>
-    </plurals>
     <string name="vs_network">रिपोर्ट किया गया नेटवर्क</string>
     <string name="vs_network_sub">स्टेटस बार में जो दिखता है: 2G से LTE तक। डिफ़ॉल्ट 2G है, क्योंकि हर फ़र्मवेयर 3G या उससे नए को नहीं संभालता</string>
     <string name="m_network">नेटवर्क</string>
@@ -517,10 +513,6 @@
     <string name="folder_empty">खाली — ROM यहाँ छोड़ें</string>
     <string name="folder_open">फ़ोल्डर खोलें</string>
     <string name="folder_close">फ़ोल्डर बंद करें</string>
-    <plurals name="folder_roms">
-        <item quantity="one">%1$d ROM</item>
-        <item quantity="other">%1$d ROM</item>
-    </plurals>
     <string name="phantom_title">फैंटम प्रोसेस किलर</string>
     <string name="phantom_msg">आपके डिवाइस में डेवलपर विकल्प में “चाइल्ड प्रोसेस प्रतिबंध अक्षम करें” विकल्प चालू नहीं है। इसका मतलब है कि एमुलेटर के स्टार्टअप के दौरान zygote बंद कर दिया जाएगा, जिससे एमुलेटर बूट नहीं हो पाएगा। इसलिए इसे चालू करने की पुरज़ोर सलाह दी जाती है।</string>
     <string name="phantom_open_dev">डेवलपर विकल्प खोलें</string>
@@ -534,4 +526,18 @@
     <string name="catalog_download_checking">लिंक जाँची जा रही है…</string>
     <string name="catalog_download_title">ROM डाउनलोड हो रहा है</string>
     <string name="catalog_download_failed">डाउनलोड विफल: %1$s</string>
+    <string name="al_title">Activity लॉन्चर</string>
+    <string name="m_activities">Activity लॉन्चर</string>
+    <string name="al_search_packages">पैकेज खोजें</string>
+    <string name="al_search_activities">Activity खोजें</string>
+    <string name="al_no_packages">कोई पैकेज नहीं मिला</string>
+    <string name="al_no_activities">कोई Activity नहीं मिली</string>
+    <string name="al_not_exported">निर्यातित नहीं</string>
+    <string name="al_starting">%1$s शुरू हो रहा है…</string>
+    <string name="catalog_share_rom">%1$s का डाउनलोड लिंक साझा करें</string>
+    <string name="m_battery_old_note">यह Android संस्करण बैटरी को केवल शुरू होते समय पढ़ता है। आपके द्वारा सेट किया गया स्तर और चार्जिंग स्थिति सहेज लिया जाता है और VM के अगली बार शुरू होने पर उपयोग होता है।</string>
+    <string name="vs_no_dex2oat">dex2oat अक्षम करें (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">ऐप्स और सिस्टम कोड गेस्ट में कभी संकलित नहीं होते: dex2oat का हर रन तुरंत विफल हो जाता है। चेतावनी: इससे क्रैश, गड़बड़ियाँ और अन्य अनपेक्षित व्यवहार हो सकता है (ऐप्स धीमे चलते हैं, कुछ फ़र्मवेयर संकलन के बिना बूट नहीं होते)। डिफ़ॉल्ट रूप से बंद। अगली पूर्ण शुरुआत पर लागू होता है।</string>
+    <string name="m_multitask">कार्य बदलना</string>
+    <string name="nav_show">Android बटन बार दिखाएँ</string>
 </resources>

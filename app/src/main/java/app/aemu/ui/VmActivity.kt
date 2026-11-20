@@ -84,11 +84,14 @@ import androidx.compose.material3.SegmentedButtonDefaults
 import androidx.compose.material3.SingleChoiceSegmentedButtonRow
 import android.content.Intent
 import android.os.Bundle
+import android.os.SystemClock
 import android.view.Gravity
 import android.view.KeyEvent
+import android.view.MotionEvent
 import android.view.SurfaceHolder
 import android.view.SurfaceView
 import android.view.View
+import android.view.ViewConfiguration
 import android.view.ViewGroup
 import android.view.WindowManager
 import android.widget.FrameLayout
@@ -125,6 +128,10 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Close
 import androidx.compose.material.icons.rounded.MoreVert
+import androidx.compose.material.icons.rounded.KeyboardArrowDown
+import androidx.compose.material.icons.rounded.KeyboardArrowLeft
+import androidx.compose.material.icons.rounded.KeyboardArrowRight
+import androidx.compose.material.icons.rounded.KeyboardArrowUp
 import androidx.compose.material.icons.rounded.Minimize
 import androidx.compose.material.icons.rounded.PowerSettingsNew
 import androidx.compose.material.icons.rounded.Terminal
@@ -851,6 +858,65 @@ open class VmActivity : ComponentActivity() {
     /** Puts the button back in its corner; done every time the emulator is started or opened again. */
     private fun resetMenuOffset() { menuOffset = Offset.Zero }
 
+    private var navCollapsed by mutableStateOf(false)
+    private var navHandleEdge by mutableStateOf(0)
+    private var navHandleOffset by mutableStateOf(Offset.Zero)
+    private var navHandlePlaced = false
+    private var navHandleArea by mutableStateOf(androidx.compose.ui.unit.IntSize.Zero)
+    private var navHandleSize by mutableStateOf(androidx.compose.ui.unit.IntSize.Zero)
+    private fun clampNavHandle(o: Offset): Offset {
+        val maxX = (navHandleArea.width - navHandleSize.width).coerceAtLeast(0).toFloat()
+        val maxY = (navHandleArea.height - navHandleSize.height).coerceAtLeast(0).toFloat()
+        val x = if (o.x.isFinite()) o.x.coerceIn(0f, maxX) else maxX / 2f
+        val y = if (o.y.isFinite()) o.y.coerceIn(0f, maxY) else maxY
+        return Offset(x, y)
+    }
+    private fun snapNavHandle(o: Offset): Offset {
+        val w = navHandleArea.width.toFloat()
+        val h = navHandleArea.height.toFloat()
+        val bw = navHandleSize.width.toFloat()
+        val bh = navHandleSize.height.toFloat()
+        val dBottom = h - o.y - bh
+        val dTop = o.y
+        val dStart = o.x
+        val dEnd = w - o.x - bw
+        navHandleEdge = when (minOf(minOf(dBottom, dTop), minOf(dStart, dEnd))) {
+            dBottom -> 0
+            dTop -> 1
+            dStart -> 2
+            else -> 3
+        }
+        return when (navHandleEdge) {
+            0 -> Offset(o.x, h - bh)
+            1 -> Offset(o.x, 0f)
+            2 -> Offset(0f, o.y)
+            else -> Offset(w - bw, o.y)
+        }
+    }
+
+    private var tapTracking = false
+    private var tapX = 0f
+    private var tapY = 0f
+    private var tapAt = 0L
+    private val tapSlop by lazy { 4 * ViewConfiguration.get(this).scaledTouchSlop }
+    override fun dispatchTouchEvent(ev: MotionEvent): Boolean {
+        if (!navCollapsed && !showLog && !menuOpen && !resizeMode) {
+            when (ev.actionMasked) {
+                MotionEvent.ACTION_DOWN -> if (ev.pointerCount == 1) {
+                    tapTracking = true; tapX = ev.x; tapY = ev.y; tapAt = SystemClock.uptimeMillis()
+                }
+                MotionEvent.ACTION_POINTER_DOWN -> tapTracking = false
+                MotionEvent.ACTION_UP -> {
+                    if (tapTracking && SystemClock.uptimeMillis() - tapAt < 400 &&
+                        kotlin.math.hypot(ev.x - tapX, ev.y - tapY) < tapSlop) navCollapsed = true
+                    tapTracking = false
+                }
+                MotionEvent.ACTION_CANCEL -> tapTracking = false
+            }
+        }
+        return super.dispatchTouchEvent(ev)
+    }
+
     private val askMic = registerForActivityResult(ActivityResultContracts.RequestPermission()) { ok -> if (ok) vm.mic.permissionGranted() }
 
     private val askCamera = registerForActivityResult(ActivityResultContracts.RequestPermission()) { }
@@ -1433,8 +1499,6 @@ open class VmActivity : ComponentActivity() {
         LaunchedEffect(state) { if (state == GuestVm.State.RUNNING || state == GuestVm.State.FAILED || state == GuestVm.State.STOPPED) cardOverride = null }
         val cardMinimized = cardOverride ?: (state == GuestVm.State.BOOTING)
         val bootCard = state != GuestVm.State.RUNNING && !showLog && (state == GuestVm.State.FAILED || !cardMinimized)
-        // with the tab bar folded away, a tiny arrow at the top right brings it back
-        val revealArrow = tabBarHidden && panePos != 'B'
         Box(Modifier.fillMaxSize()) {
             if (bootCard) Box(Modifier.fillMaxSize().pointerInput(state) {
                 detectTapGestures {
@@ -1483,7 +1547,6 @@ open class VmActivity : ComponentActivity() {
             // top menu button (hidden while the log is open so it does not cover the log toolbar); drag to move it
             // The outer box is the border: the whole screen minus the status bar and an 8dp margin. It takes no touches itself.
             if (!showLog || vm.settings.hideMenuButton) Box(Modifier.fillMaxSize().statusBarsPadding().padding(8.dp)
-                .padding(top = if (revealArrow) 16.dp else 0.dp) // the menu button stays under the arrow
                 .onSizeChanged { menuArea = it }) {
             Box(Modifier.align(Alignment.TopEnd)
                 .offset { clampMenuOffset(menuOffset).let { IntOffset(it.x.roundToInt(), it.y.roundToInt()) } }
@@ -1506,6 +1569,8 @@ open class VmActivity : ComponentActivity() {
                 DropdownMenu(expanded = menu, onDismissRequest = { menu = false }) {
                     DropdownMenuItem(text = { Text(stringResource(R.string.log)) }, leadingIcon = { Icon(Icons.Rounded.Terminal, null) },
                         onClick = { menu = false; showLog = true })
+                    if (tabBarHidden && panePos != 'B') DropdownMenuItem(text = { Text(stringResource(R.string.m_multitask)) }, leadingIcon = { Icon(Icons.Rounded.Apps, null) },
+                        onClick = { menu = false; foldTabBar(false) })
                     // the tab closes, the machine keeps running (open it again from the library)
                     DropdownMenuItem(text = { Text(stringResource(R.string.m_minimize)) }, leadingIcon = { Icon(Icons.Rounded.Close, null) },
                         onClick = { menu = false; minimizeTab() })
@@ -1643,15 +1708,15 @@ open class VmActivity : ComponentActivity() {
                 DisplayGeometry.Edge.TOP -> Alignment.TopCenter
                 DisplayGeometry.Edge.BOTTOM -> Alignment.BottomCenter
             }
-            DisposableEffect(showStrip, vm.settings.trackball, showLog, stripTurns) {
+            DisposableEffect(showStrip, vm.settings.trackball, showLog, stripTurns, navCollapsed) {
                 heldNavKeys.releaseAll()
                 box.post { updateGuestLayout?.invoke() }
-                if ((!showStrip && !vm.settings.trackball) || showLog) {
+                if ((!showStrip && !vm.settings.trackball) || showLog || navCollapsed) {
                     controlsHeightPx = 0; box.post { updateGuestLayout?.invoke() }
                 }
                 onDispose { }
             }
-            if ((showStrip || vm.settings.trackball) && !showLog) {
+            if ((showStrip || vm.settings.trackball) && !showLog && !navCollapsed) {
                 Box(Modifier.align(stripAlignment).onSizeChanged { size ->
                     controlsHeightPx = if (sideways) size.width else size.height
                     box.post { updateGuestLayout?.invoke() }
@@ -1732,8 +1797,34 @@ open class VmActivity : ComponentActivity() {
                 if (keypadOpen && extraKeypad) KeypadWindow({ code, down -> vm.input.key(code, down) }, vm.input.homeCode) { keypadOpen = false }
             }
 
-            // the way back from the folded tab bar (drawn last, so nothing covers it)
-            if (revealArrow) TabBarRevealArrow(onShow = { foldTabBar(false) }, modifier = Modifier.align(Alignment.TopEnd))
+            if (navCollapsed && (showStrip || vm.settings.trackball) && !showLog) Box(Modifier.fillMaxSize().statusBarsPadding().navigationBarsPadding().padding(8.dp)
+                .onSizeChanged { navHandleArea = it }) {
+                LaunchedEffect(navHandleArea, navHandleSize) {
+                    if (!navHandlePlaced && navHandleArea.width > 0 && navHandleSize.width > 0) {
+                        navHandlePlaced = true
+                        navHandleOffset = clampNavHandle(Offset((navHandleArea.width - navHandleSize.width) / 2f,
+                            (navHandleArea.height - navHandleSize.height).toFloat()))
+                    }
+                }
+                Box(Modifier
+                    .offset { IntOffset(navHandleOffset.x.roundToInt(), navHandleOffset.y.roundToInt()) }
+                    .pointerInput(Unit) {
+                        detectDragGestures(onDrag = { ch, d ->
+                            ch.consume()
+                            navHandleOffset = clampNavHandle(clampNavHandle(navHandleOffset) + d)
+                        }, onDragEnd = { navHandleOffset = snapNavHandle(navHandleOffset) })
+                    }
+                    .onSizeChanged { navHandleSize = it }) {
+                    FilledTonalIconButton(onClick = { navCollapsed = false }, modifier = Modifier.size(40.dp)) {
+                        Icon(when (navHandleEdge) {
+                            1 -> Icons.Rounded.KeyboardArrowDown
+                            2 -> Icons.Rounded.KeyboardArrowRight
+                            3 -> Icons.Rounded.KeyboardArrowLeft
+                            else -> Icons.Rounded.KeyboardArrowUp
+                        }, contentDescription = stringResource(R.string.nav_show))
+                    }
+                }
+            }
         }
     }
 

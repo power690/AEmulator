@@ -108,7 +108,7 @@
     <string name="as_orig_sub">Skaberen af Desire HD- og One M7-emulatorerne, som dette projekt voksede ud af</string>
     <string name="as_github">Kildekode på GitHub</string>
     <string name="as_version">Version %1$s</string>
-    <string name="as_about">AEmulator kører klassisk Android-firmware på moderne telefoner. Gratis og open source.</string>
+    <string name="as_about">AEmulator Plus kører klassisk Android-firmware på moderne telefoner. Gratis og open source.</string>
     <string name="log_copy">Kopiér</string>
     <string name="log_export">Eksportér .log</string>
     <string name="log_copied">Kopieret til udklipsholderen</string>
@@ -255,9 +255,9 @@
     <string name="update_download_error">Download mislykkedes: %1$s</string>
     <string name="update_open_github">Se på GitHub</string>
     <string name="vs_camera">Værtens kamera (eksperimentelt)</string>
-    <string name="vs_camera_sub">HAL1-ROM\'er: 640×480-forhåndsvisning og fotos, bagside-/frontkamera. Kræver tilladelse og en fuld genstart af den virtuelle maskine. Kameraet lukker, når AEmulator går i baggrunden; åbn gæstens kameraapp igen. Video optages i 640×480.</string>
+    <string name="vs_camera_sub">HAL1-ROM\'er: 640×480-forhåndsvisning og fotos, bagside-/frontkamera. Kræver tilladelse og en fuld genstart af den virtuelle maskine. Kameraet lukker, når AEmulator Plus går i baggrunden; åbn gæstens kameraapp igen. Video optages i 640×480.</string>
     <string name="vs_microphone">Værtens mikrofon (eksperimentelt)</string>
-    <string name="vs_microphone_sub">Gæstens apps optager fra telefonens mikrofon (diktafon, noter). Kræver tilladelse og en fuld genstart af den virtuelle maskine. Optagelsen stopper, når AEmulator går i baggrunden; åbn gæstens diktafonapp igen. Kun 4.x-ROM\'er.</string>
+    <string name="vs_microphone_sub">Gæstens apps optager fra telefonens mikrofon (diktafon, noter). Kræver tilladelse og en fuld genstart af den virtuelle maskine. Optagelsen stopper, når AEmulator Plus går i baggrunden; åbn gæstens diktafonapp igen. Kun 4.x-ROM\'er.</string>
     <string name="microphone_permission_denied">Mikrofontilladelse afvist. Gæstens apps optager stilhed; giv tilladelse i Androids appindstillinger, og genstart den virtuelle maskine helt for at prøve igen.</string>
     <string name="vs_sim_title">SIM-kort</string>
     <string name="vs_sim_present">SIM-kort isat</string>
@@ -534,4 +534,18 @@
     <string name="catalog_download_checking">Tjekker link…</string>
     <string name="catalog_download_title">Henter ROM</string>
     <string name="catalog_download_failed">Download mislykkedes: %1$s</string>
+    <string name="al_title">Activity-starter</string>
+    <string name="m_activities">Activity-starter</string>
+    <string name="al_search_packages">Søg i pakker</string>
+    <string name="al_search_activities">Søg i activity</string>
+    <string name="al_no_packages">Ingen pakker fundet</string>
+    <string name="al_no_activities">Ingen activity fundet</string>
+    <string name="al_not_exported">ikke eksporteret</string>
+    <string name="al_starting">Starter %1$s…</string>
+    <string name="catalog_share_rom">Del downloadlink til %1$s</string>
+    <string name="m_battery_old_note">Denne Android-version læser kun batteriet under opstart. Det niveau og den opladningstilstand, du vælger, gemmes og bruges ved VM’ens næste start.</string>
+    <string name="vs_no_dex2oat">Deaktivér dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Apps og systemkode kompileres aldrig i gæsten: hver dex2oat-kørsel fejler med det samme. Advarsel: det kan give nedbrud, grafiske fejl og andet utilsigtet adfærd (apps kører langsommere, noget firmware kan ikke starte uden kompilering). Slået fra som standard. Træder i kraft ved næste fulde start.</string>
+    <string name="m_multitask">Opgaveskift</string>
+    <string name="nav_show">Vis Android-knaplinjen</string>
 </resources>

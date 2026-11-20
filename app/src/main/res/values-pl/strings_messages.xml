@@ -208,9 +208,9 @@
     <string name="lib3d_spec_screen">Ekran</string>
     <string name="lib3d_spec_size">Rozmiar</string>
     <string name="lib3d_spec_model">Model</string>
-    <string name="as_upstream_row">Upstream: %1$s</string>
+    <string name="as_upstream_row">Projekt nadrzędny: %1$s</string>
     <string name="as_original_row">Oryginał: %1$s</string>
-    <string name="sms_default_body">Cześć od AEmulator</string>
+    <string name="sms_default_body">Cześć od AEmulator Plus</string>
     <string name="theme_original">Oryginalny</string>
     <string name="theme_sunset">Sunset</string>
     <string name="sim_country_emulator">Emulator</string>

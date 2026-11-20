@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Katalog zawiera ponad 10000 ROM-ów.</string>
     <string name="catalog_tested_on">Emulator %1$s</string>
     <string name="catalog_submitted_by">Zgłosił(a): %1$s</string>
+    <string name="submit_not_direct_title">Wymagany bezpośredni link</string>
+    <string name="submit_not_direct_text">Zgłoszenia muszą być bezpośrednimi linkami do pobrania pliku ROM. Linki do stron internetowych lub do hostingów plików otwierających najpierw stronę nie są akceptowane.\n\nZalecane miejsce do przesłania to archive.org.</string>
 </resources>

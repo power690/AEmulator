@@ -210,7 +210,7 @@
     <string name="lib3d_spec_model">الطراز</string>
     <string name="as_upstream_row">المشروع المصدر: %1$s</string>
     <string name="as_original_row">الأصل: %1$s</string>
-    <string name="sms_default_body">مرحبًا من AEmulator</string>
+    <string name="sms_default_body">مرحبًا من AEmulator Plus</string>
     <string name="theme_original">الأصلي</string>
     <string name="theme_sunset">الغروب</string>
     <string name="sim_country_emulator">المحاكي</string>

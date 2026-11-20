@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Já existe uma transferência em curso.</string>
+    <string name="rom_dl_cannot_start">Não foi possível iniciar a transferência em segundo plano.</string>
+    <string name="rom_dl_channel">Transferência de ROM</string>
+    <string name="rom_dl_channel_done">Transferência de ROM concluída</string>
+    <string name="rom_dl_done">ROM transferida</string>
+    <string name="rom_dl_done_text">Toque para importar %1$s</string>
+    <string name="rom_dl_failed">Falha na transferência da ROM</string>
+    <string name="rom_dl_hide">Ocultar</string>
+    <string name="rom_dl_page">Ligação de transferência</string>
+    <string name="rom_dl_page_text">Esta ligação é uma página web: ao tocar, abre no navegador.</string>
+</resources>

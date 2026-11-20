@@ -90,5 +90,5 @@ S = {
     "as_orig_sub": "Pencipta emulator Desire HD dan One M7 yang menjadi asas projek ini",
     "as_github": "Kod sumber di GitHub",
     "as_version": "Versi %1$s",
-    "as_about": "AEmulator menjalankan perisian tegar Android klasik pada telefon moden. Percuma dan sumber terbuka.",
+    "as_about": "AEmulator Plus menjalankan perisian tegar Android klasik pada telefon moden. Percuma dan sumber terbuka.",
 }

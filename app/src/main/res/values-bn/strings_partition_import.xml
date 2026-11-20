@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_import_partition">পার্টিশন ইমপোর্ট</string>
+    <string name="vm_import_partition_button">ইমপোর্ট…</string>
+    <string name="vm_import_partition_conflict">এই VM-এর ফোল্ডার সাজানো এই পার্টিশন নেয় না।</string>
+    <string name="vm_import_partition_done">%1$s পার্টিশন ইমপোর্ট ও মাউন্ট হয়েছে। সিস্টেম ও ডেটা অপরিবর্তিত।</string>
+    <string name="vm_import_partition_exists">এই VM-তে ইতোমধ্যে একটি %1$s পার্টিশন আছে।</string>
+    <string name="vm_import_partition_have">%1$s (ইতোমধ্যে এই VM-তে)</string>
+    <string name="vm_import_partition_headline">এই VM-তে একটি পার্টিশন ইমেজ ইমপোর্ট করুন</string>
+    <string name="vm_import_partition_sub">Boot, recovery (স্টক, TWRP, OrangeFox বা CWM), OEM, vendor, odm, product বা system_ext। ধরনটি ফাইল থেকে পড়া হয়; না বুঝলে জিজ্ঞাসা করা হবে। শুধু recovery আগেরটি বদলায়; VM-এর বাকি অংশ অপরিবর্তিত থাকে। ⋮ মেনু থেকে recovery-তে রিবুট করুন।</string>
+    <string name="vm_import_partition_unsupported">এই অপশন দিয়ে %1$s ইমেজ ইমপোর্ট করা যায় না।</string>
+    <string name="vm_import_partition_which">এটি কোন পার্টিশন?</string>
+    <string name="vm_import_partition_which_info">ফাইলের নাম থেকে বোঝা যায় না ভেতরে কী আছে। পার্টিশন বেছে নিন।</string>
+    <string name="vm_import_partition_working">%1$s পার্টিশন পড়া হচ্ছে… ইমপোর্টের আগে সব VM বন্ধ করুন।</string>
+    <string name="vm_import_recovery_done">Recovery ইমপোর্ট হয়েছে। ব্যবহার করতে ⋮ মেনু থেকে recovery-তে রিবুট করুন।</string>
+</resources>

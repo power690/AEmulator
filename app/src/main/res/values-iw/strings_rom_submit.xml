@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">בקטלוג יש יותר מ-10000 ROM.</string>
     <string name="catalog_tested_on">אמולטור %1$s</string>
     <string name="catalog_submitted_by">נשלח על ידי %1$s</string>
+    <string name="submit_not_direct_title">נדרש קישור ישיר</string>
+    <string name="submit_not_direct_text">ההגשות חייבות להיות קישורי הורדה ישירים לקובץ ה‑ROM. קישורים לדפי אינטרנט או לאחסון קבצים שפותחים קודם דף אינם מתקבלים.\n\nהמקום המומלץ להעלאה הוא archive.org.</string>
 </resources>

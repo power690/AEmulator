@@ -210,7 +210,7 @@
     <string name="lib3d_spec_model">Gerð</string>
     <string name="as_upstream_row">Upprunaverkefni: %1$s</string>
     <string name="as_original_row">Upprunalegt: %1$s</string>
-    <string name="sms_default_body">Kveðja frá AEmulator</string>
+    <string name="sms_default_body">Kveðja frá AEmulator Plus</string>
     <string name="theme_original">Upprunalegt</string>
     <string name="theme_sunset">Sunset</string>
     <string name="sim_country_emulator">Hermir</string>

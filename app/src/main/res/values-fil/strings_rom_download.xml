@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">May kasalukuyang download na.</string>
+    <string name="rom_dl_cannot_start">Hindi masimulan ang download sa background.</string>
+    <string name="rom_dl_channel">Download ng ROM</string>
+    <string name="rom_dl_channel_done">Tapos na ang download ng ROM</string>
+    <string name="rom_dl_done">Nadownload na ang ROM</string>
+    <string name="rom_dl_done_text">I-tap para i-import ang %1$s</string>
+    <string name="rom_dl_failed">Nabigo ang download ng ROM</string>
+    <string name="rom_dl_hide">Itago</string>
+    <string name="rom_dl_page">Link ng download</string>
+    <string name="rom_dl_page_text">Webpage ang link na ito. I-tap para buksan sa browser.</string>
+</resources>

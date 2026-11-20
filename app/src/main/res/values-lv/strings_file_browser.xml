@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">VM dublējums (.aessvm) jāimportē atsevišķi, nevis kopā ar citiem failiem.</string>
     <string name="imp_joining">Apvieno %2$d faila %1$s daļas…</string>
     <string name="imp_split_missing">Trūkst sadalītā arhīva %1$s daļas %2$s. Atlasiet visas tā daļas vai glabājiet tās vienā mapē.</string>
+    <string name="fb_search">Meklēt</string>
+    <string name="fb_search_hint">Meklēt šajā mapē</string>
+    <string name="fb_no_matches">Neviens fails vai mape neatbilst</string>
 </resources>

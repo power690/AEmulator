@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Í skránni eru fleiri en 10000 ROM.</string>
     <string name="catalog_tested_on">Hermir %1$s</string>
     <string name="catalog_submitted_by">Sent inn af %1$s</string>
+    <string name="submit_not_direct_title">Beinn tengill nauðsynlegur</string>
+    <string name="submit_not_direct_text">Sendningar verða að vera beinir niðurhaltenglar á ROM-skrána. Tenglar á vefsíður eða skráahirslur sem opna fyrst síðu eru ekki samþykkt.\n\nMælt er með að hlaða upp á archive.org.</string>
 </resources>

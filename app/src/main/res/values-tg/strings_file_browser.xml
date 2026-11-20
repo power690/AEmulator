@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Нусхаи эҳтиётии VM (.aessvm)-ро бояд ба таври ҷудогона ворид кард, на якҷоя бо файлҳои дигар.</string>
     <string name="imp_joining">Пайваст кардани %2$d қисми %1$s…</string>
     <string name="imp_split_missing">Қисми %2$s-и бойгонии тақсимшудаи %1$s вуҷуд надорад. Ҳамаи қисмҳои онро интихоб кунед ё дар як ҷузвдон нигоҳ доред.</string>
+    <string name="fb_search">Ҷустуҷӯ</string>
+    <string name="fb_search_hint">Ҷустуҷӯ дар ин папка</string>
+    <string name="fb_no_matches">Ягон файл ё папка мувофиқ нест</string>
 </resources>

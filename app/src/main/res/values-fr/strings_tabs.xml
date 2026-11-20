@@ -8,4 +8,12 @@
     <string name="tab_minimize">Réduire</string>
     <string name="tab_shutdown">Éteindre</string>
     <string name="vm_slots_full">Les %1$d emplacements de machine sont tous utilisés. Éteignez-en d’abord une.</string>
+    <string name="tab_bar_hide">Masquer la barre d\'onglets</string>
+    <string name="tab_bar_show">Afficher la barre d\'onglets</string>
+    <string name="tab_drag_label">Glissez sur l\'écran pour diviser</string>
+    <string name="tab_group_title">2 onglets</string>
+    <string name="tab_split_action">Diviser</string>
+    <string name="tab_split_failed">Cette machine ne peut plus être ajoutée à cet onglet.</string>
+    <string name="tab_split_text">Chaque machine retrouve son propre onglet. Les deux continuent de tourner.</string>
+    <string name="tab_split_title">Diviser les 2 onglets ?</string>
 </resources>

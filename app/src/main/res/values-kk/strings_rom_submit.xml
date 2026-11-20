@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Каталогта 10000-нан астам ROM бар.</string>
     <string name="catalog_tested_on">Эмулятор %1$s</string>
     <string name="catalog_submitted_by">Жіберген: %1$s</string>
+    <string name="submit_not_direct_title">Тікелей сілтеме қажет</string>
+    <string name="submit_not_direct_text">Жіберілгендер ROM файлына тікелей жүктеу сілтемелері болуы керек. Веб-беттерге немесе алдымен бетті ашатын файл сақтау орнына сілтемелер қабылданбайды.\n\nЖүктеу үшін ұсынылатын орын — archive.org.</string>
 </resources>

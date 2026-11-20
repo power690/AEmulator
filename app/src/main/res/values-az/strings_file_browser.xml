@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">VM ehtiyat nüsxəsi (.aessvm) digər fayllarla birlikdə deyil, tək idxal edilməlidir.</string>
     <string name="imp_joining">%1$s faylının %2$d hissəsi birləşdirilir…</string>
     <string name="imp_split_missing">Bölünmüş %1$s arxivinin %2$s hissəsi çatışmır. Onun bütün hissələrini seçin və ya bir qovluqda saxlayın.</string>
+    <string name="fb_search">Axtar</string>
+    <string name="fb_search_hint">Bu qovluqda axtar</string>
+    <string name="fb_no_matches">Uyğun fayl və ya qovluq yoxdur</string>
 </resources>

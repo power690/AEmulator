@@ -210,7 +210,7 @@
     <string name="lib3d_spec_model">モデル</string>
     <string name="as_upstream_row">アップストリーム: %1$s</string>
     <string name="as_original_row">オリジナル: %1$s</string>
-    <string name="sms_default_body">AEmulator からこんにちは</string>
+    <string name="sms_default_body">AEmulator Plus からこんにちは</string>
     <string name="theme_original">オリジナル</string>
     <string name="theme_sunset">サンセット</string>
     <string name="sim_country_emulator">エミュレーター</string>

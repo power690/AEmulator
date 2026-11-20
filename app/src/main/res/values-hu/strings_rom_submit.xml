@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">A katalógusban több mint 10000 ROM van.</string>
     <string name="catalog_tested_on">Emulátor %1$s</string>
     <string name="catalog_submitted_by">Beküldte: %1$s</string>
+    <string name="submit_not_direct_title">Közvetlen hivatkozás szükséges</string>
+    <string name="submit_not_direct_text">A beküldéseknek a ROM-fájlra mutató közvetlen letöltési hivatkozásoknak kell lenniük. Weboldalakra vagy először oldalt nyitó fájltárhelyekre mutató hivatkozások nem fogadhatók el.\n\nAz ajánlott feltöltési hely az archive.org.</string>
 </resources>

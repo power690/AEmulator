@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Рэзервовую копію ВМ (.aessvm) трэба імпартаваць асобна, а не разам з іншымі файламі.</string>
     <string name="imp_joining">Склейванне частак (%2$d) файла %1$s…</string>
     <string name="imp_split_missing">Адсутнічае частка %2$s падзеленага архіва %1$s. Выберыце ўсе яго часткі або трымайце іх у адной папцы.</string>
+    <string name="fb_search">Пошук</string>
+    <string name="fb_search_hint">Пошук у гэтай папцы</string>
+    <string name="fb_no_matches">Нічога не знойдзена</string>
 </resources>

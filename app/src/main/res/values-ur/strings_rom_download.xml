@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">ایک اور ڈاؤن لوڈ پہلے سے جاری ہے۔</string>
+    <string name="rom_dl_cannot_start">ڈاؤن لوڈ پس منظر میں شروع نہیں ہو سکا۔</string>
+    <string name="rom_dl_channel">ROM ڈاؤن لوڈ</string>
+    <string name="rom_dl_channel_done">ROM ڈاؤن لوڈ مکمل ہوا</string>
+    <string name="rom_dl_done">ROM ڈاؤن لوڈ ہو گیا</string>
+    <string name="rom_dl_done_text">درآمد کرنے کے لیے %1$s کو ٹیپ کریں</string>
+    <string name="rom_dl_failed">ROM ڈاؤن لوڈ ناکام ہوا</string>
+    <string name="rom_dl_hide">چھپائیں</string>
+    <string name="rom_dl_page">ڈاؤن لوڈ لنک</string>
+    <string name="rom_dl_page_text">یہ لنک ایک ویب صفحہ ہے۔ اسے براؤزر میں کھولنے کے لیے ٹیپ کریں۔</string>
+</resources>

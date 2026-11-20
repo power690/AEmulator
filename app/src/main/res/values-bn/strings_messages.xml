@@ -210,7 +210,7 @@
     <string name="lib3d_spec_model">মডেল</string>
     <string name="as_upstream_row">আপস্ট্রিম: %1$s</string>
     <string name="as_original_row">মূল: %1$s</string>
-    <string name="sms_default_body">AEmulator থেকে হ্যালো</string>
+    <string name="sms_default_body">AEmulator Plus থেকে হ্যালো</string>
     <string name="theme_original">মূল</string>
     <string name="theme_sunset">সানসেট</string>
     <string name="sim_country_emulator">এমুলেটর</string>
@@ -232,4 +232,7 @@
     <string name="imp_choice_text">এই প্যাকেজে একাধিক %1$s আছে (%3$d-এর মধ্যে %2$d)। ইমপোর্ট করার জন্য একটি বেছে নিন।</string>
     <string name="imp_choice_ok">ইমপোর্ট করুন</string>
     <string name="imp_choice_cancel">ইমপোর্ট বাতিল করুন</string>
+    <string name="imp_no_system_partition_in_mbr">%1$s: MBR-এ system পার্টিশন নেই</string>
+    <string name="imp_unreadable_mbr">%1$s: MBR পার্টিশন টেবিল পড়া যায় না</string>
+    <string name="ota_squash_files_modified">/system-এর %1$dটি ফাইল অ্যাপ বা আপনি বদলেছেন, তাই সেগুলি আবার বানানো যাবে না, যেমন %2$s। SquashFS সিস্টেম ইমেজ শুধু অবদলিত ফাইল থেকেই বানানো যায়। কিছুই বদলানো হয়নি।</string>
 </resources>

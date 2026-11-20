@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="catalog_err_bad_json">El catálogo no es una lista de ROM válida.</string>
+    <string name="catalog_err_too_many_roms">El catálogo tiene más de 10000 ROMs.</string>
+    <string name="catalog_submitted_by">Enviado por %1$s</string>
+    <string name="catalog_tested_on">Emulador %1$s</string>
+    <string name="submit_action">Enviar una ROM</string>
+    <string name="submit_another">Enviar otra</string>
+    <string name="submit_bad_size">Escribe un número, 0 o más</string>
+    <string name="submit_bad_url">Escribe un enlace http(s) válido</string>
+    <string name="submit_by">Tu nombre</string>
+    <string name="submit_categories_failed">No se pudieron cargar las categorías: %1$s</string>
+    <string name="submit_close">Cerrar</string>
+    <string name="submit_device">Dispositivo</string>
+    <string name="submit_emulator">Versión del emulador (opcional)</string>
+    <string name="submit_err_bad_response">El servidor envió una respuesta inesperada.</string>
+    <string name="submit_err_duplicate">Este enlace de descarga ya se había enviado.</string>
+    <string name="submit_err_rate_limited">Demasiados envíos. Prueba de nuevo en unos %1$d min.</string>
+    <string name="submit_err_rejected">El servidor rechazó el envío: %1$s</string>
+    <string name="submit_err_server">El servidor devolvió un error (HTTP %1$d).</string>
+    <string name="submit_intro">Comparte un enlace de descarga de ROM. Los envíos se revisan antes de aparecer en el catálogo.</string>
+    <string name="submit_name">Nombre de la ROM</string>
+    <string name="submit_not_direct_text">Los envíos deben ser enlaces directos de descarga del archivo de la ROM. No se aceptan enlaces a páginas web ni a servidores que abren primero una página.\n\nEl lugar recomendado para subir es archive.org.</string>
+    <string name="submit_not_direct_title">Se necesita un enlace directo</string>
+    <string name="submit_notes">Notas (opcional)</string>
+    <string name="submit_pick_variant_first">Elige primero una variante</string>
+    <string name="submit_required">Obligatorio</string>
+    <string name="submit_rom_version">Versión de la ROM</string>
+    <string name="submit_send">Enviar</string>
+    <string name="submit_size_mb">Tamaño del archivo en MB (opcional)</string>
+    <string name="submit_success">¡Gracias! Tu ROM se ha enviado y aparecerá en el catálogo tras la revisión.</string>
+    <string name="submit_title">Enviar una ROM</string>
+    <string name="submit_url">URL de descarga</string>
+    <string name="submit_variant">Variante</string>
+    <string name="submit_version">Categoría de versión</string>
+</resources>

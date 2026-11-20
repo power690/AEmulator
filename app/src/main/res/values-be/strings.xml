@@ -108,7 +108,7 @@
     <string name="as_orig_sub">Стваральнік эмулятараў Desire HD і One M7, з якіх вырас гэты праект</string>
     <string name="as_github">Зыходны код на GitHub</string>
     <string name="as_version">Версія %1$s</string>
-    <string name="as_about">AEmulator запускае класічныя прашыўкі Android на сучасных тэлефонах. Бясплатна і з адкрытым зыходным кодам.</string>
+    <string name="as_about">AEmulator Plus запускае класічныя прашыўкі Android на сучасных тэлефонах. Бясплатна і з адкрытым зыходным кодам.</string>
     <string name="log_copy">Скапіяваць</string>
     <string name="log_export">Экспартаваць .log</string>
     <string name="log_copied">Скапіравана ў буфер абмену</string>
@@ -255,9 +255,9 @@
     <string name="update_download_error">Не ўдалося спампаваць: %1$s</string>
     <string name="update_open_github">Адкрыць на GitHub</string>
     <string name="vs_camera">Камера хоста (эксперыментальна)</string>
-    <string name="vs_camera_sub">ROM-ы з HAL1: прэв’ю і фота 640×480, задняя/пярэдняя камера. Патрабуе дазволу і поўнага перазапуску віртуальнай машыны. Камера закрываецца, калі AEmulator сыходзіць у фон; адкрыйце праграму камеры госця зноў. Відэа запісваецца ў 640×480.</string>
+    <string name="vs_camera_sub">ROM-ы з HAL1: прэв’ю і фота 640×480, задняя/пярэдняя камера. Патрабуе дазволу і поўнага перазапуску віртуальнай машыны. Камера закрываецца, калі AEmulator Plus сыходзіць у фон; адкрыйце праграму камеры госця зноў. Відэа запісваецца ў 640×480.</string>
     <string name="vs_microphone">Мікрафон хоста (эксперыментальна)</string>
-    <string name="vs_microphone_sub">Праграмы госця запісваюць гук з мікрафона тэлефона (дыктафон, нататкі). Патрабуе дазволу і поўнага перазапуску віртуальнай машыны. Запіс спыняецца, калі AEmulator сыходзіць у фон; адкрыйце дыктафон госця зноў. Толькі для ROM-аў 4.x.</string>
+    <string name="vs_microphone_sub">Праграмы госця запісваюць гук з мікрафона тэлефона (дыктафон, нататкі). Патрабуе дазволу і поўнага перазапуску віртуальнай машыны. Запіс спыняецца, калі AEmulator Plus сыходзіць у фон; адкрыйце дыктафон госця зноў. Толькі для ROM-аў 4.x.</string>
     <string name="microphone_permission_denied">Дазвол на мікрафон не атрыманы. Праграмы госця запісваюць цішыню; дайце дазвол у наладах праграм Android і цалкам перазапусціце віртуальную машыну, каб паўтарыць.</string>
     <string name="vs_sim_title">SIM-карты</string>
     <string name="vs_sim_present">SIM-карта ўстаўлена</string>
@@ -538,4 +538,18 @@
     <string name="catalog_download_checking">Праверка спасылкі…</string>
     <string name="catalog_download_title">Загрузка ROM</string>
     <string name="catalog_download_failed">Не ўдалося загрузіць: %1$s</string>
+    <string name="al_title">Запускальнік Activity</string>
+    <string name="m_activities">Запускальнік Activity</string>
+    <string name="al_search_packages">Пошук пакетаў</string>
+    <string name="al_search_activities">Пошук Activity</string>
+    <string name="al_no_packages">Пакетаў не знойдзена</string>
+    <string name="al_no_activities">Activity не знойдзена</string>
+    <string name="al_not_exported">не экспартавана</string>
+    <string name="al_starting">Запускаецца %1$s…</string>
+    <string name="catalog_share_rom">Падзяліцца спасылкай для спампоўкі %1$s</string>
+    <string name="m_battery_old_note">Гэтая версія Android чытае батарэю толькі падчас запуску. Зададзеныя вамі ўзровень і стан зарадкі захоўваюцца і выкарыстоўваюцца пры наступным запуску VM.</string>
+    <string name="vs_no_dex2oat">Адключыць dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Прыкладанні і сістэмны код ніколі не кампілююцца ў гасцевай сістэме: кожны запуск dex2oat адразу прайграе. Увага: магчымыя збоі, глікі і іншыя непрадбачаныя паводзіны (прыкладанні працуюць павольней, некаторыя прашыўкі не загружаюцца без кампіляцыі). Адключана па змаўчанні. Ужываецца пры наступным поўным запуску.</string>
+    <string name="m_multitask">Пераключэнне задач</string>
+    <string name="nav_show">Паказаць панэль кнопак Android</string>
 </resources>

@@ -208,9 +208,9 @@
     <string name="lib3d_spec_screen">Màn hình</string>
     <string name="lib3d_spec_size">Kích thước</string>
     <string name="lib3d_spec_model">Mẫu máy</string>
-    <string name="as_upstream_row">Upstream: %1$s</string>
+    <string name="as_upstream_row">Dự án gốc: %1$s</string>
     <string name="as_original_row">Bản gốc: %1$s</string>
-    <string name="sms_default_body">Xin chào từ AEmulator</string>
+    <string name="sms_default_body">Xin chào từ AEmulator Plus</string>
     <string name="theme_original">Gốc</string>
     <string name="theme_sunset">Hoàng hôn</string>
     <string name="sim_country_emulator">Trình giả lập</string>

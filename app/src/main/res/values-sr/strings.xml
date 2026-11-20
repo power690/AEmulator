@@ -109,7 +109,7 @@
     <string name="as_orig_sub">Творац емулатора Desire HD и One M7 из којих је овај пројекат израстао</string>
     <string name="as_github">Изворни код на GitHub-у</string>
     <string name="as_version">Верзија %1$s</string>
-    <string name="as_about">AEmulator покреће класични Android фирмвер на модерним телефонима. Бесплатан и отвореног кода.</string>
+    <string name="as_about">AEmulator Plus покреће класични Android фирмвер на модерним телефонима. Бесплатан и отвореног кода.</string>
     <string name="log_copy">Копирај</string>
     <string name="log_export">Извези .log</string>
     <string name="log_copied">Копирано у привремену меморију</string>
@@ -245,9 +245,9 @@
     <string name="update_download_error">Преузимање није успело: %1$s</string>
     <string name="update_open_github">Погледај на GitHub-у</string>
     <string name="vs_camera">Камера домаћина (експериментално)</string>
-    <string name="vs_camera_sub">HAL1 ROM-ови: преглед и фотографије 640×480, задња/предња камера. Захтева дозволу и потпуно поновно покретање виртуелне машине. Камера се затвара када AEmulator пређе у позадину; поново отворите апликацију камере у госту. Видео се снима у 640×480.</string>
+    <string name="vs_camera_sub">HAL1 ROM-ови: преглед и фотографије 640×480, задња/предња камера. Захтева дозволу и потпуно поновно покретање виртуелне машине. Камера се затвара када AEmulator Plus пређе у позадину; поново отворите апликацију камере у госту. Видео се снима у 640×480.</string>
     <string name="vs_microphone">Микрофон домаћина (експериментално)</string>
-    <string name="vs_microphone_sub">Апликације госта снимају са микрофона телефона (диктафон, белешке). Захтева дозволу и потпуно поновно покретање виртуелне машине. Снимање се зауставља када AEmulator пређе у позадину; поново отворите апликацију за снимање у госту. Само 4.x ROM-ови.</string>
+    <string name="vs_microphone_sub">Апликације госта снимају са микрофона телефона (диктафон, белешке). Захтева дозволу и потпуно поновно покретање виртуелне машине. Снимање се зауставља када AEmulator Plus пређе у позадину; поново отворите апликацију за снимање у госту. Само 4.x ROM-ови.</string>
     <string name="microphone_permission_denied">Дозвола за микрофон је одбијена. Апликације госта снимаће тишину; дајте дозволу у Android подешавањима апликације и потпуно поново покрените виртуелну машину да покушате поново.</string>
     <string name="vs_sim_title">SIM картице</string>
     <string name="vs_sim_present">SIM картица уметнута</string>
@@ -537,4 +537,18 @@
     <string name="catalog_download_checking">Провера везе…</string>
     <string name="catalog_download_title">Преузимање ROM-а</string>
     <string name="catalog_download_failed">Преузимање није успело: %1$s</string>
+    <string name="al_title">Покретач Activity-ја</string>
+    <string name="m_activities">Покретач Activity-ја</string>
+    <string name="al_search_packages">Претрага пакета</string>
+    <string name="al_search_activities">Претрага Activity-ја</string>
+    <string name="al_no_packages">Нема пронађених пакета</string>
+    <string name="al_no_activities">Нема пронађених Activity-ја</string>
+    <string name="al_not_exported">није извезено</string>
+    <string name="al_starting">Покреће се %1$s…</string>
+    <string name="catalog_share_rom">Подели везу за преузимање %1$s</string>
+    <string name="m_battery_old_note">Ова верзија Android-а чита батерију само докле се покреће. Ниво и стање пуњења које поставите се чувају и користе при следећем покретању VM-а.</string>
+    <string name="vs_no_dex2oat">Искључи dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Апликације и системски код се никад не компилирају код госта: сваки dex2oat покушај одмах пропада. Упозорење: то може изазвати крашеве, грешке и друго непредвиђено понашање (апликације раде спорије, неки firmware се не покреће без компилације). Искључено подразумевано. Примењује се при следећем потпуном покретању.</string>
+    <string name="m_multitask">Пребацивање задатака</string>
+    <string name="nav_show">Прикажи Android траку са дугмадима</string>
 </resources>

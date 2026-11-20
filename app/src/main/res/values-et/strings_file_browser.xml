@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">VM-i varukoopia (.aessvm) tuleb importida eraldi, mitte koos teiste failidega.</string>
     <string name="imp_joining">Liidetakse faili %1$s %2$d osa…</string>
     <string name="imp_split_missing">Jagatud arhiivi %1$s osa %2$s puudub. Vali kõik selle osad või hoia need ühes kaustas.</string>
+    <string name="fb_search">Otsi</string>
+    <string name="fb_search_hint">Otsi selles kaustas</string>
+    <string name="fb_no_matches">Ühtegi vastavat faili ega kausta pole</string>
 </resources>

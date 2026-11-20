@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Այլ ներբեռնում արդեն ընթացքի մեջ է։</string>
+    <string name="rom_dl_cannot_start">Ներբեռնումը չհաջողվեց սկսել հետին պլանում։</string>
+    <string name="rom_dl_channel">ROM-ի ներբեռնում</string>
+    <string name="rom_dl_channel_done">ROM-ի ներբեռնումն ավարտվեց</string>
+    <string name="rom_dl_done">ROM-ը ներբեռնված է</string>
+    <string name="rom_dl_done_text">Ներմուծելու համար հպեք %1$s</string>
+    <string name="rom_dl_failed">ROM-ի ներբեռնումը ձախողվեց</string>
+    <string name="rom_dl_hide">Թաքցնել</string>
+    <string name="rom_dl_page">Ներբեռնման հղում</string>
+    <string name="rom_dl_page_text">Այս հղումը վեբ էջ է։ Հպեք՝ բացելու համար բրաուզերում։</string>
+</resources>

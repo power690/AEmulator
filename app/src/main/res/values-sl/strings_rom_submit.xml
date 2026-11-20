@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Katalog vsebuje več kot 10000 ROM-ov.</string>
     <string name="catalog_tested_on">Emulator %1$s</string>
     <string name="catalog_submitted_by">Poslal(a): %1$s</string>
+    <string name="submit_not_direct_title">Zahtevana je neposredna povezava</string>
+    <string name="submit_not_direct_text">Oddaje morajo biti neposredne povezave za prenos datoteke ROM. Povezave do spletnih strani ali do gostiteljev datotek, ki najprej odprejo stran, niso sprejete.\n\nPriporočeno mesto za nalaganje je archive.org.</string>
 </resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">已有下載任務正在進行。</string>
+    <string name="rom_dl_cannot_start">無法在背景下載。</string>
+    <string name="rom_dl_channel">ROM 下載</string>
+    <string name="rom_dl_channel_done">ROM 下載完成</string>
+    <string name="rom_dl_done">ROM 已下載</string>
+    <string name="rom_dl_done_text">輕觸可匯入 %1$s</string>
+    <string name="rom_dl_failed">ROM 下載失敗</string>
+    <string name="rom_dl_hide">隱藏</string>
+    <string name="rom_dl_page">下載連結</string>
+    <string name="rom_dl_page_text">此連結是一個網頁，輕觸後將在瀏覽器中開啟。</string>
+</resources>

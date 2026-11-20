@@ -90,5 +90,5 @@ S = {
     "as_orig_sub": "本プロジェクトの原点となった Desire HD・One M7 エミュレーターの作者",
     "as_github": "GitHub のソースコード",
     "as_version": "バージョン %1$s",
-    "as_about": "AEmulator は最新のスマホで懐かしの Android ファームウェアを動かします。無料でオープンソースです。",
+    "as_about": "AEmulator Plus は最新のスマホで懐かしの Android ファームウェアを動かします。無料でオープンソースです。",
 }

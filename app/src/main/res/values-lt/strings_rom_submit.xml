@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Kataloge yra daugiau nei 10000 ROM.</string>
     <string name="catalog_tested_on">Emuliatorius %1$s</string>
     <string name="catalog_submitted_by">Pateikė: %1$s</string>
+    <string name="submit_not_direct_title">Reikalinga tiesioginė nuoroda</string>
+    <string name="submit_not_direct_text">Pateikimai turi būti tiesioginės atsisiuntimo nuorodos į ROM failą. Nuorodos į tinklalapius ar į failų talpinimo svetaines, kurios pirmiausiai atidaro puslapį, nepriimamos.\n\nRekomenduojama vieta įkėlimui yra archive.org.</string>
 </resources>

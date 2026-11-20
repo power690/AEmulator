@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="as_builtin_browser">Navegador de arquivos integrado</string>
+    <string name="as_builtin_browser_sub">Escolha o firmware com ordenação por data e tamanho e vários arquivos de uma vez. Desligue para usar o seletor do sistema.</string>
+    <string name="fb_access_scoped">O Android 10 oculta a maioria dos arquivos de apps que não desativaram o armazenamento segmentado, então este navegador não pode listá-los aqui. Use o seletor do sistema.</string>
+    <string name="fb_access_text">Para listar seus arquivos de firmware e escolher vários de uma vez, o navegador precisa de acesso aos seus arquivos. Você também pode usar o seletor do sistema.</string>
+    <string name="fb_access_title">Permitir acesso aos arquivos</string>
+    <string name="fb_clear">Limpar</string>
+    <string name="fb_documents">Documentos</string>
+    <string name="fb_downloads">Downloads</string>
+    <string name="fb_empty">Nada aqui</string>
+    <string name="fb_firmware">aemulator/firmware</string>
+    <string name="fb_hidden">Ocultos</string>
+    <string name="fb_import">Importar</string>
+    <string name="fb_internal">Armazenamento interno</string>
+    <string name="fb_no_matches">Nenhum arquivo ou pasta corresponde</string>
+    <string name="fb_removable">Cartão SD / USB %1$d</string>
+    <string name="fb_search">Pesquisar</string>
+    <string name="fb_search_hint">Pesquisar nesta pasta</string>
+    <string name="fb_selected">%1$d selecionados</string>
+    <string name="fb_sort_date">Data</string>
+    <string name="fb_sort_name">Nome</string>
+    <string name="fb_sort_size">Tamanho</string>
+    <string name="fb_system_picker">Seletor do sistema</string>
+    <string name="fb_title_multi">Escolher arquivos</string>
+    <string name="fb_title_single">Escolher um arquivo</string>
+    <string name="fb_unreadable">Esta pasta não pode ser lida. O Android mantém algumas pastas (como os dados de outros apps) fechadas para todos os apps.</string>
+    <string name="fb_up">Acima</string>
+    <string name="fb_use_system_picker">Usar o seletor do sistema</string>
+    <string name="imp_archive_alone">Um backup de VM (.aessvm) deve ser importado sozinho, não junto com outros arquivos.</string>
+    <string name="imp_joining">Juntando %2$d partes de %1$s…</string>
+    <string name="imp_split_missing">A parte %2$s do arquivo dividido %1$s está faltando. Selecione todas as partes ou deixe-as em uma única pasta.</string>
+</resources>

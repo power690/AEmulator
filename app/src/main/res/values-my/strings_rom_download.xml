@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">ဒေါင်းလုဒ် တစ်ခု လုပ်နေပြီးသားဖြစ်သည်။</string>
+    <string name="rom_dl_cannot_start">နောက်ခံတွင် ဒေါင်းလုဒ် စတင်မရပါ။</string>
+    <string name="rom_dl_channel">ROM ဒေါင်းလုဒ်</string>
+    <string name="rom_dl_channel_done">ROM ဒေါင်းလုဒ် ပြီးစီးပါပြီ</string>
+    <string name="rom_dl_done">ROM ဒေါင်းလုဒ် ရရှိပါပြီ</string>
+    <string name="rom_dl_done_text">%1$s ကို ထည့်သွင်းရန် တို့ပါ</string>
+    <string name="rom_dl_failed">ROM ဒေါင်းလုဒ် မအောင်မြင်ပါ</string>
+    <string name="rom_dl_hide">ဖျောက်ထားပါ</string>
+    <string name="rom_dl_page">ဒေါင်းလုဒ် လင့်ခ်</string>
+    <string name="rom_dl_page_text">ဤလင့်ခ်သည် ဝက်ဘ်ပိတ်တစ်ခုဖြစ်သည်။ ဘရောက်ဆာတွင် ဖွင့်ရန် တို့ပါ။</string>
+</resources>

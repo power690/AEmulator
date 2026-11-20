@@ -90,5 +90,5 @@ S = {
     "as_orig_sub": "Desire HD اور One M7 ایمولیٹرز کے خالق، جن سے یہ پروجیکٹ وجود میں آیا",
     "as_github": "GitHub پر سورس کوڈ",
     "as_version": "ورژن %1$s",
-    "as_about": "AEmulator جدید فونز پر کلاسک Android فرم ویئر چلاتا ہے۔ مفت اور اوپن سورس۔",
+    "as_about": "AEmulator Plus جدید فونز پر کلاسک Android فرم ویئر چلاتا ہے۔ مفت اور اوپن سورس۔",
 }

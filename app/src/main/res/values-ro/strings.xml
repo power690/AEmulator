@@ -109,7 +109,7 @@
     <string name="as_orig_sub">Creatorul emulatoarelor Desire HD și One M7 din care a crescut acest proiect</string>
     <string name="as_github">Cod sursă pe GitHub</string>
     <string name="as_version">Versiunea %1$s</string>
-    <string name="as_about">AEmulator rulează firmware Android clasic pe telefoane moderne. Gratuit și open source.</string>
+    <string name="as_about">AEmulator Plus rulează firmware Android clasic pe telefoane moderne. Gratuit și open source.</string>
     <string name="log_copy">Copiază</string>
     <string name="log_export">Exportă .log</string>
     <string name="log_copied">Copiat în clipboard</string>
@@ -245,9 +245,9 @@
     <string name="update_download_error">Descărcarea a eșuat: %1$s</string>
     <string name="update_open_github">Vezi pe GitHub</string>
     <string name="vs_camera">Camera gazdei (experimental)</string>
-    <string name="vs_camera_sub">ROM-uri HAL1: previzualizare și fotografii 640×480, cameră spate/față. Necesită permisiune și o repornire completă a VM-ului. Camera se închide când AEmulator trece în fundal; redeschide aplicația de cameră a sistemului invitat. Videoclipurile se înregistrează la 640×480.</string>
+    <string name="vs_camera_sub">ROM-uri HAL1: previzualizare și fotografii 640×480, cameră spate/față. Necesită permisiune și o repornire completă a VM-ului. Camera se închide când AEmulator Plus trece în fundal; redeschide aplicația de cameră a sistemului invitat. Videoclipurile se înregistrează la 640×480.</string>
     <string name="vs_microphone">Microfonul gazdei (experimental)</string>
-    <string name="vs_microphone_sub">Aplicațiile invitate înregistrează de la microfonul telefonului (reportofon, notițe). Necesită permisiune și o repornire completă a VM-ului. Înregistrarea se oprește când AEmulator trece în fundal; redeschide aplicația de înregistrare a sistemului invitat. Doar ROM-uri 4.x.</string>
+    <string name="vs_microphone_sub">Aplicațiile invitate înregistrează de la microfonul telefonului (reportofon, notițe). Necesită permisiune și o repornire completă a VM-ului. Înregistrarea se oprește când AEmulator Plus trece în fundal; redeschide aplicația de înregistrare a sistemului invitat. Doar ROM-uri 4.x.</string>
     <string name="microphone_permission_denied">Permisiunea pentru microfon a fost refuzată. Aplicațiile invitate vor înregistra liniște; acordă permisiunea în setările aplicației Android și repornește complet VM-ul pentru a reîncerca.</string>
     <string name="vs_sim_title">Carduri SIM</string>
     <string name="vs_sim_present">Card SIM introdus</string>
@@ -537,4 +537,18 @@
     <string name="catalog_download_checking">Se verifică linkul…</string>
     <string name="catalog_download_title">Se descarcă ROM-ul</string>
     <string name="catalog_download_failed">Descărcare eșuată: %1$s</string>
+    <string name="al_title">Lansator de Activity</string>
+    <string name="m_activities">Lansator de Activity</string>
+    <string name="al_search_packages">Caută pachete</string>
+    <string name="al_search_activities">Caută Activity</string>
+    <string name="al_no_packages">Nu s-au găsit pachete</string>
+    <string name="al_no_activities">Nu s-au găsit Activity</string>
+    <string name="al_not_exported">neexportată</string>
+    <string name="al_starting">Se pornește %1$s…</string>
+    <string name="catalog_share_rom">Distribuie linkul de descărcare pentru %1$s</string>
+    <string name="m_battery_old_note">Această versiune de Android citește bateria doar în timpul pornirii. Nivelul și starea de încărcare pe care le setați sunt salvate și utilizate la următoarea pornire a VM.</string>
+    <string name="vs_no_dex2oat">Dezactivează dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Aplicațiile și codul de sistem nu sunt niciodată compilate în sistemul invitat: fiecare rulare dex2oat eșuează imediat. Avertisment: poate cauza blocări, erori de afișare și alt comportament nedorit (aplicațiile merg mai lent, unele firmware nu pornesc fără compilare). Dezactivat implicit. Se aplică la următoarea pornire completă.</string>
+    <string name="m_multitask">Comutarea sarcinilor</string>
+    <string name="nav_show">Afișează bara de butoane Android</string>
 </resources>

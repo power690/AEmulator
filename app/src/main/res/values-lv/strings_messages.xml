@@ -209,9 +209,9 @@
     <string name="lib3d_spec_screen">Ekrāns</string>
     <string name="lib3d_spec_size">Izmērs</string>
     <string name="lib3d_spec_model">Modelis</string>
-    <string name="as_upstream_row">Upstream: %1$s</string>
+    <string name="as_upstream_row">Sākotnējais projekts: %1$s</string>
     <string name="as_original_row">Oriģināls: %1$s</string>
-    <string name="sms_default_body">Sveiciens no AEmulator</string>
+    <string name="sms_default_body">Sveiciens no AEmulator Plus</string>
     <string name="theme_original">Oriģinālais</string>
     <string name="theme_sunset">Saulriets</string>
     <string name="sim_country_emulator">Emulators</string>

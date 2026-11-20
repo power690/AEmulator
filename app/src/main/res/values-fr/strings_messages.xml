@@ -210,7 +210,7 @@
     <string name="lib3d_spec_model">Modèle</string>
     <string name="as_upstream_row">En amont : %1$s</string>
     <string name="as_original_row">Original : %1$s</string>
-    <string name="sms_default_body">Bonjour depuis AEmulator</string>
+    <string name="sms_default_body">Bonjour depuis AEmulator Plus</string>
     <string name="theme_original">Original</string>
     <string name="theme_sunset">Sunset</string>
     <string name="sim_country_emulator">Émulateur</string>
@@ -232,4 +232,7 @@
     <string name="imp_choice_text">Ce paquet contient plusieurs %1$s (%2$d sur %3$d). Choisissez celui à importer.</string>
     <string name="imp_choice_ok">Importer</string>
     <string name="imp_choice_cancel">Annuler l’import</string>
+    <string name="imp_no_system_partition_in_mbr">%1$s : aucune partition system dans le MBR</string>
+    <string name="imp_unreadable_mbr">%1$s : table de partitions MBR illisible</string>
+    <string name="ota_squash_files_modified">%1$d fichiers de /system ont été modifiés par l\'app ou par vous et ne peuvent pas être reconstruits, p. ex. %2$s. Une image système SquashFS ne se reconstruit qu\'à partir de fichiers inchangés. Rien n\'a été modifié.</string>
 </resources>

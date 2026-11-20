@@ -54,12 +54,14 @@ cd AEmulator-Plus
 
 AEmulator Plus는 [원작자](https://t.me/istratiit_ech)의 HTC Desire HD·HTC One M7 에뮬레이터에서 시작되었습니다. 그의 엔진이 없었다면 이 프로젝트도 없었습니다.
 
-이 프로젝트는 [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)의 수정된 포크이며, 해당 프로젝트 역시 [uxazu/AEmulator](https://github.com/uxazu/AEmulator)의 수정된 포크입니다.
+이 프로젝트는 [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)의 수정된 포크이며, 해당 프로젝트 역시 [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)의 수정된 포크이고, 그 역시 [uxazu/AEmulator](https://github.com/uxazu/AEmulator)의 수정된 포크입니다.
 
 ## 🔗 링크
 
 - 내 포크: [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)
-- 업스트림: [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)
+- 업스트림: [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)
+
+- AEmulator-Sunset: [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)
 - 원본: [uxazu/AEmulator](https://github.com/uxazu/AEmulator)
 - 제작자: [somerandomusername2](https://github.com/somerandomusernam2)
 - 원작자: [t.me/istratiit_ech](https://t.me/istratiit_ech)

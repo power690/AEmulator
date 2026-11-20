@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Unduhan lain sedang berlangsung.</string>
+    <string name="rom_dl_cannot_start">Unduhan tidak bisa dimulai di latar belakang.</string>
+    <string name="rom_dl_channel">Unduhan ROM</string>
+    <string name="rom_dl_channel_done">Unduhan ROM selesai</string>
+    <string name="rom_dl_done">ROM terunduh</string>
+    <string name="rom_dl_done_text">Ketuk untuk mengimpor %1$s</string>
+    <string name="rom_dl_failed">Unduhan ROM gagal</string>
+    <string name="rom_dl_hide">Sembunyikan</string>
+    <string name="rom_dl_page">Tautan unduhan</string>
+    <string name="rom_dl_page_text">Tautan ini adalah halaman web. Ketuk untuk membukanya di browser.</string>
+</resources>

@@ -108,7 +108,7 @@
     <string name="as_orig_sub">„Desire HD“ ir „One M7“ emuliatorių, iš kurių išaugo šis projektas, kūrėjas</string>
     <string name="as_github">Šaltinio kodas „GitHub“</string>
     <string name="as_version">Versija %1$s</string>
-    <string name="as_about">AEmulator paleidžia klasikinę „Android“ programinę įrangą šiuolaikiniuose telefonuose. Nemokama ir atvirojo kodo.</string>
+    <string name="as_about">AEmulator Plus paleidžia klasikinę „Android“ programinę įrangą šiuolaikiniuose telefonuose. Nemokama ir atvirojo kodo.</string>
     <string name="log_copy">Kopijuoti</string>
     <string name="log_export">Eksportuoti .log</string>
     <string name="log_copied">Nukopijuota į mainų sritį</string>
@@ -255,9 +255,9 @@
     <string name="update_download_error">Nepavyko atsisiųsti: %1$s</string>
     <string name="update_open_github">Peržiūrėti „GitHub“</string>
     <string name="vs_camera">Šeimininko kamera (eksperimentinė)</string>
-    <string name="vs_camera_sub">HAL1 ROM: 640×480 peržiūra ir nuotraukos, galinė / priekinė kamera. Reikia leidimo ir visiško virtualios mašinos paleidimo iš naujo. Kamera užsidaro, kai AEmulator perkeliama į foną; svečio kameros programą atidarykite iš naujo. Vaizdo įrašai įrašomi 640×480.</string>
+    <string name="vs_camera_sub">HAL1 ROM: 640×480 peržiūra ir nuotraukos, galinė / priekinė kamera. Reikia leidimo ir visiško virtualios mašinos paleidimo iš naujo. Kamera užsidaro, kai AEmulator Plus perkeliama į foną; svečio kameros programą atidarykite iš naujo. Vaizdo įrašai įrašomi 640×480.</string>
     <string name="vs_microphone">Šeimininko mikrofonas (eksperimentinis)</string>
-    <string name="vs_microphone_sub">Svečio programos įrašo iš telefono mikrofono (diktofonas, užrašai). Reikia leidimo ir visiško virtualios mašinos paleidimo iš naujo. Įrašymas sustoja, kai AEmulator perkeliama į foną; svečio diktofono programą atidarykite iš naujo. Tik 4.x ROM.</string>
+    <string name="vs_microphone_sub">Svečio programos įrašo iš telefono mikrofono (diktofonas, užrašai). Reikia leidimo ir visiško virtualios mašinos paleidimo iš naujo. Įrašymas sustoja, kai AEmulator Plus perkeliama į foną; svečio diktofono programą atidarykite iš naujo. Tik 4.x ROM.</string>
     <string name="microphone_permission_denied">Mikrofono leidimas atmestas. Svečio programos įrašys tylą; suteikite leidimą „Android“ programų nustatymuose ir visiškai iš naujo paleiskite virtualią mašiną, kad bandytumėte dar kartą.</string>
     <string name="vs_sim_title">SIM kortelės</string>
     <string name="vs_sim_present">SIM kortelė įdėta</string>
@@ -538,4 +538,18 @@
     <string name="catalog_download_checking">Tikrinama nuoroda…</string>
     <string name="catalog_download_title">Atsisiunčiamas ROM</string>
     <string name="catalog_download_failed">Atsisiųsti nepavyko: %1$s</string>
+    <string name="al_title">Activity paleidėjas</string>
+    <string name="m_activities">Activity paleidėjas</string>
+    <string name="al_search_packages">Ieškoti paketų</string>
+    <string name="al_search_activities">Ieškoti Activity</string>
+    <string name="al_no_packages">Paketų nerasta</string>
+    <string name="al_no_activities">Activity nerasta</string>
+    <string name="al_not_exported">neeksportuota</string>
+    <string name="al_starting">Paleidžiama %1$s…</string>
+    <string name="catalog_share_rom">Bendrinti %1$s atsisiuntimo nuorodą</string>
+    <string name="m_battery_old_note">Ši Android versija akumuliatorių skaito tik paleidimo metu. Jūsų nustatytas lygis ir įkrovos būsena išsaugomi ir naudojami kitą kartą paleidus VM.</string>
+    <string name="vs_no_dex2oat">Išjungti dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Programos ir sistemos kodas svečio sistemoje niekada nekompiliuojami: kiekvienas dex2oat paleidimas iškart nepavyksta. Įspėjimas: tai gali sukelti gedimus, vizualius trikdžius ir kitą nepageidaujamą elgesį (programos veikia lėčiau, kai kurios firmware nepaleidžiamos be kompiliavimo). Pagal numatymą išjungta. Įsigalioja kitą kartą paleidus iš naujo.</string>
+    <string name="m_multitask">Užduočių perjungimas</string>
+    <string name="nav_show">Rodyti „Android“ mygtukų juostą</string>
 </resources>

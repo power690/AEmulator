@@ -210,7 +210,7 @@
     <string name="lib3d_spec_model">รุ่น</string>
     <string name="as_upstream_row">อัปสตรีม: %1$s</string>
     <string name="as_original_row">ต้นฉบับ: %1$s</string>
-    <string name="sms_default_body">สวัสดีจาก AEmulator</string>
+    <string name="sms_default_body">สวัสดีจาก AEmulator Plus</string>
     <string name="theme_original">ต้นฉบับ</string>
     <string name="theme_sunset">พระอาทิตย์ตก</string>
     <string name="sim_country_emulator">อีมูเลเตอร์</string>

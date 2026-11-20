@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Вече тече друго изтегляне.</string>
+    <string name="rom_dl_cannot_start">Изтеглянето не можа да стартира на заден план.</string>
+    <string name="rom_dl_channel">Изтегляне на ROM</string>
+    <string name="rom_dl_channel_done">Изтеглянето на ROM завърши</string>
+    <string name="rom_dl_done">ROM е изтеглен</string>
+    <string name="rom_dl_done_text">Докоснете, за да импортирате %1$s</string>
+    <string name="rom_dl_failed">Неуспешно изтегляне на ROM</string>
+    <string name="rom_dl_hide">Скриване</string>
+    <string name="rom_dl_page">Линк за изтегляне</string>
+    <string name="rom_dl_page_text">Този линк е уеб страница. Докоснете, за да я отворите в браузъра.</string>
+</resources>

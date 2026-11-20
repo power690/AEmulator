@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Er loopt al een download.</string>
+    <string name="rom_dl_cannot_start">De download kon niet op de achtergrond worden gestart.</string>
+    <string name="rom_dl_channel">ROM-download</string>
+    <string name="rom_dl_channel_done">ROM-download voltooid</string>
+    <string name="rom_dl_done">ROM gedownload</string>
+    <string name="rom_dl_done_text">Tik om %1$s te importeren</string>
+    <string name="rom_dl_failed">ROM-download mislukt</string>
+    <string name="rom_dl_hide">Verbergen</string>
+    <string name="rom_dl_page">Downloadlink</string>
+    <string name="rom_dl_page_text">Deze link is een webpagina. Tik om hem in de browser te openen.</string>
+</resources>

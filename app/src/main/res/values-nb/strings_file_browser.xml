@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">En VM-sikkerhetskopi (.aessvm) må importeres alene, ikke sammen med andre filer.</string>
     <string name="imp_joining">Setter sammen %2$d deler av %1$s…</string>
     <string name="imp_split_missing">Del %2$s av det delte arkivet %1$s mangler. Velg alle delene, eller hold dem i én mappe.</string>
+    <string name="fb_search">Søk</string>
+    <string name="fb_search_hint">Søk i denne mappen</string>
+    <string name="fb_no_matches">Ingen filer eller mapper stemmer</string>
 </resources>

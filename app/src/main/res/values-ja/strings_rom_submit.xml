@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">カタログのROMが10000件を超えています。</string>
     <string name="catalog_tested_on">エミュレーター %1$s</string>
     <string name="catalog_submitted_by">投稿者: %1$s</string>
+    <string name="submit_not_direct_title">直接リンクが必要です</string>
+    <string name="submit_not_direct_text">投稿には ROM ファイルへの直接ダウンロードリンクが必要です。Web ページへのリンクや、先にページを開く必要があるファイルホストは受け付けません。\n\nアップロードには archive.org がおすすめです。</string>
 </resources>

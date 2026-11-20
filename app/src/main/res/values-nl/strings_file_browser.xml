@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Een VM-back-up (.aessvm) moet afzonderlijk worden geïmporteerd, niet samen met andere bestanden.</string>
     <string name="imp_joining">%2$d delen van %1$s samenvoegen…</string>
     <string name="imp_split_missing">Deel %2$s van het gesplitste archief %1$s ontbreekt. Selecteer alle delen of bewaar ze in één map.</string>
+    <string name="fb_search">Zoeken</string>
+    <string name="fb_search_hint">Zoeken in deze map</string>
+    <string name="fb_no_matches">Geen bestanden of mappen die passen</string>
 </resources>

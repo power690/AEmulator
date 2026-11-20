@@ -21,8 +21,13 @@ import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.*;
+import java.nio.channels.FileChannel;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.atomic.AtomicReference;
 import java.util.function.Consumer;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
@@ -124,6 +129,10 @@ public final class FirmwareToolset {
             case "OTA_PAYLOAD": return PayloadExtractor.extract(input, work, log);
             default: return Collections.emptyList();
         }
+    }
+
+    public static List<Artifact> extractWindow(FileChannel ch, long base, long size, File work, Consumer<String> log) throws Exception {
+        return PayloadExtractor.extractWindow(ch, base, size, work, log);
     }
 
     /** True for an old LG KDZ (RC4-encrypted CAB). {@code head} is the start of the file, {@code size} its full length. */
@@ -1355,16 +1364,39 @@ public final class FirmwareToolset {
     // ===== payload.bin =========================================================
     static final class PayloadExtractor {
         // update_engine protobufs are parsed locally so the Android app does not need protobuf runtime.
+        interface Seek extends java.io.Closeable { long length(); void seek(long pos) throws IOException; void readFully(byte[] b, int off, int n) throws IOException; }
+        interface SeekSource { Seek open() throws IOException; }
+        static final class ChannelSeek implements Seek {
+            private final FileChannel ch; private final long base, bound; private final boolean owned; private long pos;
+            ChannelSeek(FileChannel ch, long base, long bound, boolean owned) { this.ch = ch; this.base = base; this.bound = bound; this.owned = owned; }
+            public long length() { return bound - base; }
+            public void seek(long p) { pos = p; }
+            public void readFully(byte[] b, int off, int n) throws IOException {
+                java.nio.ByteBuffer bb = java.nio.ByteBuffer.wrap(b, off, n);
+                while (bb.hasRemaining()) {
+                    int k = ch.read(bb, base + pos);
+                    if (k <= 0) throw new EOFException();
+                    pos += k;
+                }
+            }
+            public void close() throws IOException { if (owned) ch.close(); }
+        }
         static List<Artifact> extract(File f, File work, Consumer<String> log) throws Exception {
-            try (RandomAccessFile r = new RandomAccessFile(f, "r")) {
-                byte[] magic = new byte[4]; r.readFully(magic);
+            return extract(() -> new ChannelSeek(new FileInputStream(f).getChannel(), 0, f.length(), true), work, log);
+        }
+        static List<Artifact> extractWindow(FileChannel ch, long base, long size, File work, Consumer<String> log) throws Exception {
+            return extract(() -> new ChannelSeek(ch, base, base + size, false), work, log);
+        }
+        static List<Artifact> extract(SeekSource src, File work, Consumer<String> log) throws Exception {
+            try (Seek r = src.open()) {
+                byte[] magic = new byte[4]; r.readFully(magic, 0, 4);
                 if (!starts(magic, "CrAU")) throw new IOException("not payload.bin");
                 long version = readBe64(r), manifestSize = readBe64(r);
                 long metadataSigSize = readBe32(r);
-                long manifestPos = r.getFilePointer();
+                long manifestPos = 24;
                 if (manifestSize <= 0 || manifestSize > Integer.MAX_VALUE || manifestPos + manifestSize + metadataSigSize > r.length())
                     throw new IOException("invalid payload header");
-                byte[] manifest = new byte[(int)manifestSize]; r.readFully(manifest);
+                byte[] manifest = new byte[(int)manifestSize]; r.readFully(manifest, 0, manifest.length);
                 long dataBase = manifestPos + manifestSize + metadataSigSize;
                 List<Partition> parts = parseManifest(manifest);
                 if (parts.isEmpty()) throw new IOException("payload manifest contains no partitions");
@@ -1376,6 +1408,7 @@ public final class FirmwareToolset {
                 Map<String, File> images = new LinkedHashMap<>();   // partition stem -> unpacked image
                 Map<String, Partition> byStem = new HashMap<>();
                 for (Partition p : parts) if (p.name != null && !p.name.isEmpty()) byStem.putIfAbsent(partStem(p.name), p);
+                LinkedHashMap<Partition, File> jobs = new LinkedHashMap<>();
                 for (Partition p : parts) {
                     if (p.name == null || p.name.isEmpty() || p.dstBytes <= 0) continue;
                     // only what the importer uses is unpacked (bootloader, radio, vbmeta, dtbo, init_boot, vendor_boot,
@@ -1384,9 +1417,11 @@ public final class FirmwareToolset {
                     if (!wantedPartition(stem) || (hasSuper && (stem.equals("system") || stem.equals("vendor")))) {
                         log.accept("payload: skipped " + p.name); continue;
                     }
-                    File dst = unpackPartition(r, dataBase, blockSize, out, p, log);
-                    if (dst != null) images.put(stem, dst);
+                    File dst = createImage(out, p);
+                    jobs.put(p, dst);
+                    images.put(stem, dst);
                 }
+                unpackAll(src, dataBase, blockSize, jobs, log);
                 // Retrofit dynamic partitions (Android 10 OTA with ota-retrofit-dynamic-partitions=yes): the payload's "system",
                 // "vendor" and "product" are the block devices of a virtual super partition, not file systems. The liblp metadata
                 // sits 4 KiB into the first of them and says where each logical partition (system, vendor, product ...) lies,
@@ -1400,8 +1435,11 @@ public final class FirmwareToolset {
                         String ds = partStem(d.name);
                         Partition dp = byStem.get(ds);
                         if (!images.containsKey(ds) && dp != null && dp.dstBytes > 0) {
-                            File dst = unpackPartition(r, dataBase, blockSize, out, dp, log);
-                            if (dst != null) images.put(ds, dst);
+                            File dst = createImage(out, dp);
+                            LinkedHashMap<Partition, File> one = new LinkedHashMap<>();
+                            one.put(dp, dst);
+                            unpackAll(src, dataBase, blockSize, one, log);
+                            images.put(ds, dst);
                         }
                     }
                     Map<String, File> devFiles = new HashMap<>();
@@ -1421,14 +1459,54 @@ public final class FirmwareToolset {
                 return result;
             }
         }
-        static File unpackPartition(RandomAccessFile r, long dataBase, long blockSize, File out, Partition p, Consumer<String> log) throws Exception {
+        static File createImage(File out, Partition p) throws IOException {
             File dst = safeResolve(out, safe(p.name) + ".img");
             dst.getParentFile().mkdirs();
             try (RandomAccessFile w = new RandomAccessFile(dst, "rw")) {
                 w.setLength(p.dstBytes);
+            }
+            return dst;
+        }
+        static void unpackAll(SeekSource src, long dataBase, long blockSize, LinkedHashMap<Partition, File> jobs, Consumer<String> log) throws Exception {
+            int cpus = Runtime.getRuntime().availableProcessors();
+            int threads = Math.max(1, Math.min(4, cpus - 1));
+            long ops = 0;
+            for (Map.Entry<Partition, File> en : jobs.entrySet()) ops += en.getKey().ops.size();
+            if (threads <= 1 || ops < 24) {
+                for (Map.Entry<Partition, File> en : jobs.entrySet()) {
+                    try (Seek s = src.open()) { unpackImage(s, dataBase, blockSize, en.getValue(), en.getKey(), log); }
+                }
+                return;
+            }
+            ExecutorService pool = Executors.newFixedThreadPool(threads);
+            AtomicReference<Exception> fail = new AtomicReference<>();
+            try {
+                List<Callable<Void>> tasks = new ArrayList<>();
+                for (Map.Entry<Partition, File> en : jobs.entrySet()) {
+                    final Partition p = en.getKey();
+                    final File dst = en.getValue();
+                    final int per = (p.ops.size() + threads - 1) / threads;
+                    for (int i = 0; i < threads; i++) {
+                        final int from = i * per, to = Math.min((i + 1) * per, p.ops.size());
+                        if (from >= to) continue;
+                        tasks.add(() -> {
+                            if (fail.get() != null) return null;
+                            try (Seek s = src.open(); RandomAccessFile w = new RandomAccessFile(dst, "rw")) {
+                                for (int k = from; k < to; k++) applyOperation(s, dataBase, blockSize, w, p.ops.get(k), log);
+                            } catch (Exception e) { fail.compareAndSet(null, e); }
+                            return null;
+                        });
+                    }
+                }
+                pool.invokeAll(tasks);
+                Exception f = fail.get();
+                if (f != null) throw f;
+            } finally { pool.shutdown(); }
+        }
+        static void unpackImage(Seek r, long dataBase, long blockSize, File dst, Partition p, Consumer<String> log) throws Exception {
+            try (RandomAccessFile w = new RandomAccessFile(dst, "rw")) {
                 for (Operation op : p.ops) applyOperation(r, dataBase, blockSize, w, op, log);
             }
-            return dst.isFile() ? dst : null;
         }
         /** Partition name without slot suffix, lower case. */
         static String partStem(String n) {
@@ -1467,17 +1545,16 @@ public final class FirmwareToolset {
         static PartitionInfo parsePartitionInfo(byte[] b)throws IOException{ProtoReader pr=new ProtoReader(b);PartitionInfo x=new PartitionInfo();while(pr.has()){int f=pr.field(),wt=pr.wire();if(f==1&&wt==0)x.size=pr.varint();else pr.skip(wt);}return x;}
         static Operation parseOperation(byte[] b)throws IOException{ProtoReader pr=new ProtoReader(b);Operation o=new Operation();while(pr.has()){int f=pr.field(),wt=pr.wire();switch(f){case 1:if(wt==0)o.type=(int)pr.varint();else pr.skip(wt);break;case 2:if(wt==0)o.dataOffset=pr.varint();else pr.skip(wt);break;case 3:if(wt==0)o.dataLength=pr.varint();else pr.skip(wt);break;case 6:if(wt==2)o.dst.add(parseExtent(pr.bytes()));else pr.skip(wt);break;case 7:if(wt==0)o.dstBytes=pr.varint();else pr.skip(wt);break;default:pr.skip(wt);}}if(o.dstBytes==0)for(Extent e:o.dst)o.dstBytes=Math.max(o.dstBytes,(e.start+e.num)*4096L);return o;}
         static Extent parseExtent(byte[] b)throws IOException{ProtoReader p=new ProtoReader(b);Extent e=new Extent();while(p.has()){int f=p.field(),wt=p.wire();if(f==1&&wt==0)e.start=p.varint();else if(f==2&&wt==0)e.num=p.varint();else p.skip(wt);}return e;}
-        static void applyOperation(RandomAccessFile r,long base,long bs,RandomAccessFile out,Operation o,Consumer<String>log)throws Exception{
-            long totalDst=0; for(Extent e:o.dst) totalDst=Math.addExact(totalDst,e.num*bs);
-            if(o.type==6||o.type==7){for(Extent e:o.dst){out.seek(e.start*bs);writeZeros(out,e.num*bs);}return;}
+        static void applyOperation(Seek r,long base,long bs,RandomAccessFile out,Operation o,Consumer<String>log)throws Exception{
+            if(o.type==6||o.type==7){for(Extent e:o.dst){long end=(e.start+e.num)*bs;if(out.length()<end)out.setLength(end);out.seek(end);}return;}
             if(o.type!=0&&o.type!=1&&o.type!=8)throw new IOException("payload operation "+o.type+" requires source/delta support");
             InputStream in;
             if(o.type==0){r.seek(base+o.dataOffset);in=new InputStream(){long rem=o.dataLength;public int read(){return -1;}public int read(byte[]b,int off,int len)throws IOException{if(rem<=0)return -1;int k=(int)Math.min(rem,len);r.readFully(b,off,k);rem-=k;return k;}};}
-            else {if(o.dataLength>Integer.MAX_VALUE)throw new IOException("compressed payload op too large");r.seek(base+o.dataOffset);byte[]enc=new byte[(int)o.dataLength];r.readFully(enc);in=o.type==1?ArcStreams.bzip2(new ByteArrayInputStream(enc)):ArcStreams.xz(new ByteArrayInputStream(enc));}
+            else {if(o.dataLength>Integer.MAX_VALUE)throw new IOException("compressed payload op too large");r.seek(base+o.dataOffset);byte[]enc=new byte[(int)o.dataLength];r.readFully(enc,0,enc.length);in=o.type==1?ArcStreams.bzip2(new ByteArrayInputStream(enc)):ArcStreams.xz(new ByteArrayInputStream(enc));}
             try(in){byte[]buf=new byte[1<<20];for(Extent e:o.dst){long rem=e.num*bs;out.seek(e.start*bs);while(rem>0){int k=(int)Math.min(rem,buf.length);int got=readUpTo(in,buf,k);if(got<k)Arrays.fill(buf,got,k,(byte)0);out.write(buf,0,k);rem-=k;}}}
         }
-        static long readBe64(RandomAccessFile r)throws IOException{return ((long)readBe32(r)<<32)|(readBe32(r)&0xffffffffL);}
-        static long readBe32(RandomAccessFile r)throws IOException{return ((r.readUnsignedByte()<<24)|(r.readUnsignedByte()<<16)|(r.readUnsignedByte()<<8)|r.readUnsignedByte())&0xffffffffL;}
+        static long readBe64(Seek r)throws IOException{return ((long)readBe32(r)<<32)|(readBe32(r)&0xffffffffL);}
+        static long readBe32(Seek r)throws IOException{byte[]b=new byte[4];r.readFully(b,0,4);return (((b[0]&255)<<24)|((b[1]&255)<<16)|((b[2]&255)<<8)|(b[3]&255))&0xffffffffL;}
         static void copyAt(RandomAccessFile r,long pos,RandomAccessFile w,long n)throws IOException{r.seek(pos);byte[]b=new byte[1<<20];while(n>0){int k=(int)Math.min(n,b.length);r.readFully(b,0,k);w.write(b,0,k);n-=k;}}
         static final class Partition{String name,postinstall;boolean postinstallOptional;byte[]hash;long version,dstBytes;List<Operation>ops=new ArrayList<>();}
         static final class PartitionInfo{long size;}

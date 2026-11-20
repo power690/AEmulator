@@ -54,12 +54,14 @@ cd AEmulator-Plus
 
 AEmulator Plus は[オリジナル作者](https://t.me/istratiit_ech)の HTC Desire HD・HTC One M7 エミュレーターから生まれました。そのエンジンなしにこのプロジェクトはありません。
 
-これは [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset) の改変フォークであり、そのリポジトリ自体も [uxazu/AEmulator](https://github.com/uxazu/AEmulator) の改変フォークです。
+これは [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus) の改変フォークであり、そのリポジトリ自体も [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset) の改変フォークで、さらにそれは [uxazu/AEmulator](https://github.com/uxazu/AEmulator) の改変フォークです。
 
 ## 🔗 リンク
 
 - 私のフォーク: [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)
-- アップストリーム: [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)
+- アップストリーム: [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)
+
+- AEmulator-Sunset: [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)
 - オリジナル: [uxazu/AEmulator](https://github.com/uxazu/AEmulator)
 - 作者: [somerandomusername2](https://github.com/somerandomusernam2)
 - オリジナル作者: [t.me/istratiit_ech](https://t.me/istratiit_ech)

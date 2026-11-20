@@ -56,12 +56,14 @@ cd AEmulator-Plus
 
 نشأ AEmulator Plus من محاكيات HTC Desire HD وHTC One M7 التي صنعها [المطوّر الأصلي](https://t.me/istratiit_ech)، ولولا محركه ما وُجد هذا المشروع.
 
-هذا فرع معدَّل من [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)، وهو بدوره فرع معدَّل من [uxazu/AEmulator](https://github.com/uxazu/AEmulator).
+هذا فرع معدَّل من [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)، وهو بدوره فرع معدَّل من [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)، وهو بدوره فرع معدَّل من [uxazu/AEmulator](https://github.com/uxazu/AEmulator).
 
 ## 🔗 روابط
 
 - فرعي: [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)
-- المستودع الأم: [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)
+- المستودع الأم: [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)
+
+- AEmulator-Sunset: [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)
 - الأصل: [uxazu/AEmulator](https://github.com/uxazu/AEmulator)
 - المطوّر: [somerandomusername2](https://github.com/somerandomusernam2)
 - المطوّر الأصلي: [t.me/istratiit_ech](https://t.me/istratiit_ech)

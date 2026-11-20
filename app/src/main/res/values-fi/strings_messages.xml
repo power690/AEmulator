@@ -210,7 +210,7 @@
     <string name="lib3d_spec_model">Malli</string>
     <string name="as_upstream_row">Upstream: %1$s</string>
     <string name="as_original_row">Alkuperäinen: %1$s</string>
-    <string name="sms_default_body">Terveisiä AEmulatorista</string>
+    <string name="sms_default_body">Terveisiä AEmulator Plusista</string>
     <string name="theme_original">Alkuperäinen</string>
     <string name="theme_sunset">Sunset</string>
     <string name="sim_country_emulator">Emulaattori</string>

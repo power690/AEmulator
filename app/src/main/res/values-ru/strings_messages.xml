@@ -210,7 +210,7 @@
     <string name="lib3d_spec_model">Модель</string>
     <string name="as_upstream_row">Исходный проект: %1$s</string>
     <string name="as_original_row">Оригинал: %1$s</string>
-    <string name="sms_default_body">Привет от AEmulator</string>
+    <string name="sms_default_body">Привет от AEmulator Plus</string>
     <string name="theme_original">Оригинальная</string>
     <string name="theme_sunset">Закат</string>
     <string name="sim_country_emulator">Эмулятор</string>

@@ -210,7 +210,7 @@
     <string name="lib3d_spec_model">Model</string>
     <string name="as_upstream_row">Üst proje: %1$s</string>
     <string name="as_original_row">Orijinal: %1$s</string>
-    <string name="sms_default_body">AEmulator’dan merhaba</string>
+    <string name="sms_default_body">AEmulator Plus’dan merhaba</string>
     <string name="theme_original">Orijinal</string>
     <string name="theme_sunset">Gün batımı</string>
     <string name="sim_country_emulator">Emülatör</string>

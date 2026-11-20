@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">VM ätiýaçlyk nusgasy (.aessvm) beýleki faýllar bilen bilelikde däl-de, ýeke özi import edilmeli.</string>
     <string name="imp_joining">%1$s faýlynyň %2$d bölegi birleşdirilýär…</string>
     <string name="imp_split_missing">Bölünen %1$s arhiwiniň %2$s bölegi ýok. Onuň ähli böleklerini saýlaň ýa-da bir bukjada saklaň.</string>
+    <string name="fb_search">Gözle</string>
+    <string name="fb_search_hint">Bu papkada gözle</string>
+    <string name="fb_no_matches">Laýyk gelen faýl ýa-da papka ýok</string>
 </resources>

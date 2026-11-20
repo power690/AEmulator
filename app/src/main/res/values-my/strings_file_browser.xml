@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="as_builtin_browser">တွင်းသွင်း file browser</string>
+    <string name="as_builtin_browser_sub">ရက်စွဲနှင့် အရွယ်အစားအလိုက် စီစဉ်၍ firmware များကို တစ်ကြိမ်တည်း များစွာ ရွေးချယ်ပါ။ ပိတ်လျှင် system picker ကို သုံးပါ။</string>
+    <string name="fb_access_scoped">Android 10 သည် scoped storage မှ မထွက်သော app များအား ဖိုင်အများစုကို ဖျောက်ထားသောကြောင့် ဤ browser က ၎င်းတို့ကို ဤနေရာတွင် မပြနိုင်ပါ။ system picker ကို သုံးပါ။</string>
+    <string name="fb_access_text">သင့် firmware ဖိုင်များကို မြင်ရှိရန်နှင့် တစ်ကြိမ်တည်း များစွာ ရွေးရန် browser က သင့်ဖိုင်များသို့ ဝင်ရောက်ခွင့် လိုအပ်သည်။ system picker ကိုလည်း သုံးနိုင်သည်။</string>
+    <string name="fb_access_title">ဖိုင်များသို့ ဝင်ရောက်ခွင့် ပေးပါ</string>
+    <string name="fb_clear">ရှင်းလင်းပါ</string>
+    <string name="fb_documents">စာရွက်စာတမ်းများ</string>
+    <string name="fb_downloads">ဒေါင်းလုဒ်များ</string>
+    <string name="fb_empty">ဤနေရာတွင် ဘာမှမရှိပါ</string>
+    <string name="fb_firmware">aemulator/firmware</string>
+    <string name="fb_hidden">ဖျောက်ထားသည်</string>
+    <string name="fb_import">ထည့်သွင်းပါ</string>
+    <string name="fb_internal">Internal storage</string>
+    <string name="fb_no_matches">ကိုက်ညီသော ဖိုင် သို့မဟုတ် ဖိုင်တွဲ မရှိပါ</string>
+    <string name="fb_removable">SD ကဒ် / USB %1$d</string>
+    <string name="fb_search">ရှာဖွေပါ</string>
+    <string name="fb_search_hint">ဤဖိုင်တွဲတွင် ရှာဖွေပါ</string>
+    <string name="fb_selected">%1$d ခု ရွေးချယ်ထားသည်</string>
+    <string name="fb_sort_date">ရက်စွဲ</string>
+    <string name="fb_sort_name">အမည်</string>
+    <string name="fb_sort_size">အရွယ်အစား</string>
+    <string name="fb_system_picker">System picker</string>
+    <string name="fb_title_multi">ဖိုင်များ ရွေးပါ</string>
+    <string name="fb_title_single">ဖိုင် တစ်ခု ရွေးပါ</string>
+    <string name="fb_unreadable">ဤဖိုင်တွဲကို ဖတ်၍ မရပါ။ Android က ဖိုင်တွဲအချို့ (အခြား app များ၏ data ကဲ့သို့) ကို ချုပ်ထားသည်။</string>
+    <string name="fb_up">အထက်</string>
+    <string name="fb_use_system_picker">System picker ကို အသုံးပြုပါ</string>
+    <string name="imp_archive_alone">VM backup (.aessvm) တစ်ခုကို အခြားဖိုင်များနှင့်အတူ မထည့်သွင်းရပါ၊ သီးခြားထည့်သွင်းပါ။</string>
+    <string name="imp_joining">%1$s ၏ %2$d အပိုင်းများကို ပေါင်းနေသည်…</string>
+    <string name="imp_split_missing">ပိုင်းခြားထားသော archive %1$s ၏ %2$s အပိုင်း လိုနေသည်။ ၎င်း၏ အပိုင်းအားလုံးကို ရွေးပါ သို့မဟုတ် ဖိုင်တွဲ တစ်ခုတည်းတွင် ထားပါ။</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Inne pobieranie jest już w toku.</string>
+    <string name="rom_dl_cannot_start">Nie udało się rozpocząć pobierania w tle.</string>
+    <string name="rom_dl_channel">Pobieranie ROM</string>
+    <string name="rom_dl_channel_done">Pobieranie ROM zakończone</string>
+    <string name="rom_dl_done">ROM pobrany</string>
+    <string name="rom_dl_done_text">Dotknij, aby zaimportować %1$s</string>
+    <string name="rom_dl_failed">Pobieranie ROM nie powiodło się</string>
+    <string name="rom_dl_hide">Ukryj</string>
+    <string name="rom_dl_page">Link pobierania</string>
+    <string name="rom_dl_page_text">Ten link prowadzi do strony internetowej. Dotknij, aby otworzyć ją w przeglądarce.</string>
+</resources>

@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">De catalogus bevat meer dan 10000 ROM’s.</string>
     <string name="catalog_tested_on">Emulator %1$s</string>
     <string name="catalog_submitted_by">Ingediend door %1$s</string>
+    <string name="submit_not_direct_title">Directe link vereist</string>
+    <string name="submit_not_direct_text">Inzendingen moeten directe downloadlinks naar het ROM-bestand zijn. Links naar webpagina’s of naar bestandsservers die eerst een pagina openen, worden niet geaccepteerd.\n\nDe aanbevolen plek om te uploaden is archive.org.</string>
 </resources>

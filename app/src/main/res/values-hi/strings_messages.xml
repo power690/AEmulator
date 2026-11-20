@@ -210,7 +210,7 @@
     <string name="lib3d_spec_model">मॉडल</string>
     <string name="as_upstream_row">अपस्ट्रीम: %1$s</string>
     <string name="as_original_row">मूल: %1$s</string>
-    <string name="sms_default_body">AEmulator की ओर से नमस्ते</string>
+    <string name="sms_default_body">AEmulator Plus की ओर से नमस्ते</string>
     <string name="theme_original">मूल</string>
     <string name="theme_sunset">सनसेट</string>
     <string name="sim_country_emulator">एमुलेटर</string>

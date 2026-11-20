@@ -18,7 +18,7 @@
     <string name="storage_text">Дозвольте доступ до всіх файлів — тоді «карта пам’яті» кожної системи лежатиме в папці AEmulator внутрішньої пам’яті, куди зручно класти APK, музику й фото.</string>
     <string name="allow">Дозволити</string>
     <string name="empty_title">Ще немає жодної системи</string>
-    <string name="empty_text">Додайте прошивку Android 1.0–17 для ARM: ZIP для рекавері, архів Odin (.tar.md5), system.img або factory-образ.</string>
+    <string name="empty_text">Додайте прошивку Android 2.3–6.0 для ARM: ZIP для рекавері, архів Odin (.tar.md5), system.img або factory-образ.</string>
     <string name="empty_help">Які файли підходять?</string>
     <string name="import_failed">Імпорт не вдався</string>
     <string name="import_running">Імпорт прошивки</string>
@@ -30,7 +30,7 @@
     <string name="start">Запустити</string>
     <string name="rename">Перейменувати</string>
     <string name="help_title">Які прошивки підходять</string>
-    <string name="help_text">• Android 2.3–4.4: 32-бітні ARM-прошивки, працюють через QEMU.\n• Android 5.0–17: arm64-прошивки та GSI, працюють нативно на телефоні.\n\nФормати:\n• ZIP для CWM/TWRP (MIUI, CyanogenMod, порти, більшість кастомних прошивок);\n• Samsung: .tar / .tar.md5 з Odin або ZIP з AP_*.tar.md5;\n• factory-образи Google (.tgz / .zip);\n• system.img (ext4, sparse), TWRP-бекап system.ext4.win;\n• OTA з system.new.dat(.br) + system.transfer.list;\n• Також: 7z, RAR, LG .kdz, Sony .ftf, Huawei UPDATE.APP, Qualcomm EDL, payload.bin, super.img, EROFS, Android-x86 ISO.\n\nНайкраще, якщо в архіві є boot.img — з нього береться порядок запуску служб.</string>
+    <string name="help_text">• Android 2.3, 4.0–4.4 — основна підтримка; 5.x–6.x — експериментально.\n• Лише 32-бітні ARM-прошивки (armeabi / armeabi-v7a).\n\nФормати:\n• ZIP для CWM/TWRP (MIUI, CyanogenMod, порти, більшість кастомних прошивок);\n• Samsung: .tar / .tar.md5 з Odin або ZIP з AP_*.tar.md5;\n• factory-образи Google (.tgz / .zip);\n• system.img (ext4, sparse), TWRP-бекап system.ext4.win;\n• OTA з system.new.dat(.br) + system.transfer.list.\n\nНайкраще, якщо в архіві є boot.img — з нього береться порядок запуску служб.</string>
     <string name="vs_screen">Екран гостя</string>
     <string name="vs_fixed_2x">Для Android 2.x екран фіксований: 480×800, 240 dpi.</string>
     <string name="vs_screen_hint">Що менший екран — то швидше працює система.</string>
@@ -45,13 +45,6 @@
     <string name="vs_legacy_sub">Старий рушій стенда Desire HD: лише GLES 1.x, екран 480×800. Вмикайте, якщо основний не впорався.</string>
     <string name="vs_lowram">Режим малої пам’яті</string>
     <string name="vs_lowram_sub">ro.config.low_ram — система економить пам’ять.</string>
-    <string name="vs_memory_mode">Керування пам’яттю</string>
-    <string name="vs_memory_light">Легке</string>
-    <string name="vs_memory_medium">Середнє</string>
-    <string name="vs_memory_aggressive">Агресивне</string>
-    <string name="vs_memory_light_sub">Фонові застосунки зупиняються, лише коли в самого телефона майже не лишається пам’яті. Найменше перезапусків; використовує найбільше пам’яті. Набирає чинності після повного перезапуску віртуальної машини.</string>
-    <string name="vs_memory_medium_sub">Збалансований режим: залишає помірну кількість фонових застосунків і зупиняє решту, коли вільної пам’яті стає мало. Набирає чинності після повного перезапуску віртуальної машини.</string>
-    <string name="vs_memory_aggressive_sub">Залишає мало фонових застосунків і перевіряє часто, тому пам’ять звільняється завчасно. Використовує найменше пам’яті, але застосунки перезапускаються частіше. Набирає чинності після повного перезапуску віртуальної машини.</string>
     <string name="vs_proxy">Сучасний TLS-проксі</string>
     <string name="vs_proxy_sub">Старі браузери й застосунки відкривають сучасні HTTPS-сайти.</string>
     <string name="vs_controls">Керування</string>
@@ -99,7 +92,14 @@
     <string name="as_orig_sub">Творець емуляторів Desire HD та One M7, з яких виріс проєкт</string>
     <string name="as_github">Вихідний код на GitHub</string>
     <string name="as_version">Версія %1$s</string>
-    <string name="as_about">AEmulator запускає старі прошивки Android на сучасних телефонах. Безкоштовно й з відкритим кодом.</string>
+    <string name="as_about">AEmulator Plus запускає старі прошивки Android на сучасних телефонах. Безкоштовно й з відкритим кодом.</string>
+    <string name="vs_memory_mode">Керування пам’яттю</string>
+    <string name="vs_memory_light">Легке</string>
+    <string name="vs_memory_medium">Середнє</string>
+    <string name="vs_memory_aggressive">Агресивне</string>
+    <string name="vs_memory_light_sub">Фонові застосунки зупиняються, лише коли в самого телефона майже не лишається пам’яті. Найменше перезапусків; використовує найбільше пам’яті. Набирає чинності після повного перезапуску віртуальної машини.</string>
+    <string name="vs_memory_medium_sub">Збалансований режим: залишає помірну кількість фонових застосунків і зупиняє решту, коли вільної пам’яті стає мало. Набирає чинності після повного перезапуску віртуальної машини.</string>
+    <string name="vs_memory_aggressive_sub">Залишає мало фонових застосунків і перевіряє часто, тому пам’ять звільняється завчасно. Використовує найменше пам’яті, але застосунки перезапускаються частіше. Набирає чинності після повного перезапуску віртуальної машини.</string>
     <string name="log_copy">Копіювати</string>
     <string name="log_export">Експорт .log</string>
     <string name="log_copied">Скопійовано в буфер обміну</string>
@@ -226,9 +226,9 @@
     <string name="update_download_error">Помилка завантаження: %1$s</string>
     <string name="update_open_github">Відкрити на GitHub</string>
     <string name="vs_camera">Камера хоста (експериментально)</string>
-    <string name="vs_camera_sub">ROM із HAL1: перегляд і фото 640×480, задня/передня камера. Потрібні дозвіл і повний перезапуск ВМ. Камера закривається, коли AEmulator переходить у фон; відкрийте застосунок камери гостя знову. Відеозапису немає.</string>
+    <string name="vs_camera_sub">ROM із HAL1: перегляд і фото 640×480, задня/передня камера. Потрібні дозвіл і повний перезапуск ВМ. Камера закривається, коли AEmulator Plus переходить у фон; відкрийте застосунок камери гостя знову. Відеозапису немає.</string>
     <string name="vs_microphone">Мікрофон хоста (експериментально)</string>
-    <string name="vs_microphone_sub">Застосунки гостя записують із мікрофона телефона (диктофон, нотатки). Потрібні дозвіл і повний перезапуск ВМ. Запис зупиняється, коли AEmulator переходить у фон; відкрийте застосунок запису гостя знову. Лише ROM 4.x.</string>
+    <string name="vs_microphone_sub">Застосунки гостя записують із мікрофона телефона (диктофон, нотатки). Потрібні дозвіл і повний перезапуск ВМ. Запис зупиняється, коли AEmulator Plus переходить у фон; відкрийте застосунок запису гостя знову. Лише ROM 4.x.</string>
     <string name="microphone_permission_denied">Дозвіл на мікрофон відхилено. Застосунки гостя записуватимуть тишу; надайте дозвіл у налаштуваннях застосунку Android і повністю перезапустіть ВМ.</string>
     <string name="camera_permission_denied">Дозвіл на камеру відхилено. ROM завантажиться без доступу до камери хоста; надайте дозвіл у налаштуваннях застосунку Android і повністю перезапустіть ВМ, щоб спробувати знову.</string>
     <string name="vs_skip_setup">Пропустити майстер налаштування</string>
@@ -320,12 +320,6 @@
     <string name="update_error_title">Помилка</string>
     <string name="update_download_failed_generic">Помилка завантаження</string>
     <string name="update_network_error">Помилка мережі</string>
-    <plurals name="catalog_rom_count">
-        <item quantity="one">%1$d ROM</item>
-        <item quantity="few">%1$d ROM</item>
-        <item quantity="many">%1$d ROM</item>
-        <item quantity="other">%1$d ROM</item>
-    </plurals>
     <string name="vs_network">Мережа, про яку повідомляється</string>
     <string name="vs_network_sub">Що показує рядок стану: від 2G до LTE. За замовчуванням 2G, адже не кожна прошивка підтримує 3G і новіші</string>
     <string name="m_network">Мережа</string>
@@ -519,12 +513,6 @@
     <string name="folder_empty">Порожньо — перетягніть прошивки сюди</string>
     <string name="folder_open">Відкрити теку</string>
     <string name="folder_close">Закрити теку</string>
-    <plurals name="folder_roms">
-        <item quantity="one">%1$d ROM</item>
-        <item quantity="few">%1$d ROM</item>
-        <item quantity="many">%1$d ROM</item>
-        <item quantity="other">%1$d ROM</item>
-    </plurals>
     <string name="phantom_title">Вбивця фантомних процесів</string>
     <string name="phantom_msg">На вашому пристрої не ввімкнено опцію «Вимкнути обмеження дочірніх процесів» у параметрах розробника. Через це zygote буде завершено під час запуску емулятора, і емулятор не зможе завантажитися. Тому НАСТІЙНО РЕКОМЕНДУЄТЬСЯ ввімкнути її.</string>
     <string name="phantom_open_dev">Відкрити параметри розробника</string>
@@ -538,4 +526,18 @@
     <string name="catalog_download_checking">Перевірка посилання…</string>
     <string name="catalog_download_title">Завантаження ROM</string>
     <string name="catalog_download_failed">Не вдалося завантажити: %1$s</string>
+    <string name="al_title">Запускач Activity</string>
+    <string name="m_activities">Запускач Activity</string>
+    <string name="al_search_packages">Пошук пакетів</string>
+    <string name="al_search_activities">Пошук Activity</string>
+    <string name="al_no_packages">Пакетів не знайдено</string>
+    <string name="al_no_activities">Activity не знайдено</string>
+    <string name="al_not_exported">не експортовано</string>
+    <string name="al_starting">Запускається %1$s…</string>
+    <string name="catalog_share_rom">Поділитися посиланням для завантаження %1$s</string>
+    <string name="m_battery_old_note">Ця версія Android зчитує батарею лише під час запуску. Задані вами рівень та стан заряджання зберігаються й використовуються під час наступного запуску VM.</string>
+    <string name="vs_no_dex2oat">Вимкнути dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Програми та системний код ніколи не компілюються в гостьовій системі: кожен запуск dex2oat одразу зазнає невдачі. Увага: можливі збої, дефекти зображення та інша непередбачувана поведінка (програми працюють повільніше, деякі прошивки не завантажуються без компіляції). Типово вимкнено. Застосовується при наступному повному запуску.</string>
+    <string name="m_multitask">Перемикання задач</string>
+    <string name="nav_show">Показати панель кнопок Android</string>
 </resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">En nedladdning pågår redan.</string>
+    <string name="rom_dl_cannot_start">Nedladdningen kunde inte startas i bakgrunden.</string>
+    <string name="rom_dl_channel">ROM-nedladdning</string>
+    <string name="rom_dl_channel_done">ROM-nedladdning klar</string>
+    <string name="rom_dl_done">ROM nedladdad</string>
+    <string name="rom_dl_done_text">Tryck för att importera %1$s</string>
+    <string name="rom_dl_failed">ROM-nedladdning misslyckades</string>
+    <string name="rom_dl_hide">Dölj</string>
+    <string name="rom_dl_page">Nedladdningslänk</string>
+    <string name="rom_dl_page_text">Denna länk är en webbsida. Tryck för att öppna den i webbläsaren.</string>
+</resources>

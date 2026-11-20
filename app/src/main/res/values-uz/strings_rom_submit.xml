@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Katalogda 10000 tadan ortiq ROM bor.</string>
     <string name="catalog_tested_on">Emulyator %1$s</string>
     <string name="catalog_submitted_by">Yuboruvchi: %1$s</string>
+    <string name="submit_not_direct_title">To\'g\'ridan-to\'g\'ri havola kerak</string>
+    <string name="submit_not_direct_text">Taqdim etilganlar ROM faylining to\'g\'ridan-to\'g\'ri yuklab olish havolalari bo\'lishi kerak. Veb-sahifalarga yoki avval sahifa ochadigan fayl xostlariga havolalar qabul qilinmaydi.\n\nYuklash ucho tavsiya etilgan joy archive.org.</string>
 </resources>

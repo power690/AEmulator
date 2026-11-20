@@ -108,7 +108,7 @@
     <string name="as_orig_sub">Ustvarjalec emulatorjev Desire HD in One M7, iz katerih je zrasel ta projekt</string>
     <string name="as_github">Izvorna koda na GitHubu</string>
     <string name="as_version">Različica %1$s</string>
-    <string name="as_about">AEmulator zaganja klasično vdelano programsko opremo Androida na sodobnih telefonih. Brezplačno in odprtokodno.</string>
+    <string name="as_about">AEmulator Plus zaganja klasično vdelano programsko opremo Androida na sodobnih telefonih. Brezplačno in odprtokodno.</string>
     <string name="log_copy">Kopiraj</string>
     <string name="log_export">Izvozi .log</string>
     <string name="log_copied">Kopirano v odložišče</string>
@@ -255,9 +255,9 @@
     <string name="update_download_error">Prenos ni uspel: %1$s</string>
     <string name="update_open_github">Poglej na GitHubu</string>
     <string name="vs_camera">Kamera gostitelja (poskusno)</string>
-    <string name="vs_camera_sub">ROM-i HAL1: predogled in fotografije 640×480, zadnja/sprednja kamera. Zahteva dovoljenje in popoln ponovni zagon navideznega stroja. Kamera se zapre, ko AEmulator preide v ozadje; ponovno odprite aplikacijo kamere v gostu. Video se snema v ločljivosti 640×480.</string>
+    <string name="vs_camera_sub">ROM-i HAL1: predogled in fotografije 640×480, zadnja/sprednja kamera. Zahteva dovoljenje in popoln ponovni zagon navideznega stroja. Kamera se zapre, ko AEmulator Plus preide v ozadje; ponovno odprite aplikacijo kamere v gostu. Video se snema v ločljivosti 640×480.</string>
     <string name="vs_microphone">Mikrofon gostitelja (poskusno)</string>
-    <string name="vs_microphone_sub">Aplikacije v gostu snemajo z mikrofona telefona (snemalnik glasu, zapiski). Zahteva dovoljenje in popoln ponovni zagon navideznega stroja. Snemanje se ustavi, ko AEmulator preide v ozadje; ponovno odprite aplikacijo snemalnika. Samo ROM-i 4.x.</string>
+    <string name="vs_microphone_sub">Aplikacije v gostu snemajo z mikrofona telefona (snemalnik glasu, zapiski). Zahteva dovoljenje in popoln ponovni zagon navideznega stroja. Snemanje se ustavi, ko AEmulator Plus preide v ozadje; ponovno odprite aplikacijo snemalnika. Samo ROM-i 4.x.</string>
     <string name="microphone_permission_denied">Dovoljenje za mikrofon zavrnjeno. Aplikacije v gostu bodo snemale tišino; dovolite dostop v nastavitvah aplikacij Androida in za ponoven poskus popolnoma znova zaženite navidezni stroj.</string>
     <string name="vs_sim_title">Kartice SIM</string>
     <string name="vs_sim_present">Kartica SIM vstavljena</string>
@@ -538,4 +538,18 @@
     <string name="catalog_download_checking">Preverjanje povezave …</string>
     <string name="catalog_download_title">Prenašanje ROM-a</string>
     <string name="catalog_download_failed">Prenos ni uspel: %1$s</string>
+    <string name="al_title">Zaganjalnik Activity</string>
+    <string name="m_activities">Zaganjalnik Activity</string>
+    <string name="al_search_packages">Iskanje paketov</string>
+    <string name="al_search_activities">Iskanje Activity</string>
+    <string name="al_no_packages">Paketov ni bilo najdenih</string>
+    <string name="al_no_activities">Activity-jev ni bilo najdenih</string>
+    <string name="al_not_exported">ni izvožen</string>
+    <string name="al_starting">Zaganjanje %1$s…</string>
+    <string name="catalog_share_rom">Deli povezavo za prenos %1$s</string>
+    <string name="m_battery_old_note">Ta različica Androida baterijo prebere le med zagonom. Raven in stanje polnjenja, ki ju nastavite, se shranita in uporabita ob naslednjem zagonu VM.</string>
+    <string name="vs_no_dex2oat">Onemogoči dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Aplikacije in sistemska koda se v gostujočem sistemu nikoli ne kompilirajo: vsak zagon dex2oata takoj spodleti. Opozorilo: to lahko povzroči sesutja, napake in drugo nepredvidljivo vedenje (aplikacije delujejo počasneje, nekatere firmware se brez kompiliranja ne zaženejo). Privzeto onemogočeno. Uveljavi se ob naslednjem popolnem zagonu.</string>
+    <string name="m_multitask">Preklapljanje med nalogami</string>
+    <string name="nav_show">Pokaži vrstico gumbov Androida</string>
 </resources>

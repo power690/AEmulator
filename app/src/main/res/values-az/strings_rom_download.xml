@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Artıq başqa bir yükləmə gedir.</string>
+    <string name="rom_dl_cannot_start">Yükləmə arxa planda başladıla bilmədi.</string>
+    <string name="rom_dl_channel">ROM yükləməsi</string>
+    <string name="rom_dl_channel_done">ROM yükləməsi bitdi</string>
+    <string name="rom_dl_done">ROM yükləndi</string>
+    <string name="rom_dl_done_text">İdxal etmək üçün %1$s sənədinə toxunun</string>
+    <string name="rom_dl_failed">ROM yükləməsi alınmadı</string>
+    <string name="rom_dl_hide">Gizlət</string>
+    <string name="rom_dl_page">Yükləmə keçidi</string>
+    <string name="rom_dl_page_text">Bu keçid veb səhifədir. Toxunsanız brauzerdə açılır.</string>
+</resources>

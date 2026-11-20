@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">すでに別のダウンロードが進行中です。</string>
+    <string name="rom_dl_cannot_start">ダウンロードをバックグラウンドで開始できませんでした。</string>
+    <string name="rom_dl_channel">ROM ダウンロード</string>
+    <string name="rom_dl_channel_done">ROM ダウンロード完了</string>
+    <string name="rom_dl_done">ROM をダウンロードしました</string>
+    <string name="rom_dl_done_text">タップして %1$s をインポート</string>
+    <string name="rom_dl_failed">ROM のダウンロードに失敗しました</string>
+    <string name="rom_dl_hide">非表示</string>
+    <string name="rom_dl_page">ダウンロードリンク</string>
+    <string name="rom_dl_page_text">このリンクは Web ページです。タップするとブラウザーで開きます。</string>
+</resources>

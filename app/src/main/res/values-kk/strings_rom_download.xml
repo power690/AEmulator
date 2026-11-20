@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Басқа жүктеу әлі жүріп жатыр.</string>
+    <string name="rom_dl_cannot_start">Жүктеуді фон режимінде бастау мүмкін болмады.</string>
+    <string name="rom_dl_channel">ROM жүктеу</string>
+    <string name="rom_dl_channel_done">ROM жүктеу аяқталды</string>
+    <string name="rom_dl_done">ROM жүктелді</string>
+    <string name="rom_dl_done_text">Импорттау үшін %1$s басыңыз</string>
+    <string name="rom_dl_failed">ROM жүктеу сәтсіз аяқталды</string>
+    <string name="rom_dl_hide">Жасыру</string>
+    <string name="rom_dl_page">Жүктеу сілтемесі</string>
+    <string name="rom_dl_page_text">Бұл сілтеме — веб-бет. Браузерде ашу үшін басыңыз.</string>
+</resources>

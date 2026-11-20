@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Altă descărcare este deja în curs.</string>
+    <string name="rom_dl_cannot_start">Descărcarea nu a putut fi pornită în fundal.</string>
+    <string name="rom_dl_channel">Descărcare ROM</string>
+    <string name="rom_dl_channel_done">Descărcare ROM finalizată</string>
+    <string name="rom_dl_done">ROM descărcat</string>
+    <string name="rom_dl_done_text">Atinge pentru a importa %1$s</string>
+    <string name="rom_dl_failed">Descărcarea ROM a eșuat</string>
+    <string name="rom_dl_hide">Ascunde</string>
+    <string name="rom_dl_page">Link de descărcare</string>
+    <string name="rom_dl_page_text">Acest link este o pagină web. Atinge pentru a o deschide în browser.</string>
+</resources>

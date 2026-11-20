@@ -120,15 +120,15 @@ class Analyzer(private val ctx: Context, private val paths: VmPaths, private val
             legacy -> VmSettings(width = 320, height = 480, density = 160, fbHz = 60, touchHz = 60)
             engine == Engine.GB || api < 14 -> VmSettings(width = 480, height = 800, density = 240, fbHz = 60, touchHz = 60)
             // 540×960 — лучший баланс скорости и чёткости под эмуляцией; поменять можно в настройках
-            density <= 160 -> VmSettings(width = 480, height = 800, density = 240)
+            density <= 160 -> VmSettings(width = 480, height = 800, density = 240, hostResolution = true)
             // a firmware made for a QHD panel (560 dpi and up) may have no layout that fits an hdpi screen: the Galaxy
             // S6 launcher on 5.x gets a zero-wide item at 540×960/240 and dies in a loop; 720×1280/320 is the smallest
             // screen it was checked on
-            density >= 560 -> VmSettings(width = 720, height = 1280, density = 320)
+            density >= 560 -> VmSettings(width = 720, height = 1280, density = 320, hostResolution = true)
             // MIUI's live icons (Calendar, Weather: fancy_icons in the icon theme) have pictures for 440/480 only and
             // draw nothing at 240; its phones are xxhdpi, so it gets the phone's own screen
-            skin.startsWith("MIUI") && api >= 21 -> VmSettings(width = 1080, height = 1920, density = 480)
-            else -> VmSettings(width = 540, height = 960, density = 240)
+            skin.startsWith("MIUI") && api >= 21 -> VmSettings(width = 1080, height = 1920, density = 480, hostResolution = true)
+            else -> VmSettings(width = 540, height = 960, density = 240, hostResolution = true)
         }
 
         // kernel version of the firmware: read from the boot.img the importer stored (kernel banner -> /proc/version, uname -r)

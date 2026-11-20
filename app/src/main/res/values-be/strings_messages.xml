@@ -209,9 +209,9 @@
     <string name="lib3d_spec_screen">Экран</string>
     <string name="lib3d_spec_size">Памер</string>
     <string name="lib3d_spec_model">Мадэль</string>
-    <string name="as_upstream_row">Upstream: %1$s</string>
+    <string name="as_upstream_row">Зыходны праект: %1$s</string>
     <string name="as_original_row">Арыгінал: %1$s</string>
-    <string name="sms_default_body">Прывітанне ад AEmulator</string>
+    <string name="sms_default_body">Прывітанне ад AEmulator Plus</string>
     <string name="theme_original">Арыгінальная</string>
     <string name="theme_sunset">Захад сонца</string>
     <string name="sim_country_emulator">Эмулятар</string>

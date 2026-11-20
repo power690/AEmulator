@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Katalogda 10000’den fazla ROM var.</string>
     <string name="catalog_tested_on">Emülatör %1$s</string>
     <string name="catalog_submitted_by">Gönderen: %1$s</string>
+    <string name="submit_not_direct_title">Doğrudan bağlantı gerekli</string>
+    <string name="submit_not_direct_text">Gönderiler ROM dosyasına doğrudan indirme bağlantısı olmalıdır. Web sayfası bağlantıları veya önce bir sayfa açan dosya barındırıcıları kabul edilmez.\n\nYükleme için archive.org önerilir.</string>
 </resources>

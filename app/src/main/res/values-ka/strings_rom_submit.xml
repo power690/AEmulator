@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="catalog_err_bad_json">კატალოგი სწორ ROM სია არ არის.</string>
+    <string name="catalog_err_too_many_roms">კატალოგში 10000-ზე მეტი ROM არის.</string>
+    <string name="catalog_submitted_by">გაგზავნა %1$s-მა</string>
+    <string name="catalog_tested_on">ემულატორი %1$s</string>
+    <string name="submit_action">ROM-ის გაგზავნა</string>
+    <string name="submit_another">კიდევ ერთის გაგზავნა</string>
+    <string name="submit_bad_size">შეიყვანეთ რიცხვი, 0 ან მეტი</string>
+    <string name="submit_bad_url">შეიყვანეთ სწორი http(s) ბმული</string>
+    <string name="submit_by">თქვენი სახელი</string>
+    <string name="submit_categories_failed">კატეგორიების ჩატვირთვა ვერ მოხერხდა: %1$s</string>
+    <string name="submit_close">დახურვა</string>
+    <string name="submit_device">მოწყობილობა</string>
+    <string name="submit_emulator">ემულატორის ვერსია (არასავალდებულო)</string>
+    <string name="submit_err_bad_response">სერვერმა მოულოდნელი პასუხი გამოგზავნა.</string>
+    <string name="submit_err_duplicate">ეს ჩამოტვირთვის ბმული უკვე გაგზავნილია.</string>
+    <string name="submit_err_rate_limited">ძალიან ბევრი გაგზავნა. სცადეთ დაახლოებით %1$d წუთში.</string>
+    <string name="submit_err_rejected">სერვერმა უარყო გაგზავნა: %1$s</string>
+    <string name="submit_err_server">სერვერმა შეცდომა დააბრუნა (HTTP %1$d).</string>
+    <string name="submit_intro">გააზიარეთ ROM-ის ჩამოტვირთვის ბმული. კატალოგში გამოჩენამდე გაგზავნები გადამოწმდება.</string>
+    <string name="submit_name">ROM-ის სახელი</string>
+    <string name="submit_not_direct_text">გაგზავნილი უნდა იყოს ROM ფაილის პირდაპირი ჩამოტვირთვის ბმული. ვებგვერდების ან ჯერ გვერდს ხსნილი ფაილჰოსტინგების ბმულები არ მიიღება.\n\nრეკომენდებული ასატვირთი ადგილია archive.org.</string>
+    <string name="submit_not_direct_title">სჭირდება პირდაპირი ბმული</string>
+    <string name="submit_notes">შენიშვნები (არასავალდებულო)</string>
+    <string name="submit_pick_variant_first">ჯერ აირჩიეთ ვარიანტი</string>
+    <string name="submit_required">სავალდებულო</string>
+    <string name="submit_rom_version">ROM-ის ვერსია</string>
+    <string name="submit_send">გაგზავნა</string>
+    <string name="submit_size_mb">ფაილის ზომა MB-ში (არასავალდებულო)</string>
+    <string name="submit_success">მადლობა! თქვენი ROM გაიგზავნა და გადამოწმების შემდეგ კატალოგში გამოჩნდება.</string>
+    <string name="submit_title">ROM-ის გაგზავნა</string>
+    <string name="submit_url">ჩამოტვირთვის URL</string>
+    <string name="submit_variant">ვარიანტი</string>
+    <string name="submit_version">ვერსიის კატეგორია</string>
+</resources>

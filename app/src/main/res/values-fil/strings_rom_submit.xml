@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Mahigit 10000 ROM ang nasa catalog.</string>
     <string name="catalog_tested_on">Emulator %1$s</string>
     <string name="catalog_submitted_by">Isinumite ni %1$s</string>
+    <string name="submit_not_direct_title">Kailangan ng direct link</string>
+    <string name="submit_not_direct_text">Dapat direct download link sa ROM file ang mga isinumite. Ang mga link sa web page o sa file host na nagbubukas muna ng pahina ay hindi tinatanggap.\n\nAng inirerekomendang lugar para sa pag-upload ay archive.org.</string>
 </resources>

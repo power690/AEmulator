@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">У каталогу больш за 10000 ROM.</string>
     <string name="catalog_tested_on">Эмулятар %1$s</string>
     <string name="catalog_submitted_by">Адправіў(-ла): %1$s</string>
+    <string name="submit_not_direct_title">Патрэбная прамая спасылка</string>
+    <string name="submit_not_direct_text">Прымаюцца толькі прамыя спасылкі на файл ROM. Спасылкі на вэб-старонкі і на файлаабменнікі, дзе спачатку адкрываецца старонка, не прымаюцца.\n\nРэкамендуецца загружаць на archive.org.</string>
 </resources>

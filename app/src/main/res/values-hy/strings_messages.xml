@@ -212,7 +212,7 @@
     <string name="lib3d_spec_model">Մոդել</string>
     <string name="as_upstream_row">Սկզբնաղբյուր (upstream)՝ %1$s</string>
     <string name="as_original_row">Սկզբնական՝ %1$s</string>
-    <string name="sms_default_body">Բարև AEmulator-ից</string>
+    <string name="sms_default_body">Բարև AEmulator Plus-ից</string>
     <string name="theme_original">Սկզբնական</string>
     <string name="theme_sunset">Մայրամուտ</string>
     <string name="sim_country_emulator">Էմուլյատոր</string>
@@ -233,4 +233,7 @@
     <string name="imp_choice_text">Այս փաթեթում մեկից ավելի %1$s կա (%2$d՝ %3$d-ից): Ընտրեք ներմուծվելիքը:</string>
     <string name="imp_choice_ok">Ներմուծել</string>
     <string name="imp_choice_cancel">Չեղարկել ներմուծումը</string>
+    <string name="imp_no_system_partition_in_mbr">%1$s՝ MBR-ում system բաժին չկա</string>
+    <string name="imp_unreadable_mbr">%1$s՝ MBR բաժինների աղյուսակը անընթեռնելի է</string>
+    <string name="ota_squash_files_modified">/system-ի %1$d ֆայլ փոխվել են ծրագրի կամ ձեր կողմից և հնարավոր չէ վերակառուցել, օրինակ՝ %2$s։ SquashFS համակարգային պատկերը կարող է վերակառուցվել միայն չփոփոխված ֆայլերից։ Ոչինչ չի փոխվել։</string>
 </resources>

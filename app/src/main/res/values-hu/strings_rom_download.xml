@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Már folyik egy letöltés.</string>
+    <string name="rom_dl_cannot_start">A letöltés nem indítható háttérben.</string>
+    <string name="rom_dl_channel">ROM-letöltés</string>
+    <string name="rom_dl_channel_done">ROM-letöltés kész</string>
+    <string name="rom_dl_done">ROM letöltve</string>
+    <string name="rom_dl_done_text">Koppints a(z) %1$s importálásához</string>
+    <string name="rom_dl_failed">ROM-letöltés sikertelen</string>
+    <string name="rom_dl_hide">Elrejtés</string>
+    <string name="rom_dl_page">Letöltési hivatkozás</string>
+    <string name="rom_dl_page_text">Ez a hivatkozás egy weboldal. Koppints a böngészőben való megnyitásához.</string>
+</resources>

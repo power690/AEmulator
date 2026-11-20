@@ -108,7 +108,7 @@
     <string name="as_orig_sub">Höfundur Desire HD- og One M7-hermanna sem þetta verkefni þróaðist út frá</string>
     <string name="as_github">Frumkóði á GitHub</string>
     <string name="as_version">Útgáfa %1$s</string>
-    <string name="as_about">AEmulator keyrir klassískan Android-fastbúnað á nútímasímum. Ókeypis og með opnum hugbúnaði.</string>
+    <string name="as_about">AEmulator Plus keyrir klassískan Android-fastbúnað á nútímasímum. Ókeypis og með opnum hugbúnaði.</string>
     <string name="log_copy">Afrita</string>
     <string name="log_export">Flytja út .log</string>
     <string name="log_copied">Afritað á klippiborð</string>
@@ -255,9 +255,9 @@
     <string name="update_download_error">Niðurhal mistókst: %1$s</string>
     <string name="update_open_github">Skoða á GitHub</string>
     <string name="vs_camera">Myndavél hýsils (á tilraunastigi)</string>
-    <string name="vs_camera_sub">HAL1-ROM: 640×480 forskoðun og ljósmyndir, aftari/fremri myndavél. Krefst heimildar og fullrar endurræsingar sýndarvélarinnar. Myndavélin lokast þegar AEmulator fer í bakgrunn; opnaðu myndavélarforrit gestsins aftur. Myndskeið eru tekin upp í 640×480.</string>
+    <string name="vs_camera_sub">HAL1-ROM: 640×480 forskoðun og ljósmyndir, aftari/fremri myndavél. Krefst heimildar og fullrar endurræsingar sýndarvélarinnar. Myndavélin lokast þegar AEmulator Plus fer í bakgrunn; opnaðu myndavélarforrit gestsins aftur. Myndskeið eru tekin upp í 640×480.</string>
     <string name="vs_microphone">Hljóðnemi hýsils (á tilraunastigi)</string>
-    <string name="vs_microphone_sub">Forrit gests taka upp úr hljóðnema símans (upptökuforrit, minnismiðar). Krefst heimildar og fullrar endurræsingar sýndarvélarinnar. Upptöku lýkur þegar AEmulator fer í bakgrunn; opnaðu upptökuforrit gestsins aftur. Aðeins 4.x ROM.</string>
+    <string name="vs_microphone_sub">Forrit gests taka upp úr hljóðnema símans (upptökuforrit, minnismiðar). Krefst heimildar og fullrar endurræsingar sýndarvélarinnar. Upptöku lýkur þegar AEmulator Plus fer í bakgrunn; opnaðu upptökuforrit gestsins aftur. Aðeins 4.x ROM.</string>
     <string name="microphone_permission_denied">Heimild fyrir hljóðnema hafnað. Forrit gests taka upp þögn; veittu heimild í stillingum Android-forritsins og endurræstu sýndarvélina að fullu til að reyna aftur.</string>
     <string name="vs_sim_title">SIM-kort</string>
     <string name="vs_sim_present">SIM-kort í</string>
@@ -533,4 +533,18 @@
     <string name="catalog_download_checking">Athuga tengil…</string>
     <string name="catalog_download_title">Sæki ROM</string>
     <string name="catalog_download_failed">Niðurhal mistókst: %1$s</string>
+    <string name="al_title">Activity-ræsir</string>
+    <string name="m_activities">Activity-ræsir</string>
+    <string name="al_search_packages">Leita í pökkum</string>
+    <string name="al_search_activities">Leita í Activity</string>
+    <string name="al_no_packages">Engir pakkar fundust</string>
+    <string name="al_no_activities">Ekkert Activity fannst</string>
+    <string name="al_not_exported">ekki útflutt</string>
+    <string name="al_starting">Ræsir %1$s…</string>
+    <string name="catalog_share_rom">Deila niðurhalsveitu fyrir %1$s</string>
+    <string name="m_battery_old_note">Þessi Android-útgáfa les rafhlöðuna aðeins á meðan hún ræsir. Stigið og hleðsluástandið sem þú setur er vistað og notað næst þegar VM ræsir.</string>
+    <string name="vs_no_dex2oat">Slökkva á dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Forrit og kerfiskóði eru aldrei þýddir í gestkerfinu: dex2oat fellur strax. Aðvörun: þetta getur valdið hrunum, glum og öðrum óæskilegum hegðunum (forrit keyra hægar, sum firmware ræsist ekki án þýðingar). Slökkt á sjálfgefið. Tekur gildi við næstu fullu ræsingu.</string>
+    <string name="m_multitask">Verkskipti</string>
+    <string name="nav_show">Sýna Android-hnappastiku</string>
 </resources>

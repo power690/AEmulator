@@ -109,7 +109,7 @@
     <string name="as_orig_sub">Bu taslamanyň ösen Desire HD we One M7 emulýatorlarynyň döredijisi</string>
     <string name="as_github">GitHub-daky çeşme kody</string>
     <string name="as_version">Wersiýa %1$s</string>
-    <string name="as_about">AEmulator nusgawy Android proşiwkalaryny häzirki zaman telefonlarda işledýär. Mugt we açyk çeşmeli.</string>
+    <string name="as_about">AEmulator Plus nusgawy Android proşiwkalaryny häzirki zaman telefonlarda işledýär. Mugt we açyk çeşmeli.</string>
     <string name="log_copy">Göçür</string>
     <string name="log_export">.log eksport et</string>
     <string name="log_copied">Alyş-çalyş buferine göçürildi</string>
@@ -256,9 +256,9 @@
     <string name="update_download_error">Ýükläp almak şowsuz boldy: %1$s</string>
     <string name="update_open_github">GitHub-da gör</string>
     <string name="vs_camera">Host kamerasy (synag)</string>
-    <string name="vs_camera_sub">HAL1 ROM-lar: 640×480 deslapky görnüş we suratlar, yzky/öňdäki kamera. Rugsat we VM-i doly täzeden başlatmak talap edilýär. AEmulator arka fona geçende kamera ýapylýar; myhman kamera programmasyny täzeden açyň. Wideo 640×480 görnüşinde ýazylýar.</string>
+    <string name="vs_camera_sub">HAL1 ROM-lar: 640×480 deslapky görnüş we suratlar, yzky/öňdäki kamera. Rugsat we VM-i doly täzeden başlatmak talap edilýär. AEmulator Plus arka fona geçende kamera ýapylýar; myhman kamera programmasyny täzeden açyň. Wideo 640×480 görnüşinde ýazylýar.</string>
     <string name="vs_microphone">Host mikrofony (synag)</string>
-    <string name="vs_microphone_sub">Myhman programmalar telefonyň mikrofonyndan ýazýar (ses ýazgyçy, bellikler). Rugsat we VM-i doly täzeden başlatmak talap edilýär. AEmulator arka fona geçende ýazgy durýar; myhman ýazgyç programmasyny täzeden açyň. Diňe 4.x ROM-lar üçin.</string>
+    <string name="vs_microphone_sub">Myhman programmalar telefonyň mikrofonyndan ýazýar (ses ýazgyçy, bellikler). Rugsat we VM-i doly täzeden başlatmak talap edilýär. AEmulator Plus arka fona geçende ýazgy durýar; myhman ýazgyç programmasyny täzeden açyň. Diňe 4.x ROM-lar üçin.</string>
     <string name="microphone_permission_denied">Mikrofon rugsady ret edildi. Myhman programmalar dymyşlygy ýazar; Android programma sazlamalarynda rugsat beriň we gaýtadan synanyşmak üçin VM-i doly täzeden başladyň.</string>
     <string name="vs_sim_title">SIM kartalar</string>
     <string name="vs_sim_present">SIM karta salnan</string>
@@ -537,4 +537,18 @@
     <string name="catalog_download_checking">Baglanyşyk barlanýar…</string>
     <string name="catalog_download_title">ROM ýüklenýär</string>
     <string name="catalog_download_failed">Ýüklemek şowsuz boldy: %1$s</string>
+    <string name="al_title">Activity başlatyjy</string>
+    <string name="m_activities">Activity başlatyjy</string>
+    <string name="al_search_packages">Paketleri gözle</string>
+    <string name="al_search_activities">Activity-leri gözle</string>
+    <string name="al_no_packages">Paket tapylmady</string>
+    <string name="al_no_activities">Activity tapylmady</string>
+    <string name="al_not_exported">eksport edilmedik</string>
+    <string name="al_starting">%1$s başladylýar…</string>
+    <string name="catalog_share_rom">%1$s üçin göçürme baglanyşyny paýlaş</string>
+    <string name="m_battery_old_note">Bu Android wersiýasy batareýany diňe başlanýarka okýar. Sazlanan derejä we zaryad ýagdaýy ýatda saklanýar we VM-iň indiki başlanyşynda ulanylýar.</string>
+    <string name="vs_no_dex2oat">dex2oat öçür (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Programmalar we ulgam kody myhmonda hiç wagt kompillelenýär: dex2oat-yň her bir işe girizişi derrew şowsuz gutarýar. Duýduryş: bu döwülmelere, näsazlyklara we beýleki islenmedik hereketlere sebäp bolup biler (programmalar haýal işleýär, käbir firmware kompillesiz başlanmaýar). Standart boýunça öçürilen. Indiki doly başlatmakda giltutarýar.</string>
+    <string name="m_multitask">Tapgyrtlary çalşyrmak</string>
+    <string name="nav_show">Android düwmeler panelini görkez</string>
 </resources>

@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">แคตตาล็อกมี ROM มากกว่า 10000 รายการ</string>
     <string name="catalog_tested_on">โปรแกรมจำลอง %1$s</string>
     <string name="catalog_submitted_by">ส่งโดย %1$s</string>
+    <string name="submit_not_direct_title">ต้องใช้ลิงก์ตรง</string>
+    <string name="submit_not_direct_text">การส่งต้องเป็นลิงก์ดาวน์โหลดตรงไปยังไฟล์ ROM โดยไม่รับลิงก์ไปยังหน้าเว็บ หรือโฮสต์ไฟล์ที่ต้องเปิดหน้าเว็บก่อน\n\nแนะนำให้อัปโหลดที่ archive.org</string>
 </resources>

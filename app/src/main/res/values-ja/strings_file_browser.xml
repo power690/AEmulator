@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">VMバックアップ（.aessvm）は、他のファイルと一緒ではなく単独でインポートする必要があります。</string>
     <string name="imp_joining">%1$s の %2$d 個のパートを結合中…</string>
     <string name="imp_split_missing">分割アーカイブ %1$s のパート %2$s がありません。すべてのパートを選択するか、同じフォルダに置いてください。</string>
+    <string name="fb_search">検索</string>
+    <string name="fb_search_hint">このフォルダー内を検索</string>
+    <string name="fb_no_matches">一致するファイルやフォルダーはありません</string>
 </resources>

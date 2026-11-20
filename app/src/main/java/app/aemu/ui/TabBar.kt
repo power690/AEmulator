@@ -255,23 +255,3 @@ internal fun VmTabStrip(
         )
     }
 }
-
-/**
- * The way back from the hidden tab bar: a tiny translucent arrow at the top right corner of the window, over the machine's
- * screen. A tap shows the bar again.
- */
-@Composable
-internal fun TabBarRevealArrow(onShow: () -> Unit, modifier: Modifier = Modifier) {
-    // a camera hole on the left or right edge (landscape) is kept clear; the top one is the very thing the arrow hangs from
-    Box(modifier.windowInsetsPadding(WindowInsets.displayCutout.only(WindowInsetsSides.Horizontal)).padding(end = 8.dp)) {
-        Surface(
-            modifier = Modifier.alpha(0.7f).clip(RoundedCornerShape(bottomStart = 10.dp, bottomEnd = 10.dp)).clickable(onClick = onShow),
-            color = MaterialTheme.colorScheme.surfaceContainerHigh,
-            shape = RoundedCornerShape(bottomStart = 10.dp, bottomEnd = 10.dp),
-        ) {
-            Box(Modifier.size(width = 30.dp, height = 18.dp), contentAlignment = Alignment.Center) {
-                Icon(Icons.Rounded.KeyboardArrowDown, stringResource(R.string.tab_bar_show), Modifier.size(16.dp), tint = MaterialTheme.colorScheme.onSurfaceVariant)
-            }
-        }
-    }
-}

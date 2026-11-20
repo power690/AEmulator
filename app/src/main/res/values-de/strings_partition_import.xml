@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_import_partition">Partition importieren</string>
+    <string name="vm_import_partition_button">Importieren…</string>
+    <string name="vm_import_partition_conflict">Das Ordnerlayout dieser VM lässt diese Partition nicht zu.</string>
+    <string name="vm_import_partition_done">Partition %1$s importiert und eingehängt. System und Daten bleiben unverändert.</string>
+    <string name="vm_import_partition_exists">Diese VM hat bereits eine %1$s-Partition.</string>
+    <string name="vm_import_partition_have">%1$s (bereits in dieser VM)</string>
+    <string name="vm_import_partition_headline">Ein Partitions-Image in diese VM importieren</string>
+    <string name="vm_import_partition_sub">Boot, Recovery (Stock, TWRP, OrangeFox oder CWM), OEM, vendor, odm, product oder system_ext. Der Typ wird aus der Datei gelesen; wenn er nicht erkannt wird, wirst du gefragt. Nur Recovery ersetzt ein vorhandenes; der Rest der VM bleibt unverändert. Starte über das ⋮-Menü ins Recovery neu.</string>
+    <string name="vm_import_partition_unsupported">Ein %1$s-Image kann mit dieser Option nicht importiert werden.</string>
+    <string name="vm_import_partition_which">Welche Partition ist das?</string>
+    <string name="vm_import_partition_which_info">Der Dateiname sagt nicht, was sie enthält. Wähle die Partition.</string>
+    <string name="vm_import_partition_working">Partition %1$s wird gelesen… Halte vor dem Import alle VMs an.</string>
+    <string name="vm_import_recovery_done">Recovery importiert. Für die Benutzung über das ⋮-Menü ins Recovery neu starten.</string>
+</resources>

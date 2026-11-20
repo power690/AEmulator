@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">VM камдык көчүрмөсүн (.aessvm) башка файлдар менен бирге эмес, өзүнчө импорттоо керек.</string>
     <string name="imp_joining">%1$s файлынын %2$d бөлүгү бириктирилүүдө…</string>
     <string name="imp_split_missing">Бөлүнгөн %1$s архивинин %2$s бөлүгү жок. Анын бардык бөлүктөрүн тандаңыз же бир папкада сактаңыз.</string>
+    <string name="fb_search">Издөө</string>
+    <string name="fb_search_hint">Ушул папкада издөө</string>
+    <string name="fb_no_matches">Туура келген файлдар же папкалар жок</string>
 </resources>

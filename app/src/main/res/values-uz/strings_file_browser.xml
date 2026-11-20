@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">VM zaxira nusxasini (.aessvm) boshqa fayllar bilan birga emas, alohida import qilish kerak.</string>
     <string name="imp_joining">%1$s faylining %2$d qismi birlashtirilmoqda…</string>
     <string name="imp_split_missing">Boʻlingan %1$s arxivining %2$s-qismi yoʻq. Uning barcha qismlarini tanlang yoki bitta jildda saqlang.</string>
+    <string name="fb_search">Qidirish</string>
+    <string name="fb_search_hint">Bu papkada qidirish</string>
+    <string name="fb_no_matches">Mos keladigan fayl yoki papka yo\'q</string>
 </resources>

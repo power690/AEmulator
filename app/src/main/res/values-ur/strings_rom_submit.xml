@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">کیٹلاگ میں 10000 سے زیادہ ROM ہیں۔</string>
     <string name="catalog_tested_on">ایمولیٹر %1$s</string>
     <string name="catalog_submitted_by">%1$s کی طرف سے جمع کرایا گیا</string>
+    <string name="submit_not_direct_title">براہ راست لنک درکار ہے</string>
+    <string name="submit_not_direct_text">جمع کرانے والے مواد کا ROM فائل کے براہ راست ڈاؤن لوڈ لنک ہونا ضروری ہے۔ ویب صفحات کے لنکس یا ایسے فائل ہوسٹ جو پہلے صفحہ کھولتے ہیں، قبول نہیں ہوتے۔\n\nاپلوڈ کے لیے تجویز کردہ جگہ archive.org ہے۔</string>
 </resources>

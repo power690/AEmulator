@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">En nedlasting pågår allerede.</string>
+    <string name="rom_dl_cannot_start">Nedlastingen kunne ikke startes i bakgrunnen.</string>
+    <string name="rom_dl_channel">ROM-nedlasting</string>
+    <string name="rom_dl_channel_done">ROM-nedlasting fullført</string>
+    <string name="rom_dl_done">ROM lastet ned</string>
+    <string name="rom_dl_done_text">Trykk for å importere %1$s</string>
+    <string name="rom_dl_failed">ROM-nedlasting mislyktes</string>
+    <string name="rom_dl_hide">Skjul</string>
+    <string name="rom_dl_page">Nedlastingslenke</string>
+    <string name="rom_dl_page_text">Denne lenken er en nettside. Trykk for å åpne den i nettleseren.</string>
+</resources>

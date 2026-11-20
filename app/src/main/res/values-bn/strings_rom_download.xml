@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">ইতোমধ্যে একটি ডাউনলোড চলছে।</string>
+    <string name="rom_dl_cannot_start">ব্যাকগ্রাউন্ডে ডাউনলোড শুরু করা যায়নি।</string>
+    <string name="rom_dl_channel">ROM ডাউনলোড</string>
+    <string name="rom_dl_channel_done">ROM ডাউনলোড সম্পন্ন</string>
+    <string name="rom_dl_done">ROM ডাউনলোড হয়েছে</string>
+    <string name="rom_dl_done_text">%1$s ইমপোর্ট করতে ট্যাপ করুন</string>
+    <string name="rom_dl_failed">ROM ডাউনলোড ব্যর্থ হয়েছে</string>
+    <string name="rom_dl_hide">লুকান</string>
+    <string name="rom_dl_page">ডাউনলোড লিংক</string>
+    <string name="rom_dl_page_text">এই লিংকটি একটি ওয়েব পেজ। ব্রাউজারে খুলতে ট্যাপ করুন।</string>
+</resources>

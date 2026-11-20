@@ -108,7 +108,7 @@
     <string name="as_orig_sub">Desire HD-ისა და One M7-ის ემულატორების შემქმნელი, რომლებისგანაც ეს პროექტი განვითარდა</string>
     <string name="as_github">საწყისი კოდი GitHub-ზე</string>
     <string name="as_version">ვერსია %1$s</string>
-    <string name="as_about">AEmulator კლასიკურ Android-ის ფირმვერს თანამედროვე ტელეფონებზე უშვებს. უფასო და ღია კოდიანია.</string>
+    <string name="as_about">AEmulator Plus კლასიკურ Android-ის ფირმვერს თანამედროვე ტელეფონებზე უშვებს. უფასო და ღია კოდიანია.</string>
     <string name="log_copy">კოპირება</string>
     <string name="log_export">.log-ის ექსპორტი</string>
     <string name="log_copied">დაკოპირდა გაცვლის ბუფერში</string>
@@ -255,9 +255,9 @@
     <string name="update_download_error">ჩამოტვირთვა ვერ მოხერხდა: %1$s</string>
     <string name="update_open_github">GitHub-ზე ნახვა</string>
     <string name="vs_camera">ჰოსტის კამერა (ექსპერიმენტული)</string>
-    <string name="vs_camera_sub">HAL1 ROM-ები: 640×480 გადახედვა და ფოტოები, უკანა/წინა კამერა. საჭიროა ნებართვა და VM-ის სრული გადატვირთვა. კამერა იხურება, როცა AEmulator ფონურ რეჟიმში გადადის; ხელახლა გახსენით სტუმრის კამერის აპი. ვიდეო იწერება 640×480-ზე.</string>
+    <string name="vs_camera_sub">HAL1 ROM-ები: 640×480 გადახედვა და ფოტოები, უკანა/წინა კამერა. საჭიროა ნებართვა და VM-ის სრული გადატვირთვა. კამერა იხურება, როცა AEmulator Plus ფონურ რეჟიმში გადადის; ხელახლა გახსენით სტუმრის კამერის აპი. ვიდეო იწერება 640×480-ზე.</string>
     <string name="vs_microphone">ჰოსტის მიკროფონი (ექსპერიმენტული)</string>
-    <string name="vs_microphone_sub">სტუმრის აპები ჩაწერენ ტელეფონის მიკროფონიდან (ხმის ჩამწერი, ჩანაწერები). საჭიროა ნებართვა და VM-ის სრული გადატვირთვა. ჩაწერა წყდება, როცა AEmulator ფონურ რეჟიმში გადადის; ხელახლა გახსენით სტუმრის ჩამწერი აპი. მხოლოდ 4.x ROM-ები.</string>
+    <string name="vs_microphone_sub">სტუმრის აპები ჩაწერენ ტელეფონის მიკროფონიდან (ხმის ჩამწერი, ჩანაწერები). საჭიროა ნებართვა და VM-ის სრული გადატვირთვა. ჩაწერა წყდება, როცა AEmulator Plus ფონურ რეჟიმში გადადის; ხელახლა გახსენით სტუმრის ჩამწერი აპი. მხოლოდ 4.x ROM-ები.</string>
     <string name="microphone_permission_denied">მიკროფონის ნებართვა უარყოფილია. სტუმრის აპები ჩაწერენ სიჩუმეს; მიანიჭეთ ნებართვა Android-ის აპის პარამეტრებში და VM სრულად გადატვირთეთ ხელახლა საცდელად.</string>
     <string name="vs_sim_title">SIM ბარათები</string>
     <string name="vs_sim_present">SIM ბარათი ჩადებულია</string>
@@ -526,4 +526,26 @@
     <string name="phantom_open_dev">დეველოპერის პარამეტრების გახსნა</string>
     <string name="phantom_ignore">იგნორირება</string>
     <string name="phantom_never">აღარ შემახსენო</string>
+    <string name="al_title">Activity-ს გამშვები</string>
+    <string name="m_activities">Activity-ს გამშვები</string>
+    <string name="al_search_packages">პაკეტების ძიება</string>
+    <string name="al_search_activities">Activity-ების ძიება</string>
+    <string name="al_no_packages">პაკეტი ვერ მოიძებნა</string>
+    <string name="al_no_activities">Activity ვერ მოიძებნა</string>
+    <string name="al_not_exported">არ არის ექსპორტირებული</string>
+    <string name="al_starting">იწყება %1$s…</string>
+    <string name="catalog_share_rom">%1$s-ის ჩამოტვირთვის ბმულის გაზიარება</string>
+    <string name="catalog_download_checking">ბმული შემოწმდება…</string>
+    <string name="catalog_download_title">ROM-ის ჩამოტვირთვა</string>
+    <string name="catalog_download_failed">ჩამოტვირთვა ვერ მოხერხდა: %1$s</string>
+    <string name="m_battery_old_note">Android-ის ეს ვერსია ბატარეას მხოლოდ გაშვებისას კითხულობს. თქვენ მიერ დაყენებული დონე და დატენვის მდგომარეობა ინახება და გამოიყენება VM-ის შემდეგ გაშვებაზე.</string>
+    <string name="m_netdebug">HTTP დებაგერი</string>
+    <string name="vs_netdebug">HTTP დებაგერი</string>
+    <string name="vs_netdebug_sub">ინახება სტუმრის HTTP და HTTPS მოთხოვნები და შეუძლია უპასუხოს ან შეცვალოს ისინი (მენიუ › HTTP დებაგერი). სტუმრის trust store-ში დებს დებაგის CA-ს. ძალაში შედის შემდეგ სრულ გაშვებაზე.</string>
+    <string name="vs_no_dex2oat">dex2oat-ის გამორთვა (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">აპები და სისტემური კოდი არასოდეს კომპილირდება სტუმარში: dex2oat-ის ყოველი გაშვება ადგილზევე ვარდება. გაფრთხილება: ეს შეიძლება გამოიწვიოს კრაშები, ხარვეზები და სხვა არასასურველი მოქმედებები (აპები უფრო ნელა მუშაობს, ზოგი firmware კომპილაციის გარეშე ვერ ჩაირთვება). ნაგულისხმევად გამორთულია. ძალაში შედის შემდეგ სრულ გაშვებაზე.</string>
+    <string name="vs_skip_perm_wait">ნებართვების კონტროლერის ლოდინის გამოტოვება (Android 10-13)</string>
+    <string name="vs_skip_perm_wait_sub">ARM ტელეფონზე x86 firmware-ისთვის, სადაც ნებართვების კონტროლერი აპი ძალიან ნელა პასუხობს 60 წმ-ში და system_server-ს კლავს (\"Error granting/upgrading runtime permissions\"). უპაჩავს firmware-ის services.jar-ს ისე, რომ ჩართვა არ ელოდება ნაგულისხმევი runtime ნებართვების გაცემას; წინასწარ დაინსტალირებული აპები მაშინ არ იღებენ ამ ნებართვებს ჩართვისას. dex2oat-ს ეკრძალება გაპაჩილი jar-ის ხელახლა კომპილირება. გამორთვა აღადგენს საწყის jar-ს. მოქმედებს შემდეგ სრულ ჩართვაზე.</string>
+    <string name="m_multitask">დავალებების გადართვა</string>
+    <string name="nav_show">Android-ის ღილაკების პანელის ჩვენება</string>
 </resources>

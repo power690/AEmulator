@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Katalog mempunyai lebih daripada 10000 ROM.</string>
     <string name="catalog_tested_on">Emulator %1$s</string>
     <string name="catalog_submitted_by">Dihantar oleh %1$s</string>
+    <string name="submit_not_direct_title">Pautan terus diperlukan</string>
+    <string name="submit_not_direct_text">Penghantaran mesti pautan muat turun terus ke fail ROM. Pautan ke halaman web atau ke hos fail yang membuka halaman dahulu tidak diterima.\n\nTempat yang disyorkan untuk muat naik ialah archive.org.</string>
 </resources>

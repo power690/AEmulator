@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Katalog obsahuje více než 10000 ROM.</string>
     <string name="catalog_tested_on">Emulátor %1$s</string>
     <string name="catalog_submitted_by">Odeslal(a): %1$s</string>
+    <string name="submit_not_direct_title">Vyžaduje se přímý odkaz</string>
+    <string name="submit_not_direct_text">Příspěvky musí být přímé odkazy ke stažení souboru ROM. Odkazy na webové stránky nebo na servery, které nejprve otevřou stránku, se nepřijímají.\n\nDoporučené místo pro nahrávání je archive.org.</string>
 </resources>

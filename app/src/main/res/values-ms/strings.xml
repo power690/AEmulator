@@ -18,7 +18,7 @@
     <string name="storage_text">Benarkan akses kepada semua fail: kad memori setiap sistem akan berada dalam folder AEmulator pada storan dalaman — mudah untuk APK, muzik dan foto.</string>
     <string name="allow">Benarkan</string>
     <string name="empty_title">Belum ada sistem</string>
-    <string name="empty_text">Tambah perisian tegar ARM untuk Android 1.0–17: ZIP pemulihan, arkib Odin (.tar.md5), system.img atau imej kilang.</string>
+    <string name="empty_text">Tambah perisian tegar ARM untuk Android 2.2–6.0: ZIP pemulihan, arkib Odin (.tar.md5), system.img atau imej kilang.</string>
     <string name="empty_help">Fail yang manakah berfungsi?</string>
     <string name="import_failed">Import gagal</string>
     <string name="import_running">Mengimport perisian tegar</string>
@@ -30,7 +30,7 @@
     <string name="start">Mula</string>
     <string name="rename">Namakan semula</string>
     <string name="help_title">Perisian tegar yang disokong</string>
-    <string name="help_text">• Android 2.2–4.4: perisian tegar ARM 32-bit, berjalan melalui QEMU (sebelum 2.2: eksperimen).\n• Android 5.0–17: perisian tegar arm64 dan GSI, berjalan secara natif pada telefon.\n\nFormat:\n• ZIP pemulihan CWM/TWRP (MIUI, CyanogenMod, port, kebanyakan ROM tersuai);\n• Samsung: Odin .tar / .tar.md5 atau ZIP dengan AP_*.tar.md5;\n• imej kilang Google (.tgz / .zip);\n• system.img (ext4, sparse, YAFFS2), sandaran TWRP system.ext4.win;\n• OTA dengan system.new.dat(.br) + system.transfer.list;\n• Juga: 7z, RAR, LG .kdz, Sony .ftf, Huawei UPDATE.APP, Qualcomm EDL, payload.bin, super.img, EROFS, Android-x86 ISO.\n\nPaling baik jika arkib mengandungi boot.img: susunan permulaan perkhidmatan diambil daripadanya.</string>
+    <string name="help_text">• Android 2.2 dan 4.0–4.4: sokongan utama; 5.x–6.x: eksperimen.\n• Hanya perisian tegar ARM 32-bit (armeabi / armeabi-v7a).\n\nFormat:\n• ZIP pemulihan CWM/TWRP (MIUI, CyanogenMod, port, kebanyakan ROM tersuai);\n• Samsung: Odin .tar / .tar.md5 atau ZIP dengan AP_*.tar.md5;\n• imej kilang Google (.tgz / .zip);\n• system.img (ext4, sparse, YAFFS2), sandaran TWRP system.ext4.win;\n• OTA dengan system.new.dat(.br) + system.transfer.list.\n\nPaling baik jika arkib mengandungi boot.img: susunan permulaan perkhidmatan diambil daripadanya.</string>
     <string name="vs_screen">Skrin tetamu</string>
     <string name="vs_fixed_2x">Android 2.x menggunakan skrin tetap 480×800 pada 240 dpi.</string>
     <string name="vs_screen_hint">Skrin yang lebih kecil menjadikan sistem lebih pantas.</string>
@@ -45,13 +45,6 @@
     <string name="vs_legacy_sub">Enjin Desire HD yang lebih lama: GLES 1.x sahaja, skrin 480×800. Gunakannya jika enjin utama gagal.</string>
     <string name="vs_lowram">Mod memori rendah</string>
     <string name="vs_lowram_sub">ro.config.low_ram — sistem menjimatkan memori.</string>
-    <string name="vs_memory_mode">Pengurusan memori</string>
-    <string name="vs_memory_light">Ringan</string>
-    <string name="vs_memory_medium">Sederhana</string>
-    <string name="vs_memory_aggressive">Agresif</string>
-    <string name="vs_memory_light_sub">Apl latar belakang hanya dihentikan apabila memori telefon itu sendiri hampir habis. Paling sedikit mula semula; menggunakan paling banyak memori. Berkuat kuasa selepas VM dimulakan semula sepenuhnya.</string>
-    <string name="vs_memory_medium_sub">Seimbang: mengekalkan bilangan sederhana apl latar belakang dan menghentikan selebihnya apabila memori bebas semakin berkurangan. Berkuat kuasa selepas VM dimulakan semula sepenuhnya.</string>
-    <string name="vs_memory_aggressive_sub">Mengekalkan beberapa apl latar belakang sahaja dan menyemak dengan kerap, jadi memori dibebaskan awal. Menggunakan paling sedikit memori, tetapi apl lebih kerap dimulakan semula. Berkuat kuasa selepas VM dimulakan semula sepenuhnya.</string>
     <string name="vs_proxy">Proksi TLS moden</string>
     <string name="vs_proxy_sub">Membolehkan pelayar dan aplikasi lama membuka laman HTTPS masa kini.</string>
     <string name="vs_controls">Kawalan</string>
@@ -87,16 +80,6 @@
     <string name="as_theme_system">Sistem</string>
     <string name="as_theme_light">Cerah</string>
     <string name="as_theme_dark">Gelap</string>
-    <string name="as_accent">Warna aksen</string>
-    <string name="as_accent_sub">Pilih mana-mana warna untuk menggayakan semula keseluruhan aplikasi</string>
-    <string name="as_accent_default">Matahari terbenam (lalai)</string>
-    <string name="as_accent_pick">Pilih warna</string>
-    <string name="as_accent_reset">Set semula</string>
-    <string name="as_accent_apply">Guna</string>
-    <string name="as_accent_hex">Hex</string>
-    <string name="as_accent_hue">Rona</string>
-    <string name="as_accent_sat">Ketepuan</string>
-    <string name="as_accent_val">Kecerahan</string>
     <string name="as_dynamic">Warna dinamik</string>
     <string name="as_dynamic_sub">Warna daripada kertas dinding anda (Android 12+)</string>
     <string name="as_defaults">Lalai untuk sistem baharu</string>
@@ -109,7 +92,24 @@
     <string name="as_orig_sub">Pencipta emulator Desire HD dan One M7 yang menjadi asas projek ini</string>
     <string name="as_github">Kod sumber di GitHub</string>
     <string name="as_version">Versi %1$s</string>
-    <string name="as_about">AEmulator menjalankan perisian tegar Android klasik pada telefon moden. Percuma dan sumber terbuka.</string>
+    <string name="as_about">AEmulator Plus menjalankan perisian tegar Android klasik pada telefon moden. Percuma dan sumber terbuka.</string>
+    <string name="vs_memory_mode">Pengurusan memori</string>
+    <string name="vs_memory_light">Ringan</string>
+    <string name="vs_memory_medium">Sederhana</string>
+    <string name="vs_memory_aggressive">Agresif</string>
+    <string name="vs_memory_light_sub">Apl latar belakang hanya dihentikan apabila memori telefon itu sendiri hampir habis. Paling sedikit mula semula; menggunakan paling banyak memori. Berkuat kuasa selepas VM dimulakan semula sepenuhnya.</string>
+    <string name="vs_memory_medium_sub">Seimbang: mengekalkan bilangan sederhana apl latar belakang dan menghentikan selebihnya apabila memori bebas semakin berkurangan. Berkuat kuasa selepas VM dimulakan semula sepenuhnya.</string>
+    <string name="vs_memory_aggressive_sub">Mengekalkan beberapa apl latar belakang sahaja dan menyemak dengan kerap, jadi memori dibebaskan awal. Menggunakan paling sedikit memori, tetapi apl lebih kerap dimulakan semula. Berkuat kuasa selepas VM dimulakan semula sepenuhnya.</string>
+    <string name="as_accent">Warna aksen</string>
+    <string name="as_accent_sub">Pilih mana-mana warna untuk menggayakan semula keseluruhan aplikasi</string>
+    <string name="as_accent_default">Matahari terbenam (lalai)</string>
+    <string name="as_accent_pick">Pilih warna</string>
+    <string name="as_accent_reset">Set semula</string>
+    <string name="as_accent_apply">Guna</string>
+    <string name="as_accent_hex">Hex</string>
+    <string name="as_accent_hue">Rona</string>
+    <string name="as_accent_sat">Ketepuan</string>
+    <string name="as_accent_val">Kecerahan</string>
     <string name="log_copy">Salin</string>
     <string name="log_export">Eksport .log</string>
     <string name="log_copied">Disalin ke papan keratan</string>
@@ -245,9 +245,9 @@
     <string name="update_download_error">Muat turun gagal: %1$s</string>
     <string name="update_open_github">Lihat di GitHub</string>
     <string name="vs_camera">Kamera hos (eksperimen)</string>
-    <string name="vs_camera_sub">ROM HAL1: pratonton dan foto 640×480, kamera belakang/depan. Memerlukan kebenaran dan mulakan semula VM sepenuhnya. Kamera ditutup apabila AEmulator berada di latar belakang; buka semula aplikasi kamera tetamu. Video dirakam pada 640×480.</string>
+    <string name="vs_camera_sub">ROM HAL1: pratonton dan foto 640×480, kamera belakang/depan. Memerlukan kebenaran dan mulakan semula VM sepenuhnya. Kamera ditutup apabila AEmulator Plus berada di latar belakang; buka semula aplikasi kamera tetamu. Video dirakam pada 640×480.</string>
     <string name="vs_microphone">Mikrofon hos (eksperimen)</string>
-    <string name="vs_microphone_sub">Aplikasi tetamu merakam daripada mikrofon telefon (perakam suara, nota). Memerlukan kebenaran dan mulakan semula VM sepenuhnya. Rakaman berhenti apabila AEmulator berada di latar belakang; buka semula aplikasi perakam tetamu. ROM 4.x sahaja.</string>
+    <string name="vs_microphone_sub">Aplikasi tetamu merakam daripada mikrofon telefon (perakam suara, nota). Memerlukan kebenaran dan mulakan semula VM sepenuhnya. Rakaman berhenti apabila AEmulator Plus berada di latar belakang; buka semula aplikasi perakam tetamu. ROM 4.x sahaja.</string>
     <string name="microphone_permission_denied">Kebenaran mikrofon ditolak. Aplikasi tetamu akan merakam senyap; berikan kebenaran dalam tetapan aplikasi Android dan mulakan semula VM sepenuhnya untuk mencuba lagi.</string>
     <string name="vs_sim_title">Kad SIM</string>
     <string name="vs_sim_present">Kad SIM dimasukkan</string>
@@ -282,9 +282,6 @@
     <string name="catalog_section_source">Buka sumber bahagian</string>
     <string name="catalog_download_rom">Muat turun %1$s</string>
     <string name="catalog_back_sections">Kembali ke bahagian</string>
-    <plurals name="catalog_rom_count">
-        <item quantity="other">%1$d ROM</item>
-    </plurals>
     <string name="catalog_reported">Status keserasian ROM tidak disahkan oleh aplikasi.</string>
     <string name="catalog_no_roms">Tiada ROM buat masa ini.</string>
     <string name="catalog_no_url">URL muat turun ROM tidak tersedia sekarang.</string>
@@ -516,9 +513,6 @@
     <string name="folder_empty">Kosong — lepaskan ROM di sini</string>
     <string name="folder_open">Buka folder</string>
     <string name="folder_close">Tutup folder</string>
-    <plurals name="folder_roms">
-        <item quantity="other">%1$d ROM</item>
-    </plurals>
     <string name="phantom_title">Pembunuh proses hantu</string>
     <string name="phantom_msg">Peranti anda tidak mendayakan pilihan “Lumpuhkan sekatan proses anak” dalam Pilihan Pembangun. Ini bermakna zygote akan dimatikan semasa permulaan emulator, menyebabkan emulator tidak dapat but. Oleh itu, SANGAT DISYORKAN untuk mendayakannya.</string>
     <string name="phantom_open_dev">Buka Pilihan Pembangun</string>
@@ -532,4 +526,18 @@
     <string name="catalog_download_checking">Menyemak pautan…</string>
     <string name="catalog_download_title">Memuat turun ROM</string>
     <string name="catalog_download_failed">Muat turun gagal: %1$s</string>
+    <string name="al_title">Pelancar Activity</string>
+    <string name="m_activities">Pelancar Activity</string>
+    <string name="al_search_packages">Cari pakej</string>
+    <string name="al_search_activities">Cari Activity</string>
+    <string name="al_no_packages">Tiada pakej ditemui</string>
+    <string name="al_no_activities">Tiada Activity ditemui</string>
+    <string name="al_not_exported">tidak dieksport</string>
+    <string name="al_starting">Memulakan %1$s…</string>
+    <string name="catalog_share_rom">Kongsi pautan muat turun %1$s</string>
+    <string name="m_battery_old_note">Versi Android ini membaca bateri hanya semasa ia dimulakan. Tahap dan keadaan pengecasan yang anda tetapkan disimpan dan digunakan pada pelancaran VM seterusnya.</string>
+    <string name="vs_no_dex2oat">Nyahaktifkan dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Aplikasi dan kod sistem tidak pernah dikompil dalam sistem tetamu: setiap jalanan dex2oat terus gagal. Amaran: ini boleh menyebabkan ranap, kelicauan dan tingkah laku tidak diingini yang lain (aplikasi berjalan lebih perlahan, sesetengah firmware tidak dapat but tanpa kompilasi). Dinyahaktifkan secara lalai. Berkuat kuasa pada pelancaran penuh seterusnya.</string>
+    <string name="m_multitask">Penukaran tugas</string>
+    <string name="nav_show">Tunjukkan bar butang Android</string>
 </resources>

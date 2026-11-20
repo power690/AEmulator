@@ -218,7 +218,7 @@
     <string name="lib3d_spec_model">Model</string>
     <string name="as_upstream_row">Upstream: %1$s</string>
     <string name="as_original_row">Asyl: %1$s</string>
-    <string name="sms_default_body">AEmulator-dan salam</string>
+    <string name="sms_default_body">AEmulator Plus-dan salam</string>
     <string name="theme_original">Asyl</string>
     <string name="theme_sunset">Sunset</string>
     <string name="sim_country_emulator">Emulýator</string>

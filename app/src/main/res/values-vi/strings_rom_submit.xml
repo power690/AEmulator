@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Danh mục có hơn 10000 ROM.</string>
     <string name="catalog_tested_on">Trình giả lập %1$s</string>
     <string name="catalog_submitted_by">Gửi bởi %1$s</string>
+    <string name="submit_not_direct_title">Bắt buộc dùng liên kết trực tiếp</string>
+    <string name="submit_not_direct_text">Các nội dung gửi phải là liên kết tải xuống trực tiếp tới tệp ROM. Không chấp nhận liên kết tới trang web hoặc tới dịch vụ lưu tệp phải mở trang trước.\n\nNơi khuyên dùng để tải lên là archive.org.</string>
 </resources>

@@ -835,6 +835,24 @@ class GuestVm(val ctx: Context, val img: GuestImage, val lowPowerBoot: Boolean =
         overrides["qemu.sf.lcd_density"] = s.density.toString()
         // MIUI 10 forces the density of the phone's own panel from this one (440 on a 540-pixel screen)
         if (listOf("system/build.prop", "vendor/build.prop").any { runCatching { File(paths.root, it).readText() }.getOrDefault("").contains("persist.miui.density_v2") }) overrides["persist.miui.density_v2"] = s.density.toString()
+        // Added for AEmulator Plus (2026-11-19): FunTouch 9's prop files turn ro.build.eyecare.support on, and the
+        // battery service's first backlight callback then initialises the eye-comfort adapter, whose HIDL lookup
+        // (vendor.display.color@1.0 IDisplayColor.getService) throws on a GSI without that vendor HAL - an uncaught
+        // exception on a binder callback thread that ended the first system_server about 40 s into FunTouch 9.2's
+        // boot ("android_os_HwBinder: Uncaught exception!", services dying in waves). A phone without eye care
+        // ships the flag unset and the lights service keeps its plain path, so a vivo tree that carries no
+        // display.color HAL gets the flag turned off the same way.
+        runCatching {
+            val vivoTree = File(paths.root, "system/bin/vivo_daemon").isFile || File(paths.root, "system/framework/WfdCommon.jar").isFile ||
+                File(paths.root, "system_ext/priv-app/WfdService").isDirectory || File(paths.root, "system/priv-app/WfdService").isDirectory
+            val eyeHal = listOf("vendor/bin/hw", "system/vendor/bin/hw", "vendor/lib64/hw", "system/vendor/lib64/hw").any { d ->
+                File(paths.root, d).listFiles().orEmpty().any { it.name.contains("display.color", true) }
+            }
+            if (vivoTree && img.api < 30 && !eyeHal) {
+                overrides["ro.build.eyecare.support"] = "0"
+                log("props: ro.build.eyecare.support turned off (vivo tree without a display.color HAL; the eye-comfort init would end system_server)")
+            }
+        }
         // Panels mounted sideways (Galaxy Tab 10.1 GT-P7300: "ro.sf.hwrotation=90", fb 800x1280 on a landscape UI) make
         // SurfaceFlinger turn the whole UI inside the framebuffer. Here the framebuffer IS the screen the user sees at
         // the resolution they picked, so the rotation only shows up as a UI lying on its side: 1280x720 came up as a

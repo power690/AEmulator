@@ -18,7 +18,7 @@
     <string name="storage_text">Разрешите доступ ко всем файлам — тогда «карта памяти» каждой системы будет лежать в папке AEmulator внутренней памяти, и туда удобно класть APK, музыку и фото.</string>
     <string name="allow">Разрешить</string>
     <string name="empty_title">Пока нет ни одной системы</string>
-    <string name="empty_text">Добавьте прошивку Android 1.0–17 для ARM: ZIP для рекавери, архив Odin (.tar.md5), system.img или factory-образ.</string>
+    <string name="empty_text">Добавьте прошивку Android 2.3–6.0 для ARM: ZIP для рекавери, архив Odin (.tar.md5), system.img или factory-образ.</string>
     <string name="empty_help">Какие файлы подходят?</string>
     <string name="import_failed">Импорт не удался</string>
     <string name="import_running">Импорт прошивки</string>
@@ -30,7 +30,7 @@
     <string name="start">Запустить</string>
     <string name="rename">Переименовать</string>
     <string name="help_title">Какие прошивки подходят</string>
-    <string name="help_text">• Android 2.3–4.4: 32-битные ARM-прошивки, работают через QEMU.\n• Android 5.0–17: arm64-прошивки и GSI, работают нативно на телефоне.\n\nФорматы:\n• ZIP для CWM/TWRP (MIUI, CyanogenMod, порты, большинство кастомных прошивок);\n• Samsung: .tar / .tar.md5 из Odin или ZIP с AP_*.tar.md5;\n• factory-образы Google (.tgz / .zip);\n• system.img (ext4, sparse, YAFFS2), TWRP-бэкап system.ext4.win;\n• OTA с system.new.dat(.br) + system.transfer.list;\n• Также: 7z, RAR, LG .kdz, Sony .ftf, Huawei UPDATE.APP, Qualcomm EDL, payload.bin, super.img, EROFS, Android-x86 ISO.\n\nЛучше всего, если в архиве есть boot.img — из него берётся порядок загрузки служб.</string>
+    <string name="help_text">• Android 2.3, 4.0–4.4 — основная поддержка; 5.x–6.x — экспериментально.\n• Только 32-битные ARM-прошивки (armeabi / armeabi-v7a).\n\nФорматы:\n• ZIP для CWM/TWRP (MIUI, CyanogenMod, порты, большинство кастомных прошивок);\n• Samsung: .tar / .tar.md5 из Odin или ZIP с AP_*.tar.md5;\n• factory-образы Google (.tgz / .zip);\n• system.img (ext4, sparse), TWRP-бэкап system.ext4.win;\n• OTA с system.new.dat(.br) + system.transfer.list.\n\nЛучше всего, если в архиве есть boot.img — из него берётся порядок загрузки служб.</string>
     <string name="vs_screen">Экран гостя</string>
     <string name="vs_fixed_2x">Для Android 2.x экран фиксирован: 480×800, 240 dpi.</string>
     <string name="vs_screen_hint">Чем меньше экран — тем быстрее работает система.</string>
@@ -45,13 +45,6 @@
     <string name="vs_legacy_sub">Старый движок стенда Desire HD: GLES только 1.x, экран 480×800. Включайте, если основной не справился.</string>
     <string name="vs_lowram">Режим малой памяти</string>
     <string name="vs_lowram_sub">ro.config.low_ram — система экономит память.</string>
-    <string name="vs_memory_mode">Управление памятью</string>
-    <string name="vs_memory_light">Лёгкое</string>
-    <string name="vs_memory_medium">Среднее</string>
-    <string name="vs_memory_aggressive">Агрессивное</string>
-    <string name="vs_memory_light_sub">Фоновые приложения останавливаются, только когда у самого телефона почти не остаётся памяти. Меньше всего перезапусков; расходует больше всего памяти. Вступает в силу после полного перезапуска виртуальной машины.</string>
-    <string name="vs_memory_medium_sub">Сбалансированный режим: сохраняет умеренное число фоновых приложений и останавливает остальные, когда свободной памяти становится мало. Вступает в силу после полного перезапуска виртуальной машины.</string>
-    <string name="vs_memory_aggressive_sub">Сохраняет мало фоновых приложений и проверяет часто, поэтому память освобождается заранее. Расходует меньше всего памяти, но приложения перезапускаются чаще. Вступает в силу после полного перезапуска виртуальной машины.</string>
     <string name="vs_proxy">Современный TLS-прокси</string>
     <string name="vs_proxy_sub">Старые браузеры и приложения открывают современные HTTPS-сайты.</string>
     <string name="vs_controls">Управление</string>
@@ -99,7 +92,14 @@
     <string name="as_orig_sub">Создатель эмуляторов Desire HD и One M7, из которых вырос проект</string>
     <string name="as_github">Исходный код на GitHub</string>
     <string name="as_version">Версия %1$s</string>
-    <string name="as_about">AEmulator запускает старые прошивки Android на современных телефонах. Бесплатно и с открытым кодом.</string>
+    <string name="as_about">AEmulator Plus запускает старые прошивки Android на современных телефонах. Бесплатно и с открытым кодом.</string>
+    <string name="vs_memory_mode">Управление памятью</string>
+    <string name="vs_memory_light">Лёгкое</string>
+    <string name="vs_memory_medium">Среднее</string>
+    <string name="vs_memory_aggressive">Агрессивное</string>
+    <string name="vs_memory_light_sub">Фоновые приложения останавливаются, только когда у самого телефона почти не остаётся памяти. Меньше всего перезапусков; расходует больше всего памяти. Вступает в силу после полного перезапуска виртуальной машины.</string>
+    <string name="vs_memory_medium_sub">Сбалансированный режим: сохраняет умеренное число фоновых приложений и останавливает остальные, когда свободной памяти становится мало. Вступает в силу после полного перезапуска виртуальной машины.</string>
+    <string name="vs_memory_aggressive_sub">Сохраняет мало фоновых приложений и проверяет часто, поэтому память освобождается заранее. Расходует меньше всего памяти, но приложения перезапускаются чаще. Вступает в силу после полного перезапуска виртуальной машины.</string>
     <string name="log_copy">Копировать</string>
     <string name="log_export">Экспорт .log</string>
     <string name="log_copied">Скопировано в буфер обмена</string>
@@ -221,9 +221,9 @@
     <string name="update_download_error">Ошибка загрузки: %1$s</string>
     <string name="update_open_github">Открыть на GitHub</string>
     <string name="vs_camera">Камера телефона (экспериментально)</string>
-    <string name="vs_camera_sub">Прошивки HAL1: предпросмотр и фото 640×480, задняя и фронтальная камеры. Нужно разрешение и полный перезапуск ВМ. При сворачивании AEmulator камера закрывается; откройте камеру гостя заново. Запись видео пока не поддерживается.</string>
+    <string name="vs_camera_sub">Прошивки HAL1: предпросмотр и фото 640×480, задняя и фронтальная камеры. Нужно разрешение и полный перезапуск ВМ. При сворачивании AEmulator Plus камера закрывается; откройте камеру гостя заново. Запись видео пока не поддерживается.</string>
     <string name="vs_microphone">Микрофон телефона (экспериментально)</string>
-    <string name="vs_microphone_sub">Приложения гостя пишут с микрофона телефона (диктофон, заметки). Нужно разрешение и полный перезапуск ВМ. При сворачивании AEmulator запись останавливается; откройте диктофон гостя заново. Только прошивки 4.x.</string>
+    <string name="vs_microphone_sub">Приложения гостя пишут с микрофона телефона (диктофон, заметки). Нужно разрешение и полный перезапуск ВМ. При сворачивании AEmulator Plus запись останавливается; откройте диктофон гостя заново. Только прошивки 4.x.</string>
     <string name="microphone_permission_denied">Нет разрешения на микрофон. Приложения гостя будут писать тишину. Выдайте разрешение в настройках приложения Android и полностью перезапустите ВМ.</string>
     <string name="camera_permission_denied">Нет разрешения на камеру. Прошивка запустится без доступа к камере телефона. Выдайте разрешение в настройках приложения Android и полностью перезапустите ВМ.</string>
     <string name="vs_skip_setup">Пропустить первоначальную настройку</string>
@@ -241,12 +241,6 @@
     <string name="catalog_download_rom">Скачать %1$s</string>
     <string name="catalog_share_rom">Поделиться ссылкой на %1$s</string>
     <string name="catalog_back_sections">К списку разделов</string>
-    <plurals name="catalog_rom_count">
-        <item quantity="one">%1$d прошивка</item>
-        <item quantity="few">%1$d прошивки</item>
-        <item quantity="many">%1$d прошивок</item>
-        <item quantity="other">%1$d прошивки</item>
-    </plurals>
     <string name="catalog_reported">Статусы совместимости прошивок не проверяются приложением.</string>
     <string name="catalog_no_roms">Пока нет прошивок.</string>
     <string name="catalog_no_url">Ссылка для скачивания прошивки пока недоступна.</string>
@@ -520,12 +514,6 @@
     <string name="folder_empty">Пусто — перетащите прошивки сюда</string>
     <string name="folder_open">Открыть папку</string>
     <string name="folder_close">Закрыть папку</string>
-    <plurals name="folder_roms">
-        <item quantity="one">%1$d прошивка</item>
-        <item quantity="few">%1$d прошивки</item>
-        <item quantity="many">%1$d прошивок</item>
-        <item quantity="other">%1$d прошивки</item>
-    </plurals>
     <string name="phantom_title">Убийца фантомных процессов</string>
     <string name="phantom_msg">На вашем устройстве не включена опция «Отключить ограничения дочерних процессов» в параметрах разработчика. Из-за этого zygote будет завершён при запуске эмулятора, и эмулятор не сможет загрузиться. Поэтому НАСТОЯТЕЛЬНО РЕКОМЕНДУЕТСЯ включить её.</string>
     <string name="phantom_open_dev">Открыть параметры разработчика</string>
@@ -547,4 +535,9 @@
     <string name="al_no_activities">Активности не найдены</string>
     <string name="al_not_exported">не экспортируется</string>
     <string name="al_starting">Запуск %1$s…</string>
+    <string name="m_battery_old_note">Эта версия Android считывает батарею только во время запуска. Заданные вами уровень и состояние зарядки сохраняются и используются при следующем запуске VM.</string>
+    <string name="vs_no_dex2oat">Отключить dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Приложения и системный код никогда не компилируются в гостевой системе: каждый запуск dex2oat сразу завершается ошибкой. Внимание: возможны сбои, артефакты и другое непредвиденное поведение (приложения работают медленнее, некоторые прошивки не грузятся без компиляции). Выключено по умолчанию. Применяется при следующем полном запуске.</string>
+    <string name="m_multitask">Переключение задач</string>
+    <string name="nav_show">Показать панель кнопок Android</string>
 </resources>

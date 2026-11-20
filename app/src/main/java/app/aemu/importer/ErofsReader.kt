@@ -31,7 +31,7 @@ class ErofsReader(private val src: RandomSource, private val checkCancelled: () 
     private val rootNid: Long
     private val packedNid: Long
     private val zeroPadding: Boolean
-    private var packed: ByteArray? = null
+    @Volatile private var packed: ByteArray? = null
 
     private class Inode(val mode: Int, val size: Long, val layout: Int, val u: Int, val body: Long)
     private class Extent(val lofs: Long, val type: Int, var pa: Long, var plen: Int) {

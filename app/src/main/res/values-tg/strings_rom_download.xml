@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Боргирӣ аз тарҷеҳ ҷараён дорад.</string>
+    <string name="rom_dl_cannot_start">Боргириро дар замина оғоз кардан нашуд.</string>
+    <string name="rom_dl_channel">Боргирӣ ROM</string>
+    <string name="rom_dl_channel_done">Боргирӣ ROM анҷом ёфт</string>
+    <string name="rom_dl_done">ROM боргирӣ шуд</string>
+    <string name="rom_dl_done_text">Барои ворид кардани %1$s пахш кунед</string>
+    <string name="rom_dl_failed">Боргирӣ ROM бо нокомӣ анҷом ёфт</string>
+    <string name="rom_dl_hide">Пинҳон кардан</string>
+    <string name="rom_dl_page">Пайванди боргирӣ</string>
+    <string name="rom_dl_page_text">Ин пайванд саҳифаи веб аст. Барои кушодани он дар браузер пахш кунед.</string>
+</resources>

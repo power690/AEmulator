@@ -108,7 +108,7 @@
     <string name="as_orig_sub">Tvorca emulátorov Desire HD a One M7, z ktorých tento projekt vyrástol</string>
     <string name="as_github">Zdrojový kód na GitHube</string>
     <string name="as_version">Verzia %1$s</string>
-    <string name="as_about">AEmulator spúšťa klasický firmvér Androidu na moderných telefónoch. Zadarmo a s otvoreným zdrojovým kódom.</string>
+    <string name="as_about">AEmulator Plus spúšťa klasický firmvér Androidu na moderných telefónoch. Zadarmo a s otvoreným zdrojovým kódom.</string>
     <string name="log_copy">Kopírovať</string>
     <string name="log_export">Exportovať .log</string>
     <string name="log_copied">Skopírované do schránky</string>
@@ -255,9 +255,9 @@
     <string name="update_download_error">Sťahovanie zlyhalo: %1$s</string>
     <string name="update_open_github">Zobraziť na GitHube</string>
     <string name="vs_camera">Kamera hostiteľa (experimentálne)</string>
-    <string name="vs_camera_sub">ROM HAL1: ukážka a fotografie 640×480, zadná/predná kamera. Vyžaduje povolenie a úplný reštart VM. Kamera sa zatvorí, keď AEmulator prejde do pozadia; znova otvorte aplikáciu fotoaparátu v hosťovanom systéme. Video sa nahráva v rozlíšení 640×480.</string>
+    <string name="vs_camera_sub">ROM HAL1: ukážka a fotografie 640×480, zadná/predná kamera. Vyžaduje povolenie a úplný reštart VM. Kamera sa zatvorí, keď AEmulator Plus prejde do pozadia; znova otvorte aplikáciu fotoaparátu v hosťovanom systéme. Video sa nahráva v rozlíšení 640×480.</string>
     <string name="vs_microphone">Mikrofón hostiteľa (experimentálne)</string>
-    <string name="vs_microphone_sub">Aplikácie v hosťovanom systéme nahrávajú z mikrofónu telefónu (diktafón, poznámky). Vyžaduje povolenie a úplný reštart VM. Nahrávanie sa zastaví, keď AEmulator prejde do pozadia; znova otvorte aplikáciu diktafónu. Iba ROM 4.x.</string>
+    <string name="vs_microphone_sub">Aplikácie v hosťovanom systéme nahrávajú z mikrofónu telefónu (diktafón, poznámky). Vyžaduje povolenie a úplný reštart VM. Nahrávanie sa zastaví, keď AEmulator Plus prejde do pozadia; znova otvorte aplikáciu diktafónu. Iba ROM 4.x.</string>
     <string name="microphone_permission_denied">Povolenie mikrofónu bolo zamietnuté. Aplikácie v hosťovanom systéme budú nahrávať ticho; udeľte povolenie v nastaveniach aplikácií Androidu a pre nový pokus VM úplne reštartujte.</string>
     <string name="vs_sim_title">Karty SIM</string>
     <string name="vs_sim_present">SIM karta vložená</string>
@@ -538,4 +538,18 @@
     <string name="catalog_download_checking">Kontrola odkazu…</string>
     <string name="catalog_download_title">Sťahovanie ROM</string>
     <string name="catalog_download_failed">Sťahovanie zlyhalo: %1$s</string>
+    <string name="al_title">Spúšťač Activity</string>
+    <string name="m_activities">Spúšťač Activity</string>
+    <string name="al_search_packages">Hľadať balíky</string>
+    <string name="al_search_activities">Hľadať Activity</string>
+    <string name="al_no_packages">Nenašli sa žiadne balíky</string>
+    <string name="al_no_activities">Nenašlo sa žiadne Activity</string>
+    <string name="al_not_exported">neexportované</string>
+    <string name="al_starting">Spúšťa sa %1$s…</string>
+    <string name="catalog_share_rom">Zdieľať odkaz na stiahnutie %1$s</string>
+    <string name="m_battery_old_note">Táto verzia Androidu číta batériu iba počas spúšťania. Úroveň a stav nabíjania, ktoré nastavíte, sa uložia a použijú sa pri ďalšom spustení VM.</string>
+    <string name="vs_no_dex2oat">Vypnúť dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Aplikácie a systémový kód sa v hosťovskom systéme nikdy nekompilujú: každé spustenie dex2oat okamžite zlyhá. Varovanie: môže to spôsobiť pády, chyby a iné neočakávané správanie (aplikácie bežia pomalšie, niektoré firmwére sa bez kompilácie nespustia). Predvolene vypnuté. Uplatní sa pri ďalšom úplnom spustení.</string>
+    <string name="m_multitask">Prepínanie úloh</string>
+    <string name="nav_show">Zobraziť lištu tlačidiel Androidu</string>
 </resources>

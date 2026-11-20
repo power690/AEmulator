@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Der downloader allerede noget.</string>
+    <string name="rom_dl_cannot_start">Downloaden kunne ikke startes i baggrunden.</string>
+    <string name="rom_dl_channel">ROM-download</string>
+    <string name="rom_dl_channel_done">ROM-download fuldført</string>
+    <string name="rom_dl_done">ROM downloadet</string>
+    <string name="rom_dl_done_text">Tryk for at importere %1$s</string>
+    <string name="rom_dl_failed">ROM-download mislykkedes</string>
+    <string name="rom_dl_hide">Skjul</string>
+    <string name="rom_dl_page">Downloadlink</string>
+    <string name="rom_dl_page_text">Dette link er en webside. Tryk for at åbne den i browseren.</string>
+</resources>

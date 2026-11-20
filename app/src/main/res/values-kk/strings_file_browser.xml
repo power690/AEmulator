@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">VM сақтық көшірмесін (.aessvm) басқа файлдармен бірге емес, жеке импорттау керек.</string>
     <string name="imp_joining">%1$s файлының %2$d бөлігі біріктірілуде…</string>
     <string name="imp_split_missing">Бөлінген %1$s мұрағатының %2$s бөлігі жоқ. Оның барлық бөліктерін таңдаңыз немесе бір қалтада ұстаңыз.</string>
+    <string name="fb_search">Іздеу</string>
+    <string name="fb_search_hint">Осы қалтада іздеу</string>
+    <string name="fb_no_matches">Сәйкес файлдар не қалталар жоқ</string>
 </resources>

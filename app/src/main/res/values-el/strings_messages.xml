@@ -208,9 +208,9 @@
     <string name="lib3d_spec_screen">Οθόνη</string>
     <string name="lib3d_spec_size">Μέγεθος</string>
     <string name="lib3d_spec_model">Μοντέλο</string>
-    <string name="as_upstream_row">Upstream: %1$s</string>
+    <string name="as_upstream_row">Αρχικό έργο: %1$s</string>
     <string name="as_original_row">Πρωτότυπο: %1$s</string>
-    <string name="sms_default_body">Χαιρετίσματα από το AEmulator</string>
+    <string name="sms_default_body">Χαιρετίσματα από το AEmulator Plus</string>
     <string name="theme_original">Αρχικό</string>
     <string name="theme_sunset">Ηλιοβασίλεμα</string>
     <string name="sim_country_emulator">Εξομοιωτής</string>

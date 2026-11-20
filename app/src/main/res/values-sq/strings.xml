@@ -108,7 +108,7 @@
     <string name="as_orig_sub">Krijuesi i emulatorëve Desire HD dhe One M7 nga të cilët u rrit ky projekt</string>
     <string name="as_github">Kodi burimor në GitHub</string>
     <string name="as_version">Versioni %1$s</string>
-    <string name="as_about">AEmulator ekzekuton firmware klasik të Android-it në telefona modernë. Falas dhe me kod të hapur.</string>
+    <string name="as_about">AEmulator Plus ekzekuton firmware klasik të Android-it në telefona modernë. Falas dhe me kod të hapur.</string>
     <string name="log_copy">Kopjo</string>
     <string name="log_export">Eksporto .log</string>
     <string name="log_copied">U kopjua në clipboard</string>
@@ -244,9 +244,9 @@
     <string name="update_download_error">Shkarkimi dështoi: %1$s</string>
     <string name="update_open_github">Shiko në GitHub</string>
     <string name="vs_camera">Kamera e pritësit (eksperimentale)</string>
-    <string name="vs_camera_sub">ROM-e HAL1: pamje paraprake dhe foto 640×480, kamera e pasme/e përparme. Kërkon leje dhe një rinisje të plotë të VM-së. Kamera mbyllet kur AEmulator kalon në prapavijë; rihapeni aplikacionin e kamerës së mysafirit. Videoja regjistrohet në 640×480.</string>
+    <string name="vs_camera_sub">ROM-e HAL1: pamje paraprake dhe foto 640×480, kamera e pasme/e përparme. Kërkon leje dhe një rinisje të plotë të VM-së. Kamera mbyllet kur AEmulator Plus kalon në prapavijë; rihapeni aplikacionin e kamerës së mysafirit. Videoja regjistrohet në 640×480.</string>
     <string name="vs_microphone">Mikrofoni i pritësit (eksperimental)</string>
-    <string name="vs_microphone_sub">Aplikacionet e mysafirit regjistrojnë nga mikrofoni i telefonit (regjistrues zëri, shënime). Kërkon leje dhe një rinisje të plotë të VM-së. Regjistrimi ndalon kur AEmulator kalon në prapavijë; rihapeni aplikacionin e regjistrimit të mysafirit. Vetëm ROM-e 4.x.</string>
+    <string name="vs_microphone_sub">Aplikacionet e mysafirit regjistrojnë nga mikrofoni i telefonit (regjistrues zëri, shënime). Kërkon leje dhe një rinisje të plotë të VM-së. Regjistrimi ndalon kur AEmulator Plus kalon në prapavijë; rihapeni aplikacionin e regjistrimit të mysafirit. Vetëm ROM-e 4.x.</string>
     <string name="microphone_permission_denied">Leja e mikrofonit u refuzua. Aplikacionet e mysafirit do të regjistrojnë heshtje; jepni lejen te cilësimet e aplikacionit në Android dhe riniseni plotësisht VM-në për të provuar përsëri.</string>
     <string name="vs_sim_title">Kartat SIM</string>
     <string name="vs_sim_present">Karta SIM e futur</string>
@@ -534,4 +534,18 @@
     <string name="catalog_download_checking">Po kontrollohet lidhja…</string>
     <string name="catalog_download_title">Po shkarkohet ROM-i</string>
     <string name="catalog_download_failed">Shkarkimi dështoi: %1$s</string>
+    <string name="al_title">Nisës i Activity-ve</string>
+    <string name="m_activities">Nisës i Activity-ve</string>
+    <string name="al_search_packages">Kërko paketa</string>
+    <string name="al_search_activities">Kërko Activity</string>
+    <string name="al_no_packages">Nuk u gjet asnjë paketë</string>
+    <string name="al_no_activities">Nuk u gjet asnjë Activity</string>
+    <string name="al_not_exported">jo e eksportuar</string>
+    <string name="al_starting">Po nis %1$s…</string>
+    <string name="catalog_share_rom">Ndaj lidhjen e shkarkimit të %1$s</string>
+    <string name="m_battery_old_note">Kjo version Android e lexon baterinë vetëm gjatë nisjes. Niveli dhe gjendja e ngarkimit që caktoni ruhen dhe përdoren në nisjen e radhës të VM.</string>
+    <string name="vs_no_dex2oat">Çaktivizo dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Aplikacionet dhe kodi i sistemit nuk përkthehen kurrë në sistemin e ftuar: çdo xhim dex2oat dështon menjëherë. Kujdes: kjo mund të shkaktojë vithisje, probleme pamjeje dhe sjellje të papritura të tjera (aplikacionet ecin më ngadalë, disa firmware nisen pa përkthim). Çaktivizuar si parazgjedhje. Zbatohet në nisjen e plotë të radhës.</string>
+    <string name="m_multitask">Ndërrimi i detyrave</string>
+    <string name="nav_show">Shfaq shiritin e butonave të Android-it</string>
 </resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="as_builtin_browser">Ներկառուցված ֆայլ զննիչ</string>
+    <string name="as_builtin_browser_sub">Ընտրեք կեղծվածքը՝ ըստ ամսաթվի և չափի դասավորության, մի քանի ֆայլ միաժամանակ։ Անջատել՝ համակարգի ընտրիչն օգտագործելու համար։</string>
+    <string name="fb_access_scoped">Android 10-ը թաքցնում է ֆայլերի մեծ մասը այն ծրագրերից, որոնք դուրս չեն եկել սահմանափակ պահեստից, ուստի այս զննիչը դրանք այստեղ չի ցուցադրում։ Օգտագործեք համակարգի ընտրիչը։</string>
+    <string name="fb_access_text">Ձեր կեղծվածքի ֆայլերը ցուցակելու և մի քանիսը միաժամանակ ընտրելու համար զննիչին անհրաժեշտ է մուտք ձեր ֆայլեր։ Կարող եք նաև օգտագործել համակարգի ընտրիչը։</string>
+    <string name="fb_access_title">Թույլ տալ մուտքը ֆայլեր</string>
+    <string name="fb_clear">Մաքրել</string>
+    <string name="fb_documents">Փաստաթղթեր</string>
+    <string name="fb_downloads">Ներբեռնումներ</string>
+    <string name="fb_empty">Այստեղ ոչինչ չկա</string>
+    <string name="fb_firmware">aemulator/firmware</string>
+    <string name="fb_hidden">Թաքցված</string>
+    <string name="fb_import">Ներմուծել</string>
+    <string name="fb_internal">Ներքին պահեստ</string>
+    <string name="fb_no_matches">Ոչ մի ֆայլ կամ պանակ չի համընկնում</string>
+    <string name="fb_removable">SD քարտ / USB %1$d</string>
+    <string name="fb_search">Որոնել</string>
+    <string name="fb_search_hint">Որոնել այս պանակում</string>
+    <string name="fb_selected">Ընտրված է %1$d</string>
+    <string name="fb_sort_date">Ամսաթիվ</string>
+    <string name="fb_sort_name">Անվանում</string>
+    <string name="fb_sort_size">Չափ</string>
+    <string name="fb_system_picker">Համակարգի ընտրիչ</string>
+    <string name="fb_title_multi">Ընտրել ֆայլեր</string>
+    <string name="fb_title_single">Ընտրել ֆայլ</string>
+    <string name="fb_unreadable">Այս պանակը հնարավոր չէ կարդալ։ Android-ը որոշ պանակներ (օրինակ՝ այլ ծրագրերի տվյալները) փակ է պահում բոլոր ծրագրերի համար։</string>
+    <string name="fb_up">Վեր</string>
+    <string name="fb_use_system_picker">Փոխարենը օգտագործել համակարգի ընտրիչը</string>
+    <string name="imp_archive_alone">VM-ի պահուստ (.aessvm) ներմուծվում է միայն առանձին, ոչ թե այլ ֆայլերի հետ միասին։</string>
+    <string name="imp_joining">%1$s-ի %2$d մասերը միացվում են…</string>
+    <string name="imp_split_missing">%1$s բաժանված արխիվի %2$s մասը բացակայում է։ Ընտրեք բոլոր մասերը կամ պահեք դրանք մեկ պանակում։</string>
+</resources>

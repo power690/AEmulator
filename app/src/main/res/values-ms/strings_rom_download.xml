@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Muat turun lain sedang berjalan.</string>
+    <string name="rom_dl_cannot_start">Muat turun tidak dapat dimulakan di latar belakang.</string>
+    <string name="rom_dl_channel">Muat turun ROM</string>
+    <string name="rom_dl_channel_done">Muat turun ROM selesai</string>
+    <string name="rom_dl_done">ROM dimuat turun</string>
+    <string name="rom_dl_done_text">Ketik untuk mengimport %1$s</string>
+    <string name="rom_dl_failed">Muat turun ROM gagal</string>
+    <string name="rom_dl_hide">Sembunyi</string>
+    <string name="rom_dl_page">Pautan muat turun</string>
+    <string name="rom_dl_page_text">Pautan ini ialah halaman web. Ketik untuk membukanya dalam pelayar.</string>
+</resources>

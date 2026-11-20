@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Дар феҳрист зиёда аз 10000 ROM ҳаст.</string>
     <string name="catalog_tested_on">Эмулятор %1$s</string>
     <string name="catalog_submitted_by">Фиристодааст: %1$s</string>
+    <string name="submit_not_direct_title">Пайванди мустақим лозим аст</string>
+    <string name="submit_not_direct_text">Пешниҳодҳо бояд пайвандҳои мустақими боргирии файли ROM бошанд. Пайвандҳо ба саҳифаҳои веб ё ба мизбонҳое, ки аввал саҳифа мекушоянд, қабул намешаванд.\n\nҶои тавсияшуда барои боркунӣ archive.org аст.</string>
 </resources>

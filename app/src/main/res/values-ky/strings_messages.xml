@@ -218,7 +218,7 @@
     <string name="lib3d_spec_model">Модель</string>
     <string name="as_upstream_row">Upstream: %1$s</string>
     <string name="as_original_row">Баштапкы: %1$s</string>
-    <string name="sms_default_body">AEmulator’дон салам</string>
+    <string name="sms_default_body">AEmulator Plus’дон салам</string>
     <string name="theme_original">Баштапкы</string>
     <string name="theme_sunset">Sunset</string>
     <string name="sim_country_emulator">Эмулятор</string>

@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Резервна копија на ВМ (.aessvm) мора да се увезе самостојно, а не заедно со други датотеки.</string>
     <string name="imp_joining">Спојување на %2$d делови од %1$s…</string>
     <string name="imp_split_missing">Недостасува делот %2$s од поделената архива %1$s. Изберете ги сите нејзини делови или чувајте ги во една папка.</string>
+    <string name="fb_search">Пребарај</string>
+    <string name="fb_search_hint">Пребарај во оваа папка</string>
+    <string name="fb_no_matches">Нема соодветни датотеки или папки</string>
 </resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Триває інше завантаження.</string>
+    <string name="rom_dl_cannot_start">Не вдалося запустити завантаження у фоні.</string>
+    <string name="rom_dl_channel">Завантаження ROM</string>
+    <string name="rom_dl_channel_done">Завантаження ROM завершено</string>
+    <string name="rom_dl_done">ROM завантажено</string>
+    <string name="rom_dl_done_text">Торкніться, щоб імпортувати %1$s</string>
+    <string name="rom_dl_failed">Помилка завантаження ROM</string>
+    <string name="rom_dl_hide">Сховати</string>
+    <string name="rom_dl_page">Посилання на завантаження</string>
+    <string name="rom_dl_page_text">Це посилання на веб-сторінку. Торкніться, щоб відкрити її в браузері.</string>
+</resources>

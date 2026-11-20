@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">یک دانلود دیگر در حال انجام است.</string>
+    <string name="rom_dl_cannot_start">دانلود در پس‌زمینه امکان‌پذیر نشد.</string>
+    <string name="rom_dl_channel">دانلود ROM</string>
+    <string name="rom_dl_channel_done">دانلود ROM تمام شد</string>
+    <string name="rom_dl_done">ROM دانلود شد</string>
+    <string name="rom_dl_done_text">برای درون‌ریزی %1$s بزنید</string>
+    <string name="rom_dl_failed">دانلود ROM شکست خورد</string>
+    <string name="rom_dl_hide">پنهان کردن</string>
+    <string name="rom_dl_page">پیوند دانلود</string>
+    <string name="rom_dl_page_text">این پیوند یک صفحه وب است؛ برای باز کردن آن در مرورگر بزنید.</string>
+</resources>

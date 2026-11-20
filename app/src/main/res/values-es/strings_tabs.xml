@@ -8,4 +8,12 @@
     <string name="tab_minimize">Minimizar</string>
     <string name="tab_shutdown">Apagar</string>
     <string name="vm_slots_full">Los %1$d espacios para máquinas están en uso. Apaga primero una.</string>
+    <string name="tab_bar_hide">Ocultar barra de pestañas</string>
+    <string name="tab_bar_show">Mostrar barra de pestañas</string>
+    <string name="tab_drag_label">Arrastra a la pantalla para dividir</string>
+    <string name="tab_group_title">2 pestañas</string>
+    <string name="tab_split_action">Dividir</string>
+    <string name="tab_split_failed">Esa máquina ya no se puede añadir a esta pestaña.</string>
+    <string name="tab_split_text">Cada máquina vuelve a su propia pestaña. Ambas siguen en marcha.</string>
+    <string name="tab_split_title">¿Dividir 2 pestañas?</string>
 </resources>

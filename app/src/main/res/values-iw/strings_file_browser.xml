@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">גיבוי של מכונה וירטואלית (.aessvm) חייב להיות מיובא לבדו, לא יחד עם קבצים אחרים.</string>
     <string name="imp_joining">מחבר %2$d חלקים של %1$s…</string>
     <string name="imp_split_missing">חלק %2$s של הארכיון המפוצל %1$s חסר. בחר את כל החלקים שלו או שמור אותם בתיקייה אחת.</string>
+    <string name="fb_search">חיפוש</string>
+    <string name="fb_search_hint">חיפוש בתיקייה זו</string>
+    <string name="fb_no_matches">אין קבצים או תיקיות תואמים</string>
 </resources>

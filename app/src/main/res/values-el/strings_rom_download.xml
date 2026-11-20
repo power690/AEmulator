@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Προχωρεί ήδη άλλη λήψη.</string>
+    <string name="rom_dl_cannot_start">Δεν ήταν δυνατό να ξεκινήσει η λήψη στο παρασκήνιο.</string>
+    <string name="rom_dl_channel">Λήψη ROM</string>
+    <string name="rom_dl_channel_done">Η λήψη ROM ολοκληρώθηκε</string>
+    <string name="rom_dl_done">Το ROM λήφθηκε</string>
+    <string name="rom_dl_done_text">Πατήστε για εισαγωγή του %1$s</string>
+    <string name="rom_dl_failed">Αποτυχία λήψης ROM</string>
+    <string name="rom_dl_hide">Απόκρυψη</string>
+    <string name="rom_dl_page">Σύνδεσμος λήψης</string>
+    <string name="rom_dl_page_text">Αυτός ο σύνδεσμος είναι ιστοσελίδα. Πατήστε για να ανοίξει στο πρόγραμμα περιήγησης.</string>
+</resources>

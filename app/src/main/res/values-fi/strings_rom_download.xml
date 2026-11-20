@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Lataus on jo käynnissä.</string>
+    <string name="rom_dl_cannot_start">Latausta ei voitu käynnistää taustalla.</string>
+    <string name="rom_dl_channel">ROM-lataus</string>
+    <string name="rom_dl_channel_done">ROM-lataus valmis</string>
+    <string name="rom_dl_done">ROM ladattu</string>
+    <string name="rom_dl_done_text">Napauta tuodaksesi %1$s</string>
+    <string name="rom_dl_failed">ROM-lataus epäonnistui</string>
+    <string name="rom_dl_hide">Piilota</string>
+    <string name="rom_dl_page">Latauslinkki</string>
+    <string name="rom_dl_page_text">Tämä linkki on verkkosivu. Napauta avataksesi sen selaimessa.</string>
+</resources>

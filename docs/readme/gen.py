@@ -30,7 +30,7 @@ def render(code):
         build="docs/build-source.md" if code == "en" else "../build-source.md",
         audit="docs/license-audit.md" if code == "en" else "../license-audit.md",
         notice=f"{up}NOTICE.md",
-        sunset=SUNSET, upstream=UPSTREAM)
+        sunset=SUNSET, upstream=UPSTREAM, plus=PLUS)
     L = []
     if code in RTL:
         L.append('<div dir="rtl">\n')
@@ -64,10 +64,11 @@ def render(code):
     L.append(t["credits_text"].format(orig=ORIGINAL) + "\n")
     L.append(t["fork_line"].format(**rel) + "\n")
     L.append(f"## 🔗 {t['links_title']}\n")
-    L.append(f"- {t['l_fork']}: [somerandomusernam2/AEmulator-Plus]({REPO})")
-    L.append(f"- {t['l_upstream']}: [drel4/AEmulator-Sunset]({SUNSET})")
-    L.append(f"- {t['l_original']}: [uxazu/AEmulator]({UPSTREAM})")
-    L.append(f"- {t['l_author']}: [{AUTHOR_NAME}]({AUTHOR})")
+    L.append(f"- {t['l_fork']}: [somerandomusernam2/AEmulator-Plus]({REPO})\n")
+    L.append(f"- {t['l_upstream']}: [somerandomusernam2/AEmulator-Plus]({PLUS})\n")
+    L.append(f"- {t['l_sunset']}: [drel4/AEmulator-Sunset]({SUNSET})\n")
+    L.append(f"- {t['l_original']}: [uxazu/AEmulator]({UPSTREAM})\n")
+    L.append(f"- {t['l_author']}: [{AUTHOR_NAME}]({AUTHOR})\n")
     L.append(f"- {t['l_orig']}: [t.me/istratiit_ech]({ORIGINAL})\n")
     L.append(f"## 📄 {t['license_title']}\n")
     L.append(t["license_text"] + "\n")

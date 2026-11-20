@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Eýyäm başga bir ýüklemiş bar.</string>
+    <string name="rom_dl_cannot_start">Ýüklemeýi yzyna başarmak bolmady.</string>
+    <string name="rom_dl_channel">ROM ýüklemegi</string>
+    <string name="rom_dl_channel_done">ROM ýüklemegi gutardy</string>
+    <string name="rom_dl_done">ROM ýüklendi</string>
+    <string name="rom_dl_done_text">Import etmek üçin %1$s basyň</string>
+    <string name="rom_dl_failed">ROM ýüklemegi şowsuz boldy</string>
+    <string name="rom_dl_hide">Gizle</string>
+    <string name="rom_dl_page">Ýükleme baglanyşygy</string>
+    <string name="rom_dl_page_text">Bu baglanyşyk web sahypasy. Brauzerde açmak üçin basyň.</string>
+</resources>

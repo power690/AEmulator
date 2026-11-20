@@ -54,12 +54,14 @@ cd AEmulator-Plus
 
 AEmulator Plus 源自[原作者](https://t.me/istratiit_ech)的 HTC Desire HD 与 HTC One M7 模拟器——没有他的引擎就没有本项目。
 
-这是 [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset) 的修改版分支，而后者又是 [uxazu/AEmulator](https://github.com/uxazu/AEmulator) 的修改版分支。
+这是 [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus) 的修改版分支，而后者又是 [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset) 的修改版分支，而它又是 [uxazu/AEmulator](https://github.com/uxazu/AEmulator) 的修改版分支。
 
 ## 🔗 链接
 
 - 我的分支: [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)
-- 上游: [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)
+- 上游: [somerandomusernam2/AEmulator-Plus](https://github.com/somerandomusernam2/AEmulator-Plus)
+
+- AEmulator-Sunset: [drel4/AEmulator-Sunset](https://github.com/drel4/AEmulator-Sunset)
 - 原始项目: [uxazu/AEmulator](https://github.com/uxazu/AEmulator)
 - 作者: [somerandomusername2](https://github.com/somerandomusernam2)
 - 原作者: [t.me/istratiit_ech](https://t.me/istratiit_ech)

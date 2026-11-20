@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Ya hay una descarga en curso.</string>
+    <string name="rom_dl_cannot_start">No se pudo iniciar la descarga en segundo plano.</string>
+    <string name="rom_dl_channel">Descarga de ROM</string>
+    <string name="rom_dl_channel_done">Descarga de ROM terminada</string>
+    <string name="rom_dl_done">ROM descargada</string>
+    <string name="rom_dl_done_text">Toca para importar %1$s</string>
+    <string name="rom_dl_failed">Error al descargar la ROM</string>
+    <string name="rom_dl_hide">Ocultar</string>
+    <string name="rom_dl_page">Enlace de descarga</string>
+    <string name="rom_dl_page_text">Este enlace es una página web: al tocarlo se abre en el navegador.</string>
+</resources>

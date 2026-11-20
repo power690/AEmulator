@@ -108,7 +108,7 @@
     <string name="as_orig_sub">Tvůrce emulátorů Desire HD a One M7, z nichž tento projekt vyrostl</string>
     <string name="as_github">Zdrojový kód na GitHubu</string>
     <string name="as_version">Verze %1$s</string>
-    <string name="as_about">AEmulator spouští klasický firmware Androidu na moderních telefonech. Zdarma a s otevřeným zdrojovým kódem.</string>
+    <string name="as_about">AEmulator Plus spouští klasický firmware Androidu na moderních telefonech. Zdarma a s otevřeným zdrojovým kódem.</string>
     <string name="log_copy">Kopírovat</string>
     <string name="log_export">Exportovat .log</string>
     <string name="log_copied">Zkopírováno do schránky</string>
@@ -244,9 +244,9 @@
     <string name="update_download_error">Stahování selhalo: %1$s</string>
     <string name="update_open_github">Zobrazit na GitHubu</string>
     <string name="vs_camera">Kamera hostitele (experimentální)</string>
-    <string name="vs_camera_sub">ROM HAL1: náhled a fotky 640×480, zadní/přední kamera. Vyžaduje oprávnění a úplný restart VM. Kamera se zavře, když AEmulator přejde do pozadí; znovu otevřete aplikaci fotoaparátu v hostovaném systému. Video se nahrává v rozlišení 640×480.</string>
+    <string name="vs_camera_sub">ROM HAL1: náhled a fotky 640×480, zadní/přední kamera. Vyžaduje oprávnění a úplný restart VM. Kamera se zavře, když AEmulator Plus přejde do pozadí; znovu otevřete aplikaci fotoaparátu v hostovaném systému. Video se nahrává v rozlišení 640×480.</string>
     <string name="vs_microphone">Mikrofon hostitele (experimentální)</string>
-    <string name="vs_microphone_sub">Aplikace v hostovaném systému nahrávají z mikrofonu telefonu (diktafon, poznámky). Vyžaduje oprávnění a úplný restart VM. Nahrávání se zastaví, když AEmulator přejde do pozadí; znovu otevřete aplikaci diktafonu. Pouze ROM 4.x.</string>
+    <string name="vs_microphone_sub">Aplikace v hostovaném systému nahrávají z mikrofonu telefonu (diktafon, poznámky). Vyžaduje oprávnění a úplný restart VM. Nahrávání se zastaví, když AEmulator Plus přejde do pozadí; znovu otevřete aplikaci diktafonu. Pouze ROM 4.x.</string>
     <string name="microphone_permission_denied">Oprávnění k mikrofonu zamítnuto. Aplikace v hostovaném systému budou nahrávat ticho; udělte oprávnění v nastavení aplikací Androidu a pro nový pokus VM úplně restartujte.</string>
     <string name="vs_sim_title">Karty SIM</string>
     <string name="vs_sim_present">SIM karta vložena</string>
@@ -534,4 +534,18 @@
     <string name="catalog_download_checking">Kontrola odkazu…</string>
     <string name="catalog_download_title">Stahování ROM</string>
     <string name="catalog_download_failed">Stažení se nezdařilo: %1$s</string>
+    <string name="al_title">Spouštěč Activity</string>
+    <string name="m_activities">Spouštěč Activity</string>
+    <string name="al_search_packages">Hledat balíčky</string>
+    <string name="al_search_activities">Hledat Activity</string>
+    <string name="al_no_packages">Nenalezeny žádné balíčky</string>
+    <string name="al_no_activities">Nenalezeny žádné Activity</string>
+    <string name="al_not_exported">neexportováno</string>
+    <string name="al_starting">Spouští se %1$s…</string>
+    <string name="catalog_share_rom">Sdílet odkaz ke stažení %1$s</string>
+    <string name="m_battery_old_note">Tato verze Androidu čte baterii jen při spouštění. Stav nabití a nabíjení, které nastavíte, se uloží a použije se při příštím spuštění VM.</string>
+    <string name="vs_no_dex2oat">Vypnout dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Aplikace a systémový kód se v hostujícím systému nikdy nekompilují: každé spuštění dex2oat hned selže. Varování: může to způsobit pády, chyby a jiné neočekávané chování (aplikace běží pomaleji, některý firmware bez kompilace nenaběhne). Ve výchozím nastavení vypnuto. Projeví se při příštím úplném spuštění.</string>
+    <string name="m_multitask">Přepínání úloh</string>
+    <string name="nav_show">Zobrazit lištu tlačítek Androidu</string>
 </resources>

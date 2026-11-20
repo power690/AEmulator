@@ -210,7 +210,7 @@
     <string name="lib3d_spec_model">型號</string>
     <string name="as_upstream_row">上游：%1$s</string>
     <string name="as_original_row">原版：%1$s</string>
-    <string name="sms_default_body">來自 AEmulator 的問候</string>
+    <string name="sms_default_body">來自 AEmulator Plus 的問候</string>
     <string name="theme_original">原版</string>
     <string name="theme_sunset">日落</string>
     <string name="sim_country_emulator">模擬器</string>

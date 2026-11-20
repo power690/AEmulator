@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">У каталозі понад 10000 ROM.</string>
     <string name="catalog_tested_on">Емулятор %1$s</string>
     <string name="catalog_submitted_by">Надіслав(-ла): %1$s</string>
+    <string name="submit_not_direct_title">Потрібне пряме посилання</string>
+    <string name="submit_not_direct_text">Приймаються лише прямі посилання на файл ROM. Посилання на веб-сторінки та на файлообмінники, де спочатку відкривається сторінка, не приймаються.\n\nРекомендується завантажувати на archive.org.</string>
 </resources>

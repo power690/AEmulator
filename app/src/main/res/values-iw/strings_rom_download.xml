@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">הורדה אחרת כבר מתבצעת.</string>
+    <string name="rom_dl_cannot_start">לא ניתן היה להתחיל את ההורדה ברקע.</string>
+    <string name="rom_dl_channel">הורדת ROM</string>
+    <string name="rom_dl_channel_done">הורדת ROM הסתיימה</string>
+    <string name="rom_dl_done">ה‑ROM הורד</string>
+    <string name="rom_dl_done_text">הקישו כדי לייבא את %1$s</string>
+    <string name="rom_dl_failed">הורדת ה‑ROM נכשלה</string>
+    <string name="rom_dl_hide">הסתרה</string>
+    <string name="rom_dl_page">קישור להורדה</string>
+    <string name="rom_dl_page_text">קישור זה הוא דף אינטרנט. הקישו כדי לפתוח אותו בדפדפן.</string>
+</resources>

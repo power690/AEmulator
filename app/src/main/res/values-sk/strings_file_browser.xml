@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Zálohu VM (.aessvm) treba importovať samostatne, nie spolu s inými súbormi.</string>
     <string name="imp_joining">Spájanie častí (%2$d) súboru %1$s…</string>
     <string name="imp_split_missing">Chýba časť %2$s rozdeleného archívu %1$s. Vyberte všetky jeho časti alebo ich majte v jednom priečinku.</string>
+    <string name="fb_search">Hľadať</string>
+    <string name="fb_search_hint">Hľadať v tejto zložke</string>
+    <string name="fb_no_matches">Žiadne súbory ani zložky nezodpovedajú</string>
 </resources>

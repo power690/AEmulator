@@ -211,7 +211,7 @@
     <string name="lib3d_spec_model">Model</string>
     <string name="as_upstream_row">Upstream: %1$s</string>
     <string name="as_original_row">Original: %1$s</string>
-    <string name="sms_default_body">Hilsner fra AEmulator</string>
+    <string name="sms_default_body">Hilsner fra AEmulator Plus</string>
     <string name="theme_original">Original</string>
     <string name="theme_sunset">Solnedgang</string>
     <string name="sim_country_emulator">Emulator</string>

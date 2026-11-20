@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Katalogā ir vairāk nekā 10000 ROM.</string>
     <string name="catalog_tested_on">Emulators %1$s</string>
     <string name="catalog_submitted_by">Iesniedza: %1$s</string>
+    <string name="submit_not_direct_title">Nepieciešama tieša saite</string>
+    <string name="submit_not_direct_text">Iesniegumiem jābūt tiešām lejupielādes saitēm uz ROM failu. Saites uz tīmekļa lapām vai uz failu resursdatoriem, kas vispirms atver lapu, nav pieņemamas.\n\nIeteiktā augšupielādes vieta ir archive.org.</string>
 </resources>

@@ -212,7 +212,7 @@
     <string name="lib3d_spec_model">მოდელი</string>
     <string name="as_upstream_row">ორიგინალი (upstream): %1$s</string>
     <string name="as_original_row">საწყისი: %1$s</string>
-    <string name="sms_default_body">გამარჯობა AEmulator-იდან</string>
+    <string name="sms_default_body">გამარჯობა AEmulator Plus-იდან</string>
     <string name="theme_original">ორიგინალური</string>
     <string name="theme_sunset">მზის ჩასვლა</string>
     <string name="sim_country_emulator">ემულატორი</string>
@@ -233,4 +233,7 @@
     <string name="imp_choice_text">ამ პაკეტში ერთზე მეტი %1$s არის (%2$d %3$d-დან). აირჩიეთ შესატანი.</string>
     <string name="imp_choice_ok">იმპორტი</string>
     <string name="imp_choice_cancel">იმპორტის გაუქმება</string>
+    <string name="imp_no_system_partition_in_mbr">%1$s: MBR-ში system პარტიცია არ არის</string>
+    <string name="imp_unreadable_mbr">%1$s: MBR პარტიციების ცხრილი წაკითხვადი არ არის</string>
+    <string name="ota_squash_files_modified">/system-ის %1$d ფაილი შეცვალა აპმა ან თქვენ და ვერ აღდგება, მაგ. %2$s. SquashFS სისტემური ასლი მხოლოდ შეუცვლელი ფაილებიდან აღდგება. არაფერი შეცვლილა.</string>
 </resources>

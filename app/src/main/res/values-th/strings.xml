@@ -18,7 +18,7 @@
     <string name="storage_text">อนุญาตให้เข้าถึงไฟล์ทั้งหมด: การ์ดหน่วยความจำของแต่ละระบบจะอยู่ในโฟลเดอร์ AEmulator ของที่เก็บข้อมูลภายใน สะดวกสำหรับ APK เพลง และรูปภาพ</string>
     <string name="allow">อนุญาต</string>
     <string name="empty_title">ยังไม่มีระบบ</string>
-    <string name="empty_text">เพิ่มเฟิร์มแวร์ ARM สำหรับ Android 1.0–17: ไฟล์ ZIP รีคัฟเวอรี, ไฟล์เก็บถาวร Odin (.tar.md5), system.img หรืออิมเมจจากโรงงาน</string>
+    <string name="empty_text">เพิ่มเฟิร์มแวร์ ARM สำหรับ Android 2.2–6.0: ไฟล์ ZIP รีคัฟเวอรี, ไฟล์เก็บถาวร Odin (.tar.md5), system.img หรืออิมเมจจากโรงงาน</string>
     <string name="empty_help">ไฟล์แบบไหนใช้ได้บ้าง</string>
     <string name="import_failed">นำเข้าไม่สำเร็จ</string>
     <string name="import_running">กำลังนำเข้าเฟิร์มแวร์</string>
@@ -30,7 +30,7 @@
     <string name="start">เริ่ม</string>
     <string name="rename">เปลี่ยนชื่อ</string>
     <string name="help_title">เฟิร์มแวร์ที่รองรับ</string>
-    <string name="help_text">• Android 2.2–4.4: เฟิร์มแวร์ ARM 32 บิต ทำงานผ่าน QEMU (ก่อน 2.2: ทดลอง)\n• Android 5.0–17: เฟิร์มแวร์ arm64 และ GSI ทำงานแบบเนทีฟบนโทรศัพท์\n\nรูปแบบไฟล์:\n• ไฟล์ ZIP รีคัฟเวอรี CWM/TWRP (MIUI, CyanogenMod, พอร์ต, รอมแต่งส่วนใหญ่);\n• Samsung: Odin .tar / .tar.md5 หรือ ZIP ที่มี AP_*.tar.md5;\n• อิมเมจจากโรงงานของ Google (.tgz / .zip);\n• system.img (ext4, sparse, YAFFS2), ข้อมูลสำรอง TWRP system.ext4.win;\n• OTA ที่มี system.new.dat(.br) + system.transfer.list;\n• รวมถึง: 7z, RAR, LG .kdz, Sony .ftf, Huawei UPDATE.APP, Qualcomm EDL, payload.bin, super.img, EROFS, Android-x86 ISO\n\nดีที่สุดหากไฟล์เก็บถาวรมี boot.img: ลำดับการเริ่มบริการจะอ่านมาจากไฟล์นี้</string>
+    <string name="help_text">• Android 2.2 และ 4.0–4.4: รองรับเป็นหลัก; 5.x–6.x: ทดลอง\n• เฉพาะเฟิร์มแวร์ ARM 32 บิต (armeabi / armeabi-v7a)\n\nรูปแบบไฟล์:\n• ไฟล์ ZIP รีคัฟเวอรี CWM/TWRP (MIUI, CyanogenMod, พอร์ต, รอมแต่งส่วนใหญ่);\n• Samsung: Odin .tar / .tar.md5 หรือ ZIP ที่มี AP_*.tar.md5;\n• อิมเมจจากโรงงานของ Google (.tgz / .zip);\n• system.img (ext4, sparse, YAFFS2), ข้อมูลสำรอง TWRP system.ext4.win;\n• OTA ที่มี system.new.dat(.br) + system.transfer.list\n\nดีที่สุดหากไฟล์เก็บถาวรมี boot.img: ลำดับการเริ่มบริการจะอ่านมาจากไฟล์นี้</string>
     <string name="vs_screen">หน้าจอเกสต์</string>
     <string name="vs_fixed_2x">Android 2.x ใช้หน้าจอขนาดคงที่ 480×800 ที่ 240 dpi</string>
     <string name="vs_screen_hint">หน้าจอที่เล็กลงทำให้ระบบเร็วขึ้น</string>
@@ -45,13 +45,6 @@
     <string name="vs_legacy_sub">เอนจิน Desire HD รุ่นเก่า: รองรับ GLES 1.x เท่านั้น หน้าจอ 480×800 ใช้เมื่อเอนจินหลักล้มเหลว</string>
     <string name="vs_lowram">โหมดหน่วยความจำต่ำ</string>
     <string name="vs_lowram_sub">ro.config.low_ram — ระบบประหยัดหน่วยความจำ</string>
-    <string name="vs_memory_mode">การจัดการหน่วยความจำ</string>
-    <string name="vs_memory_light">เบา</string>
-    <string name="vs_memory_medium">ปานกลาง</string>
-    <string name="vs_memory_aggressive">เข้มงวด</string>
-    <string name="vs_memory_light_sub">แอปเบื้องหลังจะถูกหยุดเฉพาะเมื่อหน่วยความจำของโทรศัพท์เองเหลือน้อยมาก รีสตาร์ตน้อยที่สุด แต่ใช้หน่วยความจำมากที่สุด มีผลหลังจากรีสตาร์ต VM ทั้งหมด</string>
-    <string name="vs_memory_medium_sub">สมดุล: เก็บแอปเบื้องหลังไว้ในจำนวนปานกลาง และหยุดแอปที่เหลือเมื่อหน่วยความจำว่างลดลง มีผลหลังจากรีสตาร์ต VM ทั้งหมด</string>
-    <string name="vs_memory_aggressive_sub">เก็บแอปเบื้องหลังไว้น้อยและตรวจสอบบ่อย จึงคืนหน่วยความจำเร็ว ใช้หน่วยความจำน้อยที่สุด แต่แอปจะรีสตาร์ตบ่อยขึ้น มีผลหลังจากรีสตาร์ต VM ทั้งหมด</string>
     <string name="vs_proxy">พร็อกซี TLS สมัยใหม่</string>
     <string name="vs_proxy_sub">ช่วยให้เบราว์เซอร์และแอปรุ่นเก่าเปิดเว็บไซต์ HTTPS ในปัจจุบันได้</string>
     <string name="vs_controls">การควบคุม</string>
@@ -87,16 +80,6 @@
     <string name="as_theme_system">ตามระบบ</string>
     <string name="as_theme_light">สว่าง</string>
     <string name="as_theme_dark">มืด</string>
-    <string name="as_accent">สีเน้น</string>
-    <string name="as_accent_sub">เลือกสีใดก็ได้เพื่อเปลี่ยนโฉมทั้งแอป</string>
-    <string name="as_accent_default">พระอาทิตย์ตก (ค่าเริ่มต้น)</string>
-    <string name="as_accent_pick">เลือกสี</string>
-    <string name="as_accent_reset">รีเซ็ต</string>
-    <string name="as_accent_apply">ใช้</string>
-    <string name="as_accent_hex">เลขฐานสิบหก</string>
-    <string name="as_accent_hue">เฉดสี</string>
-    <string name="as_accent_sat">ความอิ่มตัว</string>
-    <string name="as_accent_val">ความสว่าง</string>
     <string name="as_dynamic">สีไดนามิก</string>
     <string name="as_dynamic_sub">สีที่ดึงมาจากวอลเปเปอร์ของคุณ (Android 12 ขึ้นไป)</string>
     <string name="as_defaults">ค่าเริ่มต้นสำหรับระบบใหม่</string>
@@ -109,7 +92,24 @@
     <string name="as_orig_sub">ผู้สร้างอีมูเลเตอร์ Desire HD และ One M7 ซึ่งเป็นต้นกำเนิดของโปรเจกต์นี้</string>
     <string name="as_github">ซอร์สโค้ดบน GitHub</string>
     <string name="as_version">เวอร์ชัน %1$s</string>
-    <string name="as_about">AEmulator รันเฟิร์มแวร์ Android รุ่นคลาสสิกบนโทรศัพท์ยุคใหม่ ฟรีและโอเพนซอร์ส</string>
+    <string name="as_about">AEmulator Plus รันเฟิร์มแวร์ Android รุ่นคลาสสิกบนโทรศัพท์ยุคใหม่ ฟรีและโอเพนซอร์ส</string>
+    <string name="vs_memory_mode">การจัดการหน่วยความจำ</string>
+    <string name="vs_memory_light">เบา</string>
+    <string name="vs_memory_medium">ปานกลาง</string>
+    <string name="vs_memory_aggressive">เข้มงวด</string>
+    <string name="vs_memory_light_sub">แอปเบื้องหลังจะถูกหยุดเฉพาะเมื่อหน่วยความจำของโทรศัพท์เองเหลือน้อยมาก รีสตาร์ตน้อยที่สุด แต่ใช้หน่วยความจำมากที่สุด มีผลหลังจากรีสตาร์ต VM ทั้งหมด</string>
+    <string name="vs_memory_medium_sub">สมดุล: เก็บแอปเบื้องหลังไว้ในจำนวนปานกลาง และหยุดแอปที่เหลือเมื่อหน่วยความจำว่างลดลง มีผลหลังจากรีสตาร์ต VM ทั้งหมด</string>
+    <string name="vs_memory_aggressive_sub">เก็บแอปเบื้องหลังไว้น้อยและตรวจสอบบ่อย จึงคืนหน่วยความจำเร็ว ใช้หน่วยความจำน้อยที่สุด แต่แอปจะรีสตาร์ตบ่อยขึ้น มีผลหลังจากรีสตาร์ต VM ทั้งหมด</string>
+    <string name="as_accent">สีเน้น</string>
+    <string name="as_accent_sub">เลือกสีใดก็ได้เพื่อเปลี่ยนโฉมทั้งแอป</string>
+    <string name="as_accent_default">พระอาทิตย์ตก (ค่าเริ่มต้น)</string>
+    <string name="as_accent_pick">เลือกสี</string>
+    <string name="as_accent_reset">รีเซ็ต</string>
+    <string name="as_accent_apply">ใช้</string>
+    <string name="as_accent_hex">เลขฐานสิบหก</string>
+    <string name="as_accent_hue">เฉดสี</string>
+    <string name="as_accent_sat">ความอิ่มตัว</string>
+    <string name="as_accent_val">ความสว่าง</string>
     <string name="log_copy">คัดลอก</string>
     <string name="log_export">ส่งออก .log</string>
     <string name="log_copied">คัดลอกไปยังคลิปบอร์ดแล้ว</string>
@@ -245,9 +245,9 @@
     <string name="update_download_error">ดาวน์โหลดไม่สำเร็จ: %1$s</string>
     <string name="update_open_github">ดูบน GitHub</string>
     <string name="vs_camera">กล้องของโฮสต์ (ทดลอง)</string>
-    <string name="vs_camera_sub">รอม HAL1: พรีวิวและภาพถ่าย 640×480 กล้องหลัง/หน้า ต้องได้รับสิทธิ์และรีสตาร์ท VM ทั้งหมด กล้องจะปิดเมื่อ AEmulator ทำงานเบื้องหลัง; เปิดแอปกล้องของเกสต์อีกครั้ง วิดีโอบันทึกที่ 640×480</string>
+    <string name="vs_camera_sub">รอม HAL1: พรีวิวและภาพถ่าย 640×480 กล้องหลัง/หน้า ต้องได้รับสิทธิ์และรีสตาร์ท VM ทั้งหมด กล้องจะปิดเมื่อ AEmulator Plus ทำงานเบื้องหลัง; เปิดแอปกล้องของเกสต์อีกครั้ง วิดีโอบันทึกที่ 640×480</string>
     <string name="vs_microphone">ไมโครโฟนของโฮสต์ (ทดลอง)</string>
-    <string name="vs_microphone_sub">แอปของเกสต์บันทึกเสียงจากไมโครโฟนของโทรศัพท์ (เครื่องบันทึกเสียง, โน้ต) ต้องได้รับสิทธิ์และรีสตาร์ท VM ทั้งหมด การบันทึกจะหยุดเมื่อ AEmulator ทำงานเบื้องหลัง; เปิดแอปบันทึกเสียงของเกสต์อีกครั้ง เฉพาะรอม 4.x</string>
+    <string name="vs_microphone_sub">แอปของเกสต์บันทึกเสียงจากไมโครโฟนของโทรศัพท์ (เครื่องบันทึกเสียง, โน้ต) ต้องได้รับสิทธิ์และรีสตาร์ท VM ทั้งหมด การบันทึกจะหยุดเมื่อ AEmulator Plus ทำงานเบื้องหลัง; เปิดแอปบันทึกเสียงของเกสต์อีกครั้ง เฉพาะรอม 4.x</string>
     <string name="microphone_permission_denied">ไม่ได้รับสิทธิ์ไมโครโฟน แอปของเกสต์จะบันทึกได้แต่เสียงเงียบ; ให้สิทธิ์ในการตั้งค่าแอปของ Android แล้วรีสตาร์ท VM ทั้งหมดเพื่อลองอีกครั้ง</string>
     <string name="vs_sim_title">ซิมการ์ด</string>
     <string name="vs_sim_present">ใส่ซิมการ์ดแล้ว</string>
@@ -282,9 +282,6 @@
     <string name="catalog_section_source">เปิดแหล่งที่มาของหมวด</string>
     <string name="catalog_download_rom">ดาวน์โหลด %1$s</string>
     <string name="catalog_back_sections">กลับไปที่หมวด</string>
-    <plurals name="catalog_rom_count">
-        <item quantity="other">%1$d รอม</item>
-    </plurals>
     <string name="catalog_reported">แอปไม่ได้ตรวจสอบสถานะความเข้ากันได้ของรอม</string>
     <string name="catalog_no_roms">ขณะนี้ไม่มีรอม</string>
     <string name="catalog_no_url">ขณะนี้ไม่มี URL สำหรับดาวน์โหลดรอม</string>
@@ -516,9 +513,6 @@
     <string name="folder_empty">ว่างเปล่า — ลากรอมมาวางที่นี่</string>
     <string name="folder_open">เปิดโฟลเดอร์</string>
     <string name="folder_close">ปิดโฟลเดอร์</string>
-    <plurals name="folder_roms">
-        <item quantity="other">%1$d รอม</item>
-    </plurals>
     <string name="phantom_title">ตัวฆ่ากระบวนการแฝง</string>
     <string name="phantom_msg">อุปกรณ์ของคุณยังไม่ได้เปิดตัวเลือก “ปิดใช้งานข้อจำกัดกระบวนการย่อย” ในตัวเลือกสำหรับนักพัฒนา ซึ่งหมายความว่า zygote จะถูกปิดระหว่างการเริ่มต้นอีมูเลเตอร์ ทำให้อีมูเลเตอร์บูตไม่ได้ จึงขอแนะนำอย่างยิ่งให้เปิดใช้งาน</string>
     <string name="phantom_open_dev">เปิดตัวเลือกสำหรับนักพัฒนา</string>
@@ -532,4 +526,18 @@
     <string name="catalog_download_checking">กำลังตรวจสอบลิงก์…</string>
     <string name="catalog_download_title">กำลังดาวน์โหลด ROM</string>
     <string name="catalog_download_failed">ดาวน์โหลดไม่สำเร็จ: %1$s</string>
+    <string name="al_title">ตัวเรียกใช้ Activity</string>
+    <string name="m_activities">ตัวเรียกใช้ Activity</string>
+    <string name="al_search_packages">ค้นหาแพ็กเกจ</string>
+    <string name="al_search_activities">ค้นหา Activity</string>
+    <string name="al_no_packages">ไม่พบแพ็กเกจ</string>
+    <string name="al_no_activities">ไม่พบ Activity</string>
+    <string name="al_not_exported">ไม่ได้ส่งออก</string>
+    <string name="al_starting">กำลังเริ่ม %1$s…</string>
+    <string name="catalog_share_rom">แชร์ลิงก์ดาวน์โหลดของ %1$s</string>
+    <string name="m_battery_old_note">Android เวอร์ชันนี้อ่านแบตเตอรี่เฉพาะตอนเริ่มระบบ ระดับแบตเตอรี่และสถานะการชาร์จที่คุณตั้งไว้จะถูกบันทึกไว้และนำไปใช้เมื่อ VM เริ่มทำงานครั้งถัดไป</string>
+    <string name="vs_no_dex2oat">ปิดใช้งาน dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">แอปและโค้ดของระบบจะไม่ถูกคอมไพล์ในเกสต์เลย การรัน dex2oat ทุกครั้งจะล้มเหลวทันที คำเตือน: อาจทำให้แอปพัง จอกระตุก หรือทำงานผิดปกติอย่างอื่นได้ (แอปทำงานช้าลง บางเฟิร์มแวร์บูตไม่ได้ถ้าไม่คอมไพล์) ปิดอยู่โดยค่าเริ่มต้น มีผลตั้งแต่การเริ่มระบบแบบเต็มครั้งถัดไป</string>
+    <string name="m_multitask">สลับงาน</string>
+    <string name="nav_show">แสดงแถบปุ่ม Android</string>
 </resources>

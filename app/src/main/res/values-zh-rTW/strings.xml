@@ -18,7 +18,7 @@
     <string name="storage_text">允許存取所有檔案：每個系統的記憶卡都會放在內部儲存空間的 AEmulator 資料夾中，方便存放 APK、音樂和照片。</string>
     <string name="allow">允許</string>
     <string name="empty_title">尚無系統</string>
-    <string name="empty_text">新增適用於 Android 1.0–17 的 ARM 韌體：Recovery ZIP、Odin 壓縮檔（.tar.md5）、system.img 或原廠映像檔。</string>
+    <string name="empty_text">新增適用於 Android 2.2–6.0 的 ARM 韌體：Recovery ZIP、Odin 壓縮檔（.tar.md5）、system.img 或原廠映像檔。</string>
     <string name="empty_help">哪些檔案可以使用？</string>
     <string name="import_failed">匯入失敗</string>
     <string name="import_running">正在匯入韌體</string>
@@ -30,7 +30,7 @@
     <string name="start">啟動</string>
     <string name="rename">重新命名</string>
     <string name="help_title">支援的韌體</string>
-    <string name="help_text">• Android 2.2–4.4：32 位元 ARM 韌體，透過 QEMU 執行（2.2 之前：實驗性）。\n• Android 5.0–17：arm64 韌體與 GSI，在手機上原生執行。\n\n格式：\n• CWM/TWRP Recovery ZIP（MIUI、CyanogenMod、移植版、大多數自訂 ROM）；\n• Samsung：Odin .tar / .tar.md5，或內含 AP_*.tar.md5 的 ZIP；\n• Google 原廠映像檔（.tgz / .zip）；\n• system.img（ext4、sparse、YAFFS2）、TWRP 備份 system.ext4.win；\n• 含 system.new.dat(.br) + system.transfer.list 的 OTA；\n• 另外支援：7z, RAR, LG .kdz, Sony .ftf, Huawei UPDATE.APP, Qualcomm EDL, payload.bin, super.img, EROFS, Android-x86 ISO。\n\n壓縮檔內含 boot.img 最佳：服務的啟動順序會從中取得。</string>
+    <string name="help_text">• Android 2.2 與 4.0–4.4：主要支援；5.x–6.x：實驗性支援。\n• 僅支援 32 位元 ARM 韌體（armeabi / armeabi-v7a）。\n\n格式：\n• CWM/TWRP Recovery ZIP（MIUI、CyanogenMod、移植版、大多數自訂 ROM）；\n• Samsung：Odin .tar / .tar.md5，或內含 AP_*.tar.md5 的 ZIP；\n• Google 原廠映像檔（.tgz / .zip）；\n• system.img（ext4、sparse、YAFFS2）、TWRP 備份 system.ext4.win；\n• 含 system.new.dat(.br) + system.transfer.list 的 OTA。\n\n壓縮檔內含 boot.img 最佳：服務的啟動順序會從中取得。</string>
     <string name="vs_screen">客體螢幕</string>
     <string name="vs_fixed_2x">Android 2.x 使用固定的 480×800 螢幕，解析度為 240 dpi。</string>
     <string name="vs_screen_hint">螢幕越小，系統越快。</string>
@@ -45,13 +45,6 @@
     <string name="vs_legacy_sub">較舊的 Desire HD 引擎：僅支援 GLES 1.x，螢幕為 480×800。主引擎失敗時請使用。</string>
     <string name="vs_lowram">低記憶體模式</string>
     <string name="vs_lowram_sub">ro.config.low_ram — 系統會節省記憶體。</string>
-    <string name="vs_memory_mode">記憶體管理</string>
-    <string name="vs_memory_light">輕度</string>
-    <string name="vs_memory_medium">中度</string>
-    <string name="vs_memory_aggressive">積極</string>
-    <string name="vs_memory_light_sub">只有在手機本身記憶體快用完時才會停止背景應用程式。重新啟動次數最少，但佔用記憶體最多。完整重新啟動虛擬機後生效。</string>
-    <string name="vs_memory_medium_sub">均衡：保留適量的背景應用程式，可用記憶體不足時停止其餘應用程式。完整重新啟動虛擬機後生效。</string>
-    <string name="vs_memory_aggressive_sub">只保留少量背景應用程式並頻繁檢查，因此會及早釋放記憶體。佔用記憶體最少，但應用程式重新啟動更頻繁。完整重新啟動虛擬機後生效。</string>
     <string name="vs_proxy">現代 TLS 代理</string>
     <string name="vs_proxy_sub">讓舊版瀏覽器與應用程式能開啟現今的 HTTPS 網站。</string>
     <string name="vs_controls">控制項</string>
@@ -87,16 +80,6 @@
     <string name="as_theme_system">跟隨系統</string>
     <string name="as_theme_light">淺色</string>
     <string name="as_theme_dark">深色</string>
-    <string name="as_accent">強調色</string>
-    <string name="as_accent_sub">選擇任意顏色，為整個應用程式換上新風格</string>
-    <string name="as_accent_default">日落（預設）</string>
-    <string name="as_accent_pick">選擇顏色</string>
-    <string name="as_accent_reset">重設</string>
-    <string name="as_accent_apply">套用</string>
-    <string name="as_accent_hex">十六進位</string>
-    <string name="as_accent_hue">色相</string>
-    <string name="as_accent_sat">飽和度</string>
-    <string name="as_accent_val">亮度</string>
     <string name="as_dynamic">動態色彩</string>
     <string name="as_dynamic_sub">取自桌布的色彩（Android 12 以上）</string>
     <string name="as_defaults">新系統的預設值</string>
@@ -109,7 +92,24 @@
     <string name="as_orig_sub">Desire HD 與 One M7 模擬器的作者，本專案即由此發展而來</string>
     <string name="as_github">GitHub 上的原始碼</string>
     <string name="as_version">版本 %1$s</string>
-    <string name="as_about">AEmulator 可在現代手機上執行經典 Android 韌體。免費且開放原始碼。</string>
+    <string name="as_about">AEmulator Plus 可在現代手機上執行經典 Android 韌體。免費且開放原始碼。</string>
+    <string name="vs_memory_mode">記憶體管理</string>
+    <string name="vs_memory_light">輕度</string>
+    <string name="vs_memory_medium">中度</string>
+    <string name="vs_memory_aggressive">積極</string>
+    <string name="vs_memory_light_sub">只有在手機本身記憶體快用完時才會停止背景應用程式。重新啟動次數最少，但佔用記憶體最多。完整重新啟動虛擬機後生效。</string>
+    <string name="vs_memory_medium_sub">均衡：保留適量的背景應用程式，可用記憶體不足時停止其餘應用程式。完整重新啟動虛擬機後生效。</string>
+    <string name="vs_memory_aggressive_sub">只保留少量背景應用程式並頻繁檢查，因此會及早釋放記憶體。佔用記憶體最少，但應用程式重新啟動更頻繁。完整重新啟動虛擬機後生效。</string>
+    <string name="as_accent">強調色</string>
+    <string name="as_accent_sub">選擇任意顏色，為整個應用程式換上新風格</string>
+    <string name="as_accent_default">日落（預設）</string>
+    <string name="as_accent_pick">選擇顏色</string>
+    <string name="as_accent_reset">重設</string>
+    <string name="as_accent_apply">套用</string>
+    <string name="as_accent_hex">十六進位</string>
+    <string name="as_accent_hue">色相</string>
+    <string name="as_accent_sat">飽和度</string>
+    <string name="as_accent_val">亮度</string>
     <string name="log_copy">複製</string>
     <string name="log_export">匯出 .log</string>
     <string name="log_copied">已複製到剪貼簿</string>
@@ -245,9 +245,9 @@
     <string name="update_download_error">下載失敗：%1$s</string>
     <string name="update_open_github">在 GitHub 上檢視</string>
     <string name="vs_camera">主機相機（實驗性）</string>
-    <string name="vs_camera_sub">HAL1 ROM：640×480 預覽與相片，支援後置/前置相機。需要權限並完整重新啟動虛擬機器。AEmulator 轉到背景時相機會關閉；請重新開啟客體的相機應用程式。影片以 640×480 錄製。</string>
+    <string name="vs_camera_sub">HAL1 ROM：640×480 預覽與相片，支援後置/前置相機。需要權限並完整重新啟動虛擬機器。AEmulator Plus 轉到背景時相機會關閉；請重新開啟客體的相機應用程式。影片以 640×480 錄製。</string>
     <string name="vs_microphone">主機麥克風（實驗性）</string>
-    <string name="vs_microphone_sub">客體應用程式使用手機麥克風錄音（錄音機、筆記）。需要權限並完整重新啟動虛擬機器。AEmulator 轉到背景時錄音會停止；請重新開啟客體的錄音應用程式。僅支援 4.x ROM。</string>
+    <string name="vs_microphone_sub">客體應用程式使用手機麥克風錄音（錄音機、筆記）。需要權限並完整重新啟動虛擬機器。AEmulator Plus 轉到背景時錄音會停止；請重新開啟客體的錄音應用程式。僅支援 4.x ROM。</string>
     <string name="microphone_permission_denied">麥克風權限遭拒。客體應用程式將錄到靜音；請在 Android 應用程式設定中授予權限，並完整重新啟動虛擬機器後重試。</string>
     <string name="vs_sim_title">SIM 卡</string>
     <string name="vs_sim_present">已插入 SIM 卡</string>
@@ -282,9 +282,6 @@
     <string name="catalog_section_source">開啟分類來源</string>
     <string name="catalog_download_rom">下載 %1$s</string>
     <string name="catalog_back_sections">返回分類</string>
-    <plurals name="catalog_rom_count">
-        <item quantity="other">%1$d 個 ROM</item>
-    </plurals>
     <string name="catalog_reported">ROM 相容性狀態未經應用程式驗證。</string>
     <string name="catalog_no_roms">目前沒有 ROM。</string>
     <string name="catalog_no_url">ROM 下載網址目前無法使用。</string>
@@ -516,9 +513,6 @@
     <string name="folder_empty">空的 — 將 ROM 拖曳到此處</string>
     <string name="folder_open">開啟資料夾</string>
     <string name="folder_close">關閉資料夾</string>
-    <plurals name="folder_roms">
-        <item quantity="other">%1$d 個 ROM</item>
-    </plurals>
     <string name="phantom_title">幻影程序殺手</string>
     <string name="phantom_msg">您的裝置未在開發人員選項中啟用「停用子程序限制」。這表示 zygote 會在模擬器啟動期間被終止,導致模擬器無法開機。因此強烈建議啟用該選項。</string>
     <string name="phantom_open_dev">開啟開發人員選項</string>
@@ -532,4 +526,18 @@
     <string name="catalog_download_checking">正在檢查連結…</string>
     <string name="catalog_download_title">正在下載 ROM</string>
     <string name="catalog_download_failed">下載失敗：%1$s</string>
+    <string name="al_title">Activity 啟動器</string>
+    <string name="m_activities">Activity 啟動器</string>
+    <string name="al_search_packages">搜尋應用程式套件</string>
+    <string name="al_search_activities">搜尋 Activity</string>
+    <string name="al_no_packages">找不到應用程式套件</string>
+    <string name="al_no_activities">找不到 Activity</string>
+    <string name="al_not_exported">未匯出</string>
+    <string name="al_starting">正在啟動 %1$s…</string>
+    <string name="catalog_share_rom">分享 %1$s 的下載連結</string>
+    <string name="m_battery_old_note">此 Android 版本僅在啟動時讀取電池。您設定的電量與充電狀態會被儲存，並在虛擬機器下次啟動時使用。</string>
+    <string name="vs_no_dex2oat">停用 dex2oat（Android 5.0+）</string>
+    <string name="vs_no_dex2oat_sub">應用程式與系統程式碼永遠不會在客體中編譯：每次 dex2oat 執行都會立即失敗。警告：可能導致當機、畫面異常等非預期行為（應用程式變慢，部分韌體無編譯則無法開機）。預設關閉。下次完整啟動時生效。</string>
+    <string name="m_multitask">多工切換</string>
+    <string name="nav_show">顯示 Android 按鈕列</string>
 </resources>

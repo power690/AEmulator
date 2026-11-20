@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Tá íoslódáil eile ar siúl cheana.</string>
+    <string name="rom_dl_cannot_start">Níorbh fhéidir an íoslódáil a chur ag obair sa chúlra.</string>
+    <string name="rom_dl_channel">Íoslódáil ROM</string>
+    <string name="rom_dl_channel_done">Íoslódáil ROM críochnaithe</string>
+    <string name="rom_dl_done">ROM íoslódáilte</string>
+    <string name="rom_dl_done_text">Tapáil chun %1$s a iompórtáil</string>
+    <string name="rom_dl_failed">Theip ar íoslódáil ROM</string>
+    <string name="rom_dl_hide">Folaigh</string>
+    <string name="rom_dl_page">Nasc íoslódála</string>
+    <string name="rom_dl_page_text">Is leathanach gréasáin é an nasc seo. Tapáil chun é a oscailt sa bhrabhsálaí.</string>
+</resources>

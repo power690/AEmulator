@@ -18,7 +18,7 @@
     <string name="storage_text">Permita acesso a todos os arquivos: o cartão de memória de cada sistema ficará na pasta AEmulator do armazenamento interno, prática para APKs, músicas e fotos.</string>
     <string name="allow">Permitir</string>
     <string name="empty_title">Nenhum sistema ainda</string>
-    <string name="empty_text">Adicione um firmware ARM do Android 1.0–17: ZIP de recovery, arquivo do Odin (.tar.md5), system.img ou imagem de fábrica.</string>
+    <string name="empty_text">Adicione um firmware ARM do Android 2.3–6.0: ZIP de recovery, arquivo do Odin (.tar.md5), system.img ou imagem de fábrica.</string>
     <string name="empty_help">Quais arquivos servem?</string>
     <string name="import_failed">Falha na importação</string>
     <string name="import_running">Importando firmware</string>
@@ -30,7 +30,7 @@
     <string name="start">Iniciar</string>
     <string name="rename">Renomear</string>
     <string name="help_title">Firmwares compatíveis</string>
-    <string name="help_text">• Android 2.3–4.4: firmware ARM de 32 bits, via QEMU.\n• Android 5.0–17: firmware arm64 e GSI, nativamente no celular.\n\nFormatos:\n• ZIP de recovery CWM/TWRP (MIUI, CyanogenMod, ports, a maioria das ROMs custom);\n• Samsung: .tar / .tar.md5 do Odin ou ZIP com AP_*.tar.md5;\n• imagens de fábrica do Google (.tgz / .zip);\n• system.img (ext4, sparse), backup TWRP system.ext4.win;\n• OTA com system.new.dat(.br) + system.transfer.list;\n• Também: 7z, RAR, LG .kdz, Sony .ftf, Huawei UPDATE.APP, Qualcomm EDL, payload.bin, super.img, EROFS, Android-x86 ISO.\n\nO ideal é o arquivo conter boot.img: dele vem a ordem de inicialização dos serviços.</string>
+    <string name="help_text">• Android 2.3 e 4.0–4.4: suporte principal; 5.x–6.x: experimental.\n• Apenas firmware ARM de 32 bits (armeabi / armeabi-v7a).\n\nFormatos:\n• ZIP de recovery CWM/TWRP (MIUI, CyanogenMod, ports, a maioria das ROMs custom);\n• Samsung: .tar / .tar.md5 do Odin ou ZIP com AP_*.tar.md5;\n• imagens de fábrica do Google (.tgz / .zip);\n• system.img (ext4, sparse), backup TWRP system.ext4.win;\n• OTA com system.new.dat(.br) + system.transfer.list.\n\nO ideal é o arquivo conter boot.img: dele vem a ordem de inicialização dos serviços.</string>
     <string name="vs_screen">Tela do convidado</string>
     <string name="vs_fixed_2x">O Android 2.x usa tela fixa de 480×800 a 240 dpi.</string>
     <string name="vs_screen_hint">Quanto menor a tela, mais rápido o sistema.</string>
@@ -45,13 +45,6 @@
     <string name="vs_legacy_sub">O motor antigo do Desire HD: só GLES 1.x, tela 480×800. Use se o principal falhar.</string>
     <string name="vs_lowram">Modo de pouca memória</string>
     <string name="vs_lowram_sub">ro.config.low_ram — o sistema economiza memória.</string>
-    <string name="vs_memory_mode">Gerenciamento de memória</string>
-    <string name="vs_memory_light">Leve</string>
-    <string name="vs_memory_medium">Média</string>
-    <string name="vs_memory_aggressive">Agressiva</string>
-    <string name="vs_memory_light_sub">Os apps em segundo plano só são encerrados quando o próprio celular está quase sem memória. Menos reinicializações; usa mais memória. Vale após reiniciar completamente a VM.</string>
-    <string name="vs_memory_medium_sub">Equilibrada: mantém um número moderado de apps em segundo plano e encerra os demais quando a memória livre diminui. Vale após reiniciar completamente a VM.</string>
-    <string name="vs_memory_aggressive_sub">Mantém poucos apps em segundo plano e verifica com frequência, liberando memória cedo. Usa menos memória, mas os apps reiniciam com mais frequência. Vale após reiniciar completamente a VM.</string>
     <string name="vs_proxy">Proxy TLS moderno</string>
     <string name="vs_proxy_sub">Navegadores e apps antigos abrem sites HTTPS atuais.</string>
     <string name="vs_controls">Controles</string>
@@ -99,7 +92,14 @@
     <string name="as_orig_sub">Criador dos emuladores de Desire HD e One M7 dos quais o projeto surgiu</string>
     <string name="as_github">Código-fonte no GitHub</string>
     <string name="as_version">Versão %1$s</string>
-    <string name="as_about">O AEmulator roda firmwares clássicos do Android em celulares modernos. Gratuito e de código aberto.</string>
+    <string name="as_about">O AEmulator Plus roda firmwares clássicos do Android em celulares modernos. Gratuito e de código aberto.</string>
+    <string name="vs_memory_mode">Gerenciamento de memória</string>
+    <string name="vs_memory_light">Leve</string>
+    <string name="vs_memory_medium">Média</string>
+    <string name="vs_memory_aggressive">Agressiva</string>
+    <string name="vs_memory_light_sub">Os apps em segundo plano só são encerrados quando o próprio celular está quase sem memória. Menos reinicializações; usa mais memória. Vale após reiniciar completamente a VM.</string>
+    <string name="vs_memory_medium_sub">Equilibrada: mantém um número moderado de apps em segundo plano e encerra os demais quando a memória livre diminui. Vale após reiniciar completamente a VM.</string>
+    <string name="vs_memory_aggressive_sub">Mantém poucos apps em segundo plano e verifica com frequência, liberando memória cedo. Usa menos memória, mas os apps reiniciam com mais frequência. Vale após reiniciar completamente a VM.</string>
     <string name="log_copy">Copiar</string>
     <string name="log_export">Exportar .log</string>
     <string name="log_copied">Copiado para a área de transferência</string>
@@ -222,9 +222,9 @@
     <string name="update_download_error">Falha no download: %1$s</string>
     <string name="update_open_github">Ver no GitHub</string>
     <string name="vs_camera">Câmera do host (experimental)</string>
-    <string name="vs_camera_sub">ROMs HAL1: prévia e fotos de 640×480, câmera traseira/frontal. Requer permissão e uma reinicialização completa da VM. A câmera fecha quando o AEmulator vai para segundo plano; abra de novo o app de câmera do convidado. Os vídeos são gravados em 640×480.</string>
+    <string name="vs_camera_sub">ROMs HAL1: prévia e fotos de 640×480, câmera traseira/frontal. Requer permissão e uma reinicialização completa da VM. A câmera fecha quando o AEmulator Plus vai para segundo plano; abra de novo o app de câmera do convidado. Os vídeos são gravados em 640×480.</string>
     <string name="vs_microphone">Microfone do host (experimental)</string>
-    <string name="vs_microphone_sub">Apps convidados gravam com o microfone do telefone (gravador, notas). Requer permissão e uma reinicialização completa da VM. A gravação para quando o AEmulator vai para segundo plano; abra de novo o app de gravação do convidado. Só ROMs 4.x.</string>
+    <string name="vs_microphone_sub">Apps convidados gravam com o microfone do telefone (gravador, notas). Requer permissão e uma reinicialização completa da VM. A gravação para quando o AEmulator Plus vai para segundo plano; abra de novo o app de gravação do convidado. Só ROMs 4.x.</string>
     <string name="microphone_permission_denied">Permissão de microfone negada. Os apps convidados vão gravar silêncio; conceda a permissão nas configurações do app no Android e reinicie completamente a VM para tentar de novo.</string>
     <string name="vs_sim_title">Chips SIM</string>
     <string name="vs_sim_present">Chip SIM inserido</string>
@@ -335,18 +335,12 @@
     <string name="update_error_title">Erro</string>
     <string name="update_download_failed_generic">Erro de download</string>
     <string name="update_network_error">Erro de rede</string>
-    <plurals name="catalog_rom_count">
-        <item quantity="one">%1$d ROM</item>
-        <item quantity="many">%1$d de ROMs</item>
-        <item quantity="other">%1$d ROMs</item>
-    </plurals>
     <string name="lib3d_container">Contêiner</string>
     <string name="lib3d_show_back">Mostrar a traseira</string>
     <string name="lib3d_show_front">Mostrar a tela</string>
     <string name="lib3d_tap_hint">Toque no celular para virá-lo</string>
     <string name="as_library_3d">Biblioteca de firmwares em 3D</string>
     <string name="as_library_3d_sub">Mostrar firmwares importados e contêineres como celulares 3D para deslizar, em vez da lista de cartões. Desativado por padrão.</string>
-
     <string name="th_title">Tema da tela da VM</string>
     <string name="th_sub">Teclas da barra de navegação, cores e a moldura em volta da tela do convidado, no estilo de uma era do Android ou do seu jeito.</string>
     <string name="th_note">Os temas mudam só o app em volta da VM; o firmware nunca é alterado. As mudanças valem ao abrir uma tela de VM de novo.</string>
@@ -519,14 +513,31 @@
     <string name="folder_empty">Vazia — solte ROMs aqui</string>
     <string name="folder_open">Abrir pasta</string>
     <string name="folder_close">Fechar pasta</string>
-    <plurals name="folder_roms">
-        <item quantity="one">%1$d ROM</item>
-        <item quantity="many">%1$d de ROMs</item>
-        <item quantity="other">%1$d ROMs</item>
-    </plurals>
     <string name="phantom_title">Eliminador de processos fantasma</string>
     <string name="phantom_msg">O seu dispositivo não tem a opção “Desativar restrições de processos filhos” ativada nas Opções do desenvolvedor. Isso faz com que o zygote seja encerrado durante a inicialização do emulador, impossibilitando a inicialização do emulador. Por isso, é ALTAMENTE RECOMENDADO ativá-la.</string>
     <string name="phantom_open_dev">Abrir Opções do desenvolvedor</string>
     <string name="phantom_ignore">Ignorar</string>
     <string name="phantom_never">Não lembrar novamente</string>
+    <string name="al_title">Lançador de atividades</string>
+    <string name="m_activities">Lançador de atividades</string>
+    <string name="al_search_packages">Pesquisar pacotes</string>
+    <string name="al_search_activities">Pesquisar atividades</string>
+    <string name="al_no_packages">Nenhum pacote encontrado</string>
+    <string name="al_no_activities">Nenhuma atividade encontrada</string>
+    <string name="al_not_exported">não exportada</string>
+    <string name="al_starting">Iniciando %1$s…</string>
+    <string name="catalog_share_rom">Compartilhar link de download de %1$s</string>
+    <string name="catalog_download_checking">Verificando link…</string>
+    <string name="catalog_download_title">Baixando ROM</string>
+    <string name="catalog_download_failed">Falha no download: %1$s</string>
+    <string name="m_battery_old_note">Esta versão do Android só lê a bateria durante a inicialização. O nível e o estado de carregamento definidos são salvos e usados na próxima inicialização da VM.</string>
+    <string name="m_netdebug">Depurador HTTP</string>
+    <string name="vs_netdebug">Depurador HTTP</string>
+    <string name="vs_netdebug_sub">Registra as requisições HTTP e HTTPS do convidado e pode respondê-las ou alterá-las (menu › Depurador HTTP). Coloca uma CA de depuração no repositório de confiança do convidado. Aplica-se na próxima inicialização completa.</string>
+    <string name="vs_no_dex2oat">Desativar dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Apps e código do sistema nunca são compilados no convidado: cada execução de dex2oat falha imediatamente. Aviso: isso pode causar travamentos, falhas visuais e outros comportamentos não intencionais (apps ficam mais lentos, alguns firmwares não inicializam sem compilação). Desativado por padrão. Aplica-se na próxima inicialização completa.</string>
+    <string name="vs_skip_perm_wait">Ignorar espera do controlador de permissões (Android 10-13)</string>
+    <string name="vs_skip_perm_wait_sub">Para firmware x86 em um telefone ARM, em que o app do controlador de permissões demora mais de 60 s para responder e o system_server é encerrado (\"Error granting/upgrading runtime permissions\"). Modifica o services.jar do firmware para que a inicialização não espere as concessões padrão de permissões de execução; apps pré-instalados então não recebem essas permissões na inicialização. dex2oat é impedido de recompilar o jar modificado. Desativar restaura o jar original. Surte efeito na próxima inicialização completa.</string>
+    <string name="m_multitask">Alternância de tarefas</string>
+    <string name="nav_show">Mostrar barra de botões do Android</string>
 </resources>

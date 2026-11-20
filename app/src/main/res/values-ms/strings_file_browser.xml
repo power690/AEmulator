@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Sandaran VM (.aessvm) mesti diimport secara bersendirian, bukan bersama fail lain.</string>
     <string name="imp_joining">Menggabungkan %2$d bahagian %1$s…</string>
     <string name="imp_split_missing">Bahagian %2$s arkib terpisah %1$s tiada. Pilih semua bahagiannya atau simpan dalam satu folder.</string>
+    <string name="fb_search">Cari</string>
+    <string name="fb_search_hint">Cari dalam folder ini</string>
+    <string name="fb_no_matches">Tiada fail atau folder sepadan</string>
 </resources>

@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Ní mór cúltaca VM (.aessvm) a iompórtáil as féin, ní in éineacht le comhaid eile.</string>
     <string name="imp_joining">%2$d chuid de %1$s á gcomhcheangal…</string>
     <string name="imp_split_missing">Tá cuid %2$s den chartlann roinnte %1$s ar iarraidh. Roghnaigh a codanna go léir, nó coinnigh in aon fhillteán amháin iad.</string>
+    <string name="fb_search">Cuardaigh</string>
+    <string name="fb_search_hint">Cuardaigh sa fillteán seo</string>
+    <string name="fb_no_matches">Níl aon chomhaid nó fillteáin ag teacht leis</string>
 </resources>

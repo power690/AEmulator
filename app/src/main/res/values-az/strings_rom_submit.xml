@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Kataloqda 10000-dən çox ROM var.</string>
     <string name="catalog_tested_on">Emulyator %1$s</string>
     <string name="catalog_submitted_by">Göndərən: %1$s</string>
+    <string name="submit_not_direct_title">Birbaşa keçid lazımdır</string>
+    <string name="submit_not_direct_text">Təqdim olunanlar ROM faylına birbaşa yükləmə keçidi olmalıdır. Veb səhifə keçidləri və ya əvvəlcə səhifə açılan fayl sahibləri qəbul edilmir.\n\nYükləmə üçün archive.org tövsiyə olunur.</string>
 </resources>

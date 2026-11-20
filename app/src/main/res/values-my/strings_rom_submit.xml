@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="catalog_err_bad_json">catalog သည် တရားဝင် ROM စာရင်း မဟုတ်ပါ။</string>
+    <string name="catalog_err_too_many_roms">catalog တွင် ROM 10000 ထက် ပိုသည်။</string>
+    <string name="catalog_submitted_by">%1$s က တင်သည်</string>
+    <string name="catalog_tested_on">Emulator %1$s</string>
+    <string name="submit_action">ROM တင်ပါ</string>
+    <string name="submit_another">နောက်ထပ် တင်ပါ</string>
+    <string name="submit_bad_size">နံပါတ် ရိုက်ထည့်ပါ၊ 0 သို့မဟုတ် ပိုသည်</string>
+    <string name="submit_bad_url">တရားဝင် http(s) လင့်ခ် ရိုက်ထည့်ပါ</string>
+    <string name="submit_by">သင့်နာမည်</string>
+    <string name="submit_categories_failed">ကဏ္ဍများ ရယူ၍ မရပါ: %1$s</string>
+    <string name="submit_close">ပိတ်ပါ</string>
+    <string name="submit_device">စက်ပစ္စည်း</string>
+    <string name="submit_emulator">Emulator ဗားရှင်း (မသုံးလည်းရသည်)</string>
+    <string name="submit_err_bad_response">Server က မမျှော်လင့်သော အဖြေ ပေးပါသည်။</string>
+    <string name="submit_err_duplicate">ဤဒေါင်းလုဒ် လင့်ခ်ကို ရှေ့က တင်ပြီးသားဖြစ်သည်။</string>
+    <string name="submit_err_rate_limited">တင်မှု များနေပါသည်။ ခန့်မှန်း %1$d မိနစ်အကြာ ပြန်ကြိုးစားပါ။</string>
+    <string name="submit_err_rejected">Server က တင်မှုကို ငြင်းပါသည်: %1$s</string>
+    <string name="submit_err_server">Server က အမှားပြပါသည် (HTTP %1$d)။</string>
+    <string name="submit_intro">ROM ဒေါင်းလုဒ် လင့်ခ်ကို မျှဝေပါ။ တင်မှုများကို catalog တွင် မြင်ရန် စစ်ဆေးပြီးမှ ပြသည်။</string>
+    <string name="submit_name">ROM အမည်</string>
+    <string name="submit_not_direct_text">တင်မှုများသည် ROM ဖိုင်သို့ တိုက်ရိုက် ဒေါင်းလုဒ် လင့်ခ်များ ဖြစ်ရမည်။ ဝက်ဘ်ပိတ်လင့်ခ်များ သို့မဟုတ် အရင် ပိတ်တစ်ခု ဖွင့်ရသော ဖိုင် host များကို မလက်ခံပါ။\n\nတင်ရန် အကြံပြုခြင်းနေရာမှာ archive.org ဖြစ်သည်။</string>
+    <string name="submit_not_direct_title">တိုက်ရိုက် လင့်ခ် လိုသည်</string>
+    <string name="submit_notes">မှတ်ချက်များ (မသုံးလည်းရသည်)</string>
+    <string name="submit_pick_variant_first">အရင် အမျိုးအစား ရွေးပါ</string>
+    <string name="submit_required">လိုအပ်သည်</string>
+    <string name="submit_rom_version">ROM ဗားရှင်း</string>
+    <string name="submit_send">တင်ပါ</string>
+    <string name="submit_size_mb">ဖိုင်အရွယ်အစား MB (မသုံးလည်းရသည်)</string>
+    <string name="submit_success">ကျေးဇူးတင်ပါသည်! သင့် ROM တင်ပြီးပါပြီ၊ စစ်ဆေးပြီးနောက် catalog တွင် ပေါ်လာမည်။</string>
+    <string name="submit_title">ROM တင်ပါ</string>
+    <string name="submit_url">ဒေါင်းလုဒ် URL</string>
+    <string name="submit_variant">အမျိုးအစား</string>
+    <string name="submit_version">ဗားရှင်း ကဏ္ဍ</string>
+</resources>

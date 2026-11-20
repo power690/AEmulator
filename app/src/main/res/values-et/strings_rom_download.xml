@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Allalaadimine on juba käimas.</string>
+    <string name="rom_dl_cannot_start">Allalaadimist ei saanud taustal alustada.</string>
+    <string name="rom_dl_channel">ROM-i allalaadimine</string>
+    <string name="rom_dl_channel_done">ROM-i allalaadimine lõpetatud</string>
+    <string name="rom_dl_done">ROM on alla laaditud</string>
+    <string name="rom_dl_done_text">Puuduta importimiseks %1$s</string>
+    <string name="rom_dl_failed">ROM-i allalaadimine ebaõnnestus</string>
+    <string name="rom_dl_hide">Peida</string>
+    <string name="rom_dl_page">Allalaadimislink</string>
+    <string name="rom_dl_page_text">See link on veebileht. Puuduta, et see brauseris avada.</string>
+</resources>

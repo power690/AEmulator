@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Es läuft bereits ein Download.</string>
+    <string name="rom_dl_cannot_start">Der Download konnte nicht im Hintergrund gestartet werden.</string>
+    <string name="rom_dl_channel">ROM-Download</string>
+    <string name="rom_dl_channel_done">ROM-Download abgeschlossen</string>
+    <string name="rom_dl_done">ROM heruntergeladen</string>
+    <string name="rom_dl_done_text">Tippen, um %1$s zu importieren</string>
+    <string name="rom_dl_failed">ROM-Download fehlgeschlagen</string>
+    <string name="rom_dl_hide">Ausblenden</string>
+    <string name="rom_dl_page">Download-Link</string>
+    <string name="rom_dl_page_text">Dieser Link ist eine Webseite. Antippen öffnet sie im Browser.</string>
+</resources>

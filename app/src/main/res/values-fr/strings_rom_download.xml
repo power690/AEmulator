@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Un autre téléchargement est déjà en cours.</string>
+    <string name="rom_dl_cannot_start">Impossible de démarrer le téléchargement en arrière-plan.</string>
+    <string name="rom_dl_channel">Téléchargement de ROM</string>
+    <string name="rom_dl_channel_done">Téléchargement de ROM terminé</string>
+    <string name="rom_dl_done">ROM téléchargée</string>
+    <string name="rom_dl_done_text">Appuyez pour importer %1$s</string>
+    <string name="rom_dl_failed">Échec du téléchargement de la ROM</string>
+    <string name="rom_dl_hide">Masquer</string>
+    <string name="rom_dl_page">Lien de téléchargement</string>
+    <string name="rom_dl_page_text">Ce lien est une page web. Appuyez pour l\'ouvrir dans le navigateur.</string>
+</resources>

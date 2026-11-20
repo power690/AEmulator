@@ -18,7 +18,7 @@
     <string name="storage_text">Payagan ang access sa lahat ng file: pagkatapos, ang memory card ng bawat system ay nasa folder na AEmulator ng internal storage — madaling gamitin para sa mga APK, musika at larawan.</string>
     <string name="allow">Payagan</string>
     <string name="empty_title">Wala pang mga system</string>
-    <string name="empty_text">Magdagdag ng ARM firmware para sa Android 1.0–17: isang recovery ZIP, isang Odin archive (.tar.md5), system.img o factory image.</string>
+    <string name="empty_text">Magdagdag ng ARM firmware para sa Android 2.2–6.0: isang recovery ZIP, isang Odin archive (.tar.md5), system.img o factory image.</string>
     <string name="empty_help">Aling mga file ang gumagana?</string>
     <string name="import_failed">Nabigo ang pag-import</string>
     <string name="import_running">Ini-import ang firmware</string>
@@ -30,7 +30,7 @@
     <string name="start">Simulan</string>
     <string name="rename">Palitan ang pangalan</string>
     <string name="help_title">Mga sinusuportahang firmware</string>
-    <string name="help_text">• Android 2.2–4.4: 32-bit ARM firmware, tumatakbo sa QEMU (mas luma sa 2.2: eksperimental).\n• Android 5.0–17: arm64 firmware at mga GSI, native na tumatakbo sa telepono.\n\nMga format:\n• CWM/TWRP recovery ZIP (MIUI, CyanogenMod, mga port, karamihan ng custom ROM);\n• Samsung: Odin .tar / .tar.md5 o isang ZIP na may AP_*.tar.md5;\n• Mga factory image ng Google (.tgz / .zip);\n• system.img (ext4, sparse, YAFFS2), TWRP backup na system.ext4.win;\n• OTA na may system.new.dat(.br) + system.transfer.list;\n• Gayundin: 7z, RAR, LG .kdz, Sony .ftf, Huawei UPDATE.APP, Qualcomm EDL, payload.bin, super.img, EROFS, Android-x86 ISO.\n\nPinakamainam kung may boot.img ang archive: doon kinukuha ang pagkakasunod-sunod ng pagsisimula ng mga serbisyo.</string>
+    <string name="help_text">• Android 2.2 at 4.0–4.4: pangunahing suporta; 5.x–6.x: eksperimental.\n• 32-bit ARM firmware lang (armeabi / armeabi-v7a).\n\nMga format:\n• CWM/TWRP recovery ZIP (MIUI, CyanogenMod, mga port, karamihan ng custom ROM);\n• Samsung: Odin .tar / .tar.md5 o isang ZIP na may AP_*.tar.md5;\n• Mga factory image ng Google (.tgz / .zip);\n• system.img (ext4, sparse, YAFFS2), TWRP backup na system.ext4.win;\n• OTA na may system.new.dat(.br) + system.transfer.list.\n\nPinakamainam kung may boot.img ang archive: doon kinukuha ang pagkakasunod-sunod ng pagsisimula ng mga serbisyo.</string>
     <string name="vs_screen">Screen ng guest</string>
     <string name="vs_fixed_2x">Gumagamit ang Android 2.x ng nakapirming 480×800 na screen sa 240 dpi.</string>
     <string name="vs_screen_hint">Mas bumibilis ang system kapag mas maliit ang screen.</string>
@@ -43,19 +43,12 @@
     <string name="vs_jit_sub">Mas mabilis; kung wala ito, mas maaasahan ang mga maselang firmware.</string>
     <string name="vs_legacy">Fallback na 2.x engine</string>
     <string name="vs_legacy_sub">Ang mas lumang Desire HD engine: GLES 1.x lang, 480×800 na screen. Gamitin ito kung pumalya ang pangunahing engine.</string>
-    <string name="vs_lowram">Low memory mode</string>
+    <string name="vs_lowram">Mode ng mababang memory</string>
     <string name="vs_lowram_sub">ro.config.low_ram — nagtitipid ng memory ang system.</string>
-    <string name="vs_memory_mode">Pamamahala ng memory</string>
-    <string name="vs_memory_light">Magaan</string>
-    <string name="vs_memory_medium">Katamtaman</string>
-    <string name="vs_memory_aggressive">Agresibo</string>
-    <string name="vs_memory_light_sub">Ihihinto lang ang mga app sa background kapag halos maubos na ang memory ng telepono mismo. Pinakakaunting restart; pinakamarami ang nagagamit na memory. Magkakabisa pagkatapos ng buong restart ng VM.</string>
-    <string name="vs_memory_medium_sub">Balanse: nagpapanatili ng katamtamang dami ng mga app sa background at ihihinto ang iba kapag kaunti na ang libreng memory. Magkakabisa pagkatapos ng buong restart ng VM.</string>
-    <string name="vs_memory_aggressive_sub">Kaunting mga app lang sa background ang pinananatili at madalas ang pag-check, kaya maaga ring napapalaya ang memory. Pinakakaunti ang nagagamit na memory, pero mas madalas mag-restart ang mga app. Magkakabisa pagkatapos ng buong restart ng VM.</string>
     <string name="vs_proxy">Modernong TLS proxy</string>
     <string name="vs_proxy_sub">Nagagawa ng mga lumang browser at app na magbukas ng mga HTTPS site ngayon.</string>
     <string name="vs_controls">Mga kontrol</string>
-    <string name="vs_nav">Android button bar</string>
+    <string name="vs_nav">Bar ng mga button ng Android</string>
     <string name="vs_nav_sub">Back, Home, Recents at Menu sa ilalim ng screen.</string>
     <string name="vs_awake">Panatilihing bukas ang screen</string>
     <string name="vs_awake_sub">Habang bukas ang system.</string>
@@ -79,24 +72,14 @@
     <string name="st_stopping">Nagsa-shut down</string>
     <string name="first_boot_hint">Mas matagal ang unang boot: ino-optimize ng system ang mga app.</string>
     <string name="host">Host</string>
-    <string name="guest_log">Guest (logcat)</string>
+    <string name="guest_log">Bisita (logcat)</string>
     <string name="as_appearance">Hitsura</string>
     <string name="as_language">Wika</string>
     <string name="as_lang_system">Default ng system</string>
     <string name="as_theme">Tema</string>
-    <string name="as_theme_system">System</string>
+    <string name="as_theme_system">Sistema</string>
     <string name="as_theme_light">Maliwanag</string>
     <string name="as_theme_dark">Madilim</string>
-    <string name="as_accent">Accent color</string>
-    <string name="as_accent_sub">Pumili ng kahit anong kulay para baguhin ang hitsura ng buong app</string>
-    <string name="as_accent_default">Sunset (default)</string>
-    <string name="as_accent_pick">Pumili ng kulay</string>
-    <string name="as_accent_reset">I-reset</string>
-    <string name="as_accent_apply">Ilapat</string>
-    <string name="as_accent_hex">Hex</string>
-    <string name="as_accent_hue">Hue</string>
-    <string name="as_accent_sat">Saturation</string>
-    <string name="as_accent_val">Liwanag</string>
     <string name="as_dynamic">Mga dynamic na kulay</string>
     <string name="as_dynamic_sub">Mga kulay mula sa iyong wallpaper (Android 12+)</string>
     <string name="as_defaults">Mga default para sa mga bagong system</string>
@@ -109,7 +92,24 @@
     <string name="as_orig_sub">Gumawa ng mga emulator ng Desire HD at One M7 na pinagmulan ng proyektong ito</string>
     <string name="as_github">Source code sa GitHub</string>
     <string name="as_version">Bersyon %1$s</string>
-    <string name="as_about">Pinapatakbo ng AEmulator ang mga klasikong Android firmware sa mga modernong telepono. Libre at open source.</string>
+    <string name="as_about">Pinapatakbo ng AEmulator Plus ang mga klasikong Android firmware sa mga modernong telepono. Libre at open source.</string>
+    <string name="vs_memory_mode">Pamamahala ng memory</string>
+    <string name="vs_memory_light">Magaan</string>
+    <string name="vs_memory_medium">Katamtaman</string>
+    <string name="vs_memory_aggressive">Agresibo</string>
+    <string name="vs_memory_light_sub">Ihihinto lang ang mga app sa background kapag halos maubos na ang memory ng telepono mismo. Pinakakaunting restart; pinakamarami ang nagagamit na memory. Magkakabisa pagkatapos ng buong restart ng VM.</string>
+    <string name="vs_memory_medium_sub">Balanse: nagpapanatili ng katamtamang dami ng mga app sa background at ihihinto ang iba kapag kaunti na ang libreng memory. Magkakabisa pagkatapos ng buong restart ng VM.</string>
+    <string name="vs_memory_aggressive_sub">Kaunting mga app lang sa background ang pinananatili at madalas ang pag-check, kaya maaga ring napapalaya ang memory. Pinakakaunti ang nagagamit na memory, pero mas madalas mag-restart ang mga app. Magkakabisa pagkatapos ng buong restart ng VM.</string>
+    <string name="as_accent">Kulay ng accent</string>
+    <string name="as_accent_sub">Pumili ng kahit anong kulay para baguhin ang hitsura ng buong app</string>
+    <string name="as_accent_default">Sunset (default)</string>
+    <string name="as_accent_pick">Pumili ng kulay</string>
+    <string name="as_accent_reset">I-reset</string>
+    <string name="as_accent_apply">Ilapat</string>
+    <string name="as_accent_hex">Hex</string>
+    <string name="as_accent_hue">Hue</string>
+    <string name="as_accent_sat">Saturation</string>
+    <string name="as_accent_val">Liwanag</string>
     <string name="log_copy">Kopyahin</string>
     <string name="log_export">I-export ang .log</string>
     <string name="log_copied">Nakopya sa clipboard</string>
@@ -131,7 +131,7 @@
     <string name="vs_radio_sub">Telephony, IMEI at signal. Kapag naka-off: kumikilos ang firmware na parang Wi-Fi tablet</string>
     <string name="vs_random">Random</string>
     <string name="vs_device_id">Pagkakakilanlan ng device</string>
-    <string name="vs_serial">Serial number</string>
+    <string name="vs_serial">Numero ng serial</string>
     <string name="vs_kernel">Bersyon ng kernel</string>
     <string name="vs_kernel_sub">Ipinapakita sa /proc/version at uname -r (hal. 3.0.31-custom, o isang buong linyang “Linux version ...”). Ilalapat sa susunod na boot. Blangko = default</string>
     <string name="vs_baseband">Bersyon ng baseband</string>
@@ -142,7 +142,7 @@
     <string name="vs_qemu_args_sub">Halimbawa: -d unimp DHD_TBFLUSH=2 (ang NAME=value ay nagiging environment variable)</string>
     <string name="vs_strace">I-trace ang mga system call ng mga serbisyo</string>
     <string name="vs_strace_sub">Mga pangalan ng serbisyo na pinaghihiwalay ng kuwit, hal. mediaserver,zygote. Pinapabagal ang mga serbisyong iyon at isinusulat ang trace sa kanilang mga log. Ilalapat sa susunod na boot.</string>
-    <string name="vs_wifi">Wi-Fi network</string>
+    <string name="vs_wifi">Network ng Wi-Fi</string>
     <string name="vs_wifi_sub">Ipinapakita ang internet ng host sa VM bilang nakakonektang Wi-Fi network sa halip na Ethernet. Android 2.3, 4.0–17 (8–17: eksperimental). Ilalapat sa susunod na boot.</string>
     <string name="vs_wifi_ssid">Pangalan ng network (SSID)</string>
     <string name="vs_wifi_ssid_sub">Hanggang 32 byte</string>
@@ -156,7 +156,7 @@
     <string name="vs_hardware_default">Default ng firmware</string>
     <string name="vs_hardware_pick">Pumili</string>
     <string name="vs_hardware_sub">Value ng ro.hardware na ibinibigay sa guest sa paglunsad. Hinahanap ng system ang mga HAL library batay dito (gralloc.&lt;value&gt;.so, lights.&lt;value&gt;.so…), kaya baguhin lang ito kung alam mo ang inaasahan ng firmware. Magkakabisa pagkatapos ng buong pag-restart ng VM.</string>
-    <string name="m_power_menu">Power menu</string>
+    <string name="m_power_menu">Menu ng power</string>
     <string name="m_keyboard">Ipakita/itago ang keyboard</string>
     <string name="m_paste">I-paste ang text mula sa clipboard</string>
     <string name="m_sms">Pekeng SMS</string>
@@ -226,7 +226,7 @@
     <string name="m_install_apk">I-install ang APK…</string>
     <string name="m_install_apk_start">Ini-install…</string>
     <string name="m_device">Estado ng device</string>
-    <string name="m_airplane">Airplane mode</string>
+    <string name="m_airplane">Mode ng eroplano</string>
     <string name="m_stay_awake">Panatilihing bukas ang screen</string>
     <string name="as_updates">Mga update</string>
     <string name="as_auto_updates">Awtomatikong tingnan ang mga update</string>
@@ -245,9 +245,9 @@
     <string name="update_download_error">Nabigo ang pag-download: %1$s</string>
     <string name="update_open_github">Tingnan sa GitHub</string>
     <string name="vs_camera">Camera ng host (eksperimental)</string>
-    <string name="vs_camera_sub">Mga HAL1 ROM: 640×480 na preview at mga larawan, likod/harap na camera. Kailangan ng pahintulot at buong pag-restart ng VM. Nagsasara ang camera kapag nasa background ang AEmulator; buksan muli ang camera app ng guest. Nire-record ang video sa 640×480.</string>
+    <string name="vs_camera_sub">Mga HAL1 ROM: 640×480 na preview at mga larawan, likod/harap na camera. Kailangan ng pahintulot at buong pag-restart ng VM. Nagsasara ang camera kapag nasa background ang AEmulator Plus; buksan muli ang camera app ng guest. Nire-record ang video sa 640×480.</string>
     <string name="vs_microphone">Mikropono ng host (eksperimental)</string>
-    <string name="vs_microphone_sub">Nagre-record ang mga app ng guest mula sa mikropono ng telepono (voice recorder, mga tala). Kailangan ng pahintulot at buong pag-restart ng VM. Humihinto ang pagre-record kapag nasa background ang AEmulator; buksan muli ang recorder app ng guest. Mga 4.x ROM lang.</string>
+    <string name="vs_microphone_sub">Nagre-record ang mga app ng guest mula sa mikropono ng telepono (voice recorder, mga tala). Kailangan ng pahintulot at buong pag-restart ng VM. Humihinto ang pagre-record kapag nasa background ang AEmulator Plus; buksan muli ang recorder app ng guest. Mga 4.x ROM lang.</string>
     <string name="microphone_permission_denied">Tinanggihan ang pahintulot sa mikropono. Katahimikan ang marerekord ng mga app ng guest; bigyan ng pahintulot sa mga setting ng Android app at ganap na i-restart ang VM para subukan muli.</string>
     <string name="vs_sim_title">Mga SIM card</string>
     <string name="vs_sim_present">Nakalagay ang SIM card</string>
@@ -282,10 +282,6 @@
     <string name="catalog_section_source">Buksan ang pinagmulan ng seksyon</string>
     <string name="catalog_download_rom">I-download ang %1$s</string>
     <string name="catalog_back_sections">Bumalik sa mga seksyon</string>
-    <plurals name="catalog_rom_count">
-        <item quantity="one">%1$d ROM</item>
-        <item quantity="other">%1$d na ROM</item>
-    </plurals>
     <string name="catalog_reported">Hindi bineberipika ng app ang mga status ng compatibility ng ROM.</string>
     <string name="catalog_no_roms">Walang mga ROM sa ngayon.</string>
     <string name="catalog_no_url">Hindi available ngayon ang download URL ng ROM.</string>
@@ -339,7 +335,7 @@
     <string name="m_rotate_screen">I-rotate ang screen</string>
     <string name="m_rotate_simulated">Ginaya ang pag-ikot ng telepono. I-enable ang auto-rotate sa Android ng guest.</string>
     <string name="vm_export_system_boot">System at boot</string>
-    <string name="vm_export_system">System</string>
+    <string name="vm_export_system">Sistema</string>
     <string name="vm_export_system_info">I-export nang magkasama ang firmware at anumang available na boot file. Kung wala ito, hindi makakagawa ng bagong VM ang archive.</string>
     <string name="vm_export_config">Mga setting</string>
     <string name="vm_export_config_info">Isama ang mga setting ng VM para sa pagbabalik o “I-import ang mga setting”. Pinananatili ang pagkakakilanlan ng ROM kahit hindi isama ang mga setting.</string>
@@ -379,7 +375,6 @@
     <string name="lib3d_tap_hint">I-tap ang telepono para baligtarin</string>
     <string name="as_library_3d">3D library ng firmware</string>
     <string name="as_library_3d_sub">Ipakita ang mga na-import na firmware at container bilang mga 3D na telepono na ini-swipe, sa halip na listahan ng card. Naka-off bilang default.</string>
-
     <string name="th_title">Tema ng screen ng VM</string>
     <string name="th_sub">Mga key ng navigation bar, mga kulay at ang frame sa paligid ng screen ng guest, na hango sa isang panahon ng Android o sa sarili mong disenyo.</string>
     <string name="th_note">Ang app lang sa paligid ng VM ang binabago ng mga tema; hindi kailanman binabago ang firmware. Ilalapat ang mga pagbabago kapag binuksan muli ang screen ng VM.</string>
@@ -456,8 +451,8 @@
     <string name="as_new_home_sub">Library na grid na may bottom bar (istilong 0.0.0.3). I-off para sa klasikong listahan. Magkakabisa pagkatapos i-restart ang app.</string>
     <string name="vs_thermal">Thermal passthrough</string>
     <string name="vs_thermal_sub">Naka-off: laging 30 °C ang binabasa ng thermal_zone17 ng guest, kaya patuloy na gumagana ang firmware na nagba-block ng screen kapag mainit (overheat overlay ng Xiaomi). Naka-on: binabasa ang sensor ng mismong telepono. Laging mas mataas ang prayoridad ng value na itinakda mula sa menu ng machine. Magkakabisa sa susunod na pagsisimula.</string>
-    <string name="thermal_menu">Thermal sensor</string>
-    <string name="thermal_title">Thermal sensor</string>
+    <string name="thermal_menu">Sensor ng temperatura</string>
+    <string name="thermal_title">Sensor ng temperatura</string>
     <string name="thermal_mode">Mode: %1$s</string>
     <string name="thermal_mode_cool">pirming 30 °C</string>
     <string name="thermal_mode_host">sensor ng telepono</string>
@@ -483,7 +478,7 @@
     <string name="vmos_preset_perf">Performance</string>
     <string name="vmos_preset_balanced">Balanse</string>
     <string name="vmos_preset_lite">Magaan / mababang RAM</string>
-    <string name="lib_title">Firmware library</string>
+    <string name="lib_title">Aklatan ng firmware</string>
     <string name="lib_empty">Wala pang firmware: mag-import ng firmware file para gawin ang unang machine.</string>
     <string name="new_machine">Bagong machine</string>
     <string name="reset_data">I-reset ang data</string>
@@ -518,21 +513,31 @@
     <string name="folder_empty">Walang laman — i-drop dito ang mga ROM</string>
     <string name="folder_open">Buksan ang folder</string>
     <string name="folder_close">Isara ang folder</string>
-    <plurals name="folder_roms">
-        <item quantity="one">%1$d ROM</item>
-        <item quantity="other">%1$d na ROM</item>
-    </plurals>
     <string name="phantom_title">Phantom process killer</string>
     <string name="phantom_msg">Hindi naka-enable sa iyong device ang opsyong “I-disable ang mga paghihigpit sa child process” sa Developer Options. Ibig sabihin, papatayin ang zygote sa pagsisimula ng emulator, kaya hindi makakapag-boot ang emulator. Kaya HIGHLY RECOMMENDED na i-enable ito.</string>
     <string name="phantom_open_dev">Buksan ang Developer Options</string>
     <string name="phantom_ignore">Huwag pansinin</string>
     <string name="phantom_never">Huwag nang ipaalala</string>
-    <string name="vs_netdebug">HTTP debugger</string>
+    <string name="vs_netdebug">Tagapag-debug ng HTTP</string>
     <string name="vs_netdebug_sub">Nila-log ang mga kahilingang HTTP at HTTPS ng guest at maaari itong sagutin o baguhin ang mga ito (menu › HTTP debugger). Naglalagay ng debugging CA sa trust store ng guest. Magkakabisa sa susunod na buong pagsisimula.</string>
-    <string name="m_netdebug">HTTP debugger</string>
+    <string name="m_netdebug">Tagapag-debug ng HTTP</string>
     <string name="vs_skip_perm_wait">Laktawan ang paghihintay sa permission controller (Android 10-13)</string>
     <string name="vs_skip_perm_wait_sub">Para sa x86 firmware sa ARM na telepono, kung saan masyadong mabagal ang permission controller app para sumagot sa loob ng 60 s at pinapatay ang system_server (\"Error granting/upgrading runtime permissions\"). Pina-patch ang services.jar ng firmware para hindi maghintay ang boot sa mga default na runtime permission grant; hindi na makukuha ng mga preinstalled na app ang mga permission na iyon sa boot. Pinipigilan ang dex2oat na i-recompile ang na-patch na jar. Ibinabalik ng pag-off ang orihinal na jar. Magkakabisa sa susunod na buong boot.</string>
     <string name="catalog_download_checking">Sinusuri ang link…</string>
     <string name="catalog_download_title">Dina-download ang ROM</string>
     <string name="catalog_download_failed">Nabigo ang pag-download: %1$s</string>
+    <string name="al_title">Tagapaglunsad ng Activity</string>
+    <string name="m_activities">Tagapaglunsad ng Activity</string>
+    <string name="al_search_packages">Maghanap ng mga pakete</string>
+    <string name="al_search_activities">Maghanap ng mga Activity</string>
+    <string name="al_no_packages">Walang nahanap na pakete</string>
+    <string name="al_no_activities">Walang nahanap na Activity</string>
+    <string name="al_not_exported">hindi naka-export</string>
+    <string name="al_starting">Sinisimulan ang %1$s…</string>
+    <string name="catalog_share_rom">Ibahagi ang download link ng %1$s</string>
+    <string name="m_battery_old_note">Binabasa lang ng Android version na ito ang baterya habang nagsisimula ito. Ang level at charging state na itinakda mo ay naka-save at gagamitin sa susunod na pagsisimula ng VM.</string>
+    <string name="vs_no_dex2oat">I-disable ang dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Hindi kailanman naco-compile ang mga app at system code sa guest: agad na nabibigo ang bawat pagtakbo ng dex2oat. Babala: maaaring magdulot ito ng mga crash, glitch, at ibang hindi inaasahang gawi (mabagal ang mga app, hindi makaboot ang ilang firmware nang walang compilation). Nakapatay bilang default. Magkakabisa sa susunod na full start.</string>
+    <string name="m_multitask">Paglipat ng gawain</string>
+    <string name="nav_show">Ipakita ang bar ng mga button ng Android</string>
 </resources>

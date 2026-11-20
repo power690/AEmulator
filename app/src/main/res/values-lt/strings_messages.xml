@@ -209,9 +209,9 @@
     <string name="lib3d_spec_screen">Ekranas</string>
     <string name="lib3d_spec_size">Dydis</string>
     <string name="lib3d_spec_model">Modelis</string>
-    <string name="as_upstream_row">Upstream: %1$s</string>
+    <string name="as_upstream_row">Pirminis projektas: %1$s</string>
     <string name="as_original_row">Originalas: %1$s</string>
-    <string name="sms_default_body">Sveikinimai iš AEmulator</string>
+    <string name="sms_default_body">Sveikinimai iš AEmulator Plus</string>
     <string name="theme_original">Originali</string>
     <string name="theme_sunset">Saulėlydis</string>
     <string name="sim_country_emulator">Emuliatorius</string>

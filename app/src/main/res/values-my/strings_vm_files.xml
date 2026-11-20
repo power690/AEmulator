@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vmf_bad_name">ထိုအမည်ကို ခွင့်မပြုပါ။</string>
+    <string name="vmf_browse">VM ဖိုင်များကို ကြည့်ပါ</string>
+    <string name="vmf_copy">ကူးယူပါ</string>
+    <string name="vmf_copy_here">ဤနေရာသို့ ကူးယူပါ</string>
+    <string name="vmf_copy_to">ကူးယူရန်နေရာ</string>
+    <string name="vmf_copy_to_device">VM ပြင်ပ (စက်ပစ္စည်း သိုလှောင်မှု)</string>
+    <string name="vmf_copy_to_vm">ဤ VM ၏ အခြားနေရာ</string>
+    <string name="vmf_create">ဖန်တီးပါ</string>
+    <string name="vmf_delete_core">ဤအရာသည် VM ၏ အဓိက အပိုင်း (partition သို့မဟုတ် image) ဖြစ်သည်။ ၎င်းမပါလျှင် VM စတင် မရတော့ပါ။</string>
+    <string name="vmf_delete_many">%1$d ခုကို ဖျက်မလား။ ပြန်ပြင်၍ မရပါ။</string>
+    <string name="vmf_delete_one">\"%1$s\" ကို ဖျက်မလား။ ပြန်ပြင်၍ မရပါ။</string>
+    <string name="vmf_exists">ထိုအမည်ရှိ အရာ ရှိပြီးသားဖြစ်သည်။</string>
+    <string name="vmf_failed">မအောင်မြင်ပါ: %1$s</string>
+    <string name="vmf_folder_name">ဖိုင်တွဲ အမည်</string>
+    <string name="vmf_link">လင့်ခ်</string>
+    <string name="vmf_new_folder">ဖိုင်တွဲအသစ်</string>
+    <string name="vmf_new_name">အမည်အသစ်</string>
+    <string name="vmf_no_folders">ဤနေရာတွင် ဖိုင်တွဲ မရှိပါ</string>
+    <string name="vmf_no_space">လွတ်နေရာ မလုံလောက်ပါ။</string>
+    <string name="vmf_preview_failed">ဤဖိုင်ကို ဖတ်၍ မရပါ။</string>
+    <string name="vmf_preview_truncated">ပထမ %1$s / %2$s ကို ပြသည်</string>
+    <string name="vmf_protected">ဤအရာသည် VM ၏ ကိုယ်ပိုင် စာရင်းအင်း အပိုင်းဖြစ်၍ ဤနေရာတွင် ပြောင်းလဲ၍ မရပါ။</string>
+    <string name="vmf_readonly">ဤအရာသည် VM ၏ ကိုယ်ပိုင်ဖိုင် မဟုတ်သဖြင့် ဤနေရာတွင် ပြောင်းလဲ၍ မရပါ။</string>
+    <string name="vmf_readonly_folder">ဖတ်ရုံသာ: ဤဖိုင်တွဲသည် VM ၏ ကိုယ်ပိုင်ဖိုင် မဟုတ်ပါ။ ကြည့်ခြင်းနှင့် ကူးယူခြင်းသာ ရပါသည်၊ ပြောင်းလဲ၍ မရပါ။</string>
+    <string name="vmf_result_copied">ကူးယူပြီး: %1$d</string>
+    <string name="vmf_result_copied_skipped">ကူးယူပြီး: %1$d။ ကျော်သည်: %2$d (VM ပြင်ပ လင့်ခ်များ၊ socket များ စသည်)။</string>
+    <string name="vmf_result_deleted">ဖျက်ပြီး: %1$d</string>
+    <string name="vmf_unreadable">ဤဖိုင်တွဲကို ဖတ်၍ မရပါ။</string>
+    <string name="vmf_working_copy">ကူးယူနေသည်…</string>
+    <string name="vmf_working_delete">ဖျက်နေသည်…</string>
+    <string name="vmf_working_rename">အမည်ပြောင်းနေသည်…</string>
+</resources>

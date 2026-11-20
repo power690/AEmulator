@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Резервну копију ВМ-а (.aessvm) треба увести засебно, а не заједно с другим датотекама.</string>
     <string name="imp_joining">Спајање делова (%2$d) датотеке %1$s…</string>
     <string name="imp_split_missing">Недостаје део %2$s подељене архиве %1$s. Изаберите све њене делове или их држите у једном фолдеру.</string>
+    <string name="fb_search">Претражи</string>
+    <string name="fb_search_hint">Претражи у овој фасцикли</string>
+    <string name="fb_no_matches">Нема подударних датотека или фасцикли</string>
 </resources>

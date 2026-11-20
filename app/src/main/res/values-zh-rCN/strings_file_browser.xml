@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">虚拟机备份（.aessvm）必须单独导入，不能与其他文件一起导入。</string>
     <string name="imp_joining">正在合并 %1$s 的 %2$d 个分卷…</string>
     <string name="imp_split_missing">分卷压缩包 %1$s 缺少第 %2$s 部分。请选择所有分卷，或将它们放在同一文件夹中。</string>
+    <string name="fb_search">搜索</string>
+    <string name="fb_search_hint">在此文件夹中搜索</string>
+    <string name="fb_no_matches">没有匹配的文件或文件夹</string>
 </resources>

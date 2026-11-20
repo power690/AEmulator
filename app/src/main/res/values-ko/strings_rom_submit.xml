@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">카탈로그에 ROM이 10000개를 초과합니다.</string>
     <string name="catalog_tested_on">에뮬레이터 %1$s</string>
     <string name="catalog_submitted_by">제출자: %1$s</string>
+    <string name="submit_not_direct_title">직접 링크 필요</string>
+    <string name="submit_not_direct_text">제출은 ROM 파일의 직접 다운로드 링크여야 합니다. 웹페이지 링크나 페이지를 먼저 열어야 하는 파일 호스트는 받지 않습니다.\n\n업로드는 archive.org를 권장합니다.</string>
 </resources>

@@ -108,7 +108,7 @@
     <string name="as_orig_sub">Desire HD un One M7 emulatoru veidotājs, no kuriem izaudzis šis projekts</string>
     <string name="as_github">Pirmkods vietnē GitHub</string>
     <string name="as_version">Versija %1$s</string>
-    <string name="as_about">AEmulator palaiž klasisko Android aparātprogrammatūru modernos tālruņos. Bezmaksas un ar atvērto pirmkodu.</string>
+    <string name="as_about">AEmulator Plus palaiž klasisko Android aparātprogrammatūru modernos tālruņos. Bezmaksas un ar atvērto pirmkodu.</string>
     <string name="log_copy">Kopēt</string>
     <string name="log_export">Eksportēt .log</string>
     <string name="log_copied">Nokopēts starpliktuvē</string>
@@ -255,9 +255,9 @@
     <string name="update_download_error">Lejupielāde neizdevās: %1$s</string>
     <string name="update_open_github">Skatīt vietnē GitHub</string>
     <string name="vs_camera">Saimnieka kamera (eksperimentāla)</string>
-    <string name="vs_camera_sub">HAL1 ROM: 640×480 priekšskatījums un fotoattēli, aizmugures/priekšējā kamera. Nepieciešama atļauja un pilna virtuālās mašīnas restartēšana. Kamera aizveras, kad AEmulator tiek pārslēgta uz fonu; atkārtoti atveriet viesa kameras lietotni. Video tiek ierakstīts 640×480.</string>
+    <string name="vs_camera_sub">HAL1 ROM: 640×480 priekšskatījums un fotoattēli, aizmugures/priekšējā kamera. Nepieciešama atļauja un pilna virtuālās mašīnas restartēšana. Kamera aizveras, kad AEmulator Plus tiek pārslēgta uz fonu; atkārtoti atveriet viesa kameras lietotni. Video tiek ierakstīts 640×480.</string>
     <string name="vs_microphone">Saimnieka mikrofons (eksperimentāls)</string>
-    <string name="vs_microphone_sub">Viesa lietotnes ieraksta no tālruņa mikrofona (diktofons, piezīmes). Nepieciešama atļauja un pilna virtuālās mašīnas restartēšana. Ierakstīšana apstājas, kad AEmulator tiek pārslēgta uz fonu; atkārtoti atveriet viesa diktofona lietotni. Tikai 4.x ROM.</string>
+    <string name="vs_microphone_sub">Viesa lietotnes ieraksta no tālruņa mikrofona (diktofons, piezīmes). Nepieciešama atļauja un pilna virtuālās mašīnas restartēšana. Ierakstīšana apstājas, kad AEmulator Plus tiek pārslēgta uz fonu; atkārtoti atveriet viesa diktofona lietotni. Tikai 4.x ROM.</string>
     <string name="microphone_permission_denied">Mikrofona atļauja liegta. Viesa lietotnes ierakstīs klusumu; piešķiriet atļauju Android lietotņu iestatījumos un pilnībā restartējiet virtuālo mašīnu, lai mēģinātu vēlreiz.</string>
     <string name="vs_sim_title">SIM kartes</string>
     <string name="vs_sim_present">SIM karte ievietota</string>
@@ -536,4 +536,18 @@
     <string name="catalog_download_checking">Pārbauda saiti…</string>
     <string name="catalog_download_title">Lejupielādē ROM</string>
     <string name="catalog_download_failed">Lejupielāde neizdevās: %1$s</string>
+    <string name="al_title">Activity palaidējs</string>
+    <string name="m_activities">Activity palaidējs</string>
+    <string name="al_search_packages">Meklēt pakotnes</string>
+    <string name="al_search_activities">Meklēt Activity</string>
+    <string name="al_no_packages">Pakotnes nav atrastas</string>
+    <string name="al_no_activities">Activity nav atrasti</string>
+    <string name="al_not_exported">nav eksportēts</string>
+    <string name="al_starting">Palaiž %1$s…</string>
+    <string name="catalog_share_rom">Dalīties ar %1$s lejupielādes saiti</string>
+    <string name="m_battery_old_note">Šī Android versija akumulatoru nolasa tikai ieslēgšanas laikā. Iestatītais līmenis un uzlādes stāvoklis tiek saglabāts un izmantots VM nākamajā palaišanas reizē.</string>
+    <string name="vs_no_dex2oat">Izslēgt dex2oat (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Lietotnes un sistēmas kods viesos nekad netiek kompilēts: katrs dex2oat izpildes mēģinājums uzreiz izgāžas. Brīdinājums: tas var izraisīt avārijas, kļūdas un citu neparedzētu uzvedību (lietotnes darbojas lēnāk, daži firmware bez kompilēšanas nedarbojas). Pēc noklusējuma izslēgts. Stājas spēkā nākamajā pilnajā palaišanas reizē.</string>
+    <string name="m_multitask">Uzdevumu pārslēgšana</string>
+    <string name="nav_show">Rādīt Android pogu joslu</string>
 </resources>

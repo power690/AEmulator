@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Poteka že drugo prenašanje.</string>
+    <string name="rom_dl_cannot_start">Prenašanja ni bilo mogoče zagnati v ozadju.</string>
+    <string name="rom_dl_channel">Prenašanje ROM</string>
+    <string name="rom_dl_channel_done">Prenašanje ROM zaključeno</string>
+    <string name="rom_dl_done">ROM prenešen</string>
+    <string name="rom_dl_done_text">Tapnite za uvoz %1$s</string>
+    <string name="rom_dl_failed">Prenašanje ROM ni uspelo</string>
+    <string name="rom_dl_hide">Skrij</string>
+    <string name="rom_dl_page">Povezava za prenos</string>
+    <string name="rom_dl_page_text">Ta povezava je spletna stran. Tapnite, da jo odprete v brskalniku.</string>
+</resources>

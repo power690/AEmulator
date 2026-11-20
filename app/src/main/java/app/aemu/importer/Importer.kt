@@ -383,6 +383,52 @@ class Importer(
         }
     }
 
+    private fun importPayloadFromZip(zip: ZipFile, e: ZipArchiveEntry, base: String, depth: Int) {
+        val ch = zipChannel
+        var window: Pair<Long, Long>? = null
+        if (ch != null && e.method == ZipArchiveEntry.STORED) {
+            runCatching { zip.getRawInputStream(e).close() }
+            if (e.dataOffset > 0 && e.dataOffset + e.size <= ch.size()) window = e.dataOffset to e.size
+        }
+        if (window == null || ch == null) { importToolsetFile(spillEntry(zip, e), base, depth); return }
+        val toolWork = File(tmp, "tool-${System.nanoTime()}").apply { mkdirs() }
+        try {
+            val artifacts = FirmwareToolset.extractWindow(ch, window.first, window.second, toolWork) { msg -> log(msg) }
+            if (artifacts.isEmpty()) {
+                if (depth > 0 && base.endsWith(".bin", true)) { log("skipped $base: not a firmware container"); return }
+                throw LocalizedIOException("unknown file format \"$base\"", R.string.imp_unknown_file_format, base)
+            }
+            for (artifact in artifacts) {
+                if (cancelled) throw IOException("cancelled")
+                if (!artifact.file.isFile) continue
+                FileChannel.open(artifact.file.toPath(), StandardOpenOption.READ).use { c ->
+                    handle(ChannelSource(c), c, artifact.file.name, depth + 1, artifact.role)
+                }
+                if (artifact.cleanup) artifact.file.delete()
+            }
+        } finally { deleteTree(toolWork) }
+    }
+
+    private fun runFilesParallel(count: Int, body: (Int, Int, java.util.concurrent.atomic.AtomicBoolean) -> Unit) {
+        if (count == 0) return
+        val cpus = Runtime.getRuntime().availableProcessors()
+        val threads = if (cpus >= 5) 4 else if (cpus >= 3) 2 else 1
+        val failed = java.util.concurrent.atomic.AtomicBoolean(false)
+        if (threads <= 1 || count < 24) { body(0, count, failed); return }
+        val pool = java.util.concurrent.Executors.newFixedThreadPool(threads)
+        try {
+            val per = (count + threads - 1) / threads
+            val futures = (0 until threads).mapNotNull { t ->
+                val from = t * per
+                val to = minOf(from + per, count)
+                if (from >= to) null else pool.submit {
+                    try { body(from, to, failed) } catch (err: Throwable) { failed.set(true); throw err }
+                }
+            }
+            futures.forEach { it.get() }
+        } finally { pool.shutdown() }
+    }
+
     private fun recognizedFirmwareTool(name: String, bare: Boolean = false): Boolean {
         // super.img, or a super dump with no extension at all (a bare name counts only for a sizeable file outside the system-tree folders)
         if (PartitionNames.isSuper(name.replace('\\', '/').substringAfterLast('/'), bare)) return true
@@ -1027,7 +1073,7 @@ class Importer(
                 (base.endsWith(".nb0", true) || base.endsWith(".bin", true)) && e.size > AcerBin.MIN_SIZE &&
                     AcerBin.probe(zipEntryHead(zip, e, 1100)) -> importZipAcerBin(zip, e, base)
                 // payload.bin of an A/B OTA: the spilled copy is unpacked in place (it is already a private temp file)
-                base.equals("payload.bin", true) && e.size > 0 -> importToolsetFile(spillEntry(zip, e), base, depth + 1)
+                base.equals("payload.bin", true) && e.size > 0 -> importPayloadFromZip(zip, e, base, depth + 1)
                 recognizedFirmwareTool(base, bare) -> {
                     val nestedFile = spillEntry(zip, e)
                     try {
@@ -2791,6 +2837,7 @@ class Importer(
         // a system-as-root partition too: its top level is the guest root, which the layout's prefix says
         val layoutPartition = SystemLayout.partitionOf(mount)
         val cap = if (layoutPartition != null) SystemLayout.Capture(fs, src, SystemLayout.prefixOf(mount, asRoot)) else null
+        val fileTasks = ArrayList<Pair<String, Ext4Reader.Node>>()
         fs.walk { path, node ->
             if (cancelled) throw IOException("cancelled")
             if (asRoot && AbLayout.skipRootEntry(path, node.isFile, node.isLink)) return@walk
@@ -2799,16 +2846,36 @@ class Importer(
             when {
                 node.isDir -> { f.mkdirs(); cap?.dir(path, node.perm) }
                 node.isLink -> { val t = fs.linkTarget(node); symlinks.add(t to "/$rel"); cap?.link(path, t) }
-                node.isFile -> {
-                    f.parentFile?.mkdirs()
-                    val md = java.security.MessageDigest.getInstance("SHA-1")
-                    f.outputStream().buffered(1 shl 20).use { fs.copy(node, java.security.DigestOutputStream(it, md)) }
-                    cap?.file(path, node, md.digest())
-                    applyMode(f, node.perm)
-                    files++; bytes += node.size
-                }
+                node.isFile -> fileTasks.add(path to node)
             }
             if (++n % 150 == 0) onProgress(lt(R.string.ota_detail_with_name, mount, path.substringAfterLast('/')), -1f)
+        }
+        fun extractOne(path: String, node: Ext4Reader.Node): ByteArray {
+            val rel = if (asRoot) path else "$mount/$path"
+            val f = FirmwareContainers.destination(root, rel)
+            f.parentFile?.mkdirs()
+            val md = java.security.MessageDigest.getInstance("SHA-1")
+            f.outputStream().buffered(1 shl 20).use { fs.copy(node, java.security.DigestOutputStream(it, md)) }
+            applyMode(f, node.perm)
+            return md.digest()
+        }
+        val digests = arrayOfNulls<ByteArray>(fileTasks.size)
+        val errors = arrayOfNulls<Throwable>(fileTasks.size)
+        runFilesParallel(fileTasks.size) { from, to, failed ->
+            for (i in from until to) {
+                if (failed.get()) return@runFilesParallel
+                try {
+                    if (cancelled) throw IOException("cancelled")
+                    digests[i] = extractOne(fileTasks[i].first, fileTasks[i].second)
+                } catch (err: Throwable) { errors[i] = err; failed.set(true); return@runFilesParallel }
+            }
+        }
+        for (i in fileTasks.indices) {
+            errors[i]?.let { throw it }
+            val (path, node) = fileTasks[i]
+            cap?.file(path, node, digests[i]!!)
+            files++; bytes += node.size
+            if (i % 150 == 0) onProgress(lt(R.string.ota_detail_with_name, mount, path.substringAfterLast('/')), -1f)
         }
         if (cap != null && layoutPartition != null) {
             onProgress(lt(R.string.imp_recording_the_layout_of_image, mount), -1f)
@@ -3093,6 +3160,7 @@ class Importer(
         }.getOrDefault(false)
         if (asRoot) { systemAsRoot = true; log("image system: system-as-root layout (root file system in the partition)") }
         var n = 0
+        val fileTasks = ArrayList<Pair<String, ErofsReader.Node>>()
         fs.walk { path, node ->
             if (asRoot && AbLayout.skipRootEntry(path, node.type == 1, node.type == 2)) return@walk
             val rel = if (asRoot) path else "$mount/$path"
@@ -3107,16 +3175,35 @@ class Importer(
                         throw IOException("EROFS symlink escapes guest root: $rel")
                     symlinks.add(node.target to "/$rel")
                 }
-                1 -> {
-                    f.parentFile?.mkdirs()
-                    // Links are only created by finishTree, after all file bytes.
-                    if (isLink(f)) throw IOException("EROFS destination is a symlink: $rel")
-                    f.outputStream().buffered(1 shl 20).use { fs.copy(node, it) }
-                    applyMode(f, fs.fileMode(node) and 0xfff)
-                    files++; bytes += f.length()
-                }
+                1 -> fileTasks.add(path to node)
             }
             if (++n % 150 == 0) onProgress("$mount: ${path.substringAfterLast('/')}", -1f)
+        }
+        fun extractOne(path: String, node: ErofsReader.Node): Long {
+            val rel = if (asRoot) path else "$mount/$path"
+            val f = FirmwareContainers.destination(root, rel)
+            f.parentFile?.mkdirs()
+            // Links are only created by finishTree, after all file bytes.
+            if (isLink(f)) throw IOException("EROFS destination is a symlink: $rel")
+            f.outputStream().buffered(1 shl 20).use { fs.copy(node, it) }
+            applyMode(f, fs.fileMode(node) and 0xfff)
+            return f.length()
+        }
+        val lengths = LongArray(fileTasks.size)
+        val errors = arrayOfNulls<Throwable>(fileTasks.size)
+        runFilesParallel(fileTasks.size) { from, to, failed ->
+            for (i in from until to) {
+                if (failed.get()) return@runFilesParallel
+                try {
+                    if (cancelled) throw IOException("cancelled")
+                    lengths[i] = extractOne(fileTasks[i].first, fileTasks[i].second)
+                } catch (err: Throwable) { errors[i] = err; failed.set(true); return@runFilesParallel }
+            }
+        }
+        for (i in fileTasks.indices) {
+            errors[i]?.let { throw it }
+            files++; bytes += lengths[i]
+            if (i % 150 == 0) onProgress("$mount: ${fileTasks[i].first.substringAfterLast('/')}", -1f)
         }
         if (mount == "system") gotSystem = true
         log("EROFS $mount: $n objects")

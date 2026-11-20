@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_import_partition">Ներմուծել բաժին</string>
+    <string name="vm_import_partition_button">Ներմուծել…</string>
+    <string name="vm_import_partition_conflict">Այս VM-ի պանակների դասավորությունը այս բաժինը թույլ չի տալիս։</string>
+    <string name="vm_import_partition_done">%1$s բաժինը ներմուծվեց և միացվեց։ Համակարգը և տվյալները փոփոխված չեն։</string>
+    <string name="vm_import_partition_exists">Այս VM-ն արդեն ունի %1$s բաժին։</string>
+    <string name="vm_import_partition_have">%1$s (արդեն այս VM-ում է)</string>
+    <string name="vm_import_partition_headline">Բաժնի պատկերը ներմուծել այս VM</string>
+    <string name="vm_import_partition_sub">Boot, recovery (ծրագրային, TWRP, OrangeFox կամ CWM), OEM, vendor, odm, product կամ system_ext։ Տեսակը կարդացվում է ֆայլից, երբ հնարավոր չէ՝ հարցնում են ձեզ։ Միայն recovery-ն է փոխարինում առկայումը, VM-ի մնացած մասը չի փոխվում։ Վերագործարկեք recovery-ում ⋮ ցանկից։</string>
+    <string name="vm_import_partition_unsupported">%1$s պատկերը չի կարող ներմուծվել այս ընտրանքով։</string>
+    <string name="vm_import_partition_which">Ո՞ր բաժինն է սա։</string>
+    <string name="vm_import_partition_which_info">Ֆայլի անվանից չի երևում, թե ինչ է պարունակում։ Ընտրեք բաժինը։</string>
+    <string name="vm_import_partition_working">Կարդացվում է %1$s բաժինը… Ներմուծելուց առաջ կանգնեցրեք բոլոր VM-ները։</string>
+    <string name="vm_import_recovery_done">Recovery-ն ներմուծվեց։ Օգտագործելու համար ⋮ ցանկից վերագործարկեք recovery-ում։</string>
+</resources>

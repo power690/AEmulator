@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rom_dl_busy">Zaten başka bir indirme sürüyor.</string>
+    <string name="rom_dl_cannot_start">İndirme arka planda başlatılamadı.</string>
+    <string name="rom_dl_channel">ROM indirmesi</string>
+    <string name="rom_dl_channel_done">ROM indirmesi tamamlandı</string>
+    <string name="rom_dl_done">ROM indirildi</string>
+    <string name="rom_dl_done_text">İçe aktarmak için %1$s öğesine dokunun</string>
+    <string name="rom_dl_failed">ROM indirmesi başarısız</string>
+    <string name="rom_dl_hide">Gizle</string>
+    <string name="rom_dl_page">İndirme bağlantısı</string>
+    <string name="rom_dl_page_text">Bu bağlantı bir web sayfasıdır. Dokunursanız tarayıcıda açılır.</string>
+</resources>

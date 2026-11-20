@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Kataloogis on üle 10000 ROM-i.</string>
     <string name="catalog_tested_on">Emulaator %1$s</string>
     <string name="catalog_submitted_by">Esitaja: %1$s</string>
+    <string name="submit_not_direct_title">Vajalik on otselink</string>
+    <string name="submit_not_direct_text">Esitamised peavad olema otse allalaadimise lingid ROM-failile. Veebilehtede lingid või esmalt lehe avavad failihoidjad pole lubatud.\n\nSoovitatav üleslaadimise koht on archive.org.</string>
 </resources>

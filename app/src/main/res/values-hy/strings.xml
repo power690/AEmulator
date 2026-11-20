@@ -108,7 +108,7 @@
     <string name="as_orig_sub">Desire HD-ի և One M7-ի էմուլյատորների ստեղծողը, որոնցից աճել է այս նախագիծը</string>
     <string name="as_github">Սկզբնական կոդը GitHub-ում</string>
     <string name="as_version">Տարբերակ %1$s</string>
-    <string name="as_about">AEmulator-ը Android-ի դասական որոնվածք է աշխատեցնում ժամանակակից հեռախոսների վրա։ Անվճար է և բաց կոդով։</string>
+    <string name="as_about">AEmulator Plus-ը Android-ի դասական որոնվածք է աշխատեցնում ժամանակակից հեռախոսների վրա։ Անվճար է և բաց կոդով։</string>
     <string name="log_copy">Պատճենել</string>
     <string name="log_export">Արտահանել .log</string>
     <string name="log_copied">Պատճենվեց clipboard-ում</string>
@@ -255,9 +255,9 @@
     <string name="update_download_error">Ներբեռնումը ձախողվեց՝ %1$s</string>
     <string name="update_open_github">Դիտել GitHub-ում</string>
     <string name="vs_camera">Հոսթի տեսախցիկ (փորձարարական)</string>
-    <string name="vs_camera_sub">HAL1 ROM-եր. 640×480 նախադիտում և լուսանկարներ, հետևի/առջևի տեսախցիկ։ Պահանջում է թույլտվություն և VM-ի լրիվ վերագործարկում։ Տեսախցիկը փակվում է, երբ AEmulator-ը անցնում է ֆոնային ռեժիմի. կրկին բացեք հյուրի տեսախցիկի հավելվածը։ Տեսանյութը գրանցվում է 640×480-ով։</string>
+    <string name="vs_camera_sub">HAL1 ROM-եր. 640×480 նախադիտում և լուսանկարներ, հետևի/առջևի տեսախցիկ։ Պահանջում է թույլտվություն և VM-ի լրիվ վերագործարկում։ Տեսախցիկը փակվում է, երբ AEmulator Plus-ը անցնում է ֆոնային ռեժիմի. կրկին բացեք հյուրի տեսախցիկի հավելվածը։ Տեսանյութը գրանցվում է 640×480-ով։</string>
     <string name="vs_microphone">Հոսթի խոսափող (փորձարարական)</string>
-    <string name="vs_microphone_sub">Հյուրի հավելվածները ձայնագրում են հեռախոսի խոսափողից (ձայնագրիչ, նշումներ)։ Պահանջում է թույլտվություն և VM-ի լրիվ վերագործարկում։ Ձայնագրումը դադարում է, երբ AEmulator-ը անցնում է ֆոնային ռեժիմի. կրկին բացեք հյուրի ձայնագրիչը։ Միայն 4.x ROM-եր։</string>
+    <string name="vs_microphone_sub">Հյուրի հավելվածները ձայնագրում են հեռախոսի խոսափողից (ձայնագրիչ, նշումներ)։ Պահանջում է թույլտվություն և VM-ի լրիվ վերագործարկում։ Ձայնագրումը դադարում է, երբ AEmulator Plus-ը անցնում է ֆոնային ռեժիմի. կրկին բացեք հյուրի ձայնագրիչը։ Միայն 4.x ROM-եր։</string>
     <string name="microphone_permission_denied">Խոսափողի թույլտվությունը մերժվել է։ Հյուրի հավելվածները կձայնագրեն լռություն. տվեք թույլտվություն Android-ի հավելվածի կարգավորումներում և VM-ը լրիվ վերագործարկեք՝ կրկին փորձելու համար։</string>
     <string name="vs_sim_title">SIM քարտեր</string>
     <string name="vs_sim_present">SIM քարտը տեղադրված է</string>
@@ -526,4 +526,26 @@
     <string name="phantom_open_dev">Բացել Ծրագրավորողի ընտրանքները</string>
     <string name="phantom_ignore">Անտեսել</string>
     <string name="phantom_never">Այլևս չհիշեցնել</string>
+    <string name="al_title">Activity-ի գործարկիչ</string>
+    <string name="m_activities">Activity-ի գործարկիչ</string>
+    <string name="al_search_packages">Փնտրել փաթեթներ</string>
+    <string name="al_search_activities">Փնտրել Activity-ներ</string>
+    <string name="al_no_packages">Փաթեթներ չեն գտնվել</string>
+    <string name="al_no_activities">Activity-ներ չեն գտնվել</string>
+    <string name="al_not_exported">արտահանված չէ</string>
+    <string name="al_starting">Գործարկվում է %1$s…</string>
+    <string name="catalog_share_rom">Կիսվել %1$s-ի ներբեռնման հղումով</string>
+    <string name="catalog_download_checking">Ստուգվում է հղումը…</string>
+    <string name="catalog_download_title">Ներբեռնվում է ROM-ը</string>
+    <string name="catalog_download_failed">Ներբեռնումը ձախողվեց․ %1$s</string>
+    <string name="m_battery_old_note">Android-ի այս տարբերակը մարտկոցը կարդում է միայն գործարկման ժամանակ։ Ձեր կողմից կարգված մակարդակը և լիցքավորման վիճակը պահպանվում են և օգտագործվում VM-ի հաջորդ գործարկման ժամանակ։</string>
+    <string name="m_netdebug">HTTP կարգաբերիչ</string>
+    <string name="vs_netdebug">HTTP կարգաբերիչ</string>
+    <string name="vs_netdebug_sub">Գրանցում է հյուրի HTTP և HTTPS հարցումները և կարող է պատասխանել կամ փոխել դրանք (ընտրացանկ › HTTP կարգաբերիչ)։ Հյուրի վստահության պահոցում է դնում կարգաբերման CA։ Կիրառվում է հաջորդ լիարժեք գործարկման ժամանակ։</string>
+    <string name="vs_no_dex2oat">Անջատել dex2oat-ը (Android 5.0+)</string>
+    <string name="vs_no_dex2oat_sub">Հավելվածներն ու համակարգային կոդը երբեք չեն կոմպիլացվում հյուրում. dex2oat-ի ամեն գործարկում անմիջապես ձախողվում է։ Զգուշացում. կարող է առաջացնել վթարներ, սխալներ և այլ կանխատեսելի վարքագծի խախտումներ (հավելվածները դանդաղ են աշխատում, որոշ կրճատումներ առանց կոմպիլացման չեն բացվում)։ Լռելյայն անջատված է։ Կիրառվում է հաջորդ լիարժեք գործարկման ժամանակ։</string>
+    <string name="vs_skip_perm_wait">Բաց թողել թույլատրությունների վերահսկիչի սպասումը (Android 10-13)</string>
+    <string name="vs_skip_perm_wait_sub">ARM հեռախոսի վրա x86 կրճատումների համար, որտեղ թույլատրությունների վերահսկիչ հավելվածը շատ դանդաղ է պատասխանում 60 վրկ-ում և system_server-ը սպանվում է (\"Error granting/upgrading runtime permissions\")։ Ուղղում է կրճատման services.jar-ը, որ բացումը չսպասի լռելյայն գործարկման թույլատրությունների տրմանը. նախատեղադրված հավելվածները այդ դեպքում չեն ստանում այդ թույլատրությունները բացման ժամանակ։ dex2oat-ին թույլ չի տրվում վերակոմպիլացնել ուղղված jar-ը։ Անջատելը վերականգնում է սկզբնական jar-ը։ Գործում է հաջորդ լիարժեք բացման ժամանակ։</string>
+    <string name="m_multitask">Խնդիրների հերթափոխում</string>
+    <string name="nav_show">Ցուցադրել Android-ի կոճակների վահանակը</string>
 </resources>

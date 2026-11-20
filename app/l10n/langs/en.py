@@ -90,5 +90,5 @@ S = {
     "as_orig_sub": "Creator of the Desire HD and One M7 emulators this project grew from",
     "as_github": "Source code on GitHub",
     "as_version": "Version %1$s",
-    "as_about": "AEmulator runs classic Android firmware on modern phones. Free and open source.",
+    "as_about": "AEmulator Plus runs classic Android firmware on modern phones. Free and open source.",
 }

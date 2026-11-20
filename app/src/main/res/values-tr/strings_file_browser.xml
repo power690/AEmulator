@@ -27,4 +27,7 @@
     <string name="imp_archive_alone">Bir VM yedeği (.aessvm) diğer dosyalarla birlikte değil, tek başına içe aktarılmalıdır.</string>
     <string name="imp_joining">%1$s dosyasının %2$d parçası birleştiriliyor…</string>
     <string name="imp_split_missing">Bölünmüş %1$s arşivinin %2$s. parçası eksik. Tüm parçalarını seçin veya tek bir klasörde tutun.</string>
+    <string name="fb_search">Ara</string>
+    <string name="fb_search_hint">Bu klasörde ara</string>
+    <string name="fb_no_matches">Eşleşen dosya veya klasör yok</string>
 </resources>

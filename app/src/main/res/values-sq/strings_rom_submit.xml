@@ -31,4 +31,6 @@
     <string name="catalog_err_too_many_roms">Katalogu ka më shumë se 10000 ROM.</string>
     <string name="catalog_tested_on">Emulatori %1$s</string>
     <string name="catalog_submitted_by">Paraqitur nga %1$s</string>
+    <string name="submit_not_direct_title">Kërkohet lidhje e drejtpërdrejt</string>
+    <string name="submit_not_direct_text">Dërgimet duhet të jenë lidhje të drejtpërdrejta shkarkimi të skedarit ROM. Lidhjet drejt faqeve në internet ose drejt strehuesve skedarësh që hapin fillimisht një faqe nuk pranohen.\n\nVendi i rekomanduar për ngarkim është archive.org.</string>
 </resources>

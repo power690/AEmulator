@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="as_builtin_browser">Navigateur de fichiers intégré</string>
+    <string name="as_builtin_browser_sub">Choisissez le firmware avec tri par date et taille, plusieurs fichiers à la fois. Désactivez-le pour utiliser le sélecteur du système.</string>
+    <string name="fb_access_scoped">Android 10 masque la plupart des fichiers aux apps qui ne se sont pas retirées du stockage cloisonné ; ce navigateur ne peut donc pas les afficher ici. Utilisez plutôt le sélecteur du système.</string>
+    <string name="fb_access_text">Pour lister vos fichiers de firmware et en choisir plusieurs à la fois, le navigateur doit accéder à vos fichiers. Vous pouvez aussi utiliser le sélecteur du système.</string>
+    <string name="fb_access_title">Autoriser l\'accès aux fichiers</string>
+    <string name="fb_clear">Effacer</string>
+    <string name="fb_documents">Documents</string>
+    <string name="fb_downloads">Téléchargements</string>
+    <string name="fb_empty">Rien ici</string>
+    <string name="fb_firmware">aemulator/firmware</string>
+    <string name="fb_hidden">Masqués</string>
+    <string name="fb_import">Importer</string>
+    <string name="fb_internal">Stockage interne</string>
+    <string name="fb_no_matches">Aucun fichier ou dossier ne correspond</string>
+    <string name="fb_removable">Carte SD / USB %1$d</string>
+    <string name="fb_search">Rechercher</string>
+    <string name="fb_search_hint">Rechercher dans ce dossier</string>
+    <string name="fb_selected">%1$d sélectionnés</string>
+    <string name="fb_sort_date">Date</string>
+    <string name="fb_sort_name">Nom</string>
+    <string name="fb_sort_size">Taille</string>
+    <string name="fb_system_picker">Sélecteur du système</string>
+    <string name="fb_title_multi">Choisir des fichiers</string>
+    <string name="fb_title_single">Choisir un fichier</string>
+    <string name="fb_unreadable">Ce dossier ne peut pas être lu. Android garde certains dossiers (comme les données d\'autres apps) fermés pour toutes les apps.</string>
+    <string name="fb_up">Remonter</string>
+    <string name="fb_use_system_picker">Utiliser plutôt le sélecteur du système</string>
+    <string name="imp_archive_alone">Une sauvegarde de VM (.aessvm) doit être importée seule, pas avec d\'autres fichiers.</string>
+    <string name="imp_joining">Assemblage de %2$d parties de %1$s…</string>
+    <string name="imp_split_missing">La partie %2$s de l\'archive découpée %1$s manque. Sélectionnez toutes ses parties, ou gardez-les dans un seul dossier.</string>
+</resources>

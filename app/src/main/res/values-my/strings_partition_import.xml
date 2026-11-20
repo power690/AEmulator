@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_import_partition">Partition ထည့်သွင်းခြင်း</string>
+    <string name="vm_import_partition_button">ထည့်သွင်းပါ…</string>
+    <string name="vm_import_partition_conflict">ဤ VM ၏ folder ဖွဲ့စည်းမှုက ဤ partition ကို မခွင့်ပြုပါ။</string>
+    <string name="vm_import_partition_done">%1$s partition ထည့်သွင်းပြီး mount လုပ်ပါပြီ။ System နှင့် data မပြောင်းလဲပါ။</string>
+    <string name="vm_import_partition_exists">ဤ VM တွင် %1$s partition ရှိပြီးသားဖြစ်သည်။</string>
+    <string name="vm_import_partition_have">%1$s (ဤ VM တွင် ရှိပြီးသား)</string>
+    <string name="vm_import_partition_headline">ဤ VM သို့ partition image ထည့်သွင်းပါ</string>
+    <string name="vm_import_partition_sub">Boot, recovery (မူရင်း, TWRP, OrangeFox သို့မဟုတ် CWM), OEM, vendor, odm, product သို့မဟုတ် system_ext။ အမျိုးအစားကို ဖိုင်မှ ဖတ်သည်၊ မသိလျှင် မေးမည်။ recovery သာ ရှိပြီးသားကို အစားထိုးသည်၊ VM ၏ ကျန်အပိုင်း မပြောင်းလဲပါ။ ⋮ menu မှ recovery သို့ ပြန်လည်စတင်ပါ။</string>
+    <string name="vm_import_partition_unsupported">%1$s image ကို ဤရွေးချယ်မှုဖြင့် ထည့်သွင်း၍ မရပါ။</string>
+    <string name="vm_import_partition_which">ဤ partition မှာ ဘာလဲ။</string>
+    <string name="vm_import_partition_which_info">ဖိုင်အမည်က ၎င်းတွင် ဘာရှိသည်ကို မဖော်ပြပါ။ partition ကို ရွေးပါ။</string>
+    <string name="vm_import_partition_working">%1$s partition ကို ဖတ်နေသည်… ထည့်သွင်းမီ VM အားလုံးကို ရပ်ပါ။</string>
+    <string name="vm_import_recovery_done">Recovery ထည့်သွင်းပြီးပါပြီ။ အသုံးပြုရန် ⋮ menu မှ recovery သို့ ပြန်လည်စတင်ပါ။</string>
+</resources>
