@@ -80,6 +80,7 @@ final class WifiService extends Binder {
         }
         messenger = new Messenger(new ChannelHandler(looper));
         scanHandler = new Handler(looper);
+        if (android.os.Build.VERSION.SDK_INT >= 21) scanHandler.post(publishTask);
         StringBuilder all = new StringBuilder();
         for (Map.Entry<Integer, String> e : names.entrySet()) all.append(e.getKey()).append('=').append(e.getValue()).append(' ');
         Refl.log("transactions: " + all.toString().trim());
@@ -188,6 +189,8 @@ final class WifiService extends Binder {
         Refl.call(wi, "setLinkSpeed", Integer.valueOf(cfg.speed));
         Refl.call(wi, "setFrequency", Integer.valueOf(cfg.frequency));
         Refl.call(wi, "setMeteredHint", Boolean.FALSE);
+        Refl.call(wi, "setIsPrimary", Boolean.TRUE);
+        Refl.call(wi, "setWifiStandard", Integer.valueOf(4));
         try {
             Refl.call(wi, "setInetAddress", InetAddress.getByName(cfg.ip));
         } catch (Throwable ignored) { }
@@ -393,10 +396,17 @@ final class WifiService extends Binder {
                     if (wi instanceof Parcelable) ns.putExtra("wifiInfo", (Parcelable) wi);
                 }
                 Bcast.send(ns);
+                if (con) {
+                    Intent ri = new Intent("android.net.wifi.RSSI_CHANGED");
+                    ri.addFlags(0x10000000);
+                    ri.putExtra("newRssi", cfg.rssi);
+                    Bcast.send(ri);
+                }
                 Refl.log("state broadcasts: enabled=" + en + " connected=" + con);
             } catch (Throwable t) {
                 Refl.log("state broadcasts failed: " + t);
             }
+            if (scanHandler != null) scanHandler.postDelayed(this, 10000);
         }
     };
 
@@ -406,6 +416,12 @@ final class WifiService extends Binder {
         } catch (Throwable t) {
             return null;
         }
+    }
+
+    static int signalLevel(int rssi) {
+        if (rssi <= -100) return 0;
+        if (rssi >= -55) return 4;
+        return (int) ((float) (rssi + 100) * 4f / 45f);
     }
 
     /** startScan() finished: tell the guest that results are ready (broadcast and, on 11+, the registered callbacks). */
@@ -498,7 +514,8 @@ final class WifiService extends Binder {
             reply.writeInt(1);
         } else if (name.equals("getPasspointConfigurations") || name.equals("getMatchingWifiConfig")
                 || name.equals("getMatchingOsuProviders") || name.equals("getAllowedDevices")
-                || name.equals("getHotspotClients")) {
+                || name.equals("getHotspotClients")
+                || name.equals("getWifiConfigForMatchedNetworkSuggestionsSharedWithUser")) {
             // no Passpoint profiles, OSU providers or hotspot clients here. 8.1 Settings walks getPasspointConfigurations()
             // without a null check, so these must be real empty collections, not null.
             writeEmpty(name, reply);
@@ -526,6 +543,22 @@ final class WifiService extends Binder {
             reply.writeInt(0);
         } else if (name.equals("getCurrentNetwork")) {
             writeParcelable(reply, null); // no Network handle is exposed for the emulated link
+        } else if (name.equals("calculateSignalLevel")) {
+            int rssi = -100;
+            Method m = methods.get(name);
+            if (m != null) {
+                for (Class<?> p : m.getParameterTypes()) {
+                    if (p == int.class) rssi = data.readInt();
+                    else if (p == String.class) data.readString();
+                    else if (p == boolean.class) data.readInt();
+                    else if (p == long.class) data.readLong();
+                    else if (p == IBinder.class) data.readStrongBinder();
+                    else break;
+                }
+            } else {
+                rssi = data.readInt();
+            }
+            reply.writeInt(signalLevel(rssi));
         } else if (name.equals("registerScanResultsCallback") || name.equals("unregisterScanResultsCallback")) {
             // 11+: the guest's WifiManager waits for onScanResultsAvailable() after startScan()
             IBinder b = data.readStrongBinder();
@@ -581,6 +614,7 @@ final class WifiService extends Binder {
         else if (t == CharSequence.class) reply.writeInt(0);
         else if (t.isArray()) reply.writeInt(-1);
         else if (List.class.isAssignableFrom(t)) reply.writeInt(-1);
+        else if (t.getName().endsWith("ParceledListSlice")) writeEmpty(name, reply);
         else if (IBinder.class.isAssignableFrom(t) || IInterface.class.isAssignableFrom(t)) reply.writeStrongBinder(null);
         else reply.writeInt(0); // a nullable parcelable (or anything else the old way)
     }
