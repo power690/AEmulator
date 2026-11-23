@@ -44,4 +44,8 @@
     <string name="m_resize_done">Stærðarbreytingu lokið</string>
     <string name="m_resize_reset">Endurstilla stærð skjás</string>
     <string name="vi_resize_hint">Dragðu í horn skjásins til að breyta stærð hans. Þegar því er lokið skaltu opna valmyndina og ýta á „Stærðarbreytingu lokið“.</string>
+    <string name="vi_spen">Inntak: S-Pen</string>
+    <string name="vi_spen_button">S-Pen hnappur (Air Command)</string>
+    <string name="vi_spen_sub">Skráir S-Pen stafrænisvæði (sec_e-pen) í gestinn við hlið snertiskjásins og bætir tveimur hnöppum við stýristikuna. S-Pen stilling: meðan hún er virk berst hver snerting á skjánum til gestsins sem S-Pen (verkfæragerð stíll, þrýstingur, sveifla rétt fyrir og eftir snertingu; ein snerting í einu, engin fjörsnerting), og stíll hýsilsins sveiflar líka og hliðarhnappur hans virkar. S-Pen hnappur: bank tryggir og sleppir hliðarhnappi pennans meðan hann sveiflar, sem opnar Air Command í Samsung fastbúnaði sem hefur það. Krefst Android 4.0 eða nýrra og fullrar endurræsingar sýndarvélarinnar.</string>
+    <string name="vi_spen_toggle">S-Pen stilling</string>
 </resources>

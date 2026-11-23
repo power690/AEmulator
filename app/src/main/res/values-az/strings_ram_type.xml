@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM növü</string>
+    <string name="vs_ram_type_auto">Standart</string>
+    <string name="vs_ram_type_sub">Qonağın bildirdiyi yaddaş növü (LPDDR2–LPDDR5X). Yalnız ad dəyişir; həcm “Qonaq RAM” ayarından gəlir. VM tam yenidən işə salındıqdan sonra qüvvəyə minir.</string>
+</resources>

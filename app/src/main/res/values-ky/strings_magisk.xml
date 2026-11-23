@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">Жүктөөдө Magisk демонун иштетет, su\'ну PATHке коёт жана модул скрипттери менен файлдарын аткарат (Zygisk: Magisk колдонмосунда күйгүзүңүз). Кийинки толук жүктөөдө күчүнө кирет. Эксперименттик.</string>
+    <string name="vm_magisk_installed">Бул VMде Magisk %1$s (%2$d) орнотулган.</string>
+    <string name="vm_magisk_install">Magisk орнотуу (APK тандоо)</string>
+    <string name="vm_magisk_replace">Magisk алмаштыруу (башка APK тандоо)</string>
+    <string name="vm_magisk_remove">Magisk жок кылуу</string>
+    <string name="vm_magisk_working">Magisk орнотулууда… Адегенде бардык VMдерди токтотуңуз.</string>
+    <string name="vm_magisk_done">Magisk %1$s орнотулду. Rootту күйгүзүп, VMди баштаңыз; система көтөрүлгөндө Magisk колдонмосу өзүн орнотот.</string>
+    <string name="vm_magisk_removed">Magisk жок кылынды. Модулдар жана magisk.db сакталды.</string>
+</resources>

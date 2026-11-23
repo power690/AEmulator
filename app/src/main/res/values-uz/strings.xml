@@ -551,4 +551,42 @@
     <string name="vs_no_dex2oat_sub">Ilovalar va tizim kodi mehmonda hech qachon kompilyatsiya qilinmaydi: dex2oat ning har bir ishga tushirilishi darhol muvaffaqiyatsiz tugaydi. Ogohlantirish: bu qulflashlar, nosozliklar va boshqa kutilmagan xatti-harakatlarga olib kelishi mumkin (ilovalar sekin ishlaydi, ba’zi proshivkalar kompilyatsiyasiz yuklanmaydi). Standart bo’yicha o’chirilgan. Keyingi to’liq ishga tushirishda qo’llanadi.</string>
     <string name="m_multitask">Vazifalarni almashtirish</string>
     <string name="nav_show">Android tugmalar panelini ko‘rsatish</string>
+    <string name="vs_refresh">Ekran yangilanish chastotasi</string>
+    <string name="vs_refresh_host">Ushbu qurilma</string>
+    <string name="vs_refresh_custom">O‘zimniki</string>
+    <string name="vs_refresh_custom_hint">Chastota (10–1000)</string>
+    <string name="vs_refresh_sub">Mehmon e’lon qiladigan va chizadigan chastota. Virtual mashinaning keyingi to‘liq ishga tushishida kuchga kiradi.</string>
+    <string name="vs_refresh_cap">Telefoningiz ekrani ko‘pi bilan %1$d Hz beradi. Mehmon %2$d Hz e’lon qiladi, lekin faqat %1$d Hz bilan chiza oladi.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader protsessorda chizadi va ulgurmaydi. Buni o‘zgartirish uchun „Telefon GPU”sini yoqing; aks holda mehmon 60 Hz da qoladi.</string>
+    <string name="vs_storage">Xotira</string>
+    <string name="vs_storage_auto">Telefon diski</string>
+    <string name="vs_storage_sub">Mehmon ko‘radigan hajm. Bo‘sh joy har doim telefonning haqiqiy bo‘sh joyi, band = hajm − bo‘sh, shuning uchun mehmonga telefonga sig‘adiganidan ko‘proq saqlashi mumkinligi hech qachon aytilmaydi. Virtual mashinani to‘liq qayta ishga tushirgandan keyin kuchga kiradi.</string>
+    <string name="vs_storage_type">Xotira turi</string>
+    <string name="vs_storage_type_auto">Standart</string>
+    <string name="vs_storage_type_sub">Mehmon eMMC yoki UFS ko‘radimi (xossalar va /sys dagi blok tugunlari).</string>
+    <string name="vs_soc">Mehmonga e’lon qilinadigan chip (SoC)</string>
+    <string name="vs_soc_sub">/proc/cpuinfo va /sys/devices/soc0 ga, shuningdek ro.board.platform (barcha Android versiyalari) va ro.soc.model / ro.soc.manufacturer (Android 12+) xossalariga yoziladi. Yadro soni va CPU chastotalari unga ergashadi. Virtual mashinani to‘liq qayta ishga tushirgandan keyin kuchga kiradi.</string>
+    <string name="vs_soc_default">Standart (%1$s)</string>
+    <string name="vs_soc_host">Ushbu qurilma (ushbu telefon)</string>
+    <string name="vs_soc_custom">O‘zimniki</string>
+    <string name="vs_soc_preset">Tayyor to‘plam</string>
+    <string name="vs_soc_preset_title">Chip tanlang</string>
+    <string name="vs_soc_search">Qidirish (nom, model, GPU)</string>
+    <string name="vs_soc_none">Mos chip yo‘q.</string>
+    <string name="vs_soc_close">Yopish</string>
+    <string name="vs_soc_change">Boshqa chip tanlash…</string>
+    <string name="vs_soc_default_sub">Project Tango planshetining o‘z chipi</string>
+    <string name="vs_soc_gpu_off">Telefon GPU si o‘chirilgan, shuning uchun mehmon SwiftShader orqali chizadi va tanlangan chipdan qat’i nazar SwiftShader ni o‘z GPU si deb ko‘radi.</string>
+    <string name="vs_soc_gpu_hint">Faqat telefon GPU si yoqilganda ishlatiladi. Bo‘sh = telefonning haqiqiy GPU si. Barcha dvigatellarda ishlaydi; faqat ikki nom o‘zgaradi, GPU imkoniyatlari emas.</string>
+    <string name="vs_soc_armv8">ARMv8 yadrolari</string>
+    <string name="vs_soc_armv8_sub">O‘chiq: ARMv7 yadrolari (32 bitli /proc/cpuinfo tuzilishi). Yoniq: ARMv8 yadrolari (64 bitli firmware uchun AArch64, 32 bitli uchun ARMv7 mosligi).</string>
+    <string name="vs_soc_cores">CPU yadrolari</string>
+    <string name="vs_soc_cores_sub">Har yadro guruhi uchun bir satr, kichik yadrolar birinchi: count, implementer, variant, part, revision, maks. MHz, min. MHz (0x bilan hex yoki o‘nlik).</string>
+    <string name="vs_soc_cores_bad">Saqlanmadi: har satr count, implementer, variant, part, revision va maks. MHz talab qiladi (4 satrgacha, 16 yadro).</string>
+    <string name="vs_soc_features_hint">Bo‘sh = shu yadro turi uchun odatiy bayroqlar.</string>
+    <string name="sk_reset_led">LED joyini tiklash</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Android tugmalar panelini yashirish</string>
+    <string name="vs_gl_trace">GL chaqiruvlarini yozib olish (xato hisobotlari uchun)</string>
+    <string name="vs_gl_trace_sub">Xotirada GPU ko‘prigining oxirgi 16 000 chaqiruvini GL xatosi va har bir chizish holati bilan saqlaydi va ularni jurnal eksportiga gl-trace.txt sifatida qo‘shadi. Chizishni biroz sekinlashtiradi, shuning uchun odatda o‘chirilgan qoldiring. Noto‘g‘ri chiziladigan ekranni oching, so‘ng jurnallarni eksport qiling. Keyingi ishga tushishda kuchga kiradi.</string>
 </resources>

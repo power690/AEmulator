@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">Тып АЗП</string>
+    <string name="vs_ram_type_auto">Прадпісана</string>
+    <string name="vs_ram_type_sub">Тып памяці, які бачыць госць (LPDDR2–LPDDR5X). Змяняецца толькі назва; аб’ём задаецца ў «АЗП госця». Прымяняецца пасля поўнага перазапуску ВМ.</string>
+</resources>

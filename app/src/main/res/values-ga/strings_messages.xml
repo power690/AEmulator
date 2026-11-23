@@ -234,4 +234,6 @@
     <string name="ota_squash_files_modified">D’athraigh an aip nó tusa %1$d comhad de /system agus ní féidir iad a atógáil, e.g. %2$s. Ní féidir íomhá chórais SquashFS a atógáil ach ó chomhaid nár athraíodh. Níor athraíodh aon rud.</string>
     <string name="imp_unreadable_mbr">%1$s: tábla deighilte MBR nach féidir a léamh</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: gan deighilt chórais san MBR</string>
+    <string name="warn_arm64">Formhuire 64-giotán: ní thacaítear ach le ARM 32-giotán.</string>
+    <string name="warn_no_healthd">Níl healthd sa phlean tosaithe (tá /sbin/healthd ar iarraidh; scipeáladh ramdisk ag allmhairiú?): stopfaidh system_server i BatteryService.</string>
 </resources>

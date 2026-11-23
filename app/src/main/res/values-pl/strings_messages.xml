@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">Pliki w /system w liczbie %1$d zostały zmienione przez aplikację lub przez Ciebie i nie można ich odtworzyć, np. %2$s. Obraz systemu SquashFS można odtworzyć tylko z niezmienionych plików. Nic nie zostało zmienione.</string>
     <string name="imp_unreadable_mbr">%1$s: nieczytelna tablica partycji MBR</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: brak partycji systemowej w MBR</string>
+    <string name="warn_arm64">Firmware 64-bit: obsługiwany jest tylko 32-bitowy ARM.</string>
+    <string name="warn_no_healthd">Brak healthd w planie rozruchu (brak /sbin/healthd; pominięto ramdisk przy imporcie?): system_server zawiesi się w BatteryService.</string>
 </resources>

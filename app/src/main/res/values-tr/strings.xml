@@ -540,4 +540,42 @@
     <string name="vs_no_dex2oat_sub">Uygulamalar ve sistem kodu konukta asla derlenmez: her dex2oat çalışması anında başarısız olur. Uyarı: bu, çökmelere, bozulmalara ve diğer istenmeyen davranışlara yol açabilir (uygulamalar yavaşlar, bazı cihaz yazılımları derleme olmadan açılmaz). Varsayılan olarak kapalı. Bir sonraki tam başlatmada uygulanır.</string>
     <string name="m_multitask">Görev değiştirme</string>
     <string name="nav_show">Android düğme çubuğunu göster</string>
+    <string name="vs_refresh">Ekran yenileme hızı</string>
+    <string name="vs_refresh_host">Bu cihaz</string>
+    <string name="vs_refresh_custom">Özel</string>
+    <string name="vs_refresh_custom_hint">Hız (10–1000)</string>
+    <string name="vs_refresh_sub">Konuğun bildirdiği ve çizim yaptığı hız. Sanal makinenin bir sonraki tam başlatmasında geçerli olur.</string>
+    <string name="vs_refresh_cap">Telefonunuzun ekranı en fazla %1$d Hz destekler. Konuk %2$d Hz bildirir ama yalnızca %1$d Hz ile çizebilir.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader CPU üzerinde çizer ve yetişemez. Bunu değiştirmek için „Telefonun GPU\'su”nu açın; aksi hâlde konuk 60 Hz\'de kalır.</string>
+    <string name="vs_storage">Depolama</string>
+    <string name="vs_storage_auto">Telefonun diski</string>
+    <string name="vs_storage_sub">Konuğun gördüğü boyut. Boş alan her zaman telefonun gerçek boş alanıdır ve kullanılan = boyut − boş, böylece konuğa telefonun alabileceğinden fazlasını saklayabileceği hiç söylenmez. Sanal makinenin tam yeniden başlatılmasından sonra geçerli olur.</string>
+    <string name="vs_storage_type">Depolama türü</string>
+    <string name="vs_storage_type_auto">Varsayılan</string>
+    <string name="vs_storage_type_sub">Konuğun eMMC mi yoksa UFS mi gördüğü (öznitelikler ve /sys içindeki blok düğümleri).</string>
+    <string name="vs_soc">Konuğa bildirilen yonga (SoC)</string>
+    <string name="vs_soc_sub">/proc/cpuinfo ve /sys/devices/soc0 dosyalarına, ayrıca ro.board.platform (tüm Android sürümleri) ve ro.soc.model / ro.soc.manufacturer (Android 12+) özniteliklerine yazılır. Çekirdek sayısı ve CPU frekansları buna göre belirlenir. Sanal makinenin tam yeniden başlatılmasından sonra geçerli olur.</string>
+    <string name="vs_soc_default">Varsayılan (%1$s)</string>
+    <string name="vs_soc_host">Bu cihaz (bu telefon)</string>
+    <string name="vs_soc_custom">Özel</string>
+    <string name="vs_soc_preset">Hazır set</string>
+    <string name="vs_soc_preset_title">Yonga seçin</string>
+    <string name="vs_soc_search">Ara (ad, model, GPU)</string>
+    <string name="vs_soc_none">Eşleşen yonga yok.</string>
+    <string name="vs_soc_close">Kapat</string>
+    <string name="vs_soc_change">Başka yonga seç…</string>
+    <string name="vs_soc_default_sub">Project Tango tabletinin kendi yongası</string>
+    <string name="vs_soc_gpu_off">Telefonun GPU\'su kapalı olduğundan konuk SwiftShader üzerinden çizer ve seçilen yonga ne olursa olsun SwiftShader\'ı kendi GPU\'su olarak görür.</string>
+    <string name="vs_soc_gpu_hint">Yalnızca telefonun GPU\'su açıkken kullanılır. Boş = telefonun gerçek GPU\'su. Tüm motorlarda çalışır; yalnızca iki ad değişir, GPU yetenekleri değişmez.</string>
+    <string name="vs_soc_armv8">ARMv8 çekirdekleri</string>
+    <string name="vs_soc_armv8_sub">Kapalı: ARMv7 çekirdekleri (32 bit /proc/cpuinfo düzeni). Açık: ARMv8 çekirdekleri (64 bit yazılım için AArch64, 32 bit için ARMv7 uyumu).</string>
+    <string name="vs_soc_cores">CPU çekirdekleri</string>
+    <string name="vs_soc_cores_sub">Her çekirdek grubu için bir satır, önce küçük çekirdekler: count, implementer, variant, part, revision, en yük. MHz, en düş. MHz (0x ile hex veya ondalık).</string>
+    <string name="vs_soc_cores_bad">Kaydedilmedi: her satır count, implementer, variant, part, revision ve en yük. MHz gerektirir (en fazla 4 satır, 16 çekirdek).</string>
+    <string name="vs_soc_features_hint">Boş = o çekirdek türü için olağan bayraklar.</string>
+    <string name="sk_reset_led">LED konumunu sıfırla</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Android düğme çubuğunu gizle</string>
+    <string name="vs_gl_trace">GL çağrılarını kaydet (hata raporları için)</string>
+    <string name="vs_gl_trace_sub">GPU köprüsünün son 16.000 çağrısını GL hatası ve her çizimin durumuyla bellekte tutar ve günlük dışa aktarımına gl-trace.txt olarak ekler. Çizimi biraz yavaşlatır, bu yüzden genellikle kapalı bırakın. Yanlış çizilen ekranı açın, sonra günlükleri dışa aktarın. Bir sonraki başlatmada geçerli olur.</string>
 </resources>

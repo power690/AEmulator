@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM အမျိုးအစား</string>
+    <string name="vs_ram_type_auto">မူရင်း</string>
+    <string name="vs_ram_type_sub">ဧည့်သည်ထံ ကြေညာသည့် မမ်မိုရီ အမျိုးအစား (LPDDR2 မှ LPDDR5X)။ အမည်သာ ပြောင်းသည်၊ ပမာဏသည် “ဧည့်သည် RAM” ဆက်တင်မှ ရသည်။ VM အပြည့်အဝ ပြန်စတင်ပြီးနောက် သက်ရောက်သည်။</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">Käynnistää Magiskin taustapalvelun käynnistyksessä, lisää su:n PATHiin ja suorittaa moduulien skriptit ja tiedostot (Zygisk: kytke se päälle Magisk-sovelluksessa). Tulee voimaan seuraavalla täydellä käynnistyksellä. Kokeellinen.</string>
+    <string name="vm_magisk_installed">Tähän VM:ään on asennettu Magisk %1$s (%2$d).</string>
+    <string name="vm_magisk_install">Asenna Magisk (valitse APK)</string>
+    <string name="vm_magisk_replace">Vaihda Magisk (valitse toinen APK)</string>
+    <string name="vm_magisk_remove">Poista Magisk</string>
+    <string name="vm_magisk_working">Asennetaan Magiskia… Pysäytä ensin kaikki VM:t.</string>
+    <string name="vm_magisk_done">Magisk %1$s asennettu. Kytke Root päälle ja käynnistä VM; kun järjestelmä on ylhäällä, Magisk-sovellus asentuu itsestään.</string>
+    <string name="vm_magisk_removed">Magisk poistettu. Moduulit ja magisk.db säilytettiin.</string>
+</resources>

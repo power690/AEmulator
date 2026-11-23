@@ -540,4 +540,42 @@
     <string name="vs_no_dex2oat_sub">ऐप्स और सिस्टम कोड गेस्ट में कभी संकलित नहीं होते: dex2oat का हर रन तुरंत विफल हो जाता है। चेतावनी: इससे क्रैश, गड़बड़ियाँ और अन्य अनपेक्षित व्यवहार हो सकता है (ऐप्स धीमे चलते हैं, कुछ फ़र्मवेयर संकलन के बिना बूट नहीं होते)। डिफ़ॉल्ट रूप से बंद। अगली पूर्ण शुरुआत पर लागू होता है।</string>
     <string name="m_multitask">कार्य बदलना</string>
     <string name="nav_show">Android बटन बार दिखाएँ</string>
+    <string name="vs_refresh">स्क्रीन रिफ्रेश दर</string>
+    <string name="vs_refresh_host">यह डिवाइस</string>
+    <string name="vs_refresh_custom">कस्टम</string>
+    <string name="vs_refresh_custom_hint">दर (10–1000)</string>
+    <string name="vs_refresh_sub">वह दर जो गेस्ट बताता है और जिस पर चित्र बनाता है। वर्चुअल मशीन के अगले पूर्ण स्टार्ट पर लागू होती है।</string>
+    <string name="vs_refresh_cap">आपके फ़ोन की स्क्रीन अधिकतम %1$d Hz तक जाती है। गेस्ट %2$d Hz बताएगा, पर केवल %1$d Hz पर ही चित्र बना सकता है।</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader प्रोसेसर पर चित्र बनाता है और गति नहीं पकड़ पाता। इसे बदलने के लिए „फ़ोन का GPU“ चालू करें; वरना गेस्ट 60 Hz पर रहेगा।</string>
+    <string name="vs_storage">स्टोरेज</string>
+    <string name="vs_storage_auto">फ़ोन की डिस्क</string>
+    <string name="vs_storage_sub">वह आकार जो गेस्ट देखता है। खाली जगह हमेशा फ़ोन की असली खाली जगह है, और उपयोग = आकार − खाली, इसलिए गेस्ट को कभी नहीं बताया जाता कि वह फ़ोन की क्षमता से ज़्यादा संग्रह कर सकता है। वर्चुअल मशीन के पूर्ण रीस्टार्ट के बाद लागू होता है।</string>
+    <string name="vs_storage_type">स्टोरेज प्रकार</string>
+    <string name="vs_storage_type_auto">डिफ़ॉल्ट</string>
+    <string name="vs_storage_type_sub">कि गेस्ट eMMC देखता है या UFS (प्रॉपर्टी और /sys में ब्लॉक नोड)।</string>
+    <string name="vs_soc">गेस्ट को बताया गया चिप (SoC)</string>
+    <string name="vs_soc_sub">/proc/cpuinfo और /sys/devices/soc0 में, तथा प्रॉपर्टी ro.board.platform (सभी Android संस्करण) और ro.soc.model / ro.soc.manufacturer (Android 12+) में लिखा जाता है। कोर की संख्या और CPU आवृत्तियाँ इसी पर निर्भर हैं। वर्चुअल मशीन के पूर्ण रीस्टार्ट के बाद लागू होता है।</string>
+    <string name="vs_soc_default">डिफ़ॉल्ट (%1$s)</string>
+    <string name="vs_soc_host">यह डिवाइस (यह फ़ोन)</string>
+    <string name="vs_soc_custom">कस्टम</string>
+    <string name="vs_soc_preset">तैयार सेट</string>
+    <string name="vs_soc_preset_title">चिप चुनें</string>
+    <string name="vs_soc_search">खोजें (नाम, मॉडल, GPU)</string>
+    <string name="vs_soc_none">कोई मेल खाती चिप नहीं।</string>
+    <string name="vs_soc_close">बंद करें</string>
+    <string name="vs_soc_change">दूसरी चिप चुनें…</string>
+    <string name="vs_soc_default_sub">Project Tango टैबलेट की अपनी चिप</string>
+    <string name="vs_soc_gpu_off">फ़ोन का GPU बंद है, इसलिए गेस्ट SwiftShader से चित्र बनाता है और चुनी गई चिप चाहे जो हो, SwiftShader को अपना GPU मानता है।</string>
+    <string name="vs_soc_gpu_hint">केवल तब उपयोग होता है जब फ़ोन का GPU चालू हो। खाली = फ़ोन का असली GPU। सभी इंजन पर काम करता है; केवल दो नाम बदलते हैं, GPU की क्षमताएँ नहीं।</string>
+    <string name="vs_soc_armv8">ARMv8 कोर</string>
+    <string name="vs_soc_armv8_sub">बंद: ARMv7 कोर (32-बिट /proc/cpuinfo लेआउट)। चालू: ARMv8 कोर (64-बिट फ़र्मवेयर के लिए AArch64, 32-बिट के लिए ARMv7 संगतता)।</string>
+    <string name="vs_soc_cores">CPU कोर</string>
+    <string name="vs_soc_cores_sub">हर कोर समूह के लिए एक पंक्ति, छोटे कोर पहले: count, implementer, variant, part, revision, अधिकतम MHz, न्यूनतम MHz (0x के साथ हेक्स या दशमलव)।</string>
+    <string name="vs_soc_cores_bad">सहेजा नहीं गया: हर पंक्ति को count, implementer, variant, part, revision और अधिकतम MHz चाहिए (अधिकतम 4 पंक्तियाँ, 16 कोर)।</string>
+    <string name="vs_soc_features_hint">खाली = उस कोर प्रकार के लिए सामान्य फ़्लैग।</string>
+    <string name="sk_reset_led">LED की स्थिति रीसेट करें</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Android बटन बार छिपाएँ</string>
+    <string name="vs_gl_trace">GL कॉल रिकॉर्ड करें (बग रिपोर्ट के लिए)</string>
+    <string name="vs_gl_trace_sub">GPU ब्रिज के अंतिम 16,000 कॉल GL त्रुटि और हर ड्रॉइंग की स्थिति के साथ मेमोरी में रखता है और उन्हें लॉग एक्सपोर्ट में gl-trace.txt के रूप में जोड़ता है। ड्रॉइंग को थोड़ा धीमा करता है, इसलिए सामान्यतः इसे बंद रखें। जो स्क्रीन गलत बनती है उसे खोलें, फिर लॉग एक्सपोर्ट करें। अगले स्टार्ट पर लागू होता है।</string>
 </resources>

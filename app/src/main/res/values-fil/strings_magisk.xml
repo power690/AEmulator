@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">Pinapagana ang daemon ng Magisk sa boot, inilalagay ang su sa PATH at pinapatakbo ang mga script at file ng module (Zygisk: i-on ito sa Magisk app). Magiging aktibo sa susunod na buong boot. Eksperimental.</string>
+    <string name="vm_magisk_installed">Naka-install ang Magisk %1$s (%2$d) sa VM na ito.</string>
+    <string name="vm_magisk_install">I-install ang Magisk (pumili ng APK)</string>
+    <string name="vm_magisk_replace">Palitan ang Magisk (pumili ng ibang APK)</string>
+    <string name="vm_magisk_remove">Alisin ang Magisk</string>
+    <string name="vm_magisk_working">Nag-i-install ng Magisk… Itigil muna ang lahat ng VM.</string>
+    <string name="vm_magisk_done">Naka-install ang Magisk %1$s. I-on ang Root at simulan ang VM; kapag umusbong ang system, kusang nag-i-install ang Magisk app.</string>
+    <string name="vm_magisk_removed">Inalis ang Magisk. Itinago ang mga module at magisk.db.</string>
+</resources>

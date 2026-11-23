@@ -235,4 +235,6 @@
     <string name="imp_no_system_partition_in_mbr">%1$s: MBR တွင် system partition မရှိပါ</string>
     <string name="imp_unreadable_mbr">%1$s: MBR partition ဇယား ဖတ်၍ မရပါ</string>
     <string name="ota_squash_files_modified">/system ၏ ဖိုင် %1$d ခုကို app သို့မဟုတ် သင်က ပြောင်းလဲထားသဖြင့် ပြန်တည်ဆောက်၍ မရပါ၊ ဥပမာ %2$s။ SquashFS system image ကို မပြောင်းလဲသေးသော ဖိုင်များမှသာ ပြန်တည်ဆောက်နိုင်သည်။ ဘာမှ မပြောင်းလဲပါ။</string>
+    <string name="warn_arm64">64-bit ဖာမ်ဝဲယား: 32-bit ARM သာ ပံ့ပိုးသည်။</string>
+    <string name="warn_no_healthd">ဘူတ်အစီအစဉ်တွင် healthd မရှိပါ (/sbin/healthd မရှိ၊ တင်သွင်းစဉ် ramdisk ကို ကျော်ခဲ့သလား။): system_server သည် BatteryService တွင် ရပ်တန့်သွားမည်။</string>
 </resources>

@@ -540,4 +540,42 @@
     <string name="vs_no_dex2oat_sub">Aplikasi dan kode sistem tidak pernah dikompilasi di guest: setiap eksekusi dex2oat langsung gagal. Peringatan: ini dapat menyebabkan crash, glitch, dan perilaku tak diinginkan lainnya (aplikasi berjalan lebih lambat, sebagian firmware tidak bisa boot tanpa kompilasi). Nonaktif secara bawaan. Berlaku pada mulai penuh berikutnya.</string>
     <string name="m_multitask">Beralih tugas</string>
     <string name="nav_show">Tampilkan bilah tombol Android</string>
+    <string name="vs_refresh">Laju penyegaran layar</string>
+    <string name="vs_refresh_host">Perangkat ini</string>
+    <string name="vs_refresh_custom">Khusus</string>
+    <string name="vs_refresh_custom_hint">Laju (10–1000)</string>
+    <string name="vs_refresh_sub">Laju yang dilaporkan tamu dan dipakai untuk menggambar. Berlaku pada boot penuh mesin virtual berikutnya.</string>
+    <string name="vs_refresh_cap">Layar ponsel Anda mencapai maksimal %1$d Hz. Tamu akan melaporkan %2$d Hz, tetapi hanya bisa menggambar pada %1$d Hz.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader menggambar di CPU dan tidak sanggup. Aktifkan „GPU ponsel” untuk mengubahnya; jika tidak, tamu tetap di 60 Hz.</string>
+    <string name="vs_storage">Penyimpanan</string>
+    <string name="vs_storage_auto">Disk ponsel</string>
+    <string name="vs_storage_sub">Ukuran yang dilihat tamu. Ruang kosong selalu ruang kosong nyata ponsel, dan terpakai = ukuran − kosong, jadi tamu tidak pernah diberi tahu bahwa ia bisa menyimpan lebih dari kapasitas ponsel. Berlaku setelah mulai ulang penuh mesin virtual.</string>
+    <string name="vs_storage_type">Jenis penyimpanan</string>
+    <string name="vs_storage_type_auto">Bawaan</string>
+    <string name="vs_storage_type_sub">Apakah tamu melihat eMMC atau UFS (properti dan simpul blok di /sys).</string>
+    <string name="vs_soc">Chip (SoC) yang dilaporkan ke tamu</string>
+    <string name="vs_soc_sub">Ditulis ke /proc/cpuinfo dan /sys/devices/soc0, serta properti ro.board.platform (semua versi Android) dan ro.soc.model / ro.soc.manufacturer (Android 12+). Jumlah inti dan frekuensi CPU mengikutinya. Berlaku setelah mulai ulang penuh mesin virtual.</string>
+    <string name="vs_soc_default">Bawaan (%1$s)</string>
+    <string name="vs_soc_host">Perangkat ini (ponsel ini)</string>
+    <string name="vs_soc_custom">Khusus</string>
+    <string name="vs_soc_preset">Set siap pakai</string>
+    <string name="vs_soc_preset_title">Pilih chip</string>
+    <string name="vs_soc_search">Cari (nama, model, GPU)</string>
+    <string name="vs_soc_none">Tidak ada chip yang cocok.</string>
+    <string name="vs_soc_close">Tutup</string>
+    <string name="vs_soc_change">Pilih chip lain…</string>
+    <string name="vs_soc_default_sub">Chip khusus tablet Project Tango</string>
+    <string name="vs_soc_gpu_off">GPU ponsel mati, jadi tamu menggambar lewat SwiftShader dan melihat SwiftShader sebagai GPU-nya, apa pun chip yang dipilih.</string>
+    <string name="vs_soc_gpu_hint">Hanya dipakai saat GPU ponsel menyala. Kosong = GPU asli ponsel. Berfungsi di semua mesin; hanya dua nama yang berubah, bukan kemampuan GPU.</string>
+    <string name="vs_soc_armv8">Inti ARMv8</string>
+    <string name="vs_soc_armv8_sub">Mati: inti ARMv7 (tata letak 32-bit /proc/cpuinfo). Nyala: inti ARMv8 (AArch64 untuk firmware 64-bit, kompatibilitas ARMv7 untuk 32-bit).</string>
+    <string name="vs_soc_cores">Inti CPU</string>
+    <string name="vs_soc_cores_sub">Satu baris per kelompok inti, inti kecil dulu: count, implementer, variant, part, revision, MHz maks., MHz min. (hex dengan 0x atau desimal).</string>
+    <string name="vs_soc_cores_bad">Tidak disimpan: setiap baris memerlukan count, implementer, variant, part, revision, dan MHz maks. (hingga 4 baris, 16 inti).</string>
+    <string name="vs_soc_features_hint">Kosong = flag biasa untuk jenis inti tersebut.</string>
+    <string name="sk_reset_led">Setel ulang posisi LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Sembunyikan bilah tombol Android</string>
+    <string name="vs_gl_trace">Catat panggilan GL (untuk laporan bug)</string>
+    <string name="vs_gl_trace_sub">Menyimpan 16.000 panggilan jembatan GPU terakhir di memori beserta galat GL dan status setiap gambar, lalu menambahkannya ke ekspor log sebagai gl-trace.txt. Sedikit memperlambat penggambaran, jadi biasanya biarkan mati. Buka layar yang salah gambar lalu ekspor log. Berlaku pada boot berikutnya.</string>
 </resources>

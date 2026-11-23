@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">/system ичиндеги %1$d файл колдонмо же сиз тарабынан өзгөртүлгөн, аларды кайра куруу мүмкүн эмес, мисалы %2$s. SquashFS тутум элесин өзгөртүлбөгөн файлдардан гана кайра куруга болот. Эч нерсе өзгөргөн жок.</string>
     <string name="imp_unreadable_mbr">%1$s: MBR бөлүм таблицасын окуу мүмкүн эмес</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: MBR ичинде тутум бөлүмү жок</string>
+    <string name="warn_arm64">64 биттик firmware: 32 биттик ARM гана колдоого алынат.</string>
+    <string name="warn_no_healthd">Жүктөө планында healthd жок (/sbin/healthd жок; импортто ramdisk өткөрүлүп кеттиби?): system_server BatteryServiceте тыгылып калат.</string>
 </resources>

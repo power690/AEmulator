@@ -43,4 +43,8 @@
     <string name="m_resize_done">サイズ変更を完了</string>
     <string name="m_resize_reset">画面サイズをリセット</string>
     <string name="vi_resize_hint">画面の角をドラッグしてサイズを変更します。終わったらメニューを開き、「サイズ変更を完了」をタップしてください。</string>
+    <string name="vi_spen">入力: S-Pen</string>
+    <string name="vi_spen_button">S-Pen ボタン (Air Command)</string>
+    <string name="vi_spen_sub">ゲストに S-Pen デジタイザー (sec_e-pen) をタッチスクリーンと併存させて登録し、ナビゲーションバーに 2 つのボタンを追加します。S-Pen モード: 有効な間、画面へのすべてのタッチが S-Pen としてゲストに届きます (スタイラスのツール種別、筆圧、接触直前・直後のホバー、同時に 1 点のみ、マルチタッチなし)。ホスト側のスタイラスもホバーし、側面ボタンも機能します。S-Pen ボタン: ホバー中のタップでペンの側面ボタンが押下・解放され、対応する Samsung ファームウェアでは Air Command が開きます。Android 4.0 以降と VM の完全再起動が必要です。</string>
+    <string name="vi_spen_toggle">S-Pen モード</string>
 </resources>

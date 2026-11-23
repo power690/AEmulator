@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">%1$d tiedostoa kansiossa /system on muuttunut sovelluksen tai sinun toimestasi, eikä niitä voi rakentaa uudelleen, esim. %2$s. SquashFS-järjestelmäkuva voidaan rakentaa uudelleen vain muuttumattomista tiedostoista. Mitään ei muutettu.</string>
     <string name="imp_unreadable_mbr">%1$s: MBR-osiotaulua ei voi lukea</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: MBR:ssä ei ole järjestelmäosiota</string>
+    <string name="warn_arm64">64-bittinen laiteohjelmisto: vain 32-bittistä ARM:ia tuetaan.</string>
+    <string name="warn_no_healthd">Käynnistyssuunnitelmassa ei ole healthd:tä (/sbin/healthd puuttuu; ramdisk ohitettu tuonnissa?): system_server jumittuu BatteryServiceen.</string>
 </resources>

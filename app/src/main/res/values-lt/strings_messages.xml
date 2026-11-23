@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">Programa arba jūs pakeitėte %1$d failų aplanke /system, ir jų negalima atkurti, pvz., %2$s. „SquashFS“ sistemos atvaizdą galima atkurti tik iš nepakeistų failų. Niekas nepakeista.</string>
     <string name="imp_unreadable_mbr">%1$s: neįskaitoma MBR skaidinių lentelė</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: MBR nėra sistemos skaidinio</string>
+    <string name="warn_arm64">64 bitų programinė aparatinė įranga: palaikomas tik 32 bitų ARM.</string>
+    <string name="warn_no_healthd">Paleidimo plane nėra healthd (/sbin/healthd trūksta; ramdisk praleistas importuojant?): system_server užstrigs BatteryService.</string>
 </resources>

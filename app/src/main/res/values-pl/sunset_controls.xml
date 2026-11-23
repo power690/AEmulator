@@ -43,4 +43,8 @@
     <string name="m_resize_done">Zakończ zmianę rozmiaru</string>
     <string name="m_resize_reset">Zresetuj rozmiar ekranu</string>
     <string name="vi_resize_hint">Przeciągnij róg ekranu, aby zmienić jego rozmiar. Na koniec otwórz menu i dotknij „Zakończ zmianę rozmiaru”.</string>
+    <string name="vi_spen">Wejście: S-Pen</string>
+    <string name="vi_spen_button">Przycisk S-Pen (Air Command)</string>
+    <string name="vi_spen_sub">Rejestruje w gościu digitalizator S-Pen (sec_e-pen) obok ekranu dotykowego i dodaje dwa przyciski do paska nawigacji. Tryb S-Pen: gdy jest włączony, każdy dotyk ekranu trafia do gościa jako S-Pen (typ narzędzia rysik, nacisk, unoszenie tuż przed i po kontakcie; jeden kontakt naraz, bez multi-touchu), a rysik hosta też unosi się i jego boczny przycisk działa. Przycisk S-Pen: dotknięcie wciska i zwalnia boczny przycisk rysika podczas unoszenia, co otwiera Air Command w firmware Samsung, który to ma. Wymaga Android 4.0 lub nowszego i pełnego restartu maszyny wirtualnej.</string>
+    <string name="vi_spen_toggle">Tryb S-Pen</string>
 </resources>

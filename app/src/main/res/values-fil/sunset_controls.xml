@@ -43,4 +43,8 @@
     <string name="m_resize_done">Tapos na ang pagbabago ng laki</string>
     <string name="m_resize_reset">I-reset ang laki ng screen</string>
     <string name="vi_resize_hint">I-drag ang sulok ng screen para baguhin ang laki nito. Kapag tapos na, buksan ang menu at i-tap ang “Tapos na ang pagbabago ng laki”.</string>
+    <string name="vi_spen">Input: S-Pen</string>
+    <string name="vi_spen_button">S-Pen button (Air Command)</string>
+    <string name="vi_spen_sub">Nagrerehistro ng S-Pen digitizer (sec_e-pen) sa guest kasama ng touch screen at nagdadagdag ng dalawang button sa navigation bar. S-Pen mode: habang buhay ito, bawat hawak sa screen ay umaabot sa guest bilang S-Pen (stylus tool type, presyon, hover bago at pagkatapos ng hawak; isang hawak sa isang pagkakataon, walang multi-touch), at ang stylus ng host ay nagho-hover din at gumagana ang side button nito. S-Pen button: ang pag-tap ay pumipindi at nagbibitaw sa side button ng pen habang nagho-hover, na nagbubukas ng Air Command sa Samsung firmware na mayroon nito. Kailangan ang Android 4.0 o mas bago at buong restart ng VM.</string>
+    <string name="vi_spen_toggle">S-Pen mode</string>
 </resources>

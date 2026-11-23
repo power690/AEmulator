@@ -43,4 +43,8 @@
     <string name="m_resize_done">Ndryshimi i madhësisë u krye</string>
     <string name="m_resize_reset">Rivendos madhësinë e ekranit</string>
     <string name="vi_resize_hint">Tërhiq një cep të ekranit për të ndryshuar madhësinë. Kur të mbarosh, hap menunë dhe prek “Ndryshimi i madhësisë u krye”.</string>
+    <string name="vi_spen">Hyrje: S-Pen</string>
+    <string name="vi_spen_button">Butoni S-Pen (Air Command)</string>
+    <string name="vi_spen_sub">Regjistron te mysafiri një digitalizues S-Pen (sec_e-pen) krahas ekranit me prekje dhe shton dy butona në shiritin e navigimit. Modaliteti S-Pen: sa kohë është i ndezur, çdo prekje e ekranit arrin te mysafiri si S-Pen (lloj mjeti stilolaps, presion, rëndim pak para dhe pas kontaktit; një kontakt në njëherë, pa multitouch), dhe një stilolaps i hostit gjithashtu rëndon dhe butoni i tij anësor punon. Butoni S-Pen: një prekje shtyp dhe lëshon butonin anësor të stilolapsit gjatë rëndimit, gjë që hap Air Command në firmware Samsung që e ka. Kërkon Android 4.0 ose më të ri dhe rinisje të plotë të makinës virtuale.</string>
+    <string name="vi_spen_toggle">Modaliteti S-Pen</string>
 </resources>

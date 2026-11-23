@@ -548,4 +548,42 @@
     <string name="vs_skip_perm_wait_sub">ARM հեռախոսի վրա x86 կրճատումների համար, որտեղ թույլատրությունների վերահսկիչ հավելվածը շատ դանդաղ է պատասխանում 60 վրկ-ում և system_server-ը սպանվում է (\"Error granting/upgrading runtime permissions\")։ Ուղղում է կրճատման services.jar-ը, որ բացումը չսպասի լռելյայն գործարկման թույլատրությունների տրմանը. նախատեղադրված հավելվածները այդ դեպքում չեն ստանում այդ թույլատրությունները բացման ժամանակ։ dex2oat-ին թույլ չի տրվում վերակոմպիլացնել ուղղված jar-ը։ Անջատելը վերականգնում է սկզբնական jar-ը։ Գործում է հաջորդ լիարժեք բացման ժամանակ։</string>
     <string name="m_multitask">Խնդիրների հերթափոխում</string>
     <string name="nav_show">Ցուցադրել Android-ի կոճակների վահանակը</string>
+    <string name="vs_refresh">Էկրանի թարմացման հաճախականություն</string>
+    <string name="vs_refresh_host">Այս սարքը</string>
+    <string name="vs_refresh_custom">Սեփական</string>
+    <string name="vs_refresh_custom_hint">Հաճախականություն (10–1000)</string>
+    <string name="vs_refresh_sub">Հաճախականությունը, որը հյուրը հայտնում է և որով նկարում է։ Ուժի մեջ է մտնում վիրտուալ մեքենայի հաջորդ լրիվ գործարկման ժամանակ։</string>
+    <string name="vs_refresh_cap">Ձեր հեռախոսի էկրանը հասնում է առավելագույնը %1$d Hz։ Հյուրը կհայտնի %2$d Hz, բայց կարող է նկարել միայն %1$d Hz-ով։</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader-ը նկարում է պրոցեսորի վրա և չի հասցնում։ Փոխելու համար միացրեք «Հեռախոսի GPU»-ն, այլապես հյուրը կմնա 60 Hz-ի վրա։</string>
+    <string name="vs_storage">Պահեստ</string>
+    <string name="vs_storage_auto">Հեռախոսի սկավառակը</string>
+    <string name="vs_storage_sub">Չափը, որը տեսնում է հյուրը։ Ազատ տեղը միշտ հեռախոսի իրական ազատ տեղն է, իսկ զբաղվածը = չափ − ազատ, այնպես որ հյուրին երբեք չեն ասում, թե կարող է պահել ավելին, քան տեղավորվում է հեռախոսում։ Ուժի մեջ է մտնում վիրտուալ մեքենայի լրիվ վերագործարկումից հետո։</string>
+    <string name="vs_storage_type">Պահեստի տեսակը</string>
+    <string name="vs_storage_type_auto">Լռելյայն</string>
+    <string name="vs_storage_type_sub">Տեսնում է հյուրը eMMC, թե UFS (հատկություններ և բլոկ-հանգույցներ /sys-ում)։</string>
+    <string name="vs_soc">Հյուրին հայտնված չիպը (SoC)</string>
+    <string name="vs_soc_sub">Գրվում է /proc/cpuinfo և /sys/devices/soc0-ում, ինչպես նաև ro.board.platform (Android-ի բոլոր տարբերակները) և ro.soc.model / ro.soc.manufacturer (Android 12+) հատկություններում։ Միջուկների քանակը և CPU հաճախականությունները դրան են հետևում։ Ուժի մեջ է մտնում վիրտուալ մեքենայի լրիվ վերագործարկումից հետո։</string>
+    <string name="vs_soc_default">Լռելյայն (%1$s)</string>
+    <string name="vs_soc_host">Այս սարքը (այս հեռախոսը)</string>
+    <string name="vs_soc_custom">Սեփական</string>
+    <string name="vs_soc_preset">Պատրաստ հավաքածու</string>
+    <string name="vs_soc_preset_title">Ընտրեք չիպ</string>
+    <string name="vs_soc_search">Փնտրել (անվանում, մոդել, GPU)</string>
+    <string name="vs_soc_none">Համապատասխան չիպ չկա։</string>
+    <string name="vs_soc_close">Փակել</string>
+    <string name="vs_soc_change">Ընտրել այլ չիպ…</string>
+    <string name="vs_soc_default_sub">Project Tango պլանշետի սեփական չիպը</string>
+    <string name="vs_soc_gpu_off">Հեռախոսի GPU-ն անջատված է, ուստի հյուրը նկարում է SwiftShader-ով և SwiftShader-ը տեսնում է որպես իր GPU՝ անկախ ընտրված չիպից։</string>
+    <string name="vs_soc_gpu_hint">Օգտագործվում է միայն երբ հեռախոսի GPU-ն միացված է։ Դատարկ = հեռախոսի իրական GPU-ն։ Աշխատում է բոլոր շարժիչներում. փոխվում են միայն երկու անուններ, ոչ GPU-ի հնարավորությունները։</string>
+    <string name="vs_soc_armv8">ARMv8 միջուկներ</string>
+    <string name="vs_soc_armv8_sub">Անջատված՝ ARMv7 միջուկներ (32-բիթ /proc/cpuinfo դասավորություն)։ Միացված՝ ARMv8 միջուկներ (AArch64 64-բիթ firmware-ի համար, ARMv7 համատեղելիություն 32-բիթի համար)։</string>
+    <string name="vs_soc_cores">CPU միջուկներ</string>
+    <string name="vs_soc_cores_sub">Մեկ տող միջուկների խմբի համար, փոքր միջուկները սկզբում՝ count, implementer, variant, part, revision, առավ. MHz, նվազ. MHz (hex 0x-ով կամ տասնորդական)։</string>
+    <string name="vs_soc_cores_bad">Չպահպանվեց. յուրաքանչյուր տող պահանջում է count, implementer, variant, part, revision և առավ. MHz (մինչև 4 տող, 16 միջուկ)։</string>
+    <string name="vs_soc_features_hint">Դատարկ = այդ տեսակի միջուկների սովորական դրոշները։</string>
+    <string name="sk_reset_led">Վերականգնել LED-ի դիրքը</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Թաքցնել Android-ի կոճակների շերտը</string>
+    <string name="vs_gl_trace">Գրանցել GL կանչերը (սխալների հաշվետվությունների համար)</string>
+    <string name="vs_gl_trace_sub">Հիշողության մեջ պահում է GPU-կամրջի վերջին 16 000 կանչերը՝ GL սխալով և յուրաքանչյուր նկարչության վիճակով, և ավելացնում է դրանք գրանցամատյանների արտահանմանը որպես gl-trace.txt։ Մի փոքր դանդաղեցնում է նկարելը, ուստի սովորաբար թողեք անջատված։ Բացեք սխալ նկարվող էկրանը, ապա արտահանեք գրանցամատյանները։ Ուժի մեջ է մտնում հաջորդ գործարկման ժամանակ։</string>
 </resources>

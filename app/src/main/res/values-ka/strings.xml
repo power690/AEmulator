@@ -548,4 +548,42 @@
     <string name="vs_skip_perm_wait_sub">ARM ტელეფონზე x86 firmware-ისთვის, სადაც ნებართვების კონტროლერი აპი ძალიან ნელა პასუხობს 60 წმ-ში და system_server-ს კლავს (\"Error granting/upgrading runtime permissions\"). უპაჩავს firmware-ის services.jar-ს ისე, რომ ჩართვა არ ელოდება ნაგულისხმევი runtime ნებართვების გაცემას; წინასწარ დაინსტალირებული აპები მაშინ არ იღებენ ამ ნებართვებს ჩართვისას. dex2oat-ს ეკრძალება გაპაჩილი jar-ის ხელახლა კომპილირება. გამორთვა აღადგენს საწყის jar-ს. მოქმედებს შემდეგ სრულ ჩართვაზე.</string>
     <string name="m_multitask">დავალებების გადართვა</string>
     <string name="nav_show">Android-ის ღილაკების პანელის ჩვენება</string>
+    <string name="vs_refresh">ეკრანის განახლების სიხშირე</string>
+    <string name="vs_refresh_host">ეს მოწყობილობა</string>
+    <string name="vs_refresh_custom">მიუთითო</string>
+    <string name="vs_refresh_custom_hint">სიხშირე (10–1000)</string>
+    <string name="vs_refresh_sub">სიხშირე, რომელსაც სტუმარი აცხადებს და რომლითაც ხატავს. ამოქმედდება ვირტუალური მანქანის შემდეგ სრულ გაშვებაზე.</string>
+    <string name="vs_refresh_cap">თქვენი ტელეფონის ეკრანი მაქსიმუმ %1$d Hz-ს ამარებს. სტუმარი აცხადებს %2$d Hz-ს, მაგრამ ხატვა მხოლოდ %1$d Hz-ზე შეეძლება.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader პროცესორზე ხატავს და ვერ იჭერს. შეცვლისთვის ჩართეთ „ტელეფონის GPU”; თორემ სტუმარი 60 Hz-ზე დარჩება.</string>
+    <string name="vs_storage">მეხსიერება</string>
+    <string name="vs_storage_auto">ტელეფონის დისკი</string>
+    <string name="vs_storage_sub">მოცულობა, რომელსაც სტუმარი ხედავს. თავისუფალი ადგილი ყოველთვის ტელეფონის რეალური თავისუფალი ადგილია, დაკავებული = მოცულობა − თავისუფალი, ამიტომ სტუმარს არასოდეს ეუბნებიან, რომ ტელეფონზე მეტის შენახვა შეეძლება. ამოქმედდება სრული გადაგეშვაზე.</string>
+    <string name="vs_storage_type">მეხსიერების ტიპი</string>
+    <string name="vs_storage_type_auto">ნაგულისხმევი</string>
+    <string name="vs_storage_type_sub">ხედავს სტუმარი eMMC-ს თუ UFS-ს (ატრიბუტები და ბლოკ-კვანძები /sys-ში).</string>
+    <string name="vs_soc">სტუმარისათვის დეკლარირებული ჩიპი (SoC)</string>
+    <string name="vs_soc_sub">იწერება /proc/cpuinfo და /sys/devices/soc0-ში, აგრეთვე ro.board.platform (Android-ის ყველა ვერსია) და ro.soc.model / ro.soc.manufacturer (Android 12+) ატრიბუტებში. ბირთვების რაოდენობა და CPU-ს სიხშირეები ამას მიჰყვება. ამოქმედდება სრული გადაგეშვაზე.</string>
+    <string name="vs_soc_default">ნაგულისხმევი (%1$s)</string>
+    <string name="vs_soc_host">ეს მოწყობილობა (ეს ტელეფონი)</string>
+    <string name="vs_soc_custom">მიუთითო</string>
+    <string name="vs_soc_preset">მზად ნაკრები</string>
+    <string name="vs_soc_preset_title">აირჩიეთ ჩიპი</string>
+    <string name="vs_soc_search">ძიება (სახელი, მოდელი, GPU)</string>
+    <string name="vs_soc_none">შესაბამისი ჩიპი არ არის.</string>
+    <string name="vs_soc_close">დახურვა</string>
+    <string name="vs_soc_change">სხვა ჩიპის არჩევა…</string>
+    <string name="vs_soc_default_sub">Project Tango პლანშეტის საკუთარი ჩიპი</string>
+    <string name="vs_soc_gpu_off">ტელეფონის GPU გამორთულია, ამიტომ სტუმარი SwiftShader-ით ხატავს და SwiftShader-ს თავის GPU-დ ხედავს, არჩეული ჩიპის მიუხედავად.</string>
+    <string name="vs_soc_gpu_hint">გამოიყენება მხოლოდ ტელეფონის GPU-ს ჩართულობისას. ცარიელი = ტელეფონის ნამდვილი GPU. მუშაობს ყველა ძალაზე; იცვლება მხოლოდ ორი სახელი, არა GPU-ს შესაძლებლობები.</string>
+    <string name="vs_soc_armv8">ARMv8 ბირთვები</string>
+    <string name="vs_soc_armv8_sub">გამორთული: ARMv7 ბირთვები (32-ბიტიანი /proc/cpuinfo განლაგება). ჩართული: ARMv8 ბირთვები (AArch64 64-ბიტიან firmware-ისთვის, ARMv7 თავსებადობა 32-ბიტიანისთვის).</string>
+    <string name="vs_soc_cores">CPU ბირთვები</string>
+    <string name="vs_soc_cores_sub">ერთი სტრიქონი ბირთვების ჯგუფზე, მცირე ბირთვები წინ: count, implementer, variant, part, revision, მაქს. MHz, მინ. MHz (hex 0x-ით ან ათობითი).</string>
+    <string name="vs_soc_cores_bad">არ შეინახა: ყოველ სტრიქონს სჭირდება count, implementer, variant, part, revision და მაქს. MHz (4 სტრიქონამდე, 16 ბირთვი).</string>
+    <string name="vs_soc_features_hint">ცარიელი = ამ ტიპის ბირთვებისთვის ჩვეულებრივი დროშები.</string>
+    <string name="sk_reset_led">LED-ის პოზიციის დაბრუნება</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Android-ის ღილაკების პანელის დამალვა</string>
+    <string name="vs_gl_trace">GL-გამოძახებების ჟურნალიზაცია (შეცდომების ანგარიშებისთვის)</string>
+    <string name="vs_gl_trace_sub">მეხსიერებაში იჭერს GPU-ხიდის ბოლო 16 000 გამოძახებას GL-შეცდომითა და ყოველი ხატვის მდგომარეობით და ჟურნალების ექსპორტს gl-trace.txt-ად ამატებს. ხატვას ოდნავ აყოვნებს, ამიტომ ჩვეულებრივ გამორთული დატოვეთ. გახსნეთ არასწორად დახატული ეკრანი და შემდეგ ექსპორტირეთ ჟურნალები. ამოქმედდება შემდეგ გაშვებაზე.</string>
 </resources>

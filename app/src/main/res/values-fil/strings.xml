@@ -540,4 +540,42 @@
     <string name="vs_no_dex2oat_sub">Hindi kailanman naco-compile ang mga app at system code sa guest: agad na nabibigo ang bawat pagtakbo ng dex2oat. Babala: maaaring magdulot ito ng mga crash, glitch, at ibang hindi inaasahang gawi (mabagal ang mga app, hindi makaboot ang ilang firmware nang walang compilation). Nakapatay bilang default. Magkakabisa sa susunod na full start.</string>
     <string name="m_multitask">Paglipat ng gawain</string>
     <string name="nav_show">Ipakita ang bar ng mga button ng Android</string>
+    <string name="vs_refresh">Rate ng refresh ng screen</string>
+    <string name="vs_refresh_host">Device na ito</string>
+    <string name="vs_refresh_custom">Custom</string>
+    <string name="vs_refresh_custom_hint">Rate (10–1000)</string>
+    <string name="vs_refresh_sub">Ang rate na idinideklara ng guest at ginagamit sa pagguhit. Magiging aktibo sa susunod na buong boot ng virtual machine.</string>
+    <string name="vs_refresh_cap">Ang screen ng phone mo ay umaabot lamang sa %1$d Hz. Magdeklara ang guest ng %2$d Hz, pero sa %1$d Hz lang makakaguhit.</string>
+    <string name="vs_refresh_needs_gpu">Nagguhit ang SwiftShader sa CPU at hindi makasabay. I-on ang „GPU ng phone” para baguhin ito; kung hindi, mananatili ang guest sa 60 Hz.</string>
+    <string name="vs_storage">Storage</string>
+    <string name="vs_storage_auto">Disk ng phone</string>
+    <string name="vs_storage_sub">Ang sukat na nakikita ng guest. Ang libreng espasyo ay palaging tunay na libreng espasyo ng phone, at ginamit = sukat − libre, kaya hindi kailanman sinasabi sa guest na makakapag-imbak ito ng higit sa kaya ng phone. Magiging aktibo pagkatapos ng buong restart ng virtual machine.</string>
+    <string name="vs_storage_type">Uri ng storage</string>
+    <string name="vs_storage_type_auto">Default</string>
+    <string name="vs_storage_type_sub">Kung eMMC o UFS ang nakikita ng guest (mga property at block node sa /sys).</string>
+    <string name="vs_soc">Chip (SoC) na idinideklara sa guest</string>
+    <string name="vs_soc_sub">Isinusulat sa /proc/cpuinfo at /sys/devices/soc0, at sa mga property na ro.board.platform (lahat ng bersyon ng Android) at ro.soc.model / ro.soc.manufacturer (Android 12+). Sinusunod nito ang bilang ng core at mga frequency ng CPU. Magiging aktibo pagkatapos ng buong restart ng virtual machine.</string>
+    <string name="vs_soc_default">Default (%1$s)</string>
+    <string name="vs_soc_host">Device na ito (phone na ito)</string>
+    <string name="vs_soc_custom">Custom</string>
+    <string name="vs_soc_preset">Ready set</string>
+    <string name="vs_soc_preset_title">Pumili ng chip</string>
+    <string name="vs_soc_search">Maghanap (pangalan, modelo, GPU)</string>
+    <string name="vs_soc_none">Walang tugmang chip.</string>
+    <string name="vs_soc_close">Isara</string>
+    <string name="vs_soc_change">Pumili ng ibang chip…</string>
+    <string name="vs_soc_default_sub">Sariling chip ng Project Tango tablet</string>
+    <string name="vs_soc_gpu_off">Patay ang GPU ng phone, kaya naguguhit ang guest sa pamamagitan ng SwiftShader at nakikita ang SwiftShader bilang GPU nito, anuman ang piniling chip.</string>
+    <string name="vs_soc_gpu_hint">Ginagamit lamang kapag buhay ang GPU ng phone. Walang laman = tunay na GPU ng phone. Gumagana sa lahat ng engine; dalawang pangalan lang ang nagbabago, hindi ang kakayahan ng GPU.</string>
+    <string name="vs_soc_armv8">Mga core na ARMv8</string>
+    <string name="vs_soc_armv8_sub">Patay: mga core na ARMv7 (32-bit na layout ng /proc/cpuinfo). Buhay: mga core na ARMv8 (AArch64 para sa 64-bit na firmware, ARMv7 na compatibility para sa 32-bit).</string>
+    <string name="vs_soc_cores">Mga core ng CPU</string>
+    <string name="vs_soc_cores_sub">Isang linya kada grupo ng core, maliliit na core muna: count, implementer, variant, part, revision, max na MHz, min na MHz (hex na may 0x o decimal).</string>
+    <string name="vs_soc_cores_bad">Hindi na-save: kailangan ng bawat linya ang count, implementer, variant, part, revision at max na MHz (hanggang 4 na linya, 16 na core).</string>
+    <string name="vs_soc_features_hint">Walang laman = karaniwang flag para sa uri ng core na iyon.</string>
+    <string name="sk_reset_led">I-reset ang posisyon ng LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Itago ang button bar ng Android</string>
+    <string name="vs_gl_trace">I-record ang mga tawag sa GL (para sa bug report)</string>
+    <string name="vs_gl_trace_sub">Itinatago sa memorya ang huling 16,000 tawag sa GPU bridge kasama ang GL error at estado ng bawat pagguhit, at idinadagdag ang mga ito sa log export bilang gl-trace.txt. Medyo pinapabagal ang pagguhit, kaya karaniwang iwanang patay. Buksan ang screen na maling naguguhit, pagkatapos i-export ang mga log. Magiging aktibo sa susunod na boot.</string>
 </resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM típusa</string>
+    <string name="vs_ram_type_auto">Alapértelmezett</string>
+    <string name="vs_ram_type_sub">A vendégnek jelentett memóriatípus (LPDDR2–LPDDR5X). Csak a név változik; a méret a „Vendég RAM” beállításból jön. A VM teljes újraindítása után lép életbe.</string>
+</resources>

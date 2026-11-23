@@ -43,4 +43,8 @@
     <string name="m_resize_done">Promjena veličine gotova</string>
     <string name="m_resize_reset">Vrati veličinu ekrana</string>
     <string name="vi_resize_hint">Povucite ugao ekrana da promijenite njegovu veličinu. Kad završite, otvorite meni i dodirnite „Promjena veličine gotova”.</string>
+    <string name="vi_spen">Ulaz: S-Pen</string>
+    <string name="vi_spen_button">Dugme S-Pen (Air Command)</string>
+    <string name="vi_spen_sub">Registrira u gostu digitalizator S-Pen (sec_e-pen) pored ekrana osjetljivog na dodir i dodaje dva dugmeta u traku za navigaciju. Režim S-Pen: dok je uključen, svaki dodir ekrana stiže do gosta kao S-Pen (vrsta alata stilus, pritisak, lebdenje neposredno prije i poslije kontakta; jedan kontakt odjednom, bez multi-touch), a stilus hosta također lebdi i njegovo bočno dugme radi. Dugme S-Pen: dodir pritiska i otpušta bočno dugme olovke tokom lebdenja, što otvara Air Command na Samsung firmveru koji ga ima. Potreban je Android 4.0 ili noviji i potpuni restart VM-a.</string>
+    <string name="vi_spen_toggle">Režim S-Pen</string>
 </resources>

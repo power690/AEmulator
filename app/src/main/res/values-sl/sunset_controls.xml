@@ -43,4 +43,8 @@
     <string name="m_resize_done">Spreminjanje velikosti končano</string>
     <string name="m_resize_reset">Ponastavi velikost zaslona</string>
     <string name="vi_resize_hint">Povlecite kot zaslona, da spremenite njegovo velikost. Ko končate, odprite meni in tapnite »Spreminjanje velikosti končano«.</string>
+    <string name="vi_spen">Vhod: S-Pen</string>
+    <string name="vi_spen_button">Gumb S-Pen (Air Command)</string>
+    <string name="vi_spen_sub">V gosta registrira digitalizator S-Pen (sec_e-pen) ob zaslonu na dotik in doda dva gumba v vrstico za krmarjenje. Način S-Pen: dokler je vklopljen, vsak dotik zaslona pride do gosta kot S-Pen (vrsta orodja stilus, pritisk, lebdenje tik pred in po stiku; en stik naenkrat, brez večdotičnosti), tudi stilus gostitelja lebdi in njegov stranski gumb deluje. Gumb S-Pen: dotik med lebdenjem pritisne in spusti stranski gumb peresa, kar odpre Air Command v vdelani programski opremi Samsung, ki to ima. Zahteva Android 4.0 ali novejši in popoln ponovni zagon VM.</string>
+    <string name="vi_spen_toggle">Način S-Pen</string>
 </resources>

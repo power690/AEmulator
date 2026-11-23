@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">%1$d файл дар /system аз ҷониби барнома ё шумо тағйир дода шудааст ва онҳоро аз нав сохтан мумкин нест, масалан %2$s. Тасвири низоми SquashFS-ро танҳо аз файлҳои тағйирнаёфта аз нав сохтан мумкин аст. Ҳеҷ чиз тағйир дода нашуд.</string>
     <string name="imp_unreadable_mbr">%1$s: ҷадвали бахшҳои MBR хонда намешавад</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: дар MBR бахши низом нест</string>
+    <string name="warn_arm64">Firmware-и 64-битӣ: танҳо ARM-и 32-битӣ дастгирӣ мешавад.</string>
+    <string name="warn_no_healthd">Дар нақшаи боркунӣ healthd нест (/sbin/healthd нест; ҳангоми воридот ramdisk гузаронида шуд?): system_server дар BatteryService истода мемонад.</string>
 </resources>

@@ -548,4 +548,42 @@
     <string name="vs_skip_perm_wait_sub">ARM ফোনে x86 ফার্মওয়্যারের জন্য, যেখানে পারমিশন কন্ট্রোলার অ্যাপ ৬০ সেকেন্ডের মধ্যে উত্তর দিতে পারে না বলে system_server মারা যায় (\"Error granting/upgrading runtime permissions\")। ফার্মওয়্যারের services.jar প্যাচ করে যাতে বুট ডিফল্ট রানটাইম পারমিশন গ্রান্টের অপেক্ষা না করে; ফলে প্রি-ইনস্টলড অ্যাপ বুটে সেই পারমিশনগুলো পায় না। dex2oat প্যাচ করা jar আবার কম্পাইল করতে দেওয়া হয় না। বন্ধ করলে আসল jar ফিরে আসে। পরের পূর্ণ বুটে কার্যকর।</string>
     <string name="m_multitask">টাস্ক পরিবর্তন</string>
     <string name="nav_show">অ্যান্ড্রয়েড বোতাম বার দেখান</string>
+    <string name="vs_refresh">স্ক্রিন রিফ্রেশ রেট</string>
+    <string name="vs_refresh_host">এই ডিভাইস</string>
+    <string name="vs_refresh_custom">কাস্টম</string>
+    <string name="vs_refresh_custom_hint">রেট (10–1000)</string>
+    <string name="vs_refresh_sub">যে রেট গেস্ট ঘোষণা করে এবং যাতে আঁকে। ভার্চুয়াল মেশিনের পরের পূর্ণ স্টার্টে কার্যকর হবে।</string>
+    <string name="vs_refresh_cap">আপনার ফোনের স্ক্রিন সর্বোচ্চ %1$d Hz পর্যন্ত যায়। গেস্ট %2$d Hz ঘোষণা করবে, কিন্তু শুধু %1$d Hz-এ আঁকতে পারবে।</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader প্রসেসরে আঁকে এবং গতি ধরে রাখতে পারে না। এটি বদলাতে „ফোনের GPU“ চালু করুন; নইলে গেস্ট 60 Hz-এ থাকবে।</string>
+    <string name="vs_storage">স্টোরেজ</string>
+    <string name="vs_storage_auto">ফোনের ডিস্ক</string>
+    <string name="vs_storage_sub">যে আকার গেস্ট দেখে। খালি জায়গা সর্বদা ফোনের আসল খালি জায়গা, এবং ব্যবহৃত = আকার − খালি, তাই গেস্টকে কখনও বলা হয় না যে সে ফোনের ধারণক্ষমতার বেশি জমা করতে পারে। ভার্চুয়াল মেশিনের পূর্ণ রিস্টার্টের পরে কার্যকর হবে।</string>
+    <string name="vs_storage_type">স্টোরেজের ধরন</string>
+    <string name="vs_storage_type_auto">ডিফল্ট</string>
+    <string name="vs_storage_type_sub">গেস্ট eMMC দেখে নাকি UFS (প্রপার্টি ও /sys-এ ব্লক নোড)।</string>
+    <string name="vs_soc">গেস্টকে জানানো চিপ (SoC)</string>
+    <string name="vs_soc_sub">/proc/cpuinfo ও /sys/devices/soc0-এ, এবং ro.board.platform (সব Android সংস্করণ) ও ro.soc.model / ro.soc.manufacturer (Android 12+) প্রপার্টিতে লেখা হয়। কোর সংখ্যা ও CPU ফ্রিকোয়েন্সি এটি অনুসরণ করে। ভার্চুয়াল মেশিনের পূর্ণ রিস্টার্টের পরে কার্যকর হবে।</string>
+    <string name="vs_soc_default">ডিফল্ট (%1$s)</string>
+    <string name="vs_soc_host">এই ডিভাইস (এই ফোন)</string>
+    <string name="vs_soc_custom">কাস্টম</string>
+    <string name="vs_soc_preset">প্রস্তুত সেট</string>
+    <string name="vs_soc_preset_title">চিপ বেছে নিন</string>
+    <string name="vs_soc_search">খুঁজুন (নাম, মডেল, GPU)</string>
+    <string name="vs_soc_none">কোনো মিলে যাওয়া চিপ নেই।</string>
+    <string name="vs_soc_close">বন্ধ করুন</string>
+    <string name="vs_soc_change">অন্য চিপ বেছে নিন…</string>
+    <string name="vs_soc_default_sub">Project Tango ট্যাবলেটের নিজস্ব চিপ</string>
+    <string name="vs_soc_gpu_off">ফোনের GPU বন্ধ, তাই গেস্ট SwiftShader দিয়ে আঁকে এবং যে চিপই বাছা হোক, SwiftShader-কেই নিজের GPU ভাবে।</string>
+    <string name="vs_soc_gpu_hint">কেবল তখনই ব্যবহৃত হয় যখন ফোনের GPU চালু। খালি = ফোনের আসল GPU। সব ইঞ্জিনে কাজ করে; কেবল দুটি নাম বদলায়, GPU-র ক্ষমতা নয়।</string>
+    <string name="vs_soc_armv8">ARMv8 কোর</string>
+    <string name="vs_soc_armv8_sub">বন্ধ: ARMv7 কোর (32-বিট /proc/cpuinfo বিন্যাস)। চালু: ARMv8 কোর (64-বিট ফার্মওয়ারের জন্য AArch64, 32-বিটের জন্য ARMv7 সামঞ্জস্য)।</string>
+    <string name="vs_soc_cores">CPU কোর</string>
+    <string name="vs_soc_cores_sub">প্রতি কোর গ্রুপে একটি লাইন, ছোট কোর আগে: count, implementer, variant, part, revision, সর্বোচ্চ MHz, সর্বনিম্ন MHz (0x সহ হেক্স বা দশমিক)।</string>
+    <string name="vs_soc_cores_bad">সংরক্ষিত হয়নি: প্রতি লাইনে count, implementer, variant, part, revision ও সর্বোচ্চ MHz দরকার (সর্বোচ্চ 4 লাইন, 16 কোর)।</string>
+    <string name="vs_soc_features_hint">খালি = ওই কোর ধরনের স্বাভাবিক ফ্ল্যাগ।</string>
+    <string name="sk_reset_led">LED অবস্থান রিসেট করুন</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Android বাটন বার লুকান</string>
+    <string name="vs_gl_trace">GL কল রেকর্ড করুন (বাগ রিপোর্টের জন্য)</string>
+    <string name="vs_gl_trace_sub">GPU ব্রিজের শেষ 16,000 কল GL ত্রুটি ও প্রতিটি ড্রয়িংয়ের অবস্থাসহ মেমোরিতে রাখে এবং সেগুলো লগ এক্সপোর্টে gl-trace.txt হিসেবে যোগ করে। ড্রয়িং কিছুটা ধীর করে, তাই সাধারণত বন্ধ রাখুন। যে স্ক্রিন ভুল আঁকে সেটি খুলুন, তারপর লগ এক্সপোর্ট করুন। পরের স্টার্টে কার্যকর হবে।</string>
 </resources>

@@ -43,4 +43,8 @@
     <string name="m_resize_done">Izmēra maiņa pabeigta</string>
     <string name="m_resize_reset">Atiestatīt ekrāna izmēru</string>
     <string name="vi_resize_hint">Velciet ekrāna stūri, lai mainītu tā izmēru. Kad esat pabeidzis, atveriet izvēlni un pieskarieties “Izmēra maiņa pabeigta”.</string>
+    <string name="vi_spen">Ievade: S-Pen</string>
+    <string name="vi_spen_button">S-Pen poga (Air Command)</string>
+    <string name="vi_spen_sub">Reģistrē viesī S-Pen digitalizatoru (sec_e-pen) līdzās skārienekrānam un pievieno divas pogas navigācijas joslai. S-Pen režīms: kamēr tas ir ieslēgts, katrs ekrāna pieskāriens nonāk viesī kā S-Pen (rīka tips zīmulis, spiediens, lidojums tieši pirms un pēc saskares; viens kontakts vienlaikus, bez vairāku punktu skāriena), un saimnieka zīmulis arī lido un tā sānu poga darbojas. S-Pen poga: pieskāriens lidojuma laikā nospiež un atlaiž zīmuļa sānu pogu, kas atver Air Command Samsung programmatūrā, kur tā ir. Nepieciešams Android 4.0 vai jaunāks un pilnīga VM pārstartēšana.</string>
+    <string name="vi_spen_toggle">S-Pen režīms</string>
 </resources>

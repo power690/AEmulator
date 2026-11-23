@@ -235,4 +235,6 @@
     <string name="imp_no_system_partition_in_mbr">%1$s: no hay partición system en el MBR</string>
     <string name="imp_unreadable_mbr">%1$s: tabla de particiones MBR ilegible</string>
     <string name="ota_squash_files_modified">%1$d archivos de /system fueron modificados por la app o por ti y no se pueden reconstruir, p. ej. %2$s. Una imagen de sistema SquashFS solo se puede reconstruir a partir de archivos sin modificar. No se cambió nada.</string>
+    <string name="warn_arm64">Firmware de 64 bits: solo se admite ARM de 32 bits.</string>
+    <string name="warn_no_healthd">No hay healthd en el plan de arranque (falta /sbin/healthd; ¿se omitió el ramdisk al importar?): system_server se bloqueará en BatteryService.</string>
 </resources>

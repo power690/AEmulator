@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">%1$d tệp trong /system đã bị ứng dụng hoặc bạn thay đổi và không thể dựng lại, ví dụ %2$s. Ảnh hệ thống SquashFS chỉ có thể dựng lại từ các tệp chưa bị sửa đổi. Không có gì bị thay đổi.</string>
     <string name="imp_unreadable_mbr">%1$s: không đọc được bảng phân vùng MBR</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: không có phân vùng hệ thống trong MBR</string>
+    <string name="warn_arm64">Firmware 64-bit: chỉ hỗ trợ ARM 32-bit.</string>
+    <string name="warn_no_healthd">Không có healthd trong kế hoạch khởi động (thiếu /sbin/healthd; ramdisk bị bỏ qua khi nhập?): system_server sẽ treo ở BatteryService.</string>
 </resources>

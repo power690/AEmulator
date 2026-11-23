@@ -540,4 +540,42 @@
     <string name="vs_no_dex2oat_sub">Aplikasi dan kod sistem tidak pernah dikompil dalam sistem tetamu: setiap jalanan dex2oat terus gagal. Amaran: ini boleh menyebabkan ranap, kelicauan dan tingkah laku tidak diingini yang lain (aplikasi berjalan lebih perlahan, sesetengah firmware tidak dapat but tanpa kompilasi). Dinyahaktifkan secara lalai. Berkuat kuasa pada pelancaran penuh seterusnya.</string>
     <string name="m_multitask">Penukaran tugas</string>
     <string name="nav_show">Tunjukkan bar butang Android</string>
+    <string name="vs_refresh">Kadar muat semula skrin</string>
+    <string name="vs_refresh_host">Peranti ini</string>
+    <string name="vs_refresh_custom">Tersuai</string>
+    <string name="vs_refresh_custom_hint">Kadar (10–1000)</string>
+    <string name="vs_refresh_sub">Kadar yang dilaporkan tetamu dan digunakan untuk melukis. Berkuat kuasa pada but penuh mesin maya seterusnya.</string>
+    <string name="vs_refresh_cap">Skrin telefon anda mencapai paling banyak %1$d Hz. Tetamu akan melaporkan %2$d Hz, tetapi hanya boleh melukis pada %1$d Hz.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader melukis pada CPU dan tidak dapat mengejar. Hidupkan „GPU telefon” untuk menukarnya; jika tidak, tetamu kekal pada 60 Hz.</string>
+    <string name="vs_storage">Storan</string>
+    <string name="vs_storage_auto">Cakera telefon</string>
+    <string name="vs_storage_sub">Saiz yang dilihat tetamu. Ruang kosong sentiasa ruang kosong sebenar telefon, dan digunakan = saiz − kosong, jadi tetamu tidak pernah diberitahu bahawa ia boleh menyimpan lebih daripada kapasiti telefon. Berkuat kuasa selepas mula semula penuh mesin maya.</string>
+    <string name="vs_storage_type">Jenis storan</string>
+    <string name="vs_storage_type_auto">Lalai</string>
+    <string name="vs_storage_type_sub">Sama ada tetamu melihat eMMC atau UFS (sifat dan nod blok dalam /sys).</string>
+    <string name="vs_soc">Cip (SoC) yang dilaporkan kepada tetamu</string>
+    <string name="vs_soc_sub">Ditulis ke /proc/cpuinfo dan /sys/devices/soc0, serta sifat ro.board.platform (semua versi Android) dan ro.soc.model / ro.soc.manufacturer (Android 12+). Bilangan teras dan frekuensi CPU mengikutinya. Berkuat kuasa selepas mula semula penuh mesin maya.</string>
+    <string name="vs_soc_default">Lalai (%1$s)</string>
+    <string name="vs_soc_host">Peranti ini (telefon ini)</string>
+    <string name="vs_soc_custom">Tersuai</string>
+    <string name="vs_soc_preset">Set sedia</string>
+    <string name="vs_soc_preset_title">Pilih cip</string>
+    <string name="vs_soc_search">Cari (nama, model, GPU)</string>
+    <string name="vs_soc_none">Tiada cip yang sepadan.</string>
+    <string name="vs_soc_close">Tutup</string>
+    <string name="vs_soc_change">Pilih cip lain…</string>
+    <string name="vs_soc_default_sub">Cip tersendiri tablet Project Tango</string>
+    <string name="vs_soc_gpu_off">GPU telefon dimatikan, jadi tetamu melukis melalui SwiftShader dan melihat SwiftShader sebagai GPU-nya, apa pun cip yang dipilih.</string>
+    <string name="vs_soc_gpu_hint">Hanya digunakan apabila GPU telefon dihidupkan. Kosong = GPU sebenar telefon. Berfungsi pada semua enjin; hanya dua nama berubah, bukan keupayaan GPU.</string>
+    <string name="vs_soc_armv8">Teras ARMv8</string>
+    <string name="vs_soc_armv8_sub">Mati: teras ARMv7 (susun atur 32-bit /proc/cpuinfo). Hidup: teras ARMv8 (AArch64 untuk firmware 64-bit, keserasian ARMv7 untuk 32-bit).</string>
+    <string name="vs_soc_cores">Teras CPU</string>
+    <string name="vs_soc_cores_sub">Satu baris setiap kumpulan teras, teras kecil dahulu: count, implementer, variant, part, revision, MHz maks., MHz min. (hex dengan 0x atau perpuluhan).</string>
+    <string name="vs_soc_cores_bad">Tidak disimpan: setiap baris memerlukan count, implementer, variant, part, revision dan MHz maks. (hingga 4 baris, 16 teras).</string>
+    <string name="vs_soc_features_hint">Kosong = bendera biasa untuk jenis teras itu.</string>
+    <string name="sk_reset_led">Set semula kedudukan LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Sembunyikan bar butang Android</string>
+    <string name="vs_gl_trace">Rakam panggilan GL (untuk laporan pepijat)</string>
+    <string name="vs_gl_trace_sub">Menyimpan 16,000 panggilan jambatan GPU terakhir dalam memori bersama ralat GL dan status setiap lukisan, lalu menambahkannya pada eksport log sebagai gl-trace.txt. Melambatkan lukisan sedikit, jadi biasanya biarkan mati. Buka skrin yang dilukis salah kemudian eksport log. Berkuat kuasa pada but seterusnya.</string>
 </resources>

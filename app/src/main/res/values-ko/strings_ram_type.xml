@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM 종류</string>
+    <string name="vs_ram_type_auto">기본값</string>
+    <string name="vs_ram_type_sub">게스트에 보고하는 메모리 종류(LPDDR2~LPDDR5X). 이름만 바뀌며 용량은 \'게스트 RAM\' 설정을 따릅니다. VM 전체 재시작 후 적용됩니다.</string>
+</resources>

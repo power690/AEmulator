@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">מפעיל את הדמון של Magisk באתחול, מכניס su ל-PATH ומריץ סקריפטים וקבצי מודולים (Zygisk: הפעילו באפליקציית Magisk). חל באתחול המלא הבא. ניסיוני.</string>
+    <string name="vm_magisk_installed">Magisk %1$s (%2$d) מותקן במכונה הווירטואלית הזו.</string>
+    <string name="vm_magisk_install">התקנת Magisk (בחירת APK)</string>
+    <string name="vm_magisk_replace">החלפת Magisk (בחירת APK אחר)</string>
+    <string name="vm_magisk_remove">הסרת Magisk</string>
+    <string name="vm_magisk_working">מתקין Magisk… עצרו קודם את כל המכונות הווירטואליות.</string>
+    <string name="vm_magisk_done">Magisk %1$s הותקן. הפעילו Root והפעילו את המכונה; כשהמערכת תעלה, אפליקציית Magisk תתקין את עצמה.</string>
+    <string name="vm_magisk_removed">Magisk הוסר. המודולים ו-magisk.db נשמרו.</string>
+</resources>

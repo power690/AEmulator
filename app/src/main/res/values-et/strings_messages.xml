@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">Rakendus või sina oled muutnud %1$d faili kaustas /system ning neid ei saa uuesti ehitada, nt %2$s. SquashFS-i süsteemikujutist saab uuesti ehitada ainult muutmata failidest. Midagi ei muudetud.</string>
     <string name="imp_unreadable_mbr">%1$s: loetamatu MBR-i partitsioonitabel</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: MBR-is pole süsteemipartitsiooni</string>
+    <string name="warn_arm64">64-bitine püsivara: toetatud on ainult 32-bitine ARM.</string>
+    <string name="warn_no_healthd">Buudiplaanis pole healthd-d (/sbin/healthd puudub; ramdisk jäeti impordil vahele?): system_server takerdub BatteryService\'i.</string>
 </resources>

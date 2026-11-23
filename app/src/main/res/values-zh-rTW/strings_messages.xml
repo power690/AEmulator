@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">/system 中有 %1$d 個檔案已被應用程式或你修改，無法重新建構，例如 %2$s。SquashFS 系統映像檔只能由未修改的檔案重新建構。未做任何變更。</string>
     <string name="imp_unreadable_mbr">%1$s：無法讀取 MBR 分割區表</string>
     <string name="imp_no_system_partition_in_mbr">%1$s：MBR 中沒有系統分割區</string>
+    <string name="warn_arm64">64 位元韌體：僅支援 32 位元 ARM。</string>
+    <string name="warn_no_healthd">啟動計畫中沒有 healthd（缺少 /sbin/healthd，匯入時跳過了 ramdisk？）：system_server 會卡在 BatteryService。</string>
 </resources>

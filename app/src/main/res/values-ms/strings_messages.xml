@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">%1$d fail dalam /system telah diubah oleh aplikasi atau oleh anda dan tidak boleh dibina semula, cth. %2$s. Imej sistem SquashFS hanya boleh dibina semula daripada fail yang tidak diubah. Tiada apa-apa yang diubah.</string>
     <string name="imp_unreadable_mbr">%1$s: jadual partition MBR tidak boleh dibaca</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: tiada partition sistem dalam MBR</string>
+    <string name="warn_arm64">Firmware 64-bit: hanya ARM 32-bit disokong.</string>
+    <string name="warn_no_healthd">Tiada healthd dalam pelan but (/sbin/healthd tiada; ramdisk dilangkau semasa import?): system_server akan tersekat dalam BatteryService.</string>
 </resources>

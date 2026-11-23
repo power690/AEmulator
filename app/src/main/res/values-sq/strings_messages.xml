@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">%1$d skedarë të /system u ndryshuan nga aplikacioni ose nga ti dhe nuk mund të rindërtohen, p.sh. %2$s. Një imazh sistemi SquashFS mund të rindërtohet vetëm nga skedarë të pandryshuar. Asgjë nuk u ndryshua.</string>
     <string name="imp_unreadable_mbr">%1$s: tabelë ndarjesh MBR e palexueshme</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: nuk ka ndarje sistemi në MBR</string>
+    <string name="warn_arm64">Firmware 64-bit: mbështetet vetëm ARM 32-bit.</string>
+    <string name="warn_no_healthd">Nuk ka healthd në planin e nisjes (/sbin/healthd mungon; ramdisk u kapërcye gjatë importimit?): system_server do të ngecë në BatteryService.</string>
 </resources>

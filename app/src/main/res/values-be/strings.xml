@@ -552,4 +552,42 @@
     <string name="vs_no_dex2oat_sub">Прыкладанні і сістэмны код ніколі не кампілююцца ў гасцевай сістэме: кожны запуск dex2oat адразу прайграе. Увага: магчымыя збоі, глікі і іншыя непрадбачаныя паводзіны (прыкладанні працуюць павольней, некаторыя прашыўкі не загружаюцца без кампіляцыі). Адключана па змаўчанні. Ужываецца пры наступным поўным запуску.</string>
     <string name="m_multitask">Пераключэнне задач</string>
     <string name="nav_show">Паказаць панэль кнопак Android</string>
+    <string name="vs_refresh">Часцята абнаўлення экрана</string>
+    <string name="vs_refresh_host">Гэта прылада</string>
+    <string name="vs_refresh_custom">Сваё значэнне</string>
+    <string name="vs_refresh_custom_hint">Часцята (10–1000)</string>
+    <string name="vs_refresh_sub">Часцята, якую госць паведамляе і на якой малюе. Ужываецца пры наступнай поўнай загрузцы віртуальнай машыны.</string>
+    <string name="vs_refresh_cap">Экран вашага тэлефона выдае максімум %1$d Гц. Госць паведаміць %2$d Гц, але маляваць зможа толькі на %1$d Гц.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader малюе на CPU і не паспявае. Каб змяніць, уключыце «GPU тэлефона»; інакш госць застанецца на 60 Гц.</string>
+    <string name="vs_storage">Сховішча</string>
+    <string name="vs_storage_auto">Дыск тэлефона</string>
+    <string name="vs_storage_sub">Памер, які паведамляецца госцю. Вольнае месца заўсёды рэальнае вольнае месца тэлефона, а занята = памер − вольна, таму госцю ніколі не паведамляецца, што ён можа захоўваць больш, чым умяшчае тэлефон. Ужываецца пасля поўнага перазапуску віртуальнай машыны.</string>
+    <string name="vs_storage_type">Тып сховішча</string>
+    <string name="vs_storage_type_auto">Па змаўчанні</string>
+    <string name="vs_storage_type_sub">Што бачыць госць — eMMC ці UFS (уласцівасці і блокавыя вузлы ў /sys).</string>
+    <string name="vs_soc">Чып (SoC), які паведамляецца госцю</string>
+    <string name="vs_soc_sub">Запісваецца ў /proc/cpuinfo і /sys/devices/soc0, а таксама ва ўласцівасці ro.board.platform (усе версіі Android) і ro.soc.model / ro.soc.manufacturer (Android 12+). Колькасць ядраў і частоты CPU ідуць за ім. Ужываецца пасля поўнага перазапуску віртуальнай машыны.</string>
+    <string name="vs_soc_default">Па змаўчанні (%1$s)</string>
+    <string name="vs_soc_host">Гэта прылада (гэты тэлефон)</string>
+    <string name="vs_soc_custom">Сваё значэнне</string>
+    <string name="vs_soc_preset">Гатовы набор</string>
+    <string name="vs_soc_preset_title">Выберыце чып</string>
+    <string name="vs_soc_search">Пошук (назва, мадэль, GPU)</string>
+    <string name="vs_soc_none">Няма адпаведных чыпаў.</string>
+    <string name="vs_soc_close">Закрыць</string>
+    <string name="vs_soc_change">Выбраць іншы чып…</string>
+    <string name="vs_soc_default_sub">Уласны чып планшэта Project Tango</string>
+    <string name="vs_soc_gpu_off">GPU тэлефона выключаны, таму госць малюе праз SwiftShader і бачыць SwiftShader як свой GPU, які б чып ні быў выбраны.</string>
+    <string name="vs_soc_gpu_hint">Ужываецца толькі калі GPU тэлефона ўключаны. Пуста = рэальны GPU тэлефона. Працуе на ўсіх рухавіках; змяняюцца толькі два імёны, а не магчымасці GPU.</string>
+    <string name="vs_soc_armv8">Ядры ARMv8</string>
+    <string name="vs_soc_armv8_sub">Выкл.: ядры ARMv7 (32-бітная раскладка /proc/cpuinfo). Укл.: ядры ARMv8 (AArch64 для 64-бітнай прашыўкі, сумяшчальнасць з ARMv7 для 32-бітнай).</string>
+    <string name="vs_soc_cores">Ядры CPU</string>
+    <string name="vs_soc_cores_sub">Па адным радку на групу ядраў, малыя ядры першымі: count, implementer, variant, part, revision, макс. МГц, мін. МГц (hex з 0x або дзесятковае).</string>
+    <string name="vs_soc_cores_bad">Не захавана: у кожным радку патрэбны count, implementer, variant, part, revision і макс. МГц (да 4 радкоў, 16 ядраў).</string>
+    <string name="vs_soc_features_hint">Пуста = звычайныя сцягі для гэтага тыпу ядраў.</string>
+    <string name="sk_reset_led">Скінуць становішча LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Схаваць панэль кнопак Android</string>
+    <string name="vs_gl_trace">Запісваць выклікі GL (для справаздач аб памылках)</string>
+    <string name="vs_gl_trace_sub">Трымае ў памяці апошнія 16 000 выклікаў GPU-моста разам з памылкай GL і станам кожнай мальвы і дадае іх у экспарт журнала як gl-trace.txt. Трохі запавольвае маляванне, таму звычайна трымайце выключаным. Адкрыйце экран, які малюецца няправільна, потым экспартуйце журналы. Ужываецца пры наступным запуску.</string>
 </resources>

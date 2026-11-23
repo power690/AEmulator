@@ -43,4 +43,8 @@
     <string name="m_resize_done">完成调整</string>
     <string name="m_resize_reset">重置屏幕大小</string>
     <string name="vi_resize_hint">拖动屏幕的一角来调整大小。完成后打开菜单并点按“完成调整”。</string>
+    <string name="vi_spen">输入：S-Pen</string>
+    <string name="vi_spen_button">S-Pen 按键（Air Command）</string>
+    <string name="vi_spen_sub">在客户机中注册 S-Pen 数字化仪（sec_e-pen），与触摸屏并存，并在导航栏添加两个按钮。S-Pen 模式：开启后，屏幕上的每次触摸都以 S-Pen 形式送达客户机（触控笔工具类型、压力、接触前后的悬停；一次只支持一个触点，不支持多点触控），宿主触控笔也能悬停且侧键可用。S-Pen 按键：悬停状态下点按一次会按下并松开笔的侧键，在带该功能的 Samsung 固件上会打开 Air Command。需要 Android 4.0 或更高版本，并完全重启虚拟机。</string>
+    <string name="vi_spen_toggle">S-Pen 模式</string>
 </resources>

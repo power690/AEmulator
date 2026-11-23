@@ -548,4 +548,42 @@
     <string name="vs_no_dex2oat_sub">Aplikacionet dhe kodi i sistemit nuk përkthehen kurrë në sistemin e ftuar: çdo xhim dex2oat dështon menjëherë. Kujdes: kjo mund të shkaktojë vithisje, probleme pamjeje dhe sjellje të papritura të tjera (aplikacionet ecin më ngadalë, disa firmware nisen pa përkthim). Çaktivizuar si parazgjedhje. Zbatohet në nisjen e plotë të radhës.</string>
     <string name="m_multitask">Ndërrimi i detyrave</string>
     <string name="nav_show">Shfaq shiritin e butonave të Android-it</string>
+    <string name="vs_refresh">Frekuenca e rifreskimit të ekranit</string>
+    <string name="vs_refresh_host">Kjo pajisje</string>
+    <string name="vs_refresh_custom">Vetjake</string>
+    <string name="vs_refresh_custom_hint">Frekuenca (10–1000)</string>
+    <string name="vs_refresh_sub">Frekuenca që mysafiri raporton dhe vizaton. Zbatohet në nisjen e plotë të ardhshme të makinës virtuale.</string>
+    <string name="vs_refresh_cap">Ekrani i telefonit tuaj arrin maksimumi %1$d Hz. Mysafiri do të raportojë %2$d Hz, por mund të vizatojë vetëm me %1$d Hz.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader vizaton në CPU dhe nuk arrin. Për ta ndryshuar, aktivizoni „GPU i telefonit”; përndryshe mysafiri mbetet në 60 Hz.</string>
+    <string name="vs_storage">Ruajtja</string>
+    <string name="vs_storage_auto">Disku i telefonit</string>
+    <string name="vs_storage_sub">Madhësia që shfaqet mysafirit. Hapësira e lirë është gjithmonë hapësira reale e telefonit, dhe e përdorur = madhësi − e lirë, prandaj mysafirit nuk i thuhet kurrë se mund të ruajë më shumë sesa mban telefoni. Zbatohet pas rinisjes së plotë të makinës virtuale.</string>
+    <string name="vs_storage_type">Lloji i ruajtjes</string>
+    <string name="vs_storage_type_auto">Parazgjedhur</string>
+    <string name="vs_storage_type_sub">Nëse mysafiri sheh eMMC apo UFS (vetitë dhe nyjet bllok në /sys).</string>
+    <string name="vs_soc">Çipi (SoC) që shfaqet mysafirit</string>
+    <string name="vs_soc_sub">Shkruhet në /proc/cpuinfo dhe /sys/devices/soc0, dhe në vetitë ro.board.platform (çdo version Android) dhe ro.soc.model / ro.soc.manufacturer (Android 12+). Numri i bërthamave dhe frekuencat e CPU-së e ndjekin. Zbatohet pas rinisjes së plotë të makinës virtuale.</string>
+    <string name="vs_soc_default">Parazgjedhur (%1$s)</string>
+    <string name="vs_soc_host">Kjo pajisje (ky telefon)</string>
+    <string name="vs_soc_custom">Vetjak</string>
+    <string name="vs_soc_preset">Grup i gatshëm</string>
+    <string name="vs_soc_preset_title">Zgjidhni çip</string>
+    <string name="vs_soc_search">Kërko (emër, model, GPU)</string>
+    <string name="vs_soc_none">Asnjë çip nuk përputhet.</string>
+    <string name="vs_soc_close">Mbyll</string>
+    <string name="vs_soc_change">Zgjidh një çip tjetër…</string>
+    <string name="vs_soc_default_sub">Çipi i vetë tabletit Project Tango</string>
+    <string name="vs_soc_gpu_off">GPU i telefonit është i fikur, prandaj mysafiri vizaton me SwiftShader dhe e sheh SwiftShader si GPU-n e vet, cilido çip të zgjidhet.</string>
+    <string name="vs_soc_gpu_hint">Përdoret vetëm kur GPU i telefonit është i ndezur. Bosh = GPU real i telefonit. Punon në të gjitha motorët; ndryshojnë vetëm dy emra, jo aftësitë e GPU-së.</string>
+    <string name="vs_soc_armv8">Bërthama ARMv8</string>
+    <string name="vs_soc_armv8_sub">Fikur: bërthama ARMv7 (strukturë 32-bit e /proc/cpuinfo). Ndezur: bërthama ARMv8 (AArch64 për firmware 64-bit, përputhshmëri ARMv7 për 32-bit).</string>
+    <string name="vs_soc_cores">Bërthama CPU</string>
+    <string name="vs_soc_cores_sub">Një rresht për grup bërthamash, bërthamat e vogla të parat: count, implementer, variant, part, revision, MHz maks., MHz min. (hex me 0x ose dhjetore).</string>
+    <string name="vs_soc_cores_bad">Nuk u ruajt: çdo rresht kërkon count, implementer, variant, part, revision dhe MHz maks. (deri në 4 rreshta, 16 bërthama).</string>
+    <string name="vs_soc_features_hint">Bosh = flamujt e zakonshëm për atë lloj bërthame.</string>
+    <string name="sk_reset_led">Rivendos pozicionin e LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Fshih shiritin e butonave të Android</string>
+    <string name="vs_gl_trace">Regjistro thirrjet GL (për raportime gabimesh)</string>
+    <string name="vs_gl_trace_sub">Mban në memorie 16 000 thirrjet e fundit të urës GPU, me gabimin GL dhe gjendjen e çdo vizatimi, dhe i shton eksportit të regjistrit si gl-trace.txt. Ngadalëson pak vizatimin, prandaj zakonisht lëre të fikur. Hapni ekranin që vizatohet gabimisht, më pas eksportoni regjistrat. Zbatohet në nisjen tjetër.</string>
 </resources>

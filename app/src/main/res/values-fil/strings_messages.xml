@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">%1$d file sa /system ang binago ng app o ng iyo at hindi na mabubuo muli, hal. %2$s. Mabubuo lang muli ang SquashFS system image mula sa mga hindi binagong file. Walang binago.</string>
     <string name="imp_unreadable_mbr">%1$s: hindi mabasang MBR partition table</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: walang system partition sa MBR</string>
+    <string name="warn_arm64">64-bit na firmware: 32-bit na ARM lang ang sinusuportahan.</string>
+    <string name="warn_no_healthd">Walang healthd sa boot plan (/sbin/healthd nawawala; nilaktawan ang ramdisk sa import?): titigil ang system_server sa BatteryService.</string>
 </resources>

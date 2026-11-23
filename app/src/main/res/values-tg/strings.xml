@@ -551,4 +551,42 @@
     <string name="vs_no_dex2oat_sub">Барномаҳо ва коди система дар системаи меҳмон ҳеҷ гоҳ тарҷума намешаванд: ҳар иҷрои dex2oat фавран ноком мешавад. Огоҳӣ: ин метавонад вайроншавӣ, хатоҳо ва рафтори пешбининшуда (барномаҳо суст кор мекунанд, баъзе прошивкаҳо бе тарҷума оғоз намешаванд) ба вуҷуд орад. Бо даромади хомӯш аст. Дар оғози пурраи навбатӣ татбиқ мешавад.</string>
     <string name="m_multitask">Иваз кардани вазифаҳо</string>
     <string name="nav_show">Намоиши панели тугмаҳои Android</string>
+    <string name="vs_refresh">Басомади навсозии экран</string>
+    <string name="vs_refresh_host">Ин дастгоҳ</string>
+    <string name="vs_refresh_custom">Худӣ</string>
+    <string name="vs_refresh_custom_hint">Басомад (10–1000)</string>
+    <string name="vs_refresh_sub">Басомаде, ки меҳмон эълон мекунад ва бо он мекашад. Дар оғозкунии пурраи навбатии мошини виртуалӣ мавриди амал қарор мегирад.</string>
+    <string name="vs_refresh_cap">Экрани телефони шумо ҳадди аксар %1$d Hz медиҳад. Меҳмон %2$d Hz эълон мекунад, вале танҳо бо %1$d Hz кашида метавонад.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader дар протсессор мекашад ва сабқат намекунад. Барои иваз кардан «GPU-и телефон»-ро фаъол кунед; вагарна меҳмон дар 60 Hz мемонад.</string>
+    <string name="vs_storage">Ҳофиза</string>
+    <string name="vs_storage_auto">Диски телефон</string>
+    <string name="vs_storage_sub">Ҳаҷме, ки меҳмон мебинад. Ҷои холӣ ҳамеша ҷои холии воқеии телефон аст, ва ишғолшуда = ҳаҷм − холӣ, бинобар ин ба меҳмон ҳеҷ гоҳ гуфта намешавад, ки метавонад бештар аз он чи дар телефон мегунҷад нигоҳ дорад. Пас аз оғозкунии пурраи мошини виртуалӣ мавриди амал қарор мегирад.</string>
+    <string name="vs_storage_type">Навъи ҳофиза</string>
+    <string name="vs_storage_type_auto">Пешфарз</string>
+    <string name="vs_storage_type_sub">Оё меҳмон eMMC ё UFS-ро мебинад (хосиятҳо ва гиреҳҳои блок дар /sys).</string>
+    <string name="vs_soc">Чипе (SoC), ки ба меҳмон эълон мешавад</string>
+    <string name="vs_soc_sub">Дар /proc/cpuinfo ва /sys/devices/soc0, инчунин дар хосиятҳои ro.board.platform (ҳамаи нусхаҳои Android) ва ro.soc.model / ro.soc.manufacturer (Android 12+) навишта мешавад. Шумораи ядроҳо ва басомадҳои CPU ба он тобеъанд. Пас аз оғозкунии пурраи мошини виртуалӣ мавриди амал қарор мегирад.</string>
+    <string name="vs_soc_default">Пешфарз (%1$s)</string>
+    <string name="vs_soc_host">Ин дастгоҳ (ин телефон)</string>
+    <string name="vs_soc_custom">Худӣ</string>
+    <string name="vs_soc_preset">Маҷмӯи омода</string>
+    <string name="vs_soc_preset_title">Чипро интихоб кунед</string>
+    <string name="vs_soc_search">Ҷустуҷӯ (ном, модел, GPU)</string>
+    <string name="vs_soc_none">Чипи мувофиқ нест.</string>
+    <string name="vs_soc_close">Пӯшидан</string>
+    <string name="vs_soc_change">Интихоби чипи дигар…</string>
+    <string name="vs_soc_default_sub">Чипи худии планшети Project Tango</string>
+    <string name="vs_soc_gpu_off">GPU-и телефон хомӯш аст, бинобар ин меҳмон тавассути SwiftShader мекашад ва SwiftShader-ро ҳамчун GPU-и худ мебинад, новобаста аз чипи интихобшуда.</string>
+    <string name="vs_soc_gpu_hint">Танҳо вақте истифода мешавад, ки GPU-и телефон фаъол аст. Холӣ = GPU-и воқеии телефон. Дар ҳамаи муҳаррикҳо кор мекунад; танҳо ду ном иваз мешавад, на имконоти GPU.</string>
+    <string name="vs_soc_armv8">Ядроҳои ARMv8</string>
+    <string name="vs_soc_armv8_sub">Хомӯш: ядроҳои ARMv7 (ҷойгиршавии 32-битии /proc/cpuinfo). Фаъол: ядроҳои ARMv8 (AArch64 барои firmware-и 64-битӣ, мувофиқати ARMv7 барои 32-битӣ).</string>
+    <string name="vs_soc_cores">Ядроҳои CPU</string>
+    <string name="vs_soc_cores_sub">Як сатр барои ҳар гурӯҳи ядроҳо, ядроҳои хурд аввал: count, implementer, variant, part, revision, макс. MHz, мин. MHz (hex бо 0x ё даҳӣ).</string>
+    <string name="vs_soc_cores_bad">Нигоҳ дошта нашуд: ҳар сатр count, implementer, variant, part, revision ва макс. MHz талаб мекунад (то 4 сатр, 16 ядро).</string>
+    <string name="vs_soc_features_hint">Холӣ = байрақҳои муқаррарӣ барои он навъи ядро.</string>
+    <string name="sk_reset_led">Барқарор кардани ҷойи LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Пинҳон кардани тасмаи тугмаҳои Android</string>
+    <string name="vs_gl_trace">Сабти даъватҳои GL (барои ҳисоботҳои хатогӣ)</string>
+    <string name="vs_gl_trace_sub">Дар ҳофиза 16 000 даъвати охирини пули GPU-ро бо хатои GL ва ҳолати ҳар кашидан нигоҳ медорад ва онҳоро ба содироти журнал ҳамчун gl-trace.txt илова мекунад. Кашиданро каме суст мекунад, бинобар ин одатан хомӯш монед. Экрани бад кашидашударо кушоед, баъд журналҳоро содир кунед. Дар оғозкунии навбатӣ мавриди амал қарор мегирад.</string>
 </resources>

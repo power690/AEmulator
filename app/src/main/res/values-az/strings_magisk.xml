@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">Açılışda Magisk demonunu işə salır, su-nu PATH-ə yerləşdirir və modul skriptlərini və modul fayllarını icra edir (Zygisk: Magisk tətbiqində aktivləşdirin). Növbəti tam açılışda qüvvəyə minir. Eksperimental.</string>
+    <string name="vm_magisk_installed">Bu VM-də Magisk %1$s (%2$d) quraşdırılıb.</string>
+    <string name="vm_magisk_install">Magisk quraşdır (APK seç)</string>
+    <string name="vm_magisk_replace">Magisk-i dəyiş (başqa APK seç)</string>
+    <string name="vm_magisk_remove">Magisk-i sil</string>
+    <string name="vm_magisk_working">Magisk quraşdırılır… Əvvəlcə bütün VM-ləri dayandırın.</string>
+    <string name="vm_magisk_done">Magisk %1$s quraşdırıldı. Root-u açın və VM-i başladın; sistem qalxdıqda Magisk tətbiqi özünü quraşdırır.</string>
+    <string name="vm_magisk_removed">Magisk silindi. Modullar və magisk.db saxlanıldı.</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">Εκκινεί τον δαίμονα του Magisk κατά την εκκίνηση, βάζει το su στο PATH και εκτελεί σκριπτ και αρχεία μονάδων (Zygisk: ενεργοποιήστε το στην εφαρμογή Magisk). Ισχύει στην επόμενη πλήρη εκκίνηση. Πειραματικό.</string>
+    <string name="vm_magisk_installed">Το Magisk %1$s (%2$d) είναι εγκατεστημένο σε αυτή την εικονική μηχανή.</string>
+    <string name="vm_magisk_install">Εγκατάσταση Magisk (επιλογή APK)</string>
+    <string name="vm_magisk_replace">Αντικατάσταση Magisk (επιλογή άλλου APK)</string>
+    <string name="vm_magisk_remove">Κατάργηση Magisk</string>
+    <string name="vm_magisk_working">Γίνεται εγκατάσταση του Magisk… Σταματήστε πρώτα όλες τις εικονικές μηχανές.</string>
+    <string name="vm_magisk_done">Το Magisk %1$s εγκαταστάθηκε. Ενεργοποιήστε το Root και ξεκινήστε την εικονική μηχανή· όταν σηκωθεί το σύστημα, η εφαρμογή Magisk εγκαθίσταται μόνη της.</string>
+    <string name="vm_magisk_removed">Το Magisk καταργήθηκε. Οι μονάδες και το magisk.db διατηρήθηκαν.</string>
+</resources>

@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">تم تغيير %1$d ملفات من /system بواسطة التطبيق أو بواسطتك ولا يمكن إعادة بنائها، مثل %2$s. لا يمكن إعادة بناء صورة نظام SquashFS إلا من ملفات غير معدّلة. لم يتم تغيير أي شيء.</string>
     <string name="imp_unreadable_mbr">%1$s: جدول أقسام MBR غير قابل للقراءة</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: لا يوجد قسم نظام في MBR</string>
+    <string name="warn_arm64">نظام ثابت 64 بت: المدعوم هو ARM 32 بت فقط.</string>
+    <string name="warn_no_healthd">لا يوجد healthd في خطة الإقلاع (/sbin/healthd مفقود؛ هل تم تخطي ramdisk عند الاستيراد؟): سيتوقف system_server في BatteryService.</string>
 </resources>

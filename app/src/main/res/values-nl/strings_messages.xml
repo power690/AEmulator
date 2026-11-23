@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">%1$d bestanden in /system zijn door de app of door jou gewijzigd en kunnen niet opnieuw worden opgebouwd, bijv. %2$s. Een SquashFS-systeemimage kan alleen uit ongewijzigde bestanden worden opgebouwd. Er is niets gewijzigd.</string>
     <string name="imp_unreadable_mbr">%1$s: onleesbare MBR-partitietabel</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: geen systeempartitie in MBR</string>
+    <string name="warn_arm64">64-bit-firmware: alleen 32-bit-ARM wordt ondersteund.</string>
+    <string name="warn_no_healthd">Geen healthd in het opstartplan (/sbin/healthd ontbreekt; ramdisk overgeslagen bij import?): system_server blijft hangen in BatteryService.</string>
 </resources>

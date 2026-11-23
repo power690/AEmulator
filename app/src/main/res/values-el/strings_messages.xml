@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">%1$d αρχεία του /system τροποποιήθηκαν από την εφαρμογή ή από εσάς και δεν μπορούν να ξαναχτιστούν, π.χ. %2$s. Μια εικόνα συστήματος SquashFS μπορεί να ξαναχτιστεί μόνο από αμετάβλητα αρχεία. Δεν άλλαξε τίποτα.</string>
     <string name="imp_unreadable_mbr">%1$s: μη αναγνώσιμος πίνακας διαμερισμάτων MBR</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: δεν υπάρχει διαμέρισμα συστήματος στο MBR</string>
+    <string name="warn_arm64">Firmware 64 bit: υποστηρίζεται μόνο ARM 32 bit.</string>
+    <string name="warn_no_healthd">Δεν υπάρχει healthd στο πλάνο εκκίνησης (λείπει το /sbin/healthd· παραλείφθηκε το ramdisk κατά την εισαγωγή;): το system_server θα κολλήσει στο BatteryService.</string>
 </resources>

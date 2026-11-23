@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">Тип на RAM</string>
+    <string name="vs_ram_type_auto">Стандардно</string>
+    <string name="vs_ram_type_sub">Тип на меморија што го гледа гостинот (LPDDR2–LPDDR5X). Се менува само името; количеството доаѓа од поставката „RAM на гостинот“. Се применува по целосен рестарт на ВМ.</string>
+</resources>

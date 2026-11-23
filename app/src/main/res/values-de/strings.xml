@@ -540,4 +540,42 @@
     <string name="vs_skip_perm_wait_sub">Für x86-Firmware auf einem ARM-Telefon, wo die Berechtigungssteuerung langsamer als 60 s antwortet und system_server deshalb beendet wird („Error granting/upgrading runtime permissions“). Patcht die services.jar der Firmware, sodass der Boot nicht auf die Standard-Laufzeitberechtigungen wartet; vorinstallierte Apps erhalten diese Berechtigungen dann beim Boot nicht. dex2oat wird daran gehindert, die gepatchte jar neu zu kompilieren. Ausschalten stellt die originale jar wieder her. Greift beim nächsten vollständigen Boot.</string>
     <string name="m_multitask">Aufgabenwechsel</string>
     <string name="nav_show">Android-Tastenleiste anzeigen</string>
+    <string name="vs_refresh">Bildwiederholrate</string>
+    <string name="vs_refresh_host">Dieses Gerät</string>
+    <string name="vs_refresh_custom">Benutzerdefiniert</string>
+    <string name="vs_refresh_custom_hint">Bildrate (10–1000)</string>
+    <string name="vs_refresh_sub">Die Rate, die der Gast meldet und mit der er zeichnet. Wirkt beim nächsten vollständigen Start der virtuellen Maschine.</string>
+    <string name="vs_refresh_cap">Der Bildschirm Ihres Telefons schafft höchstens %1$d Hz. Der Gast meldet %2$d Hz, kann aber nur mit %1$d Hz zeichnen.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader zeichnet auf der CPU und kommt nicht mit. Aktivieren Sie „GPU des Telefons“, um das zu ändern; sonst bleibt der Gast bei 60 Hz.</string>
+    <string name="vs_storage">Speicher</string>
+    <string name="vs_storage_auto">Speicher des Telefons</string>
+    <string name="vs_storage_sub">Die Größe, die der Gast sieht. Frei ist immer der echte freie Speicher des Telefons, belegt = Größe − frei; dem Gast wird also nie gesagt, er könne mehr speichern, als das Telefon fasst. Wirkt nach einem vollständigen Neustart der virtuellen Maschine.</string>
+    <string name="vs_storage_type">Speichertyp</string>
+    <string name="vs_storage_type_auto">Standard</string>
+    <string name="vs_storage_type_sub">Ob der Gast eMMC oder UFS sieht (Eigenschaften und Blockknoten in /sys).</string>
+    <string name="vs_soc">Dem Gast gemeldeter Chip (SoC)</string>
+    <string name="vs_soc_sub">Wird in /proc/cpuinfo und /sys/devices/soc0 geschrieben sowie in die Eigenschaften ro.board.platform (alle Android-Versionen) und ro.soc.model / ro.soc.manufacturer (Android 12+). Kernzahl und CPU-Frequenzen folgen ihm. Wirkt nach einem vollständigen Neustart der virtuellen Maschine.</string>
+    <string name="vs_soc_default">Standard (%1$s)</string>
+    <string name="vs_soc_host">Dieses Gerät (dieses Telefon)</string>
+    <string name="vs_soc_custom">Benutzerdefiniert</string>
+    <string name="vs_soc_preset">Fertige Auswahl</string>
+    <string name="vs_soc_preset_title">Chip auswählen</string>
+    <string name="vs_soc_search">Suchen (Name, Modell, GPU)</string>
+    <string name="vs_soc_none">Kein passender Chip.</string>
+    <string name="vs_soc_close">Schließen</string>
+    <string name="vs_soc_change">Anderen Chip wählen…</string>
+    <string name="vs_soc_default_sub">Eigener Chip des Project-Tango-Tablets</string>
+    <string name="vs_soc_gpu_off">Die GPU des Telefons ist aus, daher zeichnet der Gast über SwiftShader und sieht SwiftShader als seine GPU, unabhängig vom gewählten Chip.</string>
+    <string name="vs_soc_gpu_hint">Wird nur genutzt, wenn die GPU des Telefons an ist. Leer = echte GPU des Telefons. Wirkt in allen Engines; es ändern sich nur zwei Namen, nicht die GPU-Fähigkeiten.</string>
+    <string name="vs_soc_armv8">ARMv8-Kerne</string>
+    <string name="vs_soc_armv8_sub">Aus: ARMv7-Kerne (32-Bit-Layout von /proc/cpuinfo). An: ARMv8-Kerne (AArch64 für 64-Bit-Firmware, ARMv7-Kompatibilität für 32-Bit).</string>
+    <string name="vs_soc_cores">CPU-Kerne</string>
+    <string name="vs_soc_cores_sub">Eine Zeile pro Kern-Cluster, kleine Kerne zuerst: count, implementer, variant, part, revision, max. MHz, min. MHz (Hex mit 0x oder dezimal).</string>
+    <string name="vs_soc_cores_bad">Nicht gespeichert: Jede Zeile braucht count, implementer, variant, part, revision und max. MHz (bis 4 Zeilen, 16 Kerne).</string>
+    <string name="vs_soc_features_hint">Leer = übliche Flags für diesen Kerntyp.</string>
+    <string name="sk_reset_led">LED-Position zurücksetzen</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Android-Tastenleiste ausblenden</string>
+    <string name="vs_gl_trace">GL-Aufrufe aufzeichnen (für Fehlerberichte)</string>
+    <string name="vs_gl_trace_sub">Hält die letzten 16.000 Aufrufe der GPU-Brücke samt GL-Fehler und Zustand jedes Zeichenvorgangs im Speicher und hängt sie als gl-trace.txt an den Log-Export an. Bremsen das Zeichnen etwas, daher normalerweise aus lassen. Öffnen Sie den Bildschirm, der falsch gezeichnet wird, und exportieren Sie dann die Logs. Wirkt beim nächsten Start.</string>
 </resources>

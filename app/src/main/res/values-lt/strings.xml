@@ -552,4 +552,42 @@
     <string name="vs_no_dex2oat_sub">Programos ir sistemos kodas svečio sistemoje niekada nekompiliuojami: kiekvienas dex2oat paleidimas iškart nepavyksta. Įspėjimas: tai gali sukelti gedimus, vizualius trikdžius ir kitą nepageidaujamą elgesį (programos veikia lėčiau, kai kurios firmware nepaleidžiamos be kompiliavimo). Pagal numatymą išjungta. Įsigalioja kitą kartą paleidus iš naujo.</string>
     <string name="m_multitask">Užduočių perjungimas</string>
     <string name="nav_show">Rodyti „Android“ mygtukų juostą</string>
+    <string name="vs_refresh">Ekrano atnaujinimo dažnis</string>
+    <string name="vs_refresh_host">Šis įrenginys</string>
+    <string name="vs_refresh_custom">Pasirinktinis</string>
+    <string name="vs_refresh_custom_hint">Dažnis (10–1000)</string>
+    <string name="vs_refresh_sub">Dažnis, kurį svečias praneša ir kuriuo piešia. Įsigalioja kitą kartą visiškai paleidus virtualią mašiną.</string>
+    <string name="vs_refresh_cap">Jūsų telefono ekranas pasiekia daugiausiai %1$d Hz. Svečias praneš %2$d Hz, bet piešti gali tik %1$d Hz.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader piešia procesoriuje ir nespėja. Norėdami tai pakeisti, įjunkite „Telefono GPU“; kitu atveju svečias liks 60 Hz.</string>
+    <string name="vs_storage">Saugykla</string>
+    <string name="vs_storage_auto">Telefono diskas</string>
+    <string name="vs_storage_sub">Dydis, kurį mato svečias. Laisva vieta visada yra tikroji telefono laisva vieta, o užimta = dydis − laisva, todėl svečiui niekada nepranešama, kad jis gali saugoti daugiau, nei telpa telefone. Įsigalioja visiškai perkrovus virtualią mašiną.</string>
+    <string name="vs_storage_type">Saugyklos tipas</string>
+    <string name="vs_storage_type_auto">Numatytasis</string>
+    <string name="vs_storage_type_sub">Ar svečias mato eMMC, ar UFS (ypatybės ir blokų mazgai /sys).</string>
+    <string name="vs_soc">Svečiui pranešamas lustas (SoC)</string>
+    <string name="vs_soc_sub">Rašoma į /proc/cpuinfo ir /sys/devices/soc0 bei ypatybes ro.board.platform (visos Android versijos) ir ro.soc.model / ro.soc.manufacturer (Android 12+). Branduolių skaičius ir CPU dažniai jo laikosi. Įsigalioja visiškai perkrovus virtualią mašiną.</string>
+    <string name="vs_soc_default">Numatytasis (%1$s)</string>
+    <string name="vs_soc_host">Šis įrenginys (šis telefonas)</string>
+    <string name="vs_soc_custom">Pasirinktinis</string>
+    <string name="vs_soc_preset">Paruoštas rinkinys</string>
+    <string name="vs_soc_preset_title">Pasirinkite lustą</string>
+    <string name="vs_soc_search">Ieškoti (pavadinimas, modelis, GPU)</string>
+    <string name="vs_soc_none">Joks lustas netinka.</string>
+    <string name="vs_soc_close">Uždaryti</string>
+    <string name="vs_soc_change">Pasirinkti kitą lustą…</string>
+    <string name="vs_soc_default_sub">Project Tango planšetės savas lustas</string>
+    <string name="vs_soc_gpu_off">Telefono GPU išjungtas, todėl svečias piešia per SwiftShader ir mato SwiftShader kaip savo GPU, nepaisant pasirinkto lusto.</string>
+    <string name="vs_soc_gpu_hint">Naudojama tik kai telefono GPU įjungtas. Tuščia = tikrasis telefono GPU. Veikia visuose varikliuose; keičiasi tik du pavadinimai, ne GPU galimybės.</string>
+    <string name="vs_soc_armv8">ARMv8 branduoliai</string>
+    <string name="vs_soc_armv8_sub">Išjungta: ARMv7 branduoliai (32 bitų /proc/cpuinfo išdėstymas). Įjungta: ARMv8 branduoliai (AArch64 64 bitų programinę aparatinę įrangą, ARMv7 suderinamumas 32 bitų).</string>
+    <string name="vs_soc_cores">CPU branduoliai</string>
+    <string name="vs_soc_cores_sub">Viena eilutė vienai branduolių grupei, maži branduoliai pirmiausia: count, implementer, variant, part, revision, maks. MHz, min. MHz (hex su 0x arba dešimtainis).</string>
+    <string name="vs_soc_cores_bad">Neišsaugota: kiekvienai eilutei reikia count, implementer, variant, part, revision ir maks. MHz (iki 4 eilučių, 16 branduolių).</string>
+    <string name="vs_soc_features_hint">Tuščia = įprasti to tipo branduolių vėliavėlės.</string>
+    <string name="sk_reset_led">Atkurti LED padėtį</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Slėpti Android mygtukų juostą</string>
+    <string name="vs_gl_trace">Registruoti GL kvietimus (klaidų ataskaitoms)</string>
+    <string name="vs_gl_trace_sub">Laiko atmintyje paskutinius 16 000 GPU tilto kvietimų su GL klaida ir kiekvieno piešimo būsena ir prideda juos prie žurnalų eksporto kaip gl-trace.txt. Šiek tiek sulėtina piešimą, todėl paprastai palikite išjungtą. Atidarykite blogai piešiamą ekraną, tada eksportuokite žurnalus. Įsigalioja kitą kartą paleidus.</string>
 </resources>

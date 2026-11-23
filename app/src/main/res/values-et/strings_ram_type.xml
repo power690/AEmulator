@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM-i tüüp</string>
+    <string name="vs_ram_type_auto">Vaikimisi</string>
+    <string name="vs_ram_type_sub">Mälutüüp, mille külaline teatab (LPDDR2–LPDDR5X). Muutub ainult nimi; maht tuleb seadest „Külalise RAM”. Mõjub pärast VM-i täielikku taaskäivitust.</string>
+</resources>

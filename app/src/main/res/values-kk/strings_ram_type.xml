@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM түрі</string>
+    <string name="vs_ram_type_auto">Әдепкі</string>
+    <string name="vs_ram_type_sub">Қонаққа хабарланатын жад түрі (LPDDR2–LPDDR5X). Тек атауы өзгереді; көлемі «Қонақ RAM» параметрінен алынады. VM толық қайта қосылғаннан кейін күшіне енеді.</string>
+</resources>

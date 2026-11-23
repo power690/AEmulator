@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">A /system %1$d fájlját az alkalmazás vagy te módosítottad, ezért nem építhetők újra, pl. %2$s. Az SquashFS rendszerkép csak módosítatlan fájlokból építhető újra. Semmi sem változott.</string>
     <string name="imp_unreadable_mbr">%1$s: olvashatatlan MBR-partíciós tábla</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: nincs rendszerpartíció az MBR-ben</string>
+    <string name="warn_arm64">64 bites firmware: csak 32 bites ARM támogatott.</string>
+    <string name="warn_no_healthd">Nincs healthd a boot tervben (/sbin/healthd hiányzik; a ramdisk kimaradt az importnál?): a system_server elakad a BatteryService-ben.</string>
 </resources>

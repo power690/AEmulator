@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">/system ішіндегі %1$d файлды қолданба немесе сіз өзгерткен, оларды қайта құру мүмкін емес, мысалы %2$s. SquashFS жүйе бейнесін тек өзгертілмеген файлдардан қайта құруға болады. Ештеңе өзгертілген жоқ.</string>
     <string name="imp_unreadable_mbr">%1$s: MBR бөлім кестесін оқу мүмкін емес</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: MBR ішінде жүйе бөлімі жоқ</string>
+    <string name="warn_arm64">64 биттік firmware: тек 32 биттік ARM қолдау көрсетіледі.</string>
+    <string name="warn_no_healthd">Жүктелу жоспарында healthd жоқ (/sbin/healthd жоқ; импортта ramdisk өткізіп жіберілді ме?): system_server BatteryService-те тұрып қалады.</string>
 </resources>

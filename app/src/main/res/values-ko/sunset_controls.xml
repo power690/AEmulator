@@ -43,4 +43,8 @@
     <string name="m_resize_done">크기 조절 완료</string>
     <string name="m_resize_reset">화면 크기 초기화</string>
     <string name="vi_resize_hint">화면 모서리를 드래그하여 크기를 조절하세요. 끝나면 메뉴를 열고 “크기 조절 완료”를 탭하세요.</string>
+    <string name="vi_spen">입력: S-Pen</string>
+    <string name="vi_spen_button">S-Pen 버튼(Air Command)</string>
+    <string name="vi_spen_sub">게스트에 S-Pen 디지타이저(sec_e-pen)를 터치스크린과 함께 등록하고 탐색 모음에 버튼 두 개를 추가합니다. S-Pen 모드: 켜져 있는 동안 화면의 모든 터치가 S-Pen으로 게스트에 전달됩니다(스타일러스 도구 유형, 필압, 접촉 직전·직후 호버, 한 번에 한 접점, 멀티터치 없음). 호스트 스타일러스도 호버되고 측면 버튼도 동작합니다. S-Pen 버튼: 호버 중에 한 번 누르면 펜의 측면 버튼이 눌렸다 떼지며, 해당 기능이 있는 Samsung 펌웨어에서는 Air Command가 열립니다. Android 4.0 이상과 VM 전체 재시작이 필요합니다.</string>
+    <string name="vi_spen_toggle">S-Pen 모드</string>
 </resources>

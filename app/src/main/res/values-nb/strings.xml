@@ -549,4 +549,42 @@
     <string name="vs_no_dex2oat_sub">Apper og systemkode blir aldri kompilert i gjesten: hver dex2oat-kjøring feiler umiddelbart. Advarsel: dette kan forårsake krasjer, grafikkfeil og annet uønsket adferd (appene går tregere, noe firmware kan ikke starte uten kompilering). Av som standard. Treffer i kraft ved neste fulle oppstart.</string>
     <string name="m_multitask">Oppgavebytte</string>
     <string name="nav_show">Vis Androids knappelinje</string>
+    <string name="vs_refresh">Skjermoppdateringsfrekvens</string>
+    <string name="vs_refresh_host">Denne enheten</string>
+    <string name="vs_refresh_custom">Egen</string>
+    <string name="vs_refresh_custom_hint">Frekvens (10–1000)</string>
+    <string name="vs_refresh_sub">Frekvensen gjesten rapporterer og tegner med. Gjelder ved neste fulle start av den virtuelle maskinen.</string>
+    <string name="vs_refresh_cap">Skjermen på telefonen klarer maks %1$d Hz. Gjesten rapporterer %2$d Hz, men kan bare tegne med %1$d Hz.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader tegner på CPU-en og henger ikke med. Slå på «Telefonens GPU» for å endre det; ellers blir gjesten på 60 Hz.</string>
+    <string name="vs_storage">Lagring</string>
+    <string name="vs_storage_auto">Telefonens disk</string>
+    <string name="vs_storage_sub">Størrelsen gjesten ser. Ledig plass er alltid telefonens faktiske ledige plass, og brukt = størrelse − ledig, så gjesten får aldri beskjed om at den kan lagre mer enn telefonen rommer. Gjelder etter en full omstart av den virtuelle maskinen.</string>
+    <string name="vs_storage_type">Lagringstype</string>
+    <string name="vs_storage_type_auto">Standard</string>
+    <string name="vs_storage_type_sub">Om gjesten ser eMMC eller UFS (egenskaper og blokknuter i /sys).</string>
+    <string name="vs_soc">Brikke (SoC) som rapporteres til gjesten</string>
+    <string name="vs_soc_sub">Skrives til /proc/cpuinfo og /sys/devices/soc0, og til egenskapene ro.board.platform (alle Android-versjoner) og ro.soc.model / ro.soc.manufacturer (Android 12+). Antall kjerner og CPU-frekvenser følger den. Gjelder etter en full omstart av den virtuelle maskinen.</string>
+    <string name="vs_soc_default">Standard (%1$s)</string>
+    <string name="vs_soc_host">Denne enheten (denne telefonen)</string>
+    <string name="vs_soc_custom">Egen</string>
+    <string name="vs_soc_preset">Ferdig sett</string>
+    <string name="vs_soc_preset_title">Velg brikke</string>
+    <string name="vs_soc_search">Søk (navn, modell, GPU)</string>
+    <string name="vs_soc_none">Ingen brikke passer.</string>
+    <string name="vs_soc_close">Lukk</string>
+    <string name="vs_soc_change">Velg en annen brikke…</string>
+    <string name="vs_soc_default_sub">Project Tango-nettbrettets egen brikke</string>
+    <string name="vs_soc_gpu_off">Telefonens GPU er av, så gjesten tegner via SwiftShader og ser SwiftShader som sin GPU, uansett hvilken brikke som er valgt.</string>
+    <string name="vs_soc_gpu_hint">Brukes bare når telefonens GPU er på. Tomt = telefonens ekte GPU. Virker på alle motorer; bare to navn endres, ikke GPU-ens evner.</string>
+    <string name="vs_soc_armv8">ARMv8-kjerner</string>
+    <string name="vs_soc_armv8_sub">Av: ARMv7-kjerner (32-biters oppsett av /proc/cpuinfo). På: ARMv8-kjerner (AArch64 for 64-biters firmware, ARMv7-kompatibelt for 32-biters).</string>
+    <string name="vs_soc_cores">CPU-kjerner</string>
+    <string name="vs_soc_cores_sub">Én linje per kjernegruppe, små kjerner først: count, implementer, variant, part, revision, maks MHz, min MHz (hex med 0x eller desimalt).</string>
+    <string name="vs_soc_cores_bad">Ikke lagret: hver linje krever count, implementer, variant, part, revision og maks MHz (opptil 4 linjer, 16 kjerner).</string>
+    <string name="vs_soc_features_hint">Tomt = vanlige flagg for den kjernetypen.</string>
+    <string name="sk_reset_led">Tilbakestill LED-posisjon</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Skjul Androids knappelinje</string>
+    <string name="vs_gl_trace">Logg GL-kall (for feilrapporter)</string>
+    <string name="vs_gl_trace_sub">Holder de siste 16 000 kallene til GPU-broen med GL-feilen og tilstanden for hver tegning i minnet og legger dem i logg-eksporten som gl-trace.txt. Gjør tegningen litt tregere, så la den vanligvis være av. Åpne skjermen som tegnes feil, og eksporter deretter loggene. Gjelder ved neste start.</string>
 </resources>

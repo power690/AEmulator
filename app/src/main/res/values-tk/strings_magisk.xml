@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">Ýüklenişde Magisk demonyny işe goýberýär, su-ny PATH-e goýýar we modullaryň skriptlerini we faýllaryny ýerine ýetirýär (Zygisk: Magisk programmasynda açyň). Indiki doly ýüklenişde güýje girýär. Synag.</string>
+    <string name="vm_magisk_installed">Bu VM-de Magisk %1$s (%2$d) gurnalan.</string>
+    <string name="vm_magisk_install">Magisk gurnamak (APK saýla)</string>
+    <string name="vm_magisk_replace">Magisk çalyşmak (başga APK saýla)</string>
+    <string name="vm_magisk_remove">Magisk aýyrmak</string>
+    <string name="vm_magisk_working">Magisk gurnalýar… Ilki ähli VM-leri saklaň.</string>
+    <string name="vm_magisk_done">Magisk %1$s gurlandy. Root-y açyň we VM-i işe goýberiň; ulgam göterilende Magisk programmasy özüni gurnalýar.</string>
+    <string name="vm_magisk_removed">Magisk aýryldy. Modullar we magisk.db saklandy.</string>
+</resources>

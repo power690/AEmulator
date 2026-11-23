@@ -540,4 +540,42 @@
     <string name="vs_no_dex2oat_sub">ایپس اور سسٹم کوڈ مہمان سسٹم میں کبھی کمپائل نہیں ہوتے: dex2oat کا ہر چلنا فوراً ناکام ہوتا ہے۔ وارننگ: اس سے کریشز، گلچز اور دیگر غیر متوقع رویے ہو سکتے ہیں (ایپس سست چلتی ہیں، کچھ فرم ویئر کمپائل کے بغیر بوٹ نہیں ہوتے)۔ بطور ڈیفالٹ بند ہے۔ اگلی مکمل شروعات پر لاگو ہوتا ہے۔</string>
     <string name="m_multitask">کام کی تبدیلی</string>
     <string name="nav_show">Android بٹن بار دکھائیں</string>
+    <string name="vs_refresh">اسکرین ریفریش ریٹ</string>
+    <string name="vs_refresh_host">یہ ڈیوائس</string>
+    <string name="vs_refresh_custom">حسبِ ضرورت</string>
+    <string name="vs_refresh_custom_hint">ریٹ (10–1000)</string>
+    <string name="vs_refresh_sub">وہ ریٹ جو مہمان بتاتا ہے اور جس پر بناتا ہے۔ ورچوئل مشین کی اگلی مکمل اسٹارٹ پر لاگو ہوگا۔</string>
+    <string name="vs_refresh_cap">آپ کے فون کی اسکرین زیادہ سے زیادہ %1$d Hz تک جاتی ہے۔ مہمان %2$d Hz بتائے گا، مگر صرف %1$d Hz پر بنا سکتا ہے۔</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader پروسیسر پر بناتا ہے اور رفتار نہیں پکڑ پاتا۔ اسے بدلنے کے لیے ”فون کا GPU“ آن کریں؛ ورنہ مہمان 60 Hz پر رہے گا۔</string>
+    <string name="vs_storage">اسٹوریج</string>
+    <string name="vs_storage_auto">فون کی ڈسک</string>
+    <string name="vs_storage_sub">وہ حجم جو مہمان دیکھتا ہے۔ خالی جگہ ہمیشہ فون کی اصل خالی جگہ ہے، اور مستعمل = حجم − خالی، اس لیے مہمان کو کبھی نہیں بتایا جاتا کہ وہ فون کی گنجائش سے زیادہ محفوظ کر سکتا ہے۔ ورچوئل مشین کی مکمل ری اسٹارٹ کے بعد لاگو ہوگا۔</string>
+    <string name="vs_storage_type">اسٹوریج کی قسم</string>
+    <string name="vs_storage_type_auto">طے شدہ</string>
+    <string name="vs_storage_type_sub">کہ مہمان eMMC دیکھتا ہے یا UFS (خصوصیات اور /sys میں بلاک نوڈز)۔</string>
+    <string name="vs_soc">مہمان کو بتایا گیا چپ (SoC)</string>
+    <string name="vs_soc_sub">/proc/cpuinfo اور /sys/devices/soc0 میں، اور خصوصیات ro.board.platform (اینڈرائیڈ کی تمام ورژنز) اور ro.soc.model / ro.soc.manufacturer (اینڈرائیڈ 12+) میں لکھا جاتا ہے۔ کورز کی تعداد اور CPU فریکوئنسیاں اسی کے تابع ہیں۔ ورچوئل مشین کی مکمل ری اسٹارٹ کے بعد لاگو ہوگا۔</string>
+    <string name="vs_soc_default">طے شدہ (%1$s)</string>
+    <string name="vs_soc_host">یہ ڈیوائس (یہ فون)</string>
+    <string name="vs_soc_custom">حسبِ ضرورت</string>
+    <string name="vs_soc_preset">تیار سیٹ</string>
+    <string name="vs_soc_preset_title">چپ منتخب کریں</string>
+    <string name="vs_soc_search">تلاش (نام، ماڈل، GPU)</string>
+    <string name="vs_soc_none">کوئی مماثل چپ نہیں۔</string>
+    <string name="vs_soc_close">بند کریں</string>
+    <string name="vs_soc_change">دوسری چپ منتخب کریں…</string>
+    <string name="vs_soc_default_sub">Project Tango ٹیبلٹ کی اپنی چپ</string>
+    <string name="vs_soc_gpu_off">فون کا GPU بند ہے، اس لیے مہمان SwiftShader کے ذریعے بناتا ہے اور منتخب چپ سے قطع نظر SwiftShader کو اپنا GPU سمجھتا ہے۔</string>
+    <string name="vs_soc_gpu_hint">صرف اس وقت استعمال ہوتا ہے جب فون کا GPU آن ہو۔ خالی = فون کا اصل GPU۔ تمام انجنز پر کام کرتا ہے؛ صرف دو نام بدلتے ہیں، GPU کی صلاحیتیں نہیں۔</string>
+    <string name="vs_soc_armv8">ARMv8 کورز</string>
+    <string name="vs_soc_armv8_sub">بند: ARMv7 کورز (32 بٹ /proc/cpuinfo ترتیب)۔ آن: ARMv8 کورز (64 بٹ فرم ویئر کے لیے AArch64، 32 بٹ کے لیے ARMv7 مطابقت)۔</string>
+    <string name="vs_soc_cores">CPU کورز</string>
+    <string name="vs_soc_cores_sub">ہر کور گروپ کے لیے ایک سطر، چھوٹے کورز پہلے: count، implementer، variant، part، revision، زیادہ سے زیادہ MHz، کم از کم MHz (0x کے ساتھ ہیکس یا اعشاری)۔</string>
+    <string name="vs_soc_cores_bad">محفوظ نہیں ہوا: ہر سطر کے لیے count، implementer، variant، part، revision اور زیادہ سے زیادہ MHz درکار ہیں (زیادہ سے زیادہ 4 سطریں، 16 کورز)۔</string>
+    <string name="vs_soc_features_hint">خالی = اس کور قسم کے لیے معمول کے جھنڈے۔</string>
+    <string name="sk_reset_led">LED کی پوزیشن ری سیٹ کریں</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">اینڈرائیڈ بٹن بار چھپائیں</string>
+    <string name="vs_gl_trace">GL کالز ریکارڈ کریں (بگ رپورٹس کے لیے)</string>
+    <string name="vs_gl_trace_sub">GPU برج کی آخری 16,000 کالز کو GL خرابی اور ہر ڈرائنگ کی حالت کے ساتھ میموری میں رکھتا ہے اور انہیں لاگ ایکسپورٹ میں gl-trace.txt کے طور پر شامل کرتا ہے۔ ڈرائنگ کو تھوڑا سست کرتا ہے، اس لیے عام طور پر بند رکھیں۔ وہ اسکرین کھولیں جو غلط بنتی ہے، پھر لاگز ایکسپورٹ کریں۔ اگلی اسٹارٹ پر لاگو ہوگا۔</string>
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">در بوت، سرویس Magisk را اجرا می‌کند، su را در PATH می‌گذارد و اسکریپت‌ها و فایل‌های ماژول را اجرا می‌کند (Zygisk: آن را در برنامهٔ Magisk روشن کنید). در بوت کامل بعدی اعمال می‌شود. آزمایشی.</string>
+    <string name="vm_magisk_installed">Magisk %1$s (%2$d) در این ماشین مجازی نصب است.</string>
+    <string name="vm_magisk_install">نصب Magisk (انتخاب APK)</string>
+    <string name="vm_magisk_replace">جایگزینی Magisk (انتخاب APK دیگر)</string>
+    <string name="vm_magisk_remove">حذف Magisk</string>
+    <string name="vm_magisk_working">در حال نصب Magisk… ابتدا همهٔ ماشین‌های مجازی را متوقف کنید.</string>
+    <string name="vm_magisk_done">Magisk %1$s نصب شد. Root را روشن کنید و ماشین را راه‌اندازی کنید؛ وقتی سیستم بالا بیاید، برنامهٔ Magisk خودش نصب می‌شود.</string>
+    <string name="vm_magisk_removed">Magisk حذف شد. ماژول‌ها و magisk.db نگه داشته شدند.</string>
+</resources>

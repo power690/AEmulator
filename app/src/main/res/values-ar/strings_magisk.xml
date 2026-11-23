@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">يشغّل خدمة Magisk عند الإقلاع، ويضع su في PATH، وينفّذ نصوص وملفات الوحدات (Zygisk: شغّله في تطبيق Magisk). يسري عند الإقلاع الكامل التالي. تجريبي.</string>
+    <string name="vm_magisk_installed">Magisk %1$s (%2$d) مثبّت في هذا الجهاز الافتراضي.</string>
+    <string name="vm_magisk_install">تثبيت Magisk (اختر APK)</string>
+    <string name="vm_magisk_replace">استبدال Magisk (اختر APK آخر)</string>
+    <string name="vm_magisk_remove">إزالة Magisk</string>
+    <string name="vm_magisk_working">جارٍ تثبيت Magisk… أوقف كل الأجهزة الافتراضية أولًا.</string>
+    <string name="vm_magisk_done">تم تثبيت Magisk %1$s. فعّل Root وابدأ الجهاز الافتراضي؛ عند إقلاع النظام يثبّت تطبيق Magisk نفسه.</string>
+    <string name="vm_magisk_removed">أُزيل Magisk. تم الاحتفاظ بالوحدات وmagisk.db.</string>
+</resources>

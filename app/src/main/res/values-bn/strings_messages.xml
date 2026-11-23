@@ -235,4 +235,6 @@
     <string name="imp_no_system_partition_in_mbr">%1$s: MBR-এ system পার্টিশন নেই</string>
     <string name="imp_unreadable_mbr">%1$s: MBR পার্টিশন টেবিল পড়া যায় না</string>
     <string name="ota_squash_files_modified">/system-এর %1$dটি ফাইল অ্যাপ বা আপনি বদলেছেন, তাই সেগুলি আবার বানানো যাবে না, যেমন %2$s। SquashFS সিস্টেম ইমেজ শুধু অবদলিত ফাইল থেকেই বানানো যায়। কিছুই বদলানো হয়নি।</string>
+    <string name="warn_arm64">৬৪-বিট ফার্মওয়্যার: শুধু ৩২-বিট ARM সমর্থিত।</string>
+    <string name="warn_no_healthd">বুট প্ল্যানে healthd নেই (/sbin/healthd অনুপস্থিত; আমদানিতে ramdisk বাদ পড়েছে?): system_server BatteryService-এ আটকে যাবে।</string>
 </resources>

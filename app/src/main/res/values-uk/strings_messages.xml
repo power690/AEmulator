@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">Файли в /system (%1$d) було змінено застосунком або вами, і їх не можна перебудувати, наприклад %2$s. Образ системи SquashFS можна перебудувати лише з незмінених файлів. Нічого не змінено.</string>
     <string name="imp_unreadable_mbr">%1$s: не вдається прочитати таблицю розділів MBR</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: у MBR немає системного розділу</string>
+    <string name="warn_arm64">64-бітна прошивка: підтримується лише 32-бітний ARM.</string>
+    <string name="warn_no_healthd">У плані завантаження немає healthd (/sbin/healthd відсутній; ramdisk пропущено під час імпорту?): system_server зависне в BatteryService.</string>
 </resources>

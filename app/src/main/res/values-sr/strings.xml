@@ -551,4 +551,42 @@
     <string name="vs_no_dex2oat_sub">Апликације и системски код се никад не компилирају код госта: сваки dex2oat покушај одмах пропада. Упозорење: то може изазвати крашеве, грешке и друго непредвиђено понашање (апликације раде спорије, неки firmware се не покреће без компилације). Искључено подразумевано. Примењује се при следећем потпуном покретању.</string>
     <string name="m_multitask">Пребацивање задатака</string>
     <string name="nav_show">Прикажи Android траку са дугмадима</string>
+    <string name="vs_refresh">Брзина освежавања екрана</string>
+    <string name="vs_refresh_host">Овај уређај</string>
+    <string name="vs_refresh_custom">Сопствена</string>
+    <string name="vs_refresh_custom_hint">Брзина (10–1000)</string>
+    <string name="vs_refresh_sub">Брзина коју гост пријављује и по којој црта. Примењује се при следећем пуном покретању виртуелне машине.</string>
+    <string name="vs_refresh_cap">Екран вашег телефона постиже највише %1$d Hz. Гост ће пријавити %2$d Hz, али може да црта само на %1$d Hz.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader црта на CPU-у и не стиже. Да бисте променили, укључите „GPU телефона”; иначе гост остаје на 60 Hz.</string>
+    <string name="vs_storage">Складиште</string>
+    <string name="vs_storage_auto">Диск телефона</string>
+    <string name="vs_storage_sub">Величина коју гост види. Слободан простор је увек стварни слободан простор телефона, а искоришћено = величина − слободно, па се госту никада не каже да може да сачува више него што телефон може да прими. Примењује се после пуног поновног покретања виртуелне машине.</string>
+    <string name="vs_storage_type">Тип складишта</string>
+    <string name="vs_storage_type_auto">Подразумевано</string>
+    <string name="vs_storage_type_sub">Да ли гост види eMMC или UFS (својства и блок чворови у /sys).</string>
+    <string name="vs_soc">Чип (SoC) који гост види</string>
+    <string name="vs_soc_sub">Уписује се у /proc/cpuinfo и /sys/devices/soc0 и у својства ro.board.platform (свака верзија Android-а) и ro.soc.model / ro.soc.manufacturer (Android 12+). Број језгара и фреквенције CPU-а га прате. Примењује се после пуног поновног покретања виртуелне машине.</string>
+    <string name="vs_soc_default">Подразумевано (%1$s)</string>
+    <string name="vs_soc_host">Овај уређај (овај телефон)</string>
+    <string name="vs_soc_custom">Сопствено</string>
+    <string name="vs_soc_preset">Готов сет</string>
+    <string name="vs_soc_preset_title">Изаберите чип</string>
+    <string name="vs_soc_search">Претрага (назив, модел, GPU)</string>
+    <string name="vs_soc_none">Нема одговарајућег чипа.</string>
+    <string name="vs_soc_close">Затвори</string>
+    <string name="vs_soc_change">Изабери други чип…</string>
+    <string name="vs_soc_default_sub">Сопствени чип таблета Project Tango</string>
+    <string name="vs_soc_gpu_off">GPU телефона је искључен, па гост црта преко SwiftShader-а и види SwiftShader као свој GPU, без обзира на изабрани чип.</string>
+    <string name="vs_soc_gpu_hint">Користи се само док је GPU телефона укључен. Празно = стварни GPU телефона. Ради на свим engine-има; мењају се само два имена, не могућности GPU-а.</string>
+    <string name="vs_soc_armv8">Језгра ARMv8</string>
+    <string name="vs_soc_armv8_sub">Искључено: језгра ARMv7 (32-битни распоред /proc/cpuinfo). Укључено: језгра ARMv8 (AArch64 за 64-битни firmware, компатибилност са ARMv7 за 32-битни).</string>
+    <string name="vs_soc_cores">Језгра CPU-а</string>
+    <string name="vs_soc_cores_sub">Један ред по групи језгара, мала језгра прва: count, implementer, variant, part, revision, макс. MHz, мин. MHz (hex са 0x или децимално).</string>
+    <string name="vs_soc_cores_bad">Није сачувано: сваки ред захтева count, implementer, variant, part, revision и макс. MHz (до 4 реда, 16 језгара).</string>
+    <string name="vs_soc_features_hint">Празно = уобичајене заставице за ту врсту језгара.</string>
+    <string name="sk_reset_led">Врати положај LED-а</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Сакриј траку дугмади Android-а</string>
+    <string name="vs_gl_trace">Снимај GL позиве (за пријаве грешака)</string>
+    <string name="vs_gl_trace_sub">Држи у меморији последњих 16 000 позива GPU-моста, са GL грешком и стањем сваког цртања, и додаје их у извоз дневника као gl-trace.txt. Мало успорава цртање, па нека обично буде искључено. Отворите екран који се погрешно црта, затим извезите дневнике. Примењује се при следећем покретању.</string>
 </resources>

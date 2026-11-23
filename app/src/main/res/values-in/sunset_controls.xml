@@ -43,4 +43,8 @@
     <string name="m_resize_done">Selesai mengubah ukuran</string>
     <string name="m_resize_reset">Setel ulang ukuran layar</string>
     <string name="vi_resize_hint">Seret sudut layar untuk mengubah ukurannya. Setelah selesai, buka menu dan ketuk “Selesai mengubah ukuran”.</string>
+    <string name="vi_spen">Masukan: S-Pen</string>
+    <string name="vi_spen_button">Tombol S-Pen (Air Command)</string>
+    <string name="vi_spen_sub">Mendaftarkan digitizer S-Pen (sec_e-pen) di tamu bersama layar sentuh dan menambahkan dua tombol ke bilah navigasi. Mode S-Pen: selama aktif, setiap sentuhan di layar sampai ke tamu sebagai S-Pen (jenis alat pena, tekanan, hover tepat sebelum dan sesudah kontak; satu kontak sekaligus, tanpa multi-touch), dan pena host juga hover serta tombol sampingnya berfungsi. Tombol S-Pen: ketukan menekan dan melepas tombol samping pena saat hover, yang membuka Air Command pada firmware Samsung yang memilikinya. Membutuhkan Android 4.0 atau lebih baru dan mulai ulang penuh mesin virtual.</string>
+    <string name="vi_spen_toggle">Mode S-Pen</string>
 </resources>

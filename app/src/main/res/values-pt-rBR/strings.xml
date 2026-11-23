@@ -540,4 +540,42 @@
     <string name="vs_skip_perm_wait_sub">Para firmware x86 em um telefone ARM, em que o app do controlador de permissões demora mais de 60 s para responder e o system_server é encerrado (\"Error granting/upgrading runtime permissions\"). Modifica o services.jar do firmware para que a inicialização não espere as concessões padrão de permissões de execução; apps pré-instalados então não recebem essas permissões na inicialização. dex2oat é impedido de recompilar o jar modificado. Desativar restaura o jar original. Surte efeito na próxima inicialização completa.</string>
     <string name="m_multitask">Alternância de tarefas</string>
     <string name="nav_show">Mostrar barra de botões do Android</string>
+    <string name="vs_refresh">Taxa de atualização da tela</string>
+    <string name="vs_refresh_host">Este dispositivo</string>
+    <string name="vs_refresh_custom">Personalizada</string>
+    <string name="vs_refresh_custom_hint">Taxa (10–1000)</string>
+    <string name="vs_refresh_sub">A taxa que o convidado informa e com a qual desenha. Vale na próxima inicialização completa da máquina virtual.</string>
+    <string name="vs_refresh_cap">A tela do seu celular chega a no máximo %1$d Hz. O convidado informará %2$d Hz, mas só consegue desenhar a %1$d Hz.</string>
+    <string name="vs_refresh_needs_gpu">O SwiftShader desenha na CPU e não dá conta. Ative “GPU do celular” para mudar isso; caso contrário, o convidado ficará em 60 Hz.</string>
+    <string name="vs_storage">Armazenamento</string>
+    <string name="vs_storage_auto">Disco do celular</string>
+    <string name="vs_storage_sub">O tamanho que o convidado vê. O espaço livre é sempre o livre real do celular, e usado = tamanho − livre, então nunca se diz ao convidado que ele pode guardar mais do que cabe no celular. Vale após uma reinicialização completa da máquina virtual.</string>
+    <string name="vs_storage_type">Tipo de armazenamento</string>
+    <string name="vs_storage_type_auto">Padrão</string>
+    <string name="vs_storage_type_sub">Se o convidado vê eMMC ou UFS (propriedades e nós de bloco em /sys).</string>
+    <string name="vs_soc">Chip (SoC) informado ao convidado</string>
+    <string name="vs_soc_sub">É gravado em /proc/cpuinfo e /sys/devices/soc0, e nas propriedades ro.board.platform (todas as versões do Android) e ro.soc.model / ro.soc.manufacturer (Android 12+). O número de núcleos e as frequências de CPU o seguem. Vale após uma reinicialização completa da máquina virtual.</string>
+    <string name="vs_soc_default">Padrão (%1$s)</string>
+    <string name="vs_soc_host">Este dispositivo (este celular)</string>
+    <string name="vs_soc_custom">Personalizado</string>
+    <string name="vs_soc_preset">Conjunto pronto</string>
+    <string name="vs_soc_preset_title">Escolha um chip</string>
+    <string name="vs_soc_search">Pesquisar (nome, modelo, GPU)</string>
+    <string name="vs_soc_none">Nenhum chip corresponde.</string>
+    <string name="vs_soc_close">Fechar</string>
+    <string name="vs_soc_change">Escolher outro chip…</string>
+    <string name="vs_soc_default_sub">Chip próprio do tablet Project Tango</string>
+    <string name="vs_soc_gpu_off">A GPU do celular está desligada, então o convidado desenha via SwiftShader e vê o SwiftShader como sua GPU, qualquer que seja o chip escolhido.</string>
+    <string name="vs_soc_gpu_hint">Usado apenas quando a GPU do celular está ligada. Vazio = GPU real do celular. Funciona em todos os motores; mudam apenas dois nomes, não as capacidades da GPU.</string>
+    <string name="vs_soc_armv8">Núcleos ARMv8</string>
+    <string name="vs_soc_armv8_sub">Desligado: núcleos ARMv7 (layout de 32 bits do /proc/cpuinfo). Ligado: núcleos ARMv8 (AArch64 para firmware de 64 bits, compatibilidade ARMv7 para 32 bits).</string>
+    <string name="vs_soc_cores">Núcleos da CPU</string>
+    <string name="vs_soc_cores_sub">Uma linha por grupo de núcleos, núcleos pequenos primeiro: count, implementer, variant, part, revision, MHz máx., MHz mín. (hex com 0x ou decimal).</string>
+    <string name="vs_soc_cores_bad">Não salvo: cada linha exige count, implementer, variant, part, revision e MHz máx. (até 4 linhas, 16 núcleos).</string>
+    <string name="vs_soc_features_hint">Vazio = flags usuais para esse tipo de núcleo.</string>
+    <string name="sk_reset_led">Redefinir posição do LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Ocultar a barra de botões do Android</string>
+    <string name="vs_gl_trace">Registrar chamadas GL (para relatórios de bug)</string>
+    <string name="vs_gl_trace_sub">Mantém na memória as últimas 16.000 chamadas à ponte de GPU com o erro GL e o estado de cada desenho, e as adiciona à exportação de logs como gl-trace.txt. Deixa o desenho um pouco mais lento, então normalmente deixe desligado. Abra a tela que desenha errado e depois exporte os logs. Vale na próxima inicialização.</string>
 </resources>

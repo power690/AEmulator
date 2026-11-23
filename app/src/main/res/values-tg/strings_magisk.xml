@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">Ҳангоми боркунӣ демони Magisk-ро оғоз мекунад, su-ро ба PATH мегузорад ва скриптҳо ва файлҳои модулҳоро иҷро мекунад (Zygisk: дар барномаи Magisk фаъол кунед). Дар боркунии пурраи навбатӣ мавриди амал қарор мегирад. Таҷрибавӣ.</string>
+    <string name="vm_magisk_installed">Дар ин VM Magisk %1$s (%2$d) насб шудааст.</string>
+    <string name="vm_magisk_install">Насби Magisk (интихоби APK)</string>
+    <string name="vm_magisk_replace">Иваз кардани Magisk (интихоби APK-и дигар)</string>
+    <string name="vm_magisk_remove">Хориҷ кардани Magisk</string>
+    <string name="vm_magisk_working">Насби Magisk… Аввал ҳамаи VM-ҳоро бас кунед.</string>
+    <string name="vm_magisk_done">Magisk %1$s насб шуд. Root-ро фаъол кунед ва VM-ро оғоз кунед; ҳамин ки система бархезад, барномаи Magisk худаш насб мешавад.</string>
+    <string name="vm_magisk_removed">Magisk хориҷ шуд. Модулҳо ва magisk.db нигоҳ дошта шуданд.</string>
+</resources>

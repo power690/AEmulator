@@ -551,4 +551,42 @@
     <string name="vs_no_dex2oat_sub">Aplicațiile și codul de sistem nu sunt niciodată compilate în sistemul invitat: fiecare rulare dex2oat eșuează imediat. Avertisment: poate cauza blocări, erori de afișare și alt comportament nedorit (aplicațiile merg mai lent, unele firmware nu pornesc fără compilare). Dezactivat implicit. Se aplică la următoarea pornire completă.</string>
     <string name="m_multitask">Comutarea sarcinilor</string>
     <string name="nav_show">Afișează bara de butoane Android</string>
+    <string name="vs_refresh">Frecvența de reîmprospătare a ecranului</string>
+    <string name="vs_refresh_host">Acest dispozitiv</string>
+    <string name="vs_refresh_custom">Personalizată</string>
+    <string name="vs_refresh_custom_hint">Frecvență (10–1000)</string>
+    <string name="vs_refresh_sub">Frecvența pe care o declară invitatul și cu care desenează. Se aplică la următoarea pornire completă a mașinii virtuale.</string>
+    <string name="vs_refresh_cap">Ecranul telefonului tău ajunge la maximum %1$d Hz. Invitatul va declara %2$d Hz, dar poate desena doar la %1$d Hz.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader desenează pe CPU și nu face față. Activează „GPU-ul telefonului” pentru a schimba asta; altfel invitatul rămâne la 60 Hz.</string>
+    <string name="vs_storage">Stocare</string>
+    <string name="vs_storage_auto">Discul telefonului</string>
+    <string name="vs_storage_sub">Dimensiunea pe care o vede invitatul. Spațiul liber este întotdeauna cel real al telefonului, iar ocupat = dimensiune − liber, deci invitatului nu i se spune niciodată că poate stoca mai mult decât încape în telefon. Se aplică după o repornire completă a mașinii virtuale.</string>
+    <string name="vs_storage_type">Tip de stocare</string>
+    <string name="vs_storage_type_auto">Implicit</string>
+    <string name="vs_storage_type_sub">Dacă invitatul vede eMMC sau UFS (proprietăți și noduri de bloc în /sys).</string>
+    <string name="vs_soc">Chip (SoC) declarat invitatului</string>
+    <string name="vs_soc_sub">Este scris în /proc/cpuinfo și /sys/devices/soc0 și în proprietățile ro.board.platform (toate versiunile Android) și ro.soc.model / ro.soc.manufacturer (Android 12+). Numărul de nuclee și frecvențele CPU îl urmează. Se aplică după o repornire completă a mașinii virtuale.</string>
+    <string name="vs_soc_default">Implicit (%1$s)</string>
+    <string name="vs_soc_host">Acest dispozitiv (acest telefon)</string>
+    <string name="vs_soc_custom">Personalizat</string>
+    <string name="vs_soc_preset">Set gata făcut</string>
+    <string name="vs_soc_preset_title">Alege un chip</string>
+    <string name="vs_soc_search">Caută (nume, model, GPU)</string>
+    <string name="vs_soc_none">Niciun chip nu se potrivește.</string>
+    <string name="vs_soc_close">Închide</string>
+    <string name="vs_soc_change">Alege alt chip…</string>
+    <string name="vs_soc_default_sub">Chipul propriu al tabletei Project Tango</string>
+    <string name="vs_soc_gpu_off">GPU-ul telefonului este oprit, deci invitatul desenează prin SwiftShader și vede SwiftShader drept GPU-ul său, indiferent de chipul ales.</string>
+    <string name="vs_soc_gpu_hint">Se folosește doar când GPU-ul telefonului este pornit. Gol = GPU-ul real al telefonului. Funcționează pe toate motoarele; se schimbă doar două nume, nu capacitățile GPU.</string>
+    <string name="vs_soc_armv8">Nuclee ARMv8</string>
+    <string name="vs_soc_armv8_sub">Oprit: nuclee ARMv7 (aspect pe 32 de biți al /proc/cpuinfo). Pornit: nuclee ARMv8 (AArch64 pentru firmware pe 64 de biți, compatibilitate ARMv7 pentru 32 de biți).</string>
+    <string name="vs_soc_cores">Nuclee CPU</string>
+    <string name="vs_soc_cores_sub">O linie per grup de nuclee, nucleele mici primele: count, implementer, variant, part, revision, MHz max., MHz min. (hex cu 0x sau zecimal).</string>
+    <string name="vs_soc_cores_bad">Nu s-a salvat: fiecare linie cere count, implementer, variant, part, revision și MHz max. (până la 4 linii, 16 nuclee).</string>
+    <string name="vs_soc_features_hint">Gol = flag-urile obișnuite pentru acel tip de nucleu.</string>
+    <string name="sk_reset_led">Resetează poziția LED-ului</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Ascunde bara de butoane Android</string>
+    <string name="vs_gl_trace">Înregistrează apelurile GL (pentru rapoarte de erori)</string>
+    <string name="vs_gl_trace_sub">Păstrează în memorie ultimele 16 000 de apeluri ale punții GPU, cu eroarea GL și starea fiecărui desen, și le adaugă la exportul jurnalelor ca gl-trace.txt. Încetinește ușor desenarea, deci de obicei lasă-l oprit. Deschide ecranul care se desenează greșit, apoi exportă jurnalele. Se aplică la următoarea pornire.</string>
 </resources>

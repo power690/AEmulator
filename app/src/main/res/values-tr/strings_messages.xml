@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">/system içindeki %1$d dosya uygulama veya sizin tarafınızdan değiştirildi ve yeniden oluşturulamaz, ör. %2$s. SquashFS sistem imajı yalnızca değiştirilmemiş dosyalardan yeniden oluşturulabilir. Hiçbir şey değiştirilmedi.</string>
     <string name="imp_unreadable_mbr">%1$s: okunamayan MBR bölüm tablosu</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: MBR’de sistem bölümü yok</string>
+    <string name="warn_arm64">64 bit yazılım: yalnızca 32 bit ARM desteklenir.</string>
+    <string name="warn_no_healthd">Açılış planında healthd yok (/sbin/healthd eksik; içe aktarımda ramdisk atlandı mı?): system_server BatteryService\'te takılır.</string>
 </resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">סוג RAM</string>
+    <string name="vs_ram_type_auto">ברירת מחדל</string>
+    <string name="vs_ram_type_sub">סוג הזיכרון שהאורח רואה (LPDDR2 עד LPDDR5X). רק השם משתנה; הכמות נקבעת בהגדרת „RAM של האורח”. חל לאחר הפעלה מחדש מלאה של המכונה.</string>
+</resources>

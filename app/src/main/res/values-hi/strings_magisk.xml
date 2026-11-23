@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">बूट पर Magisk का डेमन शुरू करता है, su को PATH में डालता है और मॉड्यूल स्क्रिप्ट व मॉड्यूल फ़ाइलें चलाता है (Zygisk: इसे Magisk ऐप में चालू करें)। अगले पूर्ण बूट पर लागू होता है। प्रयोगात्मक।</string>
+    <string name="vm_magisk_installed">इस VM में Magisk %1$s (%2$d) इंस्टॉल है।</string>
+    <string name="vm_magisk_install">Magisk इंस्टॉल करें (APK चुनें)</string>
+    <string name="vm_magisk_replace">Magisk बदलें (दूसरा APK चुनें)</string>
+    <string name="vm_magisk_remove">Magisk हटाएँ</string>
+    <string name="vm_magisk_working">Magisk इंस्टॉल हो रहा है… पहले सभी VM रोकें।</string>
+    <string name="vm_magisk_done">Magisk %1$s इंस्टॉल हो गया। Root चालू करें और VM शुरू करें; सिस्टम चालू होते ही Magisk ऐप खुद इंस्टॉल हो जाता है।</string>
+    <string name="vm_magisk_removed">Magisk हटा दिया गया। मॉड्यूल और magisk.db सुरक्षित रखे गए।</string>
+</resources>

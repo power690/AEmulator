@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">/system की %1$d फ़ाइलें ऐप या आपने बदली हैं और उन्हें दोबारा नहीं बनाया जा सकता, जैसे %2$s। SquashFS सिस्टम इमेज केवल बिना बदली फ़ाइलों से दोबारा बन सकती है। कुछ भी नहीं बदला गया।</string>
     <string name="imp_unreadable_mbr">%1$s: MBR पार्टीशन टेबल पढ़ी नहीं जा सकी</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: MBR में कोई सिस्टम पार्टीशन नहीं है</string>
+    <string name="warn_arm64">64-बिट फ़र्मवेयर: केवल 32-बिट ARM समर्थित है।</string>
+    <string name="warn_no_healthd">बूट प्लान में healthd नहीं है (/sbin/healthd गुम है; आयात में ramdisk छोड़ दिया गया?): system_server BatteryService में अटक जाएगा।</string>
 </resources>

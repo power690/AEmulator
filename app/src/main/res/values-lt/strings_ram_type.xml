@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM tipas</string>
+    <string name="vs_ram_type_auto">Numatytasis</string>
+    <string name="vs_ram_type_sub">Atminties tipas, kurį praneša svečias (LPDDR2–LPDDR5X). Keičiasi tik pavadinimas; kiekis imamas iš nustatymo „Svečio RAM“. Įsigalioja visiškai paleidus VM iš naujo.</string>
+</resources>

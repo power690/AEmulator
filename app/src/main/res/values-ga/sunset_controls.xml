@@ -44,4 +44,8 @@
     <string name="m_resize_done">Athrú méide déanta</string>
     <string name="m_resize_reset">Athshocraigh méid an scáileáin</string>
     <string name="vi_resize_hint">Tarraing cúinne den scáileán chun a mhéid a athrú. Nuair a bheidh tú críochnaithe, oscail an roghchlár agus tapáil “Athrú méide déanta”.</string>
+    <string name="vi_spen">Ionchur: S-Pen</string>
+    <string name="vi_spen_button">Cnaipe S-Pen (Air Command)</string>
+    <string name="vi_spen_sub">Cláraíonn sé digiteoir S-Pen (sec_e-pen) san aoi taobh leis an scáileán tadhaill agus cuireann sé dhá chnaipe leis an mbarra nascleanúna. Mód S-Pen: fad a bhíonn sé ar siúl, sroicheann gach tadhlach ar an scáileán an t-aíonna mar S-Pen (cineál uirlise peann, brú, foluaimh díreach roimh agus tar éis teagmhála; teagmháil amháin ag an am, gan iltadhlach), agus foluíonn peann óstaigh freisin agus oibríonn a chnaipe cliathánach. Cnaipe S-Pen: brúnn agus scaoileann cnaipe cliathánach an phinn fad a bhíonn sé ag foluaimh, rud a osclaíonn Air Command ar fhormhuire Samsung a bhfuil sé aici. Teastaíonn Android 4.0 nó níos nuaí agus athlascadh iomlán den mheaisín fíorúil.</string>
+    <string name="vi_spen_toggle">Mód S-Pen</string>
 </resources>

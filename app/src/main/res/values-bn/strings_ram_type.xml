@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM ধরন</string>
+    <string name="vs_ram_type_auto">ডিফল্ট</string>
+    <string name="vs_ram_type_sub">গেস্টকে জানানো মেমরি ধরন (LPDDR2 থেকে LPDDR5X)। শুধু নাম বদলায়; পরিমাণ আসে “গেস্ট RAM” সেটিং থেকে। VM পূর্ণ রিস্টার্টের পর কার্যকর হয়।</string>
+</resources>

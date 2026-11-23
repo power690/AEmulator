@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">Գործարկման ժամանակ միացնում է Magisk-ի դեմոնը, su-ն դնում է PATH-ում և կատարում մոդուլների սկրիպտներն ու ֆայլերը (Zygisk. միացրեք Magisk հավելվածում)։ Ուժի մեջ է մտնում հաջորդ լրիվ գործարկման ժամանակ։ Փորձնական։</string>
+    <string name="vm_magisk_installed">Այս VM-ում տեղադրված է Magisk %1$s (%2$d)։</string>
+    <string name="vm_magisk_install">Տեղադրել Magisk (ընտրել APK)</string>
+    <string name="vm_magisk_replace">Փոխարինել Magisk (ընտրել այլ APK)</string>
+    <string name="vm_magisk_remove">Հեռացնել Magisk</string>
+    <string name="vm_magisk_working">Magisk-ը տեղադրվում է… նախ դադարեցրեք բոլոր VM-ները։</string>
+    <string name="vm_magisk_done">Magisk %1$s-ը տեղադրված է։ Միացրեք Root-ը և գործարկեք VM-ը. երբ համակարգը բարձրանա, Magisk հավելվածն ինքն իրեն կտեղադրվի։</string>
+    <string name="vm_magisk_removed">Magisk-ը հեռացված է։ Մոդուլները և magisk.db-ն պահպանվել են։</string>
+</resources>

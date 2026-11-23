@@ -540,4 +540,42 @@
     <string name="vs_skip_perm_wait_sub">Pour les firmware x86 sur un téléphone ARM, où l’application contrôleur d’autorisations met plus de 60 s à répondre et où system_server est tué (« Error granting/upgrading runtime permissions »). Modifie le services.jar du firmware pour que le démarrage n’attende pas les autorisations d’exécution par défaut ; les applications préinstallées ne reçoivent donc pas ces autorisations au démarrage. dex2oat est empêché de recompiler le jar modifié. La désactivation restaure le jar d’origine. Prend effet au prochain démarrage complet.</string>
     <string name="m_multitask">Changement de tâche</string>
     <string name="nav_show">Afficher la barre de boutons Android</string>
+    <string name="vs_refresh">Fréquence de rafraîchissement de l’écran</string>
+    <string name="vs_refresh_host">Cet appareil</string>
+    <string name="vs_refresh_custom">Personnalisée</string>
+    <string name="vs_refresh_custom_hint">Fréquence (10–1000)</string>
+    <string name="vs_refresh_sub">La fréquence que l’invité déclare et à laquelle il dessine. Prend effet au prochain démarrage complet de la machine virtuelle.</string>
+    <string name="vs_refresh_cap">L’écran de votre téléphone ne dépasse pas %1$d Hz. L’invité déclarera %2$d Hz, mais ne peut dessiner qu’à %1$d Hz.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader dessine sur le processeur et n’arrive pas à suivre. Activez « GPU du téléphone » pour changer cela ; sinon l’invité restera à 60 Hz.</string>
+    <string name="vs_storage">Stockage</string>
+    <string name="vs_storage_auto">Disque du téléphone</string>
+    <string name="vs_storage_sub">La taille vue par l’invité. L’espace libre est toujours l’espace réellement libre du téléphone, et l’espace utilisé = taille − libre, donc l’invité n’apprendra jamais qu’il peut stocker plus que ce que le téléphone contient. Prend effet après un redémarrage complet de la machine virtuelle.</string>
+    <string name="vs_storage_type">Type de stockage</string>
+    <string name="vs_storage_type_auto">Par défaut</string>
+    <string name="vs_storage_type_sub">Si l’invité voit un eMMC ou un UFS (propriétés et nœuds de bloc dans /sys).</string>
+    <string name="vs_soc">Puce (SoC) annoncée à l’invité</string>
+    <string name="vs_soc_sub">Écrite dans /proc/cpuinfo et /sys/devices/soc0, ainsi que dans les propriétés ro.board.platform (toutes les versions d’Android) et ro.soc.model / ro.soc.manufacturer (Android 12+). Le nombre de cœurs et les fréquences du processeur en dépendent. Prend effet après un redémarrage complet de la machine virtuelle.</string>
+    <string name="vs_soc_default">Par défaut (%1$s)</string>
+    <string name="vs_soc_host">Cet appareil (ce téléphone)</string>
+    <string name="vs_soc_custom">Personnalisée</string>
+    <string name="vs_soc_preset">Jeu prêt à l’emploi</string>
+    <string name="vs_soc_preset_title">Choisir une puce</string>
+    <string name="vs_soc_search">Rechercher (nom, modèle, GPU)</string>
+    <string name="vs_soc_none">Aucune puce ne correspond.</string>
+    <string name="vs_soc_close">Fermer</string>
+    <string name="vs_soc_change">Choisir une autre puce…</string>
+    <string name="vs_soc_default_sub">Puce propre à la tablette Project Tango</string>
+    <string name="vs_soc_gpu_off">Le GPU du téléphone est désactivé : l’invité dessine donc via SwiftShader et voit SwiftShader comme son GPU, quelle que soit la puce choisie.</string>
+    <string name="vs_soc_gpu_hint">Utilisé uniquement lorsque le GPU du téléphone est activé. Vide = GPU réel du téléphone. Fonctionne sur tous les moteurs ; seuls deux noms changent, pas les capacités du GPU.</string>
+    <string name="vs_soc_armv8">Cœurs ARMv8</string>
+    <string name="vs_soc_armv8_sub">Désactivé : cœurs ARMv7 (disposition 32 bits de /proc/cpuinfo). Activé : cœurs ARMv8 (AArch64 pour le firmware 64 bits, compatibilité ARMv7 pour le 32 bits).</string>
+    <string name="vs_soc_cores">Cœurs du processeur</string>
+    <string name="vs_soc_cores_sub">Une ligne par groupe de cœurs, petits cœurs en premier : count, implementer, variant, part, revision, MHz max, MHz min (hexa avec 0x ou décimal).</string>
+    <string name="vs_soc_cores_bad">Non enregistré : chaque ligne exige count, implementer, variant, part, revision et MHz max (jusqu’à 4 lignes, 16 cœurs).</string>
+    <string name="vs_soc_features_hint">Vide = indicateurs habituels pour ce type de cœur.</string>
+    <string name="sk_reset_led">Réinitialiser la position de la LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Masquer la barre de boutons Android</string>
+    <string name="vs_gl_trace">Journaliser les appels GL (pour les rapports de bug)</string>
+    <string name="vs_gl_trace_sub">Garde en mémoire les 16 000 derniers appels du pont GPU, avec l’erreur GL et l’état de chaque dessin, et les ajoute à l’export des journaux sous gl-trace.txt. Ralentit légèrement le dessin, laissez-le donc généralement désactivé. Ouvrez l’écran mal dessiné, puis exportez les journaux. Prend effet au prochain démarrage.</string>
 </resources>

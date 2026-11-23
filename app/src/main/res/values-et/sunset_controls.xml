@@ -43,4 +43,8 @@
     <string name="m_resize_done">Suuruse muutmine valmis</string>
     <string name="m_resize_reset">Lähtesta ekraani suurus</string>
     <string name="vi_resize_hint">Suuruse muutmiseks lohista ekraani nurka. Lõpetamisel ava menüü ja puuduta valikut „Suuruse muutmine valmis“.</string>
+    <string name="vi_spen">Sisend: S-Pen</string>
+    <string name="vi_spen_button">S-Pen nupp (Air Command)</string>
+    <string name="vi_spen_sub">Registreerib külalisse S-Pen-digitaatori (sec_e-pen) puuteekraani kõrvale ja lisab navigatsiooniribale kaks nuppu. S-Pen režiim: kui see on sees, jõuab iga puudutus ekraanil külaliseni S-Penina (tööriista tüüp pliiats, surve, hõljumine vahetult enne ja pärast kontakti; üks kontakt korraga, multi-touch puudub) ning hosti pliiats hõljub samuti ja selle külgnupp töötab. S-Pen nupp: hõljumise ajal puudutades vajutatakse ja vabastatakse pliiatsi külgnupp, mis avab Air Commandi Samsungi püsivaral, kus see olemas on. Nõuab Android 4.0 või uuemat ja VM-i täielikku taaskäivitust.</string>
+    <string name="vi_spen_toggle">S-Pen režiim</string>
 </resources>

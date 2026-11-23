@@ -549,4 +549,42 @@
     <string name="vs_no_dex2oat_sub">Apps en systeemcode worden in de gast nooit gecompileerd: elke dex2oat-run faalt meteen. Waarschuwing: dit kan crashes, glitches en ander onbedoeld gedrag veroorzaken (apps werken langzamer, sommige firmware start niet zonder compilatie). Standaard uit. Gaat in bij de volgende volledige start.</string>
     <string name="m_multitask">Taakwissel</string>
     <string name="nav_show">Android-knoppenbalk tonen</string>
+    <string name="vs_refresh">Beeldverversingsfrequentie</string>
+    <string name="vs_refresh_host">Dit toestel</string>
+    <string name="vs_refresh_custom">Aangepast</string>
+    <string name="vs_refresh_custom_hint">Frequentie (10–1000)</string>
+    <string name="vs_refresh_sub">De frequentie die de gast meldt en waarmee hij tekent. Geldt bij de volgende volledige start van de virtuele machine.</string>
+    <string name="vs_refresh_cap">Het scherm van uw telefoon haalt maximaal %1$d Hz. De gast meldt %2$d Hz, maar kan alleen op %1$d Hz tekenen.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader tekent op de cpu en houdt het niet bij. Schakel „GPU van de telefoon” in om dit te wijzigen; anders blijft de gast op 60 Hz.</string>
+    <string name="vs_storage">Opslag</string>
+    <string name="vs_storage_auto">Schijf van de telefoon</string>
+    <string name="vs_storage_sub">De grootte die de gast ziet. Vrij is altijd de echte vrije ruimte van de telefoon, en gebruikt = grootte − vrij, dus de gast krijgt nooit te horen dat hij meer kan opslaan dan de telefoon aankan. Geldt na een volledige herstart van de virtuele machine.</string>
+    <string name="vs_storage_type">Opslagtype</string>
+    <string name="vs_storage_type_auto">Standaard</string>
+    <string name="vs_storage_type_sub">Of de gast eMMC of UFS ziet (eigenschappen en bloknodes in /sys).</string>
+    <string name="vs_soc">Aan de gast gemelde chip (SoC)</string>
+    <string name="vs_soc_sub">Wordt geschreven naar /proc/cpuinfo en /sys/devices/soc0 en naar de eigenschappen ro.board.platform (elke Android-versie) en ro.soc.model / ro.soc.manufacturer (Android 12+). Aantal kernen en cpu-frequenties volgen hem. Geldt na een volledige herstart van de virtuele machine.</string>
+    <string name="vs_soc_default">Standaard (%1$s)</string>
+    <string name="vs_soc_host">Dit toestel (deze telefoon)</string>
+    <string name="vs_soc_custom">Aangepast</string>
+    <string name="vs_soc_preset">Klakbare set</string>
+    <string name="vs_soc_preset_title">Kies een chip</string>
+    <string name="vs_soc_search">Zoeken (naam, model, GPU)</string>
+    <string name="vs_soc_none">Geen passende chip.</string>
+    <string name="vs_soc_close">Sluiten</string>
+    <string name="vs_soc_change">Andere chip kiezen…</string>
+    <string name="vs_soc_default_sub">Eigen chip van de Project Tango-tablet</string>
+    <string name="vs_soc_gpu_off">De GPU van de telefoon staat uit, dus de gast tekent via SwiftShader en ziet SwiftShader als zijn GPU, welke chip er ook gekozen is.</string>
+    <string name="vs_soc_gpu_hint">Wordt alleen gebruikt als de GPU van de telefoon aan staat. Leeg = echte GPU van de telefoon. Werkt op elke engine; er veranderen maar twee namen, niet de GPU-mogelijkheden.</string>
+    <string name="vs_soc_armv8">ARMv8-kernen</string>
+    <string name="vs_soc_armv8_sub">Uit: ARMv7-kernen (32-bit-indeling van /proc/cpuinfo). Aan: ARMv8-kernen (AArch64 voor 64-bit-firmware, ARMv7-compatibel voor 32-bit).</string>
+    <string name="vs_soc_cores">CPU-kernen</string>
+    <string name="vs_soc_cores_sub">Eén regel per kerncluster, kleine kernen eerst: count, implementer, variant, part, revision, max. MHz, min. MHz (hex met 0x of decimaal).</string>
+    <string name="vs_soc_cores_bad">Niet opgeslagen: elke regel vereist count, implementer, variant, part, revision en max. MHz (tot 4 regels, 16 kernen).</string>
+    <string name="vs_soc_features_hint">Leeg = gebruikelijke flags voor dat kerntype.</string>
+    <string name="sk_reset_led">LED-positie herstellen</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Android-knoppenbalk verbergen</string>
+    <string name="vs_gl_trace">GL-aanroepen opnemen (voor foutmeldingen)</string>
+    <string name="vs_gl_trace_sub">Houdt de laatste 16.000 aanroepen van de GPU-brug met de GL-fout en de status van elke tekening in het geheugen en voegt ze als gl-trace.txt toe aan de log-export. Vertraagt het tekenen licht, dus laat het meestal uit. Open het scherm dat verkeerd tekent en exporteer daarna de logs. Geldt bij de volgende start.</string>
 </resources>

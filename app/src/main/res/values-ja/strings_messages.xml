@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">/system の %1$d 個のファイルがアプリまたはあなたによって変更されており、再構築できません（例: %2$s）。SquashFSシステムイメージは、変更されていないファイルからのみ再構築できます。何も変更していません。</string>
     <string name="imp_unreadable_mbr">%1$s: MBRパーティションテーブルを読み取れません</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: MBRにシステムパーティションがありません</string>
+    <string name="warn_arm64">64 ビットファームウェア: サポートされるのは 32 ビット ARM のみです。</string>
+    <string name="warn_no_healthd">起動プランに healthd がありません (/sbin/healthd が見つからない、インポート時に ramdisk をスキップした？): system_server は BatteryService で停止します。</string>
 </resources>

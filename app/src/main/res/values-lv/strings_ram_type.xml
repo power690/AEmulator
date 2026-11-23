@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM tips</string>
+    <string name="vs_ram_type_auto">Noklusējums</string>
+    <string name="vs_ram_type_sub">Atmiņas tips, ko viesis ziņo (LPDDR2–LPDDR5X). Mainās tikai nosaukums; apjoms nāk no iestatījuma „Viesa RAM”. Stājas spēkā pēc pilnīgas VM pārstartēšanas.</string>
+</resources>

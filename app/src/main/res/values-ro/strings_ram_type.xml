@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">Tip de RAM</string>
+    <string name="vs_ram_type_auto">Implicit</string>
+    <string name="vs_ram_type_sub">Tipul de memorie pe care îl vede invitatul (LPDDR2–LPDDR5X). Se schimbă doar numele; cantitatea vine din setarea „RAM invitat”. Se aplică după o repornire completă a VM-ului.</string>
+</resources>

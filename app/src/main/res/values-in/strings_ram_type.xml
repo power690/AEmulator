@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">Jenis RAM</string>
+    <string name="vs_ram_type_auto">Bawaan</string>
+    <string name="vs_ram_type_sub">Jenis memori yang dilaporkan ke tamu (LPDDR2 hingga LPDDR5X). Hanya namanya yang berubah; jumlahnya dari pengaturan “RAM tamu”. Berlaku setelah mulai ulang penuh mesin virtual.</string>
+</resources>

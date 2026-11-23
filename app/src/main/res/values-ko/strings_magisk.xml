@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root(Magisk)</string>
+    <string name="vm_magisk_sub">부팅 시 Magisk 데몬을 시작하고 su를 PATH에 넣으며 모듈 스크립트와 모듈 파일을 실행합니다(Zygisk: Magisk 앱에서 켜세요). 다음 전체 부팅 시 적용됩니다. 실험적 기능입니다.</string>
+    <string name="vm_magisk_installed">이 VM에 Magisk %1$s(%2$d)이(가) 설치되어 있습니다.</string>
+    <string name="vm_magisk_install">Magisk 설치(APK 선택)</string>
+    <string name="vm_magisk_replace">Magisk 교체(다른 APK 선택)</string>
+    <string name="vm_magisk_remove">Magisk 제거</string>
+    <string name="vm_magisk_working">Magisk 설치 중… 먼저 모든 VM을 중지하세요.</string>
+    <string name="vm_magisk_done">Magisk %1$s 설치됨. Root를 켜고 VM을 시작하세요. 시스템이 올라오면 Magisk 앱이 스스로 설치됩니다.</string>
+    <string name="vm_magisk_removed">Magisk를 제거했습니다. 모듈과 magisk.db는 유지됩니다.</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">Khởi chạy tiến trình nền Magisk khi khởi động, đưa su vào PATH và chạy script cùng tệp của mô-đun (Zygisk: bật trong ứng dụng Magisk). Có hiệu lực ở lần khởi động đầy đủ kế tiếp. Thử nghiệm.</string>
+    <string name="vm_magisk_installed">Magisk %1$s (%2$d) đã được cài trong máy ảo này.</string>
+    <string name="vm_magisk_install">Cài Magisk (chọn APK)</string>
+    <string name="vm_magisk_replace">Thay Magisk (chọn APK khác)</string>
+    <string name="vm_magisk_remove">Gỡ Magisk</string>
+    <string name="vm_magisk_working">Đang cài Magisk… Hãy dừng tất cả máy ảo trước.</string>
+    <string name="vm_magisk_done">Đã cài Magisk %1$s. Bật Root và khởi động máy ảo; khi hệ thống lên, ứng dụng Magisk sẽ tự cài.</string>
+    <string name="vm_magisk_removed">Đã gỡ Magisk. Mô-đun và magisk.db được giữ lại.</string>
+</resources>

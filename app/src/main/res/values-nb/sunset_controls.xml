@@ -43,4 +43,8 @@
     <string name="m_resize_done">Ferdig med størrelsesendring</string>
     <string name="m_resize_reset">Tilbakestill skjermstørrelse</string>
     <string name="vi_resize_hint">Dra i et hjørne av skjermen for å endre størrelsen. Åpne menyen og trykk på «Ferdig med størrelsesendring» når du er ferdig.</string>
+    <string name="vi_spen">Inndata: S-Pen</string>
+    <string name="vi_spen_button">S-Pen-knapp (Air Command)</string>
+    <string name="vi_spen_sub">Registrerer en S-Pen-digitaliserer (sec_e-pen) i gjesten ved siden av berøringsskjermen og legger til to knapper i navigasjonslinjen. S-Pen-modus: mens den er på, når hver berøring på skjermen gjesten som S-Pen (verktøytypen stylus, trykk, hover rett før og etter kontakt; én kontakt om gangen, ingen multi-touch), og en vertsstylus svever også og sideknappen virker. S-Pen-knapp: et trykk trykker og slipper pennens sideknapp mens den svever, noe som åpner Air Command på Samsung-fastvare som har det. Krever Android 4.0 eller nyere og full omstart av VM-en.</string>
+    <string name="vi_spen_toggle">S-Pen-modus</string>
 </resources>

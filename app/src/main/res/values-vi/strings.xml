@@ -540,4 +540,42 @@
     <string name="vs_no_dex2oat_sub">Ứng dụng và mã hệ thống không bao giờ được biên dịch trong hệ điều hành khách: mỗi lần chạy dex2oat đều thất bại ngay. Cảnh báo: điều này có thể gây sự cố, lỗi hiển thị và hành vi ngoài ý muốn (ứng dụng chạy chậm hơn, một số firmware không boot nếu không biên dịch). Tắt theo mặc định. Có hiệu lực ở lần khởi động đầy đủ tiếp theo.</string>
     <string name="m_multitask">Chuyển tác vụ</string>
     <string name="nav_show">Hiện thanh nút Android</string>
+    <string name="vs_refresh">Tần số làm mới màn hình</string>
+    <string name="vs_refresh_host">Thiết bị này</string>
+    <string name="vs_refresh_custom">Tùy chỉnh</string>
+    <string name="vs_refresh_custom_hint">Tần số (10–1000)</string>
+    <string name="vs_refresh_sub">Tần số mà khách khai báo và dùng để vẽ. Có hiệu lực ở lần khởi động đầy đủ kế tiếp của máy ảo.</string>
+    <string name="vs_refresh_cap">Màn hình điện thoại của bạn đạt tối đa %1$d Hz. Khách sẽ khai báo %2$d Hz nhưng chỉ vẽ được ở %1$d Hz.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader vẽ trên CPU và không theo kịp. Bật „GPU của điện thoại” để thay đổi; nếu không khách sẽ ở lại 60 Hz.</string>
+    <string name="vs_storage">Bộ nhớ</string>
+    <string name="vs_storage_auto">Ổ đĩa của điện thoại</string>
+    <string name="vs_storage_sub">Dung lượng mà khách thấy. Dung lượng trống luôn là dung lượng trống thật của điện thoại, và đã dùng = dung lượng − trống, nên khách sẽ không bao giờ được báo rằng có thể lưu nhiều hơn mức điện thoại chứa. Có hiệu lực sau khi khởi động lại đầy đủ máy ảo.</string>
+    <string name="vs_storage_type">Loại bộ nhớ</string>
+    <string name="vs_storage_type_auto">Mặc định</string>
+    <string name="vs_storage_type_sub">Khách thấy eMMC hay UFS (thuộc tính và nút khối trong /sys).</string>
+    <string name="vs_soc">Chip (SoC) khai báo cho khách</string>
+    <string name="vs_soc_sub">Được ghi vào /proc/cpuinfo và /sys/devices/soc0, cùng các thuộc tính ro.board.platform (mọi phiên bản Android) và ro.soc.model / ro.soc.manufacturer (Android 12+). Số nhân và tần số CPU theo đó. Có hiệu lực sau khi khởi động lại đầy đủ máy ảo.</string>
+    <string name="vs_soc_default">Mặc định (%1$s)</string>
+    <string name="vs_soc_host">Thiết bị này (điện thoại này)</string>
+    <string name="vs_soc_custom">Tùy chỉnh</string>
+    <string name="vs_soc_preset">Bộ có sẵn</string>
+    <string name="vs_soc_preset_title">Chọn chip</string>
+    <string name="vs_soc_search">Tìm kiếm (tên, mẫu, GPU)</string>
+    <string name="vs_soc_none">Không có chip phù hợp.</string>
+    <string name="vs_soc_close">Đóng</string>
+    <string name="vs_soc_change">Chọn chip khác…</string>
+    <string name="vs_soc_default_sub">Chip riêng của máy tính bảng Project Tango</string>
+    <string name="vs_soc_gpu_off">GPU của điện thoại đang tắt, nên khách vẽ qua SwiftShader và thấy SwiftShader là GPU của mình, bất kể chọn chip nào.</string>
+    <string name="vs_soc_gpu_hint">Chỉ dùng khi GPU của điện thoại bật. Trống = GPU thật của điện thoại. Hoạt động trên mọi engine; chỉ hai tên thay đổi, không phải khả năng của GPU.</string>
+    <string name="vs_soc_armv8">Nhân ARMv8</string>
+    <string name="vs_soc_armv8_sub">Tắt: nhân ARMv7 (bố cục 32 bit của /proc/cpuinfo). Bật: nhân ARMv8 (AArch64 cho firmware 64 bit, tương thích ARMv7 cho 32 bit).</string>
+    <string name="vs_soc_cores">Nhân CPU</string>
+    <string name="vs_soc_cores_sub">Mỗi nhóm nhân một dòng, nhân nhỏ trước: count, implementer, variant, part, revision, MHz tối đa, MHz tối thiểu (hex có 0x hoặc thập phân).</string>
+    <string name="vs_soc_cores_bad">Chưa lưu: mỗi dòng cần count, implementer, variant, part, revision và MHz tối đa (tối đa 4 dòng, 16 nhân).</string>
+    <string name="vs_soc_features_hint">Trống = cờ thông thường cho loại nhân đó.</string>
+    <string name="sk_reset_led">Đặt lại vị trí LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Ẩn thanh nút của Android</string>
+    <string name="vs_gl_trace">Ghi lại các lệnh gọi GL (cho báo cáo lỗi)</string>
+    <string name="vs_gl_trace_sub">Giữ trong bộ nhớ 16.000 lệnh gọi cầu GPU gần nhất cùng lỗi GL và trạng thái của mỗi lần vẽ, rồi thêm vào bản xuất nhật ký dưới dạng gl-trace.txt. Làm vẽ chậm một chút, nên thường để tắt. Mở màn hình vẽ sai rồi xuất nhật ký. Có hiệu lực ở lần khởi động kế tiếp.</string>
 </resources>

@@ -549,4 +549,42 @@
     <string name="vs_no_dex2oat_sub">Az alkalmazások és a rendszerkód soha nem fordul le a vendégben: minden dex2oat-futtatás azonnal meghiúsul. Figyelmeztetés: összeomlásokat, hibákat és egyéb nem kívánt viselkedést okozhat (az alkalmazások lassabban futnak, néhány firmware fordítás nélkül nem indul). Alapértelmezetten kikapcsolva. A következő teljes indításkor lép érvénybe.</string>
     <string name="m_multitask">Feladatváltás</string>
     <string name="nav_show">Android gombsáv megjelenítése</string>
+    <string name="vs_refresh">Képernyő-frissítési frekvencia</string>
+    <string name="vs_refresh_host">Ezen eszköz</string>
+    <string name="vs_refresh_custom">Egyéni</string>
+    <string name="vs_refresh_custom_hint">Frekvencia (10–1000)</string>
+    <string name="vs_refresh_sub">A frekvencia, amit a vendég jelent és amivel rajzol. A virtuális gép következő teljes indításakor lép életbe.</string>
+    <string name="vs_refresh_cap">A telefon képernyője legfeljebb %1$d Hz-et tud. A vendég %2$d Hz-et jelent, de csak %1$d Hz-en tud rajzolni.</string>
+    <string name="vs_refresh_needs_gpu">A SwiftShader a CPU-n rajzol és nem tartja a lépést. Kapcsold be a „Telefon GPU-ja” opciót a módosításhoz; egyébként a vendég 60 Hz-en marad.</string>
+    <string name="vs_storage">Tárhely</string>
+    <string name="vs_storage_auto">Telefon lemeze</string>
+    <string name="vs_storage_sub">A méret, amit a vendég lát. A szabad hely mindig a telefon valódi szabad helye, a használt = méret − szabad, így a vendégnek soha nem mondjuk, hogy többet tárolhat, mint amennyi a telefonba fér. A virtuális gép teljes újraindítása után lép életbe.</string>
+    <string name="vs_storage_type">Tárhely típusa</string>
+    <string name="vs_storage_type_auto">Alapértelmezett</string>
+    <string name="vs_storage_type_sub">A vendég eMMC-t vagy UFS-t lát-e (attribútumok és blokk-eszközök a /sys-ben).</string>
+    <string name="vs_soc">A vendégnek jelentett lapka (SoC)</string>
+    <string name="vs_soc_sub">A /proc/cpuinfo és a /sys/devices/soc0 fájlba, valamint a ro.board.platform (mindegyik Android-verzió) és a ro.soc.model / ro.soc.manufacturer (Android 12+) attribútumba íródik. A magok száma és a CPU-frekvenciák ehhez igazodnak. A virtuális gép teljes újraindítása után lép életbe.</string>
+    <string name="vs_soc_default">Alapértelmezett (%1$s)</string>
+    <string name="vs_soc_host">Ezen eszköz (ez a telefon)</string>
+    <string name="vs_soc_custom">Egyéni</string>
+    <string name="vs_soc_preset">Kész készlet</string>
+    <string name="vs_soc_preset_title">Válassz lapkát</string>
+    <string name="vs_soc_search">Keresés (név, modell, GPU)</string>
+    <string name="vs_soc_none">Nincs megfelelő lapka.</string>
+    <string name="vs_soc_close">Bezárás</string>
+    <string name="vs_soc_change">Másik lapka választása…</string>
+    <string name="vs_soc_default_sub">A Project Tango táblagép saját lapkája</string>
+    <string name="vs_soc_gpu_off">A telefon GPU-ja ki van kapcsolva, ezért a vendég a SwiftShadern keresztül rajzol, és a SwiftShadert látja GPU-jaként, függetlenül a választott lapkától.</string>
+    <string name="vs_soc_gpu_hint">Csak akkor használatos, ha a telefon GPU-ja be van kapcsolva. Üres = a telefon valódi GPU-ja. Minden motoron működik; csak két név változik, a GPU képességei nem.</string>
+    <string name="vs_soc_armv8">ARMv8 magok</string>
+    <string name="vs_soc_armv8_sub">Ki: ARMv7 magok (32 bites /proc/cpuinfo-elrendezés). Be: ARMv8 magok (AArch64 a 64 bites firmware-hez, ARMv7-kompatibilitás a 32 bithez).</string>
+    <string name="vs_soc_cores">CPU-magok</string>
+    <string name="vs_soc_cores_sub">Egy sor magcsoportonként, kis magok először: count, implementer, variant, part, revision, max. MHz, min. MHz (hex 0x-szel vagy decimálisan).</string>
+    <string name="vs_soc_cores_bad">Nem mentve: minden sorhoz kell count, implementer, variant, part, revision és max. MHz (legfeljebb 4 sor, 16 mag).</string>
+    <string name="vs_soc_features_hint">Üres = az adott magtípus szokásos jelzői.</string>
+    <string name="sk_reset_led">LED-pozíció visszaállítása</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Android gombok sávjának elrejtése</string>
+    <string name="vs_gl_trace">GL-hívások naplózása (hibabejelentésekhez)</string>
+    <string name="vs_gl_trace_sub">A memóriában tartja a GPU-híd utolsó 16 000 hívását a GL-hibával és minden rajzolás állapotával, és gl-trace.txt néven hozzáadja a naplóexport-hoz. Kicsit lassítja a rajzolást, ezért általában hagyd kikapcsolva. Nyisd meg a rosszul rajzolódó képernyőt, majd exportáld a naplókat. A következő indításkor lép életbe.</string>
 </resources>

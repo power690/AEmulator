@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">ไฟล์ใน /system จำนวน %1$d ไฟล์ถูกแอปหรือตัวคุณเปลี่ยนแปลงและสร้างใหม่ไม่ได้ เช่น %2$s อิมเมจระบบ SquashFS สร้างใหม่ได้จากไฟล์ที่ไม่ถูกแก้ไขเท่านั้น ไม่มีการเปลี่ยนแปลงใด ๆ</string>
     <string name="imp_unreadable_mbr">%1$s: อ่านตารางพาร์ติชัน MBR ไม่ได้</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: ไม่มีพาร์ติชันระบบใน MBR</string>
+    <string name="warn_arm64">เฟิร์มแวร์ 64 บิต: รองรับเฉพาะ ARM 32 บิต</string>
+    <string name="warn_no_healthd">ไม่มี healthd ในแผนบูต (ไม่พบ /sbin/healthd; ข้าม ramdisk ตอนนำเข้า?): system_server จะค้างที่ BatteryService</string>
 </resources>

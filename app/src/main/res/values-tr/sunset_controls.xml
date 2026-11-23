@@ -43,4 +43,8 @@
     <string name="m_resize_done">Boyutlandırma tamamlandı</string>
     <string name="m_resize_reset">Ekran boyutunu sıfırla</string>
     <string name="vi_resize_hint">Yeniden boyutlandırmak için ekranın bir köşesini sürükleyin. Bitirdiğinizde menüyü açıp “Boyutlandırma tamamlandı”na dokunun.</string>
+    <string name="vi_spen">Giriş: S-Pen</string>
+    <string name="vi_spen_button">S-Pen düğmesi (Air Command)</string>
+    <string name="vi_spen_sub">Konuğa dokunmatik ekranın yanında bir S-Pen dijitalleştiricisi (sec_e-pen) kaydeder ve gezinme çubuğuna iki düğme ekler. S-Pen modu: açıkken ekrandaki her dokunuş konuğa S-Pen olarak ulaşır (stylus araç türü, basınç, temas öncesi ve sonrası havada durma; aynı anda tek temas, çoklu dokunma yok) ve ana makine kalemi de havada durur ve yan düğmesi çalışır. S-Pen düğmesi: havadayken dokunma, kalemin yan düğmesini basıp bırakır; bu da bu özelliğe sahip Samsung yazılımında Air Command\'ı açar. Android 4.0 veya üstü ve VM\'in tam yeniden başlatılması gerekir.</string>
+    <string name="vi_spen_toggle">S-Pen modu</string>
 </resources>

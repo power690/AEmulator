@@ -44,4 +44,8 @@
     <string name="m_resize_done">Ölçü dəyişdirildi</string>
     <string name="m_resize_reset">Ekran ölçüsünü sıfırla</string>
     <string name="vi_resize_hint">Ölçüsünü dəyişmək üçün ekranın küncündən dartın. Bitdikdə menyunu açın və “Ölçü dəyişdirildi” üzərinə toxunun.</string>
+    <string name="vi_spen">Giriş: S-Pen</string>
+    <string name="vi_spen_button">S-Pen düyməsi (Air Command)</string>
+    <string name="vi_spen_sub">Qonaqda toxunma ekranla yanaşı S-Pen rəqəmsallaşdırıcısını (sec_e-pen) qeydiyyata alır və naviqasiya zolağına iki düymə əlavə edir. S-Pen rejimi: aktiv olduqda ekrandakı hər toxunuş qonağa S-Pen kimi çatır (stilus alət növü, təzyiq, toxunuşdan dərhal əvvəl və sonra havada qalma; bir dəfəyə bir təmas, multi-touch yoxdur), host stilusu da havada qalır və yan düyməsi işləyir. S-Pen düyməsi: havada qalmada toxunuş qələmin yan düyməsini basıb buraxır, bu da bu funksiyaya malik Samsung firmware-də Air Command-ı açır. Android 4.0 və ya daha yeni və VM-in tam yenidən işə salınması tələb olunur.</string>
+    <string name="vi_spen_toggle">S-Pen rejimi</string>
 </resources>

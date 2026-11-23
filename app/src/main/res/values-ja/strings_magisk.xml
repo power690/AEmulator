@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">起動時に Magisk のデーモンを起動し、su を PATH に追加してモジュールのスクリプトとモジュールファイルを実行します (Zygisk: Magisk アプリで有効にしてください)。次回の完全起動時に適用されます。試験的な機能です。</string>
+    <string name="vm_magisk_installed">この VM には Magisk %1$s (%2$d) がインストールされています。</string>
+    <string name="vm_magisk_install">Magisk をインストール (APK を選択)</string>
+    <string name="vm_magisk_replace">Magisk を置き換え (別の APK を選択)</string>
+    <string name="vm_magisk_remove">Magisk を削除</string>
+    <string name="vm_magisk_working">Magisk をインストール中… 先にすべての VM を停止してください。</string>
+    <string name="vm_magisk_done">Magisk %1$s をインストールしました。Root を有効にして VM を起動してください。システム起動後、Magisk アプリは自動でインストールされます。</string>
+    <string name="vm_magisk_removed">Magisk を削除しました。モジュールと magisk.db は保持されています。</string>
+</resources>

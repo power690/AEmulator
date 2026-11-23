@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">%1$d fișiere din /system au fost modificate de aplicație sau de tine și nu pot fi reconstruite, de ex. %2$s. O imagine de sistem SquashFS poate fi reconstruită doar din fișiere nemodificate. Nu s-a modificat nimic.</string>
     <string name="imp_unreadable_mbr">%1$s: tabel de partiții MBR ilizibil</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: nicio partiție de sistem în MBR</string>
+    <string name="warn_arm64">Firmware pe 64 de biți: este acceptat doar ARM pe 32 de biți.</string>
+    <string name="warn_no_healthd">Nu există healthd în planul de boot (/sbin/healthd lipsește; ramdisk omis la import?): system_server se va bloca în BatteryService.</string>
 </resources>

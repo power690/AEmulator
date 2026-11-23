@@ -43,4 +43,8 @@
     <string name="m_resize_done">Cambio de tamaño terminado</string>
     <string name="m_resize_reset">Restablecer tamaño de pantalla</string>
     <string name="vi_resize_hint">Arrastra una esquina de la pantalla para cambiar su tamaño. Cuando termines, abre el menú y toca «Cambio de tamaño terminado».</string>
+    <string name="vi_spen">Entrada: S-Pen</string>
+    <string name="vi_spen_button">Botón S-Pen (Air Command)</string>
+    <string name="vi_spen_sub">Registra en el invitado un digitalizador S-Pen (sec_e-pen) junto a la pantalla táctil y añade dos botones a la barra de navegación. Modo S-Pen: mientras está activo, cada toque en la pantalla llega al invitado como S-Pen (tipo de herramienta lápiz, presión, hover justo antes y después del contacto; un contacto a la vez, sin multitáctil), y un lápiz del host también hace hover y su botón lateral funciona. Botón S-Pen: un toque pulsa y suelta el botón lateral del lápiz mientras hace hover, lo que abre Air Command en un firmware Samsung que lo tenga. Requiere Android 4.0 o posterior y un reinicio completo de la VM.</string>
+    <string name="vi_spen_toggle">Modo S-Pen</string>
 </resources>

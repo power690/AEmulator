@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">%1$d файла в /system са променени от приложението или от вас и не могат да бъдат изградени отново, напр. %2$s. Системен образ SquashFS може да бъде изграден отново само от непроменени файлове. Нищо не е променено.</string>
     <string name="imp_unreadable_mbr">%1$s: нечетлива таблица на дяловете MBR</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: няма системен дял в MBR</string>
+    <string name="warn_arm64">64-битов фърмуер: поддържа се само 32-битов ARM.</string>
+    <string name="warn_no_healthd">В плана за зареждане няма healthd (/sbin/healthd липсва; ramdisk пропуснат при импорт?): system_server ще заседне в BatteryService.</string>
 </resources>

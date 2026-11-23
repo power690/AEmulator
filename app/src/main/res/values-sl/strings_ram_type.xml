@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">Vrsta RAM-a</string>
+    <string name="vs_ram_type_auto">Privzeto</string>
+    <string name="vs_ram_type_sub">Vrsta pomnilnika, ki jo gost poroča (LPDDR2–LPDDR5X). Spremeni se le ime; količina pride iz nastavitve »RAM gosta«. Velja po polnem ponovnem zagonu VM.</string>
+</resources>

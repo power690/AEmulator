@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">%1$d file di /system diubah oleh aplikasi atau oleh Anda dan tidak dapat dibangun ulang, misalnya %2$s. Citra sistem SquashFS hanya dapat dibangun ulang dari file yang tidak diubah. Tidak ada yang diubah.</string>
     <string name="imp_unreadable_mbr">%1$s: tabel partisi MBR tidak dapat dibaca</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: tidak ada partisi sistem di MBR</string>
+    <string name="warn_arm64">Firmware 64-bit: hanya ARM 32-bit yang didukung.</string>
+    <string name="warn_no_healthd">Tidak ada healthd dalam rencana boot (/sbin/healthd hilang; ramdisk dilewati saat impor?): system_server akan macet di BatteryService.</string>
 </resources>

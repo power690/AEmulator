@@ -549,4 +549,42 @@
     <string name="vs_no_dex2oat_sub">Οι εφαρμογές και ο κώδικας συστήματος δεν μεταγλωττίζονται ποτέ στο φιλοξενούμενο σύστημα: κάθε εκτέλεση dex2oat αποτυγχάνει αμέσως. Προειδοποίηση: μπορεί να προκαλέσει καταρρεύσεις, προβλήματα εμφάνισης και άλλη ανεπιθύμητη συμπεριφορά (οι εφαρμογές τρέχουν πιο αργά, ορισμένα firmware δεν εκκινούν χωρίς μεταγλώττιση). Ανενεργό από προεπιλογή. Ισχύει από την επόμενη πλήρη εκκίνηση.</string>
     <string name="m_multitask">Εναλλαγή εργασιών</string>
     <string name="nav_show">Εμφάνιση της γραμμής κουμπιών Android</string>
+    <string name="vs_refresh">Ρυθμός ανανέωσης οθόνης</string>
+    <string name="vs_refresh_host">Αυτή η συσκευή</string>
+    <string name="vs_refresh_custom">Προσαρμοσμένος</string>
+    <string name="vs_refresh_custom_hint">Ρυθμός (10–1000)</string>
+    <string name="vs_refresh_sub">Ο ρυθμός που δηλώνει ο guest και με τον οποίο σχεδιάζει. Ισχύει στην επόμενη πλήρη εκκίνηση της εικονικής μηχανής.</string>
+    <string name="vs_refresh_cap">Η οθόνη του τηλεφώνου σας φτάνει το πολύ στα %1$d Hz. Ο guest θα δηλώσει %2$d Hz, αλλά μπορεί να σχεδιάζει μόνο στα %1$d Hz.</string>
+    <string name="vs_refresh_needs_gpu">Ο SwiftShader σχεδιάζει στην CPU και δεν προλαβαίνει. Ενεργοποιήστε την «GPU του τηλεφώνου» για να το αλλάξετε· αλλιώς ο guest μένει στα 60 Hz.</string>
+    <string name="vs_storage">Αποθήκευση</string>
+    <string name="vs_storage_auto">Δίσκος τηλεφώνου</string>
+    <string name="vs_storage_sub">Το μέγεθος που βλέπει ο guest. Ο ελεύθερος χώρος είναι πάντα ο πραγματικός ελεύθερος χώρος του τηλεφώνου και το χρησιμοποιημένο = μέγεθος − ελεύθερο, ώστε να μην λέγεται ποτέ στον guest ότι μπορεί να αποθηκεύσει περισσότερα απ\' όσα χωράει το τηλέφωνο. Ισχύει μετά από πλήρη επανεκκίνηση της εικονικής μηχανής.</string>
+    <string name="vs_storage_type">Τύπος αποθήκευσης</string>
+    <string name="vs_storage_type_auto">Προεπιλογή</string>
+    <string name="vs_storage_type_sub">Αν ο guest βλέπει eMMC ή UFS (ιδιότητες και κόμβοι μπλοκ στο /sys).</string>
+    <string name="vs_soc">Chip (SoC) που δηλώνεται στον guest</string>
+    <string name="vs_soc_sub">Γράφεται στο /proc/cpuinfo και στο /sys/devices/soc0, καθώς και στις ιδιότητες ro.board.platform (όλες οι εκδόσεις Android) και ro.soc.model / ro.soc.manufacturer (Android 12+). Ο αριθμός πυρήνων και οι συχνότητες CPU το ακολουθούν. Ισχύει μετά από πλήρη επανεκκίνηση της εικονικής μηχανής.</string>
+    <string name="vs_soc_default">Προεπιλογή (%1$s)</string>
+    <string name="vs_soc_host">Αυτή η συσκευή (αυτό το τηλέφωνο)</string>
+    <string name="vs_soc_custom">Προσαρμοσμένο</string>
+    <string name="vs_soc_preset">Έτοιμο σύνολο</string>
+    <string name="vs_soc_preset_title">Επιλέξτε chip</string>
+    <string name="vs_soc_search">Αναζήτηση (όνομα, μοντέλο, GPU)</string>
+    <string name="vs_soc_none">Κανένα chip δεν ταιριάζει.</string>
+    <string name="vs_soc_close">Κλείσιμο</string>
+    <string name="vs_soc_change">Επιλογή άλλου chip…</string>
+    <string name="vs_soc_default_sub">Το δικό του chip του tablet Project Tango</string>
+    <string name="vs_soc_gpu_off">Η GPU του τηλεφώνου είναι απενεργοποιημένη, οπότε ο guest σχεδιάζει μέσω SwiftShader και βλέπει τον SwiftShader ως GPU του, όποιο chip κι αν επιλεγεί.</string>
+    <string name="vs_soc_gpu_hint">Χρησιμοποιείται μόνο όταν η GPU του τηλεφώνου είναι ενεργή. Κενό = πραγματική GPU του τηλεφώνου. Λειτουργεί σε όλους τους κινητήρες· αλλάζουν μόνο δύο ονόματα, όχι οι δυνατότητες της GPU.</string>
+    <string name="vs_soc_armv8">Πυρήνες ARMv8</string>
+    <string name="vs_soc_armv8_sub">Ανενεργό: πυρήνες ARMv7 (διάταξη 32-bit του /proc/cpuinfo). Ενεργό: πυρήνες ARMv8 (AArch64 για firmware 64-bit, συμβατότητα ARMv7 για 32-bit).</string>
+    <string name="vs_soc_cores">Πυρήνες CPU</string>
+    <string name="vs_soc_cores_sub">Μία γραμμή ανά ομάδα πυρήνων, πρώτα οι μικροί πυρήνες: count, implementer, variant, part, revision, μέγ. MHz, ελάχ. MHz (δεκαεξαδικό με 0x ή δεκαδικό).</string>
+    <string name="vs_soc_cores_bad">Δεν αποθηκεύτηκε: κάθε γραμμή απαιτεί count, implementer, variant, part, revision και μέγ. MHz (έως 4 γραμμές, 16 πυρήνες).</string>
+    <string name="vs_soc_features_hint">Κενό = συνήθεις σημαίες για αυτόν τον τύπο πυρήνα.</string>
+    <string name="sk_reset_led">Επαναφορά θέσης LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Απόκρυψη μπάρας κουμπιών Android</string>
+    <string name="vs_gl_trace">Καταγραφή κλήσεων GL (για αναφορές σφαλμάτων)</string>
+    <string name="vs_gl_trace_sub">Κρατά στη μνήμη τις τελευταίες 16.000 κλήσεις της γέφυρας GPU με το σφάλμα GL και την κατάσταση κάθε σχεδίασης και τις προσθέτει στην εξαγωγή αρχείων καταγραφής ως gl-trace.txt. Επιβραδύνει ελαφρώς τη σχεδίαση, οπότε συνήθως αφήστε το ανενεργό. Ανοίξτε την οθόνη που σχεδιάζεται λάθος και μετά εξαγάγετε τα αρχεία καταγραφής. Ισχύει στην επόμενη εκκίνηση.</string>
 </resources>

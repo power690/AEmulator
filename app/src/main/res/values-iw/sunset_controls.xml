@@ -43,4 +43,8 @@
     <string name="m_resize_done">סיום שינוי הגודל</string>
     <string name="m_resize_reset">איפוס גודל המסך</string>
     <string name="vi_resize_hint">גרור פינה של המסך כדי לשנות את גודלו. בסיום פתח את התפריט והקש על ״סיום שינוי הגודל״.</string>
+    <string name="vi_spen">קלט: S-Pen</string>
+    <string name="vi_spen_button">כפתור S-Pen (Air Command)</string>
+    <string name="vi_spen_sub">רושם באורח דיגיטייזר S-Pen (sec_e-pen) לצד מסך המגע ומוסיף שני כפתורים לשורת הניווט. מצב S-Pen: כל עוד הוא פועל, כל נגיעה במסך מגיעה לאורח כ-S-Pen (סוג כלי עט, לחץ, ריחוף ממש לפני ואחרי המגע; מגע אחד בכל פעם, בלי ריבוי מגע), ועט של המארח מרחף גם הוא והכפתור הצדי שלו עובד. כפתור S-Pen: הקשה לוחצת ומשחררת את הכפתור הצדי של העט בזמן ריחוף, מה שפותח את Air Command בקושחת Samsung שיש בה. דורש אנדרואיד 4.0 ואילך והפעלה מחדש מלאה של המכונה הווירטואלית.</string>
+    <string name="vi_spen_toggle">מצב S-Pen</string>
 </resources>

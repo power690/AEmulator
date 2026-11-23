@@ -548,4 +548,42 @@
     <string name="vs_no_dex2oat_sub">Aplikace a systémový kód se v hostujícím systému nikdy nekompilují: každé spuštění dex2oat hned selže. Varování: může to způsobit pády, chyby a jiné neočekávané chování (aplikace běží pomaleji, některý firmware bez kompilace nenaběhne). Ve výchozím nastavení vypnuto. Projeví se při příštím úplném spuštění.</string>
     <string name="m_multitask">Přepínání úloh</string>
     <string name="nav_show">Zobrazit lištu tlačítek Androidu</string>
+    <string name="vs_refresh">Obnovovací frekvence displeje</string>
+    <string name="vs_refresh_host">Toto zařízení</string>
+    <string name="vs_refresh_custom">Vlastní</string>
+    <string name="vs_refresh_custom_hint">Frekvence (10–1000)</string>
+    <string name="vs_refresh_sub">Frekvence, kterou host hlásí a na které vykresluje. Projeví se při příštím plném spuštění virtuálního stroje.</string>
+    <string name="vs_refresh_cap">Displej vašeho telefonu zvládne nejvýše %1$d Hz. Host nahlásí %2$d Hz, ale vykreslovat umí jen %1$d Hz.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader kreslí na CPU a nestíhá. Chcete-li to změnit, zapněte „GPU telefonu“; jinak host zůstane na 60 Hz.</string>
+    <string name="vs_storage">Úložiště</string>
+    <string name="vs_storage_auto">Disk telefonu</string>
+    <string name="vs_storage_sub">Velikost hlášená hostu. Volné místo je vždy skutečné volné místo telefonu a použité = velikost − volné, takže hostu nikdy nebude řečeno, že může uložit více, než telefon pojme. Projeví se po úplném restartu virtuálního stroje.</string>
+    <string name="vs_storage_type">Typ úložiště</string>
+    <string name="vs_storage_type_auto">Výchozí</string>
+    <string name="vs_storage_type_sub">Zda host vidí eMMC, nebo UFS (vlastnosti a blokové uzly v /sys).</string>
+    <string name="vs_soc">Čip (SoC) hlášený hostu</string>
+    <string name="vs_soc_sub">Zapisuje se do /proc/cpuinfo a /sys/devices/soc0 a do vlastností ro.board.platform (všechny verze Androidu) a ro.soc.model / ro.soc.manufacturer (Android 12+). Počet jader a frekvence CPU se řídí jím. Projeví se po úplném restartu virtuálního stroje.</string>
+    <string name="vs_soc_default">Výchozí (%1$s)</string>
+    <string name="vs_soc_host">Toto zařízení (tento telefon)</string>
+    <string name="vs_soc_custom">Vlastní</string>
+    <string name="vs_soc_preset">Připravená sada</string>
+    <string name="vs_soc_preset_title">Vyberte čip</string>
+    <string name="vs_soc_search">Hledat (název, model, GPU)</string>
+    <string name="vs_soc_none">Žádný čip neodpovídá.</string>
+    <string name="vs_soc_close">Zavřít</string>
+    <string name="vs_soc_change">Vybrat jiný čip…</string>
+    <string name="vs_soc_default_sub">Vlastní čip tabletu Project Tango</string>
+    <string name="vs_soc_gpu_off">GPU telefonu je vypnuté, takže host kreslí přes SwiftShader a vidí SwiftShader jako své GPU bez ohledu na zvolený čip.</string>
+    <string name="vs_soc_gpu_hint">Použije se jen když je GPU telefonu zapnuté. Prázdné = skutečné GPU telefonu. Funguje na všech enginech; mění se jen dvě jména, ne schopnosti GPU.</string>
+    <string name="vs_soc_armv8">Jádra ARMv8</string>
+    <string name="vs_soc_armv8_sub">Vyp.: jádra ARMv7 (32bitové uspořádání /proc/cpuinfo). Zap.: jádra ARMv8 (AArch64 pro 64bitový firmware, kompatibilita s ARMv7 pro 32bitový).</string>
+    <string name="vs_soc_cores">Jádra CPU</string>
+    <string name="vs_soc_cores_sub">Řádek na skupinu jader, malá jádra první: count, implementer, variant, part, revision, max. MHz, min. MHz (hex s 0x nebo desítkově).</string>
+    <string name="vs_soc_cores_bad">Neuloženo: každý řádek potřebuje count, implementer, variant, part, revision a max. MHz (max. 4 řádky, 16 jader).</string>
+    <string name="vs_soc_features_hint">Prázdné = obvyklé příznaky pro tento typ jader.</string>
+    <string name="sk_reset_led">Obnovit polohu LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Skrytí lišty tlačítek Androidu</string>
+    <string name="vs_gl_trace">Zaznamenávat volání GL (pro hlášení chyb)</string>
+    <string name="vs_gl_trace_sub">Uchovává v paměti posledních 16 000 volání mostu GPU včetně chyby GL a stavu každého vykreslení a přidává je do exportu logu jako gl-trace.txt. Mírně zpomaluje vykreslování, proto ho běžně nechte vypnuté. Otevřete obrazovku, která se kreslí špatně, a poté exportujte logy. Projeví se při příštím spuštění.</string>
 </resources>

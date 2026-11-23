@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">نوع الذاكرة RAM</string>
+    <string name="vs_ram_type_auto">افتراضي</string>
+    <string name="vs_ram_type_sub">نوع الذاكرة الذي يعلنه الضيف (من LPDDR2 إلى LPDDR5X). يتغيّر الاسم فقط؛ أما الحجم فيأتي من إعداد «ذاكرة الضيف». يسري بعد إعادة تشغيل كاملة للجهاز الافتراضي.</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root（Magisk）</string>
+    <string name="vm_magisk_sub">啟動時啟動 Magisk 常駐程式，把 su 放進 PATH，並執行模組腳本與模組檔案（Zygisk：請在 Magisk 應用程式內開啟）。下次完全啟動時生效。實驗性功能。</string>
+    <string name="vm_magisk_installed">此虛擬機已安裝 Magisk %1$s（%2$d）。</string>
+    <string name="vm_magisk_install">安裝 Magisk（選擇 APK）</string>
+    <string name="vm_magisk_replace">取代 Magisk（選擇另一個 APK）</string>
+    <string name="vm_magisk_remove">移除 Magisk</string>
+    <string name="vm_magisk_working">正在安裝 Magisk… 請先停止所有虛擬機。</string>
+    <string name="vm_magisk_done">Magisk %1$s 已安裝。開啟 Root 並啟動虛擬機；系統啟動後 Magisk 應用程式會自行安裝。</string>
+    <string name="vm_magisk_removed">已移除 Magisk。模組與 magisk.db 已保留。</string>
+</resources>

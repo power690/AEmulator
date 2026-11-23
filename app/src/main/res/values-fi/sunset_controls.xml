@@ -44,4 +44,8 @@
     <string name="m_resize_done">Koon muutos valmis</string>
     <string name="m_resize_reset">Palauta näytön koko</string>
     <string name="vi_resize_hint">Vedä näytön kulmasta muuttaaksesi sen kokoa. Avaa lopuksi valikko ja napauta ”Koon muutos valmis”.</string>
+    <string name="vi_spen">Syöte: S-Pen</string>
+    <string name="vi_spen_button">S-Pen-painike (Air Command)</string>
+    <string name="vi_spen_sub">Rekisteröi vierasjärjestelmään S-Pen-digitoijan (sec_e-pen) kosketusnäytön rinnalle ja lisää kaksi painiketta navigointipalkkiin. S-Pen-tila: kun se on päällä, jokainen näytön kosketus välittyy vieraalle S-Peninä (työkalutyyppi kynä, paine, leijunta juuri ennen ja jälkeen kosketuksen; yksi kosketus kerrallaan, ei monikosketusta), ja isäntäkynä leijuukin ja sen sivupainike toimii. S-Pen-painike: napautus painaa ja vapauttaa kynän sivupainikkeen leijunnan aikana, mikä avaa Air Commandin Samsungin laiteohjelmistossa, jossa se on. Vaatii Android 4.0 tai uudemman ja VM:n täyden uudelleenkäynnistyksen.</string>
+    <string name="vi_spen_toggle">S-Pen-tila</string>
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">বুটে Magisk-এর ডেমন চালু করে, su কে PATH-এ রাখে এবং মডিউল স্ক্রিপ্ট ও মডিউল ফাইল চালায় (Zygisk: Magisk অ্যাপে এটি চালু করুন)। পরের পূর্ণ বুটে কার্যকর হয়। পরীক্ষামূলক।</string>
+    <string name="vm_magisk_installed">এই VM-এ Magisk %1$s (%2$d) ইনস্টল করা আছে।</string>
+    <string name="vm_magisk_install">Magisk ইনস্টল করুন (APK বাছুন)</string>
+    <string name="vm_magisk_replace">Magisk প্রতিস্থাপন করুন (অন্য APK বাছুন)</string>
+    <string name="vm_magisk_remove">Magisk সরান</string>
+    <string name="vm_magisk_working">Magisk ইনস্টল হচ্ছে… আগে সব VM বন্ধ করুন।</string>
+    <string name="vm_magisk_done">Magisk %1$s ইনস্টল হয়েছে। Root চালু করে VM শুরু করুন; সিস্টেম চালু হলেই Magisk অ্যাপ নিজে ইনস্টল হয়।</string>
+    <string name="vm_magisk_removed">Magisk সরানো হয়েছে। মডিউল ও magisk.db রাখা হয়েছে।</string>
+</resources>

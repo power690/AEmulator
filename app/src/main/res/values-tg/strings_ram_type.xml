@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">Навъи RAM</string>
+    <string name="vs_ram_type_auto">Пешфарз</string>
+    <string name="vs_ram_type_sub">Навъи ҳофизае, ки меҳмон мебинад (LPDDR2–LPDDR5X). Танҳо ном иваз мешавад; ҳаҷм аз танзими «RAM-и меҳмон» меояд. Пас аз оғозкунии пурраи VM мавриди амал қарор мегирад.</string>
+</resources>

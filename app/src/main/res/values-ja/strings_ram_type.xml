@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM の種類</string>
+    <string name="vs_ram_type_auto">既定</string>
+    <string name="vs_ram_type_sub">ゲストに報告するメモリの種類 (LPDDR2〜LPDDR5X)。変わるのは名前だけで、容量は「ゲスト RAM」の設定によります。VM の完全再起動後に有効になります。</string>
+</resources>

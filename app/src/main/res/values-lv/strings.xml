@@ -550,4 +550,42 @@
     <string name="vs_no_dex2oat_sub">Lietotnes un sistēmas kods viesos nekad netiek kompilēts: katrs dex2oat izpildes mēģinājums uzreiz izgāžas. Brīdinājums: tas var izraisīt avārijas, kļūdas un citu neparedzētu uzvedību (lietotnes darbojas lēnāk, daži firmware bez kompilēšanas nedarbojas). Pēc noklusējuma izslēgts. Stājas spēkā nākamajā pilnajā palaišanas reizē.</string>
     <string name="m_multitask">Uzdevumu pārslēgšana</string>
     <string name="nav_show">Rādīt Android pogu joslu</string>
+    <string name="vs_refresh">Ekrāna atsvaidzināšanas frekvence</string>
+    <string name="vs_refresh_host">Šī ierīce</string>
+    <string name="vs_refresh_custom">Individuāla</string>
+    <string name="vs_refresh_custom_hint">Frekvence (10–1000)</string>
+    <string name="vs_refresh_sub">Frekvence, ko viesis ziņo un ar ko zīmē. Stājas spēkā nākamajā pilnajā virtuālās mašīnas palaišanā.</string>
+    <string name="vs_refresh_cap">Tālruņa ekrāns sasniedz ne vairāk kā %1$d Hz. Viesis ziņos %2$d Hz, bet zīmēt var tikai ar %1$d Hz.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader zīmē uz CPU un netiek līdzi. Lai to mainītu, ieslēdziet „Tālruņa GPU”; citādi viesis paliek 60 Hz.</string>
+    <string name="vs_storage">Krātuve</string>
+    <string name="vs_storage_auto">Tālruņa disks</string>
+    <string name="vs_storage_sub">Izmērs, ko redz viesis. Brīvā vieta vienmēr ir tālruņa reālā brīvā vieta, un aizņemts = izmērs − brīvs, tāpēc viesim nekad nepasaka, ka tas var saglabāt vairāk, nekā tālrunis ietilpina. Stājas spēkā pēc pilnas virtuālās mašīnas pārstartēšanas.</string>
+    <string name="vs_storage_type">Krātuves tips</string>
+    <string name="vs_storage_type_auto">Noklusējums</string>
+    <string name="vs_storage_type_sub">Vai viesis redz eMMC vai UFS (īpašības un bloka mezgli /sys).</string>
+    <string name="vs_soc">Viesim ziņotais mikroshēmojums (SoC)</string>
+    <string name="vs_soc_sub">Ierakstīts /proc/cpuinfo un /sys/devices/soc0, kā arī īpašībās ro.board.platform (visas Android versijas) un ro.soc.model / ro.soc.manufacturer (Android 12+). Kodolu skaits un CPU frekvences tam seko. Stājas spēkā pēc pilnas virtuālās mašīnas pārstartēšanas.</string>
+    <string name="vs_soc_default">Noklusējums (%1$s)</string>
+    <string name="vs_soc_host">Šī ierīce (šis tālrunis)</string>
+    <string name="vs_soc_custom">Individuāls</string>
+    <string name="vs_soc_preset">Gatavs komplekts</string>
+    <string name="vs_soc_preset_title">Izvēlieties mikroshēmojumu</string>
+    <string name="vs_soc_search">Meklēt (nosaukums, modelis, GPU)</string>
+    <string name="vs_soc_none">Nav atbilstoša mikroshēmojuma.</string>
+    <string name="vs_soc_close">Aizvērt</string>
+    <string name="vs_soc_change">Izvēlēties citu mikroshēmojumu…</string>
+    <string name="vs_soc_default_sub">Project Tango planšetdatora paša mikroshēmojums</string>
+    <string name="vs_soc_gpu_off">Tālruņa GPU ir izslēgts, tāpēc viesis zīmē caur SwiftShader un redz SwiftShader kā savu GPU neatkarīgi no izvēlētā mikroshēmojuma.</string>
+    <string name="vs_soc_gpu_hint">Izmanto tikai tad, kad tālruņa GPU ir ieslēgts. Tukšs = tālruņa īstais GPU. Darbojas visos dzinējos; mainās tikai divi nosaukumi, nevis GPU iespējas.</string>
+    <string name="vs_soc_armv8">ARMv8 kodoli</string>
+    <string name="vs_soc_armv8_sub">Izslēgts: ARMv7 kodoli (32 bitu /proc/cpuinfo izkārtojums). Ieslēgts: ARMv8 kodoli (AArch64 64 bitu programmaparatūrai, ARMv7 saderība 32 bitu).</string>
+    <string name="vs_soc_cores">CPU kodoli</string>
+    <string name="vs_soc_cores_sub">Viena rinda katram kodolu grupai, mazie kodoli vispirms: count, implementer, variant, part, revision, maks. MHz, min. MHz (heksadecimālā ar 0x vai decimālā).</string>
+    <string name="vs_soc_cores_bad">Nav saglabāts: katrai rindai nepieciešams count, implementer, variant, part, revision un maks. MHz (līdz 4 rindām, 16 kodoli).</string>
+    <string name="vs_soc_features_hint">Tukšs = parastie karodziņi šim kodolu tipam.</string>
+    <string name="sk_reset_led">Atiestatīt LED atrašanās vietu</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Paslēpt Android pogu joslu</string>
+    <string name="vs_gl_trace">Ierakstīt GL izsaukumus (kļūdu ziņojumiem)</string>
+    <string name="vs_gl_trace_sub">Atmiņā tur pēdējos 16 000 GPU tilta izsaukumus ar GL kļūdu un katras zīmēšanas stāvokli un pievieno tos žurnālu eksportam kā gl-trace.txt. Nedaudz palēnina zīmēšanu, tāpēc parasti atstājiet izslēgtu. Atveriet ekrānu, kas zīmējas nepareizi, un tad eksportējiet žurnālus. Stājas spēkā nākamajā palaišanā.</string>
 </resources>

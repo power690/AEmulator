@@ -549,4 +549,42 @@
     <string name="vs_no_dex2oat_sub">Қосымшалар мен жүйелік код қонақ жүйеде ешқашан компиляцияланбайды: dex2oat-тың әрбір іске қосуы бірден сәтсіз аяқталады. Ескерту: бұл жүйенің құлауына, ақауларға және басқа болжамсыз жұмысқа әкелуі мүмкін (қосымшалар баяу жұмыс істейді, кейбір прошивкалар компиляциясыз жүктелмейді). Әдепкіде өшірілген. Келесі толық іске қосылғанда қолданылады.</string>
     <string name="m_multitask">Тапсырмаларды ауыстыру</string>
     <string name="nav_show">Android түймелер тақтасын көрсету</string>
+    <string name="vs_refresh">Экранды жаңарту жиілігі</string>
+    <string name="vs_refresh_host">Осы құрылғы</string>
+    <string name="vs_refresh_custom">Өзіндік</string>
+    <string name="vs_refresh_custom_hint">Жиілік (10–1000)</string>
+    <string name="vs_refresh_sub">Қонақ хабарлайтын және сурет салатын жиілік. Виртуалды машинаның келесі толық іске қосылуында күшіне енеді.</string>
+    <string name="vs_refresh_cap">Телефоныңыздың экраны ең көбі %1$d Hz береді. Қонақ %2$d Hz хабарлайды, бірақ тек %1$d Hz-пен сала алады.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader процессорда салады да, үлгере алмайды. Өзгерту үшін «Телефонның GPU-ы»н қосыңыз; әйтпесе қонақ 60 Hz-де қалады.</string>
+    <string name="vs_storage">Жад</string>
+    <string name="vs_storage_auto">Телефон дискісі</string>
+    <string name="vs_storage_sub">Қонақ көретін өлшем. Бос орын әрқашан телефонның нақты бос орны, ал пайдаланылған = өлшем − бос, сондықтан қонаққа телефонға сыятынынан көп сақтауға болатыны ешқашан айтылмайды. Виртуалды машинаны толық қайта қосқаннан кейін күшіне енеді.</string>
+    <string name="vs_storage_type">Жад түрі</string>
+    <string name="vs_storage_type_auto">Әдепкі</string>
+    <string name="vs_storage_type_sub">Қонақ eMMC немесе UFS көреді ме (қасиеттер мен /sys ішіндегі блок түйіндері).</string>
+    <string name="vs_soc">Қонаққа хабарланған чип (SoC)</string>
+    <string name="vs_soc_sub">/proc/cpuinfo және /sys/devices/soc0 ішіне, сондай-ақ ro.board.platform (барлық Android нұсқалары) және ro.soc.model / ro.soc.manufacturer (Android 12+) қасиеттеріне жазылады. Ядро саны мен CPU жиіліктері соған байланысты. Виртуалды машинаны толық қайта қосқаннан кейін күшіне енеді.</string>
+    <string name="vs_soc_default">Әдепкі (%1$s)</string>
+    <string name="vs_soc_host">Осы құрылғы (осы телефон)</string>
+    <string name="vs_soc_custom">Өзіндік</string>
+    <string name="vs_soc_preset">Дайын жиынтық</string>
+    <string name="vs_soc_preset_title">Чип таңдаңыз</string>
+    <string name="vs_soc_search">Іздеу (атауы, моделі, GPU)</string>
+    <string name="vs_soc_none">Сәйкес чип жоқ.</string>
+    <string name="vs_soc_close">Жабу</string>
+    <string name="vs_soc_change">Басқа чип таңдау…</string>
+    <string name="vs_soc_default_sub">Project Tango планшетінің өз чипі</string>
+    <string name="vs_soc_gpu_off">Телефонның GPU-ы өшірулі, сондықтан қонақ SwiftShader арқылы салады және таңдалған чипке қарамастан SwiftShader-ды өз GPU-ы ретінде көреді.</string>
+    <string name="vs_soc_gpu_hint">Тек телефонның GPU-ы қосулы кезде қолданылады. Бос = телефонның нақты GPU-ы. Барлық қозғалтқыштарда жұмыс істейді; тек екі атау өзгереді, GPU мүмкіндіктері емес.</string>
+    <string name="vs_soc_armv8">ARMv8 ядролары</string>
+    <string name="vs_soc_armv8_sub">Өшірулі: ARMv7 ядролары (32 биттік /proc/cpuinfo орналасуы). Қосулы: ARMv8 ядролары (64 биттік firmware үшін AArch64, 32 биттік үшін ARMv7 үйлесімділігі).</string>
+    <string name="vs_soc_cores">CPU ядролары</string>
+    <string name="vs_soc_cores_sub">Ядролар тобына бір жол, кіші ядролар алдында: count, implementer, variant, part, revision, макс. MHz, мин. MHz (0x бар hex немесе ондық).</string>
+    <string name="vs_soc_cores_bad">Сақталмады: әр жолға count, implementer, variant, part, revision және макс. MHz қажет (4 жолға дейін, 16 ядро).</string>
+    <string name="vs_soc_features_hint">Бос = сол ядро түрінің әдеттегі жалаушалары.</string>
+    <string name="sk_reset_led">LED орнын қалпына келтіру</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Android түймелер жолағын жасыру</string>
+    <string name="vs_gl_trace">GL шақыруларын жазу (қате есептері үшін)</string>
+    <string name="vs_gl_trace_sub">Жадында GPU-көпірінің соңғы 16 000 шақыруын GL қатесімен және әр сурет салу күйімен ұстайды және оларды журнал экспортына gl-trace.txt ретінде қосады. Сурет салуды сәл баяулатады, сондықтан әдетте өшірулі қалдырыңыз. Дұрыс салынбаған экранды ашып, содан кейін журналдарды экспорттаңыз. Келесі іске қосуда күшіне енеді.</string>
 </resources>

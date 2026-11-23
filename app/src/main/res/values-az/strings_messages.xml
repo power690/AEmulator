@@ -234,4 +234,6 @@
     <string name="ota_squash_files_modified">/system içindəki %1$d fayl tətbiq və ya sizin tərəfinizdən dəyişdirilib və yenidən qurula bilməz, məsələn %2$s. SquashFS sistem təsviri yalnız dəyişdirilməmiş fayllardan yenidən qurula bilər. Heç nə dəyişdirilmədi.</string>
     <string name="imp_unreadable_mbr">%1$s: oxunmayan MBR bölmə cədvəli</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: MBR-də sistem bölməsi yoxdur</string>
+    <string name="warn_arm64">64-bit firmware: yalnız 32-bit ARM dəstəklənir.</string>
+    <string name="warn_no_healthd">Açılış planında healthd yoxdur (/sbin/healthd çatışmır; idxalda ramdisk atlandı?): system_server BatteryService-də ilişib qalacaq.</string>
 </resources>

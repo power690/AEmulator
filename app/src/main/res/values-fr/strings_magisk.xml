@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">Démarre le démon Magisk au boot, place su dans le PATH et exécute les scripts et fichiers de modules (Zygisk : activez-le dans l’application Magisk). S’applique au prochain démarrage complet. Expérimental.</string>
+    <string name="vm_magisk_installed">Magisk %1$s (%2$d) est installé dans cette VM.</string>
+    <string name="vm_magisk_install">Installer Magisk (choisir un APK)</string>
+    <string name="vm_magisk_replace">Remplacer Magisk (choisir un autre APK)</string>
+    <string name="vm_magisk_remove">Supprimer Magisk</string>
+    <string name="vm_magisk_working">Installation de Magisk… Arrêtez d’abord toutes les VM.</string>
+    <string name="vm_magisk_done">Magisk %1$s installé. Activez Root et démarrez la VM ; une fois le système lancé, l’application Magisk s’installe d’elle-même.</string>
+    <string name="vm_magisk_removed">Magisk supprimé. Les modules et magisk.db ont été conservés.</string>
+</resources>

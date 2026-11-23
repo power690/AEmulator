@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">Тип ОЗУ</string>
+    <string name="vs_ram_type_auto">По умолчанию</string>
+    <string name="vs_ram_type_sub">Тип памяти, который видит гость (LPDDR2–LPDDR5X). Меняется только название; объём задаётся в «ОЗУ гостя». Применяется после полного перезапуска ВМ.</string>
+</resources>

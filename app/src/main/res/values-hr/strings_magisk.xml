@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">Pokreće Magisk demon pri podizanju, stavlja su u PATH i izvršava skripte i datoteke modula (Zygisk: uključite ga u Magisk aplikaciji). Primjenjuje se pri sljedećem punom podizanju. Eksperimentalno.</string>
+    <string name="vm_magisk_installed">U ovom VM-u je instaliran Magisk %1$s (%2$d).</string>
+    <string name="vm_magisk_install">Instaliraj Magisk (odaberi APK)</string>
+    <string name="vm_magisk_replace">Zamijeni Magisk (odaberi drugi APK)</string>
+    <string name="vm_magisk_remove">Ukloni Magisk</string>
+    <string name="vm_magisk_working">Instaliranje Magiska… Prvo zaustavi sve VM-ove.</string>
+    <string name="vm_magisk_done">Magisk %1$s instaliran. Uključi Root i pokreni VM; kad se sustav podigne, Magisk aplikacija se sama instalira.</string>
+    <string name="vm_magisk_removed">Magisk uklonjen. Moduli i magisk.db su zadržani.</string>
+</resources>

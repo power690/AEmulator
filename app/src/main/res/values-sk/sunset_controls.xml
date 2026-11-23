@@ -43,4 +43,8 @@
     <string name="m_resize_done">Zmena veľkosti dokončená</string>
     <string name="m_resize_reset">Obnoviť veľkosť obrazovky</string>
     <string name="vi_resize_hint">Veľkosť obrazovky zmeníte potiahnutím za jej roh. Po dokončení otvorte ponuku a ťuknite na „Zmena veľkosti dokončená“.</string>
+    <string name="vi_spen">Vstup: S-Pen</string>
+    <string name="vi_spen_button">Tlačidlo S-Pen (Air Command)</string>
+    <string name="vi_spen_sub">Zaregistruje v hosťovi digitalizátor S-Pen (sec_e-pen) vedľa dotykovej obrazovky a pridá do navigačnej lišty dve tlačidlá. Režim S-Pen: kým je zapnutý, každý dotyk obrazovky dorazí hosťovi ako S-Pen (typ nástroja stylus, tlak, vznášanie tesne pred a po kontakte; jeden kontakt naraz, žiadny multitouch), a stylus hostiteľa sa tiež vznáša a jeho bočné tlačidlo funguje. Tlačidlo S-Pen: klepnutie stlačí a uvoľní bočné tlačidlo pera počas vznášania, čo otvorí Air Command vo firmware Samsung, ktorý to má. Vyžaduje Android 4.0 alebo novší a úplné reštartovanie VM.</string>
+    <string name="vi_spen_toggle">Režim S-Pen</string>
 </resources>

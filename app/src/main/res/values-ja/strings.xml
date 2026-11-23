@@ -540,4 +540,42 @@
     <string name="vs_no_dex2oat_sub">アプリとシステムコードはゲスト内で一切コンパイルされません：dex2oatの実行は即座に失敗します。警告：クラッシュ、画面の乱れその他の意図しない動作を引き起こす可能性があります（アプリの動作が遅くなる、コンパイルなしでは起動できないファームウェアもあります）。デフォルトはオフです。次回の完全起動時に適用されます。</string>
     <string name="m_multitask">タスクの切り替え</string>
     <string name="nav_show">Androidボタンバーを表示</string>
+    <string name="vs_refresh">画面のリフレッシュレート</string>
+    <string name="vs_refresh_host">本体</string>
+    <string name="vs_refresh_custom">カスタム</string>
+    <string name="vs_refresh_custom_hint">レート（10〜1000）</string>
+    <string name="vs_refresh_sub">ゲストが報告し、実際に描画するレートです。次回の VM 完全起動後に反映されます。</string>
+    <string name="vs_refresh_cap">このスマホの画面は最大 %1$d Hz です。ゲストは %2$d Hz と報告しますが、実際に描画できるのは %1$d Hz までです。</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader は CPU で描画するため追いつけません。変更するには「スマホの GPU」をオンにしてください。オフのままではゲストは 60 Hz のままです。</string>
+    <string name="vs_storage">ストレージ</string>
+    <string name="vs_storage_auto">スマホ本体のディスク</string>
+    <string name="vs_storage_sub">ゲストに報告する容量です。空き容量は常にスマホの実際の空き容量で、使用量 = 容量 − 空きです。そのためスマホの容量を超えて保存できるとゲストに伝わることはありません。VM の完全再起動後に反映されます。</string>
+    <string name="vs_storage_type">ストレージの種類</string>
+    <string name="vs_storage_type_auto">既定</string>
+    <string name="vs_storage_type_sub">ゲストから見えるのが eMMC か UFS か（プロパティと /sys のブロックノード）。</string>
+    <string name="vs_soc">ゲストに報告するチップ（SoC）</string>
+    <string name="vs_soc_sub">/proc/cpuinfo、/sys/devices/soc0、およびプロパティ ro.board.platform（すべての Android）と ro.soc.model / ro.soc.manufacturer（Android 12 以降）に書き込みます。コア数と CPU 周波数もこれに従います。VM の完全再起動後に反映されます。</string>
+    <string name="vs_soc_default">既定（%1$s）</string>
+    <string name="vs_soc_host">本体（このスマホ）</string>
+    <string name="vs_soc_custom">カスタム</string>
+    <string name="vs_soc_preset">プリセット</string>
+    <string name="vs_soc_preset_title">チップを選択</string>
+    <string name="vs_soc_search">検索（名前、型番、GPU）</string>
+    <string name="vs_soc_none">一致するチップはありません。</string>
+    <string name="vs_soc_close">閉じる</string>
+    <string name="vs_soc_change">別のチップを選ぶ…</string>
+    <string name="vs_soc_default_sub">Project Tango タブレット自身のチップ</string>
+    <string name="vs_soc_gpu_off">スマホの GPU がオフのため、ゲストは SwiftShader で描画し、どのチップを選んでも GPU は SwiftShader と表示されます。</string>
+    <string name="vs_soc_gpu_hint">スマホの GPU がオンのときだけ使われます。空欄 = スマホの実際の GPU。すべてのエンジンで動作し、変わるのは名前だけで GPU の性能は変わりません。</string>
+    <string name="vs_soc_armv8">ARMv8 コア</string>
+    <string name="vs_soc_armv8_sub">オフ：ARMv7 コア（/proc/cpuinfo の 32 ビット配置）。オン：ARMv8 コア（64 ビットファームウェアは AArch64 配置、32 ビットは ARMv7 互換）。</string>
+    <string name="vs_soc_cores">CPU コア</string>
+    <string name="vs_soc_cores_sub">コアのグループごとに 1 行、little コアが先：count、implementer、variant、part、revision、最大 MHz、最小 MHz（0x 付き 16 進数または 10 進数）。</string>
+    <string name="vs_soc_cores_bad">保存されません：各行に count、implementer、variant、part、revision、最大 MHz が必要です（最大 4 行、16 コア）。</string>
+    <string name="vs_soc_features_hint">空欄 = そのコア種別の標準フラグ。</string>
+    <string name="sk_reset_led">LED 位置をリセット</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Android のボタンバーを隠す</string>
+    <string name="vs_gl_trace">GL 呼び出しを記録（不具合報告用）</string>
+    <string name="vs_gl_trace_sub">GPU ブリッジの直近 16,000 回の呼び出しを、各描画の GL エラーと状態とともにメモリに保持し、ログ出力に gl-trace.txt として追加します。描画が少し遅くなるので通常はオフにしてください。描画がおかしい画面を開いてからログを出力してください。次回起動時に反映されます。</string>
 </resources>

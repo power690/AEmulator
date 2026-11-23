@@ -549,4 +549,42 @@
     <string name="vs_no_dex2oat_sub">Sovelluksia ja järjestelmäkoodia ei koskaan käännetä asiakasjärjestelmässä: jokainen dex2oat-ajo epäonnistuu heti. Varoitus: tämä voi aiheuttaa kaatumisia, toimintahäiriöitä ja muuta odottamatonta käyttäytymistä (sovellukset toimivat hitaammin, jokin firmware ei käynnisty ilman kääntämistä). Pois päältä oletuksena. Tulee voimaan seuraavalla täydellisellä käynnistyksellä.</string>
     <string name="m_multitask">Tehtävien vaihtaminen</string>
     <string name="nav_show">Näytä Androidin painikepalkki</string>
+    <string name="vs_refresh">Näytön virkistystaajuus</string>
+    <string name="vs_refresh_host">Tämä laite</string>
+    <string name="vs_refresh_custom">Oma</string>
+    <string name="vs_refresh_custom_hint">Taajuus (10–1000)</string>
+    <string name="vs_refresh_sub">Taajuus, jonka vieras ilmoittaa ja jolla se piirtää. Astuu voimaan virtuaalikoneen seuraavalla täydellä käynnistyksellä.</string>
+    <string name="vs_refresh_cap">Puhelimesi näyttö selviää enintään %1$d Hz:stä. Vieras ilmoittaa %2$d Hz, mutta voi piirtää vain %1$d Hz:llä.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader piirtää prosessorilla eikä ehdi. Ota ”Puhelimen GPU” käyttöön muuttaaksesi tämän; muuten vieras pysyy 60 Hz:ssä.</string>
+    <string name="vs_storage">Tallennustila</string>
+    <string name="vs_storage_auto">Puhelimen levy</string>
+    <string name="vs_storage_sub">Koko, jonka vieras näkee. Vapaa tila on aina puhelimen todellinen vapaa tila ja käytetty = koko − vapaa, joten vieraalle ei koskaan kerrota, että se voisi tallentaa enemmän kuin puhelimeen mahtuu. Astuu voimaan virtuaalikoneen täyden uudelleenkäynnistyksen jälkeen.</string>
+    <string name="vs_storage_type">Tallennustilan tyyppi</string>
+    <string name="vs_storage_type_auto">Oletus</string>
+    <string name="vs_storage_type_sub">Näkeekö vieras eMMC:n vai UFS:n (ominaisuudet ja lohkosolmut /sys:ssä).</string>
+    <string name="vs_soc">Vieraalle ilmoitettu piiri (SoC)</string>
+    <string name="vs_soc_sub">Kirjoitetaan tiedostoon /proc/cpuinfo ja /sys/devices/soc0 sekä ominaisuuksiin ro.board.platform (kaikki Android-versiot) ja ro.soc.model / ro.soc.manufacturer (Android 12+). Ydinten määrä ja CPU-taajuudet seuraavat sitä. Astuu voimaan virtuaalikoneen täyden uudelleenkäynnistyksen jälkeen.</string>
+    <string name="vs_soc_default">Oletus (%1$s)</string>
+    <string name="vs_soc_host">Tämä laite (tämä puhelin)</string>
+    <string name="vs_soc_custom">Oma</string>
+    <string name="vs_soc_preset">Valmis sarja</string>
+    <string name="vs_soc_preset_title">Valitse piiri</string>
+    <string name="vs_soc_search">Hae (nimi, malli, GPU)</string>
+    <string name="vs_soc_none">Ei sopivaa piiriä.</string>
+    <string name="vs_soc_close">Sulje</string>
+    <string name="vs_soc_change">Valitse toinen piiri…</string>
+    <string name="vs_soc_default_sub">Project Tango -tabletin oma piiri</string>
+    <string name="vs_soc_gpu_off">Puhelimen GPU on pois päältä, joten vieras piirtää SwiftShaderin kautta ja näkee SwiftShaderin omana GPU-naan valitusta piiristä riippumatta.</string>
+    <string name="vs_soc_gpu_hint">Käytetään vain, kun puhelimen GPU on päällä. Tyhjä = puhelimen todellinen GPU. Toimii kaikilla moottoreilla; vain kaksi nimeä vaihtuu, ei GPU:n ominaisuudet.</string>
+    <string name="vs_soc_armv8">ARMv8-ytimet</string>
+    <string name="vs_soc_armv8_sub">Pois: ARMv7-ytimet (32-bittinen /proc/cpuinfo). Päällä: ARMv8-ytimet (AArch64 64-bittiselle firmwarelle, ARMv7-yhteensopivuus 32-bittiselle).</string>
+    <string name="vs_soc_cores">CPU-ytimet</string>
+    <string name="vs_soc_cores_sub">Yksi rivi ydintä kohden, pienet ytimet ensin: count, implementer, variant, part, revision, enint. MHz, väh. MHz (heksa 0x:llä tai desimaalina).</string>
+    <string name="vs_soc_cores_bad">Ei tallennettu: jokainen rivi tarvitsee count, implementer, variant, part, revision ja enint. MHz (enintään 4 riviä, 16 ydintä).</string>
+    <string name="vs_soc_features_hint">Tyhjä = kyseisen ydintyypin tavalliset liput.</string>
+    <string name="sk_reset_led">Palauta LEDin sijainti</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Piilota Androidin painikerivi</string>
+    <string name="vs_gl_trace">Tallenna GL-kutsut (virheraportteja varten)</string>
+    <string name="vs_gl_trace_sub">Pitää muistissa viimeiset 16 000 GPU-sillan kutsua GL-virheineen ja kunkin piirron tiloineen ja lisää ne lokien vientiin tiedostona gl-trace.txt. Hidastaa piirtoa hieman, joten pidä se yleensä pois päältä. Avaa väärin piirtyvä näyttö ja vie sitten lokit. Astuu voimaan seuraavalla käynnistyksellä.</string>
 </resources>

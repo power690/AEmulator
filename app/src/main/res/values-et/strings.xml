@@ -548,4 +548,42 @@
     <string name="vs_no_dex2oat_sub">Rakendusi ja süsteemikoodi külalises kunagi ei kompileerita: iga dex2oat-i käivitamine nurjub kohe. Hoiatus: see võib põhjustada krahhe, vigu ja muud tahtmatut käitumist (rakendused töötavad aeglasemalt, mõni firmware ei käivitu kompileerimiseta). Vaikimisi keelatud. Rakendub järgmisel täiel käivitusel.</string>
     <string name="m_multitask">Ülesannete vahetamine</string>
     <string name="nav_show">Kuva Androidi nuppude riba</string>
+    <string name="vs_refresh">Ekraani värskendussagedus</string>
+    <string name="vs_refresh_host">See seade</string>
+    <string name="vs_refresh_custom">Oma</string>
+    <string name="vs_refresh_custom_hint">Sagedus (10–1000)</string>
+    <string name="vs_refresh_sub">Sagedus, mille külaline teatab ja millega joonistab. Mõjub virtuaalmasina järgmisel täiskäivitusel.</string>
+    <string name="vs_refresh_cap">Sinu telefoni ekraan suudab kuni %1$d Hz. Külaline teatab %2$d Hz, kuid saab joonistada ainult %1$d Hz-ga.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader joonistab protsessoril ega jõua järele. Selle muutmiseks lülita sisse „Telefoni GPU”; muidu jääb külaline 60 Hz juurde.</string>
+    <string name="vs_storage">Salvestusruum</string>
+    <string name="vs_storage_auto">Telefoni ketas</string>
+    <string name="vs_storage_sub">Suurus, mida külaline näeb. Vaba ruum on alati telefoni tegelik vaba ruum ja kasutatud = suurus − vaba, seega külalisele ei öelda kunagi, et ta saab salvestada rohkem, kui telefon mahutab. Mõjub pärast virtuaalmasina täisrestarti.</string>
+    <string name="vs_storage_type">Salvestusruumi tüüp</string>
+    <string name="vs_storage_type_auto">Vaikimisi</string>
+    <string name="vs_storage_type_sub">Kas külaline näeb eMMC-d või UFS-i (atribuudid ja plokisõlmed kaustas /sys).</string>
+    <string name="vs_soc">Külalisele teatatav kiip (SoC)</string>
+    <string name="vs_soc_sub">Kirjutatakse faili /proc/cpuinfo ja /sys/devices/soc0 ning atribuutidesse ro.board.platform (kõik Androidi versioonid) ja ro.soc.model / ro.soc.manufacturer (Android 12+). Tuumade arv ja CPU sagedused järgivad seda. Mõjub pärast virtuaalmasina täisrestarti.</string>
+    <string name="vs_soc_default">Vaikimisi (%1$s)</string>
+    <string name="vs_soc_host">See seade (see telefon)</string>
+    <string name="vs_soc_custom">Oma</string>
+    <string name="vs_soc_preset">Valmis komplekt</string>
+    <string name="vs_soc_preset_title">Vali kiip</string>
+    <string name="vs_soc_search">Otsi (nimi, mudel, GPU)</string>
+    <string name="vs_soc_none">Sobivat kiipi pole.</string>
+    <string name="vs_soc_close">Sulge</string>
+    <string name="vs_soc_change">Vali teine kiip…</string>
+    <string name="vs_soc_default_sub">Project Tango tahvelarvuti oma kiip</string>
+    <string name="vs_soc_gpu_off">Telefoni GPU on väljas, seega külaline joonistab SwiftShaderi kaudu ja näeb SwiftShaderi oma GPU-na, olenemata valitud kiibist.</string>
+    <string name="vs_soc_gpu_hint">Kasutatakse ainult siis, kui telefoni GPU on sees. Tühi = telefoni tegelik GPU. Toimib kõigil mootoritel; muutub vaid kaks nime, mitte GPU võimekus.</string>
+    <string name="vs_soc_armv8">ARMv8 tuumad</string>
+    <string name="vs_soc_armv8_sub">Väljas: ARMv7 tuumad (32-bitine /proc/cpuinfo paigutus). Sees: ARMv8 tuumad (AArch64 64-bitisele püsivarale, ARMv7 ühilduvus 32-bitisele).</string>
+    <string name="vs_soc_cores">CPU tuumad</string>
+    <string name="vs_soc_cores_sub">Üks rida tuumarühma kohta, väikesed tuumad enne: count, implementer, variant, part, revision, max MHz, min MHz (hex 0x-ga või kümnendkohana).</string>
+    <string name="vs_soc_cores_bad">Ei salvestatud: iga rida vajab count, implementer, variant, part, revision ja max MHz (kuni 4 rida, 16 tuuma).</string>
+    <string name="vs_soc_features_hint">Tühi = selle tuumatüübi tavalised lipud.</string>
+    <string name="sk_reset_led">Lähtesta LED-i asukoht</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Peida Androidi nupuriba</string>
+    <string name="vs_gl_trace">Logi GL-kutsed (veateadete jaoks)</string>
+    <string name="vs_gl_trace_sub">Hoiab mälus viimast 16 000 GPU-silla kutset koos GL-vea ja iga joonistuse olekuga ning lisab need logiekspordile failina gl-trace.txt. Aeglustab joonistamist veidi, seega hoia tavaliselt väljas. Ava vale joonistusega ekraan ja ekspordi seejärel logid. Mõjub järgmisel käivitusel.</string>
 </resources>

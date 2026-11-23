@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">%1$d קבצים ב-/system שונו על ידי האפליקציה או על ידך ולא ניתן לבנות אותם מחדש, למשל %2$s. ניתן לבנות מחדש תמונת מערכת SquashFS רק מקבצים שלא שונו. דבר לא שונה.</string>
     <string name="imp_unreadable_mbr">%1$s: טבלת מחיצות MBR שאינה קריאה</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: אין מחיצת מערכת ב-MBR</string>
+    <string name="warn_arm64">קושחה 64-סיביות: נתמך רק ARM 32-סיביות.</string>
+    <string name="warn_no_healthd">אין healthd בתוכנית האתחול (/sbin/healthd חסר; ramdisk דולג בייבוא?): system_server ייתקע ב-BatteryService.</string>
 </resources>

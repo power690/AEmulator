@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">Pornește demonul Magisk la boot, pune su în PATH și rulează scripturi și fișiere de module (Zygisk: activează-l în aplicația Magisk). Se aplică la următorul boot complet. Experimental.</string>
+    <string name="vm_magisk_installed">Magisk %1$s (%2$d) este instalat în acest VM.</string>
+    <string name="vm_magisk_install">Instalează Magisk (alege APK)</string>
+    <string name="vm_magisk_replace">Înlocuiește Magisk (alege alt APK)</string>
+    <string name="vm_magisk_remove">Elimină Magisk</string>
+    <string name="vm_magisk_working">Se instalează Magisk… Oprește mai întâi toate VM-urile.</string>
+    <string name="vm_magisk_done">Magisk %1$s instalat. Activează Root și pornește VM-ul; când sistemul pornește, aplicația Magisk se instalează singură.</string>
+    <string name="vm_magisk_removed">Magisk eliminat. Modulele și magisk.db au fost păstrate.</string>
+</resources>

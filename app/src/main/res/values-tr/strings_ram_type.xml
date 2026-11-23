@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM türü</string>
+    <string name="vs_ram_type_auto">Varsayılan</string>
+    <string name="vs_ram_type_sub">Konuğun bildirdiği bellek türü (LPDDR2–LPDDR5X). Yalnızca ad değişir; miktar “Konuk RAM” ayarından gelir. VM\'in tam yeniden başlatılmasından sonra geçerli olur.</string>
+</resources>

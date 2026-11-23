@@ -43,4 +43,8 @@
     <string name="m_resize_done">Átméretezés kész</string>
     <string name="m_resize_reset">Képernyőméret visszaállítása</string>
     <string name="vi_resize_hint">Húzd meg a képernyő egyik sarkát az átméretezéshez. Ha végeztél, nyisd meg a menüt, és koppints az „Átméretezés kész” lehetőségre.</string>
+    <string name="vi_spen">Bemenet: S-Pen</string>
+    <string name="vi_spen_button">S-Pen gomb (Air Command)</string>
+    <string name="vi_spen_sub">S-Pen digitalizálót (sec_e-pen) regisztrál a vendégben az érintőképernyő mellett, és két gombot ad a navigációs sávhoz. S-Pen mód: amíg be van kapcsolva, minden képernyőérintés S-Penként érkezik a vendéghez (stílus eszköztípus, nyomás, lebegés közvetlenül a kapcsolat előtt és után; egyszerre egy érintés, multitouch nélkül), és a host toll is lebeg, oldalsó gombja működik. S-Pen gomb: a lebegés közbeni kopogás lenyomja és elengedi a toll oldalsó gombját, ami Air Commandot nyit az olyan Samsung firmware-en, amelyen van. Android 4.0 vagy újabb és a VM teljes újraindítása szükséges.</string>
+    <string name="vi_spen_toggle">S-Pen mód</string>
 </resources>

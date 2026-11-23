@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">Τύπος RAM</string>
+    <string name="vs_ram_type_auto">Προεπιλογή</string>
+    <string name="vs_ram_type_sub">Τύπος μνήμης που δηλώνει ο guest (LPDDR2 έως LPDDR5X). Αλλάζει μόνο το όνομα· η ποσότητα ορίζεται από τη ρύθμιση «RAM guest». Ισχύει μετά από πλήρη επανεκκίνηση της εικονικής μηχανής.</string>
+</resources>

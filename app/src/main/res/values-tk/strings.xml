@@ -551,4 +551,42 @@
     <string name="vs_no_dex2oat_sub">Programmalar we ulgam kody myhmonda hiç wagt kompillelenýär: dex2oat-yň her bir işe girizişi derrew şowsuz gutarýar. Duýduryş: bu döwülmelere, näsazlyklara we beýleki islenmedik hereketlere sebäp bolup biler (programmalar haýal işleýär, käbir firmware kompillesiz başlanmaýar). Standart boýunça öçürilen. Indiki doly başlatmakda giltutarýar.</string>
     <string name="m_multitask">Tapgyrtlary çalşyrmak</string>
     <string name="nav_show">Android düwmeler panelini görkez</string>
+    <string name="vs_refresh">Ekran täzeleniş ýygylygy</string>
+    <string name="vs_refresh_host">Bu enjam</string>
+    <string name="vs_refresh_custom">Öz</string>
+    <string name="vs_refresh_custom_hint">Ýygylyk (10–1000)</string>
+    <string name="vs_refresh_sub">Myhmanyň beýan edýän we çyzýan ýygylygy. Wirtual maşynyň indiki doly işe goýberilişinde güýje girýär.</string>
+    <string name="vs_refresh_cap">Telefonyňyzyň ekrany iň köp %1$d Hz berýär. Myhman %2$d Hz beýan eder, ýöne diňe %1$d Hz bilen çyzyp biler.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader prosessorda çyzýar we yzyndan ýetişmeýär. Munuň üýtgetmek üçin „Telefonyň GPU-sy“ny açyň; ýogsam myhman 60 Hz-de galýar.</string>
+    <string name="vs_storage">Ammar</string>
+    <string name="vs_storage_auto">Telefonyň diski</string>
+    <string name="vs_storage_sub">Myhmanyň görýän göwrümi. Boş ýer hemişe telefonyň hakyky boş ýeri, we ulanylýan = göwrim − boş, şonuň üçin myhmana telefonyň sygdyryp biljekinden köpräk saklap biljekdigi hiç haçan aýdylmaýar. Wirtual maşyny doly täzeden işe goýberenden soň güýje girýär.</string>
+    <string name="vs_storage_type">Ammaryň görnüşi</string>
+    <string name="vs_storage_type_auto">Bellenen</string>
+    <string name="vs_storage_type_sub">Myhmanyň eMMC ýa-da UFS görýändigi (häsiýetler we /sys-daky blok düwünleri).</string>
+    <string name="vs_soc">Myhmana beýan edilýän çip (SoC)</string>
+    <string name="vs_soc_sub">/proc/cpuinfo we /sys/devices/soc0 içine, şeýle hem ro.board.platform (äçhli Android görnüşleri) we ro.soc.model / ro.soc.manufacturer (Android 12+) häsiýetlerine ýazylýar. Ýadro sany we CPU ýygylyklary oňa eýerýär. Wirtual maşyny doly täzeden işe goýberenden soň güýje girýär.</string>
+    <string name="vs_soc_default">Bellenen (%1$s)</string>
+    <string name="vs_soc_host">Bu enjam (bu telefon)</string>
+    <string name="vs_soc_custom">Öz</string>
+    <string name="vs_soc_preset">Taýyn toplum</string>
+    <string name="vs_soc_preset_title">Çip saýlaň</string>
+    <string name="vs_soc_search">Gözle (at, model, GPU)</string>
+    <string name="vs_soc_none">Laýyk çip ýok.</string>
+    <string name="vs_soc_close">Ýap</string>
+    <string name="vs_soc_change">Başga çip saýla…</string>
+    <string name="vs_soc_default_sub">Project Tango planşetiniň öz çipi</string>
+    <string name="vs_soc_gpu_off">Telefonyň GPU-sy öçürik, şonuň üçin myhman SwiftShader arkaly çyzýar we saýlanan çipden garamazdan SwiftShader-y öz GPU-sy hasaplaýar.</string>
+    <string name="vs_soc_gpu_hint">Diňe telefonyň GPU-sy açyk wagtynda ulanylýar. Boş = telefonyň hakyky GPU-sy. Ähli dwigatellerde işleýär; diňe iki at üýtgeýär, GPU mümkinçilikleri däl.</string>
+    <string name="vs_soc_armv8">ARMv8 ýadrolary</string>
+    <string name="vs_soc_armv8_sub">Öçük: ARMv7 ýadrolary (32-bitlik /proc/cpuinfo ýerleşişi). Açyk: ARMv8 ýadrolary (64-bitlik firmware üçin AArch64, 32-bitlik üçin ARMv7 laýyklygy).</string>
+    <string name="vs_soc_cores">CPU ýadrolary</string>
+    <string name="vs_soc_cores_sub">Her ýadro toparyna bir setir, kiçi ýadrolar öň: count, implementer, variant, part, revision, iň ýokary MHz, iň pes MHz (0x bilen hex ýa onluk).</string>
+    <string name="vs_soc_cores_bad">Saklanmady: her setir count, implementer, variant, part, revision we iň ýokary MHz talap edýär (4 setire çenli, 16 ýadro).</string>
+    <string name="vs_soc_features_hint">Boş = şol ýadro görnüşi üçin adaty baýdaklar.</string>
+    <string name="sk_reset_led">LED ýerini dikelt</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Android düwmeler zolagyny gizle</string>
+    <string name="vs_gl_trace">GL çagyryşlaryny ýazga al (ýalňyşlyk hasabatlary üçin)</string>
+    <string name="vs_gl_trace_sub">Ýatda GPU-köprüsiniň soňky 16 000 çagyryşyny GL ýalňyşlygy we her çyzgyjylyşyň ýagdaýy bilen saklaýar we olary žurnal eksportyna gl-trace.txt hökmünde goşýar. Çyzmaklygy azajyk haýyşladýar, şonuň üçin adatça öçürik goýuň. Ýalňyş çyzylýan ekrany açyň, soň žurnallary eksport ediň. Indiki işe goýberilişde güýje girýär.</string>
 </resources>

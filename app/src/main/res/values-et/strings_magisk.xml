@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">Käivitab buudil Magiski deemon, paneb su PATH-i ja käivitab moodulite skriptid ja failid (Zygisk: lülita see Magiski rakenduses sisse). Mõjub järgmisel täielikul buudil. Eksperimentaalne.</string>
+    <string name="vm_magisk_installed">Selles VM-is on paigaldatud Magisk %1$s (%2$d).</string>
+    <string name="vm_magisk_install">Paigalda Magisk (vali APK)</string>
+    <string name="vm_magisk_replace">Asenda Magisk (vali teine APK)</string>
+    <string name="vm_magisk_remove">Eemalda Magisk</string>
+    <string name="vm_magisk_working">Magiski paigaldamine… Peata esmalt kõik VM-id.</string>
+    <string name="vm_magisk_done">Magisk %1$s paigaldatud. Lülita Root sisse ja käivita VM; kui süsteem on üleval, paigaldab Magiski rakendus end ise.</string>
+    <string name="vm_magisk_removed">Magisk eemaldatud. Moodulid ja magisk.db jäeti alles.</string>
+</resources>

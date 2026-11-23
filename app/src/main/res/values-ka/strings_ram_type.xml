@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM-ის ტიპი</string>
+    <string name="vs_ram_type_auto">ნაგულისხმევი</string>
+    <string name="vs_ram_type_sub">მეხსიერების ტიპი, რასაც სტუმარი ხედავს (LPDDR2–LPDDR5X). იცვლება მხოლოდ სახელი; მოცულობა „სტუმრის RAM“ პარამეტრიდანაა. ამოქმედდეს VM-ის სრული გადაგეშვის შემდეგ.</string>
+</resources>

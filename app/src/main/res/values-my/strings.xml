@@ -547,4 +547,42 @@
     <string name="vs_skip_perm_wait_sub">ARM ဖုန်းပေါ်ရှိ x86 firmware အတွက်၊ ခွင့်ပြုချက် ထိန်းချုပ်မှု app သည် စက္ကန့် ၆၀ အတွင်း ဖြေဆိုရမှု နှေးကွေးလွန်း၍ system_server ကို ပိတ်လိုက်သည် (\"Error granting/upgrading runtime permissions\")။ firmware ၏ services.jar ကို ပက်ချ်ထား၍ ဘူးတ်လုပ်ဆောင်စဉ် မူလခွင့်ပြုချက် runtime ပေးအပ်မှုများကို မစောင့်ဆိုင်းရ- ထို့ကြောင့် ကြိုတင်ထည့်သွင်းထားသော app များသည် ဘူးတ်ချိန်တွင် ထိုခွင့်ပြုချက်များ မရရှိပါ။ dex2oat သည် ပက်ချ်လုပ်ထားသော jar ကို ပြန်ကွန်ပိုင်းခွင့် မပြုပါ။ ပိတ်လိုက်ပါက မူလ jar ပြန်ရရှိသည်။ နောက်တစ်ကြိမ် အပြည့်အဝ ဘူးတ်သောအခါ အကျိုးသက်ရောက်သည်။</string>
     <string name="m_multitask">အလုပ်များ ပြောင်းခြင်း</string>
     <string name="nav_show">Android ခလုတ်ဘားကို ပြပါ</string>
+    <string name="vs_refresh">မျက်နှာပြင် ပြန်လည်ဆန်းသစ်နှုန်း</string>
+    <string name="vs_refresh_host">ဤစက်ပစ္စည်း</string>
+    <string name="vs_refresh_custom">စိတ်ကြိုက်</string>
+    <string name="vs_refresh_custom_hint">နှုန်း (10–1000)</string>
+    <string name="vs_refresh_sub">ဧည့်သည် ကြေညာပြီး ရေးဆွဲသည့် နှုန်း။ နောက်တစ်ကြိမ် ဗားချွဲစက် အပြည့်အဝ စတင်ချိန်တွင် သက်ရောက်မည်။</string>
+    <string name="vs_refresh_cap">သင့်ဖုန်း မျက်နှာပြင်သည် အများဆုံး %1$d Hz အထိသာ ရောက်သည်။ ဧည့်သည် %2$d Hz ကြေညာမည်ဖြစ်သော်လည်း %1$d Hz ဖြင့်သာ ရေးဆွဲနိုင်မည်။</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader သည် ပရိုဆက်ဆာပေါ်တွင် ရေးဆွဲပြီး အမီမလိုက်နိုင်။ ပြောင်းရန် „ဖုန်း၏ GPU” ကို ဖွင့်ပါ၊ မဟုတ်ပါက ဧည့်သည် 60 Hz တွင် ကျန်မည်။</string>
+    <string name="vs_storage">သိုလှောင်မှု</string>
+    <string name="vs_storage_auto">ဖုန်း၏ ဒစ်</string>
+    <string name="vs_storage_sub">ဧည့်သည် မြင်သည့် ပမာဏ။ လွတ်နေသော နေရာသည် အမြဲတမ်း ဖုန်း၏ အမှန်တကယ် လွတ်နေသော နေရာဖြစ်ပြီး အသုံးပြုပြီး = ပမာဏ − လွတ် ဖြစ်သဖြင့် ဖုန်းထဲ ဆံ့သည့်ထက် ပို၍ သိမ်းဆည်းနိုင်သည်ဟု ဧည့်သည်ကို ဘယ်တော့မှ မပြောပါ။ ဗားချွဲစက် အပြည့်အဝ ပြန်စတင်ပြီးနောက် သက်ရောက်မည်။</string>
+    <string name="vs_storage_type">သိုလှောင်မှု အမျိုးအစား</string>
+    <string name="vs_storage_type_auto">မူရင်း</string>
+    <string name="vs_storage_type_sub">ဧည့်သည် eMMC သို့မဟုတ် UFS ကို မြင်ခြင်း (ဂုဏ်သတ္တိများနှင့် /sys ထဲရှိ ဘလောက် node များ)။</string>
+    <string name="vs_soc">ဧည့်သည်ထံ ကြေညာသည့် ချစ်ပ် (SoC)</string>
+    <string name="vs_soc_sub">/proc/cpuinfo နှင့် /sys/devices/soc0 ထဲသို့လည်းကောင်း၊ ro.board.platform (Android ဗားရှင်းအားလုံး) နှင့် ro.soc.model / ro.soc.manufacturer (Android 12+) ဂုဏ်သတ္တိများထဲသို့လည်းကောင်း ရေးသည်။ ကိုးခ ဦးရေနှင့် CPU ကြိမ်နှုန်းများ ယင်းကို လိုက်နာသည်။ ဗားချွဲစက် အပြည့်အဝ ပြန်စတင်ပြီးနောက် သက်ရောက်မည်။</string>
+    <string name="vs_soc_default">မူရင်း (%1$s)</string>
+    <string name="vs_soc_host">ဤစက်ပစ္စည်း (ဤဖုန်း)</string>
+    <string name="vs_soc_custom">စိတ်ကြိုက်</string>
+    <string name="vs_soc_preset">အဆင်သင့် အစု</string>
+    <string name="vs_soc_preset_title">ချစ်ပ် ရွေးပါ</string>
+    <string name="vs_soc_search">ရှာဖွေ (အမည်၊ မော်ဒယ်၊ GPU)</string>
+    <string name="vs_soc_none">ကိုက်ညီသော ချစ်ပ် မရှိပါ။</string>
+    <string name="vs_soc_close">ပိတ်</string>
+    <string name="vs_soc_change">အခြား ချစ်ပ် ရွေးရန်…</string>
+    <string name="vs_soc_default_sub">Project Tango တက်ဘလက်၏ ကိုယ်ပိုင် ချစ်ပ်</string>
+    <string name="vs_soc_gpu_off">ဖုန်း၏ GPU ပိတ်ထားသဖြင့် ဧည့်သည် SwiftShader မှတစ်ဆင့် ရေးဆွဲပြီး ရွေးထားသည့် ချစ်ပ်မည်သည်ဖြစ်စေ SwiftShader ကို ၎င်း၏ GPU အဖြစ် မြင်သည်။</string>
+    <string name="vs_soc_gpu_hint">ဖုန်း၏ GPU ဖွင့်ထားမှသာ အသုံးပြုသည်။ အလွတ် = ဖုန်း၏ အမှန်တကယ် GPU။ အင်ဂျင်အားလုံးတွင် အလုပ်လုပ်သည်၊ အမည် နှစ်ခုသာ ပြောင်းသည်၊ GPU စွမ်းရည်များ မဟုတ်ပါ။</string>
+    <string name="vs_soc_armv8">ARMv8 ကိုးများ</string>
+    <string name="vs_soc_armv8_sub">ပိတ်: ARMv7 ကိုးများ (32-bit /proc/cpuinfo အပြင်အဆင်)။ ဖွင့်: ARMv8 ကိုးများ (64-bit firmware အတွက် AArch64၊ 32-bit အတွက် ARMv7 ကိုက်ညီမှု)။</string>
+    <string name="vs_soc_cores">CPU ကိုးများ</string>
+    <string name="vs_soc_cores_sub">ကိုးအုပ် တစ်ခုလျှင် တစ်လိုင်း၊ ကိုးငယ်များ အရင်: count၊ implementer၊ variant၊ part၊ revision၊ အများဆုံး MHz၊ အနည်းဆုံး MHz (0x ပါ hex သို့မဟုတ် ဒသမ)။</string>
+    <string name="vs_soc_cores_bad">မသိမ်းဆည်းရသေး: လိုင်းတစ်ခုလျှင် count၊ implementer၊ variant၊ part၊ revision နှင့် အများဆုံး MHz လိုသည် (အများဆုံး 4 လိုင်း၊ ကိုး 16 ခု)။</string>
+    <string name="vs_soc_features_hint">အလွတ် = ထို ကိုးအမျိုးအစားအတွက် ပုံမှန် အလံများ။</string>
+    <string name="sk_reset_led">LED နေရာ ပြန်သတ်မှတ်</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Android ခလုတ်တန်း ဖျောက်</string>
+    <string name="vs_gl_trace">GL ခေါ်ဆိုမှုများ မှတ်တမ်းတင် (ချို့ယွင်းချက် အစီရင်ခံစာများအတွက်)</string>
+    <string name="vs_gl_trace_sub">GPU တံတား၏ နောက်ဆုံး ခေါ်ဆိုမှု 16,000 ကို GL အမှားနှင့် ရေးဆွဲမှုတစ်ခုစီ၏ အခြေအနေနှင့်အတူ မမ်မိုရီတွင် သိမ်းထားပြီး ၎င်းတို့ကို မှတ်တမ်း ထုတ်ယူမှုထဲသို့ gl-trace.txt အဖြစ် ထည့်သည်။ ရေးဆွဲမှုကို အနည်းငယ် နှေးစေသဖြင့် ပုံမှန်အားဖြင့် ပိတ်ထားပါ။ မှားရေးဆွဲသော မျက်နှာပြင်ကို ဖွင့်ပြီး မှတ်တမ်းများ ထုတ်ယူပါ။ နောက်စတင်ချိန်တွင် သက်ရောက်မည်။</string>
 </resources>

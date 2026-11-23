@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">Lietotne vai jūs esat mainījuši %1$d failus mapē /system, un tos nevar pārbūvēt, piemēram, %2$s. SquashFS sistēmas attēlu var pārbūvēt tikai no nemainītiem failiem. Nekas netika mainīts.</string>
     <string name="imp_unreadable_mbr">%1$s: nelasāma MBR nodalījumu tabula</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: MBR nav sistēmas nodalījuma</string>
+    <string name="warn_arm64">64 bitu programmaparatūra: atbalstīts ir tikai 32 bitu ARM.</string>
+    <string name="warn_no_healthd">Sāknēšanas plānā nav healthd (/sbin/healthd trūkst; ramdisk izlaists importējot?): system_server iesprūdīs BatteryService.</string>
 </resources>

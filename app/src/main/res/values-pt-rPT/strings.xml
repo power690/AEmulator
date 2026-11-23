@@ -540,4 +540,42 @@
     <string name="vs_no_dex2oat_sub">As aplicações e o código de sistema nunca são compilados no convidado: cada execução de dex2oat falha de imediato. Aviso: pode causar falhas, problemas visuais e outro comportamento não intencional (as aplicações ficam mais lentas, alguns firmware não arrancam sem compilação). Desativado por predefinição. Aplica-se no próximo arranque completo.</string>
     <string name="m_multitask">Alternância de tarefas</string>
     <string name="nav_show">Mostrar a barra de botões do Android</string>
+    <string name="vs_refresh">Frequência de atualização do ecrã</string>
+    <string name="vs_refresh_host">Este dispositivo</string>
+    <string name="vs_refresh_custom">Personalizada</string>
+    <string name="vs_refresh_custom_hint">Frequência (10–1000)</string>
+    <string name="vs_refresh_sub">A frequência que o convidado declara e com que desenha. Aplica-se no próximo arranque completo da máquina virtual.</string>
+    <string name="vs_refresh_cap">O ecrã do seu telemóvel atinge no máximo %1$d Hz. O convidado declarará %2$d Hz, mas só consegue desenhar a %1$d Hz.</string>
+    <string name="vs_refresh_needs_gpu">O SwiftShader desenha no CPU e não consegue acompanhar. Ative a «GPU do telemóvel» para alterar isto; caso contrário, o convidado fica nos 60 Hz.</string>
+    <string name="vs_storage">Armazenamento</string>
+    <string name="vs_storage_auto">Disco do telemóvel</string>
+    <string name="vs_storage_sub">O tamanho que o convidado vê. O espaço livre é sempre o livre real do telemóvel, e usado = tamanho − livre, por isso nunca se diz ao convidado que pode guardar mais do que cabe no telemóvel. Aplica-se após um reinício completo da máquina virtual.</string>
+    <string name="vs_storage_type">Tipo de armazenamento</string>
+    <string name="vs_storage_type_auto">Predefinido</string>
+    <string name="vs_storage_type_sub">Se o convidado vê eMMC ou UFS (propriedades e nós de bloco em /sys).</string>
+    <string name="vs_soc">Chip (SoC) declarado ao convidado</string>
+    <string name="vs_soc_sub">É escrito em /proc/cpuinfo e /sys/devices/soc0, e nas propriedades ro.board.platform (todas as versões do Android) e ro.soc.model / ro.soc.manufacturer (Android 12+). O número de núcleos e as frequências do CPU dependem dele. Aplica-se após um reinício completo da máquina virtual.</string>
+    <string name="vs_soc_default">Predefinido (%1$s)</string>
+    <string name="vs_soc_host">Este dispositivo (este telemóvel)</string>
+    <string name="vs_soc_custom">Personalizado</string>
+    <string name="vs_soc_preset">Conjunto pronto</string>
+    <string name="vs_soc_preset_title">Escolha um chip</string>
+    <string name="vs_soc_search">Pesquisar (nome, modelo, GPU)</string>
+    <string name="vs_soc_none">Nenhum chip corresponde.</string>
+    <string name="vs_soc_close">Fechar</string>
+    <string name="vs_soc_change">Escolher outro chip…</string>
+    <string name="vs_soc_default_sub">Chip próprio do tablet Project Tango</string>
+    <string name="vs_soc_gpu_off">A GPU do telemóvel está desligada, por isso o convidado desenha via SwiftShader e vê o SwiftShader como a sua GPU, seja qual for o chip escolhido.</string>
+    <string name="vs_soc_gpu_hint">Só é usado quando a GPU do telemóvel está ligada. Vazio = GPU real do telemóvel. Funciona em todos os motores; mudam apenas dois nomes, não as capacidades da GPU.</string>
+    <string name="vs_soc_armv8">Núcleos ARMv8</string>
+    <string name="vs_soc_armv8_sub">Desligado: núcleos ARMv7 (disposição de 32 bits do /proc/cpuinfo). Ligado: núcleos ARMv8 (AArch64 para firmware de 64 bits, compatibilidade ARMv7 para 32 bits).</string>
+    <string name="vs_soc_cores">Núcleos do CPU</string>
+    <string name="vs_soc_cores_sub">Uma linha por grupo de núcleos, núcleos pequenos primeiro: count, implementer, variant, part, revision, MHz máx., MHz mín. (hex com 0x ou decimal).</string>
+    <string name="vs_soc_cores_bad">Não guardado: cada linha exige count, implementer, variant, part, revision e MHz máx. (até 4 linhas, 16 núcleos).</string>
+    <string name="vs_soc_features_hint">Vazio = flags habituais para esse tipo de núcleo.</string>
+    <string name="sk_reset_led">Repor posição do LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Ocultar a barra de botões do Android</string>
+    <string name="vs_gl_trace">Registar chamadas GL (para relatórios de erro)</string>
+    <string name="vs_gl_trace_sub">Mantém na memória as últimas 16 000 chamadas à ponte de GPU com o erro GL e o estado de cada desenho, e acrescenta-as à exportação de registos como gl-trace.txt. Torna o desenho um pouco mais lento, por isso normalmente deixe desligado. Abra o ecrã que desenha mal e depois exporte os registos. Aplica-se no próximo arranque.</string>
 </resources>

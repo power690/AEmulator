@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">Ræsir Magisk dæmon við ræsingu, setur su í PATH og keyrir forskriftir og skrár eininga (Zygisk: kveiktu á því í Magisk appinu). Gildir við næstu fullu ræsingu. Tilraunaverk.</string>
+    <string name="vm_magisk_installed">Magisk %1$s (%2$d) er uppsett í þessari sýndarvél.</string>
+    <string name="vm_magisk_install">Setja upp Magisk (veldu APK)</string>
+    <string name="vm_magisk_replace">Skipta um Magisk (veldu annað APK)</string>
+    <string name="vm_magisk_remove">Fjarlægja Magisk</string>
+    <string name="vm_magisk_working">Setur upp Magisk… Stöðvaðu fyrst allar sýndarvélar.</string>
+    <string name="vm_magisk_done">Magisk %1$s uppsett. Kveiktu á Root og ræstu sýndarvélina; þegar kerfið er komið upp setur Magisk appið sig sjálft upp.</string>
+    <string name="vm_magisk_removed">Magisk fjarlægt. Einingar og magisk.db voru varðveitt.</string>
+</resources>

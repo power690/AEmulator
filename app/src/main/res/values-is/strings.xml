@@ -547,4 +547,42 @@
     <string name="vs_no_dex2oat_sub">Forrit og kerfiskóði eru aldrei þýddir í gestkerfinu: dex2oat fellur strax. Aðvörun: þetta getur valdið hrunum, glum og öðrum óæskilegum hegðunum (forrit keyra hægar, sum firmware ræsist ekki án þýðingar). Slökkt á sjálfgefið. Tekur gildi við næstu fullu ræsingu.</string>
     <string name="m_multitask">Verkskipti</string>
     <string name="nav_show">Sýna Android-hnappastiku</string>
+    <string name="vs_refresh">Endurnýjunartíðni skjás</string>
+    <string name="vs_refresh_host">Þetta tæki</string>
+    <string name="vs_refresh_custom">Eigin</string>
+    <string name="vs_refresh_custom_hint">Tíðni (10–1000)</string>
+    <string name="vs_refresh_sub">Tíðnin sem gesturinn tilkynnir og teiknar á. Gildir við næstu fulla ræsingu sýndarvélarinnar.</string>
+    <string name="vs_refresh_cap">Skjár símanns þolir að hámarki %1$d Hz. Gesturinn tilkynnir %2$d Hz en getur aðeins teiknað á %1$d Hz.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader teiknar á CPU og nær ekki. Kvektu á „GPU símans“ til að breyta því; annars verður gesturinn á 60 Hz.</string>
+    <string name="vs_storage">Geymsla</string>
+    <string name="vs_storage_auto">Diskur símans</string>
+    <string name="vs_storage_sub">Stærðin sem gesturinn sér. Laus pláss er alltaf raunverulegt laust pláss símans, og notað = stærð − laust, svo gestinum er aldrei sagt að hann geti geymt meira en síminn rúmar. Gildir eftir fulla endurræsingu sýndarvélarinnar.</string>
+    <string name="vs_storage_type">Geymslutegund</string>
+    <string name="vs_storage_type_auto">Sjálfgefið</string>
+    <string name="vs_storage_type_sub">Hvort gesturinn sér eMMC eða UFS (eiginleikar og blokkhnotar í /sys).</string>
+    <string name="vs_soc">Kubbur (SoC) sem gesturinn sér</string>
+    <string name="vs_soc_sub">Skrifað í /proc/cpuinfo og /sys/devices/soc0 og í eiginleikana ro.board.platform (allar Android-útgáfur) og ro.soc.model / ro.soc.manufacturer (Android 12+). Fjöldi kjarna og CPU-tíðni fylgja honum. Gildir eftir fulla endurræsingu sýndarvélarinnar.</string>
+    <string name="vs_soc_default">Sjálfgefið (%1$s)</string>
+    <string name="vs_soc_host">Þetta tæki (þessi sími)</string>
+    <string name="vs_soc_custom">Eigið</string>
+    <string name="vs_soc_preset">Tilbúið safn</string>
+    <string name="vs_soc_preset_title">Veldu kubb</string>
+    <string name="vs_soc_search">Leita (heiti, gerð, GPU)</string>
+    <string name="vs_soc_none">Enginn kubbur passar.</string>
+    <string name="vs_soc_close">Loka</string>
+    <string name="vs_soc_change">Velja annan kubb…</string>
+    <string name="vs_soc_default_sub">Eigin kubbur Project Tango-spjaldtölvunnar</string>
+    <string name="vs_soc_gpu_off">GPU símans er slökkt, svo gesturinn teiknar gegnum SwiftShader og sér SwiftShader sem GPU sinn, óháð völdum kubbi.</string>
+    <string name="vs_soc_gpu_hint">Notað aðeins þegar GPU símans er kveikt. Autt = raunverulegt GPU símans. Virkar á alla vélar; aðeins tvö heiti breytast, ekki getu GPU.</string>
+    <string name="vs_soc_armv8">ARMv8-kjarnar</string>
+    <string name="vs_soc_armv8_sub">Af: ARMv7-kjarnar (32-bita skipan /proc/cpuinfo). Á: ARMv8-kjarnar (AArch64 fyrir 64-bita fastbúnað, ARMv7-samhæfi fyrir 32-bita).</string>
+    <string name="vs_soc_cores">CPU-kjarnar</string>
+    <string name="vs_soc_cores_sub">Ein lína per kjarnahóp, litlir kjarnar fyrstir: count, implementer, variant, part, revision, hámark MHz, lágmark MHz (hex með 0x eða tugakerfi).</string>
+    <string name="vs_soc_cores_bad">Ekki vistað: hver lína þarf count, implementer, variant, part, revision og hámark MHz (allt að 4 línur, 16 kjarnar).</string>
+    <string name="vs_soc_features_hint">Autt = venjuleg flögg fyrir þá kjarnategund.</string>
+    <string name="sk_reset_led">Endurstilla staðsetningu LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Fela hnappastiku Android</string>
+    <string name="vs_gl_trace">Skrá GL-köll (fyrir villutilkynningar)</string>
+    <string name="vs_gl_trace_sub">Heldur síðustu 16 000 köllum GPU-brúarinnar með GL-villunni og stöðu hverrar teikningar í minni og bætir þeim við annálaútflutninginn sem gl-trace.txt. Hægir aðeins á teikningu, svo hafðu það venjulega slökkt. Opnaðu skjáinn sem teiknast rangt og flyttu svo út annálana. Gildir við næstu ræsingu.</string>
 </resources>

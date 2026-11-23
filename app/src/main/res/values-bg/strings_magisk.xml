@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">Стартира демона на Magisk при зареждане, поставя su в PATH и изпълнява скриптове и файлове на модули (Zygisk: включете го в приложението Magisk). Прилага се при следващото пълно зареждане. Експериментално.</string>
+    <string name="vm_magisk_installed">В тази ВМ е инсталиран Magisk %1$s (%2$d).</string>
+    <string name="vm_magisk_install">Инсталиране на Magisk (избор на APK)</string>
+    <string name="vm_magisk_replace">Замяна на Magisk (избор на друг APK)</string>
+    <string name="vm_magisk_remove">Премахване на Magisk</string>
+    <string name="vm_magisk_working">Инсталиране на Magisk… Първо спрете всички ВМ.</string>
+    <string name="vm_magisk_done">Magisk %1$s е инсталиран. Включете Root и стартирайте ВМ; след като системата се вдигне, приложението Magisk се инсталира само.</string>
+    <string name="vm_magisk_removed">Magisk е премахнат. Модулите и magisk.db са запазени.</string>
+</resources>

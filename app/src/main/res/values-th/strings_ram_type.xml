@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">ชนิด RAM</string>
+    <string name="vs_ram_type_auto">ค่าเริ่มต้น</string>
+    <string name="vs_ram_type_sub">ชนิดหน่วยความจำที่รายงานให้เกสต์ (LPDDR2 ถึง LPDDR5X) เปลี่ยนแค่ชื่อ ส่วนปริมาณมาจากการตั้งค่า “RAM ของเกสต์” มีผลหลังรีสตาร์ต VM แบบเต็ม</string>
+</resources>

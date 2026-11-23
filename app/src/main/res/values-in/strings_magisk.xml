@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">Menjalankan daemon Magisk saat boot, menaruh su di PATH, dan menjalankan skrip serta berkas modul (Zygisk: aktifkan di aplikasi Magisk). Berlaku pada boot penuh berikutnya. Eksperimental.</string>
+    <string name="vm_magisk_installed">Magisk %1$s (%2$d) terpasang di mesin virtual ini.</string>
+    <string name="vm_magisk_install">Pasang Magisk (pilih APK)</string>
+    <string name="vm_magisk_replace">Ganti Magisk (pilih APK lain)</string>
+    <string name="vm_magisk_remove">Hapus Magisk</string>
+    <string name="vm_magisk_working">Memasang Magisk… Hentikan semua mesin virtual dulu.</string>
+    <string name="vm_magisk_done">Magisk %1$s terpasang. Aktifkan Root dan mulai mesin virtual; saat sistem menyala, aplikasi Magisk memasang dirinya sendiri.</string>
+    <string name="vm_magisk_removed">Magisk dihapus. Modul dan magisk.db tetap disimpan.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">Lloji i RAM-it</string>
+    <string name="vs_ram_type_auto">Parazgjedhur</string>
+    <string name="vs_ram_type_sub">Lloji i memories që raporton mysafiri (LPDDR2 deri LPDDR5X). Ndryshon vetëm emri; sasia vjen nga cilësimi «RAM i mysafirit». Zbatohet pas një rinisjeje të plotë të makinës virtuale.</string>
+</resources>

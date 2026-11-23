@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM प्रकार</string>
+    <string name="vs_ram_type_auto">डिफ़ॉल्ट</string>
+    <string name="vs_ram_type_sub">वह मेमोरी प्रकार जो गेस्ट को बताया जाता है (LPDDR2 से LPDDR5X)। केवल नाम बदलता है; मात्रा “गेस्ट RAM” सेटिंग से आती है। VM के पूर्ण रीस्टार्ट के बाद लागू होता है।</string>
+</resources>

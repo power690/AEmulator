@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">%1$d filer i /system har ändrats av appen eller av dig och kan inte byggas om, t.ex. %2$s. En SquashFS-systemavbild kan bara byggas om från oförändrade filer. Ingenting ändrades.</string>
     <string name="imp_unreadable_mbr">%1$s: oläsbar MBR-partitionstabell</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: ingen systempartition i MBR</string>
+    <string name="warn_arm64">64-bitars firmware: endast 32-bitars ARM stöds.</string>
+    <string name="warn_no_healthd">Ingen healthd i uppstartsplanen (/sbin/healthd saknas; ramdisk överhoppad vid import?): system_server hänger sig i BatteryService.</string>
 </resources>

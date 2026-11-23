@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">Tosaíonn sé daemon Magisk ag am tosaithe, cuireann su sa PATH agus ritheann sé scripteanna agus comhaid modúl (Zygisk: cuir ar siúl é in aip Magisk). Bíonn feidhm aige ag an gcéad lascadh iomlán eile. Turgnamhach.</string>
+    <string name="vm_magisk_installed">Tá Magisk %1$s (%2$d) suiteáilte sa mheaisín fíorúil seo.</string>
+    <string name="vm_magisk_install">Suiteáil Magisk (roghnaigh APK)</string>
+    <string name="vm_magisk_replace">Ionadaigh Magisk (roghnaigh APK eile)</string>
+    <string name="vm_magisk_remove">Bain Magisk</string>
+    <string name="vm_magisk_working">Ag suiteáil Magisk… Stop gach meaisín fíorúil ar dtús.</string>
+    <string name="vm_magisk_done">Magisk %1$s suiteáilte. Cuir Root ar siúl agus tosaigh an meaisín; nuair a bheidh an córas suas, suiteálann aip Magisk í féin.</string>
+    <string name="vm_magisk_removed">Baineadh Magisk. Coinníodh na modúil agus magisk.db.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM turi</string>
+    <string name="vs_ram_type_auto">Standart</string>
+    <string name="vs_ram_type_sub">Mehmon ko‘radigan xotira turi (LPDDR2–LPDDR5X). Faqat nomi o‘zgaradi; hajmi «Mehmon RAM» sozlamasidan olinadi. VM to‘liq qayta ishga tushirilgach kuchga kiradi.</string>
+</resources>

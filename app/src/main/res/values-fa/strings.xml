@@ -540,4 +540,42 @@
     <string name="vs_no_dex2oat_sub">برنامه‌ها و کد سیستم هرگز در سیستم مهمان کامپایل نمی‌شوند: هر اجرای dex2oat بلافاصله شکست می‌خورد. هشدار: این می‌تواند خرابی‌ها، خطاهای تصویری و رفتارهای ناخواستهٔ دیگری ایجاد کند (برنامه‌ها کندتر اجرا می‌شوند، برخی میان‌افزارها بدون کامپایل بالا نمی‌آیند). به‌طور پیش‌فرض خاموش است. در راه‌اندازی کامل بعدی اعمال می‌شود.</string>
     <string name="m_multitask">تعویض وظایف</string>
     <string name="nav_show">نمایش نوار دکمه‌های اندروید</string>
+    <string name="vs_refresh">نرخ تازه‌سازی صفحه</string>
+    <string name="vs_refresh_host">این دستگاه</string>
+    <string name="vs_refresh_custom">سفارشی</string>
+    <string name="vs_refresh_custom_hint">نرخ (10–1000)</string>
+    <string name="vs_refresh_sub">نرخی که مهمان اعلام می‌کند و با آن رسم می‌کند. در راه‌اندازی کامل بعدی ماشین مجازی اعمال می‌شود.</string>
+    <string name="vs_refresh_cap">صفحهٔ گوشی شما حداکثر %1$d هرتز را پشتیبانی می‌کند. مهمان %2$d هرتز اعلام می‌کند، اما فقط می‌تواند با %1$d هرتز رسم کند.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader روی پردازنده رسم می‌کند و جا نمی‌ماند. برای تغییر، «پردازندهٔ گرافیکی گوشی» را روشن کنید؛ در غیر این صورت مهمان روی ۶۰ هرتز می‌ماند.</string>
+    <string name="vs_storage">حافظه</string>
+    <string name="vs_storage_auto">دیسک گوشی</string>
+    <string name="vs_storage_sub">حجمی که مهمان می‌بیند. فضای خالی همیشه فضای خالی واقعی گوشی است و مصرف‌شده = حجم − خالی، بنابراین هرگز به مهمان گفته نمی‌شود که می‌تواند بیشتر از ظرفیت گوشی ذخیره کند. پس از راه‌اندازی مجدد کامل ماشین مجازی اعمال می‌شود.</string>
+    <string name="vs_storage_type">نوع حافظه</string>
+    <string name="vs_storage_type_auto">پیش‌فرض</string>
+    <string name="vs_storage_type_sub">اینکه مهمان eMMC می‌بیند یا UFS (ویژگی‌ها و گره‌های بلوکی در /sys).</string>
+    <string name="vs_soc">تراشه (SoC) اعلام‌شده به مهمان</string>
+    <string name="vs_soc_sub">در /proc/cpuinfo و /sys/devices/soc0 و نیز ویژگی‌های ro.board.platform (همهٔ نسخه‌های اندروید) و ro.soc.model / ro.soc.manufacturer (اندروید ۱۲+) نوشته می‌شود. تعداد هسته‌ها و فرکانس‌های پردازنده از آن پیروی می‌کنند. پس از راه‌اندازی مجدد کامل ماشین مجازی اعمال می‌شود.</string>
+    <string name="vs_soc_default">پیش‌فرض (%1$s)</string>
+    <string name="vs_soc_host">این دستگاه (این گوشی)</string>
+    <string name="vs_soc_custom">سفارشی</string>
+    <string name="vs_soc_preset">مجموعهٔ آماده</string>
+    <string name="vs_soc_preset_title">تراشه را انتخاب کنید</string>
+    <string name="vs_soc_search">جستجو (نام، مدل، GPU)</string>
+    <string name="vs_soc_none">تراشهٔ مطابقی نیست.</string>
+    <string name="vs_soc_close">بستن</string>
+    <string name="vs_soc_change">انتخاب تراشهٔ دیگر…</string>
+    <string name="vs_soc_default_sub">تراشهٔ اختصاصی تبلت Project Tango</string>
+    <string name="vs_soc_gpu_off">پردازندهٔ گرافیکی گوشی خاموش است، بنابراین مهمان از طریق SwiftShader رسم می‌کند و SwiftShader را پردازندهٔ گرافیکی خود می‌بیند، هر تراشه‌ای که انتخاب شود.</string>
+    <string name="vs_soc_gpu_hint">فقط وقتی پردازندهٔ گرافیکی گوشی روشن است استفاده می‌شود. خالی = پردازندهٔ گرافیکی واقعی گوشی. روی همهٔ موتورها کار می‌کند؛ فقط دو نام تغییر می‌کند، نه توانایی‌های پردازندهٔ گرافیکی.</string>
+    <string name="vs_soc_armv8">هسته‌های ARMv8</string>
+    <string name="vs_soc_armv8_sub">خاموش: هسته‌های ARMv7 (چیدمان ۳۲بیتی /proc/cpuinfo). روشن: هسته‌های ARMv8 (AArch64 برای سیستم‌عامل ۶۴بیتی، سازگاری ARMv7 برای ۳۲بیتی).</string>
+    <string name="vs_soc_cores">هسته‌های پردازنده</string>
+    <string name="vs_soc_cores_sub">یک خط برای هر گروه هسته، هسته‌های کوچک اول: count، implementer، variant، part، revision، بیشترین MHz، کمترین MHz (هگز با 0x یا ده‌دهی).</string>
+    <string name="vs_soc_cores_bad">ذخیره نشد: هر خط به count، implementer، variant، part، revision و بیشترین MHz نیاز دارد (حداکثر ۴ خط، ۱۶ هسته).</string>
+    <string name="vs_soc_features_hint">خالی = پرچم‌های معمول برای آن نوع هسته.</string>
+    <string name="sk_reset_led">بازنشانی موقعیت LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">پنهان‌کردن نوار دکمه‌های اندروید</string>
+    <string name="vs_gl_trace">ثبت فراخوانی‌های GL (برای گزارش خطا)</string>
+    <string name="vs_gl_trace_sub">آخرین ۱۶٬۰۰۰ فراخوانی پل GPU را همراه خطای GL و وضعیت هر رسم در حافظه نگه می‌دارد و آن‌ها را به‌صورت gl-trace.txt به خروجی گزارش‌ها می‌افزاید. رسم را کمی کند می‌کند، پس معمولاً خاموش بگذارید. صفحه‌ای را که بد رسم می‌شود باز کنید، سپس گزارش‌ها را خروجی بگیرید. در راه‌اندازی بعدی اعمال می‌شود.</string>
 </resources>

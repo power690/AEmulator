@@ -540,4 +540,42 @@
     <string name="vs_no_dex2oat_sub">แอปและโค้ดของระบบจะไม่ถูกคอมไพล์ในเกสต์เลย การรัน dex2oat ทุกครั้งจะล้มเหลวทันที คำเตือน: อาจทำให้แอปพัง จอกระตุก หรือทำงานผิดปกติอย่างอื่นได้ (แอปทำงานช้าลง บางเฟิร์มแวร์บูตไม่ได้ถ้าไม่คอมไพล์) ปิดอยู่โดยค่าเริ่มต้น มีผลตั้งแต่การเริ่มระบบแบบเต็มครั้งถัดไป</string>
     <string name="m_multitask">สลับงาน</string>
     <string name="nav_show">แสดงแถบปุ่ม Android</string>
+    <string name="vs_refresh">อัตรารีเฟรชหน้าจอ</string>
+    <string name="vs_refresh_host">อุปกรณ์นี้</string>
+    <string name="vs_refresh_custom">กำหนดเอง</string>
+    <string name="vs_refresh_custom_hint">อัตรา (10–1000)</string>
+    <string name="vs_refresh_sub">อัตราที่เกสต์ประกาศและใช้ในการวาด มีผลเมื่อบูตเครื่องเสมือนแบบเต็มครั้งถัดไป</string>
+    <string name="vs_refresh_cap">หน้าจอโทรศัพท์ของคุณทำได้สูงสุด %1$d Hz เกสต์จะประกาศ %2$d Hz แต่จะวาดได้เพียง %1$d Hz</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader วาดบนซีพียูและตามไม่ทัน เปิด „GPU ของโทรศัพท์” เพื่อเปลี่ยนค่านี้ ไม่เช่นนั้นเกสต์จะอยู่ที่ 60 Hz</string>
+    <string name="vs_storage">ที่เก็บข้อมูล</string>
+    <string name="vs_storage_auto">ดิสก์ของโทรศัพท์</string>
+    <string name="vs_storage_sub">ขนาดที่เกสต์เห็น พื้นที่ว่างคือพื้นที่ว่างจริงของโทรศัพท์เสมอ และใช้ไป = ขนาด − ว่าง จึงไม่มีการบอกเกสต์ว่าสามารถเก็บได้มากกว่าที่โทรศัพท์รองรับ มีผลหลังรีสตาร์ตเครื่องเสมือนแบบเต็ม</string>
+    <string name="vs_storage_type">ประเภทที่เก็บข้อมูล</string>
+    <string name="vs_storage_type_auto">ค่าเริ่มต้น</string>
+    <string name="vs_storage_type_sub">เกสต์เห็น eMMC หรือ UFS (พร็อพเพอร์ตี้และโหนดบล็อกใน /sys)</string>
+    <string name="vs_soc">ชิป (SoC) ที่ประกาศให้เกสต์</string>
+    <string name="vs_soc_sub">เขียนลง /proc/cpuinfo และ /sys/devices/soc0 รวมถึงพร็อพเพอร์ตี้ ro.board.platform (แอนดรอยด์ทุกเวอร์ชัน) และ ro.soc.model / ro.soc.manufacturer (แอนดรอยด์ 12+) จำนวนคอร์และความถี่ซีพียูขึ้นกับค่านี้ มีผลหลังรีสตาร์ตเครื่องเสมือนแบบเต็ม</string>
+    <string name="vs_soc_default">ค่าเริ่มต้น (%1$s)</string>
+    <string name="vs_soc_host">อุปกรณ์นี้ (โทรศัพท์นี้)</string>
+    <string name="vs_soc_custom">กำหนดเอง</string>
+    <string name="vs_soc_preset">ชุดสำเร็จรูป</string>
+    <string name="vs_soc_preset_title">เลือกชิป</string>
+    <string name="vs_soc_search">ค้นหา (ชื่อ รุ่น GPU)</string>
+    <string name="vs_soc_none">ไม่มีชิปที่ตรงกัน</string>
+    <string name="vs_soc_close">ปิด</string>
+    <string name="vs_soc_change">เลือกชิปอื่น…</string>
+    <string name="vs_soc_default_sub">ชิปเฉพาะของแท็บเล็ต Project Tango</string>
+    <string name="vs_soc_gpu_off">GPU ของโทรศัพท์ปิดอยู่ เกสต์จึงวาดผ่าน SwiftShader และเห็น SwiftShader เป็น GPU ของตน ไม่ว่าจะเลือกชิปใด</string>
+    <string name="vs_soc_gpu_hint">ใช้เมื่อ GPU ของโทรศัพท์เปิดอยู่เท่านั้น ว่าง = GPU จริงของโทรศัพท์ ใช้ได้กับทุกเอนจิน มีเพียงสองชื่อที่เปลี่ยน ไม่ใช่ความสามารถของ GPU</string>
+    <string name="vs_soc_armv8">คอร์ ARMv8</string>
+    <string name="vs_soc_armv8_sub">ปิด: คอร์ ARMv7 (เลย์เอาต์ 32 บิตของ /proc/cpuinfo) เปิด: คอร์ ARMv8 (AArch64 สำหรับเฟิร์มแวร์ 64 บิต เข้ากันได้กับ ARMv7 สำหรับ 32 บิต)</string>
+    <string name="vs_soc_cores">คอร์ซีพียู</string>
+    <string name="vs_soc_cores_sub">หนึ่งบรรทัดต่อกลุ่มคอร์ คอร์เล็กก่อน: count, implementer, variant, part, revision, MHz สูงสุด, MHz ต่ำสุด (เลขฐานสิบหกมี 0x หรือฐานสิบ)</string>
+    <string name="vs_soc_cores_bad">ไม่ได้บันทึก: แต่ละบรรทัดต้องมี count, implementer, variant, part, revision และ MHz สูงสุด (ไม่เกิน 4 บรรทัด 16 คอร์)</string>
+    <string name="vs_soc_features_hint">ว่าง = แฟล็กปกติของคอร์ชนิดนั้น</string>
+    <string name="sk_reset_led">รีเซ็ตตำแหน่ง LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">ซ่อนแถบปุ่มของแอนดรอยด์</string>
+    <string name="vs_gl_trace">บันทึกการเรียก GL (สำหรับรายงานบั๊ก)</string>
+    <string name="vs_gl_trace_sub">เก็บการเรียกบริดจ์ GPU 16,000 ครั้งล่าสุดพร้อมข้อผิดพลาด GL และสถานะของการวาดแต่ละครั้งไว้ในหน่วยความจำ แล้วเพิ่มลงในการส่งออกบันทึกเป็น gl-trace.txt ทำให้วาดช้าลงเล็กน้อย จึงปกติควรปิดไว้ เปิดหน้าจอที่วาดผิด แล้วส่งออกบันทึก มีผลเมื่อเริ่มครั้งถัดไป</string>
 </resources>

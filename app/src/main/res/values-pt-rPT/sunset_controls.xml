@@ -43,4 +43,8 @@
     <string name="m_resize_done">Redimensionamento concluído</string>
     <string name="m_resize_reset">Repor tamanho do ecrã</string>
     <string name="vi_resize_hint">Arraste um canto do ecrã para o redimensionar. Quando terminar, abra o menu e toque em “Redimensionamento concluído”.</string>
+    <string name="vi_spen">Entrada: S-Pen</string>
+    <string name="vi_spen_button">Botão S-Pen (Air Command)</string>
+    <string name="vi_spen_sub">Regista, no convidado, um digitalizador S-Pen (sec_e-pen) ao lado do ecrã tátil e adiciona dois botões à barra de navegação. Modo S-Pen: enquanto está ativo, cada toque no ecrã chega ao convidado como S-Pen (tipo de ferramenta caneta, pressão, hover imediatamente antes e depois do contacto; um contacto de cada vez, sem multitoco), e uma caneta do anfitrião também faz hover e o seu botão lateral funciona. Botão S-Pen: um toque prime e liberta o botão lateral da caneta durante o hover, o que abre o Air Command num firmware Samsung que o tenha. Requer Android 4.0 ou superior e um reinício completo da VM.</string>
+    <string name="vi_spen_toggle">Modo S-Pen</string>
 </resources>

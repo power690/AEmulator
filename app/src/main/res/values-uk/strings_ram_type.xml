@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">Тип ОЗП</string>
+    <string name="vs_ram_type_auto">Типово</string>
+    <string name="vs_ram_type_sub">Тип пам’яті, який бачить гостьова система (LPDDR2–LPDDR5X). Змінюється лише назва; обсяг задається в «ОЗП гостьової системи». Застосовується після повного перезапуску ВМ.</string>
+</resources>

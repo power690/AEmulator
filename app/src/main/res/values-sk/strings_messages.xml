@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">Súbory v /system (%1$d) zmenila aplikácia alebo vy a nedajú sa znova zostaviť, napr. %2$s. Systémový obraz SquashFS sa dá zostaviť len z nezmenených súborov. Nič sa nezmenilo.</string>
     <string name="imp_unreadable_mbr">%1$s: nečitateľná tabuľka oddielov MBR</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: v MBR nie je systémový oddiel</string>
+    <string name="warn_arm64">64-bitový firmware: podporovaný je iba 32-bitový ARM.</string>
+    <string name="warn_no_healthd">V pláne štartu nie je healthd (chýba /sbin/healthd; ramdisk preskočený pri importe?): system_server sa zasekne v BatteryService.</string>
 </resources>

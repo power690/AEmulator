@@ -43,4 +43,8 @@
     <string name="m_resize_done">Aanpassen klaar</string>
     <string name="m_resize_reset">Schermgrootte herstellen</string>
     <string name="vi_resize_hint">Sleep een hoek van het scherm om het formaat te wijzigen. Open daarna het menu en tik op “Aanpassen klaar”.</string>
+    <string name="vi_spen">Invoer: S-Pen</string>
+    <string name="vi_spen_button">S-Pen-knop (Air Command)</string>
+    <string name="vi_spen_sub">Registreert in de gast een S-Pen-digitaliseerder (sec_e-pen) naast het aanraakscherm en voegt twee knoppen toe aan de navigatiebalk. S-Pen-modus: zolang die aan staat, komt elke aanraking van het scherm bij de gast aan als S-Pen (gereedschapstype stylus, druk, hover net voor en na contact; één contact tegelijk, geen multitouch), en een host-stylus zweeft ook en zijn zijknop werkt. S-Pen-knop: een tik drukt de zijknop van de pen in en laat los terwijl ze zweeft, wat Air Command opent op Samsung-firmware die dat heeft. Vereist Android 4.0 of nieuwer en een volledige herstart van de VM.</string>
+    <string name="vi_spen_toggle">S-Pen-modus</string>
 </resources>

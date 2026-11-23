@@ -43,4 +43,8 @@
     <string name="m_resize_done">ปรับขนาดเสร็จแล้ว</string>
     <string name="m_resize_reset">รีเซ็ตขนาดหน้าจอ</string>
     <string name="vi_resize_hint">ลากมุมของหน้าจอเพื่อปรับขนาด เมื่อเสร็จแล้วให้เปิดเมนูและแตะ “ปรับขนาดเสร็จแล้ว”</string>
+    <string name="vi_spen">อินพุต: S-Pen</string>
+    <string name="vi_spen_button">ปุ่ม S-Pen (Air Command)</string>
+    <string name="vi_spen_sub">ลงทะเบียนดิจิไทเซอร์ S-Pen (sec_e-pen) ในเกสต์ควบคู่กับหน้าจอสัมผัส และเพิ่มปุ่มสองปุ่มในแถบนำทาง โหมด S-Pen: ขณะเปิดอยู่ ทุกการแตะบนหน้าจอจะไปถึงเกสต์ในฐานะ S-Pen (ชนิดเครื่องมือปากกา แรงกด การลอยก่อนและหลังสัมผัสเล็กน้อย; หนึ่งจุดสัมผัสในแต่ละครั้ง ไม่รองรับหลายจุด) และปากกาของโฮสต์ก็ลอยได้และปุ่มข้างทำงาน ปุ่ม S-Pen: การแตะขณะลอยจะกดและปล่อยปุ่มข้างของปากกา ซึ่งเปิด Air Command บนเฟิร์มแวร์ Samsung ที่มีฟีเจอร์นี้ ต้องใช้ Android 4.0 ขึ้นไปและรีสตาร์ต VM แบบเต็ม</string>
+    <string name="vi_spen_toggle">โหมด S-Pen</string>
 </resources>

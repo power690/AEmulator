@@ -43,4 +43,8 @@
     <string name="m_resize_done">Dydžio keitimas baigtas</string>
     <string name="m_resize_reset">Atkurti ekrano dydį</string>
     <string name="vi_resize_hint">Vilkite ekrano kampą, kad pakeistumėte jo dydį. Baigę atidarykite meniu ir palieskite „Dydžio keitimas baigtas“.</string>
+    <string name="vi_spen">Įvestis: S-Pen</string>
+    <string name="vi_spen_button">S-Pen mygtukas (Air Command)</string>
+    <string name="vi_spen_sub">Registruoja svečio sistemoje S-Pen digitalizatorių (sec_e-pen) šalia jutiklinio ekrano ir prideda du mygtukus į navigacijos juostą. S-Pen režimas: kol jis įjungtas, kiekvienas ekrano prisilietimas pasiekia svečią kaip S-Pen (įrankio tipas plunksna, slėgis, pakibimas prieš ir po prisilietimo; vienas kontaktas vienu metu, be kelių prisilietimų), o prieglobos plunksna taip pat pakimba ir jos šoninis mygtukas veikia. S-Pen mygtukas: palietus pakibimo metu paspaudžiamas ir atleidžiamas plunksnos šoninis mygtukas, kas atidaro Air Command Samsung programinėje įrangoje, kuri ją turi. Reikia Android 4.0 ar naujesnės ir visiško VM paleidimo iš naujo.</string>
+    <string name="vi_spen_toggle">S-Pen režimas</string>
 </resources>

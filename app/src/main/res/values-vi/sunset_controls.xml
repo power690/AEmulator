@@ -43,4 +43,8 @@
     <string name="m_resize_done">Đã đổi xong kích thước</string>
     <string name="m_resize_reset">Đặt lại kích thước màn hình</string>
     <string name="vi_resize_hint">Kéo một góc của màn hình để đổi kích thước. Khi xong, hãy mở menu và nhấn “Đã đổi xong kích thước”.</string>
+    <string name="vi_spen">Đầu vào: S-Pen</string>
+    <string name="vi_spen_button">Nút S-Pen (Air Command)</string>
+    <string name="vi_spen_sub">Đăng ký trong khách một bộ số hóa S-Pen (sec_e-pen) bên cạnh màn hình cảm ứng và thêm hai nút vào thanh điều hướng. Chế độ S-Pen: khi bật, mọi lần chạm trên màn hình đến khách dưới dạng S-Pen (loại công cụ bút, áp lực, rê ngay trước và sau khi chạm; một điểm chạm mỗi lần, không đa chạm), và bút của máy chủ cũng rê được và nút bên của nó hoạt động. Nút S-Pen: một lần chạm sẽ nhấn và nhả nút bên của bút khi đang rê, mở Air Command trên firmware Samsung có tính năng này. Cần Android 4.0 trở lên và khởi động lại đầy đủ máy ảo.</string>
+    <string name="vi_spen_toggle">Chế độ S-Pen</string>
 </resources>

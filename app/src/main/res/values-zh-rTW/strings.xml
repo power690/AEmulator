@@ -540,4 +540,42 @@
     <string name="vs_no_dex2oat_sub">應用程式與系統程式碼永遠不會在客體中編譯：每次 dex2oat 執行都會立即失敗。警告：可能導致當機、畫面異常等非預期行為（應用程式變慢，部分韌體無編譯則無法開機）。預設關閉。下次完整啟動時生效。</string>
     <string name="m_multitask">多工切換</string>
     <string name="nav_show">顯示 Android 按鈕列</string>
+    <string name="vs_refresh">螢幕更新率</string>
+    <string name="vs_refresh_host">本機</string>
+    <string name="vs_refresh_custom">自訂</string>
+    <string name="vs_refresh_custom_hint">更新率（10-1000）</string>
+    <string name="vs_refresh_sub">虛擬機向系統回報並實際繪製的更新率。下次完整啟動虛擬機後生效。</string>
+    <string name="vs_refresh_cap">你的手機螢幕最高只有 %1$d Hz。虛擬機會回報 %2$d Hz，但實際只能以 %1$d Hz 繪製。</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader 以 CPU 繪製，跟不上這個更新率。要變更請開啟「手機 GPU」，否則虛擬機會維持 60 Hz。</string>
+    <string name="vs_storage">儲存空間</string>
+    <string name="vs_storage_auto">手機本機磁碟</string>
+    <string name="vs_storage_sub">虛擬機回報的容量。可用空間一律是手機實際的可用空間，已用 = 容量 − 可用，因此虛擬機不會被誤認為能儲存超過手機實際容量。完全重新啟動虛擬機後生效。</string>
+    <string name="vs_storage_type">儲存類型</string>
+    <string name="vs_storage_type_auto">預設</string>
+    <string name="vs_storage_type_sub">虛擬機看到的儲存類型是 eMMC 還是 UFS（屬性以及 /sys 下的區塊裝置節點）。</string>
+    <string name="vs_soc">向虛擬機回報的晶片（SoC）</string>
+    <string name="vs_soc_sub">寫入 /proc/cpuinfo、/sys/devices/soc0，以及屬性 ro.board.platform（所有 Android 版本）與 ro.soc.model / ro.soc.manufacturer（Android 12+）。核心數與 CPU 頻率也跟著改變。完全重新啟動虛擬機後生效。</string>
+    <string name="vs_soc_default">預設（%1$s）</string>
+    <string name="vs_soc_host">本機（這支手機）</string>
+    <string name="vs_soc_custom">自訂</string>
+    <string name="vs_soc_preset">預設集</string>
+    <string name="vs_soc_preset_title">選擇晶片</string>
+    <string name="vs_soc_search">搜尋（名稱、型號、GPU）</string>
+    <string name="vs_soc_none">沒有符合的晶片。</string>
+    <string name="vs_soc_close">關閉</string>
+    <string name="vs_soc_change">選擇其他晶片…</string>
+    <string name="vs_soc_default_sub">Project Tango 平板本身的晶片</string>
+    <string name="vs_soc_gpu_off">手機 GPU 已關閉，虛擬機改用 SwiftShader 繪製，不論選哪個晶片都會把 SwiftShader 當成 GPU。</string>
+    <string name="vs_soc_gpu_hint">僅在手機 GPU 開啟時使用。留空 = 手機實際的 GPU。所有引擎皆可用，只有兩個名稱會變，GPU 的能力不變。</string>
+    <string name="vs_soc_armv8">ARMv8 核心</string>
+    <string name="vs_soc_armv8_sub">關閉：ARMv7 核心（/proc/cpuinfo 的 32 位元配置）。開啟：ARMv8 核心（64 位元韌體使用 AArch64 配置，32 位元維持 ARMv7 相容）。</string>
+    <string name="vs_soc_cores">CPU 核心</string>
+    <string name="vs_soc_cores_sub">每組核心一行，小核在前：count、implementer、variant、part、revision、最大 MHz、最小 MHz（含 0x 的十六進位或十進位）。</string>
+    <string name="vs_soc_cores_bad">未儲存：每行至少需要 count、implementer、variant、part、revision 與最大 MHz（最多 4 行、16 個核心）。</string>
+    <string name="vs_soc_features_hint">留空 = 使用該核心類型的標準旗標。</string>
+    <string name="sk_reset_led">重設 LED 位置</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">隱藏 Android 按鈕列</string>
+    <string name="vs_gl_trace">記錄 GL 呼叫（供問題回報）</string>
+    <string name="vs_gl_trace_sub">在記憶體中保留 GPU 橋接最近 16,000 次呼叫，包含每次繪製的 GL 錯誤與狀態，並以 gl-trace.txt 加入日誌匯出。會稍微拖慢繪製，平時請保持關閉。先開啟繪製異常的畫面，再匯出日誌。下次啟動生效。</string>
 </resources>

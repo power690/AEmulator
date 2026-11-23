@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">Paleidžiant įjungia Magisk tarnybą, įterpia su į PATH ir vykdo modulių scenarijus bei failus (Zygisk: įjunkite Magisk programoje). Įsigalioja kitą kartą visiškai paleidus. Eksperimentinis.</string>
+    <string name="vm_magisk_installed">Šioje VM įdiegtas Magisk %1$s (%2$d).</string>
+    <string name="vm_magisk_install">Įdiegti Magisk (pasirinkti APK)</string>
+    <string name="vm_magisk_replace">Pakeisti Magisk (pasirinkti kitą APK)</string>
+    <string name="vm_magisk_remove">Pašalinti Magisk</string>
+    <string name="vm_magisk_working">Diegiamas Magisk… Pirmiausia sustabdykite visas VM.</string>
+    <string name="vm_magisk_done">Magisk %1$s įdiegtas. Įjunkite Root ir paleiskite VM; kai sistema pakils, Magisk programa įsidiegs pati.</string>
+    <string name="vm_magisk_removed">Magisk pašalintas. Moduliai ir magisk.db išsaugoti.</string>
+</resources>

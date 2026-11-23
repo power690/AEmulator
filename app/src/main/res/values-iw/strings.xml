@@ -550,4 +550,42 @@
     <string name="vs_no_dex2oat_sub">אפליקציות וקוד מערכת לעולם לא מהודרים במערכת האורחת: כל הרצה של dex2oat נכשלת מיד. אזהרה: הדבר עלול לגרום קריסות, תקלות תצוגה והתנהגות בלתי צפויה אחרת (האפליקציות אטיות יותר, חלק מהקושחות לא נדלקות בלי הידור). כבוי כברירת מחדל. יופעל בהפעלה המלאה הבאה.</string>
     <string name="m_multitask">החלפת משימות</string>
     <string name="nav_show">הצג את סרגל הכפתורים של Android</string>
+    <string name="vs_refresh">קצב רענון המסך</string>
+    <string name="vs_refresh_host">המכשיר הזה</string>
+    <string name="vs_refresh_custom">מותאם אישית</string>
+    <string name="vs_refresh_custom_hint">קצב (10–1000)</string>
+    <string name="vs_refresh_sub">הקצב שהאורח מצהיר עליו ושבו הוא מצייר. נכנס לתוקף בהפעלה המלאה הבאה של המכונה הווירטואלית.</string>
+    <string name="vs_refresh_cap">המסך של הטלפון שלך מגיע ל-%1$d הרץ לכל היותר. האורח יצהיר על %2$d הרץ, אבל יוכל לצייר רק ב-%1$d הרץ.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader מצייר על המעבד ולא מספיק. הפעל את „ה-GPU של הטלפון” כדי לשנות זאת; אחרת האורח יישאר על 60 הרץ.</string>
+    <string name="vs_storage">אחסון</string>
+    <string name="vs_storage_auto">הדיסק של הטלפון</string>
+    <string name="vs_storage_sub">הגודל שהאורח רואה. המקום הפנוי הוא תמיד המקום הפנוי האמיתי של הטלפון, ותפוס = גודל − פנוי, כך שלעולם לא נאמר לאורח שהוא יכול לשמור יותר ממה שהטלפון מכיל. נכנס לתוקף לאחר הפעלה מחדש מלאה של המכונה הווירטואלית.</string>
+    <string name="vs_storage_type">סוג אחסון</string>
+    <string name="vs_storage_type_auto">ברירת מחדל</string>
+    <string name="vs_storage_type_sub">אם האורח רואה eMMC או UFS (מאפיינים וצמתי בלוק ב-/sys).</string>
+    <string name="vs_soc">השבב (SoC) שמוצהר לאורח</string>
+    <string name="vs_soc_sub">נכתב אל /proc/cpuinfo ואל /sys/devices/soc0, ואל המאפיינים ro.board.platform (כל גרסאות אנדרואיד) ו-ro.soc.model / ro.soc.manufacturer (אנדרואיד 12+). מספר הליבות ותדרי המעבד נגזרים ממנו. נכנס לתוקף לאחר הפעלה מחדש מלאה של המכונה הווירטואלית.</string>
+    <string name="vs_soc_default">ברירת מחדל (%1$s)</string>
+    <string name="vs_soc_host">המכשיר הזה (הטלפון הזה)</string>
+    <string name="vs_soc_custom">מותאם אישית</string>
+    <string name="vs_soc_preset">סט מוכן</string>
+    <string name="vs_soc_preset_title">בחר שבב</string>
+    <string name="vs_soc_search">חיפוש (שם, דגם, GPU)</string>
+    <string name="vs_soc_none">אין שבב מתאים.</string>
+    <string name="vs_soc_close">סגור</string>
+    <string name="vs_soc_change">בחר שבב אחר…</string>
+    <string name="vs_soc_default_sub">השבב העצמי של טאבלט Project Tango</string>
+    <string name="vs_soc_gpu_off">ה-GPU של הטלפון כבוי, לכן האורח מצייר דרך SwiftShader ורואה את SwiftShader כ-GPU שלו, יהיה איזה שבב שייבחר.</string>
+    <string name="vs_soc_gpu_hint">משמש רק כשה-GPU של הטלפון פועל. ריק = ה-GPU האמיתי של הטלפון. עובד בכל המנועים; רק שני שמות משתנים, לא יכולות ה-GPU.</string>
+    <string name="vs_soc_armv8">ליבות ARMv8</string>
+    <string name="vs_soc_armv8_sub">כבוי: ליבות ARMv7 (פריסת 32-bit של /proc/cpuinfo). פועל: ליבות ARMv8 (AArch64 לקושחה 64-bit, תאימות ARMv7 ל-32-bit).</string>
+    <string name="vs_soc_cores">ליבות המעבד</string>
+    <string name="vs_soc_cores_sub">שורה לכל קבוצת ליבות, הליבות הקטנות קודם: count, implementer, variant, part, revision, MHz מקסימלי, MHz מינימלי (הקסדצימלי עם 0x או עשרוני).</string>
+    <string name="vs_soc_cores_bad">לא נשמר: כל שורה דורשת count, implementer, variant, part, revision ו-MHz מקסימלי (עד 4 שורות, 16 ליבות).</string>
+    <string name="vs_soc_features_hint">ריק = הדגלים הרגילים לסוג הליבה הזה.</string>
+    <string name="sk_reset_led">איפוס מיקום ה-LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">הסתרת סרגל הכפתורים של אנדרואיד</string>
+    <string name="vs_gl_trace">תיעוד קריאות GL (לדוחות שגיאה)</string>
+    <string name="vs_gl_trace_sub">שומר בזיכרון את 16,000 הקריאות האחרונות לגשר ה-GPU עם שגיאת ה-GL ומצב כל ציור, ומוסיף אותן לייצוא היומנים כקובץ gl-trace.txt. מאט מעט את הציור, לכן בדרך כלל השאר אותו כבוי. פתח את המסך שמצויר לא נכון ואז ייצא את היומנים. נכנס לתוקף בהפעלה הבאה.</string>
 </resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">Uri ng RAM</string>
+    <string name="vs_ram_type_auto">Default</string>
+    <string name="vs_ram_type_sub">Uri ng memory na iniuulat sa guest (LPDDR2 hanggang LPDDR5X). Pangalan lang ang nagbabago; ang dami ay mula sa setting na “Guest RAM”. Magiging aktibo pagkatapos ng buong restart ng VM.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM gerð</string>
+    <string name="vs_ram_type_auto">Sjálfgefið</string>
+    <string name="vs_ram_type_sub">Minnisgerð sem gesturinn tilkynnir (LPDDR2 til LPDDR5X). Aðeins nafnið breytist; magnið kemur frá stillingunni „Gest-RAM“. Gildir eftir fulla endurræsingu sýndarvélarinnar.</string>
+</resources>

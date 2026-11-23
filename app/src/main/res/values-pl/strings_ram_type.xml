@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">Typ RAM</string>
+    <string name="vs_ram_type_auto">Domyślny</string>
+    <string name="vs_ram_type_sub">Typ pamięci zgłaszany gościowi (LPDDR2–LPDDR5X). Zmienia się tylko nazwa; rozmiar pochodzi z ustawienia „RAM gościa”. Działa po pełnym restarcie maszyny wirtualnej.</string>
+</resources>

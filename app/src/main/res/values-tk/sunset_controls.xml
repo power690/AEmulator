@@ -43,4 +43,8 @@
     <string name="m_resize_done">Ölçegi üýtgetmek tamamlandy</string>
     <string name="m_resize_reset">Ekran ölçegini dikelt</string>
     <string name="vi_resize_hint">Ölçegini üýtgetmek üçin ekranyň burçuny süýşüriň. Gutarandan soň menýuny açyp, “Ölçegi üýtgetmek tamamlandy” düwmesine basyň.</string>
+    <string name="vi_spen">Giriş: S-Pen</string>
+    <string name="vi_spen_button">S-Pen düwmesi (Air Command)</string>
+    <string name="vi_spen_sub">Myhmanda duýgy ekrany bilen birlikde S-Pen sanlaşdyryjysyny (sec_e-pen) hasaba alýar we nawigasiýa zolagyna iki düwme goşýar. S-Pen režimi: açyk wagtynda ekrandaky her bir degme myhmana S-Pen hökmünde ýetýär (stilus gural görnüşi, basyş, degmeden öň we soň howada durmak; bir gezekde bir degme, multi-touch ýok), hossadyň stilusy hem howada durýar we gapdal düwmesi işleýär. S-Pen düwmesi: howada durka degmek kalemiň gapdal düwmesini basyp goýberýär, bu bolsa şol funksiýasy bolan Samsung firmware-de Air Command açýar. Android 4.0 ýa-da täze we VM-i doly täzeden işe goýbermek gerek.</string>
+    <string name="vi_spen_toggle">S-Pen režimi</string>
 </resources>

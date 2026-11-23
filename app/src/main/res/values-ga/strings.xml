@@ -553,4 +553,42 @@
     <string name="vs_no_dex2oat_sub">Ní chuirtear aipeanna agus córaschód i gcrích sa chóras aíochta riamh: theipeann ar gach rith dex2oat láithreach bonn. Rabhadh: d’fhéadfadh seo tuairteanna, botúin agus iompar gan choinne eile a chruthú (riteann aipeanna níos moille, ní féidir le roinnt firmware tosú gan tiomsú). Díchumasaithe de réir réamhshocraithe. Cuirfear i bhfeidhm ag an gcéad tosú iomlán eile.</string>
     <string name="m_multitask">Malairt tascanna</string>
     <string name="nav_show">Taispeáin an barra cnaipí Android</string>
+    <string name="vs_refresh">Ráta athnuachana an scáileáin</string>
+    <string name="vs_refresh_host">An gléas seo</string>
+    <string name="vs_refresh_custom">Saincheaptha</string>
+    <string name="vs_refresh_custom_hint">Ráta (10–1000)</string>
+    <string name="vs_refresh_sub">An ráta a fhógraíonn an t-aíonna agus a tharraingíonn sé leis. Beidh feidhm aige ag an gcéad phríomh-amhailt eile den mheaisín fíorúil.</string>
+    <string name="vs_refresh_cap">Ní shroicheann scáileán do ghutháin níos mó ná %1$d Hz. Fógróidh an t-aíonna %2$d Hz, ach ní féidir leis tarraingt ach ag %1$d Hz.</string>
+    <string name="vs_refresh_needs_gpu">Tarraingíonn SwiftShader ar an LAP agus ní choinníonn sé suas. Cuir „GPU an ghutháin” ar siúl chun é seo a athrú; mura ndéanfaidh, fanfaidh an t-aíonna ag 60 Hz.</string>
+    <string name="vs_storage">Stóras</string>
+    <string name="vs_storage_auto">Diosca an ghutháin</string>
+    <string name="vs_storage_sub">An méid a fheiceann an t-aíonna. Is é an spás saor i gcónaí fíorspás saor an ghutháin, agus úsáidte = méid − saor, mar sin ní deirtear riamh leis an aíonna gur féidir leis níos mó a stóráil ná mar a shuntar sa ghuthán. Beidh feidhm aige tar éis athlascadh iomlán an mheaisín fhíorúil.</string>
+    <string name="vs_storage_type">Cineál stórála</string>
+    <string name="vs_storage_type_auto">Réamhshocrú</string>
+    <string name="vs_storage_type_sub">An bhfeiceann an t-aíonna eMMC nó UFS (airíonna agus nóid bloc in /sys).</string>
+    <string name="vs_soc">An sliseog (SoC) a fhógraítear don aíonna</string>
+    <string name="vs_soc_sub">Scríobhtar é in /proc/cpuinfo agus in /sys/devices/soc0, agus sna hairíonna ro.board.platform (gach leagan Android) agus ro.soc.model / ro.soc.manufacturer (Android 12+). Leanann líon na gcroí agus minicíochtaí LAP é. Beidh feidhm aige tar éis athlascadh iomlán an mheaisín fhíorúil.</string>
+    <string name="vs_soc_default">Réamhshocrú (%1$s)</string>
+    <string name="vs_soc_host">An gléas seo (an guthán seo)</string>
+    <string name="vs_soc_custom">Saincheaptha</string>
+    <string name="vs_soc_preset">Tacar réidh</string>
+    <string name="vs_soc_preset_title">Roghnaigh sliseog</string>
+    <string name="vs_soc_search">Cuardaigh (ainm, samhail, GPU)</string>
+    <string name="vs_soc_none">Níl aon sliseog oiriúnach.</string>
+    <string name="vs_soc_close">Dún</string>
+    <string name="vs_soc_change">Roghnaigh sliseog eile…</string>
+    <string name="vs_soc_default_sub">Sliseog dhúchasach tháibléad Project Tango</string>
+    <string name="vs_soc_gpu_off">Tá GPU an ghutháin as, mar sin tarraingíonn an t-aíonna trí SwiftShader agus feiceann sé SwiftShader mar a GPU féin, cibé sliseog a roghnaítear.</string>
+    <string name="vs_soc_gpu_hint">Ní úsáidtear é ach amháin nuair atá GPU an ghutháin ar siúl. Folamh = fíor-GPU an ghutháin. Oibríonn sé ar gach inneall; ní athraíonn ach dhá ainm, ní cumais an GPU.</string>
+    <string name="vs_soc_armv8">Croíthe ARMv8</string>
+    <string name="vs_soc_armv8_sub">As: croíthe ARMv7 (leagan amach 32-giotán de /proc/cpuinfo). Ar siúl: croíthe ARMv8 (AArch64 do fhormhuire 64-giotán, comhoiriúnacht ARMv7 do 32-giotán).</string>
+    <string name="vs_soc_cores">Croíthe LAP</string>
+    <string name="vs_soc_cores_sub">Líne amháin in aghaidh an ghrúpa croí, croíthe beaga ar dtús: count, implementer, variant, part, revision, uasmhéid MHz, íosmhéid MHz (heicsidheachúlach le 0x nó deachúil).</string>
+    <string name="vs_soc_cores_bad">Níor sábháladh: teastaíonn count, implementer, variant, part, revision agus uasmhéid MHz ó gach líne (suas le 4 líne, 16 croí).</string>
+    <string name="vs_soc_features_hint">Folamh = na bratacha is gnách don chineál croí sin.</string>
+    <string name="sk_reset_led">Athshocraigh suíomh an LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Folaigh barra cnaipe Android</string>
+    <string name="vs_gl_trace">Taifead glaonna GL (le haghaidh tuairiscí fabht)</string>
+    <string name="vs_gl_trace_sub">Coinníonn sé na 16,000 glao is déanaí ar dhroichead an GPU sa chuimhne mar aon le hearráid GL agus staid gach tarraingt, agus cuireann sé le heaspórt na logaí iad mar gl-trace.txt. Moillíonn sé an tarraingt beagán, mar sin de ghnáth fág as é. Oscail an scáileán a tharraingítear go mícheart agus ansin easpórtáil na logaí. Beidh feidhm aige ag an gcéad amhailt eile.</string>
 </resources>

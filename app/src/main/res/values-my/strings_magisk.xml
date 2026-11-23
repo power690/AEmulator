@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">ဘူတ်တွင် Magisk ဒီမွန်ကို စတင်သည်၊ su ကို PATH ထဲ ထည့်သည်၊ မော်ဂျူး စခရစ်နှင့် မော်ဂျူးဖိုင်များကို လုပ်ဆောင်သည် (Zygisk: Magisk အက်ပ်တွင် ဖွင့်ပါ)။ နောက်တစ်ကြိမ် အပြည့်အဝ ဘူတ်တွင် သက်ရောက်သည်။ စမ်းသပ်ဆဲ။</string>
+    <string name="vm_magisk_installed">ဤ VM တွင် Magisk %1$s (%2$d) ထည့်သွင်းထားသည်။</string>
+    <string name="vm_magisk_install">Magisk ထည့်သွင်းရန် (APK ရွေးပါ)</string>
+    <string name="vm_magisk_replace">Magisk အစားထိုးရန် (အခြား APK ရွေးပါ)</string>
+    <string name="vm_magisk_remove">Magisk ဖယ်ရှားရန်</string>
+    <string name="vm_magisk_working">Magisk ထည့်သွင်းနေသည်… VM အားလုံးကို အရင်ရပ်ပါ။</string>
+    <string name="vm_magisk_done">Magisk %1$s ထည့်သွင်းပြီးပါပြီ။ Root ဖွင့်ပြီး VM စတင်ပါ၊ စနစ်တက်လာသည်နှင့် Magisk အက်ပ်က အလိုအလျောက် ထည့်သွင်းသည်။</string>
+    <string name="vm_magisk_removed">Magisk ဖယ်ရှားပြီးပါပြီ။ မော်ဂျူးများနှင့် magisk.db ကို သိမ်းထားသည်။</string>
+</resources>

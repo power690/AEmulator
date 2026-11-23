@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM-tyyppi</string>
+    <string name="vs_ram_type_auto">Oletus</string>
+    <string name="vs_ram_type_sub">Muistityyppi, jonka vieras raportoi (LPDDR2–LPDDR5X). Vain nimi muuttuu; määrä tulee ”Vieraan RAM” -asetuksesta. Voimassa VM:n täyden uudelleenkäynnistyksen jälkeen.</string>
+</resources>

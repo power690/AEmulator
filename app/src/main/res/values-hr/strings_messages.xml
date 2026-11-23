@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">Datoteke u /system (%1$d) promijenila je aplikacija ili vi i ne mogu se ponovno izgraditi, npr. %2$s. Sistemska slika SquashFS može se izgraditi samo iz nepromijenjenih datoteka. Ništa nije promijenjeno.</string>
     <string name="imp_unreadable_mbr">%1$s: nečitljiva tablica particija MBR</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: nema sistemske particije u MBR-u</string>
+    <string name="warn_arm64">64-bitni firmware: podržan je samo 32-bitni ARM.</string>
+    <string name="warn_no_healthd">Nema healthd u planu podizanja (/sbin/healthd nedostaje; ramdisk preskočen pri uvozu?): system_server će zapeti u BatteryService.</string>
 </resources>

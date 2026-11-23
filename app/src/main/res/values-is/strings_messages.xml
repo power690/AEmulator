@@ -234,4 +234,6 @@
     <string name="ota_squash_files_modified">%1$d skrám í /system var breytt af forritinu eða af þér og ekki er hægt að endurbyggja þær, t.d. %2$s. Aðeins er hægt að endurbyggja SquashFS-kerfismynd úr óbreyttum skrám. Engu var breytt.</string>
     <string name="imp_unreadable_mbr">%1$s: ólæsileg MBR-skiptingartafla</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: engin kerfisskipting í MBR</string>
+    <string name="warn_arm64">64-bita fastbúnaður: aðeins 32-bita ARM er studdur.</string>
+    <string name="warn_no_healthd">Enginn healthd í ræsingaráætlun (/sbin/healthd vantar; ramdisk sleppt við innflutning?): system_server stoppar í BatteryService.</string>
 </resources>

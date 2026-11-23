@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM түрү</string>
+    <string name="vs_ram_type_auto">Демейки</string>
+    <string name="vs_ram_type_sub">Конокко билдирилүүчү эстутум түрү (LPDDR2–LPDDR5X). Аты гана өзгөрөт; көлөмү «Конок RAM» жөндөөсүнөн алынат. VM толук кайра күйгүзүлгөндөн кийин күчүнө кирет.</string>
+</resources>

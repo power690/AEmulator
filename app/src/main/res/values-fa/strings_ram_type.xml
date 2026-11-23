@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">نوع RAM</string>
+    <string name="vs_ram_type_auto">پیش‌فرض</string>
+    <string name="vs_ram_type_sub">نوع حافظه‌ای که مهمان گزارش می‌کند (LPDDR2 تا LPDDR5X). فقط نام تغییر می‌کند؛ حجم از تنظیم «RAM مهمان» می‌آید. پس از راه‌اندازی مجدد کامل ماشین مجازی اعمال می‌شود.</string>
+</resources>

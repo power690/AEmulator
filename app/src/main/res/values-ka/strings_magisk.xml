@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">გაშვებისას Magisk დემონს ამოქმედებს, su-ს PATH-ში უმატებს და მოდულების სკრიპტებსა და ფაილებს ასრულებს (Zygisk: ჩართეთ Magisk აპში). ამოქმედდეს შემდეგ სრულ გაშვებაზე. ექსპერიმენტული.</string>
+    <string name="vm_magisk_installed">ამ VM-ში დაყენებულია Magisk %1$s (%2$d).</string>
+    <string name="vm_magisk_install">Magisk-ის დაყენება (APK-ის არჩევა)</string>
+    <string name="vm_magisk_replace">Magisk-ის შეცვლა (სხვა APK-ის არჩევა)</string>
+    <string name="vm_magisk_remove">Magisk-ის წაშლა</string>
+    <string name="vm_magisk_working">Magisk ითხოვებს.. დაყენდეს… წინათ ყველა VM გააჩერეთ.</string>
+    <string name="vm_magisk_done">Magisk %1$s დაყენდა. Root ჩართეთ და VM გაუშვეთ; სისტემის ატვირთვისას Magisk აპი თავად დაიყენებს თავს.</string>
+    <string name="vm_magisk_removed">Magisk წაიშალა. მოდულები და magisk.db შენარჩუნდა.</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">Nis demonin e Magisk gjatë nisjes, vendos su në PATH dhe ekzekuton skriptet dhe skedarët e moduleve (Zygisk: aktivizoje në aplikacionin Magisk). Zbatohet në nisjen e plotë të ardhshme. Eksperimentale.</string>
+    <string name="vm_magisk_installed">Magisk %1$s (%2$d) është instaluar në këtë makinë virtuale.</string>
+    <string name="vm_magisk_install">Instalo Magisk (zgjidh APK)</string>
+    <string name="vm_magisk_replace">Zëvendëso Magisk (zgjidh një APK tjetër)</string>
+    <string name="vm_magisk_remove">Hiq Magisk</string>
+    <string name="vm_magisk_working">Po instalohet Magisk… Ndalo fillimisht të gjitha makinat virtuale.</string>
+    <string name="vm_magisk_done">Magisk %1$s u instalua. Ndeze Root dhe nis makinën virtuale; kur sistemi të ngrihet, aplikacioni Magisk instalohet vetë.</string>
+    <string name="vm_magisk_removed">Magisk u hoq. Modulet dhe magisk.db u ruajtën.</string>
+</resources>

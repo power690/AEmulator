@@ -548,4 +548,42 @@
     <string name="vs_no_dex2oat_sub">Апликациите и системскиот код никогаш не се компилираат во системот на гостот: секое пуштање dex2oat веднаш пропаѓа. Предупредување: може да предизвика крашеви, грешки и други непредвидени однесувања (апликациите работат побавно, некои firmware не можат да стартуваат без компилирање). Исклучено по основно. Се применува при следниот целосен старт.</string>
     <string name="m_multitask">Префрлање задачи</string>
     <string name="nav_show">Прикажи лентата со копчиња на Android</string>
+    <string name="vs_refresh">Брзина на освежување на екранот</string>
+    <string name="vs_refresh_host">Овој уред</string>
+    <string name="vs_refresh_custom">Сопствена</string>
+    <string name="vs_refresh_custom_hint">Брзина (10–1000)</string>
+    <string name="vs_refresh_sub">Брзината што гостинот ја пријавува и по која црта. Се применува при следното целосно стартување на виртуелната машина.</string>
+    <string name="vs_refresh_cap">Екранот на вашиот телефон достигнува најмногу %1$d Hz. Гостинот ќе пријави %2$d Hz, но може да црта само на %1$d Hz.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader црта на CPU и не стигнува. За да смените, вклучете „GPU на телефонот”; инаку гостинот останува на 60 Hz.</string>
+    <string name="vs_storage">Складиште</string>
+    <string name="vs_storage_auto">Дискот на телефонот</string>
+    <string name="vs_storage_sub">Големината што ја гледа гостинот. Слободниот простор е секогаш вистинскиот слободен простор на телефонот, а искористено = големина − слободно, па на гостинот никогаш не му се кажува дека може да зачува повеќе отколку што телефонот може да прими. Се применува по целосно рестартирање на виртуелната машина.</string>
+    <string name="vs_storage_type">Тип на складиште</string>
+    <string name="vs_storage_type_auto">Стандардно</string>
+    <string name="vs_storage_type_sub">Дали гостинот гледа eMMC или UFS (својства и блок-јазли во /sys).</string>
+    <string name="vs_soc">Чип (SoC) што го гледа гостинот</string>
+    <string name="vs_soc_sub">Се запишува во /proc/cpuinfo и /sys/devices/soc0 и во својствата ro.board.platform (секоја верзија на Android) и ro.soc.model / ro.soc.manufacturer (Android 12+). Бројот на јадра и фреквенциите на CPU го следат. Се применува по целосно рестартирање на виртуелната машина.</string>
+    <string name="vs_soc_default">Стандардно (%1$s)</string>
+    <string name="vs_soc_host">Овој уред (овој телефон)</string>
+    <string name="vs_soc_custom">Сопствено</string>
+    <string name="vs_soc_preset">Готов сет</string>
+    <string name="vs_soc_preset_title">Изберете чип</string>
+    <string name="vs_soc_search">Пребарување (име, модел, GPU)</string>
+    <string name="vs_soc_none">Нема соодветен чип.</string>
+    <string name="vs_soc_close">Затвори</string>
+    <string name="vs_soc_change">Избери друг чип…</string>
+    <string name="vs_soc_default_sub">Сопствениот чип на таблетот Project Tango</string>
+    <string name="vs_soc_gpu_off">GPU на телефонот е исклучен, па гостинот црта преку SwiftShader и го гледа SwiftShader како свој GPU, без оглед на избраниот чип.</string>
+    <string name="vs_soc_gpu_hint">Се користи само додека GPU на телефонот е вклучен. Празно = вистинскиот GPU на телефонот. Работи на сите engine-и; се менуваат само две имиња, не можностите на GPU.</string>
+    <string name="vs_soc_armv8">Јадра ARMv8</string>
+    <string name="vs_soc_armv8_sub">Исклучено: јадра ARMv7 (32-битен распоред /proc/cpuinfo). Вклучено: јадра ARMv8 (AArch64 за 64-битен firmware, компатибилност со ARMv7 за 32-битен).</string>
+    <string name="vs_soc_cores">Јадра на CPU</string>
+    <string name="vs_soc_cores_sub">Еден ред по група јадра, малите јадра први: count, implementer, variant, part, revision, макс. MHz, мин. MHz (hex со 0x или децимално).</string>
+    <string name="vs_soc_cores_bad">Не е зачувано: секој ред бара count, implementer, variant, part, revision и макс. MHz (до 4 реда, 16 јадра).</string>
+    <string name="vs_soc_features_hint">Празно = вообичаени знаменца за тој тип јадра.</string>
+    <string name="sk_reset_led">Врати положба на LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Скрий ја лентата со копчиња на Android</string>
+    <string name="vs_gl_trace">Снимај GL повици (за извештаи за грешки)</string>
+    <string name="vs_gl_trace_sub">Држи во меморија последните 16 000 повици на GPU-мостот, со GL грешката и состојбата на секое цртање, и ги додава во извозот на дневникот како gl-trace.txt. Малку го забавува цртањето, па обично нека биде исклучено. Отворете го екранот што се црта погрешно, потоа извезете ги дневниците. Се применува при следното стартување.</string>
 </resources>

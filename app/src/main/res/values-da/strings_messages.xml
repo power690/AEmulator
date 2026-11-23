@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">%1$d filer i /system er blevet ændret af appen eller af dig og kan ikke genopbygges, f.eks. %2$s. Et SquashFS-systemaftryk kan kun genopbygges ud fra uændrede filer. Intet blev ændret.</string>
     <string name="imp_unreadable_mbr">%1$s: ulæselig MBR-partitionstabel</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: ingen systempartition i MBR</string>
+    <string name="warn_arm64">64-bit-firmware: kun 32-bit ARM understøttes.</string>
+    <string name="warn_no_healthd">Ingen healthd i opstartsplanen (/sbin/healthd mangler; ramdisk sprunget over ved import?): system_server går i stå i BatteryService.</string>
 </resources>

@@ -43,4 +43,8 @@
     <string name="m_resize_done">سائز تبدیلی مکمل</string>
     <string name="m_resize_reset">اسکرین کا سائز ری سیٹ کریں</string>
     <string name="vi_resize_hint">سائز تبدیل کرنے کے لیے اسکرین کا کونا گھسیٹیں۔ مکمل ہونے پر مینو کھولیں اور “سائز تبدیلی مکمل” پر ٹیپ کریں۔</string>
+    <string name="vi_spen">ان پٹ: S-Pen</string>
+    <string name="vi_spen_button">S-Pen بٹن (Air Command)</string>
+    <string name="vi_spen_sub">مہمان میں ٹچ اسکرین کے ساتھ S-Pen ڈیجیٹائزر (sec_e-pen) رجسٹر کرتا ہے اور نیویگیشن بار میں دو بٹن شامل کرتا ہے۔ S-Pen موڈ: فعال رہنے کے دوران اسکرین کا ہر لمس مہمان تک S-Pen کے طور پر پہنچتا ہے (اسٹائلس ٹول قسم، دباؤ، لمس سے ٹھیک پہلے اور بعد میں ہوور؛ ایک وقت میں ایک لمس، ملٹی ٹچ نہیں)، اور میزبان کا اسٹائلس بھی ہوور کرتا ہے اور اس کا سائیڈ بٹن کام کرتا ہے۔ S-Pen بٹن: ہوور کے دوران ٹیپ قلم کے سائیڈ بٹن کو دباتا اور چھوڑتا ہے، جو اس خصوصیت والے Samsung فرم ویئر پر Air Command کھولتا ہے۔ Android 4.0 یا نیا اور VM کی مکمل ری اسٹارٹ درکار ہے۔</string>
+    <string name="vi_spen_toggle">S-Pen موڈ</string>
 </resources>

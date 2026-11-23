@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM-type</string>
+    <string name="vs_ram_type_auto">Standard</string>
+    <string name="vs_ram_type_sub">Minne-typen gjesten rapporterer (LPDDR2 til LPDDR5X). Bare navnet endres; mengden kommer fra innstillingen «Gjest-RAM». Gjelder etter full omstart av VM-en.</string>
+</resources>

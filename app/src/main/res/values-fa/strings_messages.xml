@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">%1$d فایل از /system توسط برنامه یا شما تغییر کرده و نمیتوان آنها را بازسازی کرد، مثلاً %2$s. تصویر سیستم SquashFS فقط از فایلهای تغییرنیافته قابل بازسازی است. چیزی تغییر نکرد.</string>
     <string name="imp_unreadable_mbr">%1$s: جدول پارتیشن MBR ناخوانا</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: پارتیشن سیستم در MBR نیست</string>
+    <string name="warn_arm64">فرم‌ویر ۶۴بیتی: فقط ARM ۳۲بیتی پشتیبانی می‌شود.</string>
+    <string name="warn_no_healthd">healthd در طرح بوت نیست (/sbin/healthd موجود نیست؛ ramdisk در ورود نادیده گرفته شد؟): system_server در BatteryService متوقف می‌شود.</string>
 </resources>

@@ -540,4 +540,42 @@
     <string name="vs_no_dex2oat_sub">لا تُترجَم التطبيقات وشفرة النظام داخل النظام الضيف أبدًا: كل تشغيل لـ dex2oat يفشل فورًا. تحذير: قد يسبب هذا انهيارات وأعطالًا وسلوكيات غير مقصودة أخرى (تعمل التطبيقات ببطء، وبعض البرامج الثابتة لا تُقلع بدون الترجمة). متوقف افتراضيًا. يُطبَّق عند التشغيل الكامل القادم.</string>
     <string name="m_multitask">تبديل المهام</string>
     <string name="nav_show">إظهار شريط أزرار أندرويد</string>
+    <string name="vs_refresh">معدل تحديث الشاشة</string>
+    <string name="vs_refresh_host">هذا الجهاز</string>
+    <string name="vs_refresh_custom">مخصص</string>
+    <string name="vs_refresh_custom_hint">المعدل (10–1000)</string>
+    <string name="vs_refresh_sub">المعدل الذي يعلنه الضيف ويرسم به. يسري عند التشغيل الكامل التالي للجهاز الافتراضي.</string>
+    <string name="vs_refresh_cap">تصل شاشة هاتفك إلى %1$d هرتز كحد أقصى. سيعلن الضيف %2$d هرتز، لكنه لا يستطيع الرسم إلا عند %1$d هرتز.</string>
+    <string name="vs_refresh_needs_gpu">يرسم SwiftShader على المعالج ولا يلحق بالركب. فعّل «وحدة معالجة الرسوميات في الهاتف» لتغيير ذلك، وإلا بقي الضيف عند 60 هرتز.</string>
+    <string name="vs_storage">التخزين</string>
+    <string name="vs_storage_auto">قرص الهاتف</string>
+    <string name="vs_storage_sub">الحجم الذي يراه الضيف. المساحة الفارغة هي دائماً المساحة الفارغة الحقيقية للهاتف، والمستعمل = الحجم − الفارغ، لذلك لا يُخبر الضيف أبداً أنه يستطيع تخزين أكثر مما يتسع له الهاتف. يسري بعد إعادة تشغيل كاملة للجهاز الافتراضي.</string>
+    <string name="vs_storage_type">نوع التخزين</string>
+    <string name="vs_storage_type_auto">افتراضي</string>
+    <string name="vs_storage_type_sub">هل يرى الضيف eMMC أم UFS (الخصائص وعُقد الكتل في /sys).</string>
+    <string name="vs_soc">الشريحة (SoC) المُعلنة للضيف</string>
+    <string name="vs_soc_sub">تُكتب في /proc/cpuinfo و/sys/devices/soc0، وفي الخصائص ro.board.platform (كل إصدارات أندرويد) وro.soc.model / ro.soc.manufacturer (أندرويد 12+). يتبعها عدد الأنوية وترددات المعالج. يسري بعد إعادة تشغيل كاملة للجهاز الافتراضي.</string>
+    <string name="vs_soc_default">افتراضي (%1$s)</string>
+    <string name="vs_soc_host">هذا الجهاز (هذا الهاتف)</string>
+    <string name="vs_soc_custom">مخصص</string>
+    <string name="vs_soc_preset">مجموعة جاهزة</string>
+    <string name="vs_soc_preset_title">اختر شريحة</string>
+    <string name="vs_soc_search">بحث (الاسم، الطراز، GPU)</string>
+    <string name="vs_soc_none">لا توجد شريحة مطابقة.</string>
+    <string name="vs_soc_close">إغلاق</string>
+    <string name="vs_soc_change">اختيار شريحة أخرى…</string>
+    <string name="vs_soc_default_sub">شريحة اللوحة Project Tango الخاصة</string>
+    <string name="vs_soc_gpu_off">وحدة معالجة الرسوميات في الهاتف مغلقة، لذا يرسم الضيف عبر SwiftShader ويرى SwiftShader كوحدة رسومياته، مهما كانت الشريحة المختارة.</string>
+    <string name="vs_soc_gpu_hint">يُستخدم فقط عندما تكون وحدة معالجة الرسوميات في الهاتف مفعّلة. فارغ = وحدة الرسوميات الحقيقية للهاتف. يعمل على كل المحركات؛ يتغير اسمان فقط، لا قدرات وحدة الرسوميات.</string>
+    <string name="vs_soc_armv8">أنوية ARMv8</string>
+    <string name="vs_soc_armv8_sub">مغلق: أنوية ARMv7 (تخطيط 32 بت في /proc/cpuinfo). مفتوح: أنوية ARMv8 (AArch64 للبرنامج الثابت 64 بت، توافق ARMv7 للـ32 بت).</string>
+    <string name="vs_soc_cores">أنوية المعالج</string>
+    <string name="vs_soc_cores_sub">سطر واحد لكل مجموعة أنوية، الأنوية الصغيرة أولاً: count، implementer، variant، part، revision، أقصى MHz، أدنى MHz (ست عشري بـ0x أو عشري).</string>
+    <string name="vs_soc_cores_bad">لم يُحفظ: كل سطر يتطلب count وimplementer وvariant وpart وrevision وأقصى MHz (حتى 4 أسطر، 16 نواة).</string>
+    <string name="vs_soc_features_hint">فارغ = الأعلام المعتادة لهذا النوع من الأنوية.</string>
+    <string name="sk_reset_led">إعادة ضبط موضع LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">إخفاء شريط أزرار أندرويد</string>
+    <string name="vs_gl_trace">تسجيل نداءات GL (لتقارير الأخطاء)</string>
+    <string name="vs_gl_trace_sub">يحتفظ في الذاكرة بآخر 16,000 نداء لجسر GPU مع خطأ GL وحالة كل رسم، ويضيفها إلى تصدير السجلات باسم gl-trace.txt. يبطئ الرسم قليلاً، لذا اتركه مغلقاً عادة. افتح الشاشة التي تُرسم بشكل خاطئ ثم صدّر السجلات. يسري عند التشغيل التالي.</string>
 </resources>

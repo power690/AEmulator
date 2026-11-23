@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">Typ RAM</string>
+    <string name="vs_ram_type_auto">Predvolené</string>
+    <string name="vs_ram_type_sub">Typ pamäte, ktorý hosť hlási (LPDDR2–LPDDR5X). Mení sa len názov; veľkosť vychádza z nastavenia „RAM hosťa“. Prejaví sa po úplnom reštarte VM.</string>
+</resources>

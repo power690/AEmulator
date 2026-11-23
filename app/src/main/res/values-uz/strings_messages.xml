@@ -235,4 +235,6 @@
     <string name="ota_squash_files_modified">/system ichidagi %1$d ta faylni ilova yoki siz oʻzgartirgansiz va ularni qayta qurib boʻlmaydi, masalan %2$s. SquashFS tizim tasvirini faqat oʻzgartirilmagan fayllardan qayta qurish mumkin. Hech narsa oʻzgartirilmadi.</string>
     <string name="imp_unreadable_mbr">%1$s: MBR boʻlimlar jadvalini oʻqib boʻlmadi</string>
     <string name="imp_no_system_partition_in_mbr">%1$s: MBR ichida tizim boʻlimi yoʻq</string>
+    <string name="warn_arm64">64 bitli firmware: faqat 32 bitli ARM qo‘llab-quvvatlanadi.</string>
+    <string name="warn_no_healthd">Yuklanish rejasida healthd yo‘q (/sbin/healthd yo‘q; importda ramdisk o‘tkazib yuborilganmi?): system_server BatteryService’da tiqilib qoladi.</string>
 </resources>

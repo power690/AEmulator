@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM-type</string>
+    <string name="vs_ram_type_auto">Standaard</string>
+    <string name="vs_ram_type_sub">Geheugentype dat de gast meldt (LPDDR2 tot LPDDR5X). Alleen de naam verandert; de grootte komt uit de instelling ‘Gast-RAM’. Geldt na een volledige herstart van de VM.</string>
+</resources>

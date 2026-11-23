@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM görnüşi</string>
+    <string name="vs_ram_type_auto">Bellenen</string>
+    <string name="vs_ram_type_sub">Myhmanyň habar berýän ýat görnüşi (LPDDR2–LPDDR5X). Diňe ady üýtgeýär; mukdary «Myhman RAM» sazlanyşyndan gelýär. VM doly täzeden işe goýberilenden soň güýje girýär.</string>
+</resources>

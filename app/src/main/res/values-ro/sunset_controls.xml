@@ -43,4 +43,8 @@
     <string name="m_resize_done">Redimensionare terminată</string>
     <string name="m_resize_reset">Resetează dimensiunea ecranului</string>
     <string name="vi_resize_hint">Trage de un colț al ecranului pentru a-l redimensiona. Când ai terminat, deschide meniul și atinge „Redimensionare terminată”.</string>
+    <string name="vi_spen">Intrare: S-Pen</string>
+    <string name="vi_spen_button">Buton S-Pen (Air Command)</string>
+    <string name="vi_spen_sub">Înregistrează în invitat un digitizator S-Pen (sec_e-pen) lângă ecranul tactil și adaugă două butoane în bara de navigare. Mod S-Pen: cât timp este activ, fiecare atingere a ecranului ajunge la invitat ca S-Pen (tip de instrument stilus, presiune, hover imediat înainte și după contact; un contact o dată, fără multi-touch), iar un stilus de pe host face hover și butonul lui lateral funcționează. Buton S-Pen: o atingere apasă și eliberează butonul lateral al peniței în timpul hover-ului, ceea ce deschide Air Command pe un firmware Samsung care îl are. Necesită Android 4.0 sau mai nou și o repornire completă a VM-ului.</string>
+    <string name="vi_spen_toggle">Mod S-Pen</string>
 </resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM 类型</string>
+    <string name="vs_ram_type_auto">默认</string>
+    <string name="vs_ram_type_sub">向客户机报告的内存类型（LPDDR2 至 LPDDR5X）。只改名称，容量由“客户机 RAM”设置决定。完全重启虚拟机后生效。</string>
+</resources>

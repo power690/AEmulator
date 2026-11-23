@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">Type de RAM</string>
+    <string name="vs_ram_type_auto">Par défaut</string>
+    <string name="vs_ram_type_sub">Type de mémoire annoncé à l’invité (LPDDR2 à LPDDR5X). Seul le nom change ; la quantité vient du réglage « RAM de l’invité ». Prend effet après un redémarrage complet de la VM.</string>
+</resources>

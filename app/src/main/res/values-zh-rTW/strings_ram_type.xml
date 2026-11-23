@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM 類型</string>
+    <string name="vs_ram_type_auto">預設</string>
+    <string name="vs_ram_type_sub">向客體機報告的記憶體類型（LPDDR2 至 LPDDR5X）。只改名稱，容量由「客體機 RAM」設定決定。完全重新啟動虛擬機後生效。</string>
+</resources>

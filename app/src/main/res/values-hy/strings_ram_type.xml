@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">RAM-ի տեսակ</string>
+    <string name="vs_ram_type_auto">Լռելյայն</string>
+    <string name="vs_ram_type_sub">Հիշողության տեսակը, որը հյուրը հայտնում է (LPDDR2-ից LPDDR5X)։ Փոխվում է միայն անունը. ծավալը գալիս է «Հյուրի RAM» պարամետրից։ Ուժի մեջ է մտնում VM-ի լրիվ վերագործարկումից հետո։</string>
+</resources>

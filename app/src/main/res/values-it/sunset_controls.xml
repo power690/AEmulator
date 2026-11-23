@@ -43,4 +43,8 @@
     <string name="m_resize_done">Ridimensionamento completato</string>
     <string name="m_resize_reset">Ripristina dimensione schermo</string>
     <string name="vi_resize_hint">Trascina un angolo dello schermo per ridimensionarlo. Al termine apri il menu e tocca «Ridimensionamento completato».</string>
+    <string name="vi_spen">Input: S-Pen</string>
+    <string name="vi_spen_button">Pulsante S-Pen (Air Command)</string>
+    <string name="vi_spen_sub">Registra nel guest un digitalizzatore S-Pen (sec_e-pen) accanto al touch screen e aggiunge due pulsanti alla barra di navigazione. Modalità S-Pen: finché è attiva, ogni tocco sullo schermo arriva al guest come S-Pen (tipo di strumento stilo, pressione, hover subito prima e dopo il contatto; un contatto alla volta, nessun multi-touch), e uno stilo host fa anch’esso hover e il suo tasto laterale funziona. Pulsante S-Pen: un tocco preme e rilascia il tasto laterale della penna durante l’hover, il che apre Air Command su un firmware Samsung che lo ha. Richiede Android 4.0 o successivo e un riavvio completo della VM.</string>
+    <string name="vi_spen_toggle">Modalità S-Pen</string>
 </resources>

@@ -552,4 +552,42 @@
     <string name="vs_no_dex2oat_sub">Aplikacije in sistemska koda se v gostujočem sistemu nikoli ne kompilirajo: vsak zagon dex2oata takoj spodleti. Opozorilo: to lahko povzroči sesutja, napake in drugo nepredvidljivo vedenje (aplikacije delujejo počasneje, nekatere firmware se brez kompiliranja ne zaženejo). Privzeto onemogočeno. Uveljavi se ob naslednjem popolnem zagonu.</string>
     <string name="m_multitask">Preklapljanje med nalogami</string>
     <string name="nav_show">Pokaži vrstico gumbov Androida</string>
+    <string name="vs_refresh">Osvežitvena frekvenca zaslona</string>
+    <string name="vs_refresh_host">Ta naprava</string>
+    <string name="vs_refresh_custom">Lastna</string>
+    <string name="vs_refresh_custom_hint">Frekvenca (10–1000)</string>
+    <string name="vs_refresh_sub">Frekvenca, ki jo gost poroča in na kateri izrisuje. Velja ob naslednjem polnem zagonu virtualnega stroja.</string>
+    <string name="vs_refresh_cap">Zaslon vašega telefona zmore največ %1$d Hz. Gost bo poročal %2$d Hz, a lahko izrisuje le pri %1$d Hz.</string>
+    <string name="vs_refresh_needs_gpu">SwiftShader riše na CPU in ne zmore dohajati. Če želite spremeniti, vklopite »GPU telefona«; sicer gost ostane pri 60 Hz.</string>
+    <string name="vs_storage">Shramba</string>
+    <string name="vs_storage_auto">Disk telefona</string>
+    <string name="vs_storage_sub">Velikost, ki jo gost poroča. Prostor je vedno resničen prostor telefona, zasedeno = velikost − prosto, zato gostu nikoli ne sporočimo, da lahko shrani več, kot telefon zmore. Velja po polnem ponovnem zagonu virtualnega stroja.</string>
+    <string name="vs_storage_type">Vrsta shrambe</string>
+    <string name="vs_storage_type_auto">Privzeto</string>
+    <string name="vs_storage_type_sub">Ali gost vidi eMMC ali UFS (lastnosti in blokovna vozlišča v /sys).</string>
+    <string name="vs_soc">Čip (SoC), ki ga gost vidi</string>
+    <string name="vs_soc_sub">Zapiše se v /proc/cpuinfo in /sys/devices/soc0 ter v lastnosti ro.board.platform (vse različice Androida) in ro.soc.model / ro.soc.manufacturer (Android 12+). Število jeder in frekvence CPU mu sledijo. Velja po polnem ponovnem zagonu virtualnega stroja.</string>
+    <string name="vs_soc_default">Privzeto (%1$s)</string>
+    <string name="vs_soc_host">Ta naprava (ta telefon)</string>
+    <string name="vs_soc_custom">Lastno</string>
+    <string name="vs_soc_preset">Pripravljen nabor</string>
+    <string name="vs_soc_preset_title">Izberite čip</string>
+    <string name="vs_soc_search">Iskanje (ime, model, GPU)</string>
+    <string name="vs_soc_none">Noben čip se ne ujema.</string>
+    <string name="vs_soc_close">Zapri</string>
+    <string name="vs_soc_change">Izberi drug čip…</string>
+    <string name="vs_soc_default_sub">Lastni čip tabličnega računalnika Project Tango</string>
+    <string name="vs_soc_gpu_off">GPU telefona je izklopljen, zato gost riše prek SwiftShaderja in vidi SwiftShader kot svoj GPU, ne glede na izbrani čip.</string>
+    <string name="vs_soc_gpu_hint">Uporabi se le, ko je GPU telefona vklopljen. Prazno = resnični GPU telefona. Deluje na vseh pogonih; spremenita se le dve imeni, ne zmožnosti GPU.</string>
+    <string name="vs_soc_armv8">Jezgre ARMv8</string>
+    <string name="vs_soc_armv8_sub">Izklop.: jezgre ARMv7 (32-bitna razporeditev /proc/cpuinfo). Vklop.: jezgre ARMv8 (AArch64 za 64-bitno strojno programje, združljivost z ARMv7 za 32-bitno).</string>
+    <string name="vs_soc_cores">Jezgre CPU</string>
+    <string name="vs_soc_cores_sub">Ena vrstica na skupino jezgre, mala jezgra prva: count, implementer, variant, part, revision, najv. MHz, najn. MHz (hex s 0x ali decimalno).</string>
+    <string name="vs_soc_cores_bad">Ni shranjeno: vsaka vrstica potrebuje count, implementer, variant, part, revision in najv. MHz (do 4 vrstic, 16 jezgre).</string>
+    <string name="vs_soc_features_hint">Prazno = običajne zastavice za to vrsto jezgre.</string>
+    <string name="sk_reset_led">Ponastavi položaj LED</string>
+    <string name="sk_led">LED</string>
+    <string name="nav_hide">Skrij vrstico gumbov Androida</string>
+    <string name="vs_gl_trace">Snemaj klice GL (za poročila o napakah)</string>
+    <string name="vs_gl_trace_sub">V pomnilniku hrani zadnjih 16 000 klicev mostu GPU z napako GL in stanjem vsakega izrisa ter jih doda v izvoz dnevnika kot gl-trace.txt. Rahlo upočasni izrisovanje, zato naj bo običajno izklopljeno. Odprite zaslon, ki se riše napačno, nato izvozite dnevnike. Velja ob naslednjem zagonu.</string>
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_magisk_title">Root (Magisk)</string>
+    <string name="vm_magisk_sub">เริ่มแดมอนของ Magisk ตอนบูต ใส่ su ลงใน PATH และรันสคริปต์และไฟล์ของมอดูล (Zygisk: เปิดในแอป Magisk) มีผลเมื่อบูตแบบเต็มครั้งถัดไป เป็นฟีเจอร์ทดลอง</string>
+    <string name="vm_magisk_installed">ติดตั้ง Magisk %1$s (%2$d) ใน VM นี้แล้ว</string>
+    <string name="vm_magisk_install">ติดตั้ง Magisk (เลือก APK)</string>
+    <string name="vm_magisk_replace">แทนที่ Magisk (เลือก APK อื่น)</string>
+    <string name="vm_magisk_remove">ลบ Magisk</string>
+    <string name="vm_magisk_working">กำลังติดตั้ง Magisk… หยุด VM ทั้งหมดก่อน</string>
+    <string name="vm_magisk_done">ติดตั้ง Magisk %1$s แล้ว เปิด Root และเริ่ม VM; เมื่อระบบขึ้น แอป Magisk จะติดตั้งตัวเอง</string>
+    <string name="vm_magisk_removed">ลบ Magisk แล้ว มอดูลและ magisk.db ถูกเก็บไว้</string>
+</resources>

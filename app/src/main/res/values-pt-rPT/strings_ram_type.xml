@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vs_ram_type">Tipo de RAM</string>
+    <string name="vs_ram_type_auto">Predefinido</string>
+    <string name="vs_ram_type_sub">Tipo de memória que o convidado declara (LPDDR2 a LPDDR5X). Só o nome muda; a quantidade vem da definição «RAM do convidado». Aplica-se após um reinício completo da VM.</string>
+</resources>

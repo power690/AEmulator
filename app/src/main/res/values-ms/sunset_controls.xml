@@ -43,4 +43,8 @@
     <string name="m_resize_done">Selesai mengubah saiz</string>
     <string name="m_resize_reset">Tetapkan semula saiz skrin</string>
     <string name="vi_resize_hint">Seret sudut skrin untuk mengubah saiznya. Apabila selesai, buka menu dan ketik “Selesai mengubah saiz”.</string>
+    <string name="vi_spen">Input: S-Pen</string>
+    <string name="vi_spen_button">Butang S-Pen (Air Command)</string>
+    <string name="vi_spen_sub">Mendaftarkan pendigital S-Pen (sec_e-pen) dalam tetamu bersama skrin sentuh dan menambah dua butang pada bar navigasi. Mod S-Pen: selagi dihidupkan, setiap sentuhan pada skrin sampai kepada tetamu sebagai S-Pen (jenis alat pen, tekanan, hover sejurus sebelum dan selepas sentuhan; satu sentuhan pada satu masa, tanpa multi-sentuh), dan pen hos juga hover serta butang sisinya berfungsi. Butang S-Pen: ketikan menekan dan melepaskan butang sisi pen semasa hover, yang membuka Air Command pada firmware Samsung yang memilikinya. Memerlukan Android 4.0 atau lebih baharu dan mula semula penuh mesin maya.</string>
+    <string name="vi_spen_toggle">Mod S-Pen</string>
 </resources>
