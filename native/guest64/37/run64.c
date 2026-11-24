@@ -38,6 +38,7 @@ enum {
     NR_sched_yield = 124, NR_rt_sigaction = 134, NR_rt_sigprocmask = 135, NR_reboot = 142,
     NR_setregid = 143, NR_setgid = 144, NR_setreuid = 145, NR_setuid = 146, NR_setresuid = 147, NR_getresuid = 148,
     NR_setresgid = 149, NR_getresgid = 150, NR_setfsuid = 151, NR_setfsgid = 152, NR_getgroups = 158, NR_setgroups = 159,
+    NR_seccomp = 277,
     NR_prctl = 167, NR_getpid = 172, NR_getuid = 174, NR_geteuid = 175, NR_getgid = 176, NR_getegid = 177, NR_gettid = 178,
     NR_socket = 198, NR_socketpair = 199, NR_bind = 200, NR_listen = 201, NR_connect = 203, NR_getsockname = 204, NR_sendto = 206, NR_setsockopt = 208, NR_getsockopt = 209,
     NR_shutdown = 210, NR_sendmsg = 211, NR_recvmsg = 212, NR_munmap = 215, NR_execve = 221, NR_mmap = 222, NR_mprotect = 226,
@@ -1911,6 +1912,7 @@ static long trap2_base(long nr, long *a, void *uc, char **pbp) {
         return S6(nr, a[0], a[1], a[2], a[3], a[4], a[5]);
     case NR_mount: case NR_umount2: case NR_chroot: case NR_capset: case NR_setgroups: case NR_unshare: case 268 /* setns */: return 0;
     case NR_prctl: return 0;                    // only PR_CAPBSET_DROP gets here
+    case NR_seccomp: if ((u32)a[0] <= 1) return 0; return S3(nr, a[0], a[1], a[2]);
     case 107: {                                 // timer_create: the *_ALARM clocks need CAP_WAKE_ALARM (the Bluetooth
         long clk = a[0] == 8 ? 0 : a[0] == 9 ? 7 : a[0];   // stack of 10 stops on a refusal); the plain ones tick the same
         return S3(nr, clk, a[1], a[2]);
@@ -2466,6 +2468,7 @@ static void install_filter(void) {
     f[n++] = JEQ(164 /* setrlimit */, L_TRAP, 0);
     f[n++] = JEQ(NR_rt_sigprocmask, L_SIG, 0);
     f[n++] = JEQ(NR_prctl, L_PRCTL, 0);
+    f[n++] = JEQ(NR_seccomp, L_TRAP, 0);
     f[n++] = JEQ(233 /* madvise */, L_MADV, 0);
     f[n++] = JEQ(NR_mmap, L_MMAP, g_trace == 2 ? L_ALL : L_ALLOW);
     // (trace-all: everything else traps too, but for the calls that cannot be made again from the handler - a new
